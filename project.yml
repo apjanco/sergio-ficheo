@@ -1,0 +1,87 @@
+title: "Sergio Transcriptions. From images to research data"
+description: > 
+  This project offers a workflow to process documents from Sergio Mosquera's transcriptions of Libro venta esclavo (1810) fom Notaria Primera de Quibdó.
+
+  In this project, we will:
+  - Process the existing doc-level metadata file
+  - Read a folder of image files ([JPG](https://urldefense.com/v3/__https://upenn.box.com/s/cmbs0ll5rk5pb2wyc6vl2dxu4rb0xcru__;!!IBzWLUs!TPzKq9MPciVBWK5GzpW2EJqPdjEIFI3qVo0zRFV-EDsmGNNDQTewbnF2_E9cFlGI4QJ48SqRYHewirwaNZMpzxM$))
+  - Split the images into single-page images for processing. Note that many documents should not be split.
+  - Create a Hugging Face Dataset
+  - Transcribe the images using the Qwen model in Lightning.ai
+  - Process the transcriptions to extract structured data
+  - Publish the project in a static site (TODO txt and PDF)
+
+vars:
+  name: "Sergio Transcripts"
+  language: "es"
+  text_direction: 'horizontal-lr' #['horizontal-lr', 'horizontal-rl', 'vertical-lr', 'vertical-rl']
+  version: "0.0.0"
+  image_folder: "JPG" 
+  metadata_file: "Base de datos Cuadernos Sergio_Notaría Primera de Quibdó (1808-1825).xlsx"
+  split_image_folder: "splits"
+  markdown_folder: "data"
+  nlp_model: "en_core_web_trf"
+  model: "Qwen/Qwen2-VL-7B-Instruct"
+  code_model: "Qwen/Qwen2.5-Coder-7B-Instruct"
+  dataset_name: "ajanco/sergio-transcripts"
+
+directories: ["assets", "configs", "scripts","_site","_templates","prompts", "pipelines", "packages"]
+
+workflows:
+  all:
+    - metadata
+    - split
+    - dataset
+    - transcribe
+    - process
+    - publish
+  
+
+commands:
+  - name: metadata
+    help: "Read existing metadata file save as metadata.json"
+    script:
+      - "python scripts/metadata.py ${vars.metadata_file} metadata.json"
+    outputs:
+      - metadata.jsonl
+
+  - name: split
+    help: "Split the images into single-page images for processing. Remove ruler from image"
+    script:
+      - "python scripts/split.py ${vars.image_folder} ${vars.split_image_folder}"
+    outputs:
+      - ${vars.split_image_folder}
+ 
+  - name: dataset
+    help: "Create a Hugging Face Dataset"
+    script:
+      - "python scripts/dataset.py ${vars.split_image_folder} ${vars.dataset_name}"
+
+  # To run transcription on a local folder of images
+  # - name: transcribe
+  #   help: "Transcribe the images"
+  #   script:
+  #     - "python scripts/transcribe.py ${vars.split_image_folder} ${vars.model}"
+  #   outputs:
+  #     - assets/
+  
+  - name: transcribe
+    help: "Transcribe images from HF Dataset"
+    script:
+      - "python scripts/hf_transcribe.py ${vars.dataset_name} ${vars.model}"
+    outputs:
+      - assets/
+
+  - name: process
+    help: "Process the transcriptions"
+    script:
+      - "python scripts/process.py ${vars.split_image_folder} ${vars.nlp_model} ${vars.split_image_folder}/data.jsonl"
+    outputs:
+      - assets/
+  
+  - name: publish
+    help: "Publish the project"
+    script:
+      - "python scripts/publish.py ${vars.split_image_folder} ${vars.split_image_folder}/data.jsonl _site "
+    outputs:
+      - _site/
