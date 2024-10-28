@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Notebooks</title>
+        <meta charset="utf-8"/>
+        <script src="/assets/openseadragon/js/openseadragon.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+    <body>
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+                    <li class="breadcrumb-item">{{ image }}</li>
+                </ol>
+            </nav>
+            
+            <div class="form-group">
+    <input type="text" class="form-control" id="search" aria-describedby="searchHelp" placeholder="Buscar...">
+  </div>
+<button class="btn btn-warning mt-1 " id="submitBtn">Submit</button>
+<p id="numResults"></p>
+<div id="results" class="card"></div>
+<script>
+    let run_search = () => {
+        let searchValue = document.getElementById('search').value;
+        fetch('/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ search: searchValue })
+        })
+        .then(response => response.json())
+        .then(data => {
+            // sort data by distance desc
+            data.sort((a, b) => b.distance - a.distance);
+            // display number of results
+            document.getElementById('numResults').innerText = `Found ${data.length} results`;
+            // clear previous results
+            document.getElementById('results').innerHTML = '';
+            // for each item in data, create a card child of the results div
+            data.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href="/page/${item.image}"><img src="/assets/${item.image}" class="img-fluid rounded-start h-100" alt="${item.image}" style="object-fit: cover;"></a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="/page/${item.image}">${item.image}</a>
+                                </h5>
+                                <p class="card-text">
+                                    ${item.text}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                document.getElementById('results').appendChild(card);
+            });
+            
+        });
+    };
+
+    let mark_query = () => {
+        // find searchValue in the page and add <mark> tags
+        let searchValue = document.getElementById('search').value;
+        console.log(searchValue);
+        var instance = new Mark(document.querySelectorAll(".card"));
+        instance.mark(searchValue);
+    }
+    let searchButton = document.getElementById('submitBtn');
+    searchButton.addEventListener('click', function (e) {
+        console.log(this.className); // logs the className of my_element
+        console.log(e.currentTarget === this); // logs `true`
+        run_search();
+        // wait 1 second
+        setTimeout(mark_query, 500);
+    });
+    searchButton.addEventListener("click", function (e) {
+    console.log(this.className); // logs the className of my_element
+    console.log(e.currentTarget === this); // logs `true`
+    });
+    // run search when enter key is pressed
+    let searchInput = document.getElementById('search');
+    searchInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            run_search();
+            setTimeout(mark_query, 1000);
+        }
+    });
+
+    
+</script>
+    </body>
+</html>
