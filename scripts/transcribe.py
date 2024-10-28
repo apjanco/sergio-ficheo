@@ -12,9 +12,12 @@ def transcribe(
     model_name: Annotated[str, typer.Argument(help="HF model name")],
     testing: bool = typer.Option(False, help="Run on a small subset of data"),
 ):
-    prompt = """extract all text."""
+    prompt = """extract all text. keep formatting as markdown"""
     print(f"[green]Transcribing images in {collection_path}")
     print(f"[cyan]Using model {model_name}")
+    data_dir = Path("data")
+    if not data_dir.exists():
+        data_dir.mkdir(parents=True, exist_ok=True)
     model = Qwen2VLForConditionalGeneration.from_pretrained(
     model_name, torch_dtype="auto", device_map="auto"
     )
@@ -24,7 +27,7 @@ def transcribe(
         images = images[:10]
     for image_path in track(images, total=len(images)):
             image = Image.open(image_path).convert("RGB")
-            image.thumbnail((900, 900))
+            image.thumbnail((1000, 1000))
             messages = [
                 {
                     "role": "user",
@@ -52,7 +55,7 @@ def transcribe(
             inputs = inputs.to("cuda")
 
             # Inference: Generation of the output
-            generated_ids = model.generate(**inputs, max_new_tokens=1000)
+            generated_ids = model.generate(**inputs, max_new_tokens=800)
             generated_ids_trimmed = [
                 out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
             ]
@@ -62,9 +65,9 @@ def transcribe(
             if testing:
                 print(f"Image: {image_path}")
                 print(f"Output: {output_text[0]}")
-                image_path.with_suffix(".testing.txt").write_text(output_text[0])
+                (data_dir / image_path.name).with_suffix(".testing.md").write_text(output_text[0])
             else:
-                image_path.with_suffix(".txt").write_text(output_text[0])
+                (data_dir / image_path.name).with_suffix(".md").write_text(output_text[0])
 
 
 if __name__ == "__main__":

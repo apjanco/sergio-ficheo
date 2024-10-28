@@ -1,9 +1,7 @@
 import typer 
 import srsly
-import json
 from pathlib import Path
 from rich.progress import track
-from transformers import AutoModelForCausalLM, AutoTokenizer
 import spacy 
 
 def process(
@@ -17,13 +15,16 @@ def process(
     """
     nlp = spacy.load(model_name)
     
-    txt_files = list(data_path.glob("**/*.txt"))
+    md_files = list(data_path.glob("**/*.md"))
     
     data = []
-    for txt_file in track(txt_files):
+    for md_file in track(md_files):
         img_data = {}
-        img_data["image"] = txt_file.with_suffix('.jpg').name
-        text = txt_file.read_text()
+        img_data["image"] = md_file.with_suffix('.jpg').name
+        text = md_file.read_text()
+        # find ```markdown\n and remove everything before it
+        text = text[text.find("```markdown\n")+11:]
+        text = text.replace("```", "")
         doc = nlp(text)
         img_data["text"] = text
         img_data["ents"] = [{"text":ent.text, "start":ent.start_char, "end":ent.end_char, "label":ent.label_} for ent in doc.ents]

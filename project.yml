@@ -12,7 +12,7 @@ description: >
   - Publish the project in a static site (TODO txt and PDF)
 
 vars:
-  name: "Sergio Transcripts"
+  name: "Sergio Notebooks"
   language: "es"
   text_direction: 'horizontal-lr' #['horizontal-lr', 'horizontal-rl', 'vertical-lr', 'vertical-rl']
   version: "0.0.0"
@@ -20,10 +20,10 @@ vars:
   metadata_file: "Base de datos Cuadernos Sergio_Notaría Primera de Quibdó (1808-1825).xlsx"
   split_image_folder: "splits"
   markdown_folder: "data"
-  nlp_model: "en_core_web_trf"
+  nlp_model: "es_dep_news_trf"
   model: "Qwen/Qwen2-VL-7B-Instruct"
   code_model: "Qwen/Qwen2.5-Coder-7B-Instruct"
-  dataset_name: "ajanco/sergio-transcripts"
+  dataset_name: "fmb-quibdo/sergio-notebooks"
 
 directories: ["assets", "configs", "scripts","_site","_templates","prompts", "pipelines", "packages"]
 
@@ -58,24 +58,24 @@ commands:
       - "python scripts/dataset.py ${vars.split_image_folder} ${vars.dataset_name}"
 
   # To run transcription on a local folder of images
-  # - name: transcribe
-  #   help: "Transcribe the images"
-  #   script:
-  #     - "python scripts/transcribe.py ${vars.split_image_folder} ${vars.model}"
-  #   outputs:
-  #     - assets/
-  
   - name: transcribe
-    help: "Transcribe images from HF Dataset"
+    help: "Transcribe the images"
     script:
-      - "python scripts/hf_transcribe.py ${vars.dataset_name} ${vars.model}"
+      - "python scripts/transcribe.py ${vars.split_image_folder} ${vars.model}"
     outputs:
       - assets/
+  
+  # - name: transcribe
+  #   help: "Transcribe images from HF Dataset"
+  #   script:
+  #     - "python scripts/hf_transcribe.py ${vars.dataset_name} ${vars.model}"
+  #   outputs:
+  #     - assets/
 
   - name: process
     help: "Process the transcriptions"
     script:
-      - "python scripts/process.py ${vars.split_image_folder} ${vars.nlp_model} ${vars.split_image_folder}/data.jsonl"
+      - "python scripts/process.py data/ ${vars.nlp_model} data/data.jsonl"
     outputs:
       - assets/
   
