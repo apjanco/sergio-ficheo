@@ -17,7 +17,7 @@ vars:
   language: "es"
   text_direction: 'horizontal-lr' #['horizontal-lr', 'horizontal-rl', 'vertical-lr', 'vertical-rl']
   version: "0.0.0"
-  image_folder: "assets/JPG_TESTBED" 
+  image_folder: "assets/JPG" 
   metadata_file: "'assets/Base de datos Cuadernos Sergio_Notaría Primera de Quibdó (1808-1825).xlsx'"
   split_image_folder: "assets/splits"
   cropped_image_folder: "assets/cropped"
