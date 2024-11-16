@@ -42,7 +42,7 @@ workflows:
     - transcribe
     - process
     - publish
-  
+    # - remove_background
 
 commands:
   - name: metadata
@@ -73,17 +73,17 @@ commands:
     outputs:
       - ${vars.rotated_image_folder}
  
-  - name: remove_background
-    help: "Remove black and purple background from images."
-    script:
-      - "python scripts/remove_background.py ${vars.rotated_image_folder} ${vars.background_removed_image_folder}"
-    outputs:
-      - ${vars.background_removed_image_folder}
+  # - name: remove_background
+  #   help: "Remove black and purple background from images."
+  #   script:
+  #     - "python scripts/remove_background.py ${vars.rotated_image_folder} ${vars.background_removed_image_folder}"
+  #   outputs:
+  #     - ${vars.background_removed_image_folder}
 
   - name: adjust_image
     help: "Adjust contrast, exposure, and histogram of images to enhance text visibility."
     script:
-      - "python scripts/adjust_image.py ${vars.background_removed_image_folder} ${vars.adjusted_image_folder}"
+      - "python scripts/adjust_image.py ${vars.rotated_image_folder} ${vars.adjusted_image_folder}"
     outputs:
       - ${vars.adjusted_image_folder}
 
