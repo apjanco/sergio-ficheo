@@ -16,3 +16,4 @@ weasel_output/
 /pipelines
 /packages
 .DS_Store
+project.lock

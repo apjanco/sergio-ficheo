@@ -19,66 +19,69 @@ def split(
 
     images = list(collection_path.glob("**/*.jpg"))
     # do not split the first and last image in a notebook
-    skip = ['JPG/Cuaderno 1/SM_NPQ_C01_001.jpg',
-            'JPG/Cuaderno 1/SM_NPQ_C01_104.jpg',
-            'JPG/Cuaderno 2/SM_NPQ_C02_001.jpg',
-            'JPG/Cuaderno 2/SM_NPQ_C02_104.jpg',
-            'JPG/Cuaderno 3/SM_NPQ_C03_001.jpg',
-            'JPG/Cuaderno 3/SM_NPQ_C03_104.jpg',
-            'JPG/Cuaderno 4/SM_NPQ_C04_001.jpg',
-            'JPG/Cuaderno 4/SM_NPQ_C04_104.jpg',
-            'JPG/Cuaderno 5/SM_NPQ_C05_001.jpg',
-            'JPG/Cuaderno 5/SM_NPQ_C05_071.jpg'
+    skip = ['SM_NPQ_C01_001.jpg',
+            'SM_NPQ_C01_104.jpg',
+            'SM_NPQ_C02_001.jpg',
+            'SM_NPQ_C02_104.jpg',
+            'SM_NPQ_C03_001.jpg',
+            'SM_NPQ_C03_104.jpg',
+            'SM_NPQ_C04_001.jpg',
+            'SM_NPQ_C04_104.jpg',
+            'SM_NPQ_C05_001.jpg',
+            'SM_NPQ_C05_071.jpg'
             ]
     for image in track(images, description="Splitting images..."):
-        if str(image) in skip:
+        if image.name in skip:
             img = Image.open(image)
             img.save(out_dir / f"{image.stem}.jpg")
         else:
-            #TODO adjust split for CO4
-            # Al, Ar, Bl, Br  == verso, recto
             img = Image.open(image)
             width, height = img.size
-            if 'SM_NPQ_C01' in image.stem:
-                center_line = 2.2
-                left = img.crop((0, 0, width//center_line, height))
-                left = remove_ruler(left)
-                right = img.crop((width//center_line, 0, width, height))
-                right = remove_ruler(right)
-                left.save(out_dir / f"{image.stem}_right.jpg")
-                right.save(out_dir / f"{image.stem}_left.jpg")
-            if 'SM_NPQ_C02' in image.stem:
-                center_line = 2.3
-                left = img.crop((0, 0, width//center_line, height))
-                left = remove_ruler(left)
-                right = img.crop((width//center_line, 0, width, height))
-                right = remove_ruler(right)
-                left.save(out_dir / f"{image.stem}_right.jpg")
-                right.save(out_dir / f"{image.stem}_left.jpg")
-            if 'SM_NPQ_C03' in image.stem:
-                center_line = 2.3
-                left = img.crop((0, 0, width//center_line, height))
-                left = remove_ruler(left)
-                right = img.crop((width//center_line, 0, width, height))
-                right = remove_ruler(right)
-                left.save(out_dir / f"{image.stem}_right.jpg")
-                right.save(out_dir / f"{image.stem}_left.jpg")
-            if 'SM_NPQ_C04' in image.stem:
-                center_line = 2.2
-                left = img.crop((0, 0, width//center_line, height))
-                left = remove_ruler(left)
-                right = img.crop((width//center_line, 0, width, height))
-                right = remove_ruler(right)
-                left.save(out_dir / f"{image.stem}_right.jpg")
-                right.save(out_dir / f"{image.stem}_left.jpg")
-            if 'SM_NPQ_C05' in image.stem:
-                center_line = 2
-                left = img.crop((0, 0, width//center_line, height))
-                left = remove_ruler(left)
-                right = img.crop((width//center_line, 0, width, height))
-                right = remove_ruler(right)
-                left.save(out_dir / f"{image.stem}_right.jpg")
-                right.save(out_dir / f"{image.stem}_left.jpg")
+            center_line = width // 2
+            left = img.crop((0, 0, center_line, height))
+            right = img.crop((center_line, 0, width, height))
+            left.save(out_dir / f"{image.stem}_left.jpg")
+            right.save(out_dir / f"{image.stem}_right.jpg")
+            # if 'SM_NPQ_C01' in image.stem:
+            #     center_line = 2.2
+            #     left = img.crop((0, 0, width//center_line, height))
+            #     # left = remove_ruler(left)
+            #     right = img.crop((width//center_line, 0, width, height))
+            #     # right = remove_ruler(right)
+            #     left.save(out_dir / f"{image.stem}_right.jpg")
+            #     right.save(out_dir / f"{image.stem}_left.jpg")
+            # if 'SM_NPQ_C02' in image.stem:
+            #     center_line = 2.3
+            #     left = img.crop((0, 0, width//center_line, height))
+            #     # left = remove_ruler(left)
+            #     right = img.crop((width//center_line, 0, width, height))
+            #     # right = remove_ruler(right)
+            #     left.save(out_dir / f"{image.stem}_right.jpg")
+            #     right.save(out_dir / f"{image.stem}_left.jpg")
+            # if 'SM_NPQ_C03' in image.stem:
+            #     center_line = 2.3
+            #     left = img.crop((0, 0, width//center_line, height))
+            #     # left = remove_ruler(left)
+            #     right = img.crop((width//center_line, 0, width, height))
+            #     # right = remove_ruler(right)
+            #     left.save(out_dir / f"{image.stem}_right.jpg")
+            #     right.save(out_dir / f"{image.stem}_left.jpg")
+            # if 'SM_NPQ_C04' in image.stem:
+            #     center_line = 2.2
+            #     left = img.crop((0, 0, width//center_line, height))
+            #     # left = remove_ruler(left)
+            #     right = img.crop((width//center_line, 0, width, height))
+            #     # right = remove_ruler(right)
+            #     left.save(out_dir / f"{image.stem}_right.jpg")
+            #     right.save(out_dir / f"{image.stem}_left.jpg")
+            # if 'SM_NPQ_C05' in image.stem:
+            #     center_line = 2
+            #     left = img.crop((0, 0, width//center_line, height))
+            #     # left = remove_ruler(left)
+            #     right = img.crop((width//center_line, 0, width, height))
+            #     # right = remove_ruler(right)
+            #     left.save(out_dir / f"{image.stem}_right.jpg")
+            #     right.save(out_dir / f"{image.stem}_left.jpg")
             
 if __name__ == "__main__":
     typer.run(split)
