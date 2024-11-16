@@ -13,6 +13,10 @@ def metadata(
     Generate doc-level metadata for the collections.
     """
     df = pd.read_excel(spreadsheet_path)
+
+    # Replace NaN values with an empty string
+    df = df.fillna("").replace({pd.NA: "", pd.NaT: "", None: ""})
+    
     # create a list of dicts for each row
     metadata = []
     for index, row in track(df.iterrows(), description="Processing rows..."):
@@ -22,6 +26,10 @@ def metadata(
         if "Nivel" == "Documento":
             pages = item["Número y tipo de material original / \nNúmeros de folio"]
             # recto is the front page, verso is the back page
+
+    # Ensure the output directory exists
+    if not output_path.exists():
+        output_path.mkdir(parents=True)
 
     # save metadata.jsonl
     metadata_path = output_path / "metadata.jsonl"
