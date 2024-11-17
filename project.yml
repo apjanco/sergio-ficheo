@@ -29,6 +29,9 @@ vars:
   code_model: "Qwen/Qwen2.5-Coder-7B-Instruct"
   dataset_name: "fmb-quibdo/sergio-notebooks"
   adjusted_image_folder: "assets/adjusted"
+  chunked_image_folder: "assets/chunks"
+  num_chunks: 12
+  overlap_percentage: 3.0
 
 directories: ["assets", "configs", "scripts","_site","_templates","prompts", "pipelines", "packages"]
 
@@ -86,6 +89,13 @@ commands:
       - "python scripts/adjust_image.py ${vars.rotated_image_folder} ${vars.adjusted_image_folder}"
     outputs:
       - ${vars.adjusted_image_folder}
+
+  - name: chunk
+    help: "Chunk the images into subfolders based on the file name of the image."
+    script:
+      - "python scripts/chunk.py ${vars.adjusted_image_folder} ${vars.chunked_image_folder} --num-chunks ${vars.num_chunks} --overlap-percentage ${vars.overlap_percentage}"
+    outputs:
+      - ${vars.chunked_image_folder}
 
   - name: dataset
     help: "Create a Hugging Face Dataset"

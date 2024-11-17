@@ -1,5 +1,5 @@
 import typer 
-from PIL import Image
+from PIL import Image, UnidentifiedImageError
 from pathlib import Path
 from rich.progress import track
 import numpy as np
@@ -52,13 +52,18 @@ def contour_crop_images(
             'SM_NPQ_C04_001.jpg'
             ]
     for image in track(images, description="Cropping images..."):
-        if image.name in skip:
-            img = Image.open(image)
-            img.save(out_dir / image.name)
-        else:
-            img = Image.open(image)
-            cropped_img = contour_crop(img)  # Apply contour cropping
-            cropped_img.save(out_dir / image.name)  # Save with the original file name
+        try:
+            if image.name in skip:
+                img = Image.open(image)
+                img.save(out_dir / image.name)
+            else:
+                img = Image.open(image)
+                if img.size == (0, 0):
+                    raise ValueError("Empty image")
+                cropped_img = contour_crop(img)  # Apply contour cropping
+                cropped_img.save(out_dir / image.name)  # Save with the original file name
+        except (UnidentifiedImageError, ValueError) as e:
+            print(f"Skipping {image.name}: {e}")
 
 if __name__ == "__main__":
     typer.run(contour_crop_images)
