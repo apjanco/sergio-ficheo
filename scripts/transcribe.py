@@ -36,6 +36,10 @@ def transcribe(
         # Resize based on the size of the chunk up to a maximum of 1000
         max_size = 1000
         width, height = image.size
+        aspect_ratio = max(width, height) / min(width, height)
+        if aspect_ratio > 200:
+            print(f"[red]Skipping {image_path} due to unacceptable aspect ratio: {aspect_ratio}")
+            continue
         if width > max_size or height > max_size:
             if width > height:
                 new_width = max_size
@@ -44,6 +48,11 @@ def transcribe(
                 new_height = max_size
                 new_width = int((max_size / height) * width)
             image = image.resize((new_width, new_height), Image.LANCZOS)
+        
+        # Check for image size before sending
+        if image.size[0] > max_size or image.size[1] > max_size:
+            print(f"[red]Skipping {image_path} due to size exceeding {max_size}px")
+            continue
         
         messages = [
             {

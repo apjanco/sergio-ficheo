@@ -1,0 +1,1 @@
+escriitura de liviidad otorgada a favor de la referida María Gregorio dijo: Que la aceptava y acepto en su nombre. En cuyo testimonio usó lo dicen otorgan y firmaron con mirro di-ehb teniente y testigos con quienes actúo por impedimen

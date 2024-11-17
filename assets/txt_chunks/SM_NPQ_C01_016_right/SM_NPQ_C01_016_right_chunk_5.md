@@ -1,0 +1,1 @@
+para que trate y contrato compre y vendé paresca en sur- ciro, otorgue escrituras testamentos, memorias, codicilas y poderes y haga todo quanto una persona libre y no sujeta

@@ -1,0 +1,1 @@
+de mil ochos rentos ocho: Ante mi don José Díaz Rico de Vi- llar teniente de gobernador de esta provincia y de los testigos con quiénes actúa por el impedimento del uni- co castellano, parroco presente Dona Ana María de

@@ -1,0 +1,1 @@
+Ante mi Don Jose Dionicio de villar lemente de governorador de estas provincias del choro y de los testigos con quienes astuvo por suspencion

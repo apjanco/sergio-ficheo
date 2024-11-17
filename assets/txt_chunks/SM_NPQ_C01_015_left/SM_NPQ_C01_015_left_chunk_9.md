@@ -1,0 +1,1 @@
+que confiesa la otorgante haber recibido de mano de Don Angel Perez como costa del dicho documento a su 40x entera satisfacción y contento que por no set de precente so entrega para que yo dicho teniente lo certifique la confi

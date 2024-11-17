@@ -1,0 +1,1 @@
+de su magestad para que a lo dicho obliguen compelan y apremien conforme a derecho. y de estar satisfacto la real alcaldal se agrega roleta original en cuyo tes- bimorio (de la que en y atiendan forma que) que saven
