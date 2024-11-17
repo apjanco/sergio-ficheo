@@ -1,0 +1,1 @@
+Las declaraciones personales y demás que le competen la cede renuncia y trasposa en el comprador y los suyos para que sea su esclava sujeta a servidumbre.

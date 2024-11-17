@@ -1,0 +1,1 @@
+to present the state of Juan Fernando Sanchez, having heard the terms and form of this writing of rent in satisfaction, said that the acceptor and acceptor, and by the following, constitutes the debtor of the hundred of ciento

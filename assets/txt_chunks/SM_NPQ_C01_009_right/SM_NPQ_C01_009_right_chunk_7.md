@@ -1,0 +1,1 @@
+El siguiente es un documento de la ciudad de Lima, donde se menciona la cantidad de dinero que se ha comprado para la escala referida.

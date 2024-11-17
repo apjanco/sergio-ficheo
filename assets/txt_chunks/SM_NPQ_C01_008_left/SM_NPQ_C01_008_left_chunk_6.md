@@ -1,0 +1,1 @@
+las actos puestos presente don Luis Frelles veo de esta díada proximia a quien certificado conosco y dió: que desde el 1 de febrero próximo pasado tiene se- lebrada venta de un negro llamado PEDRO x su

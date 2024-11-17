@@ -1,0 +1,1 @@
+contra que fenecerá la ley del ordenamiento real fechada en cortes de alcalá de henares y los cuatro años en ello declarados para repetir el engano de lo que se compra y vende, o permita por la mitad más o menos de su lexiti

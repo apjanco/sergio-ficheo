@@ -1,0 +1,1 @@
+su satisfacción y contento; y por no ser presente su entrega para que yo dicho gobernador lo certifique

@@ -1,0 +1,1 @@
+province a quien certifico conozco y | vendé y do en real y perpetua enagenación desde ahora y para siem- pre jamas petrónaferla | de este mismo veandario que seg | para la dicha y sus herederos y | que ca d'aprece va

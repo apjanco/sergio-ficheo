@@ -1,0 +1,1 @@
+Rusengo entre un bon cartu de eladite capitán de infantería gobernador político y militar de estasprovin-ciados y de los testigos con quienes actuo sin impedimentos único Esno pareció l y Agustin dozo vecino de esta
