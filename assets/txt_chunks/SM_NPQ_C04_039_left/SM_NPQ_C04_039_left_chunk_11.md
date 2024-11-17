@@ -1,0 +1,1 @@
+So hijo y por no saber firmar lo hace a su cuelgo uno de los testigos que lo fueron Don Manuel Flores, Don Manuel Junguerto y ven- turo Diaz vecinos presentes Ana Maria de Cordova y Pino.

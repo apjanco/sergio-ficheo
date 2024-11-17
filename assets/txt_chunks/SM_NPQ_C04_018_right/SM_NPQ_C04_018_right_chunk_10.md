@@ -1,0 +1,1 @@
+La ciudad de Quibdo, capital de la provincia Ciriaco, a veinte y seis kilómetros de Cener de mil ochocientos diez y nueve. Ante mi, el escribano y testigos que se nombraron parecido Son Juan Mendoza, vecino de ella a quien doy fe conozco y otorgo: Que vende realmente y con derecho.

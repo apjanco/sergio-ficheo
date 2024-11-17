@@ -1,0 +1,1 @@
+The text on the image is not clear and appears to be a mix of different fonts and sizes. However, it seems to be a piece of paper with some text written on it.

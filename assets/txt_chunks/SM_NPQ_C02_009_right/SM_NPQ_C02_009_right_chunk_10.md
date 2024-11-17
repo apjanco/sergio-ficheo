@@ -1,0 +1,1 @@
+bidos de mano del comprador a su entera satisfacción y contenido sobre que por poseí de presente su recibo para que yo el esminano defe de la entrega la confiesa y penuncia la excepcion y ley de la non numerata pecuniia prueba de su recibo mas del

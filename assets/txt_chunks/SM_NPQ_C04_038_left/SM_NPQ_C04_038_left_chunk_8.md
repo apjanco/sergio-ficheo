@@ -1,0 +1,1 @@
+90F En la ciudad de Quindío capital de la provincia de Cúcuta a cinco de Junio de mil ochocientos diez y nueve. Ante mi el escribanoytes- tipoque se nombraron papecio Don Joaquín Alarcón vecino de

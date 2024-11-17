@@ -1,0 +1,1 @@
+en la ciudad de Quibdo capital de la provincia de Atapu a diez y ochocientos catorce. Ante mi el escenario y testigos que se nominaron para ser Don Miguel Buch vecino de ella a quien soy fe conozco y a quien que

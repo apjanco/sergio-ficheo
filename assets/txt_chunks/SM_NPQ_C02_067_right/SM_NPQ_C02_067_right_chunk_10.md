@@ -1,0 +1,1 @@
+y para título de ella otorga a su favor esta escritura por la que ha de ser visto haberla adquirido sin que necesite de otro ac to de apercención de que lo helexar y se obliga a la exención y saneamiento de esta veleta a su costa y mezición hasta dexar

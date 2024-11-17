@@ -1,0 +1,1 @@
+enfermedades y defectos públicos y secretos por el precio de los triento y veinte y cinco pesos de plata que confiesa el otorgante tienen recibidos de mano del comprador a su satisfaecion y contento: sobre que por no ser de presente la entrega para que

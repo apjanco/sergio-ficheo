@@ -1,0 +1,1 @@
+dos en quibdo a veinty y cuatro de julio de mil ochocientos veinte un años siendo testigos, Pablo Aguir, Fernando Hortiz, Ambrocio Aguilla, vecinos y residentes de esta provincia por ante mi el presente escribanbo ytermino de que doy fe

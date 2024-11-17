@@ -1,0 +1,1 @@
+su último precio. Y desde hoy en adelante se dexiste, quito y aparto del derecho de patronato, señorío, y posesión que a dicho esclavo tenia adquirido, y todo con las acciones redes, personales y demas que le cometen, lo cede, renuncio, y traspongo en el

@@ -1,0 +1,1 @@
+y se obliga a la extracción y saneamiento de esta venta a su costo y mencion hasta dejar al comprador en quieta y pacífica posesión y no pudiéndose la sanear le devuelve la suma recibida y le pagará las costas y gastos de su cumplimiento.

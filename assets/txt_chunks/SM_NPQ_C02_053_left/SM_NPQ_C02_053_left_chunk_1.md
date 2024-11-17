@@ -1,0 +1,1 @@
+Juan Roso de edad como de venta años que hubo en publico al manueda de los bienes de Juana Maria Argomedo cuyo rema he celebrado y su favor consta en la causa mortuoria de es

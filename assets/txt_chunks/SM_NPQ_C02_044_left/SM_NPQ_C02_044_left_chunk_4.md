@@ -1,0 +1,1 @@
+de leyes en derecho necesarias con la general en forma. En cuyo testimonio con aceptación de los libertos así lo dixeron y afirgaron: firmaron los que saben y por los que nosablen lo hizo a su fuego uno de los testigos que fueran don francisco Nie

@@ -1,0 +1,1 @@
+The text on the image is not clear and cannot be extracted.

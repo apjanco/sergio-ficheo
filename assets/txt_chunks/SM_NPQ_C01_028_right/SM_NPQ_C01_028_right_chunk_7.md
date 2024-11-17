@@ -1,0 +1,1 @@
+Juan Agustín de la Cuesta Sáez, que es pues Hene el Vale - Candelario de la parro Catorce pesos - Ignacio Blanlon Catorce pesos - Bernardino Bolivar el monguito que fue de la Virgín Cinquenta y seis pesos - Don Juan Cabanillos Senue

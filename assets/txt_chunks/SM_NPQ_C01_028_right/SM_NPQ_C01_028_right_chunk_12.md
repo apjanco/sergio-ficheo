@@ -1,0 +1,1 @@
+Y tem declaro por bienes mi quatro meses bien titulados, vendanse y mandense decir misas para mi gloro. El catre de viento y dos sombreros, y el paragua los dexo a la congo para que.

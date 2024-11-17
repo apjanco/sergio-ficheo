@@ -1,0 +1,1 @@
+La edad de docentes y amos pesos castellanos y a quinto de este pago solo me a entregado sesenta castellanos, haciéndome que dado a dar el resto lo más pronto que pueda, encargo a mis alba-

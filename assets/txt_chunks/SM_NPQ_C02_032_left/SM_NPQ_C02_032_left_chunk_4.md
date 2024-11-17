@@ -1,0 +1,1 @@
+lugar haya el derechos; y manda se guarde cumplito y exel cote inviolablemente; y revoca y anula dicho testamento en todo lo que fuere contrario a este codicilo y en lo que sea conforme con él, y entodo lo demas lo aprueba ratifica, de

@@ -1,0 +1,1 @@
+usando de estas facultades que asegura el compareciente no estarle suspendidas ni limitadas otorga. Que da carta de ahorro y libertad en forma a Hilario propio esclavo del mismo Valencia como dueño de esta.

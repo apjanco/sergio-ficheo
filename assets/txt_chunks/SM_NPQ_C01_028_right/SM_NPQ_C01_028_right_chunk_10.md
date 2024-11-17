@@ -1,0 +1,1 @@
+La ley de la justicia mundial que sin perjuicio de mis acreedores y sin falta a esta mi última voluntad se les otorgue la corta de liber

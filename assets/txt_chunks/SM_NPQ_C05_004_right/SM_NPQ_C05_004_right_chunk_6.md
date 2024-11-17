@@ -1,0 +1,1 @@
+El general, que ha pedido a usted que le entregue la llave, que se incertamente dice que es de la suma recogida, se confiesa entregado dicho vendedor a su voluntad sobre la cual se ha informado a usted.

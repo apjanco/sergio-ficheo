@@ -1,0 +1,1 @@
+La general que no la tiene, y desde hoy en adelante, para siempre jamás se abra la referida María Francisca desprenda, desapoda, desinta, quita y quarto a sus herederos y sus esordes de la posesión, dominio, pro

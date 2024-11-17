@@ -1,0 +1,1 @@
+ientos pesos de la propia moneda su muger por el motivo indicado que confiesa el otorgante tener recibidos en moneda usual y corriente a su entera satisfaccion y contento sobre eso que va siendo presente su pecado para que yo el

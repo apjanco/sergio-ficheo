@@ -1,0 +1,15 @@
+100
+veinte
+marcos
+menos
+una
+oneq
+cento
+veinte
+sesenta
+y
+ciento
+veinte
+más
+una
+OSA

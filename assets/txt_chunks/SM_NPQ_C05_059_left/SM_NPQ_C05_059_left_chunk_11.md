@@ -1,0 +1,1 @@
+Seissantellanos para nuestra señora de los Mercedes de Caly y se diga una misa cantada a dicha señora; También la fuente corresponde a la misma señora.

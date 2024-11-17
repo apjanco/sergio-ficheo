@@ -1,0 +1,1 @@
+Venta y diete de Marzo de milochientos trece. Ante mi el escribano y testigos que se nominaron pareció Don Jose. Goes apoderado substituto de Don Jose Ramos Varela.

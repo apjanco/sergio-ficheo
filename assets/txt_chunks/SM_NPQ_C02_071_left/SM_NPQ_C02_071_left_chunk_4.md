@@ -1,0 +1,1 @@
+La suma recibida y la pagará las costas y gastos de su incertidumbre cuya prueba defiera a su simple juramento relacional de otra aunque su desecho se pequeño. Y a la observación y puntual cumplimiento de todo lo referido se obliga con su

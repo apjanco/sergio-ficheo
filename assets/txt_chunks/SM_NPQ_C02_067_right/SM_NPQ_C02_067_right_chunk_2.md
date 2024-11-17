@@ -1,0 +1,1 @@
+Yeinte y cuatro de enero de mil ochocientos catorce Antem el escribano y testigos que se nombraron pareció Francisco Anto nio Quezada vecino de él a quien doy fe conozco y otorga: Que xende realmente y con efecto a Domingo Mené de la

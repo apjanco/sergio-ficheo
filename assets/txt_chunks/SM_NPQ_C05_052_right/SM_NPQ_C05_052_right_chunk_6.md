@@ -1,0 +1,1 @@
+to relax and allow others to do so, and by right to observe and fulfill the requirements of all the referred to. She is obligated with her person and things owned, and by having the right to justice, the fulfillment of duty and the renunciation of the

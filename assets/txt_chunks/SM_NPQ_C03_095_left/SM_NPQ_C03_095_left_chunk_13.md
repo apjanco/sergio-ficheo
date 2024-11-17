@@ -1,0 +1,1 @@
+el de patronato y demás que le corresponden los cedidos renunci y traspasa en la compradora y sus sucesores, que en señal de posesion y para título de ella otorga a su favor esta escritura

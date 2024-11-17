@@ -1,0 +1,1 @@
+En el nombre de Dios todo poderoso. Amen: según todos quóntos esta mi memoria testamental vieren como yo dona José.

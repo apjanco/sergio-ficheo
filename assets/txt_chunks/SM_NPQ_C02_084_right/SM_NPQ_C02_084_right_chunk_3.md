@@ -1,0 +1,1 @@
+Había una vez una persona muy pobre, que había sido heredada de su madre en muchas cosas, pero no podía pagar sus deudas. Por eso, decidió renunciar a su herencia y donarla al comodoro. Su heredero, una persona muy buena, aceptó la renuncia y renunció a la ley del ordenamiento real.

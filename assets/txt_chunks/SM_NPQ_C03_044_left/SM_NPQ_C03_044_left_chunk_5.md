@@ -1,0 +1,1 @@
+E su cumplimiento. Mediante la cual se desiste quieta y aparta del detenido de acción posesión propiedad dominio y señorío que a dicha esclavita María tenía adquirido y todos con el de patrona-

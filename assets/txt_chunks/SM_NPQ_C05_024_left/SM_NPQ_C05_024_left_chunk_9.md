@@ -1,0 +1,1 @@
+Lo que consta en la libreta que doy es que debo la hacienda 800 patas que satisfacen al doctor Urrutia por la capellania de 1000 patas que ha sido 16 años o mas que no ha pagado mi padre los renditos

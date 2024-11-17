@@ -1,0 +1,1 @@
+Forma x las obligaciones de uso y costumbre el señor otorgante conforme a derecho como representante estuviese a dicho otorgamientos.

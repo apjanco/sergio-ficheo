@@ -1,0 +1,1 @@
+La descripción de un simple documento relevante de otra aunque por desmedro se requiere, y a la observación y puntual cumplimiento de todo lo requerido, obliga los bienes habidos y por

@@ -1,0 +1,1 @@
+la vendé con todos sus ricos tachas defectos enfermedades públicas y secretas en oro y cantidad de doscientos pesos de plata como acredita el documento simple que con fecha quatro de

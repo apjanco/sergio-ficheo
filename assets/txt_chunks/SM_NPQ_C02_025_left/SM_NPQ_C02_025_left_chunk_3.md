@@ -1,0 +1,1 @@
+Y teníamos que cumplir y pagar las mandas legadas y de más ordenada en este testamento. Nombro por mis alabanzas fi-des, comayores y futuros y curadores de mi dicha hija María Josefa Alarcón x llanos en primer lugar a Dona Catalina y luego a Don Adolfo, Segundo y César.

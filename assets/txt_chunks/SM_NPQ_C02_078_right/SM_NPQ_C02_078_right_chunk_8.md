@@ -1,0 +1,1 @@
+gracia y donación al camarador y sus herederos buena cua mera perfecta e irrevocable interfixus con la consu- nación y renunciación necesaria. Sobre que renuncia la ley del ordenamiento Real fecha en cartas de Alcalá de Hen- es y otras que hablan plaza y adiécuas a mi uso.

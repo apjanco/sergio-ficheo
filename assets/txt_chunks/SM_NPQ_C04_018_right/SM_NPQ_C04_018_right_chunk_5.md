@@ -1,0 +1,1 @@
+rechóse pequeña. Y a la observancia y puntual cumplimiento de todo lo referido obliga su persona y bienes habitados y por haber con el poderío de Justicias sumisión de fuerz y renuncia de leyes en las negociaciones con la personal y bienes habitados.

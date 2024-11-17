@@ -1,0 +1,1 @@
+Con de lo que se comenta, y teniendo en cuenta el justo precio y el término concedido para la resolución del contrato o su suplemento. Mediante lo cual desiste quita y e-parta a su constituyente de la acción posesión propiedad dominio y señorio que a dicho esclavo Apolinar tenía adquirido y to

@@ -1,0 +1,1 @@
+Señorío y posesión que a dicha esclavo tenía adquirido, y todo con las acciones reales personales y demás que le competen la cede, renuncia y traspasa en el contrato.

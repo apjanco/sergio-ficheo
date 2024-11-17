@@ -1,0 +1,1 @@
+mas bienes de la unidad del justo precio y el término concedido para la rescisión del contrato oso supplemento. Mediante lo cual se desiste quitá y anota del derecho de acción posesión propiedad dominio y señorío que al mismo exlavo Juan Roso tenía

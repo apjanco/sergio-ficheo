@@ -1,0 +1,1 @@
+Antonio Ramírez le debe la cantidad de quarenta patacos que la suela endurecerá efectivamente.

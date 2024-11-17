@@ -1,0 +1,1 @@
+lugar al señor Don Ramón de Diego Ximénez con las mismas fa-cultades que tienen los nombrados en su repetido testamento 17ª Y tem de declara que entre los esclavos existentes en el al- 55 de mujas de Don Antonio, hay algunas que son del pleno derecho

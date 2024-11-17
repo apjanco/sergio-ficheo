@@ -1,0 +1,1 @@
+Y ten a deado por obligación a la testamentaria de Ismaías, y otro escribano que fue del pueblo de Querub Dosientos peses castellanos, y treinta, y tres escudos de cuenta particular, los que declaro, y mando se paguen

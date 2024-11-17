@@ -1,0 +1,1 @@
+En Quibdo provincia del sitio a las ochocientos días del mes de abril de mil lechoscentos veinte: Ante mi el escribano provisional y testigos que se nombraron parecio presente en la casa desumorada el ciudadano Melchor de yaronga y vetoncur vesino de este pueblos.

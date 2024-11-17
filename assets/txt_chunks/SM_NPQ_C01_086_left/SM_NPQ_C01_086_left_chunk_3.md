@@ -1,0 +1,1 @@
+esmeralda según zona en aventurina-+yt Unas pulseras de perlas con 19 hilos consos broches de oro y perlas sobre-puestas en sesenta castellanos que hacen de plata- 120

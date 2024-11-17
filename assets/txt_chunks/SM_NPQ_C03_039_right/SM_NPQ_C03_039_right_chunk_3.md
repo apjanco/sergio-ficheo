@@ -1,0 +1,1 @@
+Y tem declaro, que en el cumulo de estos bienes existen la cantidad de mil patatas de suerte principal que deben estos

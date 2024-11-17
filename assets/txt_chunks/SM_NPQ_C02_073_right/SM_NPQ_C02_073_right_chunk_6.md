@@ -1,0 +1,1 @@
+posesion y para título de ella otorga a su superior esta escritura por lo que ha de ser visto hasta la adquisición sin que necesite de otro acto de apreciación de que la petición y se obliga a la exizion y saneamiento de esto venta a su costa y mencionas no ha tenido a la constructora en que ha tenido posesión y

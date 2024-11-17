@@ -1,0 +1,1 @@
+horro y libertad en forma a los hijos dichos esclavos Manuel Chamby Su mujer Maria Concepción sus hijos Roberto, Simona, Baltasar, Juan Jose, Sebastian, Manuel

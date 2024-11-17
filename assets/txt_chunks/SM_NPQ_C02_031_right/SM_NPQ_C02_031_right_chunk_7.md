@@ -1,0 +1,1 @@
+cho necesarias son la general en forma. En su testimonio con 30v aceptación del comprador, así lo dice otorgan y firman sus do testigos. Don Antonio García y falcon, Nicolás Roxas y Manuel Ortega Vecinos y presentes

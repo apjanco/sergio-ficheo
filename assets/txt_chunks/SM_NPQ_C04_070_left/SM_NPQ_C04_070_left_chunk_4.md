@@ -1,0 +1,1 @@
+precisos que sean conscientes y su mujer estandonta. He visto que de ella le de las copias autorizadas que quiso para su resguardo y se obliga a no revocar ni contradecir en manera alguna esta libertad, y si lo hiciere quiere que no se le organi admita en tribunal alguna como

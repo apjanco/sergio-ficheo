@@ -1,0 +1,1 @@
+Esto es un documento de la época de la Revolución Mexicana, donde se menciona la venta de esclavos.

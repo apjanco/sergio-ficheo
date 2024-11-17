@@ -1,0 +1,1 @@
+La especial ni general que no la tiene como así la expresa y señalen de en precio y cantidad de trescientos y cincuenta pesos de plata de ocho reales que por le ha dado a su entera satisfacción

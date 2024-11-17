@@ -1,0 +1,1 @@
+diendo fuerza a fuerza y contrato con todas las clases... los vínculos y demás solemnidades que para su perpetua va... judicación se requieren. Y a la observación y cumplimiento de todo lo respetado y respetado.

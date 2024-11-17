@@ -1,0 +1,1 @@
+de posesión y para título de ella otorga a su favor esta escritura por la que ha desenvisto haberla adquirido sin que necesite de otro acto de apreciación de que lo releva, y se obliga a la ejección y saneamiento de esta venta

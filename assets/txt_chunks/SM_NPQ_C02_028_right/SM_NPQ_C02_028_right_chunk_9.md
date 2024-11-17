@@ -1,0 +1,1 @@
+Y tem declaro deberme la hacienda que sertejeg de donde he sido administrador lo que consta de las cuentas presentadas en el suzgado ordinario de esta ciudad las que fene- cidas que sean mando a mis alvaceas cobren su producto y

@@ -1,0 +1,1 @@
+le da poder igual, para que sin su dependencia, intervención ni otro reglito sito, lo insinue ante jueces competente y fin de que la graveré y ella interponga su autoridad para su mayor validación, pues desde qhara lo hay, el señor otorgante por insinuada con todas las solemnidades que le

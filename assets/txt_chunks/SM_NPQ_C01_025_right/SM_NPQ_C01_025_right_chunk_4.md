@@ -1,0 +1,1 @@
+Lo de esta venta, y que le sería cierta, segura, firme y vallejera, y sobre ella no se le movera, plegito ni contradicción alguna, y si se le movere, la seguridad y feinesera asu costar hasta desarle en quieto y socavida possession y de un ordeno hacer la devarera.

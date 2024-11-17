@@ -1,0 +1,1 @@
+La disposición no es inmensa, que no necesita de la esclava donada, porque le quedarán bienes suficientes para su desente mantenimiento, y que no excede de los gastos morales de oro que la ley 9.

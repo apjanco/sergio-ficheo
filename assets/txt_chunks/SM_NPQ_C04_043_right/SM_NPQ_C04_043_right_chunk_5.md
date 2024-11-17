@@ -1,0 +1,1 @@
+La XV declaro, que por poder de Don Pasqual Rovira se me entregó por Don Martín Mutuberría doscientos patagones pertenecientes a dicho Rovira de los cuales le gastaron más de sesenta patagones mon- do es la entrevista que se hizo al lado de la casa de la señora de la plaza.

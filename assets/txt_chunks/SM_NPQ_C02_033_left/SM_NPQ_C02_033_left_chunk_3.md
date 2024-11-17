@@ -1,0 +1,1 @@
+Deidad valor o le daro en smero Con el más valor que adquieres Nadir ha esclava, pagandole asimismo las costas y gastos que de su certidumbre se le irrogasen cuya prueba difiere a sus mismos juramientos reteniendo la de otra aunque por derecho se re- gimen, y este esté situando la progresión de los dos costas

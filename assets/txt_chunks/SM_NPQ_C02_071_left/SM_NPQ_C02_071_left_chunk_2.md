@@ -1,0 +1,1 @@
+Necesidad de propiedad común. Este documento es propiedad de la señora Belén. Polonia tenía adquirido y todos con el de patronato y demas que le correspondan los ced. renunera y traspasa en la compradora y sus herederos que en señal de posesion y para titulo de ella otorga a su favor esta escritura por la que ha de ser visto haber.

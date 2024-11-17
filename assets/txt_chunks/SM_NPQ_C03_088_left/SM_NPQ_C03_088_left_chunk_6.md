@@ -1,0 +1,1 @@
+El pliego de todo lo relacionado se obliga con sus bienes habidos por haber con el poderío, submision y renuncia de leyes de su favor en derecho necesarias con la general en forma. En cuyo testimonio con la submision necesarias con la general en forma.

@@ -1,0 +1,1 @@
+volviera los cuatrocientos diez pesos de plata que con el trenigo haya adquirido dicha esclava, costos y costos daños y perjuicios.

@@ -1,0 +1,1 @@
+en derecho necesarias con la general en forma, en cuyo testimonio- mo y estando presente Juan (destruido) a quien asimismo doy conozco, enterado de esta escritura dijo que a nombre y co- mo recomendado del nominado comprador José Antonio Torres

@@ -1,0 +1,1 @@
+propiedad una negrita esclava como de edad de quince años poco mas o menos llamada Cornelia la misma que es su voluntad sea entregada en propiedad y por via de mejora a su

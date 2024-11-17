@@ -1,0 +1,1 @@
+mas que puestando la cantidad de los escasos y la piedad de los buenos

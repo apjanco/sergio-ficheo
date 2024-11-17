@@ -1,0 +1,1 @@
+la mosqueta anónima y como recomendada de la com- pradera que lo dicen otorgan y firman a quienes de fe conoz- co siendo testigos los ciudadanos Antonio Valencia, Agustín Romero, Pedro Martoyo vecinos y residentes - en este

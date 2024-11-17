@@ -1,0 +1,1 @@
+Ciudad de Cali, por suplica que me hizo mi prima Dona Maria Enea de Argomedo, recibí del poder de Don Jose Ruiz Salamanedo la quadrilla de esclavos que ella tenía en esta provincia para que se los ciudajes y administros se durante el triunfoes.

@@ -1,0 +1,1 @@
+General administracion, y constituye procurador, actor en su propio negocio, para que lo gase conforme se ha insinuado, sin dependencia ni intervencion del senor otorgante y luego que tenga la edad competente.

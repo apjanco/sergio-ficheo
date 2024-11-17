@@ -1,0 +1,1 @@
+Nicolasa, su esposa dicho debido se acredita que lo satisfizo como asegura dicho cuesta y para documentar esto, escritura se copia literalmente el contenido de los reseñados documentos que so tenor es el siguiente - En cuya virtud x como he-

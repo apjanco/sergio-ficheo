@@ -1,0 +1,1 @@
+aquiendo fuerza a fuerza y contrato a contrato con todas las cláusulas vinculos y solemnidades que para su petua validación se requieran. Y a la observancia y puntual cumplimiento de todo lo referido se obligan.

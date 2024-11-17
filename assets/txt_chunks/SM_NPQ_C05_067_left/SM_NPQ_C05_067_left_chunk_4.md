@@ -1,0 +1,1 @@
+Toda memoria por mis alquileres de fundamentos adquiridos rios en primer lugar a mi hijo político Guillermo Eduardo Coutin instituyendo la tutoría curadora de los menores y teneredor de mis bienes para que los administre todo el tiempo

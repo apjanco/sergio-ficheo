@@ -1,0 +1,1 @@
+De mayo de mil ochocientos trece y quince, en la ciudad de la Plata, se nombraron parecidos: Don Agustín Luis, obispo de Don Antonio Valencia, según consta del que le otorgó con fecha veinticuatro de setiembre del año de mil ochocientos trece.

@@ -1,0 +1,1 @@
+el señor ministro de hacienda que copiada dice que y de la suma recibida se confesó entregado a su volunt

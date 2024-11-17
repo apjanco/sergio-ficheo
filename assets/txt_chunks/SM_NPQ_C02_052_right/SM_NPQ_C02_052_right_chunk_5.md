@@ -1,0 +1,1 @@
+Sus herederos que en señal de posesión y para título de ello de torga esta escritura por lo que ha deseo ver haberla, adquirido sin que necesite de otro acto de apreciación de que la celebra, y se obliga a la evicción y saneamiento de este venta a su casta y men

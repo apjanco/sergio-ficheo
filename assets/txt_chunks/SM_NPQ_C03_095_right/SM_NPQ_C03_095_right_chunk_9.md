@@ -1,0 +1,1 @@
+Gregorio Chávez, quien fue de ella quien hoy se conozco y oforga que vende realmente y con efecto a Jose Salazar de la propia nescidad dos negritos sus propias en loz y sus hijos a ser vivir nombrado

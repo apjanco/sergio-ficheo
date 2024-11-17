@@ -1,0 +1,1 @@
+le será cierta segura y valadera, y sobre ella nosele pondrá pleito ni contradicción alguna; y si se le modiere lo segura y fenecera a su costa hasta desarle enquieta y pacifica posesión; y de no poderlo conseguir, le debolve.

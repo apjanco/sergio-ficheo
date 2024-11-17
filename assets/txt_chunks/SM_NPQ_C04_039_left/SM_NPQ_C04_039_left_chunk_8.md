@@ -1,0 +1,1 @@
+y mantenimiento sin embargo de las causas que para volver la ley a su poder y dominio prescriben las leyes que renuncia y sólo hiciere quien que no se le haya admitido en tribunal alguno y sea visto por lo mismo haberlo gobernado y retirado añadiendo fuerza a fuerza y contra

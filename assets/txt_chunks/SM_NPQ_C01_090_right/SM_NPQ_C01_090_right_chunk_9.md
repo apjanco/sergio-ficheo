@@ -1,0 +1,1 @@
+te es esta provincia a quien doy fe conozco y diixo: Que por si y como apoderado de su lexitima hermana Ana Maria Malveo Palomeque como consta del que en su testimonio legalizado me ha puesto a la vista su fecha (espacio en blanco) vende y

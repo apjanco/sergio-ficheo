@@ -1,0 +1,1 @@
+prueba a la defiere en su simple Juramento relevandolo de otra aunque por derecho se requiera. y a la observancia y puntual cumplimiento de todo lo recorrido obliga su perzony y bienes habidos y portabares con el poderío de Justicias sumisión de fuerz y remisión de leyes en de

@@ -1,0 +1,1 @@
+miiento de todo lo referido obliga a su parte con los bienes y rentas que tiene y en adelante tuvieron poder y sumisión a las Justicias de su fuerza y renuncia de leyes en derecho necesarias con la general en forma en su testimo

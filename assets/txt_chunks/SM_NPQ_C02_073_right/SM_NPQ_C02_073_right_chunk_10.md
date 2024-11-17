@@ -1,0 +1,1 @@
+doy fe asi lo dicen otorgan y firman los dos siendo testigos los ciudadanos Joaquín Escobar Agustín Romero y ysidro Pérez Alorcon Francisco de Paz

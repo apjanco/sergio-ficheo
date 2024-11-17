@@ -1,0 +1,1 @@
+Truco, vecino de la plaza de Cartaxena y residente en esto por su comercio es a saber su negrito su propio esclavo que lo hubo por herencia de su legítima madre Antonio Calderon, yesta la hubo tambien por herencia de sus padres Don Jose Calderon y Margarito Guebara

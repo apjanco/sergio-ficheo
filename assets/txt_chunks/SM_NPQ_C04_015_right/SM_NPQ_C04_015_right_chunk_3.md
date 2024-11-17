@@ -1,0 +1,1 @@
+los sucesores que en señal de posesión y para título de ella o - torga a su favor esta escritura por la que ha de ser visto haber - la adquirido sin que necesite de otro acto de aprensión de que la - adquirido sin que necesite de otro acto de aprensión de que la

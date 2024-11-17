@@ -1,0 +1,1 @@
+relaxándola de obra aunque por derecho se requiera. y a la ob servancia y puntual cumplimiento de todo lo necesario obliga a los bienes de su depositaria habidos y por haber con el depo- rto suministrado y proporcionando de los suyos en su favor en

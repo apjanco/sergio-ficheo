@@ -1,0 +1,1 @@
+los castellanos, y el me tiene en su poder en calidad de empeño dos jarros antenador una cuchara y un platillo de plata ayu por so y hechura sabe mi citada Esposa.

@@ -1,0 +1,1 @@
+Estimado y venerado señor/a, menos de la mitad del sujeto afectado y el término concedido para la rescisión del contrato o su suplemento, y en virtud y adición del derecho de acción propietario, se declara y anota el derecho de acción propietario poseído dominio y término que a dicho derecho había adquirido y todos

@@ -1,0 +1,1 @@
+Eventu paradeses perteneciente al contenido de san dominigo de buga los mismos que se me entregaron en dinero a reconocimiento cuyos renditos se satisfacen hasta el ultimo recibo que se encuentra entre mis papales. Xtem declaro ante don jose bosques de dicha ciudad.

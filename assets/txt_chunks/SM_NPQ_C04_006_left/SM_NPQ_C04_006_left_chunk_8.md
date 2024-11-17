@@ -1,0 +1,1 @@
+apart del derecho acción, posesión, propiedad dominio y señorío que a dicha esclava yabel tenía adquirido y todos con el de patrocinio y demás que le correspondan los cede renuncia y tras- posa en lo comandante y sus auxilios que en señal de obsesión

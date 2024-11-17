@@ -1,0 +1,1 @@
+En este estudio declaro: Que además de la cantidad que tengo entregada a Manuel Salazar a cuenta de los escolares que me han entregado.

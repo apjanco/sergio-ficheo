@@ -1,0 +1,1 @@
+Contrato, testé. Comparezca en juricio por medio de sus apoderados, y practique sin intervención del otorgante, quien está permitido a los que nacieron libres, usando en todo de su espontánea voluntad, pues para ello formaliza a su dolor es eso, lu

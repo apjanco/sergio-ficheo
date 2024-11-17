@@ -1,0 +1,1 @@
+de los dichos frescuentos cincuenta y un pesos cuatro reales a su voluntad y entera satisfacción, penúncra decir la contraro la excepción de la non numerata pecuni su frueta la del recierto termi no engañ y más del caso, y otorga a favor del meskronda com

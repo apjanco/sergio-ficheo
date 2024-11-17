@@ -1,0 +1,1 @@
+lo que cuesta contrario a este codicilo, y en la que sea conforme me con el, y en todo lo demás demas lo aguarda ratifica y se

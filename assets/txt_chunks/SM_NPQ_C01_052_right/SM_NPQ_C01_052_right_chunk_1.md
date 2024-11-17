@@ -1,0 +1,1 @@
+rio con lexitimidad, obligándose a la evicción segura y firmeza de esta venta la cual le será cierta segura

@@ -1,0 +1,1 @@
+ticias, sumisión de fuerzas y renuncia de leyes en de rechazo necesarias con la general en forma, en su testimonio con aceptación de la libertad así lo dicen y otorgaríma dicho otavoro y por decir aquella no sabía lo hizo uno

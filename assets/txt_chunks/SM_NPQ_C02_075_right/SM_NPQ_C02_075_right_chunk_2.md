@@ -1,0 +1,1 @@
+Dona Maria Quintero viuda de Don Tomas Polo igualmente que albaceda y sus herederos Don Santiago y Dona Gerontina Polo y Quintero veces de ella y quieren

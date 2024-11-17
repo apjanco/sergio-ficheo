@@ -1,0 +1,1 @@
+administrador y gobernador de Don Antonio Valencia doña la 36V referida, mina y esclavos de ella según consta del que corres

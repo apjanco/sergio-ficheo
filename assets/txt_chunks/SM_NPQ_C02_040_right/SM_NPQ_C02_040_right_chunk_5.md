@@ -1,0 +1,1 @@
+Consecuientemente son nietos del otorgante. En su virtud es voluntad del otorgante que se les entregue la quinta parte de sus bienes integramente, y se parta entre ellos de este modo la mitad toca y pertenece a su hisopo natural Antonio ya dicho, y la a

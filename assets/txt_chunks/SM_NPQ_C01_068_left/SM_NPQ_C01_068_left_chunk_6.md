@@ -1,0 +1,1 @@
+amurindo después que le pagó a Don Manuel escargeta los pesos que le adeuda. A que contesto Morato que también es-taba presentic se conformaba y se conformo. y a haber por firmé, suyo a quedo relacionado por la verdadera y son

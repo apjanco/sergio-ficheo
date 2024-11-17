@@ -1,0 +1,1 @@
+In the interest of the other party, I hereby request to terminate the contract and to withdraw the supplement. Through this, I declare that I have quit and parted with the right of action possession, property domain and estate that the said slaves Tomas and Francisco, their wife, had inherited and all with the deputation and demes that correspond to the said estate.

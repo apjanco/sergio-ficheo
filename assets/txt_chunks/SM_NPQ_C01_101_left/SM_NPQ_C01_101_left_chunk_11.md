@@ -1,0 +1,1 @@
+Ante mi el escribano y testigos que se nomina parecio presente Juan Fernando Sánchez vezno de ella a quien doy fe conosco y dijo: Que vende y da en venta regl

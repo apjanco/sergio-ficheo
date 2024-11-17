@@ -1,0 +1,1 @@
+ta e irrevocable inter vivos con la renuncia y renuncia no necesariamente sobre que renunciar la ley del ordenamiento Real fecha en

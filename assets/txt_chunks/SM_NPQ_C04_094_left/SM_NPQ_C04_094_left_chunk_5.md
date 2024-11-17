@@ -1,0 +1,1 @@
+El señor Francisco Cordova, me ha hecho rematar, ocho piezas, de esclavos, y como no entiendo de papeles, no se en el estado quese.

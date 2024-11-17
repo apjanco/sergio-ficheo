@@ -1,0 +1,1 @@
+La ley del ordenamiento real fecha en cortes de Alcalá de Henares y los cuatro años en ella declarados para recíndir el contrato 6 suplemento a su verdadero valor, si pudiere ser enguío y de

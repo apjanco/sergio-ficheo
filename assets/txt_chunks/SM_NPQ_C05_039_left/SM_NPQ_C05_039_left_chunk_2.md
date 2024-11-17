@@ -1,0 +1,1 @@
+La cuña que intenta llevar al cabo de mi casa sobre qué tengo hecho o curso a la superioridad, y si resultase a mi favor, encargo se haga el cargo devido hasta poner la casa en los términos que deba.

@@ -1,0 +1,1 @@
+Creencia he vivido y protesto vivir y morir como católica y fiel cristiana, y temerosa de la muerte que es natural a toda criatura viviente, hago y ordeno este mi testamento último y final disposicion en la forma y manera siguiente.

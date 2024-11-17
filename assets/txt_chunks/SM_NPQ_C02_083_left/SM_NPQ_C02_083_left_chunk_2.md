@@ -1,0 +1,1 @@
+lo del derecho de patronato posesion dominio y señorío que al citado exclavo Juan Leon tenia adquirido x todos los cede renuncia y traspasa en su favor y fin de que nombraba a estar sujeto a servidumbre y le con-

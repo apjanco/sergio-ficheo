@@ -1,0 +1,1 @@
+disó: que la aceptaba y aceptó para usar de ella como mejor le combenga. Y el subtestimonio así lo dice y otorgan, no forman porque dijeron no saber y sus fuegos lo hacen por el otorganante francesco de paz y por la aceptante francisco xavier de corto

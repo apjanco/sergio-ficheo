@@ -1,0 +1,1 @@
+Sede a la mujer de este llamada Frontera en recompensa de su acción que le ejecuto su marido denunciando la sublevacion de los negros sobre que se siguieron autos sentenciados en el año próximo pasado de ochocientos once

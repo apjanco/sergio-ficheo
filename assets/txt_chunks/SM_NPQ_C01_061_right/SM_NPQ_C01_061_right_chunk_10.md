@@ -1,0 +1,1 @@
+dor y los suyos para que como propia suya la posa vendo y enegue a su voluntad respecto a que la ha adquirido con justo y legitimo titulo y como real vendedor se obliga a la eviccion seguridad y saneamiento de esto venta, en tal manera que siempre le sera cierta y segura y sobrec

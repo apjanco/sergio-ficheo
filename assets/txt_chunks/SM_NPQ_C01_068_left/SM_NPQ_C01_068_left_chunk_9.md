@@ -1,0 +1,1 @@
+Don Manuel Scarpeta ambos testigos presentes en union de Don Luis. García de Heredia que también lo fue y vecino como los dos primeros a quienes vieron los otorgantes

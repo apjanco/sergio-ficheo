@@ -1,0 +1,1 @@
+Zancidad de descriptos treinta pesos de plata de ocho reales que por él ha dado el comprador en dinero de contado quien en prueba de su recibo se da por entregado a su entero satisfacción y contento sobre que enuncia decirlo contra

@@ -1,0 +1,1 @@
+Verso de esta dicha provincia, a quien asimismo doy fe co-nosco haviendo hoydo, y entendido el tenor x forma de esto escritura de venta en favor de Juan de Mená otor-pada di Joño nombre de este la aceptavo, y acepto; en suyo tes-

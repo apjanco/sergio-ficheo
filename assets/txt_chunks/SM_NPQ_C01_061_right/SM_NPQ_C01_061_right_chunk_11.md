@@ -1,0 +1,1 @@
+Esto tiene, en tal manera que ciertamente no se puede dejar sin contradicción alguna y en caso que se le mueva ya siendo requerido a sus herederos en cualquiera estado de la causa saldrá a la voz y defensa y a su costo y mencion la segura y fenezaera ha

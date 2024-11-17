@@ -1,0 +1,2 @@
+las de plata cada una, por lo que seguire de mis necesidades y la esta para que coste
+4ª y declaro que en casada y velada según un orden de nuestra santa madre yecolica, con Don Carlos Miguel de la Cuesta mismo de la casa de la yecolica.

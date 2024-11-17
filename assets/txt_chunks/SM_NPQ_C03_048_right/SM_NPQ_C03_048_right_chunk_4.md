@@ -1,0 +1,1 @@
+* 18º Y tem declaro: Que a su exalvo Salvador le ha dado papel de libertad para después de los días del otorgante teniendo en consideración sus buenos servicios; y despoque igual gracia son sede a la mueres de este llamado férreo en persona y de

@@ -1,0 +1,1 @@
+En el lugar que en el poder del señor José María Ato- mig vesino de Cali, y residente en el mismo, mantiene una capellanía, fundada por mi hermano político - Con el objeto que se goroveche el sobrino que quisiere resivir las ordenes eclesi-

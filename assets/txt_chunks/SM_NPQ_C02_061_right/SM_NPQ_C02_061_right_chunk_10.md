@@ -1,0 +1,1 @@
+de diciembre de mil novecientos trece. Ante intereses y testigos que se nombran parececío José Antonio Becerra vecino de ella mayor de veinte y cinco años que expresó tener a quien doy se conozco y otorga: Que vende realmente con efecto a Antonio Cardona de la orga vecindad manutlada

@@ -1,0 +1,1 @@
+Por lo tanto, la compañía ha decidido (por razones de seguridad) no permitir la entrada de libros, usando en todo su expuesto voluntaria, que para ello formaliza a su favor esta escritura son los requisitos legales que son precisos y conducentes a su mayor

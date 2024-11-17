@@ -1,0 +1,1 @@
+Adquirido sin necesidad de otro acto de aprendizaje de que se lea, y se obliga a la exicción y soneamiento de esta venta a su cas- ta y mencion hasta dejar a la compradora en quieto y pacifica po- sección y no pudiéndose la sanar le devolvera la suma restida con

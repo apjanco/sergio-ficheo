@@ -1,0 +1,1 @@
+demasia en pera o mucha suma hace gracia y donación al com- pragor y sus herederos, buena pura perfecta e irre- vocable intervivos con lo instrucción y renunciaación neces- sa sobre que renuncia la ley del ordenamiento Real fecha en

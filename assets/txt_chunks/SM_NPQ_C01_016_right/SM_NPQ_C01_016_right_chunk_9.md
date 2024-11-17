@@ -1,0 +1,1 @@
+Seguridad cumplimiento y firmeza se obliga la otorgante con su persona y bienes havidos y por haber conforme a derecho. Y estando presente francisco de paz haviendo hordo ler esta

@@ -1,0 +1,1 @@
+Por la escritura que en virtud de mandamiento judicial y de impedimento se le otorgo por Don Melchior de Varona a quien

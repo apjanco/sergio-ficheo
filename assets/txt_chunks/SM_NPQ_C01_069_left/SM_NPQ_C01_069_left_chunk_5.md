@@ -1,0 +1,1 @@
+Lo de la clase Quinta de su testamento fechado en diez y nueve de junio de mil seiscientos ochenta y tres añadiendo en ella haberle hecho la entrega de dicho precio cuando nació la cita, sobre que por no serlo de presente para que yo escriban de defe

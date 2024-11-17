@@ -1,0 +1,1 @@
+Xor: abandamiento hantes de todo esto se bolto una canoa que re- mitia para trasladarlo ó Antioquia según la orden de los señores fados del qual se saci del fondo del Rio alguna parte, y con las

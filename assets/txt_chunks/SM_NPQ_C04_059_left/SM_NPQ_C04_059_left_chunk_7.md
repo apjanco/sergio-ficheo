@@ -1,0 +1,1 @@
+de las copias autorizadas, que quiera para su resguardo, y se obli- gá la otorgante, a no reclamar, ni contradecir en manera alguna esta libertad, y si lo hiciere, quiere que no se le orga ni admita en tribunal glorio como no lo esquen intenta acción o derecho que no

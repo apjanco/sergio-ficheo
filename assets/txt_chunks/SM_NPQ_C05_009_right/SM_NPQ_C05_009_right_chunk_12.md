@@ -1,0 +1,1 @@
+hoy, para, la, de, ella, esta, en, está, estando, los

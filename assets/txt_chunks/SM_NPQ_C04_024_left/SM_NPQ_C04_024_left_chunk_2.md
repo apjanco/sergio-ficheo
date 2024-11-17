@@ -1,0 +1,1 @@
+la acepta, añadiendo que los doscientos cincuenta pesetas de plata de la libertad de su esclava María Encarnación ha servido para la compra de los presentes en reposición de Aquella. Así lo dijeron y otro garon firmó el vendedor y por decir la compradora no saber lo hizo

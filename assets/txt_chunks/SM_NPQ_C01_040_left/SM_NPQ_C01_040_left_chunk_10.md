@@ -1,0 +1,1 @@
+gobernador y colregidor de naturales de este dicho pueblo y de los testigos con quienes actuo por impedimento del único escribano, parecio presente Don Tomas Polo vecino de esta pro vincio Juene de minas y exclavos en ella a quien certifico co

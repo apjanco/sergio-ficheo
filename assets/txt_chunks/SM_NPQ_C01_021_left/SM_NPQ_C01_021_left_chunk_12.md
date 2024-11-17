@@ -1,0 +1,1 @@
+La venta de la fechada de una prueba, porque por derecho se requiere, y esta venta se la hace con todos sus vicios, de factos, enfermedades públicas y secretos. A cuyo segu

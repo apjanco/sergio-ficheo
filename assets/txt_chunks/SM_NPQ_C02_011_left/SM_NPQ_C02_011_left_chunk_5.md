@@ -1,0 +1,1 @@
+En cuya virtud y no habiendo sele otorgado la respectiva escritura por no haber otorgado el comodador los tresuen los mismos pesos de plata del valor de dicha mulata ni este querer hacerlo quites de su otorgamiento para que lo verifique

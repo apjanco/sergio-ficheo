@@ -1,0 +1,1 @@
+ra propia de Quibdo, y el resto que queda deviendo se lo tengo pagado al señor cura yterino fray Manuel Martínez Moló, y solo resto para la conclusión neinte pesos como consta en la oblígación declarando que se paugen de mis vienes. Lo declaró

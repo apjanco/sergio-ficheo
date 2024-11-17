@@ -1,0 +1,1 @@
+haber por firme quanto menos expedito obligado a erescribir yente con sus bienes y rentas habidas y por haber con el poderio de Justicias sumisión de fuero y renunciación de leyes en de derecho necesarias con la general en forma. En su testimonio con acreditación del comprador especialmente la condición que contie

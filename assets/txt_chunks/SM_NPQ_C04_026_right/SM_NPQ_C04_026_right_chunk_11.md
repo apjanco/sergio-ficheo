@@ -1,0 +1,1 @@
+Micaela tenía adquirido y todos con el de patronato y demás que le correspondan los cede renuncia y traspasa a su favor a fin degenio

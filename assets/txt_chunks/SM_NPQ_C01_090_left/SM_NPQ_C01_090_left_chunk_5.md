@@ -1,0 +1,1 @@
+Súbdos de viñetas del comprador a su satisfacción y contento, y por lo tanto de presentar su entrega para que ya el escriba no defienda ella renunciar la excepción y leyes de su per civo, su prueba y demás del caso. y confiesa la vendadora.

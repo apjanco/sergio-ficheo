@@ -1,0 +1,1 @@
+Bro un resto, pero hallo en mi conciencia no deberé cosa alguna, pero no por no haberlos liquidado mando a mis albaecas escriban a la vudú que haga la transacción y que proseda según lo que resulte, y lo declaro que consta

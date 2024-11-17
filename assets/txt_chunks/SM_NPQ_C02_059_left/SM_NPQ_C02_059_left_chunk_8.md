@@ -1,0 +1,1 @@
+así y de la suma recibida se concesa entregado a su yo-luntad renuncia decir lo contrario la excepción de la non nu- merata ocurren su prueba la del recibo termino engañ y más del caso declarando que no xale mas y coco que más xala des

@@ -1,0 +1,1 @@
+logr y gariden este testamento y ultima voluntad en todas sus partes, y encargándoles practiquen todas las diligencias extraordinarias con permiso del Juez de la causa y lo declaro 1929 que conste.

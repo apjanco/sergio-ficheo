@@ -1,0 +1,1 @@
+termino, engaño y más del caso, declarando que navale masdi- cho esclavo y aunque mas ralga de su temencia en mucho o para con-

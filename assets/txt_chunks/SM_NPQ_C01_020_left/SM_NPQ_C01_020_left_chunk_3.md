@@ -1,0 +1,1 @@
+y firmeza se obliga con su peinorza y oientes novados y por hale conforme a derecho. Y estando presente la referido Andrreo a quien asi mismo certico conosco, haviendo oido el tenor forma de esta escritura de lividad en su favor otorgada

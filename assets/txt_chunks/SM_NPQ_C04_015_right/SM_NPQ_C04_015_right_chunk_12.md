@@ -1,0 +1,1 @@
+Ya virtud y usando de las facultades que les son conferidas otorga; que a nombre de su parte vende realmente y con efecto a Don José Ma-

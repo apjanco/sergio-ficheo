@@ -1,0 +1,1 @@
+La general renunciación de ellas. En su aceptación del comprador Bonifacio Bejorano (a quien así mismo doy conozco) así lo dijeron y otorgaron firmen dichos y los de los de Bejorano no sabe lo hizo y su dinero

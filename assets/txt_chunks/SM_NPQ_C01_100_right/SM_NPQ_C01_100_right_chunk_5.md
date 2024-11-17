@@ -1,0 +1,1 @@
+prejamos aon domingo polo que sey para el dicho sus herederos y subsesores es a saber on mulato llamado Romo, el que le vende por libre de otra venta, seno empeñan hipoteca, tacita ni expresa, y portal solo asegura encantidad

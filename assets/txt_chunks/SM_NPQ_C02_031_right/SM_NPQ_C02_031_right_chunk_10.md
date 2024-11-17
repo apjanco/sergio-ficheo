@@ -1,0 +1,1 @@
+que el día treinta y uno de enero próximo pasado otorgó ante numeros y testigos su tamento nuncioactivo del cual ha deliberado y enmendar algunas cosas y quadir otras, y coniendo en ejercicio par

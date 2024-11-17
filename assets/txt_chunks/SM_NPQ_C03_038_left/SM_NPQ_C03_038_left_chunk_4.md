@@ -1,0 +1,1 @@
+prueba defiere a su simple juramento relevándole de otra aunque por derecho se requiera. Y a la observancia y gu - nual cumplimiento de todo lo requerido obliga a soporte con los bienes presentes y futuros. Con el poder de Justicias sur

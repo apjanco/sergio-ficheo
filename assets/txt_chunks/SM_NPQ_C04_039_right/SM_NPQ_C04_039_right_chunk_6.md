@@ -1,0 +1,1 @@
+cede renuncia y traspasa en su favor, afin de que no vuelva aestar sujeta a servidumbre; y le confiere poder irrevocable con libre fron-1057 y general administracion para que trate, contrate, teste, compa rezca en Juicio porsi o por medio de sus apoderados, y practique sin

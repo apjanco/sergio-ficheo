@@ -1,0 +1,1 @@
+Pelevia; y se obliga a la eviccion saneamiento y firmeza de esta venta a su costa y mención hasta dexar a la compradora enquetay pacifica posesion y no pudiendose la sanear le devolvera la su nia recibida y le pagara las costas y gastos de su incertidumbre

@@ -1,0 +1,1 @@
+De esta provincia, a quien doy fe conozco y dije: Que ciento apoderado de Don Manuel Alberto Guerrieno, cuyo propio del pueblo de lloro como consta del que ha esta foto vista otorgado ante el señor teniente de gobernador que

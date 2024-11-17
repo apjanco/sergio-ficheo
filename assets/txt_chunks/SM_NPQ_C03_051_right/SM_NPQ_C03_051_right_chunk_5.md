@@ -1,0 +1,1 @@
+so empeñu ni hipoteca tacita ni expresay lo vende contidos los vicios tachas defectos enfermedades publicas y secretas en precio y cantidad de trescientos pesos de plata de a ocho reales que confiesa tener recibidos de mano del comisario

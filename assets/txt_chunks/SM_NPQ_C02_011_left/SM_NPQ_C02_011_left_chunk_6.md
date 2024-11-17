@@ -1,0 +1,1 @@
+Se lo ofrece en este día con todos los vicios y defeciones superiores públicas y secretas que tenga dicha multa y por la cantidad y dicha lo que le ha de satisfacer con la brevedad posible, declarando que esta es el justo precio

@@ -1,0 +1,1 @@
+piedad, título, voz, recurso, y otro cualesquier que a la expresión es lave le corresponde, y lo sede renuncia y traspasa plenamente con las acciones peales, personales, mixtas, directivas, ejecutivas, y de más que le competan, en el mencionado Juan María a quien conoce

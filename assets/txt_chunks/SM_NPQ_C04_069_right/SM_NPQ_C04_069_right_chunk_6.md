@@ -1,0 +1,1 @@
+autoridad decisa Juzgada y consentida que por tal lo recibe, renuncia cia todas las leyes, fueros, privilegios y derechos así su favor, con lo que prohíbe su general renuncia. En su testimonio qui lo dice, otorga y firma, con aceptación del Padre General de Menores, o nombre de los

@@ -1,0 +1,1 @@
+en el alto y sagrado misterio de la santísima trinidad pa- dre, hijo, y espíritu santo, tres personas distintas y un solo Dios verdadero y entidades las demás misterios que cree confiesa. pregúa y enseña nuestra santa madre, y la católica Aris.

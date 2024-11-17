@@ -1,0 +1,1 @@
+pintu santogy en todos los demas que tiene predicay en

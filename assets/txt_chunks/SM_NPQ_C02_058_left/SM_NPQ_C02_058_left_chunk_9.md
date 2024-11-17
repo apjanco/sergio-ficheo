@@ -1,0 +1,1 @@
+El señor, siéntese a su silla.

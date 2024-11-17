@@ -1,0 +1,1 @@
+Pedro: a la señora Mercedes ha enviado un escudo. A Luis: Jose Andrada dos castellanos cuatro tomes; al señor Coutin

@@ -1,0 +1,1 @@
+quién alguna se halla satisfacto por el señor Don Pedro Jose Du- ran Cuña de Bebarta fue por una involuntaria equivocación pues la pago el señor olorante y se apareo la boleta dado por

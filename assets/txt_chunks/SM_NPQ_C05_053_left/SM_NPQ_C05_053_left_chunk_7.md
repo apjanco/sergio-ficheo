@@ -1,0 +1,1 @@
+XTM otro texto y gramo que postterno(mente se remito) a dicho senor pardes es conducto del dicho senor Baragoa con peso de siento ochenta y dos castellanos y yo lo pose

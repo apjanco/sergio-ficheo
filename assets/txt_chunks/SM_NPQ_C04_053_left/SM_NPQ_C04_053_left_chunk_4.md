@@ -1,0 +1,1 @@
+propio esclavo de superencia para que las gosse y disfrue después de sus días y con esta condición para cuando llegue aquel caso les desa poder a sus herederos las desistuyendo, y aparta, del derecho propio dad, dominio, y serilios que pueden tener sus herederos sobre el dicho y.

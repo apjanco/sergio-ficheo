@@ -1,0 +1,1 @@
+Con la general en forma. En cuyo testimonio y estando presente dicha Dona Maria Socorro de Torres en su casa Morada mu- ger legítima de Don Francisco Nieto teniente infantería de línea de Cartagena, previa la expresa licencia de este pa-

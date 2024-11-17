@@ -1,0 +1,1 @@
+El marido contesta en la manera siguiente: "Cree que no se le otorga admisión en tribunal alguno como no lo es quien intenta acción o derecho que le pertenece".

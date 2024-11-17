@@ -1,0 +1,1 @@
+dicé así- y de la suma recibida se confiesa entregado a su to- lidad renuncia decir lo contrario la excepción de la non nume- rata su prueba la del recibo terminó engaño y más del caso, de- clarando que no vaé más y caso que más valga de su demasia en mú-

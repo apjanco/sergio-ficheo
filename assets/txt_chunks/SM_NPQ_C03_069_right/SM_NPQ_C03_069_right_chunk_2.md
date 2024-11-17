@@ -1,0 +1,1 @@
+parte con el poder de justicia, sumisión de poder y renuncia de leyes, enderecho necesarias con la general en forma. En su tes timonio con aceptación del señor sombrador qui lo diseñan ofra ron y firmaron siendo testigos Don Pasqual Rayna, Francisco de Por

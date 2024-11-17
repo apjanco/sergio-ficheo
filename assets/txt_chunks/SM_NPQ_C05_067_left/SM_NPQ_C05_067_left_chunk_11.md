@@ -1,0 +1,1 @@
+quién ya el presente escribano doy fe conosco, estando al parecer en su entero y son lo juicio asi lo diso, otorgo y firmo ante los testigos llamados y rogados que lo fueron los ciudadanos Luis Alfaro, Pedro Juan Correg, y Jose Jogun

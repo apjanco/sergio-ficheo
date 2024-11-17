@@ -1,0 +1,1 @@
+José Alameda: Cinco por idem a Don Miguel Polomeque. Cinco por idem a Casimiro Rodriguez cinco por idem a Lorenzo Quezadas, y cuatro pesos y dos tomos a José Ignacio el cartagueno a los cuales era dueño dicho mi.

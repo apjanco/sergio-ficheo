@@ -1,0 +1,1 @@
+En el marco de esta historia, el protagonista se encuentra en un lugar donde se le da la oportunidad de hacer algo que no ha hecho antes.

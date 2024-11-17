@@ -1,0 +1,1 @@
+senor doctor Don Manuel Barreto vicario superintendente de esta alta provincia a quien doy fe conozco y obren: Que vende realmente y con efecto a Don Joaquim Colon de la propia vecinidad un mulato su propio eslavo cautivo y sujeto a servidumbre

@@ -1,0 +1,1 @@
+la misma que hubo por compra que hizo a Dona Juana Antonio del campo y Rivas en la ciudad de Cartago según se acredita de la respectiva escritura que le otorga y se apega geste

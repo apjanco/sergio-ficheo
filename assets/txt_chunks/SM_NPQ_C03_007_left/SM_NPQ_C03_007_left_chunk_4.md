@@ -1,0 +1,1 @@
+don así lo dicen gipman y otorgan firma el mismo y por de sir la vendedora no sabe lo hizo a su ruego uno de las tigas que lo fueron los ciudadanos Francisco de paz, muel Octava y Vicente de la Cuesta y muri

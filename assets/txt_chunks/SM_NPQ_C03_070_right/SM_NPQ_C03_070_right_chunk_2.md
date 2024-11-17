@@ -1,0 +1,1 @@
+debió Juana María de la Cuesta (desatrado) a sus albañales le cobren, y en caso de no tenerlos que desvuelvas las mismas alhajas sus para que se agreguen al cuarto de sus bienes declaro asumno serie bodegas los sujetos siguientes (des

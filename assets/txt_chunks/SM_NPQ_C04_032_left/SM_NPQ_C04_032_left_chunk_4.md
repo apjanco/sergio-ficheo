@@ -1,0 +1,1 @@
+La carta de alquimia y libertad en forma a fermin Balboa su propio exclave en cantidad de cuatrocientos pesos de plata de echo reales que confiesa el ofertante tener recabados de mano de di-cho fermin a su entera satisfacción y contento en manera usual.

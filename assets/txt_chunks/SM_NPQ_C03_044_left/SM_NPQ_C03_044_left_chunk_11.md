@@ -1,0 +1,1 @@
+Montes teniente de gobernador y Administrador de la Real Hacienda en ella por su magestidad y testigos por falta de escribano, pareceo presente el Sargento mayor Don Alonso Cordova y Velasco dueño de minas y esclavos en esta provincia

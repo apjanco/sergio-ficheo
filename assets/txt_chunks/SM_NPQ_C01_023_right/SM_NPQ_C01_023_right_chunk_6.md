@@ -1,0 +1,1 @@
+zonas distintas y un solo Dios verdadero, y en todos los demás misterios que tiene y cree, predicó y enseñó nuestra santa Ma- dre yglcencia Católica Apostólica Romana, vaso de oro fey, y (esbarría la hoja) y contra todo vino y miedo que puedan tener los que no creen en ella.

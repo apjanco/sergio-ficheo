@@ -1,0 +1,2 @@
+tador y por consiguiente se halla su mortuaria solven- te y libro de toda clase de deudas contra su para que
+tenga la debida excusación en todos sus partes lo ordenado por el mismo testador otorga: Que la carta de o

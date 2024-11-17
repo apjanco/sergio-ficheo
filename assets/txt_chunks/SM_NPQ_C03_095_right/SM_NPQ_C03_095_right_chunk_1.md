@@ -1,0 +1,1 @@
+por la cual ha de ser visto haberla adquirido sin que necesite de

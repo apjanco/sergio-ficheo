@@ -1,0 +1,1 @@
+pasó en es favor afín de que no fueran d'estar adueñados a sus dombres; y les confiere poder irrevocable con lute franca y general administración para que traten, contraten, testen, comparezcan con en Juicio por si o por medio de sus poderados y practican

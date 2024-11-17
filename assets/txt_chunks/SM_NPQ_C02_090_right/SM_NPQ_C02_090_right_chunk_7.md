@@ -1,0 +1,1 @@
+En el nombre de Dios todo poderoso Amen. Yo Don Mariano Sánchez natural de la provincia de Córdoba, y vecino de esto de citar, hizo legítimo de Don Juan Gregorio Sánchez y de Doña María Antonia Aguirre naturales y vecinos de la misma.

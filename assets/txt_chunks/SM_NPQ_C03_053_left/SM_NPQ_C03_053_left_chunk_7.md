@@ -1,0 +1,1 @@
+4r contratado, siendo de cargo de los vendedores la paga del defe- chado del derecho de alquiler que han satisfecho por medio de su recomendación por Nicolás Machado al señor receptor de ellas quien en su puesto de su recibo ha dado la boleta que se inserta.

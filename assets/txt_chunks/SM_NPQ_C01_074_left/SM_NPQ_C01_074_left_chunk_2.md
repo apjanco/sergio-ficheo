@@ -1,0 +1,1 @@
+Jose Soagun, rema y todo se a B. Venerado y paga en el comprador Audiles de Cordoba para que sea su esclavo y en su virtud lo venda cambie o en- gena a su voluntad mediante a que lo ha adquirido con Justox.

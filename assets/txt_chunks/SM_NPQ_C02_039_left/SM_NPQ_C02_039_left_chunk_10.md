@@ -1,0 +1,1 @@
+y se lo vende con todos sus libros defectos enfermedades públicas y secretos en presión y cantidad de frecuencia trescientos pesos de oro de a ocho reales que por el le ha sido dado en directo de contado siendo de camino del otorante lo

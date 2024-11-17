@@ -1,0 +1,1 @@
+sin de quit la releva. Y a la observancia y puntual cumplimiento de todo lo referido se obliga con personas y bienes habidos y por haber con el poderio de Justicias, sumisión de fuerza y renuncia de leyes en derecho necesarias, como la general en sofe.

@@ -1,0 +1,1 @@
+Marta la misma que hubo en compra que hizo a Don Vicente de Hoyos y Cerezos apoderado del presbitero Don Juan Antonio Lopez, según consta (destruido) testimonio de que vue ha puesto a la Nueva y

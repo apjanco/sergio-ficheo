@@ -1,0 +1,1 @@
+a cerridumbre nombrada flora la misma que asegura hallarse libre de empeño desde obligación e hipoteca especial nige- neral que no la tiene como así lo asegura y se la vende conti- dos sus vicios tachas, defectos enfermedades, publicas y se

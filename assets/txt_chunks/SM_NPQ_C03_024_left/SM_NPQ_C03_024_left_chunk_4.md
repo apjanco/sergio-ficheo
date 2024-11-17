@@ -1,0 +1,1 @@
+Ante mi escribieron y testigos que se nominaron pareció el ciudadano Joquín Freire. Recuerdo de ella a quien dey (se conocio y oborigo) que vende

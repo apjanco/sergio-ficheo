@@ -1,0 +1,1 @@
+acto de aprehensión de que lo reléxa, y obligase a la evi- cción x saneamiento de esta venta hasta desgar al compra

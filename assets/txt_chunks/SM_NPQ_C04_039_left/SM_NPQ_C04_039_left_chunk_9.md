@@ -1,0 +1,1 @@
+to a contrato de amplio poder a los señores jueces de esta provincia para que le compelan a la observancia de este como por sentencia definitiva pendiente en autoridad de casa Juzgado, y consentida que

@@ -1,0 +1,1 @@
+Lo necesite de otro acto de aprensión de que lo relevara y se obliga a la exención y saneamiento de esta venta a su costa y mención hasta dexar al comprador enquesta y pacifica posesión y no

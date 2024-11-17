@@ -1,0 +1,1 @@
+Así lo otorga y firma estando al parecer en su entero y Sano Juicio y siendo testigos cogados y llamados Don Ni

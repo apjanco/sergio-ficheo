@@ -1,0 +1,1 @@
+Cuya liquidación y hasta difiere en el simple juramento de la parte interesada y esta escritura sin más prueba de que le releva. A cuya seguridad cumplimiento y firmeza se obliga hoy ya en toda forma de derecho y estando presente Don Domingo

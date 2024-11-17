@@ -1,0 +1,1 @@
+Adquirido y todos con el p. patronato y demos que le correspon- dan los ced. previamente y traspasa en el com. que en señal de posesión y para título de ella obliga a su favor esta escritura por lo que ha de ser visto haberlo adquirido sin que necesi-

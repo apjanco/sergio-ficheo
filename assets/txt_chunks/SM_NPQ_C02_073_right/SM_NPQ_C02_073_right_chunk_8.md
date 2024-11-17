@@ -1,0 +1,1 @@
+Rechazo se requiere. Y a la observancia y puntuación cumplimenta. Lo de todo lo referido se obliga con su persona y tiernos hábidos y por haber con el poderío de justicias sumisión de fue y renunciación de leyes en derecho necesarias con la

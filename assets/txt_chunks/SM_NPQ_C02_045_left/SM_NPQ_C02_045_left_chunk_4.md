@@ -1,0 +1,1 @@
+Rita hijo de la local nombrada Maria Esclavos que fueron del fin de Lucas Alarcón por la cantidad de ciento cincuenta pesos casta llaman los mismos que recibió este según consta de los documentos que se agregan a este registro, pues aunque se expresa en ellas

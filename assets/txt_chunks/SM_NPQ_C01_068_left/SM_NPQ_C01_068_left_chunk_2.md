@@ -1,0 +1,1 @@
+Por sí mismo lo marea y que (cualquier actos y diligencias) contra el citado deudor se practiquen como si con su propia persona se siguieron subsanararon y determinaron por pertenecerle en una palabras dichos seiscientos pesos de dinero.

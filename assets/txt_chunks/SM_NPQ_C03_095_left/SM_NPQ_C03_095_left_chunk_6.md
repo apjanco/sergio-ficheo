@@ -1,0 +1,1 @@
+De contado siendo de cargo del otorgante la gaga del derecho de alcaldía que ha satisfecho al señor oficial Real guruan en prueba de su recibo ha dado la boleta que se inserta y dijese os de los dos que se han presentado.

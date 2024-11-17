@@ -1,0 +1,1 @@
+Juanma Maria Castillón, mujer del mismo esclavo, se obligó a la satisfacción de Emanciación dicho resto de su integridad, lo que sonciiento y cincuenta palacrones en que estima su parte, y a hablar por firmé cuanto quedo expresado pidiendo su constitución.

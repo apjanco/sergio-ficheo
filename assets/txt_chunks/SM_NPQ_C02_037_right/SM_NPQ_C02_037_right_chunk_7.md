@@ -1,0 +1,1 @@
+storgay y firma siendo testigos Don Agustín Romero, San Francisco Nieto y Francisco de paz vecinos Francisco Xaver de Canto Ant-m Vicente Chacena

@@ -1,0 +1,1 @@
+Necesario sobre que renunciar la ley del ordenamiento real fecha en cortes de Alcalá de Henares y demás que hablan en razón de las cosas que se compran y venden por más o menos de la mitad

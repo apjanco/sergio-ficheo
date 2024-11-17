@@ -1,0 +1,1 @@
+general renunciación de ellos. Agrega boleta original del señor Ministro Receptor de la Real Alcaldía que queda satisfecha cuyo contenido es como sigue - En cuyo testimonio y con testa-

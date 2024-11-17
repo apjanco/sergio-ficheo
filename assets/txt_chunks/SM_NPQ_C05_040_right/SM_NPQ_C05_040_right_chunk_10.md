@@ -1,0 +1,1 @@
+mitad del Justo cedido y el término concedido para la ejecución del contrato o su suplemento. Mediante lo cual se desestiguó x aparta del derecho, acción, posesión, propiedad, dominio, y que a dicho esclavo tenía adquirido, y todos con el de patrona

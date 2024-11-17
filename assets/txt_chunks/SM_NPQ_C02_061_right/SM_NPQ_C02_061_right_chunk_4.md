@@ -1,0 +1,1 @@
+Todas con el descartado y demás que le corresponde subir las cosas renuncia y traspasa en el señor comlorador y sus herederos que en señal de posesión y para título de ella ofrece a su favor esta critura por la que de ser vista habiendo lo adecuado sin que

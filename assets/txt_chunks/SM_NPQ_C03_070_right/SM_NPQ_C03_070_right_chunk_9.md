@@ -1,0 +1,1 @@
+Dios que le dijis, San José Antonio Villar (ya dijunto) destruido en el quarto que en el día (destruido) que avivó y de la dicha (destruido) recibo de ellos por tenientes (destruido) señor contado troto con este sobre (destruido) y le dije que bien padre dos

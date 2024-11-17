@@ -1,0 +1,1 @@
+resolverlo a poder y dominio de dichos herederos prescriben las leyes que renuncio y si lo hubieren, no se les origina admitida en tribunal alguno, y sea visto por lo mismo haberla aprobado y ratificado, añadiendo fuerza a fuerza y con

@@ -1,0 +1,1 @@
+res de todos mis bienes derechos y acciones en primer lugar a miya citado hizo Don Antonio García y falcon, y en segundo al ciudadano Nico las Roxas y quienes les proporciono a más del año fatal el tiempo que necesiten para el cumplimiento de esta mi final voluntad. Y por este

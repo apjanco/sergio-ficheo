@@ -1,0 +1,1 @@
+El martes 12 de febrero de 1800, si fuese a mi muerte en la capilla de San Pedro, de no donde quiera que fuese en lugar santado, si fuese hora completar se entierre con mosa de cuerpo presente y con la exequia que hayen traer a mis Abasos.

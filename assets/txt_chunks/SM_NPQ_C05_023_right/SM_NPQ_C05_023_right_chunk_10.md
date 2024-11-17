@@ -1,0 +1,1 @@
+Las que fueron a Pasto y Tomas, once libros y cuatro (legible) y por lo que respecto a papa de uso, losas, cristales y demás que fue lo dejo a la consideración de mi hermano para que se asigne a mis hijos.

@@ -1,0 +1,1 @@
+Lo xaborra: Que vende realmente y con efecto a Mario Ygna- cia. Apauso de la propia vecindad un regrito su propio esclavo cau- tivo y sujeto a servidumbre nombrado Juan Eleuterio que lo

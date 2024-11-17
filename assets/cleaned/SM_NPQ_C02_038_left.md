@@ -1,0 +1,21 @@
+y el último resto a su constituyente según asredita la carta que original se entega y su tenor es el siguiente tambien se iner
+Leñigos San Agustín Romero Nicolás de 'Roxas y Manuel Ortega Yesinos Francisco de Paz Francisco Xavier de Conto Ante mi vicente olacheo
+Venta - esclavo
+50x en la ciudad de Quibdo capital de la provincia del caitaro
+a vende x parte de Maso da milochababa, bopo e Ano ay
+Venta y diete de Marzo de milochientos trece. Ante mi el escribano y testigos que se nominaron pareció Don Jose. Goes apoderado substituto de Don Jose Ramos Varela.
+
+La boleta del señor Rodríguez de Alcalá que justifica la falta del derecho correspondiente a esta escritura x que como si que X de la suma recibida se confesara por sí y a nombre de su parte entregado a su voluntad renuncia decide lo contrario.
+la excepción de la non numerata fecunda su prueba la del ac-
+cado fervoroso engañó y más del caso, declarando que no vale
+mas y caso que más valga de su demasia hace gracias y dona-
+ción al señor conygrado y sus herederos doña para mera perfe-
+Sí, sí
+Con de lo que se comenta, y teniendo en cuenta el justo precio y el término concedido para la resolución del contrato o su suplemento. Mediante lo cual desiste quita y e-parta a su constituyente de la acción posesión propiedad dominio y señorio que a dicho esclavo Apolinar tenía adquirido y to
+mi seres en el estado de la ciudad la ciudad de la
+Entró por la puerta de la tienda y se encontró con un hombre que le había pedido que le ayudara a vender una pieza de joyería. la joyería estaba en una caja y que él . que él la joyería porque la había comprado por 1000 pesos y no podía venderla por más dinero. El hombre le dijo dinero. El hombre
+las costes de la cobrza esta a su simple
+suplemento relevandolo de otra aunque por derecho se
+requiera, y a la observancia y puntual cumplimiento de todo
+lo recedido oblige su parte son los bienes habidos y por ha
+La ley de justicia, la sumisión de fuerza, la re- nunciación de derechos necesarias con la gene- ración en su testimonio con asesoria del señor camarador así lo dice obregon y firman siendo

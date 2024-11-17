@@ -1,0 +1,1 @@
+Gregorio Cornello de la cuesta, de la qual como patrono, recibi, y percibi el correspondiente redito de dos años y debo ser pagado el correspondiente a la capellania mandada fundar por mulegito hermano Fati.

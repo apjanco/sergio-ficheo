@@ -1,0 +1,1 @@
+a dicho esclavo José tenía adquirido y todos con el de patro- nato y demás que le corresponden las cede, renuncia y trasga- so en el comitado y sus herederos, que en señal de posse- sión y para título de ella otorga a su favor esta escritura por

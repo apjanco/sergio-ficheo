@@ -1,0 +1,1 @@
+en derecho necesarias con la general en formación en cualquiera testimonio y con aceptación del comprador así lo dicen otorgan y firma el que sabe haciendo por el vendedor uno de los testigos.

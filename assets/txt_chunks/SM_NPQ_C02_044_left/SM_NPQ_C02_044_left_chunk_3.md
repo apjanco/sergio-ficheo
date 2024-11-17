@@ -1,0 +1,1 @@
+Para su perspectiva, validación de requerimientos. Y a la observancia y cumplimiento de todo lo referido se obligan los varones con sus personas y todas con sus bienes habidos y por haber con el código de Justicias, Sumisión de fuerza y renuncia.

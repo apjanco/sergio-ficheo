@@ -1,0 +1,1 @@
+Las que se compran y venden por más o menos de la mitad de su precio y el término concedido para la rescisión del contrato o su suplemento. Mediante lo cual a nombre de su parte se

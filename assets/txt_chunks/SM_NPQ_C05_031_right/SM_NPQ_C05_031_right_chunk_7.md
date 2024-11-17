@@ -1,0 +1,1 @@
+x mando se estime y tenga portal, x form, ultima deliverted vo voluntad o en la via y forma que mejor haya lugar en derecho, asi lo otorgyo y firmo en este pueblo del catarra provincia del choco en quibdo a 11 de setiembre de 1821

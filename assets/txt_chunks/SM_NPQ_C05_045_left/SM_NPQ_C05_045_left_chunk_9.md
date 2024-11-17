@@ -1,0 +1,1 @@
+El comprador ha dado el dinero de contado.

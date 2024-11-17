@@ -1,0 +1,1 @@
+Angel Pérez ha tenido varias cuentas y tiene en suponer una obligación mía que le cedi en pago contra dona Ana de la Cuesta. El dicho don Angel no me ha vuelto lo que le rico.

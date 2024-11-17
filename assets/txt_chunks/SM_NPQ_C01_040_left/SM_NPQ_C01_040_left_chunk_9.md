@@ -1,0 +1,1 @@
+En el pueblo de San Francisco de Quibdo capital de la provincia del cítara a dos días del mez de setiembre de mil ochenta- ciento sesenta. Ante mi Don Jose Dionisio de Villar teniente de gobernador y concejido de naturales de este dicho pueblo.

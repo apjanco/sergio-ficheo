@@ -1,0 +1,1 @@
+lidado añadiendo fuerza a fuerza y contrato a todas las clausulas vinculos y solemnidades que para su perpetua validación se requieren. Y a la observancia y puntual cumplimiento de todo lo referido obliga a su parte con los bienes que administra crecientes

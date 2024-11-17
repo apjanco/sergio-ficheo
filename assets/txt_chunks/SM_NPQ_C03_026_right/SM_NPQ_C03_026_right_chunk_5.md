@@ -1,0 +1,1 @@
+Vuelve a estar sujeto a servidumbre y le confiere poder libre. Vocable con libre francia y general administracion para que traite contrato, teste comparezca en Junio por si o por mi. Duda sus acordados, porque sin ultraxcion de

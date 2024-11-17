@@ -1,0 +1,1 @@
+administración y facultad de substituirlo para en su nombre o en el de la otorgante los pida pezib y cobre del empre- do salvador formalizando a su favor los recudos y sancionación del debito expresado con las titulizas necesarias y ayere

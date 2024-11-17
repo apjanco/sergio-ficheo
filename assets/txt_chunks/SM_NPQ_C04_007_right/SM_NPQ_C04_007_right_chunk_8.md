@@ -1,0 +1,1 @@
+to a contrato con todas las cláusulas vinculadas y estreñidas que para su perpetua validación se requieren. Y a la observancia x puntual cumplimiento de todo lo referido obliga sus bienes ha-bidos y por haber con el poder de justicias sumisión de fuer

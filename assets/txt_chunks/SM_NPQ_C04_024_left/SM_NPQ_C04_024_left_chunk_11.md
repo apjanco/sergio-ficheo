@@ -1,0 +1,1 @@
+confiere poder irrevoable con libre fronza y general administración para que trate contrato teste comparezca en Jucio por si o por medio de sus a poderados y practique sin intervencion de su parte todo 34quanto esto permitido plos que nacieron libres usando catado

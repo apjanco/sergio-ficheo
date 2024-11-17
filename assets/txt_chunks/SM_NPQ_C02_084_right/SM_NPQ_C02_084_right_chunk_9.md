@@ -1,0 +1,1 @@
+por derecho de requeira. / a la observancia y cumplimiento de lo que a cada uno toca y pertenece y que se ha hecho mención se obligan el varón con su persona y ambos ambos con sus bienes habidos y por haber con el poder

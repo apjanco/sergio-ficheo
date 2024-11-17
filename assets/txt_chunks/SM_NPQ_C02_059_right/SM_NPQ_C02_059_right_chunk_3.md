@@ -1,0 +1,1 @@
+dolo de otra aunque por derecho se requiera. / a la observancia y puntual cumplimiento de todo lo relacionado se obliga con super- sona y bienes habitados y por haber con el poder de justicias as- mision de cuerpo y renunciación de leyes del caso cura general y

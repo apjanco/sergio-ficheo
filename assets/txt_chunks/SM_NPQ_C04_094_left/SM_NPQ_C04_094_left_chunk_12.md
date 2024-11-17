@@ -1,0 +1,1 @@
+Suplico a mis alváseas propendan que mi hijo Nkome des siga a los estudios al poder del sujeto que tengan u bien.

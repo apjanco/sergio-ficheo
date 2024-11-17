@@ -1,0 +1,1 @@
+La madre que soy testigo y veredado según ordenes de nuestra santa madre la yegua con Dona Maria Francisco de Cordera y Pino de cuyo matrimonio hemos tenido y procedido por nuestros hijos legítimos a Dona Maria Gertrudis, Don Jose de

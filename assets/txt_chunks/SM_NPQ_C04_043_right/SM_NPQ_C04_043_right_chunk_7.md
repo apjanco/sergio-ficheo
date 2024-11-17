@@ -1,0 +1,1 @@
+XII declaro, que devo algún (ilegible) a las cofradías del Carmen, casa Santa de Jerusalen y orden tercera de San Francisco de Calv

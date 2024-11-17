@@ -1,0 +1,1 @@
+lo cual se denomina quita y aparta del despacho de acción posesion propiedad dominica y Leopoldo que ha dicho esclavo Nicasia tenía adquirido m.ropie y todos con el de patronato y demas que le correspondan los de renuncia y trasgasa en la comoradora y

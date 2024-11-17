@@ -1,0 +1,1 @@
+perdición y trasposa en su favor a fin de que no vuelva a estar sujeto a servidumbre y le confiere poder irrevocable con libre franja y general administración para que trate, contrate, testes, comparezca en juicio por si a cumplimiento de sus obligados y prostigue su nombre.

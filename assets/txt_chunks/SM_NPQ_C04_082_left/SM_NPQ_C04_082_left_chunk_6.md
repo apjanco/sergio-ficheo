@@ -1,0 +1,4 @@
+ytemdeclaraquealcapitán(ilegible)levendyinnegritoen
+laquantidaddeciertoveniteyamcopalagonesloque
+debeserparibleentrelosseobrederosdeunidisputapadre.(ilegible)va
+de

@@ -1,0 +1,1 @@
+te lo cual se desiste quita y aparta del derecho acción, posee la propiedad dominio señorío que a dicho esclavo tenía adquirido y tos des con el de patronato y demas que le corresponden los cede, re nuncia y trasposa en el comprador y sus sucesores que en señal de po

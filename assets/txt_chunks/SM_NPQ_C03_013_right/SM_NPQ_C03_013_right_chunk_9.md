@@ -1,0 +1,1 @@
+Cretos en precio y cantidad de trescientos cincuenta pesos de plata que por ella le ha dado en dinero de contado siendo de cargo del otorgante la paga del derecho de alcobala que ha satisfecho al cajero por orden de este mismo ayuntamiento.

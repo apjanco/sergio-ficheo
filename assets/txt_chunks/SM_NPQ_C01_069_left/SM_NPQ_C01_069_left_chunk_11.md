@@ -1,0 +1,1 @@
+Con los bienes nobles y por haber querido ponerlo en peligro, de los que no pueden ser de leyes o su favor en derecho necesarias con lo que prohíbe la general renuncia de ellas. En su testimonio y con aceptación del defensor a nombre de los libertos, así lo dicen obrar, Don Manuel Bracho y Francisco de la Torre.

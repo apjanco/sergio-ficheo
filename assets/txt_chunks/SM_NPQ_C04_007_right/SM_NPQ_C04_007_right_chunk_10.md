@@ -1,0 +1,1 @@
+que le ley de verbos ad verbo mi dixo que la aceptar para usar de ella como mejor te convenga, y así lo dijeron y otorgaron: firma el otorgante y por decir la aceptante nos saber lo hizo asvuego uno de los testigos que lo fueron Don Ma

@@ -1,0 +1,1 @@
+Lo que dije no saber, lo hizo a su ruego uno de los testigos. Quello fueron Don Miguel Buch, Manuel Ortega y Xsidro Peñalver.

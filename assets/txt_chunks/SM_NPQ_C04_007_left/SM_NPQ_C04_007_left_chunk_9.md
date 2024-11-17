@@ -1,0 +1,1 @@
+Ante mi, el escribano y testigos que se nombraron parecido Don Melchor de Ya-rona y Vetoneur resino dueño de minas y esclavos enella.

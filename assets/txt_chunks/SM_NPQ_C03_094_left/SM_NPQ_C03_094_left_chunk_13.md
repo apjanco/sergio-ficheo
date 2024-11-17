@@ -1,0 +1,1 @@
+los expresados cien pesas de plata se do por entregado el o-

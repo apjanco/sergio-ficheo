@@ -1,0 +1,2 @@
+portas muchas persecuciones que me han echo en dinero y vie-nes contos creados donativos del gobierno
+y reitero que a ministro Salvador le fengo largados por vida de libertades sus dos hijos Anselmo y Santiago en contr-

@@ -1,0 +1,1 @@
+un jarro de cristal con su tapa y des fundidas de al- munaada dentro dos tapas de cristal de leche un bolante de roza azul galoneado de plata y su chupin un colson negro de damasina dos botellas redondas de cristal sisa

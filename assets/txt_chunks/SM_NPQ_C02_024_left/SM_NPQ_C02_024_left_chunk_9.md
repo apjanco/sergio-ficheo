@@ -1,0 +1,1 @@
+Y tem declaro deberme Manuel Avila el platero tres pe- nos castellanos dos tomones de oro en polvo que le di para para que me hiciera unas alhajas lo que hasta la fecha no he podido conseguir ni menos la devolución del oro.

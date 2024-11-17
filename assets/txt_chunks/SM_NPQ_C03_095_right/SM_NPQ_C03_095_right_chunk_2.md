@@ -1,0 +1,1 @@
+otro acto de apreciación de que la releva, y se obliga quien del mencionado Tallado a la evicción y saneamiento de esta ven to a su costa y mencion hasta doxor a la comigradora en que para que no se ponga en peligro y no se dañen solo la posibilidad de desarrollar la

@@ -1,0 +1,1 @@
+La ley que en el caso le puedan favorecer. Por de hoy en adelante para siempre se desapoderá desiste quieta y aparta del derecho de accion posesión dominio y señorío que a dichos cuatro otros han adoptado la discutida Dona Nicolasa Receso.

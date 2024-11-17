@@ -1,0 +1,1 @@
+Mercerante y italiano a saber los negros propios esclavos de dicho senor cautivos y sujetos a servidumbre, nombrados Manuel Jose, Petrona su mujer, Fabiana, y felipa, sus hijas Maria Soltera, Ascencion su hija, Lucia Soltera, y Antonio

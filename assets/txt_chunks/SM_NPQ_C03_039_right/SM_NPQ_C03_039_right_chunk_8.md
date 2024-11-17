@@ -1,0 +1,1 @@
+Ytem mediante aquenodobe a otra persona ninguna continuada es mi voluntad no intervenga en mi causa. Juez ni escriban al- algo, x así determino se haga todo extrajudicial a voluntad de

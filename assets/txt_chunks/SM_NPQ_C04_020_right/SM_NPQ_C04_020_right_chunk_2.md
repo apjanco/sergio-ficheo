@@ -1,0 +1,1 @@
+El viejo noble honrado, en el quia de habla con gravamen de estar hipotecado y afecto al seguro de sufridor Juan de Mena en el principal que reconoce por escritura oforgada en vente de No- viembre de mil ochocientos diez y siete de cantidad de mil doscienten
