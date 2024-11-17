@@ -1,0 +1,1 @@
+nunca alegar de contrario la excepción y ley de la no num- merata pecuniá prueba de su rezivo y demás del caso, y desde hoy en adelante se desagoda desiste quiña y agente del daño

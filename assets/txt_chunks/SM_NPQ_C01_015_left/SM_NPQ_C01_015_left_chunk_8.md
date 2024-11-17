@@ -1,0 +1,1 @@
+La corta de ahorro y libertad en forma a una moneda su propia eslava nombrada tomada de la cuestión por el precio y cantidad de cién pesos castellanos como costo en el documento que se entrega a este registro.

@@ -1,0 +1,1 @@
+del único escribano pareció presente Dona Ana María de la cuesta vecina de esta dicha provincia dueña de minos y esclavos en ella a quien certifico conozco y dijo:

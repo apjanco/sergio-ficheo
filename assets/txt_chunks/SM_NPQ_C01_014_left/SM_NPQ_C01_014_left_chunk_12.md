@@ -1,0 +1,1 @@
+La que confiesa la oforgante tener recibidos los dichos mil doscientos y sesenta pesos de plata y por no ser de presente la entrega de la referida cantidad

@@ -1,0 +1,1 @@
+dió: que la aceptara y acepto en suyo testimonio as lo dicen y otorga firma el que soye y por la que dijo no sover lo hace domingo Martínez conmigo dicho gobernados y testigos por el impedimento referido.
