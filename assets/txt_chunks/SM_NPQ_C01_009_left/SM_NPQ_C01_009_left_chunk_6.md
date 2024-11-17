@@ -1,0 +1,1 @@
+sentas paraconces que confiesa el otorgante tener resi- vidos los cinquenta al contado, y los ciento diez para el completo de los ciento sesenta referidos con plazo de seis meses en cuyo tiempo serán satisfechos, y por

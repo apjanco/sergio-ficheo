@@ -1,0 +1,1 @@
+y dispongo de ella a su arbitrio mediante que la adquiero con extremidad diligencia y la persona (persona) que la adquiere

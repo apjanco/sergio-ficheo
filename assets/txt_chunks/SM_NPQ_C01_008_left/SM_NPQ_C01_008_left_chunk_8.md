@@ -1,0 +1,1 @@
+Uno de trescientos veinte y de plata que le suplico, doscientos cuarenta y diez que deben en servir de abono a mayor cantidad que adeuda el otorgante al citado xetancur, y veinte y diez que recibió el mismo día endemo, y como hasta

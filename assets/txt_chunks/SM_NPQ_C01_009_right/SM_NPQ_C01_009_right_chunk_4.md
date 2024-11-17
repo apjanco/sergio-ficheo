@@ -1,0 +1,1 @@
+el más valor que con el tiempo haya adquirido dicha es clara, costos y costos, daños y penurias que se le irroga- ren solo con su simple Juzgamiento en que se le revela de otro pruebas aunque por derecho se requiera, y esta venta se

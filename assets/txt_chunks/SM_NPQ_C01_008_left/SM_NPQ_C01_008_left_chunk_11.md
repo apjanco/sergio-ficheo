@@ -1,0 +1,1 @@
+de otra renta censo empezó ni hipoteca facita ni ex-17x presa y por tal los asegura en la cantidad de los quinientos ochenta y de plata referidos los que confiesa el otorgante tener recibidos en lo forma expresado

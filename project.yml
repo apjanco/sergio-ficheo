@@ -23,15 +23,17 @@ vars:
   cropped_image_folder: "assets/cropped"
   rotated_image_folder: "assets/rotated"
   background_removed_image_folder: "assets/background_removed"
-  markdown_folder: "data"
+  txt_folder: "assets/txt"
   nlp_model: "es_dep_news_trf"
-  model: "Qwen/Qwen2-VL-7B-Instruct"
+  model: "Qwen/Qwen2-VL-2B-Instruct"
   code_model: "Qwen/Qwen2.5-Coder-7B-Instruct"
   dataset_name: "fmb-quibdo/sergio-notebooks"
   adjusted_image_folder: "assets/adjusted"
   chunked_image_folder: "assets/chunks"
   num_chunks: 12
   overlap_percentage: 3.0
+  transcribed_chunks_folder: "assets/txt_chunks"
+  prompt: "Extract all text line by line. Do not number lines. RETURN ONLY PLAIN TEXT. SAY NOTHING ELSE"
 
 directories: ["assets", "configs", "scripts","_site","_templates","prompts", "pipelines", "packages"]
 
@@ -41,8 +43,10 @@ workflows:
     - crop
     - split
     - rotate
-    - dataset
+    - adjust_image
+    - chunk
     - transcribe
+    - dataset
     - process
     - publish
     # - remove_background
@@ -97,26 +101,18 @@ commands:
     outputs:
       - ${vars.chunked_image_folder}
 
+  - name: transcribe
+    help: "Transcribe the images"
+    script:
+      - "python scripts/transcribe.py ${vars.chunked_image_folder} ${vars.model} ${vars.transcribed_chunks_folder} '${vars.prompt}'"
+    outputs:
+      - assets/
+
   - name: dataset
     help: "Create a Hugging Face Dataset"
     script:
       - "python scripts/dataset.py ${vars.split_image_folder} ${vars.dataset_name}"
-
-  # To run transcription on a local folder of images
-  - name: transcribe
-    help: "Transcribe the images"
-    script:
-      - "python scripts/transcribe.py ${vars.split_image_folder} ${vars.model}"
-    outputs:
-      - assets/
-  
-  # - name: transcribe
-  #   help: "Transcribe images from HF Dataset"
-  #   script:
-  #     - "python scripts/hf_transcribe.py ${vars.dataset_name} ${vars.model}"
-  #   outputs:
-  #     - assets/
-
+ 
   - name: process
     help: "Process the transcriptions"
     script:

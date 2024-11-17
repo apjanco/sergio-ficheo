@@ -1,0 +1,1 @@
+El gobierno certifica que el documento es auténtico y no tiene alteraciones.

@@ -1,0 +1,1 @@
+trem y se cuentan de la fecha de esta escritura es que lante sin mas plazo demora ni dilacion. y al comulimiento de lo relacionado, se obliga con todos sus bienes heridos y por haber con poder y sumision a las reales justicias

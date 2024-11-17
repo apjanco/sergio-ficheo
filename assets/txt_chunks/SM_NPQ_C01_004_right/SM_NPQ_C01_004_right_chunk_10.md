@@ -1,0 +1,1 @@
+salazar a nombre de agustin daza, cuatro, por el derecho de alcañoval al 4, 4 deducidos de doscentos y quarenta en que vendro marcelino valencia un negrito llamado Manuel Quibdo 3 de marzo de 1808
