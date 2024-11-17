@@ -1,0 +1,1 @@
+de hoy en adelante, se desapodera desiste, quita y aparta del derecho de acción, posesión propiedad dominio, y señorío que a dicho esclavo tenía adquirido y todo lo cede renuncia x traspasas en el dicho señor comorador, y quien

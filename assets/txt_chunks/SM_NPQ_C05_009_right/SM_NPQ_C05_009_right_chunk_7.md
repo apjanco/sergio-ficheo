@@ -1,0 +1,1 @@
+Generalmente que no la tiene y esto vendrá con sus vicios y defectos.

@@ -1,0 +1,1 @@
+En la traba de excucion que se hizo al otorgante a pedimento de Don vicente Torres apoderado de Don Ignacio Hurtado segun que todo consta por tenor del expediente de la materia igualmente que el entero de la citada contidad co

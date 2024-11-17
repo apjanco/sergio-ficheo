@@ -1,0 +1,1 @@
+La escritura, los otros ciento para el completo de los trescientos entregados a Cordoba por el valor de cinco catorce de suyo do chico y grande que estaban en Bebara de aquella pe

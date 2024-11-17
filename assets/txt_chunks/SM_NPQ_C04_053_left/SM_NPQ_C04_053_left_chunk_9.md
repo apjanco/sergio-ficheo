@@ -1,0 +1,1 @@
+no se le hoyeron admitir en tribunal alguna y sea visto por mis- ma haberla provado y ratificado añadiendo fuerza, a fuerza y contra a contrario. Y a la observancia y puntual cumplimiento se nuncio todas las leyes fuerzas y depeches de su favor con la que

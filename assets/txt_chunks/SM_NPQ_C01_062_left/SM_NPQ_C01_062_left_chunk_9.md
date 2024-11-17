@@ -1,0 +1,1 @@
+En venta real y perpetuidad emprendiendo desde ahora para siempre Juan Antonio ferro su hijo en negro llamado Juan Marta el mismo que procede de la quarrilla de esclavos propio de la otomante y por libre de otra veta

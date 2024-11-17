@@ -1,0 +1,1 @@
+La nunciación necesaria sobre que renuncia a la ley del origen del nombramiento Real fecha en cortes de Alcalá de Henares y demás que hallan en razón de lo que se compra y vende por más o menos del sujeto precio y el hermano concedido para la rescisión del contrato del adelantamiento. Momento en que lo decidió.

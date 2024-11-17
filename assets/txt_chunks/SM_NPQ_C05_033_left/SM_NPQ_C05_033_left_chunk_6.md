@@ -1,0 +1,1 @@
+Para mi uso cinco, y doce onzas y con la que do y lleva Tomásico que son once libras y cuatro onzas se completan las diez y siete. También quedan en mi poder los estribos de plata y Jiménez que no se han hallado todavía esto ha sido tan.

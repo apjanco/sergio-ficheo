@@ -1,0 +1,1 @@
+Quien de Lanzos y dixo, que aunque por la parte de las clausulas de su testamento tenia dispuesto que despues de sus dias quedases libre su esclava Tomasa, queriendo esto que lo seya desde ahora te ha suplicado al intento ofreciendo entregarele

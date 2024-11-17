@@ -1,0 +1,1 @@
+En la capital de Cibao a veinte y nueve de febrero de mil ochocientos doce. Ante mí el escribano y testigos que se nombraron Porció en la casa de su morada enfermo en camay y al paracer en su entero y sano Júicio Don Melchor de Narang y Yelán

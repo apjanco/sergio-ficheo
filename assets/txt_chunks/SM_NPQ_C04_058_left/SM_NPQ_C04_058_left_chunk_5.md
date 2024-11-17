@@ -1,0 +1,1 @@
+Cate de otro acto de apreciación de que lo relevó y se obliga a la exención y saneamiento de esta venta a su costa y menciona hasta de juz al comprador en quieta y pacífica gocección y no pudiere ella

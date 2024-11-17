@@ -1,0 +1,1 @@
+Cabal Suicio, memoria, entendimiento, y voluntad, tal cual Dios nuestro señor, ha sido servido darme, temerosa de la muerte que es natural a todo viviente, y desechando arreglar todas mis desgracias, para seguridad de mi consciencia, yendo como fiten

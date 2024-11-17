@@ -34,6 +34,8 @@ vars:
   overlap_percentage: 3.0
   transcribed_chunks_folder: "assets/txt_chunks"
   prompt: "Extract all text line by line. Do not number lines. RETURN ONLY PLAIN TEXT. SAY NOTHING ELSE"
+  recombined_folder: "assets/recombined"
+  cleaned_folder: "assets/cleaned"
 
 directories: ["assets", "configs", "scripts","_site","_templates","prompts", "pipelines", "packages"]
 
@@ -46,6 +48,8 @@ workflows:
     - adjust_image
     - chunk
     - transcribe
+    - recombine_chunks
+    - fuzzy_clean
     - dataset
     - process
     - publish
@@ -108,11 +112,27 @@ commands:
     outputs:
       - assets/
 
+  - name: recombine_chunks
+    help: "Recombine the transcribed chunks into single markdown files"
+    script:
+      - "python scripts/recombine_chunks.py ${vars.transcribed_chunks_folder} ${vars.recombined_folder}"
+    outputs:
+      - ${vars.recombined_folder}
+
+  - name: fuzzy_clean
+    help: "Clean the transcriptions using fuzzy matching"
+    script:
+      - "python scripts/fuzzy_clean.py ${vars.recombined_folder} ${vars.cleaned_folder}"
+    outputs:
+      - ${vars.cleaned_folder}
+
   - name: dataset
     help: "Create a Hugging Face Dataset"
     script:
-      - "python scripts/dataset.py ${vars.split_image_folder} ${vars.dataset_name}"
- 
+      - "python scripts/dataset.py ${vars.cleaned_folder} ${vars.dataset_name}"
+    outputs:
+      - ${vars.dataset_name}
+
   - name: process
     help: "Process the transcriptions"
     script:
@@ -133,3 +153,4 @@ commands:
       - "python scripts/weasel.py --force"
     outputs:
       - weasel_output/
+

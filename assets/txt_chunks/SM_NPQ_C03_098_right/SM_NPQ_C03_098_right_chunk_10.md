@@ -1,0 +1,1 @@
+Deudoy por decir el desafío no saber la fecha de los testigos que lo fueron Don Jose Baldrich Don Eusta quio Polo y Don Manuel Flores vecinos. Carlos Ferrer y Xiques

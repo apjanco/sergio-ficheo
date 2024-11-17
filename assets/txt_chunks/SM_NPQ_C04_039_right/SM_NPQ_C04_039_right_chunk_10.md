@@ -1,0 +1,1 @@
+La fuerza y contrato a contrato. En ambos lados de la cuestión, es de esta provincia para que le compelan a la observancia de este como por sentencia definitiva pasada en autoridad de casa Juizaday.

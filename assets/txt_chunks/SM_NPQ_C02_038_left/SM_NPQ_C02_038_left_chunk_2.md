@@ -1,0 +1,1 @@
+La boleta del señor Rodríguez de Alcalá que justifica la falta del derecho correspondiente a esta escritura x que como si que X de la suma recibida se confesara por sí y a nombre de su parte entregado a su voluntad renuncia decide lo contrario.

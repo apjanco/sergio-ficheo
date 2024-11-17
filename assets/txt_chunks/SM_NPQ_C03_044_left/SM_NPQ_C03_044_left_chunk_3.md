@@ -1,0 +1,1 @@
+que mas valga desu demasia en mucha o poca cantidad hace gra cia y donacion al comprador y sus herederos buena, org, mera, per fedra e irrevocable intervivos con la inmovilizacion y renunciac ne que se saque de la propiedad del dueño adelantado paq fuese

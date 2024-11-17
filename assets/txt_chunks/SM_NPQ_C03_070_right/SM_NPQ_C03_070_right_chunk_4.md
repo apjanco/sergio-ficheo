@@ -1,0 +1,1 @@
+Joaquín Rodríguez (alias Jamundi) dos tómites de una sangría Don Mariano Sánchez de dos tómites El capitán Alexandra es clavo de Dona Manuela Becerra un peso cinco tómites los que

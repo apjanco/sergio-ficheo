@@ -1,0 +1,1 @@
+La nonnumerata pernata su prueba la del recibo termi- no engañó y más del caso en su virtud a nombre de su par- te se desiste quitá y aparta del derecho de patronato, pos-

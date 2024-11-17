@@ -1,0 +1,1 @@
+Una fiesta sin sermon a San Vicente Ferrer: Veinte y siete castellanos que debió al santísimo sacramento: diez y seis idem a las benditas animas: una musa pesada mas a San Vicente Ferrer; y otra lo mismo a San Pedro Alcántara toda lo que se saca

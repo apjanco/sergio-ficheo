@@ -1,0 +1,1 @@
+compran y venden por más o menos de la mitad del justo precio y el término concedido para la rescisión del contrato o su suplemento. Mediante lo cual a nombre de dicho Talledo se destina todo y parte del dinero que tenga en ocasión de la venta.

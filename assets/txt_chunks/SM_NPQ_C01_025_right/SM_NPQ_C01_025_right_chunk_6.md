@@ -1,0 +1,1 @@
+Va de otra pruea aunque por derecho se requiere, y esta vez se le hace con todos los vicios, defectos, enfermedades públicos y secretos. A cuya seguridad cumplimiento y firmesa se obliga con la su persona y bienes habidos y por hacer conforme a derecho son

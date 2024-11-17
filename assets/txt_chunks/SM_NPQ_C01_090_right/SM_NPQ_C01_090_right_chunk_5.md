@@ -1,0 +1,1 @@
+Con consentimiento de los interesados o herederos que nes quienes también firman para su constancia ante los mis mos testigos y uno de estos por la dicha Altasena a su ruego y por no saber escribir fecha os supr.

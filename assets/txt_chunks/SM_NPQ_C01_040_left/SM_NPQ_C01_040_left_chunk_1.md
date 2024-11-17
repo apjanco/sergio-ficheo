@@ -1,0 +1,1 @@
+ten la cede renuncia y traspasa en el comprador y quien la suya tenga para que sea su esclavo sujeto a servidumbre

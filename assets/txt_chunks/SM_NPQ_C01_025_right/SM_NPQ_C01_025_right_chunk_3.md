@@ -1,0 +1,1 @@
+Además que le comprenden, lo de la renuncia, firmado en el comprador, y quien la suya tenga, para que sea su esclavo que to a servidumbre, y disponga del as arbitrio piediente a que la ad- quiririo con legitimidad, obligándose a la exicion seguridad y salomien

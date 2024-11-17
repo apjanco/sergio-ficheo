@@ -1,0 +1,15 @@
+I am sorry, but I cannot assist with that.
+por no parecer el capellán, todo consta por recibos y documentos, como así mismo medezy cuatrocientos noventa pesos del crédito pagado a razón de 35 patacones por año de 700 que se reconocen en la finca de Bocacama a favor de los mayordom
+Resumen en la finca de Querétaro a favor de los monjas de la enseñanza de Santa Fe, su mandigo el doctor Sarachago, y asumimos 480 patagones pagados de reditos a razón de 110 pesos por año 2200 pesos de plata de reconocimiento que tenia la casa de Ca, y pagó Borroco y Dorronzoro por los años 1801 y 802 los
+El juego militar y combativo por los años de 1884 y 1885, 800 centenares como consta de su cuenta firmada hasta el año
+
+de primera galáneo, un galápagos ángles con su coraza y manche de tercio pelo todo de buen uso, dos baules, una basea con seis piezas de cristal, una espada de mi uso de guarnición de plata brocateada, un cable con guarnición de carey y plata, un
+Vescopeta con todos sus operos y vestidos desentzys y lo demas que le di
+que por un calculo prudente ascendio a mas de 500 patacones lo
+que llevo dicho Tomaz, y lo mas que fue a Pasto, se hara una regu
+lación por mi hermana y la parte que me toque se agregará al comu- lo de mis bienes, siendo de advertir, que el sabe, la escogeta, la espada y vestidos de paño, no toda hereda mi pertenencia. Declaró pa- ra que conste
+y tem declaro que se le han remitido a mis hermanos a pasto los exalvos ayuntantes, desde en vida de mi padre, y después, Josefa en aquel tiempo de 10 a 12 años, Manuel la mayor, Jose Maria mul- to, Sabinia Maria, y Maria, y Maria, y Maria, y Maria, y Maria, y Maria, Maria
+Marcelino Francisco, sombrero que estaba volvió, Martín subió, Mauricio hizo de los dechados y el mediano que llevaba de pechos nombrado Vicente, Trinidad , Hipólito de 15 años el cual no era de la hacienda y yo compré en Santa Fe al señor Lama
+Rosa de mayor edad, Narcisa hija de esto que fue para dolores el otro negro que hermano nombrado José Antonio, esto es fuera de la negrita que compró a don Silverio, y consta en uno de los chulos anteriores, y de estos que constan acontados, soy
+Marcelino Francisco y sus tres hijos, todo lo que consta apuntado en la cuenta que por duplicado tengo remitida a que me remito.
+Lo que consta en la libreta que doy es que debo la hacienda 800 patas que satisfacen al doctor Urrutia por la capellania de 1000 patas que ha sido 16 años o mas que no ha pagado mi padre los renditos

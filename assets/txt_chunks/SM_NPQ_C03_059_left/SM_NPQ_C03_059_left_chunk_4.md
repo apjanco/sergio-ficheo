@@ -1,0 +1,1 @@
+ientos calíacones de a ocho realos que confiesa tener recibí dos de mano del dicho a ss entera satisfacción y contento que por no ser de presente su entrega para que yo el escribano de fe de ello la consiga y remunión de acuerdo contrarió la excepción de

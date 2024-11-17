@@ -1,0 +1,1 @@
+tener recibidos de mano de señora Juana Martínez, asiento satisfacción y contento sobre que renuncia decirlo contrario la excepción de la non numerata peonia su prueba la del recibo termino engano y más del caso. En cuya virtud se desiste quitay a

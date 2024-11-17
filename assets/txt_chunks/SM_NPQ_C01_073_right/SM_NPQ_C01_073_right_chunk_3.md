@@ -1,0 +1,1 @@
+Don Juan Antonio ferro de este ve- industrio como ten- dado al efecto por el comprador Sordoba, asi lo dicen dargon x- fir- ma el que sabe haciendolo por el vendedor y a su ruego que quiso- ser escribir uno de los testigos que fueron Don Santiago fab. Den

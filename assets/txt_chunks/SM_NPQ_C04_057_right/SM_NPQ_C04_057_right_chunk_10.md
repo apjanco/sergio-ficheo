@@ -1,0 +1,1 @@
+La ignorancia, y sugería a servidumbre, la cual asegura hallarse libre de empeño, deuda, obligación, e hipoteca especial, ni general, que no la tiene y se la vende con todos sus riesgos, tachas, defectos enferme dades publicas y secretas en precio y cantidad de docientos veinte

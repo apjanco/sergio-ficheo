@@ -1,0 +1,1 @@
+Ante el extraordinario testimonio que se nombraron parecido Francisco de Paz resino de ella y apoderado general de Luis Chaverra de la propia vecindad según consta del que le otorgo el día veinte y nueve de noviembre de mil ochocientos trece.

@@ -1,0 +1,1 @@
+gan y firman siendo testigos Don Miguel Roch y Francisco de paz vecinos Manuel Scarpetto de Rog Jertudi pachco Ante mi Vicente Olachea

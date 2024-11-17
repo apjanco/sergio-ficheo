@@ -1,0 +1,1 @@
+salida madre la iglesia católica apostólica romana en cu- ya verdadera creencia he vivido vivo y protesto vivir y mo- nir como católico del cristiano temeroso de la muerte que es natural a toda cristiana humana y su hora incierta para

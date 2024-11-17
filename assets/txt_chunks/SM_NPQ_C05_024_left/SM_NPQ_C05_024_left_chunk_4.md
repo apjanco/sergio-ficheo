@@ -1,0 +1,1 @@
+lación por mi hermana y la parte que me toque se agregará al comu- lo de mis bienes, siendo de advertir, que el sabe, la escogeta, la espada y vestidos de paño, no toda hereda mi pertenencia. Declaró pa- ra que conste

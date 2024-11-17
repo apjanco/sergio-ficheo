@@ -1,0 +1,1 @@
+Con hasta dexter al comitador enquiet y pacifica posesion y no pudiendose la sancion le devolvera la suma recibida y legagar las costos de su incertidumbre cuya prueba difiere a su quille Juramento relevandole de otra amnve por derecho se respeto y a la observacion y cumplimiento de todo lo referido se obligo con

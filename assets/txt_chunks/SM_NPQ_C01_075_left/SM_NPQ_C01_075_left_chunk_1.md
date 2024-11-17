@@ -1,0 +1,1 @@
+mi por no haber otro jue, ni escribano, a quien encontre con su bano y entero juicio aunque enferma del cuerpo de la enfermedad

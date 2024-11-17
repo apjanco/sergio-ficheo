@@ -1,0 +1,1 @@
+permitido a los que nacieron libres siendo en todo de su

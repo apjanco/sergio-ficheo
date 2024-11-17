@@ -1,0 +1,1 @@
+la acepta para usar de ella como le convenga. Así lo diery y otorgaron: firma el vendedor y por decir el aceptante no saber firmar lo hace q su ruego uno de los testigos que lo fueron Don José García y Francisco de la Peña.

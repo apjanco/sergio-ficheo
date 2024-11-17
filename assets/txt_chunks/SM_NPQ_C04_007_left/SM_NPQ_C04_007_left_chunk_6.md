@@ -1,0 +1,1 @@
+La libertad, así la dijeron y aclaron, y por no saber firmar la hicieron así meneo dos de los testigos presentes y vecinos que la fueron Don Manuel Flores, Lucas Salazar, y Miguel Geromino Victoria.

@@ -1,0 +1,1 @@
+y por el mismo caso se a visto haberlo aprobo y ratificado, y debido fuerza a fuerza, y contrato a contrato, a todo lo cual consient- te ser apremiada por todo rigor, y para ello sesumte a los seno- res Juezes a su cumplimiento la recibe por sentencia definiti-

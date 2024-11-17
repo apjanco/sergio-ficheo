@@ -1,0 +1,1 @@
+Quien haya comenzado y acabado, que el año va de parientes, o hubo su testamento en scriptis del cual ha deliberado grito y eviendiendo algunas cosas y añadir otras, y poniendolo en ejecución por vía de codicilo o en la forma que más haya lugar en deseo, no ordena y anda lo siguiente:

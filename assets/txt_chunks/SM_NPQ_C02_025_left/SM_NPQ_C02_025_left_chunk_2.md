@@ -1,0 +1,1 @@
+El nombre por un derecho universal hereditario de todos mis bienes derechos y acciones a la expresada mi hija legítima María Josefa Alapzon y manos para que los goc con la bendición de Dios y la misericordia de los monarcas reyes y de los reyes bajados y de los reyes de los reyes.

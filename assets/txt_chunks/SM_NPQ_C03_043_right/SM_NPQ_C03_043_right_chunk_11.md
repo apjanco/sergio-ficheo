@@ -1,0 +1,1 @@
+cal que no la tiene y se la vende a dicho Martínez con todos sus cios tachas defectos enfermedades publicas y secretos en precio cantidad de doscientos pesos de plata de a ocho reales que por ella le ha dado en dinero de contado siendo de cargo del otorgante la paga

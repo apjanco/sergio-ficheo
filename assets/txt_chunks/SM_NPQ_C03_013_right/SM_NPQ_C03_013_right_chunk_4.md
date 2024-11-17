@@ -1,0 +1,1 @@
+Comprador así lo disen otorgan y firman siendo testigos Don Juan Antonio Ferro Luis Alfaró y Emigdio Ferea Vasinos Saturnino de Lloreda Carlos Ferrer y Xiques Ante mi

@@ -1,0 +1,1 @@
+el comprador debe para meta perfecta currevoleb intervivos con la insinuación y renuncia necesaria sobre que renuncia la ley del ordenamiento Real fecha en cortes de Alcalá de Henares y demás que hablan en razón de lo que se compra y vende mos y por medio de la uti del asunto y el termino sucedido

@@ -1,0 +1,1 @@
+1126 Ha satisfecho el testigo usuario Don Bonifacio Salazar a nombre de Terciza Mendigania dos pesos de plata por el derecho de Alca- nada al 2 por ciento deducido de ciento en que habiendo a Nicol- as

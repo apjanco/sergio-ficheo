@@ -1,0 +1,1 @@
+La compradora y sus herederos deben para meta perfecta e irreprochable interviene con la inmovilización y renuncia necesaria sobre que renuncia la ley del ordenamiento Real fecha en la fecha de su solicitud.

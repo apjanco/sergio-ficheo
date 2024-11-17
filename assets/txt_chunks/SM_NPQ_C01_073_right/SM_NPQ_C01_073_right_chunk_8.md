@@ -1,0 +1,1 @@
+potencia fáctica m expresada; pero con todas sus viejas tachas afecta enfermedades públicas y secretas y por el precio y cantidad de cuatrocientos pesos de plata que confiesa tener recibido demo no del comprador a su entera satisfacción y contento sobre que

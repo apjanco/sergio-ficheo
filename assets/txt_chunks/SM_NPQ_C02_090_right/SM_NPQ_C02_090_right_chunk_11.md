@@ -1,0 +1,1 @@
+Para estar atento a todo lo que me concierne, y poder recordar todo lo que concierne al descargo de mi conciencia, y no tener al tiempo de mi fallecimiento algún cuidado tem poral que me obste pedir a Dios nuestro señor de todas las cosas, y la remisión que espero de mis pecados, hago y ordenes

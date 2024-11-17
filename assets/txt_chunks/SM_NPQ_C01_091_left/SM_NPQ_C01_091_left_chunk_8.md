@@ -1,0 +1,1 @@
+y los suyos para que como adquiridos con 500 causa, y legitimidad pueda venderlos cambiarlos o enganarlos a su voluntad. Y como Real vendidos se obliga por sí y a nombre de su parte a la existencia seguridad santamiento y firmes

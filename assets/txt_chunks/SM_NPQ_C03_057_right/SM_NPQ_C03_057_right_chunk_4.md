@@ -1,0 +1,1 @@
+cuyo testimonio con aceptación del camarógrafo así lo dice y intergaus firma el que sabe, y por el que dijo no sabe, lo hizo a su vuelgo uno de los testigos que lo fueron Don José María Cardenas, Francisco de Paz y Ysidro Pereyánez vecinos y residentes.

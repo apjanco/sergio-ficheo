@@ -1,0 +1,1 @@
+lo cambiarlo o enganarlo a su voluntad y como real vendedor se obliga a la evolución seguridad y saneamiento y firmeza de esta venta en tal manera que siempre le sera cuesta segura y valdadera, y que sobre su propiedad y goce no se le ponga glexito ni contra ella.

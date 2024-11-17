@@ -1,0 +1,1 @@
+Esta suma de seres suyos y orden tercera de San Francisco de Cali, dose paguen según lo tengo comunicado, lo declaro para que conste-- 18 y1 declaro que tuve cuenta con el difunto Don Antonio Rodriguez de el a mi sin documento alguno, y que en la última vez penes vimos me co

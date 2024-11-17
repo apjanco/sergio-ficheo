@@ -1,0 +1,1 @@
+Agapito que la han venido las ofrantes y Don Antonio Gaoes en la cantidad de trescientos pesos de globo, la cual ha servido para satisfacer a Don Jose Gaoes doscientas diez y nueve pes.

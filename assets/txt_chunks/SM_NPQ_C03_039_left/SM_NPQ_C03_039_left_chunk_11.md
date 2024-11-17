@@ -1,0 +1,1 @@
+La construcción de la casa está de capital por vía de derecho y que consta en la causa de la partición de los bienes de su padre Don José Leonardo de Córdoba y de otra cuenta de herencia que de

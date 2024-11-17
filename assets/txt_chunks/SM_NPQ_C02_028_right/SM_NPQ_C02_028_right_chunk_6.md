@@ -1,0 +1,1 @@
+ciudad contidad de pesos sin acordarme quanta, pero mas las bases no pondran el menor reparo ni obsequio a la cuenta que el presente satisfaciendole a la mayor brevedad puede de mis bienes

@@ -1,0 +1,2 @@
+mes lugar al ciudadano Luis Alfaro y en segundo al ciudadano Lorenzo Puente a quienes les prograro a más del año fatal de su encargado el tiempo que necesiten
+y por el presente revoco y abolí todos los testamentos po

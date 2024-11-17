@@ -1,0 +1,1 @@
+estabilidad la misma que te será firme, segura y vallelada, sin que la obligante ni sus herederos reclamen ni contradigan en manera alguna, y solo que le intenten por el mismo hecho quiere que no se le haga daño.

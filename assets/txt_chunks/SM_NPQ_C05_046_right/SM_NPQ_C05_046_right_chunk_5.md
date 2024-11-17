@@ -1,0 +1,1 @@
+que como apoderado general del senor presbítero Manuel Santos Escobar y Ranig vende realmente y con efecto al señor Nicolas Bonoli co- mercante italiano a sus nuevos amigos y amigos.

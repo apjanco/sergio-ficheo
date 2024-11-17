@@ -1,0 +1,1 @@
+citara a vente y seis días del mes de Abril de mil ochocientos diez; Ante miel escribano y testigos que se nombraron para lo presente Jose Antonio Torres vezino de ella a quien dej fe conosco y dijo: Que vende y da en venta Real y perpetua enganacion desde

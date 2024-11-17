@@ -1,0 +1,1 @@
+doseme satisfacer el alcance que resultaba a favor, se en tablo demanda judicial en esta provincia, que se eleva por que lacion al tribunal superior de Justicia del Rey, en donde se ventilaron todos los puntos del particular por miseso confron

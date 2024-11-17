@@ -1,0 +1,1 @@
+un negro su propio esclavo cautivo y sujeto a servidumbre nombrado

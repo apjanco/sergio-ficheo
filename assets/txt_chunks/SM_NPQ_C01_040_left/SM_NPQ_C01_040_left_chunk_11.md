@@ -1,0 +1,1 @@
+nosco y otorga: Que vende y da en venta real y en perpetua enegagacion desde ahora y para siempre Jamas a Juan de Mena que sea para el dicho sus herederos y subseosos les a soyer cinco plazas de esos labos y por el bumbu Julián

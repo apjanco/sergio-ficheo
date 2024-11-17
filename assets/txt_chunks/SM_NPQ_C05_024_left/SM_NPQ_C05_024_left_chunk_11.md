@@ -1,0 +1,1 @@
+Resumen en la finca de Querétaro a favor de los monjas de la enseñanza de Santa Fe, su mandigo el doctor Sarachago, y asumimos 480 patagones pagados de reditos a razón de 110 pesos por año 2200 pesos de plata de reconocimiento que tenia la casa de Ca, y pagó Borroco y Dorronzoro por los años 1801 y 802 los

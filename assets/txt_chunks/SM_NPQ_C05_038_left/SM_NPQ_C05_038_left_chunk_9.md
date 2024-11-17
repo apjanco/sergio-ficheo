@@ -1,0 +1,1 @@
+Finley y Cabo para ano efectos se le remitieron quimientos pata -cones por el señor Manuel Balverde para su transporte con orden de que el no viniese a esta y sold destase a mi dicha espe- sa en Barbacoas o el Barro a disposicion de dicho Balverde

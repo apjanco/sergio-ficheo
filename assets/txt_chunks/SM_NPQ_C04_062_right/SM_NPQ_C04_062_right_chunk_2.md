@@ -1,0 +1,1 @@
+Sos de plata de ocho reales que por ella le habia dado la compradora en dinero de contado siendo de cargo del otorgante la paga del derecho de alcavala que hasatisfecio al senor administrador general de rentas quien en prueba de su recibo ha dado la boleta que se inserta

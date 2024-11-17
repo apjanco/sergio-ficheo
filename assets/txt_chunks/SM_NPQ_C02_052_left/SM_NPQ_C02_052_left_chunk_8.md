@@ -1,0 +1,1 @@
+Tomas de Oricio Zapatero, el mismo que hubo por com- una que hizo al Don Pedro figueroa vecino de la ciudad de Cartagena según consta de la escritura que ante el teniente de gobernador de esta provincia Don Jose Birosio Villar (ya di

@@ -1,0 +1,2 @@
+no lo es quien intenta accionar o deprecio que no le pertenezca y sea visto por lo mismo haberlo aprobad y ratificado, añadiendo fuerza, a fuerza y contraño a contrario con todas las cláusulas vincu
+las y solenmidades que para su perpetua validación se requiere

@@ -1,0 +1,1 @@
+Como consta de la cuenta sentada en un libro, y este caso parecese debe dar cuenta circunstanciado de todo a más de la que pudo haber dado a Vítores. Así mismo declaro que si dicho

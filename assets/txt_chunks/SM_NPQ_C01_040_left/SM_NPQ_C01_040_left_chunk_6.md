@@ -1,0 +1,1 @@
+Alcaba se agrega voleta original. S siendo leída al re- feendo Núlas Salazar esta escritura de venta en su favor olargada disj; que la aceptara x acepto: S ensu testi- monio assi lo dicen y otorgan no firman porque dijeron no sa-

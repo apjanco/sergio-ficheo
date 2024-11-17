@@ -1,0 +1,1 @@
+adelante para siempre se desapodera de la propiedad del derecho de acción posesión propiedad doméstica y señora que a dicha esclavo tenía adquirido y todo lo cede renuncia y traspasa en el comprador y los suyos para que somos propio lo posea y venda o

@@ -1,0 +1,1 @@
+validación se requerían. Y la observancia y puntual cumplimiento de todas lo referido, se obliga con suyo personoy, bienes hondos y por haver con el pulteto de Justicias, succion de fuero, y renuncia de leyes en despecho regesarios con la general en formig. En cuyo te

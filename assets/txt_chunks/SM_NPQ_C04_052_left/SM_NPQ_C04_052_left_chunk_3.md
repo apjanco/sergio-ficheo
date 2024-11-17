@@ -1,0 +1,1 @@
+accion, posesión, propiedad, dominio y señorío que a la negritud de Santiago tema adquirido, y todos con el de patronato, y demos que le correspondan lo sede renuncia y traspasa en el comprador, y en quien se adquie o derecho hubiere que en señal de posesión y para

@@ -1,0 +1,1 @@
+El presente contrato que se la concedió de que hoy fe, di xo: Alba acepta dicha escritura que se le leyó al efecto ca

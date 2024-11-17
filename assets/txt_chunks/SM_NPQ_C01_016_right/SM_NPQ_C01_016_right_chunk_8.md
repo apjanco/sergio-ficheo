@@ -1,0 +1,1 @@
+o derecho que no le pertenece, se ha visto aprobar y revalidado esta escritura de inversión, añadiendo fuerza a fuerza y contrato a contrato con todas sus cláusulas vinculantes y solemnidades que para su validación se requieren. Auya

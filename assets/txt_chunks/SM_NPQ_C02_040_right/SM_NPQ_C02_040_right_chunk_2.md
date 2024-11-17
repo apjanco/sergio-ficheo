@@ -1,0 +1,1 @@
+Cinco de ellos a quienes ay conozco y dió que el día ocho de marzo de mil ochocientos once ofertó ante mi mismo xte bizgos su testamento nonuppugtivo del qual ha delibeteado qui- toy y enmendar las glunas cosas y quadir otras y gomendol en

@@ -1,0 +1,1 @@
+Casos de hecho, materia provista, tratamientos análogos, etc. y contrato a contrato a todo lo cual constituye ser requerido por todo rigor, y para ello se somete a los señores Jooses de esta capital obliga sus vienes a su cumplimiento, la resive por sentencia pasada

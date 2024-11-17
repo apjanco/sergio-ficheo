@@ -1,0 +1,1 @@
+Rosa de mayor edad, Narcisa hija de esto que fue para dolores el otro negro que hermano nombrado José Antonio, esto es fuera de la negrita que compró a don Silverio, y consta en uno de los chulos anteriores, y de estos que constan acontados, soy

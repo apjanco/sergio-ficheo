@@ -1,0 +1,1 @@
+La escritura necesaria con las clausulas, requisitos y circunstancias que afirmen el nuevo poseedor el depósito adquisitivo clausula de constituto, excepción y sancionamiento en

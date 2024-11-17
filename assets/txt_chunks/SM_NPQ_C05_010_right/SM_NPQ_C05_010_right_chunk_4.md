@@ -1,0 +1,1 @@
+dicho esclavo Magdaleno tenía adquirido y todos con el de patro- to y demos que le corresponder los sede, renuncia y traspasa en el com- prador y sus subse- sores que en cénal de depocerión y para- tita

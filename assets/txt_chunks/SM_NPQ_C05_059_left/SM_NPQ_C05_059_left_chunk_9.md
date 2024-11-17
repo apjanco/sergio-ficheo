@@ -1,0 +1,1 @@
+La letra de la carta es de color negro y está escrita en una hoja de papel. La letra es pequeña y difícil de leer. La carta es escrita en una lengua desconocida y no se puede determinar qué idioma es. La carta es escrita en una hoja de papel y está escrita en una hoja de papel. La hoja de papel está en una hoja de papel y está escrita en una hoja de papel.

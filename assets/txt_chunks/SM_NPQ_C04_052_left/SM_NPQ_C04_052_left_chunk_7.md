@@ -1,0 +1,1 @@
+personas y buenos habitantes y por haber con el poder de Justicias sufi- ciente de fuerza, y pronunciación de leyes en derecho necesarias con la general en forma. En su testimonio así lo dicen y otorgan. No- fí- ma lo verdadero que hablan sobre sus acciones bajo la ley y las leyes.

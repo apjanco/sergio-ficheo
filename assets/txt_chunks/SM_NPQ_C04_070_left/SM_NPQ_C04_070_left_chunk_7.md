@@ -1,0 +1,1 @@
+general en forma. En su testimonio así lo dice orígen y firmó el señor comparseiente, y por la aceptante lo hizo el señor procurador general siendo testigos los señores Nicolás de Roxas, Eustaquio Polo y José María Prado vecinos.

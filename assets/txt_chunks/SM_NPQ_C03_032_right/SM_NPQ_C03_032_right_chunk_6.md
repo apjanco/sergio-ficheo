@@ -1,0 +1,1 @@
+General en forma. En su testimonio con aceptación de la libertad así lo dicen otorgan y firman los que saben, y por la aceptante lo hizo uno de los testigos que lo fueron los ciudadanos Agustín Daza, y Xsidro Periáñez vecinos.

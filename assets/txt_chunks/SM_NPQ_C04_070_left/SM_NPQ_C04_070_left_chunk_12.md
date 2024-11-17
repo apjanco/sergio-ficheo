@@ -1,0 +1,1 @@
+Para el señor fiscal que por ella le ha dado en dinero de 2000, el de cargo del vendedor la paga del derecho de alcarbala que ha satisfecho al señor administrador general de ellas quien en prueba de

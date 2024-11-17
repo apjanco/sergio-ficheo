@@ -1,0 +1,1 @@
+con las azarones personales, útiles, mixtos, directos, ejecutivas y demás que le competen con la condición dicha en el mencionado señor vicario Manuel Santos de Escobar, a quien confiere poder irre- vocable con libre, franca, y general administración y constituye pro-

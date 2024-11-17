@@ -1,0 +1,1 @@
+las copias autorizadas que quiera para su rescate y se obliga a no rebajar ni contradecir en manera alguna esta libertad y si lo bisispe quiere que no se le haga y admita en tribunal alguno como no se le puede hacer sin su consentimiento

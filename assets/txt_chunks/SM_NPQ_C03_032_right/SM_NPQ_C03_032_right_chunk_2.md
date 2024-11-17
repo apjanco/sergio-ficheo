@@ -1,0 +1,1 @@
+exportación voluntad, pues para ello formalizan a su favor esta escritura con los requisitos legales y precisos que sean condcentes a su mayor estabilidad. Me pide que de ello de los casos publicados y que se publiquen en el diario de la ciudad.

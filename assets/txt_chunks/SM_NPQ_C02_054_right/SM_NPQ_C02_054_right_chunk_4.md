@@ -1,0 +1,1 @@
+toca, sea visto por el mismo caso habéis aprobado, y ratificado con mayores vinculos y firmas, añadiendo fuerza a cuerpo y contrato a contratos y para su mayor y más puntual observación se imponen reciprocamente y convencionalmente la cero de quuos elitos

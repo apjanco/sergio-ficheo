@@ -1,0 +1,1 @@
+de estipendos que se me han venido desde el año de mil ocho - ciento cinco, hasta el presente tercer que esta a vencimiento de este año de mil ochocientos diez a razón de diez, y seis pesos castellanos que por composicion me obligue a pagarle, y a cuya

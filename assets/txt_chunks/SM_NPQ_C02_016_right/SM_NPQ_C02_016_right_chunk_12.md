@@ -1,0 +1,1 @@
+han vendido a Don Melchior de Nectancur una negra llamada Ria. Quibdo enero 23 de 1810. Jose Maria Valencia

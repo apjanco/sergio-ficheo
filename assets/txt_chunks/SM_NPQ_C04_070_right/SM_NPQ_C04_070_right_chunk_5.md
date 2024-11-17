@@ -1,0 +1,1 @@
+se desiste, quito, y aparta del derecho de acción, poseión, propiedad, dominio, y señorío que a dicha esclava tenía adquirido; y todos con el de go- tronato y demás que le correspondan, los cede, renunciar, y traspasa en el comodador y sus herederos que en señal de posesión, y para título de

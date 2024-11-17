@@ -1,0 +1,1 @@
+Y manos es obra de la naturaleza, sometida a las leyes de la naturaleza, y forma que más haya lugar en derecho. Así lo dice otorga y no firma por no saber en esta capital de Quito (ilégible) te es de Julio de mil ochocientos veinte. Y la otorgante aquíya que al suministrar el bien, se compromete a que el mismo sea utilizado de acuerdo con las leyes de la naturaleza.

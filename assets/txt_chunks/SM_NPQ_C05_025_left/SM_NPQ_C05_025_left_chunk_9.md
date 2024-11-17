@@ -1,0 +1,1 @@
+alcura a razón de 19 patatas y ultimamente para huirse le yo otra partida deficiente y azoro que fue un quintal y 15 libros y 16 libras de azoro, este a razón de escudo, cuya cantidad se me

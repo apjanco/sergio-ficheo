@@ -1,0 +1,1 @@
+refirió con los tribunales presentes y pidió de su parte con el poderío de Justicias Sumisión de fuerza y renuncia de leyes en derecho necesarias con la general en forma. En su testi- monio con aceptación del señor don Miguel Buch a nombre y en virtud de sus documentos que al efecto tiene del comandante.

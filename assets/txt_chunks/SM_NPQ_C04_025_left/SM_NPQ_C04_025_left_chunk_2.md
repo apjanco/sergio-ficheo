@@ -1,0 +1,2 @@
+Lo del chivo que de estima mi pobre. Es virtud a nombre de su parte se deshe quita y aparta del derecho acciones posesion pro
+piedad dominio y señorío que al indicado pablo tenia adquirido y todos con el de patronato y demás que le corresponden los cede

@@ -1,0 +1,1 @@
+efecto irrevocable, y irreparable esta transacción sin tonos sus partes, sin que tampoco los sosios del uno de los otorgantes ni los herederos de ambos tengan permitido jamás intentar ninguna acción en contrario, antes si serán compelidos en eso necesario

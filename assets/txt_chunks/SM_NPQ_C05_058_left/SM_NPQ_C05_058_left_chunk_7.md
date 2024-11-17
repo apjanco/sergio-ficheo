@@ -1,0 +1,1 @@
+Xt Declaro de yo a Ana Maria de los Santos veinte pesos de dos marcos que le compro, declaro solo para que conste y al Radio Sarra, o sus herederos nueve pesos, declaro lo para que conste

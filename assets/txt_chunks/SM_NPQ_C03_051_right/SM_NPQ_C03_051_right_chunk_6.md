@@ -1,0 +1,1 @@
+su entera satisfacción y contenido sobre que por motivo de pre-sente su recibo para que yo dicho escribiera de acuerdo el la con-fresa y renuncia alegar de contrario la excepción de la non numentante, resumi expresando la del recibo termina encima y

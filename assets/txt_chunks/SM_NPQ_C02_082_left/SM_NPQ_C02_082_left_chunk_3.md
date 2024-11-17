@@ -1,0 +1,1 @@
+Don Gabriel Andrade, Manuel 087498, y Francisco de paz vecinos de esta dicha ciu- dad de que doy fe.

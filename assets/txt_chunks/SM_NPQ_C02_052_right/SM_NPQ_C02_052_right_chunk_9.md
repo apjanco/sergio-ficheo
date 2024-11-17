@@ -1,0 +1,1 @@
+Así lo dijeron, otorgaron y formaron siendo testigos el señor Don Miguel 96 y Buc, el señor Don Joaquín Freire de Andrade y Don Agustín Romero Vecanos

@@ -1,0 +1,1 @@
+al comprador en quieto y pacífica posesión y no exigiéndose la sanción le devolverá la suma recibida y le pagará las costas y gastos de su incertidumbre cuya prueba defiere a su simple juramento relevándole de otro aunque por derecho se re

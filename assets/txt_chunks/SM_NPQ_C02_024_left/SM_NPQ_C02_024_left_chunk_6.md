@@ -1,0 +1,1 @@
+Ytem asimismo declaro que en poder de Ysidro pereñerengo tengo empeñada una cruz de oro en peso cinco y medio cias- bellanos por cuatro que el me suplio mundo a mis albaceas

@@ -1,0 +1,1 @@
+cesite de otro acto de aprensión de quehorrorsleves, y te obliga a la excisión y saneamiento de esta ventana a su costo y men- ción hasta dexar al señor comprador en quiera y paciera su- sesión y no pudiendo la semej le devoisfita la suma recibida

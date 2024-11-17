@@ -1,0 +1,1 @@
+Dicho por principio, con la cantidad de dinero que tengo en la cuenta general que por duplicado tengo remitida a mi hermano político Don Gabriel y sus hijos, remitiendo-me en todo a dicha cuenta, cuyo tanto queda enero de maquader

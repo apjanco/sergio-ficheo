@@ -1,0 +1,2 @@
+Se desiste quiy y aparto del derecho de excion posesión propiedad dominio y señorío que a dichos esclavos Domingo y x
+65y Dionisia y Manuel Santos sus hijos tenían adquirido y todos con el do cabrato y dinero que les habían dado y todos con

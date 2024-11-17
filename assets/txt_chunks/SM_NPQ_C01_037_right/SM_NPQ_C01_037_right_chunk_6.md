@@ -1,0 +1,1 @@
+dor y quien la suya tenes, para que esta su esclava sujeta a servidumbre y dispongo de ella a su arrietro mediante a que la adquirio con legitimidad, obligandose a la exicion, seguridad y cumplimiento de esta vento,

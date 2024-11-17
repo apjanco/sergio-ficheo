@@ -1,0 +1,1 @@
+correspondiente catipendio, por no haber capellan propio por arregllo a la donacion de diez pesos castellanos y lo que deforo y mando se paquen en descargo de mi conciencia y se hallan los re-

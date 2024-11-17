@@ -1,0 +1,1 @@
+lunidad que valga este que agora otorgue serrado y sellado con siete sellos, para que después de mi muerte se obra y publique, y se le de toda la fuerza y valor que en derecho corresponde, y para que conste la firma de mi pino y letra en Quibdo a ocho

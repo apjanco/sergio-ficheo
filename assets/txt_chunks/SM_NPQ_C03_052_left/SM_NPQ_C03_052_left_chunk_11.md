@@ -1,0 +1,1 @@
+Hermanegildo por doscientos cinquenta pesos de plata. En su virtud otorga que da en pago y a cuenta de la deferida cantidad de mil pesos de plata al nomi- gado ferre. dicho eslavo Hermanegildo en la de doscientos

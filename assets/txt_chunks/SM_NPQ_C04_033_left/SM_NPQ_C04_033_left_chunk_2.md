@@ -1,0 +1,1 @@
+El esclavo Manuel Antonio había adquirido y todos con el de patronato y demas que le corresponde, la cedida renuncia y trastasga en el emorador y sus sub-

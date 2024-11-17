@@ -1,0 +1,1 @@
+Tremiendo ser suyo en pleno dominio y que en este concepto pueda disponer de el libremente a su adnitrio formaliza su favor esta escritura de lo que me pide le de las copias autorizadas quehe para su estesg

@@ -1,0 +1,1 @@
+quálicas fuerzas tenía adquirido la difunta bonàNicolasa Recetta hijo de la otorgante y todo lo cede, senuncia y traspasa en su favor dandoles el poder que se requiere y es necesario en su fecho y causá para que troben y controlen compren y vendan comparezcan

@@ -1,0 +1,1 @@
+Cualidades y aptitudes para el trabajo. Contra todo lo que se requieran. Y a la observancia y cumplimiento de todo lo referido se obliga. Corso persona y bienes habitados y por haber con el poder de Justicias.

@@ -1,0 +1,1 @@
+Estaban Arriaga mi hermano treinta y un pesos castellanos cuya procedencia es en esta forma: dice que satisface por el Don Miguel Almada y que se adora a Don Miguel Almada.

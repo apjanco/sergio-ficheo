@@ -1,0 +1,1 @@
+En el pueblo de San Francisco de Quibdo, capital de la provincia del citara a vembe y un días del mes de Junio de mil ochocien- tos ocho: Ante mi don Jose Dionisio de villar teniente de gober- nador de esta provincia y testigos parecio presente en la casa

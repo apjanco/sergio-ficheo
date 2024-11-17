@@ -1,0 +1,1 @@
+corriente, de cuya entrega y recibo doy fe, y de ellos otorgo a favor de dcha libertad el mas firme y eficas resguardo que a sus segundos conozc cga. En cuya virtud se desiste quieta y aparta del derecho, de acción, po- seccion, propiedad, dominio, y señorío, que a dicha negra Dominga te

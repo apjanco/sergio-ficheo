@@ -1,0 +1,1 @@
+Barbero de Santillana, al capitán Joaquín Acosta dos castellanos: al señor cura de Lloro un escudo; al padre polo un escudo; al señor Nicolas Roxas dos castellanos; al señor cura de Bebarga dos castellanos: a la señora Mercedes Mazuera un escudo: a Luis

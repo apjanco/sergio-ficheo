@@ -1,0 +1,1 @@
+Contrario la excepcion y ley de la non numerata pecuniaria la prueba de su entrega y mas del caso. Y declara que los cuatrocientos pesos de plata recibidos es el justo precio de dicho esclavo.

@@ -1,0 +1,1 @@
+67 raro. Y la observancia y puntual cumplimiento de todo referido es obligado dicho Alarcon cont todos sus bienes habidos y por haber con el poder de Justicias somisión de fuerza y penitenciación de les

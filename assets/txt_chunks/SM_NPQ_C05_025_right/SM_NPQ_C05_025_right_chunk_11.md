@@ -1,0 +1,1 @@
+Según consta de su carta, novena y seis castellanos le hicieron tomos de dinero y efectos suplidos para la mina y este se hizo cargo de su pago, mandose leccobre. Así mismo mede de Joaquín Rodríguez xecino de Bebará treintay tantos castella.

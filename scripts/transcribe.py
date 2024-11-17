@@ -54,6 +54,10 @@ def transcribe(
             print(f"[red]Skipping {image_path} due to size exceeding {max_size}px")
             continue
         
+        output_file = (output_folder / image_path.relative_to(collection_path)).with_suffix(".md")
+        if output_file.exists():
+            continue
+        
         messages = [
             {
                 "role": "user",

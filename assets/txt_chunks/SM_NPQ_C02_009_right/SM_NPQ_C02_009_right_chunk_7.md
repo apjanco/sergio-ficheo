@@ -1,0 +1,1 @@
+Se nombraron un abajo parecido presente en la casa de su marido. Dona Josefa Morano vecina de esta dicha provincia, mujer legítima de don Jose Ignacio Alarcón a quien conozco y con licencia que ante todas cosas aído y desiendo a su legítimo marido que la conduzca en mi presencia a vivir. Que vende en venta Reyly y

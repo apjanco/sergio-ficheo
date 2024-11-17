@@ -1,0 +1,1 @@
+lo asegura y se la vende en precio y cantidad de beneficio y los pesos castellanos entregados por el comprador en esta forma: los sesenta y ocho alteniente Don José Diosmoxilar

@@ -1,0 +1,1 @@
+propio historico empeno desde obligacion e hipoteca general mi especial que no la tengo como asa asegura y se los usa al nombrado Banco de Cordoba contodos sus vicios derechos hacas empres

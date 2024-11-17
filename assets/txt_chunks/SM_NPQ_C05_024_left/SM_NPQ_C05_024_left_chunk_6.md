@@ -1,0 +1,1 @@
+Marcelino Francisco, sombrero que estaba volvió, Martín subió, Mauricio hizo de los dechados y el mediano que llevaba de pechos nombrado Vicente, Trinidad de 15 años, Hipólito de 15 años el cual no era de la hacienda y yo compré en Santa Fe al señor Lama

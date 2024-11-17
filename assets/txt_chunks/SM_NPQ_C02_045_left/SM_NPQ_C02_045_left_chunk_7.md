@@ -1,0 +1,1 @@
+Jose Lucas Alarcon y su esposa Doña Niña Bescerra se desiste quita y apor- to del derecho de acción, posesión, propiedad, dominio y se- norio que al nomi- nado esclavo Jose Mario tenia adquirido.

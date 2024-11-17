@@ -1,0 +1,1 @@
+Y en cuanto a la escritura con los requisitos legales que sean precisos y conuestos a su mayor estabilidad: Me pide que de ella vea de la co- pia asturizada que quiera para su resguardo, y obliga su persona, y bienes a no serca a total iniquidad, interretarinesse.

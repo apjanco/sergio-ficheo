@@ -1,0 +1,1 @@
+Lado anualidad fuerza de la ley y cumplimiento de un amplio poder a los señores jueces de esta ciudad papa que la compelan a la observancia de este, como por sentencia definitiva pasada en autoridad de casa juzgado y consen- do que por tal la recibe, renuncian todas las leyes fueras

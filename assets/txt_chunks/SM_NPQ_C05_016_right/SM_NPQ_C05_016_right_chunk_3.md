@@ -1,0 +1,1 @@
+4. A declarado por hijos naturales míos a Manuela hija de ferroña fértil y María del Carmen hija de Catalina de la cruz a las cuales las recogi desde tierras y los he mantenido hasta ponerlas en estado, a la primera con Manuel María Cordero quien le en

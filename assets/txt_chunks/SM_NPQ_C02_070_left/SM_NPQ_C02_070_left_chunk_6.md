@@ -1,0 +1,1 @@
+De este hecho, la caja que se muestra y que dice "De los expresados creía que quince pesos de plata se confesaba el otorgante entregado a su voluntad y entera satisfacción, y a ma y por abundamiento yo dicho escribano que se de su recibo por haberse hecho a mi presencia el moneda de doblones de cordoba"

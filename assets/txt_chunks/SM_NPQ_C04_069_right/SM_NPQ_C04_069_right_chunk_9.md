@@ -1,0 +1,1 @@
+En la ciudad de Quibdo, capital de la provincia decitora a yente del mes de febrero de milochocientos veinte y uno. Ante muelles fijaron interino y testigos que se nombraron pareció en la casa de su morada el por presidente, Jose Yonacio Yarela, cura de las naturales de Toda

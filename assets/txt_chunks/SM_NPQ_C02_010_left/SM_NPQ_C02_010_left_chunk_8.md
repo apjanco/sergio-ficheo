@@ -1,0 +1,1 @@
+La boleta original del señor receptor de ellos que así encuña virtud que lo dicen otorgan y firman haciéndolo por la otorgante su dicho consorte por no saber escribir siendo tes tigados Don Manuel Scarpeta, Don Mario Sanchez y Joaquín Casas

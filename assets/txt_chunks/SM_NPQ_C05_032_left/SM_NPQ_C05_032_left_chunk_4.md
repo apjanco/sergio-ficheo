@@ -1,0 +1,1 @@
+35 a 40 años y otra negrita nombraña Petrona de edad de 10 a 12 años. Por un parde basles enque ba toda la rop de uso, de color, y otros trastes de nuestro difunto padre, que se apuntara.

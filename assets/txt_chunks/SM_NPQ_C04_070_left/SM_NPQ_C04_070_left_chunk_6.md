@@ -1,0 +1,1 @@
+Fue entregamiento de todo lo referido obliga sus bienes havidos y por hoyes, y los rentes de su patrimonio con el poder de justicias su- sión de fuerza y renunciación de leyes en derecho necesarias con la consciencia en su alma. Es un testimonio a su lide abogar y firmar el

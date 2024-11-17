@@ -1,0 +1,1 @@
+Para ello formalizo a suscribir esta legítima con los requisitos legales y precisos que son conducentes a su mayor estabilidad. Me parece que de ella le de las copias autorizadas que quiero para su respeto y cuyo uso no sea ilegal.

@@ -1,0 +1,1 @@
+Ya que no satisfaceres en la especie de moneda Zambó que ha expresado en el cuerpo de esta escritura a Don Manuel María Gamboa quaderado de Don Manuel Alvertó Guerrero presitívero y Cura de lloró ó quién su acción o desechó

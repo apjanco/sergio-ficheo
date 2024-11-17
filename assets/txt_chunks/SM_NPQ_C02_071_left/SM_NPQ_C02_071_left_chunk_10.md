@@ -1,0 +1,1 @@
+Hace, esta venta con elmba y aceptado respectivamente por ambas doy fe otorga: Que vende realmente y con efecto al ciudadano Jose Maria Vanegas vecino de la plaza de Cartagena y residente en esta una mulata su propio esclavo cautivo y sujeta a servidumbre nombre

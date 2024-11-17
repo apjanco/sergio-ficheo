@@ -1,0 +1,1 @@
+Fraron en mi poder y con absoluta Jurisdiccion perjudicaron a los herederos de mi segundo matrimonio, entregándole de toda la masa, lo que hubieron por comeniente dono miyerno Jose de Ayala como si estos bienes correspondieran a mi último ma

@@ -1,0 +1,1 @@
+ro los frecuentistas patacones, y más valor que con el tiempo haya adquirido el referido negro costos y costas, daños y perjuicios que se le irrogacen solo con su simple juramen- to en que se le televa de otro grujo aunque no desechase

@@ -1,0 +1,1 @@
+El capitán de Justicias ciudadanos sobre el niño Hlreda y su madre, y apoderado general de su ley hizo par Don Francisco Hlreda, según contra del que ante el escribano ciudadano Vicente Olga, han alabado el día y nombrado D.

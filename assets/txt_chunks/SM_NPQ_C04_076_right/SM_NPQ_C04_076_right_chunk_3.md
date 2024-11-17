@@ -1,0 +1,1 @@
+Portillo, y por decir el libertó no saber firmar lohizo a su vengo el señor Claudio Legl, siendo testigos los señores Eustaquio Polo, Francisco de Paz, y Nicolás de Roxas, vecinos Pedro Portillo. Apoderado del libertó no testigo Claudio.

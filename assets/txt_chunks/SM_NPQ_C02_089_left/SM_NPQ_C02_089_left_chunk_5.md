@@ -1,0 +1,1 @@
+Ytem declaro que la media ysla de tierra perteneciente a dicha mi segunda muger la tengo cultivada con su buena casa bodega y dentro de ella los muebles de su servicio de que doro fazon la misma ya dicha mi esposa

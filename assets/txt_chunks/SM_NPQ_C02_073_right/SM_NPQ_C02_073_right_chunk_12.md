@@ -1,0 +1,1 @@
+24 v en la ciudad de Quibdo capital de la provincia del catarro a nue- ve de Marzo de mil ochocientos catorce. Ante mi el escri- bano x testigos que se nominaron parecio en la casa de

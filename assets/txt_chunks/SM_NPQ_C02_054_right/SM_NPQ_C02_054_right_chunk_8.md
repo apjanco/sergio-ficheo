@@ -1,0 +1,1 @@
+Sólo que en contrario, antes de ser firmados o firmados, se necesitan observarlos y completarlos literalmente sin interrupciones en su interpretación alguna; según y como quedan constituidos los otorgantes. Y a haber por firme que queda relacionado y a su total cumplimiento y ejecución se obligan con sus personas libres.

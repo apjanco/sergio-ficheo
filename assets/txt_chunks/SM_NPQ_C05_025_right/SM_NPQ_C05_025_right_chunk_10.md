@@ -1,0 +1,2 @@
+por su valor, pues el negro era moso y me costó 350 fuertes. Desclaro lo para que conste
+68 yem declaro me debe Don Manuel Valencia y Valencia, según consta de su carta poyunto x sus costellaciones amn

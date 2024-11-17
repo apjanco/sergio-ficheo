@@ -1,0 +1,1 @@
+La venta de esta venta a su costa y men- sión hasta dejar al comprador en quieta y pacífica posesión y no podiéndose la sanear le devuelve la suma recibida y lepa para las costas y gastos de su incertidumbre cuya prueba di-

@@ -1,0 +1,1 @@
+Elías y quierenle a la señora Rosa de Oryalles para que los haya goce y disfrte con la bendición de Dios y la misa. Y tem asimismo para cumplir y para este mi testamento, mandos, legados y todo lo en el disposto nombra por mi.

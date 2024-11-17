@@ -1,0 +1,1 @@
+los doce días del mes de Marzo de mil ochocientos veinte y tres. Ante mi escribano y testigos que se nombraron pa

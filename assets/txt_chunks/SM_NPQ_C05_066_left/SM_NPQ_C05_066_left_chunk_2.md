@@ -1,0 +1,1 @@
+hacia legítima de Don Bartolome Polo y de Doña Francisca Con- dova todos vecinos de esta ciudad hallandome enferma del cuerpo, pero en mi entero x sono Juicio, memoria, entender-

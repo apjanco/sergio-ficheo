@@ -1,0 +1,1 @@
+fue de esta provincia Don Jose Morra Valencia, sucedida treinta de Abril de mil ochocientos seis, vendia y da en venta real y perpetua enagenación desde ahora y para siem

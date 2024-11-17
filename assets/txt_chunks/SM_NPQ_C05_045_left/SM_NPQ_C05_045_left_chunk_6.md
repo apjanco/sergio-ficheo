@@ -1,0 +1,1 @@
+escrito y testigos que se nombraron papelito presente el señor Manuel flores de este vecindario a quien yo conosco, y otorga: Que como afodeado general del senor Juan Antonio ferro de esta vecindad vende realmente y conojecto

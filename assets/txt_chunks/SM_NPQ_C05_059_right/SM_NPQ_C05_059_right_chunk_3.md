@@ -1,0 +1,1 @@
+San Antonio en la Xglesia de Bela- ra declarando que le debe una visita de tres días: Que se diga una misa resada a nuestra señora de la pobreza de castigo.

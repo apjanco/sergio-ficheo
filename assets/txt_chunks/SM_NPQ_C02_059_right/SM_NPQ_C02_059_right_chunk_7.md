@@ -1,0 +1,1 @@
+de la cuenta su mujer en cantidad, el primero de tres sujetos pesos de plata y esta última en ciento quarenta moneda 125 x que ambas partidas componen la total de quatro cuentas quarenta pesos de plata los mismos que confiesa el ofertante tener necesidad

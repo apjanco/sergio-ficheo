@@ -1,0 +1,1 @@
+Man por aci no sabe y lo hace a su gusto, tres tigres que lo fueron Don Jose Gaes, Don Gabriel Andrade y Don Santiago Polo vecinos. Joseph Gaes Gabriel de Andrade Ante mi vicente Olachea

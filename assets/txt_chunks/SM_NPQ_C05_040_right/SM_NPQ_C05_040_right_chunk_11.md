@@ -1,0 +1,1 @@
+4o y demos que le corresponden los cede, renuncia y tras-pasa en el comprador y sus sucesores, que en año de posesión y para título de ella otorga su favor esta escritura por la cual no desear haberla adquirido sin que necesite de otro

@@ -1,0 +1,1 @@
+Corriente de escrituras le oficio el día diez y siete de junio del año proximo pasado de mil ochocientos doce. En cuya virtud lo ha poseído por cinco propios hore de enemigo deuda obligación e hipoteca especial nigrinetal que no lo hiene como así lo asegu

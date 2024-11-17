@@ -1,0 +1,1 @@
+Maj. la vendedora por no saber, hacedo su hijo legítima ciudadana Maria Agustina Conto, siendo testigos los ciudadanos Antonio García y folcloristas Nicolás de Baras, y Joaquín Moreno vecinos. En este estado y hollandose encima la hija, sugiso la otorgante

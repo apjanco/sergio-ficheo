@@ -1,0 +1,1 @@
+El libro de bordes y el libro de bordes que se me ha dado, produjo más de 300 páginas y la ley fue de 22 quintales y 3/4 y que la misma debe haber dado el primer de jitos los cuales están en el libro de bordes.

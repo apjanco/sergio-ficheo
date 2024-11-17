@@ -1,0 +1,1 @@
+curador actor en su propio negocio para los goze, y administra sin dependencia ni intervención de la otorgante tome y aprendió de su autoridad o judicialmente la tenencia y posesión que en virtud de este instrumento le pertenece, y para que no necesite tomar

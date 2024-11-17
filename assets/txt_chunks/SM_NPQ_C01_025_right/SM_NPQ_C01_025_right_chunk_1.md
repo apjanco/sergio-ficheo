@@ -1,0 +1,1 @@
+los cuatro años en ella declarados para repetir el engaño de lo que se comporte, venda, o permita, por la mitad más o menos de

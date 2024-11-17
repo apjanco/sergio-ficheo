@@ -1,0 +1,1 @@
+favor des esclavo Ignacio, confesía en Querido días y siete de febrero de mil ochocientos días y siete el que original se agrega y dice que por custos motivos que le ganadora da y concede plena libertad a Ignacio

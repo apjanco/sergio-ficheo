@@ -1,0 +1,1 @@
+Espímosa, vecino de la ciudad de Cali a quien hoy se conocía y otorgó Que por sí y a nombre de sus herederos y sucesores vende realmente y con efecto a José María Cardenas un mulato su propio esclavo y sujeto a servidumbre nombrado Leonardo que le hubo por con

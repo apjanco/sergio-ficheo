@@ -1,0 +1,1 @@
+De ella la confesada y renunció decía contrarió la excepción de la non numerata pecuniaria prueba de sucedido y mas del caso. En cuyavidad se desiste quiy y aparta del derecho de propiedad de munio y señorío que al referido seldo petronilo tenía adquiri

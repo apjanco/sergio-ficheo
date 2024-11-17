@@ -1,0 +1,1 @@
+y cantidad de siento y siento pesos de plata que le a dado en dinero de contado siendo de cargo del otorgante la ojala del de secho de alzabala como consta de la boleta que se inserta y

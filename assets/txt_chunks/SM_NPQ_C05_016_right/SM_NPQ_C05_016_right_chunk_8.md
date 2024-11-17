@@ -1,0 +1,1 @@
+Pasto san Antonio Santacruz, y para ayuda de los cargos del matrimonio le mande por mano de mi hermano político 200 patas que quien se los entregue, y después que vino le doné y le entregue que no se nombrada Juan bajo este estamento.

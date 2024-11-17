@@ -1,0 +1,1 @@
+a su costo y mencion hasta dexar al comprador enquta esquia y no pudiendolo aeguar le devolusta los trescientos quarenta pa-tacones recibidos con las costas que de la incertidumbre se le sigieren cuya prueba difiere a su simple juramento dele

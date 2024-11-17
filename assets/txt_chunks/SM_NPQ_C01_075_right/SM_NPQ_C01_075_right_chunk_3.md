@@ -1,0 +1,2 @@
+za y el ilegible, y consta quien oya lugar en grado de sentencia en favor de la esclavo
+69 y declaro que deso otro litigio pendiente sobre una dona y de recho de tierras que me hizo mi padre el que esta en escrito

@@ -1,0 +1,1 @@
+pasá en el comprador y en quien su causa y derecho húdie, que en señal de posesión y para título de ella otorga a su favor esta escritura por la que ha de ser visto haberla adquirido sin que necesite de otro acto de agencia, que lo relata y se obliga

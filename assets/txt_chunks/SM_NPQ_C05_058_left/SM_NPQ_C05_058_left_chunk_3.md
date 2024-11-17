@@ -1,0 +1,1 @@
+cones los que le pague a Don Ramón de Diego Ximenes por dicho Gutierrez. Declararlo para que conste Y Declaro que el mismo Gutierrez me debe docientos Yeunte castellanos los cuales devino a Don Lucas Alarcon y

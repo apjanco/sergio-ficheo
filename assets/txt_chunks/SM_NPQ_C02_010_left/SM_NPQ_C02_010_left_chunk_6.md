@@ -1,0 +1,1 @@
+Compañía y apreciaron por todo rigor de derecho y vía ejecutiva como por control y sentencia pasada en autoridad de cosa Juzgada consentida y no apelada sobre que renuncia las leyes y privilegios de su favor conforme a derechos y estando presente

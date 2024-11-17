@@ -1,0 +1,1 @@
+La perpetua validación se requieren. Y a lo discurso y el virtual cumplimiento de todo lo referido se obliga con su person y bienes habitados y por haber con el poder de sus

@@ -1,0 +1,1 @@
+Mando el cual lo hubo en comparto que le hizo a Don Miguel Nizk como consta por escritura publica que ante mi y testigos le ofi- go con fecha de tres de febrero de mil ochocientos trece a que se remite. En cuya virtud lo ha poseido por soyo

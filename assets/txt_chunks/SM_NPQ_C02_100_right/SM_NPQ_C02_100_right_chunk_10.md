@@ -1,0 +1,1 @@
+X firmó en 1943, Vicente Olachea escribano público.

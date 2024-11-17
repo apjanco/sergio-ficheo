@@ -1,0 +1,1 @@
+daderas declaro, y uno para que conste - Primero,mente adeudo a mi parroco, Don Pedro Jose Doran ochenta, y ocho castellanos

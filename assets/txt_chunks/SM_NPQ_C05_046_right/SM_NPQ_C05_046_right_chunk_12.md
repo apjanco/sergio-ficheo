@@ -1,0 +1,1 @@
+El contrato de trabajo se encuentra firmado menos de un año del justo precio, y el término concedido para la rescisión del contrato o sus complemento. Mediante lo cual desiste qu

@@ -1,0 +1,1 @@
+parta desde hoy para siempre jamás del derecho de patrón, posesión propiedad dominio y señorío que a la misma Tomasa tenía adquirido y todos los cede renuncia y traspasa a su favor a fin de que sepanla a estas sujeta a segundo hombre y le consiguiere poder.

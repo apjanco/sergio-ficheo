@@ -1,0 +1,1 @@
+Estuve en la casa de mi padre, que tenía una plata que tenía que ser de mi pertenencia y encargó al interesado que tenga consideración a la pérdida pues no ha estado de mi parte, el que haya sufrido, ha quedado así

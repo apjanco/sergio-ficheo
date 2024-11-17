@@ -1,0 +1,1 @@
+Por lo asegura encomienda de trescientos parientes, la misma cantidad que recibe dicho sigüiente en pago de ciento quarenta y ochos pesos castellanos, siete tomones que le era deuda dona Ana de la cuesta, y por este hecho le cede, renun

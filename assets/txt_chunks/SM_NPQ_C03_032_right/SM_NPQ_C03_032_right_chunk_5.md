@@ -1,0 +1,1 @@
+ra su perpetua validación se requiera. / a la observancia y puntual cumplimiento de todo lo referido se obligan sus personas y die- nes presentes y futuros con el poderio de justicia, dimisión de fuero, y renunciación de leyes en derecho necesarias con la ge-

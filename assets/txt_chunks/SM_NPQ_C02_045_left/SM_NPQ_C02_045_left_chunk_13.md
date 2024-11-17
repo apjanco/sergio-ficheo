@@ -1,0 +1,1 @@
+bliggy con sus bienes presentes y futuros con el poderío de

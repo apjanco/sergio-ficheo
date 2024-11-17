@@ -1,0 +1,1 @@
+el poderío de Justicias, sumisión de fuerza y renuncia de lo -yes en derecho necesarios y clausula quarentiga que da por inserta para que le gestual que conforme a derecho - y estando presente don Carlosferter de la propia vecindad que deyese

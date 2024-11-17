@@ -1,0 +1,1 @@
+Todo lo cual quiere que valga en la vida y forma que merez lugar haya en derecho y manda se guarde cumplido, y execute muniblemente y revera, y amula dicho testamento en todo lo que fuere contrario a este seduilo, y en lo que sean consagrados en el nombre

@@ -1,0 +1,1 @@
+En el nombre de la santísima trinidad padre, hisoy espíritu santo Amen. Apunle que yo Melchor de Varona y Santracruz hago hoy dia 24 de setiembre de 1822, despe de haber o-

@@ -1,0 +1,1 @@
+La verdad que da por expresa y declarada para que la perdidiquie con la desfuer domicilio y vecindad la si convenirt f. --y general del derecho en forma y de estar satis- secha la Rea Alcalalá.

@@ -1,0 +1,1 @@
+Manuel Chombe quien por si y a nombre de su esposo concepción e hijos le tributos las debidas gracias: no afir man obréis no saber y lo hacen a su mejo dos de los hijos

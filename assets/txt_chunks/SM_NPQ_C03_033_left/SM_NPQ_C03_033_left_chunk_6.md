@@ -1,0 +1,1 @@
+la ley del ordenamiento real fecha en cortes de Alcalá de Henares y denías que habían en razón de lo que se compraba o vendía gobernantes ordinarios de la entidad del abajo procura y el término concedido para la rescisión del contrato o suplemento. Mediante

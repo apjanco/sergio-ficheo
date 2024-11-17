@@ -1,0 +1,1 @@
+La inscripción se encuentra escrita en un lenguaje que parece ser un idioma indígena o de origen indígena. Sin embargo, no puedo identificar el idioma o el lenguaje específico debido a la falta de información adicional.

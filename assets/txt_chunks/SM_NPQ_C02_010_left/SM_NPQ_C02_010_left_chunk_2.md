@@ -1,0 +1,1 @@
+y desde hoy en adelante se desapoderará desistir quitó y aparte del derecho de propiedad posesión dominio y señorío que a dicho esclavo tenía adquirido, y todo lo cede renuncia y traspasa en el com- prador para que como cosa propia habida con su dinero pueda vender-

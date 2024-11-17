@@ -1,0 +1,1 @@
+En la red Alzaburu, se agrega colección original del señor ministro receptor de ello que dice así - En cuyo testimonio y con aceptación del comitivador Córdoba, quien acismismo doy fe comenzó así dicen obligan y firma el que sabe ha

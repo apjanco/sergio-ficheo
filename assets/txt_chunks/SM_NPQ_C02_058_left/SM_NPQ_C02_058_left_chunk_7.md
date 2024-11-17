@@ -1,0 +1,1 @@
+corresponden los códigos renuncia y traspaso en el comprador que en señal de posesión y para título de ella otorga a sufrir esto. es factura por lo que ha de sepúrito haberla adquirido sin que necesite de otro acto de apreciación que lo releva, y se obliga

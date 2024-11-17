@@ -1,0 +1,1 @@
+quiero, y a la observancia x puntual cumplimiento de todo lo referido se obliga con su persona y bienes habidos, y por haber con el poderio de Justicias, sumision defuero y re-

@@ -1,0 +1,1 @@
+Polo de la propia vecindad a quien doy fe conozco y en la vida y forma que más haya lugar dijo: Que debe real y verdade- famente la cantidad de doscientos cinquenta pesos de plata que ha de satisfacer en la esencia de moneda como que-

@@ -1,0 +1,1 @@
+nida por derecho que fue dada la correspondiente por Mato- rana a su mujer Francisca Rentería y aceptada por esta y a la observancia y puntual cumplimiento de todo lo reciénse se obligan a los ofidantes el rafón con su persona y este y la mu-

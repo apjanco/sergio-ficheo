@@ -1,0 +1,1 @@
+Aunque por derecho se requiera, y a la observancia y pontual cumplimiento de todo lo referido, obliga a su parte con la persona y bienes presentes y futuros con el pedido de justiciar su misión de fuego y renuncia de leyes en derecho necesarias

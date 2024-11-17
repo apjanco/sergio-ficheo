@@ -1,0 +1,1 @@
+En la ciudad de Quibdo, capital de la provincia de Citarra, a qua- tro de Abril de mil novecientos diez y seis. Ante mi el alcalde ordinario de segunda nominación y el oficial de escribanía fu- cultado para actuar por el (legible) colegio electoral y tri-

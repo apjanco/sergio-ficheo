@@ -1,0 +1,1 @@
+Ma y residente en esta a quien doy fe conozco y dijo: Que le pertenecen en propiedad y posee una mulata nombrada Manuela

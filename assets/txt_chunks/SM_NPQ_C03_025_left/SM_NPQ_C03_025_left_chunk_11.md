@@ -1,0 +1,1 @@
+El muro de todo lo referido obliga las bienes de su parte ha bidos y por haber son el poderio de justicias sumisión de nue ro y renunciación de leyes en derecho necesarias con la general enferriz que en cuyo testimonio con aceptación del hombre

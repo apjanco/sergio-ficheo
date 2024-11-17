@@ -1,0 +1,1 @@
+Lo que introdujo el, cuyo valor sería el de cien pesos cos- fellanos lo que declara para que conste 59 y tem declaro por bienes mios los siguientes esclavos: yes y sabia que Mas de 100.

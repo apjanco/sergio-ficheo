@@ -1,0 +1,1 @@
+ledera y volverá los doscientos pesos de plata recibidos con el más valor adquirido con el tiempo y las costas desn incertidumbre cuya liquidación y lasto difiere con el simple juramento de la parte interesada, y esta venta se la

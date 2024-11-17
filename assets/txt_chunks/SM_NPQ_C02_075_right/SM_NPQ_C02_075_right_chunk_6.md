@@ -1,0 +1,1 @@
+Estoy jubilado a servicio público y le conozco acreditado. Cable con libre franc y general administración para que todo contrato teste comparezca en juicio por si por medio de sus aprobados y practique sin intervención de los obreros.

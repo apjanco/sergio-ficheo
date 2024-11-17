@@ -1,0 +1,1 @@
+llars subíble de empeño, deuda, obligación e hipobeca especi- cial ni general que no lo tiene, y se la xende con todos sus vi- cios, tachas, y dos estos enfermedades publicas y secretas, en precio y cantidad de doscientos sesenta pesos de plata de

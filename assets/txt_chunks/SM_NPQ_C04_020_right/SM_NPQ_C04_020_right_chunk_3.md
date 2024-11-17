@@ -1,0 +1,1 @@
+tos cincuenta pesos de plata a favor de la pura concepción y las animas, que tiene depositado en favor de dicho Lucas por el de trescientos cincuenta y un pesos cuatro reales que le ha dado la comoradora en dinero de contado en el senor propietario

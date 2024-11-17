@@ -1,0 +1,1 @@
+La entrega de descartados pesados es mantenida que ha recibido de su mano, como se evidencia del documento original que se segrega y dice 951 y ratificándose en el recibo miento como verificador, se confiesa nuevamente entregado de dicha cantidad de

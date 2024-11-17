@@ -1,0 +1,1 @@
+miembro y voluntad tal cual Dios nuestro señor ha sido servido darme, temerosa de la niñez que es natural a todo viviente, y deseando arreglar mis disposiciones para cuando llegue el ca- so, asegurando mi conciencia, creyendo como firmemente creo

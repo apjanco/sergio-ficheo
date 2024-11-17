@@ -1,0 +1,1 @@
+Mediante lo cual se desvane cuya y quarto del derecho de acción posesión propiedad dominio y señorío que a dicho eschvo Tomás tenían adquirido y todas con el de patronato y demas que le corresponden los cede renuncia y trasposa en el comorrey

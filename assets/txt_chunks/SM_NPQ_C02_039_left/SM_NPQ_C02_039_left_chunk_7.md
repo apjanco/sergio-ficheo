@@ -1,0 +1,1 @@
+55r En la ciudad de Quibdo capital de la provincia del citante a venta y mo de Abril de mil ochocientos trece. Ante mi el escribano y testigos que se nombraron agraecía Nicolas Salazas vecino de ella a quien diray fe conozco y btorro: Que vende realmente y un

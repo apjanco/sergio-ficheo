@@ -1,0 +1,1 @@
+Exactamente no comprendo, pero ser un estudiante para aprender, o en la vida y forma que mejor lugar haya en derecho. Y el autor que yo el infrascrito escribano público y de gobierno de 63 esta provincia doy fe conozco así lo dixo y otorgo no fir

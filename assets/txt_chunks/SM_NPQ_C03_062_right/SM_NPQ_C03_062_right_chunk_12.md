@@ -1,0 +1,1 @@
+del derecho de alquiler que ha satisfecho al señor receptor de ellas quien en prueba de su recuerdo ha dado la boleta que se

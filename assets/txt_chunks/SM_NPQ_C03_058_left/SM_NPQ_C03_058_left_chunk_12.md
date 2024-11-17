@@ -1,0 +1,1 @@
+cientos cin cuenta diez de plata de aecho reales que parele la bado en dinicio del contado, siendo de cargo de la torgante lapa

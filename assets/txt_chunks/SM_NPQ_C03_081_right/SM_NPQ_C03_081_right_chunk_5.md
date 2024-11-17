@@ -1,0 +1,1 @@
+Negro tenía adquirido y toda la cede renuncia y traspasa en su favor a fin de que no vuelva a estar sujeto a servidumbre y le confiere por der irrevocable conlibre franca y general administración que

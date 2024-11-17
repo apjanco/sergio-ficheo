@@ -1,0 +1,1 @@
+Seguidora comienza. En ayu virtu se desiste quita y aparta del derecho, acción, posesión, propiedad, dominio y señorío que a dicho negro andres, tenía adquirido de las bienes de la mortuoria de la señora Manuelita Cordova, en remate, todos con el de patronato

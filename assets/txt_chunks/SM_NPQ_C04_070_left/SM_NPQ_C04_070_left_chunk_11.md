@@ -1,0 +1,1 @@
+gación @ hipótese especial ni general, que no la tiene como así lo qse- ría, y se la vende con todos sus vicios, tachas, defectos, enfermedades, públicas y secretas, en precio y cantidad de ciento sesenta pesos de plata de a ocho reales, que por ella le ha dado en ducado de contrado, sien

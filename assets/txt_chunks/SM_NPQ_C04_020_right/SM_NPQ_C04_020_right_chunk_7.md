@@ -1,0 +1,1 @@
+que tenga el insinuado esclavo Lucas, quien no vale más y aunque más valga de su demasia en mucha o poca cantidad hace gracia y nación a la compradora y sus herederos buena para meri perfecta e irreforcable intervivos con la insinuación y renunciación

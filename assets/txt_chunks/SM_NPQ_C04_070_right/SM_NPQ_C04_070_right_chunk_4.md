@@ -1,0 +1,1 @@
+Saria, sobre que renuncia la ley del obradoramiento real fecha en corso de Alcalá de Henares, y demas que hablan en razón de la que se compra y vende por mas o menos de la mitad del justo precio, y el termino concedido para la rescicacion del contrato o su suplemento. Mediante la cual,

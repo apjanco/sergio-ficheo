@@ -1,0 +1,1 @@
+testamento que agora otorgue, rebocó y anule otros cualesquiera testamentos codiculares o poderes que haya hecho para testar o en otra forma, y solo quiero y es mi voluntad que valga este que agora otorgue serrado y se

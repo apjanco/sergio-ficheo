@@ -1,0 +1,1 @@
+Antonio Valenciana bueno de minas y exlosos en esta dicha provincia, como es de verse por la respectiva escritura que ante mi también y testigos le otorgo en esta miuoma capital a treinta de enero de mil ochocientos diez y sete, en cu

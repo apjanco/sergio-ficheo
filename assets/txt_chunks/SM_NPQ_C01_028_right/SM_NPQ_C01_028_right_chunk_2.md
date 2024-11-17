@@ -1,0 +1,1 @@
+Sacinto del quio como lo declara el compromiso hecho de la negra Joaquínia quarenta pesos de oro = Santiago Cordova quarenta y nueve pesos y cinco tomines = Micanzadre fral- cisco de Meno de la plataing tres pesos y declora que 20 Dui

@@ -1,0 +1,1 @@
+pesos de plata si A punto de hacienda y engañada las y gastos de su incertidumbre cuya prueba difiere a su simple juramento relevandole de otra aunque por derecho se 94 y requiere. A cuya observancia y puntual cumplimiento de todo lo referido obliga los bienes presentes y futuros de su parte con

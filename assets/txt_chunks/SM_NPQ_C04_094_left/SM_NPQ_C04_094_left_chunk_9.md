@@ -1,0 +1,1 @@
+13º Y ten mando a mis alvasenas que le den a mi hermana Maria Ana la mulitica. Junta Maria hizo de Santos la mulitica, de duyendo el valor de esta mulitica del quinto de mis bienes - 14º Y ten que es mi voluntad que el resto del quinto de mis

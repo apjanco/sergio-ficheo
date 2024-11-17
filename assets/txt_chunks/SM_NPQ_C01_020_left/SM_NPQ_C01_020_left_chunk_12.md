@@ -1,0 +1,1 @@
+que no la tiene fácil ni expresa y portal se lo tiene cedi- do y en prueba de ello desde hoy en adelante se desiste de sapodera quita y aparta del derecho posesión dominio,

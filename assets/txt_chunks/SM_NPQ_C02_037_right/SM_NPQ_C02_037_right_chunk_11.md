@@ -1,0 +1,1 @@
+Vende realmente y con respecto al señores Don Francisco Xavier de Conto un negro propio de su parte cautivo y sujeto a ser vidumbre nombrado Apolinar el mismo que procede de su quadri y se hallo libre de censo emprendo dada obligacion e hipote

@@ -1,0 +1,1 @@
+Incomparable, con libros, francia, y general administracion para que trate, contrato feste, comparecida en suico por 10 por medio de sus gooderados y practique sin intervencion del obargante

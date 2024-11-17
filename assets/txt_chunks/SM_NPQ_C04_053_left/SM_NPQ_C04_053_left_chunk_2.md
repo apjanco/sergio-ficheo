@@ -1,0 +1,1 @@
+ochocientos veinte: Ante mi escribano provincial y festigos que se nombraron parecio presente en la casa de sumarada el ciudadano Melchior de Varona, y vetancus, vecino de esta a quien ay fe conosco y otorga ratificandose en el documento, simple que tiene ofertado en

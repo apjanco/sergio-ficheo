@@ -1,0 +1,1 @@
+La necesaria sobre que renuncia la ley del ordenamiento Real fecha en cortes de Alcalá de Henares, y demos que hablan en razón de las cosas que se compran y venden por más o menos de la mutud del justo precio y el término concedido para la sesión.

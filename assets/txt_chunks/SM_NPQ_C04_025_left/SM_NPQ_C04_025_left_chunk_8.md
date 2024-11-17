@@ -1,0 +1,1 @@
+de fuerza y renuncia de ley, enderecho necesarios con la general encarnación en su testimonio y estando presente el liber- to para la aceptación de esta escritura la firma el otorgante sin- de testigos. Don Carlos Froses y Ximé de Jaquín Alexander.

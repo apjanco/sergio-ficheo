@@ -1,0 +1,1 @@
+Esta carta a la señora y señoría, para dar a conocer la situación en que se encuentra, y que no puedo hacerse sin su consentimiento, ya que la información que deseo recibir y la paga por las costas que de su muerte, se siguen en la cual prueba desfiere a su simple juramento relativo de obra, pero que desea ser pagada.

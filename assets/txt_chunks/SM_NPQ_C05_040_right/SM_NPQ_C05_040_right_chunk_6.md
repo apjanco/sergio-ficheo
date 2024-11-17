@@ -1,0 +1,1 @@
+de empeño deuda conozación e impazidad especial en general que no la tiene x se lo vende con todos sus vicios, tachos, defectos, encimeredades publicas y secretas en precio y cantidad de cien pesos de plata de acho reales que por el le ha dado el com

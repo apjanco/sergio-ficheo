@@ -1,0 +1,1 @@
+Esto venido de esta dicha capital de la cantidad de mil pesos de plata por escriftería pública, y no hallándose con el dinero se ha convenido el señor elijorante con dicho apoderado en darle en parte de papa un negro esclavo de la misma testamen

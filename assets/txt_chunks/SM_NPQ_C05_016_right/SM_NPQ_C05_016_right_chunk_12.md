@@ -1,0 +1,1 @@
+do el dinero necesario para toda, le encargue cordiges e mi familia hasta ponerla en el Barro ha entregarlo a Don Manuel valver

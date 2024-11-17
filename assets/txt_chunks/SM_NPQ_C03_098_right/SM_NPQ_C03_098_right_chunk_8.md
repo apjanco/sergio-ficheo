@@ -1,0 +1,1 @@
+Aunque por derecho se requiera. Y la observancia y cumplimiento de todo lo referido se obliga con su persona y bienes habidos y por haber con el poder de Justicia, sumisión de fuerza y renunciación de leyes de su favor son lo que prohíbe

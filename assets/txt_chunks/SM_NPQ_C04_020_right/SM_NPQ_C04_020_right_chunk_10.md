@@ -1,0 +1,1 @@
+Los cede renuncia y traspasa en la compradora y sus sucesores que en señal de posesión y para título de ella otorga a su favor esta escritura por la que ha de ser vista haberla adquir

@@ -1,0 +1,1 @@
+nex testamentarias que antes de ahora hubiese hecho por es- crita, de palabra o en otra forma para que ninguno no valga, ni ha- ce y solo quiero que este testamento se observe como mi última y delivada voluntad, y como tal se cumpla exacta-

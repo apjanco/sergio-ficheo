@@ -1,0 +1,1 @@
+la tiene y selovende empreidyoy cantidad de Noventa y sise de plata de acho requeles que por el le ha dado se compadador en dinero de contado sobre que renuncia decir lo contrario, lo excepcion de la non numerata pecunia su propia la del recibo

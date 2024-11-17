@@ -1,0 +1,1 @@
+En los santos apostoles son Pedro y San Pablo, y en todos los demás de los más santos y santas de la corte del cielo para que intercedan por mi salvación, y en los demás misterios de la Santa Madre, que hablando me cuyera del cuerpo y en el lugar de muerte

@@ -1,0 +1,1 @@
+y por haber con el poderío de Justicias sumisión desfro y renuncia de leyes eu derecho necesarias con la general en forma. En su testimonio con aceptación del comprador las lo dicen otorgan y forman quienes doy

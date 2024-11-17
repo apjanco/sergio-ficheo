@@ -1,0 +1,1 @@
+Juan Antonio ferro Gabriel An- drade y fernando ferrer vecinos en Quirodo y sobremiere diez mil ochocientos catorce

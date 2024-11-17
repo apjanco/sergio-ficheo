@@ -1,0 +1,1 @@
+Manuel Salvador Cordova Mené, cuatro pesos cuatro... por el derecho de Alcalá al 2 por ciento deducidos de doscientos... y cinco en que ha vendido a don Francisco Xavier de... un negocio llamado Manuel Quijdo noviembre 25 de 1808.

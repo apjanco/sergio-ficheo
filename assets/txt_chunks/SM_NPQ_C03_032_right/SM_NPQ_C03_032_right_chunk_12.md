@@ -1,0 +1,1 @@
+conferidas obriga; que sende fealmente y con efecto al onora-ble ciudadano ministro del tesoro, público, Joaquín Freire de An- drade vesino de esta ciudad una negrita propia esclava de su

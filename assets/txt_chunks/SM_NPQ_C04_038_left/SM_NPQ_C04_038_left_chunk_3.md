@@ -1,0 +1,1 @@
+deservía haberla adquirido sin necesidad de otro acto de 4-precisión de que lo reexa, y obliga germismo ascípate a la evolución y sanamiento de esta venta ascosta y mencion hasta dexar al compondor en quinta y pacífica posesión y no pudierosela sanar

@@ -1,0 +1,1 @@
+con de leyes endere necesarias con la general en forma y con la aceptación de la dicha legataria así lo di-xeron y otorgaron firmar la que sabe y por la que dijo no sa-ber lo hizo y su ruego una de los testigos que lo fueron Don

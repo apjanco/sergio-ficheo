@@ -1,0 +1,1 @@
+Blanca Cervadona, María Rosalia de Cordova, que consta en el libro de cuentas, queda libre Nicolasa es laya propia de la finada, madre de los ofrantes, los que le dan a nombre de la mencionada carta de hogar y libertad en forma. Enca ya urbano de sus autor y escrito del autor pasó.

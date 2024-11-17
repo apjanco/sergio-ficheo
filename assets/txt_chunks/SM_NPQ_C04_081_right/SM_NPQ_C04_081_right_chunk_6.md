@@ -1,0 +1,1 @@
+Es entre otros herederos en bien particulares con espíritu igual a derecho a los dos menores. Mi baul y ropa de uso, de lo que formara inventario. Un relax que se halla en poder del senor Jose Maria Domínguez y es de primera de plata. Un condelerio de plata y un ilegible: una

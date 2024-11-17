@@ -1,0 +1,1 @@
+Sin certidumbre cuya prueba defiera a sus simples surgimiento relevandole de otra aunque por derecho se requiera. Y a la observación y puntual cumplimiento de todo lo referido se obligan con sus bienes hígidos.

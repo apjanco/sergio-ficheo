@@ -1,0 +1,1 @@
+Ha satisfecido el presidente Don Manuel Alberto Guerrero en esta contaduría de mi cargo ocho pesos de plata por el derecho de Alcalavala al 2 por ciento deducidos de cuatrocientos en que

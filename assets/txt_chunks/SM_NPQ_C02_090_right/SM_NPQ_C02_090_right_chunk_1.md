@@ -1,0 +1,1 @@
+obliga el otorgante y no reclamar ni contradecirse en manera alguna esta libertad, y si lo hiciere quiere que no se le ci

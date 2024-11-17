@@ -1,0 +1,1 @@
+que con el tiempo haya adquirido dicho negro, los costos y perjuicios que se le impongan solo con su simple juramento, que se le relève de esta prueba aunque pordere, que se requiera y esta venta se la hace con todos los vicios

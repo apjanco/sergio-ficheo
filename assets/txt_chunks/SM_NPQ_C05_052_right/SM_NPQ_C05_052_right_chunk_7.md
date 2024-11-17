@@ -1,0 +1,1 @@
+poderío de justicias sumisión de fuerzo y renuncia de lesyes en derecho necesarias con la general enfornia. En cu- yo testimonio, con aceptación del comprador así lo dicen, forgan y firma el que sabe haciendolo por el aceptante uno de las

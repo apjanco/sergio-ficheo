@@ -1,0 +1,1 @@
+Los requisitos legales que sean precisos y conducentes a su mayor estabilidad. Me pide que de ella le de las copias autorizadas que quiera para su resguardo, y se obliga el otorgante a no reclamar ni contradecir en

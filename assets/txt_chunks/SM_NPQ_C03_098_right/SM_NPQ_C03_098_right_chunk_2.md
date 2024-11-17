@@ -1,0 +1,1 @@
+La nacional al comprador y sus herederos bueno para mi bien perfecta. Ha irrevocable entrevistas con la inmigración y renuncia necesaria sobre que renunciar la ley del ordenamiento Real fe

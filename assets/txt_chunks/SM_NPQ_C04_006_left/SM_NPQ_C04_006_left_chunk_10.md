@@ -1,0 +1,1 @@
+evicción segura, Sanlamento y firmeza de esto venta a la 43 costas y mencion suya hasta desap a la compradora enquiety pacificar posesion y no pudiendosele sanear le devolvera los doscientos patacanes recibidos y le pagara los costas y gas

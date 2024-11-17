@@ -1,0 +1,1 @@
+testigo fue a su abogamiento. En cuya fe signo y firmó en el día de su fecha Vicente Olacchea

@@ -1,0 +1,1 @@
+donde y contiende el vendedor que los trescientos patas de las es el justo precio, y verdadero valor de dicho negro tomás, que no vale más, y caso que más balgo, de su demasia en poca o mucha suma le hace gracia, donde de su parte, alcom

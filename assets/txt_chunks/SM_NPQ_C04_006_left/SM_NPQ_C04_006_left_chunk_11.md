@@ -1,0 +1,1 @@
+tos de su incertidumbre cuya prueba defiere nusimple juramento relaxandole de otro aunque por derecho serreque- ra. Y a la observancia y puntual cumplimiento de todo lo refe-rido obliga los buenos de su parte, habidos y asinhabidos con el mismo derecho.

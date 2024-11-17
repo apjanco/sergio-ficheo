@@ -1,0 +1,1 @@
+Ayer el señor de la Cuenca y alcalde que tendy de la ciudad y alcalde x perpetua enganacion desde ahora para siempre. Jamas al señor teniente de gobernador de esta provincia don

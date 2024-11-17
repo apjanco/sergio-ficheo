@@ -1,0 +1,1 @@
+quiétay pacífica pocección; y de no poderia hacerle devolverse el importe de esta venta, y más valor, que con el tiempo haya adquirido el referido negro, costos y costos, daños y perjuicios, que se le irrogacen, solo con el simple juramento en que le piden

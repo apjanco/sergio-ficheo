@@ -1,0 +1,1 @@
+Necesito cuya cantidad le entregue a Cordoba en 24 de Noviembre de 1808. Los que seran abonables a la escritura que debe satisfac- cer la petrona a su hija Manuela declaralo para que conste. SAYT declaro que Maria del Carmen hizo de Catalina, la casa en

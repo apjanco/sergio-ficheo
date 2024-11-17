@@ -1,0 +1,1 @@
+y testigos que se nominaron parecido en la casa de sumorio enfermo en camara Don Juan Antonio Ramirez vecino de ella q quien do fe conozco y aixo: Que el dia diez del corriente mes y ano estorgo ante mi testigos cadicilo del qual ha delibereado entorolar una clausula y comiendo en execucion por

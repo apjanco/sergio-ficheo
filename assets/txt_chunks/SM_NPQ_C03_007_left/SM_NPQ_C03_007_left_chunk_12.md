@@ -1,0 +1,1 @@
+Luis Carlos Domingo tenía adquirido y todos los mos

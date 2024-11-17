@@ -1,0 +1,1 @@
+distrito el pago que Justamente se me debía hacer del alcá- ce indicado, y se libro para su ejecución la Real provisión del caso la que presentada ante los jueces de esta provin-

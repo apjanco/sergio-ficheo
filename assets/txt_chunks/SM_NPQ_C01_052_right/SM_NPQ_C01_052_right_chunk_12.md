@@ -1,0 +1,1 @@
+yo dicho teniente la certifique, y de ella renuncia la excepcion y leyes de supercrico, su prueba y demas del caso. Y confiesa el vende dor que los doscientos veinte y cinco pesos de plata recuvidos

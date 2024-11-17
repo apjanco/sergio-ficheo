@@ -1,0 +1,1 @@
+Para evitar la simplificación y distorsión de la suma recíproca de los costos de su incertidumbre, cuyo resultado puede diferir asimismo, el juramento relevando de otra aunque por derecho ser- guiera. Y a la observancia y puntual cumplimiento de todo lo referido es obligado con supuestos y bienes presentes y futuros como

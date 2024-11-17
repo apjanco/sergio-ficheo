@@ -1,0 +1,1 @@
+te mi escribano y testigos que se nominaron para en la casa de su morada lugarda de Torres vecina de ella quien y fe conoz co y otorga: Que da carta de ahorro y libertad en forma a Juana Manuela Rodriguez su propia esclava en el precio y santidad de

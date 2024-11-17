@@ -1,0 +1,1 @@
+la observancia y puntual cumplimiento de todo lo referido se obliga con sus bienes habitados por haber: Da poder a lossepo- res Jueces de su magistral para que la comielen y aprenen a ella como su sentencia definitiva pasado en autoridad de

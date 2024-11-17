@@ -1,0 +1,1 @@
+La ley es una herramienta que permite a los ciudadanos proteger sus derechos y garantizar su seguridad.

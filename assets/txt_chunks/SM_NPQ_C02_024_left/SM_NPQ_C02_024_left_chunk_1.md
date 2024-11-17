@@ -1,0 +1,1 @@
+con mis bienes los medios necesarios para que se le dijgan a mi señora de chiquinquira tres misas aplicadas por mi y uso abrumado por espacio de nueve dias en la

@@ -1,0 +1,1 @@
+me enfeñita del cuerpo, pero en mi entender y son juzio meritoria entendimiento natural tal cual Dios ha sido servido darme, creyendo como firmisimamente creo en el alto y santo santo misericordio de la santa trinidad padre hijo y espíritu santo tres per

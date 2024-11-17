@@ -1,0 +1,1 @@
+pradore en quinta posesión y no pudiéndose la sanción le desvolvera la suma recibida y las costas que de la incertidumbre se le siguen cuya que pueda diferir a su simple juramento relevable de los que puedan depoer a su segura.

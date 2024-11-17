@@ -1,0 +1,1 @@
+Burgos y firman ciertos estigios con donificero baldazar, Don Bartolome Polo y Don Jose Baldrich vecinos, Juan de Aguirre, Francisco Xavier de Conto, Ante mi, Vicente Olacchea

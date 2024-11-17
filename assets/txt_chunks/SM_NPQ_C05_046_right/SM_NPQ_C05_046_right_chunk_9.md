@@ -1,0 +1,1 @@
+satisfacción y contento sobre que renuncia decir contra-rio, la excepción de la non numerata pecunio, su prueba, la del recibo, termino, engano y mas del caso, declarando co- mo declare que dichos esclavos son contra los leyes.

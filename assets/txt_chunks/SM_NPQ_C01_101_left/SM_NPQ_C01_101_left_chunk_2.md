@@ -1,0 +1,1 @@
+Como realizar la venta de un bien en seguida, es necesario tener un miento y firmeza de esta venta, en tal manera que siempre le sea cierta segura y valecedera, y que sobre su propiedad no se le ponga ni movera pleito ni contradicción alguna, y si

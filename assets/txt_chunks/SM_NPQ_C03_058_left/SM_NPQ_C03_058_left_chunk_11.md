@@ -1,0 +1,1 @@
+da obligación e hipoteca especial en general que no latiente como

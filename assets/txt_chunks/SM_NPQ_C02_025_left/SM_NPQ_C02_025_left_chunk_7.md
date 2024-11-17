@@ -1,0 +1,1 @@
+mi voluntad valga solo este por mi ultima y deliberada o en la via y forma que mas haya lugar en derecho. Y la otorgante que yo el infeccrito escribo publico y de gobierno doy fe.

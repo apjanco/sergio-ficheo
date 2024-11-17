@@ -1,0 +1,1 @@
+del defecto de acción coesión propiedad dominio y en la que a la nominada esclava luciana tenía seguridades y todos con el de patronato y demás que le correspondía las de recu- cia y transpasa en la comoradora y sus sucesores, que en sentido de

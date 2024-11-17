@@ -1,0 +1,1 @@
+Martinez Malo cuya interno que de esta dicha capital se son consta del que otorgo ante mi y testigos en el registro de mo- frumentos publicos del ano próximo pasado cuyo contenido de

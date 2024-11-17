@@ -1,0 +1,1 @@
+en la casa desamorada Dona María Rosalia de Córdoba vivía vecina de ella a quien doy fe conozco y oforgas. Que da carta de dolor y libertad en forma a un mutato llamado Petronilo que ha poseido como su propio esclavo por el grecio y cantidad de Tres

@@ -1,0 +1,1 @@
+lo de amparo de tierras que posea en morri en la boca de sarg-pellos. Mando a mis albacas la recojan inmediatamente. Y tembomba por mi única y universal herencia de todos.

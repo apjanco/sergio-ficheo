@@ -1,0 +1,1 @@
+Acto de apreciación de que lo releva. Se obliga a la existencia y saneamiento de esta venta a su costa y mención hasta dejar al comprador en quieto y pacífico posesión y no pudiendose la sanar le devolverá la suma recibida y le paga.

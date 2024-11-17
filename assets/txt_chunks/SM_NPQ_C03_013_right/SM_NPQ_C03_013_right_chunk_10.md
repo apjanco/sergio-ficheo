@@ -1,0 +1,1 @@
+Ha satisfecido al señor receptor de este ramo quien el pruega de su resello ha dado la boleta que se miso y di ce asi y de la suma recibida se confiesa entregado a su voluntad renuncia decir lo contrario la excepción de la

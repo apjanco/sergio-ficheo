@@ -1,0 +1,1 @@
+Esta ley del ordenamiento real fue fechada en cartas de Alcalá de Henares y demas que hablan en razón de las cosas que se compren y den por mas o menos de la mitad del justo y preciso y el termino concedido para la rescisión del contrato o su suplemento. Mediana

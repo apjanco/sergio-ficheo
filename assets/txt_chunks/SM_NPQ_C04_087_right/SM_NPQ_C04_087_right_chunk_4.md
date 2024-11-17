@@ -1,0 +1,1 @@
+En la ciudad de Querido a los veinte y ocho días del mes de junio de mil ochenta y uno: Ante mí, el escribano interno y testigos que se nombraron pareció presente en su posada la señora Lucía de Alarcon y Meva, vecina de su casa, que se encontraba en la calle de la Alameda.

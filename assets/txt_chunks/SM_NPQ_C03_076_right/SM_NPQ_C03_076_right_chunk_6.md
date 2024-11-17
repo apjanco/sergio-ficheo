@@ -1,0 +1,1 @@
+he vivido, x protexo vivir y morir como christianos, hago y op- deno este mi testamento, en la manera siguiente 19 Primero, encomiendo mi alma a Dios nuestro señor que la ciud de la nada, x reducir con el trono de susogos, vel-

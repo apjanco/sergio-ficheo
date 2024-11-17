@@ -1,0 +1,1 @@
+Frudo) López, xela ha vendido por recomendación del señor Joaquín Álvarez del Pino en cantidad de ciento treinta pesos de plata quien en señal de propiedad (destruído) de esta asegurando hallarse libre de empeño, deuda, obligación, y potencia especial, ni general.

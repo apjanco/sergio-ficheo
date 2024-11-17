@@ -1,0 +1,1 @@
+derro sumisión y renunciación de leyes de su favor en términos que necesarias con la general en forma. En su testimonio con aceptación de Don Joaquín Andrade a nombre y en virtud de la recomendación que para ello tiene de la compradora Mois

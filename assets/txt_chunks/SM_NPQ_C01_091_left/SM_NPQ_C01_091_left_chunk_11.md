@@ -1,0 +1,1 @@
+La tasa de interés es un costo adicional que se paga por el uso de un activo. Este costo se calcula como la tasa de interés más la tasa de interés adicional.

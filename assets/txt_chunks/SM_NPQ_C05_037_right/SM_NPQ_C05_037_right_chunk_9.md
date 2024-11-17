@@ -1,0 +1,1 @@
+Por abundamiento le hice gracia de deciento veinte castellanos y me ha quedado restando setecientos castellanos que constan por obligación encargado a mis albacenas y erederos no le estrecho y sustentan al presente para que lo trase una cuenta.

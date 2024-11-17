@@ -1,0 +1,1 @@
+mi alma y cele almorde por espacio de nueve días en la yglesia de Bete. Asimismo les encargo que se le diga otra a San Antonio aplicado al mismo fin Y tem declarado por bienes mios la casa de mi habitacion

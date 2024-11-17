@@ -1,0 +1,1 @@
+Francisco Hortal, albaica y heredera del finado Domingo Palacios (alias Quintana), a quien doy fe conozco y dixo: Que este en su testamentado eleggado en esta capital a ocho de Mar

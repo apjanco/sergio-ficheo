@@ -1,0 +1,1 @@
+testamento declaro debier a Don Pasqual Rovira la cantidad de siento setenta y tres pesos sus titulares seron y seys granos y ahora anade que estaendo satisfechos estos al ci- say y tado Rovira como sovista de la cancelacion de la escritura que

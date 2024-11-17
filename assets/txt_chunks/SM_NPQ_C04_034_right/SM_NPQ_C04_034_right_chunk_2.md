@@ -1,0 +1,1 @@
+Fido de Córdoba según acredita el testamento de mi citada madre y documentos que existen en mi poder, y no habiendo otro heredero de ella más que yo, los declaro por bienes mios.

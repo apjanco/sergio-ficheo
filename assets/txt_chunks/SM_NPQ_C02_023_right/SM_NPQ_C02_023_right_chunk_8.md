@@ -1,0 +1,1 @@
+El río de la Herra que ha sido nombrada el río de nuestro sacerdote padre San Francisco y se sepultó en el campo santo de esta ciudad y teme a las mandas forzosas ocho reales por todas ellas los mismos que se sacaron de mis bienes y serán satisfechos

@@ -1,0 +1,1 @@
+obrigante todo cuanto está permitido a los que enriquecen libres, usando en todo de su expotanea voluntad, pues para ello formaliza a favor de los manumitidos está escritura con los requisitos legales que sean precisos y conducentes a

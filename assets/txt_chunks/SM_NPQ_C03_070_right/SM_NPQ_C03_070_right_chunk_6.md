@@ -1,0 +1,1 @@
+Ignacio Hortiz le debe un pote de tres castellanos que le huftaron de Bete que teniendo noticias de que estaba en Murri se valió del mismo y fue a fin de que lo persibiese y aunque con la ejecuto

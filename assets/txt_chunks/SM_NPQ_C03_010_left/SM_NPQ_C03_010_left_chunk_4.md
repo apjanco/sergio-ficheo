@@ -1,0 +1,1 @@
+lexan, y se obligan a la eviccion y saneamiento de estven- la asu costa y mencion hasta dexar al comurgador enquiet y pacifica posesion y no pudiendoela sanear le devolverán la suma reditabn y le oponen las costas y gastos de su mua
