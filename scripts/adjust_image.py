@@ -1,5 +1,5 @@
 import typer
-from PIL import Image, ImageEnhance
+from PIL import Image, ImageEnhance, UnidentifiedImageError
 from pathlib import Path
 from rich.progress import track
 import cv2
@@ -58,13 +58,18 @@ def process_images(
             'SM_NPQ_C05_071.jpg'
             ]
     for image in track(images, description="Adjusting images..."):
-        if image.name in skip:
-            img = Image.open(image)
-            img.save(out_dir / image.name)
-        else:
-            img = Image.open(image)
-            adjusted_img = adjust_image(img)
-            adjusted_img.save(out_dir / image.name)
+        try:
+            if image.name in skip:
+                img = Image.open(image)
+                img.save(out_dir / image.name)
+            else:
+                img = Image.open(image)
+                if img.size == (0, 0):
+                    raise ValueError("Empty image")
+                adjusted_img = adjust_image(img)
+                adjusted_img.save(out_dir / image.name)
+        except (UnidentifiedImageError, ValueError) as e:
+            print(f"Skipping {image.name}: {e}")
 
 if __name__ == "__main__":
     typer.run(process_images)
