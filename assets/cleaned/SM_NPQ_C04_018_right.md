@@ -1,7 +1,3 @@
-La ciudad de Quibdo, capital de la provincia Ciriaco, a veinte y seis kilómetros de Cener de mil ochocientos diez y nueve. Ante mi, el escribano y testigos que se nombraron parecido Son Juan Mendoza, vecino de ella a quien doy fe conozco y otorgo: Que vende realmente y con derecho.
-efecto la Rosa Oballes de la propia vecindad una mulata su propia esclava cautiva y sujeta a servidumbre nombrada Josefa la cual se halla libre de empeño deuda, obligación e hipoteca especial nigeneral que no la tiene como así la asegura y se la vende
-Gracias, mi querido amigo, que has hecho un trabajo admirable. Contad todos sus vicios, tachas, defectos, enfermedades públicas y secretas en precio y cantidad de trescientos pesos de plata.
-
 esclavita Josta fenia adquirido y todos con el de patronato y demás que le correspondan los cede renuncia y traspasa en el comprador y sus sucesores, que en señal de posesión y paratitulo de ella otorga a su favoresta escritura por la cual ha deseo visto haberla adquirido sin
 Lo necesite de otro acto de aprensión de que lo relevara y se obliga a la exención y saneamiento de esta venta a su costa y mención hasta dexar al comprador enquesta y pacifica posesión y no
 pudiendo
@@ -57,3 +53,6 @@ Ante mi Vicente Olaguecha
 Escritano Publico
 Yenta-Eslavdo
 Escribeu a quehacerable proporcionada citoa a yenta-eslavdo
+La ciudad de Quibdo, capital de la provincia Ciriaco, a veinte y seis kilómetros de Cener de mil ochocientos diez y nueve. Ante mi, el escribano y testigos que se nombraron parecido Son Juan Mendoza, vecino de ella a quien doy fe conozco y otorgo: Que vende realmente y con derecho.
+efecto la Rosa Oballes de la propia vecindad una mulata su propia esclava cautiva y sujeta a servidumbre nombrada Josefa la cual se halla libre de empeño deuda, obligación e hipoteca especial nigeneral que no la tiene como así la asegura y se la vende
+Gracias, mi querido amigo, que has hecho un trabajo admirable. Contad todos sus vicios, tachas, defectos, enfermedades públicas y secretas en precio y cantidad de trescientos pesos de plata.

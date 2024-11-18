@@ -1,8 +1,4 @@
 The image shows a blank page with a ruler running down the center.
-No presitveto Jose Ignacio Nafia, zara de las nafias en la provincia de Navita, a quien doy fe conozco y otorgo que de costos de ahorro y libertad en forma a Domingo su propia esclava en cantidad de doscientos sinquentos pesos de plata de acho reales moneda usual y
-corriente, de cuya entrega y recibo doy fe, y de ellos otorgo a favor de dcha libertad el mas firme y eficas resguardo que a sus segundos conozc cga. En cuya virtud se desiste quieta y aparta del derecho, de acción, po- seccion, propiedad, dominio, y señorío, que a dicha negra Dominga te
-NIA ADQUIRIDO, Y TODOS CON EL DE PATRONATO Y DEMAS QUE LE CORRESPON- DAN, LOS CEDE, RENUNCIA, Y TRASPASA A SU FAVOR, Q FIN DE QUE NO VUELA
-
 libre y general administración para que traten, contraten, testen, com- parescan en juicio por si o por medio desus quaderados, y practiquen sin intervención del otorgante todo cuanto esta permitido a los que n-
 cieron libres,
 husando entodo de sus espontaneas voluntades pues pa
@@ -23,3 +19,6 @@ Antemí Manuel Flores
 Escribano Xterina del número
 Libertad
 En la ciudad de Quibdo, capital de la provincia decitora a yente del mes de febrero de milochocientos veinte y uno. Ante muelles fijaron interino y testigos que se nombraron pareció en la casa de su morada el por presidente, Jose Yonacio Yarela, cura de las naturales de Toda
+No presitveto Jose Ignacio Nafia, zara de las nafias en la provincia de Navita, a quien doy fe conozco y otorgo que de costos de ahorro y libertad en forma a Domingo su propia esclava en cantidad de doscientos sinquentos pesos de plata de acho reales moneda usual y
+corriente, de cuya entrega y recibo doy fe, y de ellos otorgo a favor de dcha libertad el mas firme y eficas resguardo que a sus segundos conozc cga. En cuya virtud se desiste quieta y aparta del derecho, de acción, po- seccion, propiedad, dominio, y señorío, que a dicha negra Dominga te
+NIA ADQUIRIDO, Y TODOS CON EL DE PATRONATO Y DEMAS QUE LE CORRESPON- DAN, LOS CEDE, RENUNCIA, Y TRASPASA A SU FAVOR, Q FIN DE QUE NO VUELA

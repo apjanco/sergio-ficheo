@@ -1,13 +1,4 @@
 te y quatro de Abril de mil ochocientos trece. Ante mi el co- cribano y testigos que se nominaron pobreco en la casa desumo- rada enfermo en camada Domingo Palacios (alias Quintana) ye-
-Me con él y en todo lo demás, a él le da su fuerza y vigor para que se estreme con su afán de delibera voluntad y con ningún motivo ni pretexto se contraven-ga. Así lo otorga estando al parecer en su entero y solo Juicio siendo testigos Gregorio Vivas y Pedro Forns Brusio Palacios y
-Siendo testigos Gregorio vivas teatro frías eran iguales.
-Ysidro Percénez vecinos y por saber firmar el obolotamente lo
-hace a su ruego dicho frías y por Bruno Palacios el percénez de
-que doy fe.
-A Ruego del oforgante y como testigo Pedro Frías
-testigo Briso Palasio y por mi ambos testigos ysidio Pereña
-Presente fue la suatorgamiento en cuya fe signo y firmé en el dia
-
 Cinco de ellos a quienes ay conozco y dió que el día ocho de marzo de mil ochocientos once ofertó ante mi mismo xte bizgos su testamento nonuppugtivo del qual ha delibeteado qui- toy y enmendar las glunas cosas y quadir otras y gomendol en
 La ley y entendiendo dignas cosas y admirable oficio, y poniendo en ejecución por vía de codicilo o en forma que más haya lugar en derecho ordena y manda lo siguiente:
 
@@ -21,3 +12,11 @@ clausula y para que no tenga derecho a cobrarlos lo declara
 para su constancia
 todo lo cual quiere que exijan en la vía y forma que mea.
 lo que cuesta contrario a este codicilo, y en la que sea conforme me con el, y en todo lo demás demas lo aguarda ratifica y se
+Me con él y en todo lo demás, a él le da su fuerza y vigor para que se estreme con su afán de delibera voluntad y con ningún motivo ni pretexto se contraven-ga. Así lo otorga estando al parecer en su entero y solo Juicio siendo testigos Gregorio Vivas y Pedro Forns Brusio Palacios y
+Siendo testigos Gregorio vivas teatro frías eran iguales.
+Ysidro Percénez vecinos y por saber firmar el obolotamente lo
+hace a su ruego dicho frías y por Bruno Palacios el percénez de
+que doy fe.
+A Ruego del oforgante y como testigo Pedro Frías
+testigo Briso Palasio y por mi ambos testigos ysidio Pereña
+Presente fue la suatorgamiento en cuya fe signo y firmé en el dia

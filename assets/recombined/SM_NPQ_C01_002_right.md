@@ -1,8 +1,4 @@
 Manuela Zúñiga
-
-
-
-
 Manuel Zapata
 Brizabuelo de Manuel
 Zapata Olivella

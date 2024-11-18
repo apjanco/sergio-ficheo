@@ -1,8 +1,3 @@
-min engano y más del caso declarando a nombre de su parte que no vale más dicho esclavo Manuel Antonio y aunque mas valga de su demasia en mucha o poca cantidad, hase gracia y donacion alcomorador y sus herederos biena para mera perfecta e irre
-bocable entrevivos con la inmunación y renuncación necesaria sobre que renuncia la ley del ordenamiento Real fecha encor
-tes de Alcalá de Henares y demás que hablan en razón de la so
-Las que se compran y venden por más o menos de la mitad de su precio y el término concedido para la rescisión del contrato o su suplemento. Mediante lo cual a nombre de su parte se
-
 go dicho thieniente de gobernador y testigos por quciencia
 referida del único escrivano
 Ramón de Diego Ximénez
@@ -16,3 +11,7 @@ fades que le son conferidas otorga: que a nombre su parte yende realmente y con 
 desarrollador nombrado Manuel Antonio el cual aceptó higllarse libre de toda obligación e hipoteca especial, ni general que no la tiene y se lo venden con todos sus vicios y defectos enfermedades públicas y secretas en precio y cantidad de decer
 tos' cincuenta pesos de plata que por él le quedó a su propietario el comprador en dinero de contado siendo de cargo de la paga del derecho de alcalá que ha satisfecho al señor oficial en prueba de su recibo ha dado la boleta que se inserta y dice
 En el curso de su vida ha dado la guerra y se ha hecho así y de la suma recibida se confiesa a nombre de esa parte entregado a su voluntad, renuncia decir lo contrario la exención de la non numerata pecuniaria en prueba de la del recibo ter
+min engano y más del caso declarando a nombre de su parte que no vale más dicho esclavo Manuel Antonio y aunque mas valga de su demasia en mucha o poca cantidad, hase gracia y donacion alcomorador y sus herederos biena para mera perfecta e irre
+bocable entrevivos con la inmunación y renuncación necesaria sobre que renuncia la ley del ordenamiento Real fecha encor
+tes de Alcalá de Henares y demás que hablan en razón de la so
+Las que se compran y venden por más o menos de la mitad de su precio y el término concedido para la rescisión del contrato o su suplemento. Mediante lo cual a nombre de su parte se

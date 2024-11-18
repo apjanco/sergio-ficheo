@@ -6,10 +6,6 @@ The text on the lined notebook page is as follows:
 
 
 
-
-
-
-
 1234567890
 The text on the lined paper is as follows:
 

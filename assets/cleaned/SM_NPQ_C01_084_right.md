@@ -1,14 +1,5 @@
 Francisco Antonio de Lloredo
 Melchior de Varona
-A taburete de campafora . Un estrado en cinco patacones. Una mampara forrada en heno de la recamara . Una sopa de soja en la sola en diez patacones.
-y Una cenefa con su cortina de satena en la soln 2 1986
-x + Una guardia brisa cristal en doce patacones 12
-yt un Quadro de nuestra señora del transito en doce
-patacones
-Yb Cinco henzos de varias efigies todos en - 2 - 3 - 4
-Yb Otro lienzo en bronce con su cristal de nuestras
-Rora de los dolores en diez patagones -
-
 Antemí
 Vicente Olaechea
 En el citado pueblo azínlo de mil ochocientos dice:
@@ -40,3 +31,11 @@ gadura de saraza y colcha forrada en setenta pataco
 yt un catre con su lienzo y cabecero de ongari pola en
 diez patacones
 yt Un taburete de campo forrado en lienzo ctudo
+A taburete de campafora . Un estrado en cinco patacones. Una mampara forrada en heno de la recamara . Una sopa de soja en la sola en diez patacones.
+y Una cenefa con su cortina de satena en la soln 2 1986
+x + Una guardia brisa cristal en doce patacones 12
+yt un Quadro de nuestra señora del transito en doce
+patacones
+Yb Cinco henzos de varias efigies todos en - 2 - 3 - 4
+Yb Otro lienzo en bronce con su cristal de nuestras
+Rora de los dolores en diez patagones -

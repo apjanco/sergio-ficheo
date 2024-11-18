@@ -1,10 +1,4 @@
 fecha e irrevocable. intervivos con lo inmunación y renuncia cron necesaria sobre que renuncia la ley del ordenamiento real fecha su sotos de Nolga de Herrer y otros.
-que el día treinta y uno de enero próximo pasado otorgó ante numeros y testigos su tamento nuncioactivo del cual ha deliberado y enmendar algunas cosas y quadir otras, y coniendo en ejercicio par
-De codicilo o en la forma que más haya lugar en derecho ordinaria y mandó lo siguiente
-
-Animeramente declara: Que además de los bienes comprendidos en dicho su testamento posee y le pertenece en derecho ordinario.
-propiedad una negrita esclava como de edad de quince años poco mas o menos llamada Cornelia la misma que es su voluntad sea entregada en propiedad y por via de mejora a su
-
 fecha en cotos de Alcalá de Henares y demás que hablan empez
 zon de lo que se compra y vendé por más o menos la mitad del ju
 to precio y el término concedido para la rescisión del contrato
@@ -24,3 +18,8 @@ Joseph Gaes
 Ante mi Vicente Olachea
 CODICILLO
 En la ciudad de Quibdo, capital de la provincia del Cauca, a diez de febrero de mil ochocientos trece. Ante mí el escribano y los tiguros que se nominaron, foreció en la casa de su morada enfermo en Campan Juan Antonio Ramírez, recino de esta provin.
+que el día treinta y uno de enero próximo pasado otorgó ante numeros y testigos su tamento nuncioactivo del cual ha deliberado y enmendar algunas cosas y quadir otras, y coniendo en ejercicio par
+De codicilo o en la forma que más haya lugar en derecho ordinaria y mandó lo siguiente
+
+Animeramente declara: Que además de los bienes comprendidos en dicho su testamento posee y le pertenece en derecho ordinario.
+propiedad una negrita esclava como de edad de quince años poco mas o menos llamada Cornelia la misma que es su voluntad sea entregada en propiedad y por via de mejora a su

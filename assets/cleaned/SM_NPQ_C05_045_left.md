@@ -1,10 +1,4 @@
 lo relevandole de otra aunque ponderechose requieray
-Contrario, la excepción de la non numerata peculia su prue- ba, la del recibo, hermino, organo, y mas del caso, declarando como declaro que dichos esclava Micarela novale mas, y que mas valga de sodemosia en mucho o poca cantidad hace
-gracia y donación a nombre de su poderadante, al comprador y sus sucesores, buena, puro, mera, perfecta irreverable
-intervivos con la insinuación y renunciaación necesaria so
-bre que renuncia decir lo contrario la ley del ordenamiento
-Realmente en cortes de Alcalá de Henares y demás que hablan de las cosas que se compran y venden por más o menos
-
 Por relevancia de otras obligaciones por dichos y por la observancia y puntual cumplimiento de todo lo referido se obliga conesa persona y bienes habidos y por haber son el poderío de justicias, sumisión de fuerza, y renuncia de leyes
 en derecho necesarias con la general en formación en cualquiera testimonio y con aceptación del comprador así lo dicen otorgan y firma el que sabe haciendo por el vendedor uno de los testigos.
 gost que lo fueron los señores Martin Guerrero, Yndalecio Caz,
@@ -19,3 +13,8 @@ escrito y testigos que se nombraron papelito presente el señor Manuel flores de
 Jose Benigno Palacios vecino de la misma provincia a saber manera propia exclava de su constituyente, cautivo, y sujeta a servidumbre nombrada Micaela la qual asegura hallo a libro de aquella dante atravesar a sus hijos.
 llars subíble de empeño, deuda, obligación e hipobeca especi- cial ni general que no lo tiene, y se la xende con todos sus vi- cios, tachas, y dos estos enfermedades publicas y secretas, en precio y cantidad de doscientos sesenta pesos de plata de
 El comprador ha dado el dinero de contado.
+Contrario, la excepción de la non numerata peculia su prue- ba, la del recibo, hermino, organo, y mas del caso, declarando como declaro que dichos esclava Micarela novale mas, y que mas valga de sodemosia en mucho o poca cantidad hace
+gracia y donación a nombre de su poderadante, al comprador y sus sucesores, buena, puro, mera, perfecta irreverable
+intervivos con la insinuación y renunciaación necesaria so
+bre que renuncia decir lo contrario la ley del ordenamiento
+Realmente en cortes de Alcalá de Henares y demás que hablan de las cosas que se compran y venden por más o menos

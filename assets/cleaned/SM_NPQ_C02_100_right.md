@@ -1,8 +1,6 @@
 cripticamente
 Y por el presente revoco y anulo todos los testamentos memo
 rias poderes para testar y codicilos y demos disposiciones estes
-X firmó en 1943, Vicente Olachea escribano público.
-
 fomentarias que antes de ahora haya hecho por escrito, de palabra o en otra forma para que no hagan fe judicial ni extra judicialmente, excepto este testamento que quiero y mando se estime y tenga por valido, y se observe y cumplido todo su contenido.
 Tenido como mi última y deliberada voluntad o en la via for ma que más haya lugar en derecho. Y la ostentante que yo el infrascripto escribanlo público de esta provincia ay fe coro co hallandose en su entero y sano juicio así lo dijo y obayg:
 Co
@@ -71,3 +69,4 @@ Emidio Perza
 Testigo Nicolás Roxas
 Presente fue a su otorgamiento. En fe de lo cual signo
 x forma en Quindío y Setiembre nueve de mi año
+X firmó en 1943, Vicente Olachea escribano público.

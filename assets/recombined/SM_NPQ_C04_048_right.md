@@ -1,10 +1,4 @@
 he, dear, and grateful.
-Casos de hecho, materia provista, tratamientos análogos, etc. y contrato a contrato a todo lo cual constituye ser requerido por todo rigor, y para ello se somete a los señores Jooses de esta capital obliga sus vienes a su cumplimiento, la resive por sentencia pasada
-en autoridad de casa Jusgada consentida y no apelada, renuncia todas
-las leyes, fueros y derechos que hagan a su favor. Y estando presente
-la ciudadana Benedicta Martínez y su esposo, padres de dimensiones
-do gorgañado, quienes asimismo Certifico conosco, y enterados de
-La escritura que aceptan, a nombre del menor, en todo, y por (legible) dedonación que en ella se contiene, estiman la merced que el
 cho que a la expresada esclavale corresponde, y lesede, renuncia y
 tras pasa plenamente con las acciones personales, utiles directos,
 esecutivas, y demas que le competen en el mencionado ciudadano Car
@@ -25,3 +19,9 @@ quien alguna sustancial defecto que meluya,
 y se obliga o no hablarla,
 y si la admita
 no híiere que no se le admita en juicio ni fuera de él y por el mismo caso se habito bayer la provada y rrotificado añadiendo fuerza y fuerza.
+Casos de hecho, materia provista, tratamientos análogos, etc. y contrato a contrato a todo lo cual constituye ser requerido por todo rigor, y para ello se somete a los señores Jooses de esta capital obliga sus vienes a su cumplimiento, la resive por sentencia pasada
+en autoridad de casa Jusgada consentida y no apelada, renuncia todas
+las leyes, fueros y derechos que hagan a su favor. Y estando presente
+la ciudadana Benedicta Martínez y su esposo, padres de dimensiones
+do gorgañado, quienes asimismo Certifico conosco, y enterados de
+La escritura que aceptan, a nombre del menor, en todo, y por (legible) dedonación que en ella se contiene, estiman la merced que el

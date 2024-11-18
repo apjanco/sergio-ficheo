@@ -1,15 +1,6 @@
 The text on the document is as follows:
 
 ```
-TESTAMENTO
-
-En el nombre de Dios todo poderoso. Yo Luis Chaverri hijo lexicista de Manuel y Tomas Chaverri naturales y recinos de esta
-
-province, he come to this place to make a and testament of my will.
-Est provincial. Hollandome enfermo en camas; pero en misantero y son juicio, memoria, entendimiento natural. Creyendo y confesando como firmemente creo y confieso en el alto misterio de la santisima trinidad, padre hisoy espíritu santo tres personas distintas y
-un solo Dios verdadero y en todos los demás misterios que tiene
-crees confiesa predica y enseña nuestra santa madre iglesia
-
 a su favor esta escritura, de la cual me pide de las copias autori
 sadas que quiera para su pegauros y declara que esta donación, la
 hace no por miedo, seducción ni respeto alguno, sino porque noti
@@ -31,3 +22,11 @@ Escobar y Ramos
 Ante mi Manuel Flores
 Escribano Intermodel
 numero
+TESTAMENTO
+
+En el nombre de Dios todo poderoso. Yo Luis Chaverri hijo lexicista de Manuel y Tomas Chaverri naturales y recinos de esta
+
+province, he come to this place to make a and testament of my will.
+Est provincial. Hollandome enfermo en camas; pero en misantero y son juicio, memoria, entendimiento natural. Creyendo y confesando como firmemente creo y confieso en el alto misterio de la santisima trinidad, padre hisoy espíritu santo tres personas distintas y
+un solo Dios verdadero y en todos los demás misterios que tiene
+crees confiesa predica y enseña nuestra santa madre iglesia

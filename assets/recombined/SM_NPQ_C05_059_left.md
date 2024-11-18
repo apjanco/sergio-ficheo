@@ -1,9 +1,4 @@
 tenía x encargo y me gluceas lo vean para que hagan el cargo
-que al cuarto de mis bienes
-hay que mandar que del quinto de mis bienes se cobre el valor de un quinto de cada mitad para el señor de las misericordias de cartago y la otra mitad al de los milagros
-Seissantellanos para nuestra señora de los Mercedes de Caly y se diga una misa cantada a dicha señora; También la fuente corresponde a la misma señora.
-Bien la Simona correspondiente a tres musas cantadas, y cuatro bellos de Cera de Castilla que he ofrecido con una vislida
-
 10V
 correspondiente a la testamentaria de mi difunto esposo algo
 lo para que conste
@@ -25,3 +20,7 @@ Juan declaró para que conste
 donó intercambios cualquiera patagones con los que compre
 una esclava llamada Ana María en cantidad de trescientos
 La letra de la carta es de color negro y está escrita en una hoja de papel. La letra es pequeña y difícil de leer. La carta es escrita en una lengua desconocida y no se puede determinar qué idioma es. La carta es escrita en una hoja de papel y está escrita en una hoja de papel. La hoja de papel está en una hoja de papel y está escrita en una hoja de papel.
+que al cuarto de mis bienes
+hay que mandar que del quinto de mis bienes se cobre el valor de un quinto de cada mitad para el señor de las misericordias de cartago y la otra mitad al de los milagros
+Seissantellanos para nuestra señora de los Mercedes de Caly y se diga una misa cantada a dicha señora; También la fuente corresponde a la misma señora.
+Bien la Simona correspondiente a tres musas cantadas, y cuatro bellos de Cera de Castilla que he ofrecido con una vislida

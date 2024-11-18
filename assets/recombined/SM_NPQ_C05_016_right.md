@@ -1,11 +1,4 @@
 haver contraído matrimonio, tuve un hijo en Quito en Doña Ma-
-Imón declarólo para que conste.
-69 Y tem declaró que Pablo vetancur natural de Barbacoas a quien
-conoció en Pasta ya hombre, y dijo ser hijo de Marciano, que esta
-havia declarado por su testamento ser bi hijo por este bi hijo.
-Hasta declarado por su testamentario ser hijo mío por este (le dice un ilegible) ex su tiempo de veinticinco pesos y al cabo de muchos años (ilegible) ya a mi mugiros y a mis hijos lexitimos en porto estando fablo le mande (ilegible) para ciertos asuntos remiten
-do el dinero necesario para toda, le encargue cordiges e mi familia hasta ponerla en el Barro ha entregarlo a Don Manuel valver
-
 nueva Enríquez y Santoyo al cual le he dado aquello que mis fuerzas me han alcanzado después que lo conozco, y así lo declaro para que conste.
 
 Además declaro por bujías naturales que en Managua, zado de f
@@ -25,3 +18,9 @@ una negra nombrada Juana hija de Estefanía que comparte en sali
 a Don Gabriel Prado y mas le he donado un rastrazo en Baberama
 que linda desde el remolino de las heredias a mano izquierda
 subiendo hasta una quebra dita que esta enfrente del rastrazo del
+Imón declarólo para que conste.
+69 Y tem declaró que Pablo vetancur natural de Barbacoas a quien
+conoció en Pasta ya hombre, y dijo ser hijo de Marciano, que esta
+havia declarado por su testamento ser bi hijo por este bi hijo.
+Hasta declarado por su testamentario ser hijo mío por este (le dice un ilegible) ex su tiempo de veinticinco pesos y al cabo de muchos años (ilegible) ya a mi mugiros y a mis hijos lexitimos en porto estando fablo le mande (ilegible) para ciertos asuntos remiten
+do el dinero necesario para toda, le encargue cordiges e mi familia hasta ponerla en el Barro ha entregarlo a Don Manuel valver

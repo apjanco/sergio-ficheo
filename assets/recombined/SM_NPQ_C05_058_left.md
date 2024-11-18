@@ -1,4 +1,19 @@
 Hay que hacer los otros yente lo aviso a mis albaecas para que siguisie-
+Para no tener venido para a mis infantes que se re aver algun cargo que no le paguen nada, por no deberen da declararlo para que conste.xt Declaro que Don Nicolas Gutierrez me deve mulpata.
+cones los que le pague a Don Ramón de Diego Ximenes por dicho Gutierrez. Declararlo para que conste Y Declaro que el mismo Gutierrez me debe docientos Yeunte castellanos los cuales devino a Don Lucas Alarcon y
+Vente las entregas los que les debo a los señores Antonio y este desear me los havían pagado y de yo ver resulto tener y que volverlos a pagar. Declaro lo que consta. Declaro de los unos papeles de dicho Gotrefes de los que
+he cobrado bienas picas, los que se abongran, Declarólo
+para que conste
+Y Declaro tengo cuentas pendientes con Don Antonio
+Navasos bienes, la prevera luna, los que no alcanzó a
+Navarro mandó se le paguen liquidadoras lo que me alcanzó
+Declaró lo para que conste
+/ Declaró una casa en el cítraro que por olvido no se puso
+en el Testamento Declaró lo para que conste
+Xt Declaro de yo a Ana Maria de los Santos veinte pesos de dos marcos que le compro, declaro solo para que conste y al Radio Sarra, o sus herederos nueve pesos, declaro lo para que conste
+XV declaro que ya mismo devo al indio Joseph Maria de Napipi diez y seis pesos. Declararolo para que coiste XV Declaro deber quinientos pesos de plata por un comunicado
+to ella de la difunta mi madre perteneciente a los herederos del padre Rozo, Deslariola para que conste
+Y no hondiendo mas quienes deva firmo este en este citio de la Bodega de Beyara a las tres dias del mes de Mayo
 Carlos María Andrade
 The text on the lined paper is as follows:
 
@@ -92,18 +107,3 @@ The text on the lined paper is as follows:
 88. 2109
 89. 211
 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19.
-Para no tener venido para a mis infantes que se re aver algun cargo que no le paguen nada, por no deberen da declararlo para que conste.xt Declaro que Don Nicolas Gutierrez me deve mulpata.
-cones los que le pague a Don Ramón de Diego Ximenes por dicho Gutierrez. Declararlo para que conste Y Declaro que el mismo Gutierrez me debe docientos Yeunte castellanos los cuales devino a Don Lucas Alarcon y
-Vente las entregas los que les debo a los señores Antonio y este desear me los havían pagado y de yo ver resulto tener y que volverlos a pagar. Declaro lo que consta. Declaro de los unos papeles de dicho Gotrefes de los que
-he cobrado bienas picas, los que se abongran, Declarólo
-para que conste
-Y Declaro tengo cuentas pendientes con Don Antonio
-Navasos bienes, la prevera luna, los que no alcanzó a
-Navarro mandó se le paguen liquidadoras lo que me alcanzó
-Declaró lo para que conste
-/ Declaró una casa en el cítraro que por olvido no se puso
-en el Testamento Declaró lo para que conste
-Xt Declaro de yo a Ana Maria de los Santos veinte pesos de dos marcos que le compro, declaro solo para que conste y al Radio Sarra, o sus herederos nueve pesos, declaro lo para que conste
-XV declaro que ya mismo devo al indio Joseph Maria de Napipi diez y seis pesos. Declararolo para que coiste XV Declaro deber quinientos pesos de plata por un comunicado
-to ella de la difunta mi madre perteneciente a los herederos del padre Rozo, Deslariola para que conste
-Y no hondiendo mas quienes deva firmo este en este citio de la Bodega de Beyara a las tres dias del mes de Mayo

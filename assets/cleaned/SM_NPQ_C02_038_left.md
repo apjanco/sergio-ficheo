@@ -1,10 +1,4 @@
 y el último resto a su constituyente según asredita la carta que original se entega y su tenor es el siguiente tambien se iner
-Leñigos San Agustín Romero Nicolás de 'Roxas y Manuel Ortega Yesinos Francisco de Paz Francisco Xavier de Conto Ante mi vicente olacheo
-Venta - esclavo
-50x en la ciudad de Quibdo capital de la provincia del caitaro
-a vende x parte de Maso da milochababa, bopo e Ano ay
-Venta y diete de Marzo de milochientos trece. Ante mi el escribano y testigos que se nominaron pareció Don Jose. Goes apoderado substituto de Don Jose Ramos Varela.
-
 La boleta del señor Rodríguez de Alcalá que justifica la falta del derecho correspondiente a esta escritura x que como si que X de la suma recibida se confesara por sí y a nombre de su parte entregado a su voluntad renuncia decide lo contrario.
 la excepción de la non numerata fecunda su prueba la del ac-
 cado fervoroso engañó y más del caso, declarando que no vale
@@ -19,3 +13,8 @@ suplemento relevandolo de otra aunque por derecho se
 requiera, y a la observancia y puntual cumplimiento de todo
 lo recedido oblige su parte son los bienes habidos y por ha
 La ley de justicia, la sumisión de fuerza, la re- nunciación de derechos necesarias con la gene- ración en su testimonio con asesoria del señor camarador así lo dice obregon y firman siendo
+Leñigos San Agustín Romero Nicolás de 'Roxas y Manuel Ortega Yesinos Francisco de Paz Francisco Xavier de Conto Ante mi vicente olacheo
+Venta - esclavo
+50x en la ciudad de Quibdo capital de la provincia del caitaro
+a vende x parte de Maso da milochababa, bopo e Ano ay
+Venta y diete de Marzo de milochientos trece. Ante mi el escribano y testigos que se nominaron pareció Don Jose. Goes apoderado substituto de Don Jose Ramos Varela.

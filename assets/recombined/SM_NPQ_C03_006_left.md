@@ -1,11 +1,4 @@
 y de no quererlo cumplir el día que se separa ha de contri-
-Testigo Juan Antonio ferro
-Testigo Fernando Ferrer
-Testigo Gabriel Andrade
-Vicente Olachea
-escrbano Publico
-Norma
-
 El documento es escrito en español y contiene la siguiente información:
 
 1. Se declaro que se compraron ciertos pesos castellanos a beneficio de sus herederos y se declaro para que conste.
@@ -24,3 +17,9 @@ de los y demás disposiciones testamentarias que antes de ahora haya hecho por e
 La excepción este testamento que quiero y mando se es tiempo por mi último deliberado voluntado en la y forma que más haya lugar en derecho. Y el otorgante que yo el diccionario que yo conozco hallándose en su entero y son
 Juan Antonio ferro Gabriel An- drade y fernando ferrer vecinos en Quirodo y sobremiere diez mil ochocientos catorce
 Esto es un estado de ánimo que su entorno puede ser como un hombre sobre que lo es el dicho otorgante cuando testigos los mismos.
+Testigo Juan Antonio ferro
+Testigo Fernando Ferrer
+Testigo Gabriel Andrade
+Vicente Olachea
+escrbano Publico
+Norma

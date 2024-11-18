@@ -1,12 +1,4 @@
 August 25th 1945
-Esto es un texto escrito en español. Aquí está la transcripción de la misma:
-
-Esto
-Lo que se detalla aquí es un documento de texto escrito en español. Aquí está la información en línea:
-
-es un
-sobrenata y demás que le correspondían los cede centunero y tras
-
 quienes ayer (es comadec.) siendo testigos los ciudadanos ANTO-
 nio (ilégible) y Jose Gaes y Garcia vecinos
 Miguel Jose Montalvo
@@ -28,3 +20,10 @@ do la razon de diez y seis reales el castellano siendo de cargo
 del contraborder la paga del derecho de alcabata que ha salido
 fecho al señor receptor de este ramo quien en prueba de su reato ha todo la boleta que se inserto y dice asi y decla
 y no que la intuccion esclava Romualda no vale mas y aunque mas valga de si damos en mucha o poca cantidad hace gracias y donacion al somadorado y sus herederos buena pura mera per-
+Esto es un texto escrito en español. Aquí está la transcripción de la misma:
+
+Esto
+Lo que se detalla aquí es un documento de texto escrito en español. Aquí está la información en línea:
+
+es un
+sobrenata y demás que le correspondían los cede centunero y tras

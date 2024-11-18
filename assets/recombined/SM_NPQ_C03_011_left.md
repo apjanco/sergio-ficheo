@@ -398,11 +398,6 @@ D
 D
 D
 D
-Don Juan Antonio Forcada
-José Juan Antonio Ferro, Don Gabriel Andrade y Nicolás
-las Boxas vecinos Felipe Besarano Miguel Pizarro
-Ante mi Vicente Olmosheq
-
 Felipe Besarano y Don Miguel Pizarro vecinos de la provincia de Popayan y Herederos de Dona Rosa Besarano y quienes doy fe conozco y Otorgan: Que tienen recibido de Don Jose Gales depositario de los bienes de la misma fina
 1281
 
@@ -420,3 +415,7 @@ La lata de las mercedes, el aguado de maíz, la casa de hacienda, otra util y do
 bajo y sin carga ninguna en el canalón, el derecho de mi- na llamado la contención propio de esto haciendo, los derechos de la mina de Palma, son platañer en el río de Arquig, una capta de la otra partida de ambos bordos. otra di
 Agapito que la han venido las ofrantes y Don Antonio Gaoes en la cantidad de trescientos pesos de globo, la cual ha servido para satisfacer a Don Jose Gaoes doscientas diez y nueve pes.
 Sol en que se equivocaron los arbitros y los gozales de administración de la referida Mina, como consta de la escritura de venta que obligaron a favor del comprador Don Antonio Gacs. En cuya virtud se dan por entregados de los
+Don Juan Antonio Forcada
+José Juan Antonio Ferro, Don Gabriel Andrade y Nicolás
+las Boxas vecinos Felipe Besarano Miguel Pizarro
+Ante mi Vicente Olmosheq

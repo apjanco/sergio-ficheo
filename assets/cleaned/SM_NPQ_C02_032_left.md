@@ -1,4 +1,18 @@
 legítima hiz Dona Ysabel Ramírez en cantidad en ciem pesos de plata, con la precisa condición que avalada que sea, actualmente deberá la mejorada poner en poder y adis -
+Antonio Ramírez le debe la cantidad de quarenta patacos que la suela endurecerá efectivamente.
+mes que le supllo en dinero efectivo: mandó a sus abuelos se le sobren y agreguen al cúmulo de sus bienes o se le pasen en cuenta de su herencia
+Toda lo cual quiere que valga en la viny corva que mejor lucirán los desechos y manden se sobrillo sum!
+lugar haya el derechos; y manda se guarde cumplito y exel cote inviolablemente; y revoca y anula dicho testamento en todo lo que fuere contrario a este codicilo y en lo que sea conforme con él, y entodo lo demas lo aprueba ratifica, de
+xen su fuerza y vigor para que se estudie por su ultima de-
+bilita liberada voluntad, y con ningun motivo mi pretexto se contra-
+vena. Asi lo agoro estando si parece en su entero y sa-
+no Juricio siendo testigos Don Jose Maria Diaz Pizarro.
+Don Manuel Diaz Alarcon y Don Antonio Garcia vecinos y lo fijaron con los mismos de que doy fe Juan Antonio Ramirez Testigo Jose Maria Diaz Pizarro Testigo Manuel Alarcon Testigo Antonio Garcia y Falcon
+Presente fue de su oforgamiento en cuya fe signo y firmo en el dia
+de su fecha
+Vicente Olachea
+En la ciudad de Quito, capital de la provincia del Citarra y Cotopaxi de febrero de mil ochocientos trece. Ante mi el escribano y testigos que se nominación poseer en la casa de vivienda
+y testigos que se nominaron parecido en la casa de sumorio enfermo en camara Don Juan Antonio Ramirez vecino de ella q quien do fe conozco y aixo: Que el dia diez del corriente mes y ano estorgo ante mi testigos cadicilo del qual ha delibereado entorolar una clausula y comiendo en execucion por
 Para implementar una laberita y mantenida en ejecucion por via de talco acercamiento que mas haya lugar en derecho ordena y dispone siguiente:
 
 Quiere y es su ultima y deliberada voluntad que la refere:
@@ -46,18 +60,3 @@ ser dada laberita primera de dicho orden que se encaja
 se entregará y donará desde la edad de cuatro meses y
 lo declara para su constancia y exacto cumplimiento
 lo cual quiere que valga en la más bastante forma de
-
-Antonio Ramírez le debe la cantidad de quarenta patacos que la suela endurecerá efectivamente.
-mes que le supllo en dinero efectivo: mandó a sus abuelos se le sobren y agreguen al cúmulo de sus bienes o se le pasen en cuenta de su herencia
-Toda lo cual quiere que valga en la viny corva que mejor lucirán los desechos y manden se sobrillo sum!
-lugar haya el derechos; y manda se guarde cumplito y exel cote inviolablemente; y revoca y anula dicho testamento en todo lo que fuere contrario a este codicilo y en lo que sea conforme con él, y entodo lo demas lo aprueba ratifica, de
-xen su fuerza y vigor para que se estudie por su ultima de-
-bilita liberada voluntad, y con ningun motivo mi pretexto se contra-
-vena. Asi lo agoro estando si parece en su entero y sa-
-no Juricio siendo testigos Don Jose Maria Diaz Pizarro.
-Don Manuel Diaz Alarcon y Don Antonio Garcia vecinos y lo fijaron con los mismos de que doy fe Juan Antonio Ramirez Testigo Jose Maria Diaz Pizarro Testigo Manuel Alarcon Testigo Antonio Garcia y Falcon
-Presente fue de su oforgamiento en cuya fe signo y firmo en el dia
-de su fecha
-Vicente Olachea
-En la ciudad de Quito, capital de la provincia del Citarra y Cotopaxi de febrero de mil ochocientos trece. Ante mi el escribano y testigos que se nominación poseer en la casa de vivienda
-y testigos que se nominaron parecido en la casa de sumorio enfermo en camara Don Juan Antonio Ramirez vecino de ella q quien do fe conozco y aixo: Que el dia diez del corriente mes y ano estorgo ante mi testigos cadicilo del qual ha delibereado entorolar una clausula y comiendo en execucion por

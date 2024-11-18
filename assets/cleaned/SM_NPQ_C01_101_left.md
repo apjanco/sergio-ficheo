@@ -4,11 +4,6 @@ satisfecio la cantidad de su valor,
 y
 como real vendedor se obliga a la eviccion
 seguridad sanea
-Ante mi Vicente Olaechea
-VENTA - ESCLAVO
-En el pueblo de San Francisco de Quibdo capital de la provincia
-Ante mi el escribano y testigos que se nomina parecio presente Juan Fernando Sánchez vezno de ella a quien doy fe conosco y dijo: Que vende y da en venta regl
-Ayer el señor de la Cuenca y alcalde que tendy de la ciudad y alcalde x perpetua enganacion desde ahora para siempre. Jamas al señor teniente de gobernador de esta provincia don
 Como realizar la venta de un bien en seguida, es necesario tener un miento y firmeza de esta venta, en tal manera que siempre le sea cierta segura y valecedera, y que sobre su propiedad no se le ponga ni movera pleito ni contradicción alguna, y si
 se le pusiere, luego que le conste aloforgante a sea requisi- de saldra a la vos y defensa, y a su costa y mencion la segura fenecera y acadara hasta desor al comprador en quieta x pacifica posecion, y de no poderlo conseguir
 La venta de esta mercancía se realizará en el mercado de la ciudad de Córdoba.
@@ -19,3 +14,8 @@ presentarse obligándose conforme a derecho a todos los cos- tos y costas de su 
 Manuel Mario Gamboa
 Festigo Domingo Polo
 Antonio Vicente Olascho
+Ante mi Vicente Olaechea
+VENTA - ESCLAVO
+En el pueblo de San Francisco de Quibdo capital de la provincia
+Ante mi el escribano y testigos que se nomina parecio presente Juan Fernando Sánchez vezno de ella a quien doy fe conosco y dijo: Que vende y da en venta regl
+Ayer el señor de la Cuenca y alcalde que tendy de la ciudad y alcalde x perpetua enganacion desde ahora para siempre. Jamas al señor teniente de gobernador de esta provincia don

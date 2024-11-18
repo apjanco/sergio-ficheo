@@ -1,15 +1,5 @@
 to poseión propiedad dominio y señorío que a dicho esclavo
 vo Jose Joaquín tenía y todo ello lo cede renuncia y traspasa
-no sabia exacto y lo hizo en el juego con Francisco Xavier de Conto
-siendo testigos los mismos
-por el otorgante
-
-TESTAMENTO - BIENES DE DONA NICOLOSA BECERRA
-55f. Senor Don Melchor de Velancor
-La peña Abril 22 de 1809
-Muy señor mío, y amigo, ahora que son las diez y media acabo de
-recibir la de vuestra mesa en la que me participa la funesta noti-
-
 Jose Soagun, rema y todo se a B. Venerado y paga en el comprador Audiles de Cordoba para que sea su esclavo y en su virtud lo venda cambie o en- gena a su voluntad mediante a que lo ha adquirido con Justox.
 legítimo título. Y como Real Vendedor se obliga a la erxición
 seguridad y saneamiento de esta venta en tal manera que
@@ -70,3 +60,12 @@ Francisco
 Xavier
 
 Canto
+no sabia exacto y lo hizo en el juego con Francisco Xavier de Conto
+siendo testigos los mismos
+por el otorgante
+
+TESTAMENTO - BIENES DE DONA NICOLOSA BECERRA
+55f. Senor Don Melchor de Velancor
+La peña Abril 22 de 1809
+Muy señor mío, y amigo, ahora que son las diez y media acabo de
+recibir la de vuestra mesa en la que me participa la funesta noti-

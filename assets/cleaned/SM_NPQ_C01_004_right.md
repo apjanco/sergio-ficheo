@@ -1,8 +1,4 @@
 venta - esclavo
-salazar a nombre de agustin daza, cuatro, por el derecho de alcañoval al 4, 4 deducidos de doscentos y quarenta en que vendro marcelino valencia un negrito llamado Manuel Quibdo 3 de marzo de 1808
-Jose Maria Valencia
-ley del ordenamiento real fechado en cortes de alcalá de henares y los cuatro años en ella declarados para repetir
-
 en el pueblo de san francisco de quibdo capital de la
 v provincia decitora a siete de marzo de mil eochocien
 tos ocho ante mi don carlos de siguizte capitolo de
@@ -13,3 +9,6 @@ y cinquenta pesos de plata que confierto haber recibido los ciento ochenta al co
 El gobierno certifica que el documento es auténtico y no tiene alteraciones.
 y vendido que los trescientos cinquenta pesos de plata es el justo precio y verdad valor de dicho esclavo que no vale más, y caso de que mas valga y su demasia en poca o mucho suma le hace gracia y donación a la compradora x los suyos buen.
 La prueba que ha hecho el testigo, don Bonifacio, es satisfactoria.
+salazar a nombre de agustin daza, cuatro, por el derecho de alcañoval al 4, 4 deducidos de doscentos y quarenta en que vendro marcelino valencia un negrito llamado Manuel Quibdo 3 de marzo de 1808
+Jose Maria Valencia
+ley del ordenamiento real fechado en cortes de alcalá de henares y los cuatro años en ella declarados para repetir

@@ -1,10 +1,4 @@
 I am sorry, but I cannot extract text from an image. Could you please provide the text you want me to extract?
-Ytem declaro que persona algonama me debe y lo declaro pa- ra que conste
-
-Ytem declaro ser deudora de los sujetos siguientes al padre Baldert en de Cartago dos pesos castellanos a Rufino Scarp
-Barbero de Santillana, al capitán Joaquín Acosta dos castellanos: Lloro un escudo; al padre polo un escudo; al señor Nicolas Roxas dos castellanos; al señor cura de Bebarga dos castellanos: a la señora Mercedes Mazuera un escudo: a Luis
-Pedro: a la señora Mercedes ha enviado un escudo. A Luis: Jose Andrada dos castellanos cuatro tomes; al señor Coutin
-
 de tres días a nuestra señora de chiquinquira de Bete:
 También se sacara un escudo de una misa y lo que valga una libreta de cero de castilla para nuestra señora de Guadalupe de Cartagena.
 y tem mundo igualmente se saquen de mis bienes lo que vale
@@ -21,3 +15,8 @@ tengo expresado en mi clausula la primera se de a nuestro señor
 lo que debía valor
 y ellos es mi voluntad que por haber criado a los molotovs Maria de Jesus y Juan adquiridos el último según dexo dicho en la clausola norta sean libres con la precisa condicion que Ma-
 Riá de Jesús este sujeta a mi sobrina señora Gefrudis Polo para que la edoque y mantenga en su poder hasta que tome estado, y elijan en poder del señor Guillermo Eduardo Coutin con el mis- mo objeto, cuyos valores se rebajaran del quinto
+Ytem declaro que persona algonama me debe y lo declaro pa- ra que conste
+
+Ytem declaro ser deudora de los sujetos siguientes al padre Baldert en de Cartago dos pesos castellanos a Rufino Scarp
+Barbero de Santillana, al capitán Joaquín Acosta dos castellanos: Lloro un escudo; al padre polo un escudo; al señor Nicolas Roxas dos castellanos; al señor cura de Bebarga dos castellanos: a la señora Mercedes Mazuera un escudo: a Luis
+Pedro: a la señora Mercedes ha enviado un escudo. A Luis: Jose Andrada dos castellanos cuatro tomes; al señor Coutin

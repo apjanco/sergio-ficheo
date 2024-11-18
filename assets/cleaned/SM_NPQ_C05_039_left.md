@@ -1,5 +1,4 @@
 ay hecho los males terceros, pero sí de ningún modo le perdono
-
 La cuña que intenta llevar al cabo de mi casa sobre qué tengo hecho o curso a la superioridad, y si resultase a mi favor, encargo se haga el cargo devido hasta poner la casa en los términos que deba.
 debí estar mediante a haber botado los peones que empezaban a trabajar en la casa. Todo lo quier que balga en la vi y forma que mejor tenga lugares en Derecho y mando se guarda, comple y execute inobiablemente, y reboco y anulo dicho testamento.
 en lo que hace a las cláusulas puestas en este codicilio y enloque

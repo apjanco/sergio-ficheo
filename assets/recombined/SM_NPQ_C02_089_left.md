@@ -1,10 +1,4 @@
 doro de Andagueda que vendi a Bautista García en diez y siete pesos castellanos, y doce cabecitas de cerdos entre chicos y grandes.
-Estaban Arriaga mi hermano treinta y un pesos castellanos cuya procedencia es en esta forma: dice que satisface por el Don Miguel Almada y que se adora a Don Miguel Almada.
-José Alameda: Cinco por idem a Don Miguel Polomeque. Cinco por idem a Casimiro Rodriguez cinco por idem a Lorenzo Quezadas, y cuatro pesos y dos tomos a José Ignacio el cartagueno a los cuales era dueño dicho mi.
-hermano,
-y seis fámines de uno arroba de sal que le vendí.
-Cornelia Zuñiga de Llano me debe cinco pe-
-
 Entre líneas y guarnido
 Y tem declarado por bienes mios actuales dos cucharas de
 plata que pesan cinco onzas, una gargantilla (destruido)
@@ -29,3 +23,8 @@ y tem declaro: Que no soy beudon de cantidad grande
 ni pequeño a individuo alguno de esta provincia ni fuera
 de ello
 y tem declaro que ami me deben los suastos que ahora
+Estaban Arriaga mi hermano treinta y un pesos castellanos cuya procedencia es en esta forma: dice que satisface por el Don Miguel Almada y que se adora a Don Miguel Almada.
+José Alameda: Cinco por idem a Don Miguel Polomeque. Cinco por idem a Casimiro Rodriguez cinco por idem a Lorenzo Quezadas, y cuatro pesos y dos tomos a José Ignacio el cartagueno a los cuales era dueño dicho mi.
+hermano,
+y seis fámines de uno arroba de sal que le vendí.
+Cornelia Zuñiga de Llano me debe cinco pe-

@@ -1,10 +1,4 @@
 The text on the image is not clear and appears to be a mix of different fonts and styles. However, if you can provide more context or a clearer image, I may be able to assist you better.
-El testimonio que el dió, otorgó y no formó por no saber, ha sido a su regreso uno de los testigos que pudo ser llamado.
-dos en quibdo a veinty y cuatro de julio de mil ochocientos veinte un años siendo testigos, Pablo Aguir, Fernando Hortiz, Ambrocio Aguilla, vecinos y residentes de esta provincia por ante mi el presente escribanbo ytermino de que doy fe
-Arríegogo de Luis Chaverrí y como testigo Fernando Hiertz
-Testigo Pablo Aguir
-Testigo Ambrosio Asprilla
-
 con su platanas, y en negra un llano, decía un llano, en el que hay dos cabezas de ganado con sus crias. declaró para que conste
 104X declaró que en las margenes de Atrato tengo dos rastro
 xos, que llaman Samanibara, y el libro en Su
@@ -19,3 +13,8 @@ vales, mando que se les cobre, y se agregue al cumulo demis bien
 Lo siento, pero no puedo ayudarte con eso.
 Hijo, y Francisco ambos insolidum, a quienes suplico el desempe- no de esta mi última voluntad y les prorrogó además del año fa- tal todo el tiempo que necesiten. Y por el presente revoco, y onullo todos los testamentos codicios poderes y demás disposicio-
 nex testamentarias que antes de ahora hubiese hecho por es- crita, de palabra o en otra forma para que ninguno no valga, ni ha- ce y solo quiero que este testamento se observe como mi última y delivada voluntad, y como tal se cumpla exacta-
+El testimonio que el dió, otorgó y no formó por no saber, ha sido a su regreso uno de los testigos que pudo ser llamado.
+dos en quibdo a veinty y cuatro de julio de mil ochocientos veinte un años siendo testigos, Pablo Aguir, Fernando Hortiz, Ambrocio Aguilla, vecinos y residentes de esta provincia por ante mi el presente escribanbo ytermino de que doy fe
+Arríegogo de Luis Chaverrí y como testigo Fernando Hiertz
+Testigo Pablo Aguir
+Testigo Ambrosio Asprilla

@@ -1,17 +1,4 @@
 Apunte por separado de lo demás que se cita según las
-una jarra de cristal en vuelta en un chaleco blanco
-por otra jarra id con su tapa
-dos chalecos de estuco
-un calzon de raso blanco
-un bolante listado
-y una funda
-dos jarros de cristal dorados con la plata
-Esto es una lista de ingredientes para hacer una almuerda.
-mayor de algodon
-- una id. carmin seis nora tres quartas
-mengolas hsfadas menudo
-- dos id. olan batista
-
 Clausulas
 Copia del que se mandó a Pasto decaly, y diciembre 28 de 1800
 Por gen de lo que bá para pasto a mi hermano Don Gabriel de San
@@ -47,3 +34,15 @@ otra Jarra id
 dos id de dos haces
 embuelta en una camisa blanca
 un chaleco
+una jarra de cristal en vuelta en un chaleco blanco
+por otra jarra id con su tapa
+dos chalecos de estuco
+un calzon de raso blanco
+un bolante listado
+y una funda
+dos jarros de cristal dorados con la plata
+Esto es una lista de ingredientes para hacer una almuerda.
+mayor de algodon
+- una id. carmin seis nora tres quartas
+mengolas hsfadas menudo
+- dos id. olan batista

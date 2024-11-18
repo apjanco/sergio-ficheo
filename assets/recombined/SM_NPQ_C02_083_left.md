@@ -1,16 +1,6 @@
 lo sobre que pronuncia decir lo contrario lo excepción de
 la non numerata pecenia es prueba la del recinto termino
 en español y más del caso. En cuya virtud se desiste guita y apar
-Antonio Valencia
-Saturnino de Llapeda
-Ante mi Vicente Olaechoa
-VANTA-ESLANO
-Venta-Eslavo
-ser en la ciudad de Quito, capital de la provincia de Cota, a siete de mayo de mil ochocientos catorce. Ante mi ellos, cribo y testigos que se nominaron parecido Don Juan
-terre el vecino de ella a quien doy fe conozco por forga: Que
-vende realmente y con efecto a Juan de Mena de la
-propia recididad una negra su propia esclava y sujeta a sep
-
 lo del derecho de patronato posesion dominio y señorío que al citado exclavo Juan Leon tenia adquirido x todos los cede renuncia y traspasa en su favor y fin de que nombraba a estar sujeto a servidumbre y le con-
 De que no me ha sido dada cuenta de que es imposible con libertad y general administración para que trate cuando tenga la edad competente, contrate testigo, comparezca en juicio por si bien sea de su voluntad y actúe sin intervención
 6 por medio de sus cuadradas,
@@ -26,3 +16,12 @@ Los bienes, habidos y por haber con el poderío de justicia, cuya submision de f
 ser toros de leguas a nombre del libertad as lo dicen o- 
 torgan y forman siendo testigos Don Juan Antonio 
 ferro, Don Juan Rovira y Don Jose xgnacio Ramire
+Antonio Valencia
+Saturnino de Llapeda
+Ante mi Vicente Olaechoa
+VANTA-ESLANO
+Venta-Eslavo
+ser en la ciudad de Quito, capital de la provincia de Cota, a siete de mayo de mil ochocientos catorce. Ante mi ellos, cribo y testigos que se nominaron parecido Don Juan
+terre el vecino de ella a quien doy fe conozco por forga: Que
+vende realmente y con efecto a Juan de Mena de la
+propia recididad una negra su propia esclava y sujeta a sep

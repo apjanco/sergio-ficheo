@@ -1,10 +1,4 @@
 Cede penúncia y traspasar en su favor a fin de que no vuelva
-Venta - Esclavo
-
-En la ciudad de Quibdo, capital de la provincia de altar, ven- te y seis de setiembre de mil ochocientos catorce. Ante mi escrivar y los otros que se van a morir, Don Carlos.
-Escrito y testigos que se nombraron por la ciudad de Buenos Aires. Alarcon vecino de ella quien hoy se conozco y otorga: Que vende realmente y con efecto a la ciudadana Maria Ayora de la propia vecindad un negro nombrado Anisebo su propio.
-esclavo cautivo y sujeto a servidumbre el cual se halla libre
-
 Estoy sujeto a servidumbre y le confiere poder previsible con libre franque y general administración para que traite, contrate, teste, comparezca en junio por si o por nue
 dio de sus apoderados y practique sin intervención de su parte quanto esto permitido a los que nacieron libres usando en todo de su exportación voluntad, pues para ello formaizo a su favor esta escritura con los requisitos legales
 La siguiente es una página de un libro con una escritura en español. Aquí está la información escrito en línea:
@@ -20,3 +14,8 @@ Nicolas Roxas
 Emilio Peres
 Ante mi Vicente Olasheo
 Escribo público
+Venta - Esclavo
+
+En la ciudad de Quibdo, capital de la provincia de altar, ven- te y seis de setiembre de mil ochocientos catorce. Ante mi escrivar y los otros que se van a morir, Don Carlos.
+Escrito y testigos que se nombraron por la ciudad de Buenos Aires. Alarcon vecino de ella quien hoy se conozco y otorga: Que vende realmente y con efecto a la ciudadana Maria Ayora de la propia vecindad un negro nombrado Anisebo su propio.
+esclavo cautivo y sujeto a servidumbre el cual se halla libre

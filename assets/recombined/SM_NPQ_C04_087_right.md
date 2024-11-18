@@ -1,8 +1,4 @@
 butterknife
-con las azarones personales, útiles, mixtos, directos, ejecutivas y demás que le competen con la condición dicha en el mencionado señor vicario Manuel Santos de Escobar, a quien confiere poder irre- vocable con libre, franca, y general administración y constituye pro-
-curador actor en su propio negocio para los goze, y administra sin dependencia ni intervención de la otorgante tome y aprendió de su autoridad o judicialmente la tenencia y posesión que en virtud de este instrumento le pertenece, y para que no necesite tomar
-Lo, y antes bien conste ser suyos en pleno dominio que en este con-septo pueda disponer de ellas, libremente a su arbitrio formalisca.
-
 ro vecinos
 Juan Francisco de Escobar
 A rruego del liverto
@@ -19,3 +15,6 @@ de devolverle integramente todos los bienes los cuales asegurar
 hállarse libre de empeño, deuda, obligación, e hipoteca especial niga
 neral, que no las tienen, y desde hoy en adelante se abdicó, desgrande,
 desapoderada, desiste, quita y quarta, de la posesión, dominio, título, vos, recurso, y otro cualesquier derecho, que a los indicados bienes y en claves le corresponden, y los sede, renuncia, y traspasa, plenamente con las acciones personales útiles, muchas directas, ejecutivas
+con las azarones personales, útiles, mixtos, directos, ejecutivas y demás que le competen con la condición dicha en el mencionado señor vicario Manuel Santos de Escobar, a quien confiere poder irre- vocable con libre, franca, y general administración y constituye pro-
+curador actor en su propio negocio para los goze, y administra sin dependencia ni intervención de la otorgante tome y aprendió de su autoridad o judicialmente la tenencia y posesión que en virtud de este instrumento le pertenece, y para que no necesite tomar
+Lo, y antes bien conste ser suyos en pleno dominio que en este con-septo pueda disponer de ellas, libremente a su arbitrio formalisca.
