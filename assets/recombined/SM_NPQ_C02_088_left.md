@@ -1,11 +1,4 @@
 con la instrucción y renuncia necesaria sobre que renuncia la ley del ordenamiento real fecha en Cor-tes de Alcalá de Henares, y demás que huban en ro-
-TESTAMENTO
-63v En el nombre de Dios todo poderoso Amen: yo Joaquín Arría
-64r go natural y vecino del pueblo de Lloto hijo legítimo y
-de legítimo matrimonio de Manuel Arrigayo y Maria llanos ve
-Cientos que también fueron del mismo pueblo, hallándome en fe, pero por la divina misericordia en mi entero y cabal jurio memoria y entendimiento natural, creyendo y confesando como firmemente creo y confeso en el alto y bajo santo misterio de la santísima trinidad padre hijo y est
-pintu santogy en todos los demas que tiene predicay en
-
 Res de alcaldía de menores y demás que habitan en la ciudad de la que se compra y vende por más o menos de la mitad del justo precio y el término concedido para la rescisión del contrato o su suplemento. Mediante lo cual se asiste a y dona del derecho de su sion
 Clara Romualda tenía adquirido y todos con el de patrónato y demás que le correspondían los cede remunid
 y traspasá en el comprador y sus sucesores que en su- 
@@ -20,3 +13,9 @@ Francisco de Nieto
 Getulino Martorell
 Ante mi
 Vicente Olgaechoa
+TESTAMENTO
+63v En el nombre de Dios todo poderoso Amen: yo Joaquín Arría
+64r go natural y vecino del pueblo de Lloto hijo legítimo y
+de legítimo matrimonio de Manuel Arrigayo y Maria llanos ve
+Cientos que también fueron del mismo pueblo, hallándome en fe, pero por la divina misericordia en mi entero y cabal jurio memoria y entendimiento natural, creyendo y confesando como firmemente creo y confeso en el alto y bajo santo misterio de la santísima trinidad padre hijo y est
+pintu santogy en todos los demas que tiene predicay en

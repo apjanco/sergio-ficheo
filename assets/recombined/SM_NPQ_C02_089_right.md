@@ -2,10 +2,6 @@ Miguel Liocono siete pesos
 Miguel pacho Martínez cinco pesos
 Pedro Vallesteros trece pesos
 Francisco Márquez tres pesos
-La comunidad de esta nación es un pueblo unido y por el presente revoque y anularé todos los testamentos que antes de este haya formalizado por escrito de palabra o en otra forma, para que ninguno valga, ni haga fe judicial ni extraoficialmente ni menos los poderes y otra disposición.
-Extóficialmente, ni menos los quereré, ni menos el testamento que haya otorgado, pues solo el presente testamento quiero y es mi última deliberada voluntad se tengo por válido y subsistente y como tal se observe y cumpla exactamente su contenido, por ser un último final disposición
-Exactamente no comprendo, pero ser un estudiante para aprender, o en la vida y forma que mejor lugar haya en derecho. Y el autor que yo el infrascrito escribano público y de gobierno de 63 esta provincia doy fe conozco así lo dixo y otorgo no fir
-
 pesos
 Francisco Mená de la Troxa un peso cuatro
 hombres
@@ -31,3 +27,6 @@ Y tem declaro que no tengo heredero por zuso ascendiente, ni descendiente alguno
 chios y acciones a lo que citada mi legítima esposa Marin
 Elías y quierenle a la señora Rosa de Oryalles para que los haya goce y disfrte con la bendición de Dios y la misa. Y tem asimismo para cumplir y para este mi testamento, mandos, legados y todo lo en el disposto nombra por mi.
 Maria Rosa de Ovalles
+La comunidad de esta nación es un pueblo unido y por el presente revoque y anularé todos los testamentos que antes de este haya formalizado por escrito de palabra o en otra forma, para que ninguno valga, ni haga fe judicial ni extraoficialmente ni menos los poderes y otra disposición.
+Extóficialmente, ni menos los quereré, ni menos el testamento que haya otorgado, pues solo el presente testamento quiero y es mi última deliberada voluntad se tengo por válido y subsistente y como tal se observe y cumpla exactamente su contenido, por ser un último final disposición
+Exactamente no comprendo, pero ser un estudiante para aprender, o en la vida y forma que mejor lugar haya en derecho. Y el autor que yo el infrascrito escribano público y de gobierno de 63 esta provincia doy fe conozco así lo dixo y otorgo no fir

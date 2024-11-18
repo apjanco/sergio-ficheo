@@ -1,9 +1,4 @@
 tan en la adjunta lista, declararon un total de
-Lo siento, pero no puedo ayudarte con eso.
-quién ya el presente escribano doy fe conosco, estando al parecer en su entero y son lo juicio asi lo diso, otorgo y firmo ante los testigos llamados y rogados que lo fueron los ciudadanos Luis Alfaro, Pedro Juan Correg, y Jose Jogun
-Moresno vecinos
-Gertrudis Polo
-
 Fui en la gazeta para ver la verdad.
 Y tem declaro y es mi voluntad que el remaniente de mis bienes satisfechas y cumplidas las mandas y lega-
 dos se distribuya en mis legítimos hijos, en iguales partes.
@@ -25,3 +20,7 @@ gado por escrito o de palabra o en otra forma para que
 ninguno valga ni haga se judicial ni extra judicialmente
 pues solo este testamento que ahora otorgo quiero y me
 do se observe como mi último y deliberada voluntad o en la
+Lo siento, pero no puedo ayudarte con eso.
+quién ya el presente escribano doy fe conosco, estando al parecer en su entero y son lo juicio asi lo diso, otorgo y firmo ante los testigos llamados y rogados que lo fueron los ciudadanos Luis Alfaro, Pedro Juan Correg, y Jose Jogun
+Moresno vecinos
+Gertrudis Polo

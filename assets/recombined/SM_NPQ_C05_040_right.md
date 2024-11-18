@@ -1,7 +1,4 @@
 JeniusfredericJenMachland
-mitad del Justo cedido y el término concedido para la ejecución del contrato o su suplemento. Mediante lo cual se desestiguó x aparta del derecho, acción, posesión, propiedad, dominio, y que a dicho esclavo tenía adquirido, y todos con el de patrona
-4o y demos que le corresponden los cede, renuncia y tras-pasa en el comprador y sus sucesores, que en año de posesión y para título de ella otorga su favor esta escritura por la cual no desear haberla adquirido sin que necesite de otro
-acto de aprehensión de que lo reléxa, y obligase a la evi- cción x saneamiento de esta venta hasta desgar al compra
 festigos los señores Joaquín Escobar, Juan Mendosa y Luis
 Alfaro vecinos
 María Josefa Naudin
@@ -14,3 +11,6 @@ de empeño deuda conozación e impazidad especial en general que no la tiene x s
 prador en dinero de contado de la que seda por entregado a su voluntad renuncia decir lo contrario la excepción de la non nu- merata pecuna su prueba la del recibo termino, engano y más del caso si declarando que hubo esclavo Bruno no vale más, y que
 del caso; declarando que dicho esclavo no vale más, y con que más valga de su demasia en mucha o poca cantidad hace gra- ciá y donación al comprador y sus herederos buena, puro, mera, perfecta e irreforcable intervivos, con la insinuación y renuncia
 La necesaria sobre que renuncia la ley del ordenamiento Real fecha en cortes de Alcalá de Henares, y demos que hablan en razón de las cosas que se compran y venden por más o menos de la mutud del justo precio y el término concedido para la sesión.
+mitad del Justo cedido y el término concedido para la ejecución del contrato o su suplemento. Mediante lo cual se desestiguó x aparta del derecho, acción, posesión, propiedad, dominio, y que a dicho esclavo tenía adquirido, y todos con el de patrona
+4o y demos que le corresponden los cede, renuncia y tras-pasa en el comprador y sus sucesores, que en año de posesión y para título de ella otorga su favor esta escritura por la cual no desear haberla adquirido sin que necesite de otro
+acto de aprehensión de que lo reléxa, y obligase a la evi- cción x saneamiento de esta venta hasta desgar al compra

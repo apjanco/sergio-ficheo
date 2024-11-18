@@ -1,14 +1,4 @@
 The text on the image is not clear and appears to be a mix of different fonts and colors. However, if you can provide more context or a clearer image, I would be happy to help you extract the text.
-las de plata cada una, por lo que seguire de mis necesidades y la esta para que coste
-4ª y declaro que en casada y velada según un orden de nuestra santa madre yecolica, con Don Carlos Miguel de la Cuesta mismo de la casa de la yecolica.
-esta provincia ya difunto, en cuyo matrimonio no haviamos hecho algo
-no, lo declaro para que conste
-5a
-Yt declaro que cuando contraxe dicho matrimonio se aporta
-pital alguno, teniendo lo considerable mi marido como es noto
-rio, y lo declaro para que conste
-6ª yf declaro que por documento que se halla agregado a la causa
-
 TESTAMENTO
 En el pueblo de San Antonio de Bovaro a días y nueve de agosto de mil ochocientos quince: Diego y la ciudadanía Bojida Fernández
 La orfandía de la ciudad de Cartagena y vecina de esta provincia. La lexitima de Don José Fernandes, y Dona Francisca Fresneda dicuntos que hallandome enferma del cuerpos, pero en mi entero y salud, me hallan en la casa de la señora Francisca Fresneda.
@@ -22,3 +12,12 @@ padres, y esposo, y demás del purgatorio, a la mayor brevedad posible. lo decla
 3ª Mando o las mandas forzosas y acostumbradas a quatro con
 
 los de globo cada una, con lo que aseguro de mis vientos y la tebe
+las de plata cada una, por lo que seguire de mis necesidades y la esta para que coste
+4ª y declaro que en casada y velada según un orden de nuestra santa madre yecolica, con Don Carlos Miguel de la Cuesta mismo de la casa de la yecolica.
+esta provincia ya difunto, en cuyo matrimonio no haviamos hecho algo
+no, lo declaro para que conste
+5a
+Yt declaro que cuando contraxe dicho matrimonio se aporta
+pital alguno, teniendo lo considerable mi marido como es noto
+rio, y lo declaro para que conste
+6ª yf declaro que por documento que se halla agregado a la causa

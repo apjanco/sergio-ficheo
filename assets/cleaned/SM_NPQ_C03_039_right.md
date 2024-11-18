@@ -10,11 +10,6 @@ b
 
 r
 
-Hayan y gocen con la bendición de Dios y la misa. 109 Xtem declaro que segun una lista que tezo por separada para que se cobre como bienes mios se mededen legitimamente. Algunas entidades que se cesaron con lo mas pronto que
-Fe algunas entidades las que se recuerdan la más grata que se pueda y entrarán al cumulo de mis bienes declarado para que conste
-Y para cumplir y pagar este mi testamento y todo lo en el dis
-puesto eligo (destruído) nombre por mis alvácenas testamenta.
-rios fidei comisarios (destruído) de mis bienes en primer
 corresponden por via de herencia de una (destruido) más otra partida que de esta misma cuenta se cobró a los bienes de Don Xgnacio Rentería de todo consta de autos, y yo por mi parte no meti capital alguno: declarolo así para que cons
 Y tem declaro, que en el cumulo de estos bienes existen la cantidad de mil patatas de suerte principal que deben estos
 al convento hospital de San Juan de Dios en la ciudad de San
@@ -30,3 +25,9 @@ Ytem mediante aquenodobe a otra persona ninguna continuada es mi voluntad no int
 Mis abuelas
 Y tem nombre formis unicos y universales heredos derechos y acciones a los expresados mis cinco hijos legitimos y
 a la referida mis esposa para que si quedasen algunos bienes
+Hayan y gocen con la bendición de Dios y la misa. 109 Xtem declaro que segun una lista que tezo por separada para que se cobre como bienes mios se mededen legitimamente. Algunas entidades que se cesaron con lo mas pronto que
+Fe algunas entidades las que se recuerdan la más grata que se pueda y entrarán al cumulo de mis bienes declarado para que conste
+Y para cumplir y pagar este mi testamento y todo lo en el dis
+puesto eligo (destruído) nombre por mis alvácenas testamenta.
+rios fidei comisarios (destruído) de mis bienes en primer
+71

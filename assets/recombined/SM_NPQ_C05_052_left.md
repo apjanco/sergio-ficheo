@@ -1,8 +1,4 @@
 defuere en susmole sujamento, relevandole de otro aunque
-rio la excepción de la non numerato pecomo, su prueba, la del recibo, termino, engano y mas del caso, declarando que dicho esclavo Jose e novale mas y aunque mas valgo de su demasiao en mucho o poca cantidad basa arropa
-Regalé, subestima, envidia, o poca consideración hace gracia y donación al comprador y sus sucesores, bueno, purgatorio, mera perfecta e irrevocable intervención con la insinuación y renuncia necesaria sobre que renunciar decir lo contra-
-rio, la ley del ordenamiento Real fecha encortes de Alcalá de Henares y demás que hablan en razón de las cosas que se
-
 Defiere en justicia solemnemente, y a la observancia y puntual cumplimiento de todo lo refiriéndose se obliga con sus bienes habidos y por haber con el poderío de Justicias somisión de fuerzo y
 reiniciación de leyes en derecho necesarias con la general
 en forma. En cuyo testimonio así lo dicen, con aceptación del
@@ -23,3 +19,6 @@ libre de empeño, deuda, obligación e hipoteca especial
 n. general que la tiene y se lo vende con todos sus vicios, tachas, defectos, enfermedades públicas y secretas en precio
 x cortes y otros gastos que no puede cubrir.
 Zancidad de descriptos treinta pesos de plata de ocho reales que por él ha dado el comprador en dinero de contado quien en prueba de su recibo se da por entregado a su entero satisfacción y contento sobre que enuncia decirlo contra
+rio la excepción de la non numerato pecomo, su prueba, la del recibo, termino, engano y mas del caso, declarando que dicho esclavo Jose e novale mas y aunque mas valgo de su demasiao en mucho o poca cantidad basa arropa
+Regalé, subestima, envidia, o poca consideración hace gracia y donación al comprador y sus sucesores, bueno, purgatorio, mera perfecta e irrevocable intervención con la insinuación y renuncia necesaria sobre que renunciar decir lo contra-
+rio, la ley del ordenamiento Real fecha encortes de Alcalá de Henares y demás que hablan en razón de las cosas que se

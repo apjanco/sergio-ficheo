@@ -225,10 +225,6 @@
 225
 226
 227
-Esto venido de esta dicha capital de la cantidad de mil pesos de plata por escriftería pública, y no hallándose con el dinero se ha convenido el señor elijorante con dicho apoderado en darle en parte de papa un negro esclavo de la misma testamen
-Hermanegildo por doscientos cinquenta pesos de plata. En su virtud otorga que da en pago y a cuenta de la deferida cantidad de mil pesos de plata al nomi- gado ferre. dicho eslavo Hermanegildo en la de doscientos
-El que la da por libre de ser en el empeño ni hipótesis habita ni expresó y contados sus viejos tachas y aspectos, enfer
-medidas públicas y secretas, declarando como declaro que
 dejar al comprador enquieta y pacífica posesión y de no poderlo
 conseguir ledar y volvera los pesos recibidos con el mas var
 lor adquirido con el tiempo, y le pagara las costas y gastos desu
@@ -246,3 +242,7 @@ teo Scarpello (ya dicunto) que doy fe conozco y dixo: Que
 siendo deudora la testamentaria de ceda a Don Carlos fe-
 derico, que no ha sido la totalidad de la cantidad que
 dijo.
+Esto venido de esta dicha capital de la cantidad de mil pesos de plata por escriftería pública, y no hallándose con el dinero se ha convenido el señor elijorante con dicho apoderado en darle en parte de papa un negro esclavo de la misma testamen
+Hermanegildo por doscientos cinquenta pesos de plata. En su virtud otorga que da en pago y a cuenta de la deferida cantidad de mil pesos de plata al nomi- gado ferre. dicho eslavo Hermanegildo en la de doscientos
+El que la da por libre de ser en el empeño ni hipótesis habita ni expresó y contados sus viejos tachas y aspectos, enfer
+medidas públicas y secretas, declarando como declaro que

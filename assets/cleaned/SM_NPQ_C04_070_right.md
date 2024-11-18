@@ -1,10 +1,4 @@
 The text on the image is not clear and appears to be a mix of different characters and symbols. It is difficult to extract any meaningful information from it.
-Ante mi Manuel Flores
-escribo Interino del numero
-En la capital de quibdo provincia del citora a quince de febrero de mil ochenta
-cientos veinte y uno a virtud de demanda puesta por el señor José Joaquín Alarcón contra el señor Luis Pizarro por cantidad de pesos que es
-quién marzo contra el gobierno de la ciudad la ciudad de
-
 su recibo ha dado la boleta que se inserta y dice así.
 de la so
 ma recibida se confiesa el otorgante a su voluntad, renuncia decir lo
@@ -24,3 +18,8 @@ y gastos de su incertidumbre, cuya prueba defiere a su simple juram
 iento relevándole de otro aunque por derecho se requiera, y a la obser
 Entiendo.
 En forma. En su testimonio así lo dicen y ofician, firmando por el cami prodor por decir no saber el señor Joaquín escobar, siendo testigos Francisco de Gáz, Nicolas de Roxas, y Isidro Pepeñanes vecinos Juan Antonio Ferro, popel asentante y como testigo José
+Ante mi Manuel Flores
+escribo Interino del numero
+En la capital de quibdo provincia del citora a quince de febrero de mil ochenta
+cientos veinte y uno a virtud de demanda puesta por el señor José Joaquín Alarcón contra el señor Luis Pizarro por cantidad de pesos que es
+quién marzo contra el gobierno de la ciudad la ciudad de

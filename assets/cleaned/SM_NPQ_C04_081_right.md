@@ -1,11 +1,4 @@
 mas que puestando la cantidad de los escasos y la piedad de los buenos
-reservado, pero como esto, ni la principal herencia haya entrado a
-nuestro poder y me reencarga nuestro citado padre la procedencia
-de este asunto y el cumplimiento del comunicado: suplico a mis alba
-estas hagan cuanto le sea posible hasta concluirlo teniendo gas
-Estos han querido que sea posible hacerlo, y como niño hermano que haber, y para su conocimiento e instrucción les deseo una por separado de este mi testamento a la cual deben escáñirse extensamente.
-XEM declara que para acreditar la propiedad que tuvo mi madre a los negros que compró a Don Venturo Malibrán, existen
-
 me queda restando la cantidad dicha porque se los venden a dos de diez y ocho castellanos cada uno. declaralo para que conste, y
 y deben abonarse cuatro patagones que cuando nos encontramos en chima me presto en un juego; y lo declaro para que conste
 Ytem declaro señor Juliano vinuera me debe treinta y o
@@ -26,3 +19,9 @@ del que ya he hablado arriba, el cual por no haberlo cumplido en todas sus
 partes encargo a mis glórias su cumplimiento con frontidad para
 me.
 Ser (ilégible) graves de conciencia, el cual dejo comunicado a ellos... Y tem declaro que en Bogotá dejo mi padre un litigio pendiente con la viuda de Don Antonio (ilégible) cuya cantidad asciende a quarenta familias patrónas y de ellos dejo sin mil para otro comunicado
+reservado, pero como esto, ni la principal herencia haya entrado a
+nuestro poder y me reencarga nuestro citado padre la procedencia
+de este asunto y el cumplimiento del comunicado: suplico a mis alba
+estas hagan cuanto le sea posible hasta concluirlo teniendo gas
+Estos han querido que sea posible hacerlo, y como niño hermano que haber, y para su conocimiento e instrucción les deseo una por separado de este mi testamento a la cual deben escáñirse extensamente.
+XEM declara que para acreditar la propiedad que tuvo mi madre a los negros que compró a Don Venturo Malibrán, existen

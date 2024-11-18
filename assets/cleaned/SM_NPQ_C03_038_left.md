@@ -1,8 +1,4 @@
 cada reminiscencia y recuerdos en el sombrador y sus vecinos soñeros
-los embajadores por mí o los insurgentes siguen que les sirva en calidad de quintoente por la presente e nombre de su maestra.
-Interrogatorio intervinidos al indicado señor ayudante San vicente Gallardo de un herido estropio del insurgente y ex-dictador Lon Miguel Ruch, de edad de once años llamado Agustin y desde hoy en adelante para mantener alcalde desapodo.
-comprendiendo desisto quito y aparto almininado Bach y su
-
 que en señal de posesión y para título de ella otorga asu
 favor esta escritura por la que ha deseo haberla adquir
 do sin que necesite de otro acto de oxígeno de lo rel
@@ -27,3 +23,6 @@ de la provincia de Cilara
 
 Por augusto a ser el primer ayudante de los alcalde
 Don Vicente Gallardo no ha hecho presente honrarse con don del señor comandante de la misma Don Julián Baier para que sea la confianza en propiedad no es tanto cualquier de
+los embajadores por mí o los insurgentes siguen que les sirva en calidad de quintoente por la presente e nombre de su maestra.
+Interrogatorio intervinidos al indicado señor ayudante San vicente Gallardo de un herido estropio del insurgente y ex-dictador Lon Miguel Ruch, de edad de once años llamado Agustin y desde hoy en adelante para mantener alcalde desapodo.
+comprendiendo desisto quito y aparto almininado Bach y su

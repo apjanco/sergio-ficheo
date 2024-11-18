@@ -1,10 +1,4 @@
 sumar y dividir x de la suma decimal de confesiones entre
-Testimonio de libertad
-
-End pueblo de Quibdo Provincia de El Cuchara en primeros de Abril de Mill setecientos y cinquenta años. Ante mi Don Joseph de Monjas techocho de gobernantes y Nuncio de la Real.
-Montes teniente de gobernador y Administrador de la Real Hacienda en ella por su magestidad y testigos por falta de escribano, pareceo presente el Sargento mayor Don Alonso Cordova y Velasco dueño de minas y esclavos en esta provincia
-a quien certifico que conozco, y dibo (destruido) tiene una es- clava suda llamada Margarita de cañizo de edad de veinte
-
 se inserta y dice así: y de la suma fiscalizada se compuesta entre
 gada a su voluntad renuncia decir lo contrario la excepción de la
 non numerada pecoma su prueba la del recibo termino engano y
@@ -19,3 +13,8 @@ Nicolas Roxas
 Manuel Ignacio Martinez
 Ante mi Vicente Olaguecha
 Escritor Publico
+Testimonio de libertad
+
+End pueblo de Quibdo Provincia de El Cuchara en primeros de Abril de Mill setecientos y cinquenta años. Ante mi Don Joseph de Monjas techocho de gobernantes y Nuncio de la Real.
+Montes teniente de gobernador y Administrador de la Real Hacienda en ella por su magestidad y testigos por falta de escribano, pareceo presente el Sargento mayor Don Alonso Cordova y Velasco dueño de minas y esclavos en esta provincia
+a quien certifico que conozco, y dibo (destruido) tiene una es- clava suda llamada Margarita de cañizo de edad de veinte

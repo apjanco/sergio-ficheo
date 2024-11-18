@@ -1,10 +1,4 @@
 En el nombre de Dios, todo poderoso Amen Yo Gertrudis Polo
-y hasta lo presente, declaró
-yem declaro que cuando contraje matrimonio no aportamos, ya ni mi consorte otro caudal que el de un esclav
-to que introdujo el suyo yacendo en el mismo.
-Lo que introdujo el, cuyo valor sería el de cien pesos cos- fellanos lo que declara para que conste 59 y tem declaro por bienes mios los siguientes esclavos: yes y sabia que Mas de 100.
-Jes y sahito Jose Maria, Faustino, Andres, Juan Agustin y Pedro Pablo. Un rostroso en Murry llamado Calvo, un platanar en Buoy nombrado Periquito, otro rostroso con
-
 hacia legítima de Don Bartolome Polo y de Doña Francisca Con- dova todos vecinos de esta ciudad hallandome enferma del cuerpo, pero en mi entero x sono Juicio, memoria, entender-
 miembro y voluntad tal cual Dios nuestro señor ha sido servido darme, temerosa de la niñez que es natural a todo viviente, y deseando arreglar mis disposiciones para cuando llegue el ca- so, asegurando mi conciencia, creyendo como firmemente creo
 en el alto y sagrado misterio de la santísima trinidad pa- dre, hijo, y espíritu santo, tres personas distintas y un solo Dios verdadero y entidades las demás misterios que cree confiesa. pregúa y enseña nuestra santa madre, y la católica Aris.
@@ -18,3 +12,8 @@ San Juan Ramón de Diego Jiménez de cuyo matrimonio
 habrmas y presentamos los hijos siguientes Ana Joquima,
 José Leonardo, Ramón, José María, Trinidad, secundina,
 francisco, Manuel Xagacío y José Xagacío los que se hallan vi
+y hasta lo presente, declaró
+yem declaro que cuando contraje matrimonio no aportamos, ya ni mi consorte otro caudal que el de un esclav
+to que introdujo el suyo yacendo en el mismo.
+Lo que introdujo el, cuyo valor sería el de cien pesos cos- fellanos lo que declara para que conste 59 y tem declaro por bienes mios los siguientes esclavos: yes y sabia que Mas de 100.
+Jes y sahito Jose Maria, Faustino, Andres, Juan Agustin y Pedro Pablo. Un rostroso en Murry llamado Calvo, un platanar en Buoy nombrado Periquito, otro rostroso con

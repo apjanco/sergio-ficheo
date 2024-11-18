@@ -1,17 +1,5 @@
 XT Una azuela gurbia en dos patasones
 XT dos barranas grandes en
-cho servidos todas en
-y una armazón de taborette para camino
-xt tres batidores dos excharas 4 mesedores todo
-de polo en
-y tú cinco bateas de labar oro en
-y tú cinco bateas de labar roga en
-y tú cuatro bateas de amasar pan en
-y tú una bandeja de espusa viscopulita
-una bandegita pastosa inservible
-xt dos frascos pequeños de cristal y tres botellas
-todo en
-
 yt dos bandadas, y dos chapas sin llaves todo en - 4
 yt una arroba a libros fiero viento a dos reales - 8-4
 yt Una bandesa pastusa bapizada en ocho reales - 4-3
@@ -43,3 +31,14 @@ y dos bastidores de castillos en
 y una almohadilla de enlaces en
 y una armazón de paraguas en
 y doce coxetas de hacer viecos en nuevas y 0
+cho servidos todas en
+y una armazón de taborette para camino
+xt tres batidores dos excharas 4 mesedores todo
+de polo en
+y tú cinco bateas de labar oro en
+y tú cinco bateas de labar roga en
+y tú cuatro bateas de amasar pan en
+y tú una bandeja de espusa viscopulita
+una bandegita pastosa inservible
+xt dos frascos pequeños de cristal y tres botellas
+todo en

@@ -1,9 +1,4 @@
 daderas declaro, y uno para que conste - Primero,mente adeudo a mi parroco, Don Pedro Jose Doran ochenta, y ocho castellanos
-14º soy deudor a Mario Martínez de la Cuesta, cinco pesos dos y medio tones y en poder de esta en calidad de empero despa- rez de Botones de oro que mando, que pagada que sea, se perci- dan por mi Albacea
-15º y ten declaro que por obligacion a deudo a la negra huiza piza- rro veinte, y ocho pesos castellanos, y catorce de cuenta por tucular, que en una suma hacen la de quarenta, y dos pesos castellanos que mundo se le gaven como igualmente a xo-
-castellanos que midido se la paquen - como igualmente a Au
-viern de los Ríos dos pesos castellanos
-
 de estipendos que se me han venido desde el - ciento cinco, hasta el presente tercer que esta a vencimiento de este año de mil ochocientos diez a razón de diez, y seis pesos castellanos que por composicion me obligue a pagarle, y a cuya
 Estamos ansiosos que su comprensión me conduzca a que, en lugar de mis notorios atrazos, no lo he berificado, lo que consta, y mandando se la paguen.
 en
@@ -57,3 +52,7 @@ correspondiente catipendio, por no haber capellan propio por arregllo a la donac
 12º Y ten que jauamente, soy deudor a Jos Maria Hurtado de haci
 Bien que igualmente estoy buscando a los que han sido miembros de mi familia, tengo un par de botones de oro que me han pagado su dependencia y se recojon por mi Albacea y otros.
 Y ten a deado por obligación a la testamentaria de Ismaías, y otro escribano que fue del pueblo de Querub Dosientos peses castellanos, y treinta, y tres escudos de cuenta particular, los que declaro, y mando se paguen
+14º soy deudor a Mario Martínez de la Cuesta, cinco pesos dos y medio tones y en poder de esta en calidad de empero despa- rez de Botones de oro que mando, que pagada que sea, se perci- dan por mi Albacea
+15º y ten declaro que por obligacion a deudo a la negra huiza piza- rro veinte, y ocho pesos castellanos, y catorce de cuenta por tucular, que en una suma hacen la de quarenta, y dos pesos castellanos que mundo se le gaven como igualmente a xo-
+castellanos que midido se la paquen - como igualmente a Au
+viern de los Ríos dos pesos castellanos

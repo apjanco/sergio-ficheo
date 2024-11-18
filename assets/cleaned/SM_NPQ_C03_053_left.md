@@ -1,7 +1,3 @@
-desde el derecho plenario interinos con la autonomía y soberanía necesaria sobre que renuncia la ley del ordenamiento Real fecha en cortes de Alcalá de Henares y demás que habían en razón de lo que se ordena en todo el territorio de la España.
-Estimado y venerado señor/a, menos de la mitad del sujeto afectado y el término concedido para la rescisión del contrato o su suplemento, y en virtud y adición del , se declara y anota el derecho de acción propietario poseído dominio y término que a dicho derecho había adquirido y todos
-con el de patronato y demas que le pertenezcan los ledes remun- cia y traspasos en el comandador y los suyas, que eu serial de ose- ción y para título de ella otorga a su favor esta escritura por
-
 Ortega vecino de ella a quien doy se conozco y diixo: Que es apoderado de Jose Palomque y Pablo Moreno de esta vecindad y herederos de Juan Esteban Palomque segun se acordado en el registro.
 ta del que no ha manifestado y se agrega a este registro cuyo
 así concuerda el poder mismo con el que es
@@ -20,3 +16,6 @@ bre de sus partes entregado a su voluntad renunció decir lo con
 tras la excepción de la hon numérica que se pueda eg
 gir y que se declara en una cosa que no se ha visto el
 servicio y mal de fe, declarando como declara no vale. Mas el no- nulado es Novo Jorge en caso que esa vez valga de su exceso en mucha opaca suma hacer entrega y donación al comandador y sus her- dos buen para ver a perfecta e irrefrible de las que el
+desde el derecho plenario interinos con la autonomía y soberanía necesaria sobre que renuncia la ley del ordenamiento Real fecha en cortes de Alcalá de Henares y demás que habían en razón de lo que se ordena en todo el territorio de la España.
+Estimado y venerado señor/a, menos de la mitad del sujeto afectado y el término concedido para la rescisión del contrato o su suplemento, y en virtud y adición del , se declara y anota el derecho de acción propietario poseído dominio y término que a dicho derecho había adquirido y todos
+con el de patronato y demas que le pertenezcan los ledes remun- cia y traspasos en el comandador y los suyas, que eu serial de ose- ción y para título de ella otorga a su favor esta escritura por

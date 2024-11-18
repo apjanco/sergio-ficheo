@@ -1,11 +1,4 @@
 WAS SUCCESSFUL IN MAKING 6 OF THE 8 PICTURES IN THE PICTURE BOOK.
-La ra de nuestros hijos, las cuales enteras se encontraron, entramos papeles. 6 y ten declaro que la mulata Gregorio es de mi, hija Agusti no por haberla sedido desde muchachig, mando mis alvaces leator.
-Quen la correspondiente escritura de donación
-3a y ten declara que la negra Luisa muger del errera, se hab
-xvertado, y todavía nie resta parte, lo que sabe mi hija Agustina, mon
-do a mis alxaceas, le otorguen la escritura luego que complete el va
-Lo de su libertad
-
 Ana María de la Cuesta vesinos que así mismo fueron de esta provincia, hallandome enferma en cami, pero en mi entero y sano juicio, gracias a la divina misericordia, creyendo y confesando en el altísimo misterio de la santisima trinidad, padre
 hijo, y espíritu santo tres personas distintas, y un solo Dios verdadero,
 en todos los demás que tiene y cree nuestra santa madre la Iglesia
@@ -28,3 +21,9 @@ y cuesta
 4ª yten declaro que cuando contrae matrimonio no introduzis
 o mi matrimonio dote alguno, pero que con la muerte de mi señora
 Antonio fue alguien, pero que no lo sabía, su madre no decía lo que me correspondía por erencia, pero era un asendido, quien la resina fue mi mundo. 5ª Xten declaró que soy el yosea de mi legítimo esposo, y curado.
+La ra de nuestros hijos, las cuales enteras se encontraron, entramos papeles. 6 y ten declaro que la mulata Gregorio es de mi, hija Agusti no por haberla sedido desde muchachig, mando mis alvaces leator.
+Quen la correspondiente escritura de donación
+3a y ten declara que la negra Luisa muger del errera, se hab
+xvertado, y todavía nie resta parte, lo que sabe mi hija Agustina, mon
+do a mis alxaceas, le otorguen la escritura luego que complete el va
+Lo de su libertad

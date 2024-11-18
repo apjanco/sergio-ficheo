@@ -1,17 +1,4 @@
 general en forma. En cuyo testimonio con aceptación del com-
-Estimado/a:
-
-Este informe es un testimonio de la muerte de un individuo que, según las pruebas presentadas, fue una persona competente y no el día siguiente.
-
-Y también declaro que fue casada y velada con Juan de Dios Alarcon, mi esposo, en su matrimonio tuyo y pro-
-creamos una hija llamada Maria Josefa; declaro para su constancia
-y tem asimismo declaro: Que después de mi viruedad he
-tenido la fragilidad de haber dado a luz un hijo natural
-llamado Estanislao
-y tem mi voluntad que mis Aldaces tengan
-espe
-cial cuidado de que inmediatamente que yo fallezca propor
-
 Agustín Romero
 francisco de paz y
 Manuel ortega y
@@ -30,3 +17,15 @@ tolica apostólica romana baxo cura fe y creencia hevindo y protesto vivir y mor
 Descendiendo fue piedad de la más inmensa protectora de Dios, sición testamental formalizó la siguiente: Primero, encomiendo mi alma a Dios nuestro señor que la crió y redimio con su preciosoísimo sangre y el cuerpo man do a la Herra de que fue formada el cual hizo cabalvar que
 El río de la Herra que ha sido nombrada el río de nuestro sacerdote padre San Francisco y se sepultó en el campo santo de esta ciudad y teme a las mandas forzosas ocho reales por todas ellas los mismos que se sacaron de mis bienes y serán satisfechos
 Estos mismos que se bailan de mis brazos y serán chicos por mis albaqueas quien corresponde y tenes que tener presente mis albaqueas mi calidad y haberes para que coneste arreglo procedan a hoer mi funeral y entierro encomendados si que se me diga mas
+Estimado/a:
+
+Este informe es un testimonio de la muerte de un individuo que, según las pruebas presentadas, fue una persona competente y no el día siguiente.
+
+Y también declaro que fue casada y velada con Juan de Dios Alarcon, mi esposo, en su matrimonio tuyo y pro-
+creamos una hija llamada Maria Josefa; declaro para su constancia
+y tem asimismo declaro: Que después de mi viruedad he
+tenido la fragilidad de haber dado a luz un hijo natural
+llamado Estanislao
+y tem mi voluntad que mis Aldaces tengan
+espe
+cial cuidado de que inmediatamente que yo fallezca propor

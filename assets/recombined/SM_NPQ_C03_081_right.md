@@ -1,13 +1,4 @@
 Libertad
-rio de justicias y fenomenología de los ojos en el espectro de la general en forma. En cuyo testimonio con aceptación del libertó Geronimo as lo dicen y otorgan forma el citado Andrés y perdesp el libertó no sabe lo hizo y su ruego uno de los bestigos que la fie
-Don Manuel Flores
-Don Joaquín Poló y Nicolás Baxas
-Joaquín Andrade
-Arruero le obsequiente Manuel Flores
-Ante mi Vicente Olgaecoa
-exécuta Publico
-byalvaroconzo
-Escritura Publica
 Libertad
 En la ciudad de Quibdo a do de Marzo de mil ochocientos diez y ochenta.
 Ante mi escribano y testigos que se nombraron para el San Joaquín
@@ -22,3 +13,12 @@ to en tribunal alguno como no lo es que intenta acción o derecho
 que no le pertenece y se vist por lo mismo habría aprobado y se
 validado añadiendo cuerza o fuerza y contra lo contrato con todos
 Cualidades y aptitudes para el trabajo. Contra todo lo que se requieran. Y a la observancia y cumplimiento de todo lo referido se obliga. Corso persona y bienes habitados y por haber con el poder de Justicias.
+rio de justicias y fenomenología de los ojos en el espectro de la general en forma. En cuyo testimonio con aceptación del libertó Geronimo as lo dicen y otorgan forma el citado Andrés y perdesp el libertó no sabe lo hizo y su ruego uno de los bestigos que la fie
+Don Manuel Flores
+Don Joaquín Poló y Nicolás Baxas
+Joaquín Andrade
+Arruero le obsequiente Manuel Flores
+Ante mi Vicente Olgaecoa
+exécuta Publico
+byalvaroconzo
+Escritura Publica

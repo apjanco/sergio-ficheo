@@ -1,8 +1,4 @@
 En virtud y usando de las facultades que incluye asegura hallar-se dicho eslabón de empeño deuda obligación e hipoteca general que no la tiene y se lo venden con todos sus vi
-Juanma Maria Castillón, mujer del mismo esclavo, se obligó a la satisfacción de Emanciación dicho resto de su integridad, lo que sonciiento y cincuenta palacrones en que estima su parte, y a hablar por firmé cuanto quedo expresado pidiendo su constitución.
-haber por firme quanto menos expedito obligado a erescribir yente con sus bienes y rentas habidas y por haber con el poderio de Justicias sumisión de fuero y renunciación de leyes en de derecho necesarias con la general en forma. En su testimonio con acreditación del comprador especialmente la condición que contie
-Don Joaquín Andrade, Don José Baldrich, y Xsidro Perérez
-
 especialmente que no la tiene y se la vendió en todo que tiene tachas defectos enfermedades públicas y secretas en precio y cantidad de cincuenta castellanos que por el le ha dado en dinero de contado siendo de cargo del otorgante la paga del derecho de alcaldía que ha satisfecho al señor receptor de ellas quieren
 La letra es escrita en un cuaderno de notas.
 Zamg, su pruebas la deberé terminar en el caso de que no vale más y caso que más vale de su demasia en poco o mucho suma hace eficacia y donación al comprador y sus herederos buena para meria, perfecto o irrevoable intervivos sobre revoan la
@@ -11,3 +7,6 @@ do para la escritura del contrato o ensueptamiento mediante lo cual se desata y 
 corresponden los códigos renuncia y traspaso en el comprador que en señal de posesión y para título de ella otorga a sufrir esto. es factura por lo que ha de sepúrito haberla adquirido sin que necesite de otro acto de apreciación que lo releva, y se obliga
 La venta de esta venta a su costa y men- sión hasta dejar al comprador en quieta y pacífica posesión y no podiéndose la sanear le devuelve la suma recibida y lepa para las costas y gastos de su incertidumbre cuya prueba di-
 El señor, siéntese a su silla.
+Juanma Maria Castillón, mujer del mismo esclavo, se obligó a la satisfacción de Emanciación dicho resto de su integridad, lo que sonciiento y cincuenta palacrones en que estima su parte, y a hablar por firmé cuanto quedo expresado pidiendo su constitución.
+haber por firme quanto menos expedito obligado a erescribir yente con sus bienes y rentas habidas y por haber con el poderio de Justicias sumisión de fuero y renunciación de leyes en de derecho necesarias con la general en forma. En su testimonio con acreditación del comprador especialmente la condición que contie
+Don Joaquín Andrade, Don José Baldrich, y Xsidro Perérez

@@ -2,11 +2,6 @@ Don Nicolas Machado ha
 satisfeció en esta
 Real contaduría cinco
 pesos de glata por la Alcavala al 2 por ciento deducidos de doscientos
-1126 Ha satisfecho el testigo usuario Don Bonifacio Salazar a nombre de Terciza Mendigania dos pesos de plata por el derecho de Alca- nada al 2 por ciento deducido de ciento en que habiendo a Nicol- as
-las Salazar una negra llamada Bartolomé. Quindío Agosto 30 de 1808 - Jose Maria Valencia
-1145 Don Tomás Polo ha satisfecho en este contadurio veinte y seis pe
-24. Son tomadas dos hojas de plata en la ciudad de Alcalá, al 2 por ciento deducidos de mil, y trescientos en que ha vendido a Juan de Mená cinco pesas de esclavos nombrados, Julian Su muger, Vicenta,
-
 y
 cinquenta
 en que ha vendido a Don Pascual Rovira una negra llamada pro Quinta.
@@ -24,3 +19,7 @@ do a Don Luis nielles un malato llamado Vicente. Quibdo y Agos
 to 22 de 1808. Jose Maria Valencia
 11or Nicolas de Roxas ha satisfecho seis pesos de plata por el dere
 cho de Alcaxaló, al 2 por ciento dedicados de trescientos en que ha vendido a Juliana Martínez, un negro llamado Julian. Quibdo Agosto 31 de 1808. Jose Maria Valencia
+1126 Ha satisfecho el testigo usuario Don Bonifacio Salazar a nombre de Terciza Mendigania dos pesos de plata por el derecho de Alca- nada al 2 por ciento deducido de ciento en que habiendo a Nicol- as
+las Salazar una negra llamada Bartolomé. Quindío Agosto 30 de 1808 - Jose Maria Valencia
+1145 Don Tomás Polo ha satisfecho en este contadurio veinte y seis pe
+24. Son tomadas dos hojas de plata en la ciudad de Alcalá, al 2 por ciento deducidos de mil, y trescientos en que ha vendido a Juan de Mená cinco pesas de esclavos nombrados, Julian Su muger, Vicenta,

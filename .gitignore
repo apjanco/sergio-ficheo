@@ -4,7 +4,9 @@
 /assets/background_removed
 /assets/adjusted
 /assets/chunks
+/assets/txt_chunks
 /assets/trabscribed_chunks
+/assets/recombined
 metadata.json
 data/data.jsonl
 _site/

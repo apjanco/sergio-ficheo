@@ -1,5 +1,3 @@
-NORMA
-
 This is a blank lined paper.
 Hola
 mol esclavo
@@ -7,3 +5,7 @@ mol esclavo
 
 
 2
+
+
+
+NORMA

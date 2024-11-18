@@ -6,13 +6,6 @@ dixo otorguy firmaron siendo testigos
 Don Agustin Romero Al
 calde comisario de esta ciudad,
 Manuel Ortegg y Xsidro Pega
-do fuerza, a fuerza y contrato a contrario con todas las leyes las vinculos y solemnidades que para superpuesta validación se requerían. y alla observancia y puntual cumplimiento de todo lo fe rido se obliga con sus persona y bienes habidos y por haber con el de quien la firma y firmado de le
-el poderio de Justicias, evmision de fuerza y tenencia de leyes necesarias con la general en forma. En suyo testimonio y conaceptacion del libertor asi lo ken y otorgan no firman por decir no saber a su ruego dos de los testigos que lebe
-Con ysidro Pereyánez, Francisco de Paz y Manuel Ortiz vecinos
-A Roego del otorgante y como testigo ysidro Pereyánez
-Por el aseptante y como testigo Francisco de Paz
-Ante mi vicente Olachea
-
 Francisco de Paz
 Saturnino de Moreda
 Antonio Vicente Olachea
@@ -26,3 +19,9 @@ dominio y señorío que a dicho eslavo Dionisio tenía adquirida y todas las ced
 Contrato, testé. Comparezca en juricio por medio de sus apoderados, y practique sin intervención del otorgante, quien está permitido a los que nacieron libres, usando en todo de su espontánea voluntad, pues para ello formaliza a su dolor es eso, lu
 No con los requisitos legales que sean precisos y conducentes y su mayor estabilidad. Me pide que de ella le de las cajas anteriores que quiera para su seguro y se coloca el obstagante apos. Elmaría contradieci en manera alguna esta libertad.
 El marido contesta en la manera siguiente: "Cree que no se le otorga admisión en tribunal alguno como no lo es quien intenta acción o derecho que le pertenece".
+do fuerza, a fuerza y contrato a contrario con todas las leyes las vinculos y solemnidades que para superpuesta validación se requerían. y alla observancia y puntual cumplimiento de todo lo fe rido se obliga con sus persona y bienes habidos y por haber con el de quien la firma y firmado de le
+el poderio de Justicias, evmision de fuerza y tenencia de leyes necesarias con la general en forma. En suyo testimonio y conaceptacion del libertor asi lo ken y otorgan no firman por decir no saber a su ruego dos de los testigos que lebe
+Con ysidro Pereyánez, Francisco de Paz y Manuel Ortiz vecinos
+A Roego del otorgante y como testigo ysidro Pereyánez
+Por el aseptante y como testigo Francisco de Paz
+Ante mi vicente Olachea

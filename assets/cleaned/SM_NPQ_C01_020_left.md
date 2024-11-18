@@ -1,9 +1,5 @@
 como no lo es quieren intenta acción o derecho que no le perte
 rece, y se ha visto a ver gozado y rebolidad esta escritu
-a su hijo Ron Juan Antonio ferro es a saber un mulatico de e- edad de tres años para recompesar lo que he dispuesto que haga suyo propio y que el dicho mulatico nombrado francisco o feliz lo mantendete en mi poder hasta que pueda usar de el elrefe-
-Rido mi hijo que como propio le podra dar el oficio que le admodase, tambien le hago gracia y donacion de una ternera aseguro: hallase libre t' todo grabamen censo ni hipoteico que la tiene tanto ni microesa y apostil solo liga
-que no la tiene fácil ni expresa y portal se lo tiene cedi- do y en prueba de ello desde hoy en adelante se desiste de sapodera quita y aparta del derecho posesión dominio,
-
 La letra es escrita en un lenguaje antiguo y difícil de leer. Sin embargo, se pueden distinguir algunas palabras y frases. Aquí están las líneas de texto:
 
 1. "La letra es escrita en un lenguaje antiguo y difícil de leer."
@@ -61,3 +57,6 @@ En el pueblo de san francisco de Quibdo capital de la provincia
 del catorce y diez y nueve de mayo de mil ochocientos ocho:
 Ante mi, Don Carlos de Ciaurriiz, Capitán de Infantería gobernador político y militar de estas provincias del chaco, y testigos con quieneses actuo por el impedimento del único escriba -no pareció presente Dona Maria Rosalia de Cardona y viv
 No parecias presentes son Maria Rosalia de Estrada vieja dueña de minas y esclavos en dicha provincia a quien escribe con gusto y dijo: Que otorga y hace gracia y donación, pura, mera y perfecta de las que el derecho llama intervenciones a los que la ley y el derecho le dan.
+a su hijo Ron Juan Antonio ferro es a saber un mulatico de e- edad de tres años para recompesar lo que he dispuesto que haga suyo propio y que el dicho mulatico nombrado francisco o feliz lo mantendete en mi poder hasta que pueda usar de el elrefe-
+Rido mi hijo que como propio le podra dar el oficio que le admodase, tambien le hago gracia y donacion de una ternera aseguro: hallase libre t' todo grabamen censo ni hipoteico que la tiene tanto ni microesa y apostil solo liga
+que no la tiene fácil ni expresa y portal se lo tiene cedi- do y en prueba de ello desde hoy en adelante se desiste de sapodera quita y aparta del derecho posesión dominio,

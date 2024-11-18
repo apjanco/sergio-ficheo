@@ -1,13 +1,4 @@
 teleteu y tasa fondos de orina con sujeción de plata - uncgso-
-santo meromito,
-Vivientre estra judical que ya don Melchior de Varona
-y vetancur hago de mis bienes que por separado de la Huer-
-da temen havidos y comorados con mis intereses, fecha
-en el año pasado de 1804 en el mes de setiembre y es so
-mo seguir el derecho de minas de Aune con sus entables ron
-cheros y otros.
-cherías en
-por el derecho de Belén inclusive un restrojo en
 Pérez y rafa portada de granada con dos reyes de plata-qui-te de anafalla de seda morada consus bueltos de terciopelo. Lleba Tomásico, un platon de plata-dos platillos-dos cubiertos y un candeleró con peso de dos marcos-un catre inglés con
 su falda de saraza—
 un falda de vehillo—
@@ -25,3 +16,13 @@ este octobos reales que por el valor que se le puede dar el di
 no iba a voler mas que la tercua parte porque los mans son
 se
 Antonio Medina
+santo meromito,
+Vivientre estra judical que ya don Melchior de Varona
+y vetancur hago de mis bienes que por separado de la Huer-
+da temen havidos y comorados con mis intereses, fecha
+en el año pasado de 1804 en el mes de setiembre y es so
+mo seguir el derecho de minas de Aune con sus entables ron
+cheros y otros.
+cherías en
+por el derecho de Belén inclusive un restrojo en
+800
