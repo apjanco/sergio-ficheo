@@ -1,0 +1,14 @@
+Libertad - Esclavo
+20x. En el pueblo de su francesco de Quito, capital de la provincia del
+Ecuador.
+Ante mi escribano y testigos que se nombraron parejo presente Don Mel-chor de Varona y retancar vecino minero de esta y Albaica de Díaq Nicolasa Becerra ag quien don fe conosco y dixo: Que Tomas Mejía
+Negro esclavo de la testamentaria desucargo se presenten en este. Desgadado de tenencia solicitando su libertad de la senidumbre a que ha estado sujeto y porello consigno cinquenta pesos Castellanos en
+que lo abalbaron los peritos nombrados en la causa montuña de esta Becerra y habiendo accedido el mismo Juzgado por decreto del virreinato de ayer a lo referido se hizo saber que miga heredará Dona Bertrida Po- checo y al compareciente para que comtal Alvarin le otorgase la yes
+La escritura perciendo los dichos cinquenta peses castella-nos doxo de socorrido rechido juridico y mas que consta de dichas diligencias que se agrega originales a este registro caytenar
+En su virtud otorga: Obeda carta de obertura y hacer en forma al dicho negro esclavo Tomás Mené por la cantidad de cien pesos de plata que confesaba nuevamente tener pecados de cuya entrega doy fe por haberla hecho, hecho el infrazeto escri-
+van en moneda de doblones de cordones que las corto y paso a su poder. Y desde hoy en adelante en nombre de la testamento es desta poder desiste gita, y aparta del derecho de patronato posesion, propiedad domino y segosis que aduva y aduce que esta.
+propiedad, dominio y señorío que a dicha negro tenía y toda la escuela renuncia y traspasa en el dandolo poder imparcial en su fe y causa propia, como se requiere y es necesario, para que trate contra te, comprey y venda narezca en junio, otorgue escrituras testamentarios
+y cobardílos y haga cuanto una persona libre y no sujeta pueda ejecutar usando en todo de su libre y exigüaneces voluntad. Y obliga a dicho testamentaria de su cargo a que siempre le sera a dicho Tomás cierta seguridad y valedera y que no la reclamara ni sus herederos contradi
+La letra es muy pequeña, y eso que lo intenten por el mismo hecho no se ve oídos en juicio ni fuera de él como no lo es quien intenta acción o de recho que no le pertenezca y antes sea visto haberlo aprobado, y
+validado, añadiendo fuerza a fuerza, y contrato a contrato, contados las clausulas vinculos y solenidad que para su validación sean necesarias. A cuya seguridad cumplimiento y firmeza obliga los breves de la testamentaria referida para que los señores susces de su muerte.
+tad le compelan y apremiuen por todo rigor de derecho y via excesiva como por contrato y sentencia pasada en autoridad decosa

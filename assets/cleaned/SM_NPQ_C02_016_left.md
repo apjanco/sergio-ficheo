@@ -1,0 +1,14 @@
+Venta-Eslavo
+236v En la capital de sierra a veinty tres de diciembre de mil ochenta y
+siete
+Ante mi el escribano y testigos que se nombraron parecio presentar Don Manuel Maria Scarpeta de esta vecindad a quien doy reconoczo y dixo: Que vendes y da en venta
+real y perpetua condenacion desde hoy para siempre Ja- mas a Don Joaquín Colon capitán de la vigía del Río Atapato de esta jurisdiccion que sea para el dicho sus herederos y sub- cesores es a saber un negro su propio esclavo llamado Juan
+Antonio el mismo que hubo y comoro en publica almoneda Ju- dicial celebrada en esta capital de los bienes del finado son Cristóbal Ferrerán como consta de la diligencia de renate en su causa Mortuoria a que se temite, el que le vende por
+Nótes de censo empeño ni nobleza tácita ni expresa y portal se lo ase- gura con todas sus vicisitudes y defectos enfermedades públicas y secretas en precio y cantidad de descuentos quarenta pesos de 236r plata de a ciento reales al contado que confiesa tener recibidos
+De monó del comarador a su entera satisfacción y contento que por no ser de presente su recibo para que yo el escribano de fe de la entrega lo confiesa y renuncia alegre de contrario la excepción y la ley de la non numerata pechina prueba de su recibo y mas
+El caso. Y declara que el Justo grecio y verdadero valor del dicho negro Juan Antonio es el de los citados pesos de plata recibidos que no vale más y caso que mas valga de su demasia en mucho a modo suma hace daño y donación al comprador y los suyos buen
+Puta mierá perfecta e irrefutable de las que el derecho llo-mo interviemos con insinuación en forma: Acerca de lo cual renunció la ley del ordenamiento real fecha en cortes de Alcalá de Henares y los cuatro años en ella declarados para rescindir el con-ceso y a cuyo efecto se mandó que se le concediera.
+Trato o suplemento a su verdadero valor siguiéciere engano y devan leyes que con ella concueran. Desde hoy en adelante se desacuerdo desiste quieta y aparto del despacho de acción opuesto posesion dominio y seniofo que a dicho esclavo Juan Antonio desea darle y la natura esclavizar en
+Antonio tenía adquirido y todo lo cede fenuncia y fraspasa en el comorador y los suyos para que como cosa propia adquirida con justo y legítimo título pueda venderlo cambiarlo o enganarlo a su arbitrio y voluntad. y como Real vendedor se obliga a la cumplimiento de las condiciones y fechas de la venta.
+eviccion seguridad saneamiento y firmeza de esto venta en tal manera que siempre le sera cierta segura y valaderza y que sobre su propiedad y gace no se le pondra pleito nizon tradicion alguna y si se le pustiere luego que le conste a
+requerido, salta a la voz y defensa y a su costa y mencionó lo seguía fenecera y acabara hasta dexar al comprador en quieto y pacifica posesión y de no poderlo conseguir le dora y volvera

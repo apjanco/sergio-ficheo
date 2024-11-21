@@ -1,0 +1,7 @@
+book
+The text on the image is not clear and appears to be a mix of different fonts and styles. It is difficult to extract any meaningful information from it.
+Birch
+
+is not visible.
+
+This is a parchment paper.

@@ -1,0 +1,13 @@
+y do suerta real y perpetua engenacion desde ahuy para siem
+pre juntos a Jose Longayn Garcia una negrita llamada Maria Sa
+pre Jomias a José Joaquín Varela, una negrita hombrada tra la leme propia suya por libre de otra venta. Seno empeño, ni hipoteca facita su expresa pero con todos sus vicis lachas y defectos publicos y secretos por el precio y cantidad de Ciento y noventa pesos
+Plata. Que confiesa tiene recibidos de mano del comerciante a su entera satisfacción, y contento sobre que por no ser de presentes su recibo para que yo dicho escribano defe del lo confiesa y renon sin alegar de contrario la excepcion y ley de la non numerata.
+Esta alegación de contratación es excepción y ley de la no numerada por con la quebra de su entrega y más del caso y declara que los eventos noventa pesos de plata recrados es el susto precio de dito exalta salome que no vale más y caso que mas vale de
+Lo exceso en pora, o mucha suma le hace gracia y donación al comprador y los suyos bueno para, mera perfecta e irrevoable de las que el derecho llama intensivos conmemorar en forma presta de lo cual revivimos la ley del ordenamiento real.
+De la cual renunció la ley del ordenamiento real fe-45rcha en cortes de Alcalá de Henares y los cuatro años en ella de largos para descindir el contrato y demas que con ella concor- dans por lo que desde hoy en adelante se desapoya desiste quit
+y aparta de la acción de propiedad dominio, y señorío que a dicha escritura tenía adquirido y todo ello lo cede renuncia y traspasa en el dicho José Joaquín García como comprador para que como propria suya la venda cambie, y engene a su voluntad como que la
+Adquirido con justicia y legítimo título. Como Real vendedero se obliga a la evicción, seguridad, y saneamiento de esta venta en tal manera que siempre le sea sienta y segura y que sobre su go-
+Se no se lepondrá impedimento y caso de que socida lo contrario la obragante saldrá inmediatamente a la vez y defenza y entodos instancias grados y recurso segura y feneceta el pleito hasta dejar al comprador en quieta y posifica posecion y de no poder
+lo conseguir le debolvera los pesos recibidos con el mismo valor que adquirirse con el tiempo dicha escala y las costos de desincrustar cuya liquidación y costo difiere con el simple Juramento de lo parte interesado y esto escritura sin una gru
+Lo de la parte interesada y esta escritura sin más prueba de que le tolevo. Auya seguridad cumplimiento y firmeza obliga sus bienes presentes y futuros con poder de justicia necesaria clausula y qua
+Entrega que da por expresa y declarada para que le percu- dique con lo desfuerio domicilio y vecindad la si cobene 45x 11t + 45x 11t general del derecho en forma y estando satisfe
