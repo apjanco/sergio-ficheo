@@ -1,0 +1,12 @@
+señor consta del que le otorgo con fecha veinti y cuatro de setiembre del año de mil ochocientos diez y seis, y asegurando el compraciente no estarte suspensas ni limitadas las referidas fa
+cultivados otorga, que un hombre vendrálemente con efecto a Marcelino Valencia alcalde de Cabrín negrito propio esclavo de su parte cautivo y sujeto a servidumbre nombrado éusebio el mismo que se halla libre de empeño deuda obligación e
+Miguelena especial que no la tiene y se lo vende libre de fachas defectos enfermedades publicas y secretas en precio y cantidad de trescientos pesos de plata que por el le ha dado al comprador dos en dinero del contado siendo de cargo del progresante a paga
+46V del derecho de alcabalaba que ha satisfacido al señor oficial Real quien en prueba de su recibo ha dado la boleta que se inserta y dice así y de la suma recibida se declara entregada a su valor
+tad renunció decir lo contrario lo excepción de la no numerada pe- cuniaria su prueba del recibo terminó engañó y más del caso, de- elpando que dicho esclavo eusebio no vale más y caso que más valía de su demasia en mucha o poca cantidad hace gracia
+La semana siguiente, el comprador y sus herederos buena paga mes a donación del compondor mes por la don
+cha en cartas de Alcalá de Henares y demas que hablan en razon de lo que se compra y vende por mas amenos de la mutacion desu justo directo y el termino concedido para la rescision del contra to o sus supplemento. Mediante lo goq se desiste quita y quarto
+el derecho de acción paisesión propiedad dominio y señorío que a dicho esclavo tenía adquirido y todos con el de patronato y de los que le correspondían los cede renuncia y traspasa en el comandados y sus excesos que en señal de posesión y para ti
+Como mi padre y sus sucesores son en el seno de posesión y para el título de ella otorga a su favor esta escritura por la que ha de ser servido haberla adquirido en que necesita otro acto de afirmación de que lo releva; y se obliga a la eviccion y sanción
+mento de esta venta a su costo y mencion hasta dejar al comprador en quiebra y pacifica posesión y no pudiendose la sanción le devolverá la suma recibida y le pagará las costas y gastos des su incertidumbre cuyo prueba difiere a su simple juicio
+mento relevandole de affa aunque porderecho se requiere
+19. y 919 observancia y puntual cumplimiento de todo lo referi

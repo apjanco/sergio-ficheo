@@ -15,12 +15,12 @@ def dataset(
     metadata = []
     for image in image_files:
           metadata.append({"file_name":image.name,"name":image.name})
-    srsly.write_jsonl(f"{str(collection_path)}/metadata.jsonl", metadata)
+    srsly.write_jsonl(f"./assets/dataset/metadata.jsonl", metadata)
 
     # create the dataset using the imagefolder option
-    dataset = load_dataset("imagefolder", data_dir=collection_path)
-    dataset.push_to_hub(dataset_name)
-    print(f"Dataset {dataset_name} created and pushed to the Hub")
+    # dataset = load_dataset("imagefolder", data_dir=collection_path)
+    # dataset.push_to_hub(dataset_name)
+    # print(f"Dataset {dataset_name} created and pushed to the Hub")
 
 if __name__ == "__main__":
     typer.run(dataset)

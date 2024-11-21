@@ -24,7 +24,7 @@ vars:
   rotated_image_folder: "assets/rotated"
   background_removed_image_folder: "assets/background_removed"
   txt_folder: "assets/txt"
-  nlp_model: "es_dep_news_trf"
+  nlp_model: "es_core_news_lg"
   model: "Qwen/Qwen2-VL-2B-Instruct"
   code_model: "Qwen/Qwen2.5-Coder-7B-Instruct"
   dataset_name: "fmb-quibdo/sergio-notebooks"
@@ -36,6 +36,7 @@ vars:
   prompt: "Extract all text line by line. Do not number lines. RETURN ONLY PLAIN TEXT. SAY NOTHING ELSE"
   recombined_folder: "assets/recombined"
   cleaned_folder: "assets/cleaned"
+  data_folder: "assets/data"
 
 directories: ["assets", "configs", "scripts","_site","_templates","prompts", "pipelines", "packages"]
 
@@ -50,8 +51,10 @@ workflows:
     - transcribe
     - recombine_chunks
     - fuzzy_clean
+    - download_model
+    - process_json
+    - process_ner
     - dataset
-    - process
     - publish
     # - remove_background
 
@@ -126,20 +129,34 @@ commands:
     outputs:
       - ${vars.cleaned_folder}
 
+  - name: download_model
+    help: "Download the spaCy model"
+    script:
+      - "python -m spacy download ${vars.nlp_model}"
+    outputs:
+      - ${vars.nlp_model}
+
+  - name: process_json
+    help: "Process the transcriptions and save to JSONL"
+    script:
+      - "python scripts/process_json.py ${vars.cleaned_folder} ${vars.adjusted_image_folder} ${vars.data_folder}/data.jsonl"
+    outputs:
+      - ${vars.data_folder}/data.jsonl
+
+  - name: process_ner
+    help: "Perform named entity recognition (NER) on the JSONL file"
+    script:
+      - "python scripts/process_ner.py ${vars.data_folder}/data.jsonl ${vars.nlp_model}"
+    outputs:
+      - ${vars.data_folder}/data_ner.jsonl
+
   - name: dataset
     help: "Create a Hugging Face Dataset"
     script:
       - "python scripts/dataset.py ${vars.cleaned_folder} ${vars.dataset_name}"
     outputs:
-      - ${vars.dataset_name}
+      - ./assets/dataset/metadata.jsonl
 
-  - name: process
-    help: "Process the transcriptions"
-    script:
-      - "python scripts/process.py data/ ${vars.nlp_model} data/data.jsonl"
-    outputs:
-      - assets/
-  
   - name: publish
     help: "Publish the project"
     script:
