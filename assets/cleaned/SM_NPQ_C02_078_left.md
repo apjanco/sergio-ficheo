@@ -1,0 +1,12 @@
+hierve y se lo vende con ninguna vara m tacha ni defecto como tampoco enfermedad publica ni secreta en precio y unidad de giento sesenta pesos de plata de a ocho rea
+Hasta que en este acto ha recibido de mano del comprador a su entera satisfacción y contento, de cuya entrega hoy fe por haberse hecho a mi presencia en moneda de doblones de condillo y cumpliendo contándolos y orandolos a
+de condonatorio local, y conjetura zonales, adquiriendo dicho otorgante, quien formaliza a favor del cita do comprador el resguardo mas firme y eficaz que a la seguridad conduzca. Asegurese boleta del senor recep tor de alcohulos que acredito la satisfacción de la co
+Lo de que aquí se dice es que el nombrado es llamado Lucas no vale más y aunque más vale de su demasia en mucho o poco suma hace gr
+mas larga de su demanda en muchos a juzgado, siempre ha cia y donación al comprador y sus herederos buena pu- ra mera perfecta e irrevoable intervenciones con la in- simuación y renuncia necesaria sobre que renuncia abis- del ordenamiento Real se ha en cortes de Alca-
+La ley del ordenamiento municipal fue creada en zonas de Alcalá de Henares y demás que hablan en razón de lo que se compra y vende por más o menos de la mitad del justo precio y el término concedido para la rescisión del contrato o su cumplimiento. Mediante lo cual se deduce que
+Trato de es complemento medio para lo que se decía que la quarta del derecho de acción posesión propio, y que el dicho eslavo Lucas le quita adquirido y todos con el de patronato y demás que le
+corresponden los cede renuncia y traspasa en el com- prador y sus herederos que on señal de posesión y para título de ella otorga a su favor esta escritura por lo que de servicio haberla adquirido sin que necesite
+de otro acto de apreciación de que lo releva, y se obliga a la exención y saneamiento de esta venta a sus costas, mencion hasta dejar al comprador en quieto y pacífica posesión y no odiándosela, sino sancionar le devolverá la misma.
+Sumia recibida y le pagara las costas y gastos de su 37x incartidumbre cuyo provea derepe a su simple Jura- mento relevandole de otra queme por derecho se requie- ra. Y a la observaciones y puntual cumplimiento de todo
+Lo referido se obliga con su persona y bienes habidos y por haber con el poder de justicias sumisión de fuerza y renunciación de leyes en derecho necesarias con la general en forma. En su testimonio con aceptación
+Jose Joaquín Ríoscos y José

@@ -1,0 +1,14 @@
+Poder venta - esclavo
+quién En la ciudad de Quito, capital de la provincia del Cisarapa, otros
+de la que esconde otros - Arte y escritura
+de Agosto de mil ochocientos trece. Ante mi el escribimiento y edigos que se nominaron parecio Dona Sololita Aguedo vecina de la ciudad de cartago y residente en esta Apodetada desyle gítima hermana Dona Luisa Aguedo según consta del que segege
+ga original y su tenor dice Así... En su virtud y usando de las facultades age incluye otorga: Que xente realmente y con efecto a Manuel Salazar de esta vecindad una negra propia... elclavo de sus arte cautivo y subjeta a servirme nombre...
+Maria Manuela de edad de veinte y cinco años poco más o menos habida en comora que hizo al Ministro de Caminos de la ciudad de Anserma San Pedro Gonzales de la Pinilla xa difunto. En cuyo virtud la ha poseido libre de empeño desde
+Obligación e hipoteca especial ni general que no la tiene como así lo asegura de su parte y se la vende con todos sus vicios tochas defectos enfermedades públicas y secretas en especio y cantidad de trescientos pesos de plata de ocho reales,
+Remiendo la oforgante, recibidos del salazizar ciento y emuen-to que es la mitad a su entera satisfacción y contento sobrega-renuncia alegres de contrario la excepción de la non numerola pecuna su prueba, la del recudo termino,engario y más del caso.
+y la otra mitad de ciento y cincuenta pesos de plata debe satisfacerle el comprador dentro del término de seis meses contados de la fecha de esta escritura en adelante sin más plaza arista con las costas y gastos de la sobrancía. Agrega la boleta del
+Señor Ministro de Hacienda, que acredita la paga del derecho de al cabala la cual copiada dice así: Por tanto declara la otorga- te a nombre de su constituyente que no vale mas y caso que mas valga de su demasia en mucho o para suma hace gracia y donacion
+al comidorador buena para mea perfecta e irrevoable interi vos con la insmuacion y renunciaci necesaria sobre que fenuia a la ley del ordenamiento Real fecha en cortes de Alcala de Henares y demas que hablan en razon de lo que se comproy ten
+de por más o menos de longitud del justo creció el término con cedido para la rescisión del contrato o su suplemento. Mediante lo cual desiste quieta y aparta a su constituyente del derecho de acción posesión propia del dominio y señorío que a dicho es
+Claro tenía adquirido y todos con el de patronato y que correspondían los cedulas renunciadas y traspasadas en el comprador que en señal de posesión y para título de ella otorga a su favor esta escritura por la que ha de ser visto ha de haberla adquirido sin que
+cesité de otro acto de apreciación de que lo relevo, y se obligó a la exacción y saneamiento de esta venta a su costa y mención

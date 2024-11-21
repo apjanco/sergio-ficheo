@@ -1,0 +1,14 @@
+de su fecha. Vicente Olacheq
+Libertad - Esclavo
+
+En la ciudad de Quito, capital de la provincia del Ecuador, a veinte y seis de abril de mil ochocientos trece. Ante mí el escritor, el cual fue un hombre de gran inteligencia, y don Joaquín Escalón, admi
+y testigo que se nombraron, pareció Joaquín Escalera, administrador de la mina de Sertegui a quien doy fe conozco y ofi- ga: Que de capta de qhorro y libertad en forma a Norderto negro esclavo de dicha mina de su cargo en la cantidad de tres
+Cientos ochenta pesos de plata de a ocho reales los mismos en que ha sido Justo recaído por aciertos electos de conformidad de ambos interesados y bajo de Juramento que estaban en manos del excelente señor presidente de este estado por
+ante mi , y dicha cantidad de los trescientos ochenta pesos de plata tiene recibido el otorgante de mano del dicho Norberto a su enfera satisfacción y contento a mi respecho de que doy fe; y como real y efectivamente satisfacido
+Señor, de ellos formalizo a su favor el resguardo que a su seguridad conduzca, en cuya virtud se desviste y quarta del derecho de patronato posesión propiedad dominio y señorío que al mismo Neberito tenia adquirido y todos los
+y senorío de al mismo vertido tenían, en su favor a fin de que no vuelva a ser sujeto a servidumbre, y le confirme poder irrevocable de libre franja y general administración para que trate contra testé. Comenzó en Juicio por si a por medio de sus gojefas
+Reste, compájese en juicio por si no un medio de su acceder dos y practique sin intervención del otorgante cuanto es la per- mitida a los que nucieron libres, usando en todo de su exento- nea voluntad. Pasa para ello formaliza a su favor esta escritura con las respetuosas que sean precis y verosímil a su mayor
+los requisitos legales que sean precisos y convenientes a su mayor estabilidad; me pide que de ella le de las copias autorizadas que quiera oiga su respaldo y se obliga el otorgante a nom- bre de los legítimos interesados o dicho ninga a no reclamar
+Bien de los derechos interesados a quien manda a no reclamar ni contradecir en manera alguna esta libertad y si lo hace requiere que no es les oiga ni admita en tribunal alguno co- mo lo es quien intenta acción o derecho que no le perfe- (O no pese a ser visto por la misma haberlo asesado y satisfi
+Soy necesaria, , y declara: , y declara: , y declara: , y declara: , por la misma habla, coronada y rafleada, vinculadas y solemnidades que para su perfección validación se requerían, y declara: Que sin embargo, no se puede, y se veía con todas las alabanzas
+Bajo de estar mandado que todos los productos y libertades de la referida mina se depositen en cajas de este estado se le ha autorizado al otorgante de su (illegible) por el excelentísimo señor presidente de él para quere
