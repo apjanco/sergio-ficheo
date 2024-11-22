@@ -5,41 +5,7 @@ Día 2 que resulta de un vialle que también entre misgo peles, María de Córdo
 Fes de otros puntos que se han hecho con rueda. En detrimento de una carta fingida, esto es, sugiriendo que era mío se los francoe de la cantidad de pesos que yo le había dado a guar- dar, y ten por bienes mis otras tierras situadas a la orilla de
 Este río de atrato llamados la playa del ganado que los he- de por viaje de herencia de mi citado hijo Juan Antonio 34 simismo me son deudores Manuel Mario Cordoba de quatrocientos veinte pesos de plata dicho veinte y cinco patacones. Gas-
 par de Córdoba de treinta y cuatro, Luis López de diez y ochenta pesos que proceden de Aquidante , José Antonio Mina de quince pesos por obligación y Domingo de Córdoba que me sacó no hace ninguna de quinta cantidad
-que
-me
-debe
-no
-hago
-memoria
-de
-quanta
-cantidad
-por
-la
-es
-tara
-a
-su
-cuenta
-ya
-tem
-declaró
-
-como
-arría
-únicamente
-entrega
-
-Don
-Manuel
-scarpeta
-
-trescientos
-patacones
-valores
-
-un
-negro
+que me debe no hago memoria de quanta cantidad por la es tara a su cuenta 7 ya tem declaró que como arría únicamente entrega a Don Manuel scarpeta la cantidad de trescientos patacones valores de un negro
 esclavo mio que vendi a Agustín Baza, de la qual ha sacado mi hijo Francisco con cartas supuestas y falsas, diciendo que son mías propias, varias partidas de dinero, que el estado seca esta lo ha bronceado sobre su particular mis alhasas.
 pero le ha franguegado, coteo cuyo particular mis divisadas averiguaron las que son por los recibos que manifesteste en cho scarpeta, y si resultado a mi favor alguno esta la cobran y acumularan al cuerpo de mis dienes
 8º Y TEM DECLARO QUE A DICHO MI HIJA FRANCISCO LE HAGO 80 DE LOS PESOS QUE RESULTEN CONTRA MI, ESTO ES DE LO QUE HAYA RECIBIDO DE DICHO SCARPETA Y MAS DE LAS SANTIDADES QUE SIGUIEN POR DOS PATACONES QUE POR EL PAGUE A LORENZO FUENTE, POR ACCIDENTE

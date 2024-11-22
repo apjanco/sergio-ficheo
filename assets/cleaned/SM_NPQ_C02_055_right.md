@@ -6,7 +6,6 @@ a la evicción y saneamiento de esta venta a su costa y meición hasta dexar alc
 simple juramento relevandole de otra aunque por derecho es requerida. y a la observancia y puntual cumplimiento de todo lo referido se obliga cons sus buenas presentes y culturas con el poderio de Justicias sumision de cuyo y renunciación de le
 yes es necesario que los necesarios con lo demás en forma en sí
 yesenbeterinoecessarycontheneralanatomyfashion
-
 Micaela de Llorteda
 Ante mi
 Vicente Olaechea

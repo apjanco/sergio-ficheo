@@ -7,8 +7,7 @@ completar según la adjudicacion que se requiere en la causa.
 ante dicha lo declaro para que coste
 8° El declaro por vienes mios la casa de mi avitacion y enella
 tres Vaules, una frasquera, y un escaparate lo declaro para que
-Coste
-9a
+Coste 9a
 Y declaro igualmente por vienes mis los alazas de plata
 siguentes: una palostrena, y un candelero, un baso tres id de
 coco engastados, dos platillos, una tachuela, sinco cucharo,

@@ -7,8 +7,7 @@ Presente fue a su aborgamiento en cuya fe signo y firmen
 el día de su fecha
 Vicente Olgechen
 escribano público
-R.
-Libertad
+R. Libertad
 66r En la ciudad de Quirúb
 capital de la provincia decitara
 la veinty y sien de Mayo de mil ochocientos

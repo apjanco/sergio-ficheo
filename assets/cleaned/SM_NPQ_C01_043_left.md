@@ -5,8 +5,7 @@ La a arbitrio mediante a que lo adquirir con lexicitud, obligándose a la evienc
 Lo siento, pero no puedo ayudarte con eso.
 adquirido dicho negro, costos y estas daños y perjuicios irrogasen solo con su simple juramento, en que se le releva de otra prueba aunque por derecho se requiera, y esta venta se 19 hace con todos los vicios tachas y defectos, enfermedades pu-
 Mule corrige todos los libros, libros y objetos, enfermedades de ollas y secretos... A su seguridad cumplimiento y firmesza se obliga la dorgante conforme a derecho. De estar satisfecha la real Alcabala se agrega volea original. Están
-do
-presente
+do presente
 Don Francisco Xavier de
 Conto a quien asimismo
 doy fe conosco haviendo hoydo,

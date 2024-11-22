@@ -10,8 +10,7 @@ y declaro por breves mios un jarro, una tazuela, y seis cucharas, todo de plata,
 y declaro la ropa de mi uso, y a su jardín, que esto se reser- ría entre mis tres hijas sin ser necesario. Justo recuerda, que
 se partiran como hermanas,
 se entiende los hijos de Ramón
-Martinez
-
+Martinez 23
 Y declaro que cuando puse en estado amigable Justa Martínez con Francisco Antonio Horas, le arun sartal de oro de
 HÉZ CON FRANCISCO ANTONIO NURGA, LA ARQUITECTURA DE SU QUINCE PESOS, UNAS OREJERAS, CON SUS SANCILLOS, MINE UNA NOVILLONZITA, NO LO , QUISO RECEVAR CON NIAS UNA SEMITA DE BRETAGNA, UNAS ENAGUAS DE RUAAN, UNA SOPA DE GRANILLA, CON LAS QUE SE HABIA DESEADO, Y AUNQUE LE NO Y A
 sus adherentes, que valdría lo relacionado quarenta y cinco pe-132x sos castellanos, con más una negrita nombrada Ysidro que se ten-drá presente esta donación para f... llegue el caso 24 Yt declaro que cuando puse en estado a mi hijo visintu con

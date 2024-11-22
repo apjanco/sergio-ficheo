@@ -4,8 +4,7 @@ había la obligación de que necesitaba otro acto de aprensión de que lo reley�
 Rechazado y le pagará las costas y gastos que de su interacción se le originen cuya prueba difiere a su simple juramento se les vendolo de otra aunque por derecho se requiera. Y a la observancia y puntual cumplimiento de todo lo referido se obliga con sus
 Bienvenidos a la ciudad de México, donde se encuentra un lugar de paz y tranquilidad. Aquí, los habitantes son amables y respetuosos con los demás, y por ello, se consideran buenos ciudadanos. Además, , . En este lugar, se respetan las leyes y las normas, y se respetan los derechos de los demás.
 Francisco de Paz y Benedicto Ferrerosa vecinos y residentes Francisco Antonio de Lloreda Geronimo Martorell Ante mi vicente Olgaesheg
-Libertad
-esclavo
+Libertad esclavo
 r
 En la ciudad de Quibdo
 capital de la provincia del citara a seis de

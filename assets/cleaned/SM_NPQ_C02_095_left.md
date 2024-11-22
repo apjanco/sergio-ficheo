@@ -14,8 +14,7 @@ Testigo Nicolás Roxas
 Testigo Yendro Pereyánez
 Presente fue su otorgamiento. Encuña fe signo y firmó el
 mismo día de su fecha
-Testamento
-Est
+Testamento Est
 en el nombre de Dios todopoderoso y de la Reina de los Angeles
 Maria Santísima nuestra señora Amen: sepáse como Don Juan
 Estuve en la Aldea de San Juan en la que se

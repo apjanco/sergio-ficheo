@@ -17,36 +17,5 @@ Hola, ¿necesitas ayuda con algo?
 
 Don Francisco Xavier de Valencia ha satisfacido en este confidencia de mi cargo tres pesos, uno y medio reales por el derecho de Alcavalo al ciento sesenta y sesenta en ay
 Cornelio Valencia ha comprado a Tereza Viera, un negrito llamado Gregorio Leonartico Qubdo y Julio 19 de 1810. Jose Mario Valencia
-163r
-Ha
-satisfecido
-Don
-francisco
-xavier
-de
-conto
-en
-esta
-contadoria
-
-mi
-cargo
-cuatro
-pesos
-
-plata
-por
-el
-derecho
-
-Alcavalo
-al
-ciento
-deducidos
-
-doscientos
-orque
-como
-Alvacea
-
+163r Ha satisfecido Don francisco xavier de conto en esta contadoria de mi cargo cuatro pesos de plata por el derecho de Alcavalo al 2 por ciento deducidos de doscientos orque como Alvacea de
 Don Miguel Ignacio Cuesta ha vendido al señor gobernador Don Juan de Aguirre, una negrita llamada Maria Saturnina. Quibdo y Su 11-28 de 1840.

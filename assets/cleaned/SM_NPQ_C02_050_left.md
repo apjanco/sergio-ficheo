@@ -19,47 +19,9 @@ Forma, y estando presente dicho Joaide Mená a quien así me doy cuenta enterado
 los cuatrocientos pesos de plata de a ocho reales valor del negro Pedro que aprúa queda expresado, y se obliga a satisfecerlos dentro del termino y glazo de seis meses contados de esta fecha en adelante en buena moneda de oro opl
 La escritura es en español.
 las con la general en forma. En su testimonio y estando satisfecha la alcaldía correspondiente se agrega tolete original del señor Ministro de Hacienda la cual copiada dice 91 - por tanto asi lo dicen y obrenes firma el señor vendedor y por decir
-el
-año
-comprador
+el año comprador
 Juan de
-Mena
-no
-sabere
-es
-nibir
-lo
-he
-ce
-a
-su
-que
-
-uno
-de
-
-testigos
-
-fueron
-Don
-Maria
-88v
-
-Sanchez,
-Luis
-Alfaro
-
-Nicolas
-
-Roxas
-Pedro
-José
-Durán
-Por
-
-Juan
-
-Me
+Mena no sabere es nibir lo he ce a su que no uno de los testigos que fueron Don Maria 88v no Sanchez, Luis Alfaro y Nicolas de Roxas Pedro José Durán Por el comprador Juan de Me
 Ante m: vicente olachea
 na - Mariano Sanchez
 VENTA - ESCLANO

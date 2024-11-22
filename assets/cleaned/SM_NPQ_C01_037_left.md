@@ -6,14 +6,7 @@ conciencia, y para ello les prólogo a más del año total, el más tiempo que n
 he al juez de la causa. Y por el presente revoco, ---- y doy por de ningun valor ni efecto otros y cualquier testamentos, memorias, cobdisilos, y poderes que haya en el presente contrato.
 echo s otorgado antes de este por escrito o de palabra a en otro forma y solo quiero y esta voluntad valga que ahora ofrecio en este sitio de lo Bodega o feinte y tres de Mayo de mil ochocientos ocho, en presencia del
 corregidor de este dicho pueblo, siendo testigos: Don Miguel Buch, Don Santiago Polo, Don Manuel de Alarcon y Me- no, Don Silverio Mesia, Josep perera, Javier de los Rios, y Dionicio de Rosja, yecamos de esta provincia.
-y
-d
-n
-m
-r
-
-g
-
+y d n m r d g r d r d
 Testigo Miguel Buch
 Testigo Cristóval Santiago Polo
 Testigo Silvino Messia
@@ -23,5 +16,4 @@ venta esclavo
 Yo dicho gobernador certifique de ella, la confesía x renon
 cia alegor de contrario la excepción y la ley de la non
 nomieta a peconia, pruea de su recivo, y mas del Caso.
-A
-B
+A B

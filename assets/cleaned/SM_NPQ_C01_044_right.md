@@ -8,8 +8,7 @@ Jose Dionisio de Villar
 Santiago de la Torre
 Christóbal Berberán
 Hésgigo Bonifácio Solazar
-ISSIAMENTO
-TESTAMENTO
+ISSIAMENTO TESTAMENTO
 r
 En el nombre de Dios todo poderoso. Amen: Jeses todos quarto
 esta carta memoria testamental ultima y final voluntad vienen como yo Joséfa de Oviedo, vecina de esta provincia, y acend

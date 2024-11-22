@@ -1,5 +1,4 @@
 Libertad
-
 En la ciudad de Quibdo, capital de la provincia de Cusco, a de Julio de mil ochocientos diez y nueve años. Ante mi escritura y testigos que se nombraron pareció Pedro Domigo Palacios vecino
 de ella a quien doy fe conozco y dixo: Que de acuerdo con su legitima esposa Cayetana Palacios (ya difunta) dieron entera libertad m vo- ce a su propia esclava Maria Angélica y en esta calidad se casó Patzcuaro, en todo caso con Juan Palacios actual alcalde de Pat
 Palacios actual alcalde partidario de Pato

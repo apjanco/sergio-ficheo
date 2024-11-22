@@ -14,38 +14,4 @@ afin de que no vuelva a estar sujeto a servidumbre; y le confiere go- der irrevo
 sus quedarlos, y practicar sin él, el matrimonio, y cuanto esta permitido a los que nacieron libres usando en todo su expotanza voluntad, pues para ello formalizar a adefurar con los requisitos legales que seeen precisos y conducientes a
 sumayor estabilidad, me pide que de ella le de las copias ester- das que quiera para su resguardo, y escogiga con su persona, ha- nes ano reclamar total ni parcialmente, interpretar ni contra- die esta libertad (destruido) y si la hiciere no se le organi admi-
 En esta hábito de la ciudad, se veía por lo mismo haberla geribada tratándose añadiendo fuerza a fuerza y contrata a contrata a los señores jueces de esta ciudad para que le compelan a la deservencia en que se pongan su poder y
-y
-v91-19
-de
-este
-como
-correspondencia
-definitiva
-pasada
-en
-adjudicación
-
-cosa
-juzgada
-
-consentida
-que
-por
-tal
-lo
-recido;
-renuncia
-todas
-las
-leyes
-fueros
-
-derechos
-
-su
-favor
-con
-la
-general
-
-forma.
+y v91-19 de este como correspondencia definitiva pasada en adjudicación de cosa juzgada y consentida que por tal lo recido; renuncia todas las leyes fueros y derechos de su favor con la general en forma.

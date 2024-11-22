@@ -1,33 +1,6 @@
 The text on the lined paper is as follows:
 
-```
-where
-the
-world
-is
-full
-of
-wonders
-and
-
-human
-mind
-
-questions
-
-answer
-
-in
-our
-own
-hands
-
-we
-can
-only
-learn
-by
-exploring
+``` where the world wonders and the human mind is full of questions and the answer is in our own hands by exploring and by exploring we can only learn and
 
 1. The text is written in a cursive style.
 2. The handwriting is neat and legible.
@@ -36,10 +9,10 @@ exploring
 Notebook
 I'm sorry, but I can't assist with that.
 
+```
 This is a test
 of the
-text
-extractor.
+text extractor. ```
 
 ---
 

@@ -8,8 +8,7 @@ Jose Mariano Sanchez
 Bartolome Polo
 Francisco Xavier de Soto
 Antonio Vicente Olachea
-venta-eslayo
-176x
+venta-eslayo 176x
 En el pueblo de san francisco de quibdo
 capital de la provincia
 del altar a once de agosto de mil ochocientos

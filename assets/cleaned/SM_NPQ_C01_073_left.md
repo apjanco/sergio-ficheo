@@ -2,44 +2,7 @@ Liturgia a los veinte y seis días del mes de Abril de mil ochocientos diez. Ah�
 Juan de Mena
 presente
 
-veño
-minero
-de
-esta
-provincia
-a
-quién
-doy
-conocer
-y
-dixo.
-Que
-vende
-
-da
-en
-venta
-real
-
-perpetuo
-
-agenación
-desde
-ahora
-
-para
-estimarme
-Samus
-un
-Ramon
-perez
-sobre
-Bartolo
-
-Castro
-
-Cristina
-
+veño minero de esta provincia a quién doy conocer y dixo. Que vende y da en venta real y en perpetuo en agenación desde ahora y para estimarme Samus un Ramon perez sobre Bartolo de Castro Cristina y Cristina y
 Negro llamado Bernardo propio suyo a Bartolo de Cordoba por libre de otra venta senz empeño, ni hipoteca tacita, mez- presa pelo contodos sus vicis, tachas y desectos enfermedades públicas, y secretos en precio y cantidad de trescientos pe-
 Los de plata que confíezas tienes recibidos del comprador satisfacción y contenido sobre que por no ser de precente la entrega para que yo dicho escribano defe de ella la confíezas a su entera
 y renuncia alogar es contrario la excepción de la no numerada

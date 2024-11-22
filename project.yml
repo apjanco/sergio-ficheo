@@ -37,8 +37,10 @@ vars:
   recombined_folder: "assets/recombined"
   cleaned_folder: "assets/cleaned"
   data_folder: "assets/data"
+  llm_model: "llama3.1:8b"
+  word_folder: "assets/word"
 
-directories: ["assets", "configs", "scripts","_site","_templates","prompts", "pipelines", "packages"]
+directories: ["assets", "configs", "scripts","_site","_templates","prompts", "pipelines", "packages", "${vars.word_folder}"]
 
 workflows:
   all:
@@ -51,12 +53,18 @@ workflows:
     - transcribe
     - recombine_chunks
     - fuzzy_clean
-    - download_model
     - process_json
     - process_ner
+    - process_llm_translate
+    - process_llm_summarize
+    - process_llm_clean_ner
+    - combine_to_word
     - dataset
     - publish
     # - remove_background
+
+  combine_to_word_only:
+    - combine_to_word
 
 commands:
   - name: metadata
@@ -129,13 +137,6 @@ commands:
     outputs:
       - ${vars.cleaned_folder}
 
-  - name: download_model
-    help: "Download the spaCy model"
-    script:
-      - "python -m spacy download ${vars.nlp_model}"
-    outputs:
-      - ${vars.nlp_model}
-
   - name: process_json
     help: "Process the transcriptions and save to JSONL"
     script:
@@ -149,6 +150,38 @@ commands:
       - "python scripts/process_ner.py ${vars.data_folder}/data.jsonl ${vars.nlp_model}"
     outputs:
       - ${vars.data_folder}/data_ner.jsonl
+
+  - name: process_llm_translate
+    help: "Perform LLM processing on the JSONL file (Translate)"
+    script:
+      - "python scripts/process_llm_translate.py ${vars.data_folder}/data_ner.jsonl ${vars.llm_model} english_translation"
+    outputs:
+      - ${vars.data_folder}/data_ner_english_translation.jsonl
+
+  - name: process_llm_summarize
+    help: "Perform LLM processing on the JSONL file (Summarize)"
+    script:
+      - "python scripts/process_llm_summarize.py ${vars.data_folder}/data_ner_english_translation.jsonl ${vars.llm_model} summary"
+    outputs:
+      - ${vars.data_folder}/data_ner_summary.jsonl
+
+  - name: process_llm_clean_ner
+    help: "Perform LLM processing on the JSONL file (Clean NER)"
+    script:
+      - "python scripts/process_llm_clean_ner.py ${vars.data_folder}/data_ner_english_translation_summary.jsonl ${vars.llm_model} cleaned_ner"
+    outputs:
+      - ${vars.data_folder}/data_ner_cleaned_ner.jsonl
+
+  - name: combine_to_word
+    help: "Combine JSONL data and images into Word documents"
+    script:
+      - "python scripts/combine_to_word.py ${vars.data_folder}/data_ner.jsonl ${vars.adjusted_image_folder} ${vars.word_folder}"
+    outputs:
+      - ${vars.word_folder}/SM_NPQ_C01.docx
+      - ${vars.word_folder}/SM_NPQ_C02.docx
+      - ${vars.word_folder}/SM_NPQ_C03.docx
+      - ${vars.word_folder}/SM_NPQ_C04.docx
+      - ${vars.word_folder}/SM_NPQ_C05.docx
 
   - name: dataset
     help: "Create a Hugging Face Dataset"
@@ -170,4 +203,3 @@ commands:
       - "python scripts/weasel.py --force"
     outputs:
       - weasel_output/
-

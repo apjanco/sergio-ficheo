@@ -4,7 +4,7 @@ Pare el ascetante
 Ydro Pereaños
 Ante mi
 Vicente Olacheca
-venta-esclavo
+venta-esclavo 1231
 En la ciudad de Quibdo capital de la provincia del sitara a dos de Octubre de mil ochocientos trece. Ante mi escarnian yes
 los que se nominaron parecio Manuel Ortega vecino de ella
 A quien se conoce y otorga: Que vende realmente y con efecto a San Francisco Nieto de la propia vecindad dos negros sus propios esclavos cuatro y subastos a servidumbre nombrados Tomás Romero y su mujer Francisco los que hubo en re

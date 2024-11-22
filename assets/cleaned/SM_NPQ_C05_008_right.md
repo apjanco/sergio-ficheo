@@ -7,8 +7,7 @@ federos, pura, mera, perfecta e irrexecable intervivins con la in- situacion y r
 hablan en razón de las cosas que se compran y venden por más a menudo de la mitad del justo precio y el término concedido para la rescisión del contrato o su suplemento. Mediante la cual se desiste quita y aparta del derecho, acción pociencia, propiedad, dominio y señoria
 que a dicho esclavito francisco tenia adquirido y todas capullo de patro- nato y deudas que le correspondan los cede renuncia y traslado en el comprador y sus sucesores que en señal de posesion y para tributo de ello a su fraternidad y amistad que le corresponden
 de ella ofrece a su favor, esta escritura por la cual ha desempeñado haberlo adquirido aunque necesite de otro acto de aprensión después lo relevó y se obligó ala ejecución y saneamiento de esta venta a su entro y mención hasta dexar al comprador en quieto y pacífico poseíon
-34V
-x
+34V x
 no podiendo ser tan caro, le devolveré los ciento veinte y cinco pa
 tacones recibidos con el mas valor que hubiese adquirido con el
 tiempo y costos x gastos que con su insertidumbre se le origina

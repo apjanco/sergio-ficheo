@@ -11,8 +11,7 @@ dejar al señor comitendador en quieta posesión, y no pudiendo
 la sanear le devolvera la suma recibida y le pagara las costas
 y gastos de su incertidumbre cujo obra diiere a su simple.
 El juzgamiento, relevándolo de otra aunque por derecho se requiera, y a la observancia y puntual cumplimiento de todo lo referido se oblija con sus bienes habidos y por haber con el poderío de Justicias, sumisión de fuerza y renunciación de leyes en derecho.
-y
-cesarias
+y cesarias
 con la general
 en forma.
 En su testimonio

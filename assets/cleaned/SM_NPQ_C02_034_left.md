@@ -1,35 +1,4 @@
-una
-red
-de
-dobles
-
-cordones
-usual
-y
-corriente
-sin
-mas
-plaza
-meditacion
-con
-las
-costas
-
-la
-cobranza
-
-para
-cuyo
-se
-
-aplica
-especialmente
-el
-mismo
-es
-dado
-(conso
-s
+una red de dobles de cordones usual y corriente sin mas plaza meditacion con las costas de la cobranza y para cuyo se aplica especialmente el mismo es dado (conso s
 El mismo esclavo francés que ya tiene recibido de que se entregue entregado a su voluntad renuncia de lo contrario, y ofrece el mismo firme seguro resguardando que a su seguridad conduzca, así mismo grá
 Ya e hipotecó a la responsabilidad de la recepción deuda otra negra órbita esclava de la otorgante llamada Justa cuyo pezo se obligó a no vender cambiar ni enganar hasta que no satisfacía la expresada cantidad, siendo claridad que el otorgante pade
 Le deseo hoy el riesgo del nombrado negro francisco que ha comprado en casa de muerte y otro cualquiera acontecen- lo así como son beneficio y utilidad suya todo lo que adquiero con su trabajo y a la observancia y portual complemento del refer-

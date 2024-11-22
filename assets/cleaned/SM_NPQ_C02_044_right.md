@@ -4,8 +4,7 @@ adviertiendo que al presente no posee más alhajas de plata, ni oro absolutamen
 te, por haberse gastado todo en su sustancia y mantenimiento;
 excepto una cadena con su relicario
 Xtem declara: Ser cuentas las partidas que constan en un apun- te dado a José María Tobar para su cobro, y en virtud de la comisión que también le confirió al efecto dicho señor excelenteísimo presidente
-6º
-
+6º presidente
 Y tem declara: Que con ningún individuo tiene cuentas per
 dientes sino con el excelentismo señor Don Jose Maria Valen
 cia quien le ha suplido y suplo para el gasto diario, que cuyo

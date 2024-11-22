@@ -9,49 +9,7 @@ Nicolasa, su esposa dicho debido se acredita que lo satisfizo como asegura dicho
 Jose Lucas Alarcon y su esposa Doña Niña Bescerra se desiste quita y apor- to del derecho de acción, posesión, propiedad, dominio y se- norio que al nomi- nado esclavo Jose Mario tenia adquirido.
 todos con el depulcador y demos que le correspondan loses. de refunacia y trasgasa en su favor para que hrate! contrate. vendole como legd poder irrevocable en su fecho y causa pro. puro como se requiere y es necesario para que comole Venda.
 María se requiere y es necesaria para que siempre esté libre, porque en Júlio, otorgue escrituras, testamentos y codicios y haga todo cuanto una persona libre y no sujeta a ser-umbiente pudiera hacer, usando en todo de su libre y expon- tancea voluntad. Y se obliga a que perpetuamente le jera
-cierta
-segura
-firmé
-y
-valezé
-dero
-esta
-escritura
-de
-manu
-misión
-que
-la
-otorgante.
-ni
-sus
-herederos
-
-reclamaron
-
-contradirán
-en
-manera
-alguna
-
-caso
-
-lo
-intenten
-por
-el
-mismo
-hasta
-
-no
-son
-ordos
-
-Juzgo
-
-cuero
-
-él
+cierta segura firmé y valezé dero esta escritura de manu misión que la otorgante. ni sus herederos la reclamaron ni contradirán en manera alguna y caso que lo intenten por el mismo hasta que no son ordos en Juzgo ni cuero de él
 Como no lo exigen intento acción o derecho que no le pertenezca, y sea visto haberla aprobado y ratificado añaden fuerza a fuerza y contrato a contrato con todas las clausulas vinculantes y salvo enidades que no para su validación se
 Estas líneas y cuestiones de fondo su validación se re- vuelcan. Y a la observancia y portugués cumplimiento se o- rigen.
-bliggy con sus bienes presentes y futuros con el poderío
+bliggy con sus bienes presentes y futuros con el poderío de

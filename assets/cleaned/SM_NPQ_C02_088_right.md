@@ -1,58 +1,5 @@
 Señor nuestro, santa madre la Iglesia Católica Apostólica y Romana, en cuya verdadera fe y creencia he vivido, vivo,
-y
-protesto
-xivir
-
-morir
-como
-catholic
-fiel
-cristiano;
-teme
-rosa
-de
-la
-muerte
-que
-es
-natural
-
-precisa
-a
-toda
-cria
-tura
-humana
-
-su
-hora
-incierto
-d
-para
-estos
-prevenido
-
-quando
-llegue,
-
-poder
-resolver
-con
-acuerdo
-
-reflexion
-ho
-
-lo
-consecuente
-al
-dossor
-
-mi
-consciente
-
-refle
-x
+y protesto xivir y morir como catholic fiel cristiano; teme rosa de la muerte que es natural y precisa a toda cria tura humana y su hora incierto d para estos prevenido d quando llegue, y poder resolver con acuerdo y reflexion ho d lo consecuente al dossor de mi consciente y refle x
 do concerniente al desgasto de mi conciencia, y no tener al tiempo de mi falloamiento algún cuidado temporal que me obstre pedir a Dios nuestro senor de todas veras la remisión (destruido) de mis pecados, hago ordevo este mi testamento auto en la forma y manera que me parece.
 Testamento en la forma y manera siguiente:
 

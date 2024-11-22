@@ -1,45 +1,7 @@
 traído el estado de matrimonio y en el haber tenido uno, os mis hijos legítimos, disfrutan de esto heredando los hijos de mi hermano Don Manuel, con la condición de que en todos los años durante
 Este texto es escrito en un cuaderno de notas.
 Los derechos humanos deben ser reconocidos y protegidos por todos los ciudadanos.
-y
-declarar
-haver
-tenido
-ochos
-hijos
-naturales
-en
-distintos
-mu
-geres,
-
-son
-María
-Josefa
-
-Juan
-Antonio
-que
-huye
-
-Don
-Juá
-no
-Vetancur
-
-la
-ciudad
-de
-Esquandé;
-José
-
-Ger
-man
-
-Carlos
-
-San
-
+y declarar haver tenido ochos hijos naturales en distintos mu geres, y son María Josefa que huye en Don Juá no Vetancur en la ciudad de Esquandé; José Antonio en Ger man y Carlos Juan y Juan Antonio en San
 Frodis García en el Río de Anchicaya, finado el 2 de enero de 1858, fue el hijo García y de Doña Victoria Reina, vecina de la ciudad de Xsquandé. A Stanislao Ascención Guillermey, vecino de Monte Cristo, y María Santos que hubo en Ang Priez, vecino de Xsquandé, fueron los hijos de Don José Reina.
 Vecina del (destruido) Río de Anchicaya! a Xines Gregoria de Córdoba vecina de esta provincia a Maria Josefa de la Crué cordero y quiros que huye en Maria Josefa Cordero y quiros vecina de quarto visto, a quiros.
 instituido y nombró por mis únicos y universales herederos, de los cuales mis breves acciones, y derechos, y es mi voluntad que mis hijos aseguren las porciones que a cada uno de los ciudadanos mis herederos les corresponde inter sey en cantidad de per

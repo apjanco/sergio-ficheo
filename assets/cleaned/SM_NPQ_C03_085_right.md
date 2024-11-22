@@ -13,9 +13,7 @@ Suman las dependencias cobradas y favor de mi citada esposa
 sa cien pesos castellanos cuatro tomones de los que se rebaxan a saber: por diez pesos pagados de orden de ella a su hijo Luis aquieren se la debía antes de contraer matrimonio conmigo - 10 y a Don Francisco Cota de otra dependencia causada
 Antes también del referido casamiento
 Ya Don Santiago Palo de id
-9-6
-
-9-4
+9-6 9-4
 Ytem declaro por bienes mias una escuapa nombrada Ana-
 fia y tres hijas llamadas Trinidad, Joana y Hilaria, una
 partida de tres libros, una frasquera tres cabezas de ganado

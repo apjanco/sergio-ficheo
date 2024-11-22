@@ -1,5 +1,4 @@
-texto
-nomenclatura
+texto nomenclatura
 se contravenga.
 Aya lo dixo
 y firmo siendo

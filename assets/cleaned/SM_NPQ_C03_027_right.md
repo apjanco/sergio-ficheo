@@ -7,33 +7,7 @@ exar a la compradora en queja y paciencia poseen y
 diendose lo sanar le de-volvera la suma recibida y la soga
 Siendo esta consulta de naturaleza necesaria y urgente para las costas y gastos de su incertidumbre cuyo gravamen de fricción a sus simples documentos relevando de otra situación por derecho se requiere, , se requiere, observación y control complementario de todos los actos, sobre los cuales requiere, y a la
 miembro de todo lo referido obliga los bienes habitados y por haber de su parte con el poderio de Justicia sumisión de fuerza y renunciacion de leyes en derechos necesarias con la gobernt en forma. En su testimonio con aceptacion del compondor a 5
-lo
-dizen
-otorgan
-y
-firman
-(a
-quienes
-doy
-recenzo)
-siendo
-testigos
-los
-ciudadanos.
-Manuel
-Flores
-
-Jose
-Goes
-
-Gaza
-cua
-vecinos
-Maria
-Manuela
-Scorceta
-Casimiro
-Vallejo
+lo dizen otorgan y firman (a quienes doy recenzo) siendo testigos los ciudadanos. Manuel Flores y Jose Goes y Gaza cua vecinos Maria Manuela Scorceta Casimiro Vallejo
 HARTY HANDELL-SCARPORA
 Ante mi Vicente Olaedcha
 escritor publico

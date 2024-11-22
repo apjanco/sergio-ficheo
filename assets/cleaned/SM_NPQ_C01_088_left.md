@@ -12,9 +12,7 @@ Pesos plata reales
 ymporta lo abolido el primer dia. 11.311-4
 xt -
 yt en dependencias
-2.087-4
-total
-17.482-0
+2.087-4 total 17.482-0
 Con lo cual y por expresar el Albacea Don Melcho de Varona
 del cual se han hecho los procesados en el an
 Y velanzus ni haber otros bienes que los expresados en el yn- ventario con cuyo arreglo se ha hecho el justizorio de ellos se concluyo esto diligencia la que expresan los aboladores haberlo practizado según su inteligencia y baxo del Jyromen-

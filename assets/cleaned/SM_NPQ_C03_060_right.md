@@ -1,39 +1,4 @@
-o
-puede
-que
-antes
-de
-este
-haya
-hecho
-obligado
-en
-quailquier
-forma
-y
-solo
-quiere
-volver
-
-por
-mi
-testamento
-
-ultima
-del
-
-nada
-voluntad.
-Así
-lo
-obrrego
-esta
-capital
-
-Situro
-a
-cuatro
-
+o puede que antes de este haya hecho obligado en quailquier forma y solo quiere volver este por mi testamento y ultima del de nada voluntad. Así lo obrrego esta capital de Situro a cuatro de
 Junio de mil ochocientos diez y el otorgante que ya el escribano doy fe conozco al aprecer en su entero y sano cuerpo así lo dixo otorgo y firmo siendo testigos rogados y llamados Don Francisco Matelo, Don Jose Gaces y Francisco de Paz. En este estado de
 Manuel de la Ramaña
 Testigo Francisco Mathelos
@@ -49,7 +14,7 @@ mi el escribano y testigos que se nominaron parecidas Son Joaquín A. Larcon y M
 do
 fernando de que le otorga la correspondiente escritura ante
 el escribano que fue de esta provincia. Tomás Pólo pero como para
-cise este instrumento en el incendio que padezco el archivo
+cise este instrumento en el incendio que padezco el archivo en
 el año de mil ochocientos sesenta y uno para que estén todos
 fijos
 el año de mi dominio, en el cual, capaz que en todas mis tierras haga constar dicho cordob, la propiedad que tiene a dicho sitio esclavo Fernando por la presente otorga. Que confiere nuevamente haber vendido realmente y con efecto al citado Sebastian de Cordoba, el cual, al presentar la presente carta, me ha hecho saber que el dicho cordob, otorga.

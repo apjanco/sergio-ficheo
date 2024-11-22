@@ -100,6 +100,26 @@ def remove_repeated_phrases_regex(text):
     
     return text
 
+def combine_single_word_paragraphs(text):
+    """Combine single-word paragraphs into a single line."""
+    lines = text.splitlines()
+    combined_lines = []
+    current_line = []
+
+    for line in lines:
+        if len(line.split()) == 1:
+            current_line.append(line)
+        else:
+            if current_line:
+                combined_lines.append(" ".join(current_line))
+                current_line = []
+            combined_lines.append(line)
+
+    if current_line:
+        combined_lines.append(" ".join(current_line))
+
+    return "\n".join(combined_lines)
+
 def fuzzy_clean(
     transcribed_folder: Path = typer.Argument(..., help="Path to the transcribed files", exists=True),
     cleaned_folder: Path = typer.Argument(..., help="Output folder for cleaned files")
@@ -115,6 +135,9 @@ def fuzzy_clean(
         # Apply cleaning rules
         text = re.sub(r"\(\d+,\d+\),\(\d+,\d+\)", "", text)  # Remove coordinates
         text = re.sub(r"\b(blank|The text is not visible in the image\.|The text on the image is not clear and appears to be a mix of different colors and patterns\. It is difficult to extract any meaningful information from it\.)\b", "", text, flags=re.IGNORECASE)
+        
+        # Combine single-word paragraphs
+        text = combine_single_word_paragraphs(text)
         
         # Clean repeated phrases within the same chunk
         text = clean_repeated_phrases(text)

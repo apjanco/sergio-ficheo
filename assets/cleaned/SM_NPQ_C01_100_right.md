@@ -1,4 +1,4 @@
-Venta-Eslavo
+Venta-Eslavo 1695
 En el pueblo de san francisco de Quindo Soubal de la pr
 Ante mi el escribano y testigos que se nombraron pareció presente Don Manuel Maria Gamboa recito de su asiento y a quien debo dar cuenta.
 De esta provincia, a quien doy fe conozco y dije: Que ciento apoderado de Don Manuel Alberto Guerrieno, cuyo propio del pueblo de lloro como consta del que ha esta foto vista otorgado ante el señor teniente de gobernador que

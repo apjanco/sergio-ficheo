@@ -1,6 +1,4 @@
-F
-D
-
+F D
 Felipe Besarano y Don Miguel Pizarro vecinos de la provincia de Popayan y Herederos de Dona Rosa Besarano y quienes doy fe conozco y Otorgan: Que tienen recibido de Don Jose Gales depositario de los bienes de la misma fina
 don Manuel Jun-
 Vicentín, José Victor, Salvadora So muger, Juan Baitista,

@@ -7,7 +7,7 @@ ytem declara por bienes mios dos potrones y una co-
 noa de Genene de a venite, y xa concluido todo lo man- dado y después de haber satisfecido a todos mis acreedores del remanente se donen cinquenta pesos a los pobres men- dros, de donde una gran parte a San Antonio y la mo-
 digos yo demás una gran fiesta a San Antonio pero la ma- yo parte mandese a decir misas para mi Alma ó por las que yo pueda deber de obligación, y si fuere en aumento porque la Alma es fertil solicitesé por un hermano que
 tengo llamado Jose y densele encuanta pesos castelllos
-nos
+nos 379
 Além declara que no tengo herederos forzosos y que
 la verdadera heredera es mi madre y que
 

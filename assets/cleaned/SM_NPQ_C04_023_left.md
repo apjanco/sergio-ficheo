@@ -1,29 +1,4 @@
-A
-B
-C
-D
-E
-F
-G
-H
-I
-J
-K
-L
-M
-N
-O
-P
-Q
-R
-S
-T
-U
-V
-W
-X
-Y
-Z
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 agaderados y prácticas sin intervención del otorgante todo cuanto esta permitido a las que nacieron libres usando en todo desexigar tanea voluntad, pues para ello formaliza y favor esta escritu ro con los requisitos legales y precisos que sean conducentes a su
 La ley de los derechos legales y procesos que deben cumplir las copias autorizadas que quiera para su resguardo, y se obliga a no recurrir ni contraído- en manera alguna esta libertad y si lo hiciere quiere que no se
 le orga admita en tribun al algo como no lo esquien intenta accen o derecho que no le pertenece y sea visto por lo mismo haberla apro bada y ratificado añadiendo fuerza a fuerza y contrato a contra to con todos los algoritmos vinculos y solenidades con todas las clau

@@ -6,48 +6,7 @@ tomentario fídei comisario del... Jayme. Insértu quíoy fe conosco y dixo: Que
 La propia señora y próxima para estar a la plaza de Cali, para que en su nombre pueda vender y vender arreglado a la instrucción que por separado le entrega un esclavo nombrado José Camoto de la testamentaria del ciga.
 Don Jayme, a Don Juan ferrer vecino y [...] de dicha plaza, en cuyo poder se halla el citado edificio, otorgando la correspondiente escritura de propiedad a favor del comorador con todas las clausulas, vinculos y eternas.
 El comprobante contiene las declaraciones, fechas y fechas para su validación, con la excepción de un sancionamiento en caso de la incertidumbre. Que para lo dicho se incidente dependiente se da el presente con libre franja y general administración facultad de su juicio, lugar y tiempo.
-administración
-facultad
-de
-enjuiciar
-jurídico
-y
-substituir
-en
-una
-o
-mas
-personas
-que
-a
-todos
-guardando
-sus
-ordenes
-e
-instrucciones
-...
-se
-relleva
-
-costas
-
-debida
-forma.
-A
-cuya
-seguridad
-cumplimiento
-
-firmaje
-
-obliga
-los
-bienes
-
-las
-fueron
-
+administración facultad de enjuiciar jurídico y substituir en una o mas personas que a todos guardando sus ordenes e instrucciones ... se relleva de costas en debida forma. A cuya seguridad cumplimiento y firmaje se obliga los bienes de las fueron las
 Guía de aduan por expresa y declarada para que le perjudique, con la de su domicilio y reciindad y general del derecho enorma, en cuyo testimonio as lo dice otorgo y firma siendo testigos Don Miguel Buch Don Luis Herrera y don Santiago de la torre
 Francisco Xavier de la Cuesta
 Ante mi

@@ -1,3 +1,4 @@
+2 3 4 5 6 7 8 9
 Manos - el maestro Manuel Jose Cuesta cuatro pesos - Ya Juan Lorenza dos mando que misalvaceos lo pasen declaro pa- ra que coste
 32º XT declaro deber al ciudadano Jose Josemaria Rodriguez
 Jose Joaquín Rodríguez Martínez - Luiza Yari - Gabriela - María Antonio de la Cuesta - José María Hurtado - María Cordova

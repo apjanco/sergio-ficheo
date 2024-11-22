@@ -1,4 +1,4 @@
-efecto
+efecto 28
 ytem declaro deverme estevan Predriolhita Veinte y Cin
 una pora plata abrigo en la cima de la monta
 y en la cima de la monta

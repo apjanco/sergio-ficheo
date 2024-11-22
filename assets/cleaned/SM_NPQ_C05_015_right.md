@@ -1,8 +1,7 @@
 ahoro otorgo quiero y mando se observe como última y deliberada
 voluntad o en la viq y forma que mesor haya lugar enderecho y el otorgante a quien yo el infrascrito escribano doy fe conocso es tando al parecer en su entero y sano Juicio asilo dixo y otorg
 por nos
-saber
-firmar
+saber firmar
 lo hizo a su
 fuego uno de los
 testigos que lo fueron los

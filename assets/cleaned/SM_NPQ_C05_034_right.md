@@ -18,6 +18,7 @@ felipa de ocho años
 Eustaquia de cuatro años
 Jose Sixto de pechos
 pedro comprado a Trelles y su hijita
+580
 Segunda comprada a Sequeira Portuguesa
 su hijo Carlos
 Suma
@@ -33,36 +34,4 @@ HERRAMIENTA DE MINA
 Por 6 barros, 8 barretones, seis almocafres, cuatro hochas, cuatro machetes, cuatro calabazas, priciones y demas, que pesa todo 10 arrobas a 40 patagonex
 Esto es lo que para descargo de mi consciencia es mío, independien- te de los bienes de la Hacienda que eran partibles, y consta por
 Pe de los bienes de la hacienda de que era propiedad la familia y
-buído
-por
-réditos
-atrásados
-que
-debía
-mi
-padre
-a
-la
-capilla
-niq
-
-se
-le
-declaró
-al
-Doctor
-Urrutia
-y
-pagué
-ochociento
-
-mas
-pesos
-poco
-
-o
-menos
-como
-consta
-
-documentos
+buído por réditos atrásados que debía mi padre a la capilla niq que se le declaró al Doctor Urrutia y pagué ochociento y mas pesos poco mas o menos como consta por documentos

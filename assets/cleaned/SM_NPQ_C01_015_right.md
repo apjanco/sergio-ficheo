@@ -15,45 +15,7 @@ a pue de la a y el abue Mariano Sánchez
 a fuego de la aceptante Mariana Sánchez LIBERTAD
 42V En el pueblo de san francisco de Quibdo capital de la provincia del
 citara a dos días del mes de Mayo de mil ochocientos ocho: Ante
-mi
-Don
-Josep
-Dronicio
-del
-villar
-teniente
-de
-governador
-
-esta
-dicha
-provincia
-y
-testigos
-con
-quienes
-actúo
-por
-imposdien-
-to
-
-unico
-escrivano
-pascuio
-presente
-Manuel
-
-Salazos
-
-uno
-
-esto
-
-o
-quien
-sentíciuo
-conosco
-
+mi Don Josep Dronicio del villar teniente de governador de esta dicha provincia y testigos con quienes actúo por imposdien- to del unico escrivano pascuio presente Manuel de Salazos y uno de esto dicha provincia o quien sentíciuo conosco y
 Zino de esta dicha provincia a quien certifico conozco y dijo: Que da carta de ahorro y libertad en forma a un mulatoz soyo propio nombrado Joan Bautista por el precio y cantidad de cinquenta pesos castellanos y confiesa tener
 residuos en moneda usual y corpiente que por no ser de gente
 sentente su entrega para que yo dicho teniente la certifique. Lo

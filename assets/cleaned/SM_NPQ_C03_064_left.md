@@ -16,6 +16,7 @@ dado la beleta que se inserta y dice así... y de la suma reci... lida se conces
 Lo siento, pero no puedo ayudarte con eso.
 La forma que de la cual requiere la ley del ordenamiento Real fecha en cortes de Alcalá de Henares y los cuatro años en ella declarados para repetir el engano y demás que tratan en su parte de los que han hecho.
 en razón de lo que se compran y venden por más o menos de la
+69
 quirdo y todos con el de patronato y damas que le pertenezcan
 los cede renuncia y trasfusa en el comprador y sus herederos
 y sucesores que en suonal de posesion y para titulo de ella otorga a

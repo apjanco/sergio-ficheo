@@ -1,12 +1,4 @@
-be
-always
-talking
-about
-your
-own
-problems
-and
-solutions.
+be always talking about your own problems and solutions.
 de silvia también su esclava, como cautiva del recibo original que se agrega a esta escritura y dice así y de dichos veinte y cinco oyes recibidos es confesada el otorgante a nombre de su parte entregado a su voluntad renuncia decí lo contrario.
 exceptión de la non numerata pecuniaria su prueba la del pecio termino engañó y más del caso. En cuya virtud se desvía quita y agasta del derecho de patronato posesión, ocurrencia donativo y senario que al marco accionar francesa tiene advenidas
 y senorío que a la indicada esclavita Francisco a tenía adquirido y todo lo cede renuncia y trasgano a su favor a fin de que m vuelva a estar sujeta a servidumbre y le confiere poder, pese cable con libre franca y general administración para que trate

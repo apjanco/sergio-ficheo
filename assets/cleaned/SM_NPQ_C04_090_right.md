@@ -1,33 +1,6 @@
 The text on the image is:
 
-```plaintext
-A
-B
-C
-D
-E
-F
-G
-H
-I
-J
-K
-L
-M
-N
-O
-P
-Q
-R
-S
-T
-U
-V
-W
-X
-Y
-Z
-```
+```plaintext A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ```
 no bueba a estar sujeto a serbidoumbre y le confiere poder irrebucable con libre franca y general administracion para que tra-te contrato teste compresca en Juicio porsi o pormedium de sus poderados y practique sin intervencion de la otrojuez de todo
 sus derechos y practique sin intervención de la otorgante todo cuanto esta permitido a los que nacieron libres usando en todo de su expantanea voluntad, pues para ello formaliza a su favor esta escritura con los requisitos legales y precisos que sean conduzien-
 Me pido que de ella le de las copias atroz creadas para su resguardo; y se obliga a la edición y saneamiento y a no revocar ni contradecar en manera alguna esta libertad y si lo hiciera quiere que no se le haga ni admita en tribunal.

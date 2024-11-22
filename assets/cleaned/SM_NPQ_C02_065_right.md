@@ -6,9 +6,7 @@ Carlos Ferreira y Xiques
 Huis Treilles
 Christoval Berveran
 Presente, por a su otorgamiento en fe de ello signo y firmo en el mismo día de su fecha. Vicente Obeches escribano público
-venta
-eschavo
-147r
+venta eschavo 147r
 En la ciudad de Quito, capital de la provincia de Cotacachi y remite
 nuevo de diciembre de mil ochocientos trece. Ante Mireles
 El cráneo y los huesos que se nombraron fueron Marcelo Valencia, vecino de ella a quien doy fe conocido y otorga: Que vendes realmente y con efecto a Vicente Hortiz de la propia vecindad un cráneo nombrado Manuel que lo hubo en común que hizo a A-

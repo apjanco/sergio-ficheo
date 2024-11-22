@@ -1,5 +1,4 @@
 TESTAMENTO
-
 85Y En el nombre de Dios todo poderoso. Amen. Yo Don Manuel Miller
 natural de la ciudad de santander y vecino de la provincia de
 Novita hijo legítimo y de legítimo matrimonio de Don Juan

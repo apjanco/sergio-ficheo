@@ -6,8 +6,7 @@ cesite de otro acto de aprensión de quehorrorsleves, y te obliga a la excisión
 y le pagara las costas de su incertidumbre cuyo prueba difiere a su simple juramento relevándolo de otra aunque no derecho se requiera, y a la observancia y cumplimiento de todo lo referido se obliga con su persona y bienes habitados
 y por haber con el poder de justicias, amisión de fuerza y renuncia de leyes en derecho necesarias con la generación forma. En su testimonio con aceptación de Don Antonio Valen- cia en virtud de recomendación del dicho señores conyugar
 Don Tomás Santacruz y Don Agustín Romero vecinos Francisco Nieto Antonio Valencia Anti mi vueste clascheg
-Venta-Eslavo
-131V
+Venta-Eslavo 131V
 En la ciudad de Quibdo
 capital de la provincia del
 ciboro o sielo,

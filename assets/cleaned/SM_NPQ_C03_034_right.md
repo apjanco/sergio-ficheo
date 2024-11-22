@@ -25,32 +25,4 @@ Angel María
 Rodriguez esclavo de Benito Córdoba por los servicios
 que ha hecho en la última expedición contra las tropas rebel
 des empleándose con riesgo de su vida y con la mayoridadidad como esga en varias ocasiones y hallandome son institución y autoridad por el excelentísimo señor General en Gefe de pre
-mi
-gracias
-en
-antes
-servicios
-hasta
-conceder,
-
-nombre
-del
-rey
-la
-libertad
-a
-esclavos
-de
-esta
-naturaleza
-
-cumplimiento
-
-anteriores
-promesas
-otorga:
-
-doy
-
-concedo
-plenamente
+mi gracias en antes servicios hasta conceder, en nombre del rey la libertad a esclavos de esta naturaleza en cumplimiento de anteriores promesas otorga: que doy y concedo plenamente

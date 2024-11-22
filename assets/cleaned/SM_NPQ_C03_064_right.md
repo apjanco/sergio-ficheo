@@ -1,6 +1,7 @@
 The text on the page is:
 
-```
+``` 1234567890 ```
+
 The text is written in a vertical format with each line containing a single digit.
 a su costo y mencion hasta dexar al comprador enquta esquia y no pudiendolo aeguar le devolusta los trescientos quarenta pa-tacones recibidos con las costas que de la incertidumbre se le sigieren cuya prueba difiere a su simple juramento dele
 yandolo de otra quien por derecho se requiereq. Y al cumplimiento y observancia de lo relacionados se obliga con su persona y bienes presentes y futuros con el poder de justicias sumisión de cuerpo y conciencia de las personas.

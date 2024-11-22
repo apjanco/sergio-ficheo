@@ -8,24 +8,7 @@ Así antes a su mayor estabilidad, me que de ella le de los gastos autorizados, 
 Bonal alguien como yo lo es quien intenta acción o derecho geno le profetice, y sea visto por lo mismo haberla aprobado y califica, añadiendo fuerza a fuerza, y contrato a contrato con todas las clases, las dificultades y relaciones que para su perpetua.
 Lidación se requieren. y a la observancia y puntual cumplimiento de todo lo referido obligan los bienes de esa parte, habidos y por haber con el poderio de Justicias, sumición de fuero y renuncia de leyes en derecho necesarias con la general en
 formas ensafitaminos con aceptación del libertó, así lo dicen otorgan y firma dicho señor gobernador, y por decir el aceptan-
-los
-escriban
-a
-Jonguiz
-Polo,
-Saturnino
-Horeda
-y
-Marsela
-
-vecinos
-Doctor
-fortunato
-Manuel
-de
-Gamba
-
-Valencia
+los escriban a Jonguiz Polo, Saturnino Horeda y Marsela Polo, vecinos Doctor fortunato Manuel de Gamba y Valencia
 A muero del libertó. Jose Joaquín Polo. Ante mi: Manuel Flores. Escrivanó Xaterno del número.
 TESTAMENTO
 En el nombre de Dios todo poderoso Amen: Yo Saturnino Hlreda, hizo

@@ -1,5 +1,4 @@
 W
-
 obliga al referido Don Ramón Ramírezz a la evicción seguridad y sonea- miento de esta venta a su costat y mencion en cualquier estado de causa hasta dexar al comoporador enquieta y pacifca posesions y aqno suportandose la sonear la devuela la cantidad de los desventos
 Quando se le sahara la cantidad de los desentos pe sos de plata, si ya los hubiese recibido con las costas y gastos que de la incertidumbre se lesigueren y recicreren cuya prueba defiere a sus simple Juramento relayingolo de otra aunque por derecho se re
 quiero. Y a la observancia y puntual al cumplimiento de lo relacionado obliga al indicado Don Ramón Ramírez y a sus bienes habitados y por haber con el poderío sumisión y renunciación de leyes desfavor en derecho necesarios con la general en forma. Y estando presente dicho jus

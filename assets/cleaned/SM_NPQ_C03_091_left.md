@@ -10,23 +10,7 @@ Jueces y Justicias de su magistrad para que le complace y
 apremien a su parte a la observancia y cumplimiento de esto
 La escritura como por sentencia pasada en autopiedad de cosa Inegada y conscientida que por tal lo recibe renuncia todas las leyes fueros y derechos de su favor con la general en
 form. En su testimonio con aceptación del liberto José Ra- món por su nombre de su mujer, Joséfa así lo dixeron y dor- garon a firma el otorgante y por decir el aceptante no saber lo hizo su ruego uno de los testigos que lo fueron Don Joaquín
-Escobar
-Nicolas
-Roxas
-
-Ysidro
-Pereyánez
-vecinos
-Jose
-Agustin
-Kenis
-aruego
-del
-aseptante
-Antonio
-Valiente
-Olachea
-
+Escobar Nicolas Roxas vecinos Jose Agustin Kenis aruego del aseptante Antonio Valiente Olachea y Ysidro Pereyánez
 Estándar Público
 LIBERTAD
 En la ciudad de Querétaro capital de la provincia de

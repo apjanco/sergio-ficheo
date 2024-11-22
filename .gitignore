@@ -15,7 +15,6 @@ weasel_output/
 /assets/jpg
 /configs
 /_templates
-/prompts
 /pipelines
 /packages
 .DS_Store

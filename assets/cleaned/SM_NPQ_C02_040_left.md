@@ -10,7 +10,6 @@ Sí y le guardo las costas y agujetas que de su merz huidamente se le originas e
 obliga sus obreros, presentes y futuros con el poder de justicia, somisión de fuerza y refunción de leyes en derecho necesarias con la general en forma, en su testimonio con aceptación de la comisora para la dice aborgan y
 Francisco Antonio de Moreda
 Maria Ayora
-CODICILLO
-59r
+CODICILLO 59r
 En la ciudad de Quibdo
 capital de la provincia del cítara a ven

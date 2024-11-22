@@ -18,48 +18,5 @@ ficas resguardo, que a sus seguridad conuda. En cuya virtud a
 nombre de su poderdante y de los demas interesados, desiste, quitay
 apart del derecho acción, propiedad dominio, señor que a de- cho negro tenían, y todos con el de patronato, y demos que le co- rrespondían los sede, renuncia y trasposo a su favor a fin de que no puedan ponerse en su favor y los otros que no pueden ponerse
 No vuelvo a estar sujeto a servidumbre, y le confiere poder libre y general administración, porque por arte, contrate, teste, comparesca en juicio por si o por medio de sus goberadores, y practique sin intervención de su parte.
-y
-demás
-interesados,
-todo
-quanto
-esta
-permitido
-
-los
-que
-nacie
-ron
-libros
-usando
-en
-
-de
-su
-espontánea
-voluntad,
-pues
-para
-ella
-formalisa
-
-sofavor
-
-escritura
-con
-
-requeridos
-lega
-les
-
-aprecios
-
-serán
-
-sus
-antes
-o
-
-mayor
-estabilizado
+y demás interesados, todo quanto esta permitido a los que nacie ron libros usando en todo de su espontánea voluntad, pues para ella formalisa a sofavor esta escritura con los requeridos lega les y aprecios que serán con sus antes o su mayor estabilizado
 les y precisos que sean convenientes a su mayor estabilidad;

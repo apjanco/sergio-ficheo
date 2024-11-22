@@ -12,8 +12,7 @@ Pedro Arrigga
 Tio Quinto Bengifo
 Ante mi Manuel Flores
 El ribazo Xaterno Publico del Numero
-Venezuela
-YENTA-ESLAXO
+Venezuela YENTA-ESLAXO
 
 En la ciudad de Quilotoa a veinte y tres de Mayo de mil ochocientos veinte y dos:
 

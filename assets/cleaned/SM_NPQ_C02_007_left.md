@@ -12,49 +12,7 @@ cuyo tiempo ha existido el referido Esclavo Pedro Juan en poder del comprador.
 y a la observancia cumplimiento y firmeza de
 Este contrato se obliga al otorgante con su personal y bienes habi- dos y por haber pactado que los señores Sueso y Justicias desu- minigiedad a ello le compelirán y agremien por todo rigor de dere- cho y un ejecutivo como por contrato y sentencia pasada por auto-
 La ciudad de Córdoba, consentida y no apelada sobre que renuncia las leyes fuerzas y derechos de en favor la si conveniendit con la general del derecho en forma. Agregase doleta original del señor ministro de la Real de la provincia de Córdoba.
-de
-senior
-ministro
-oficial
-Real
-
-esta
-dicha
-provincia
-que
-as-
-de-
-dito
-haberse
-sabido
-ho
-la
-
-Alcaldía
-cuyo
-tenor
-dice
-así
-ex
-
-testimonio
-y
-con
-aceptación
-
-Pedro
-Juan
-Correa
-en
-virtud
-
-expresión
-recomendación
-para
-ello
-del
-comprador
-Esteban
+de senior ministro oficial Real de esta dicha provincia que as- de- dito haberse sabido ho la Real Alcaldía cuyo tenor dice así ex cuyo testimonio y con aceptación de Pedro Juan Correa en virtud de expresión recomendación para ello del comprador Esteban
 Jose Maria Palomeque
 Pedro Juan Correa
 Mte mi vicente olachea

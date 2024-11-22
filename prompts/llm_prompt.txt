@@ -1,0 +1,6 @@
+Process the following text and provide a detailed analysis. Return the result in JSON format.
+
+FIELDS: text
+
+Text: 
+{yaml_data}

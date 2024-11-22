@@ -4,8 +4,7 @@ Sí, estoy satisfecha la real Alcobala, se va a la bodega, ori- ginal y vendiend
 dicto ferrer osa veamos - enmendado exceso - por jus- to - vale - testado - con migo - no vale
 Carlos Alarcon Christoval Berveran
 Ante mr. Vicente Obacheg
-Esclavo
-Venta
+Esclavo Venta
 En el pueblo de San Francisco de Quibdo, capital de la provincia del Citarra a sinio días del mes de febrero de mil ochocientos treinta y cuatro: Ante mi el único escritor y testigo que se nominaron parecido presente Francisco Menéz vezco de esta
 La provincia a quien doy fe conozco y dijso: Que xende y bien venta real y perpeuta cunagenacion desde ahoa muera siempre Jamas a Eduardo Valenz haron negrito Vanzos Eugenio propio suyo por habie de otra venta seno, empezar
 y potencia tácita ni expresada pero con todos sus visos laceras y defectos públicos y secretos por el precio y cantidad de doscientos sinqüenta pesos plata que confiesa tener en sus otros tiempos ha comenzado a sufrir construcción

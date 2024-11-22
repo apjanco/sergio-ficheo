@@ -18,5 +18,4 @@ cabef escribir este siendo testigos Don Luis García y Herrera y Don Santiago de
 scarpetta de roq
 intem
 vicente olaecheq
-escrivano
-publizo
+escrivano publizo

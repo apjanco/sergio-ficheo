@@ -1,38 +1,4 @@
-165r
-Ha
-satisfecido
-don
-francisco
-Xavier
-de
-Conto
-nueve
-pesos
-unos
-y
-me
-dio
-reales
-por
-el
-derecho
-
-Alcavala
-al
-ciento
-deducidos
-
-quatrocientos
-
-sesenta
-en
-que
-como
-Alviseo
-
-Don
-Manuel
-xa
+165r Ha satisfecido don francisco Xavier de Conto nueve pesos unos y me dio reales por el derecho de Alcavala al 2 por ciento deducidos de quatrocientos y sesenta en que como Alviseo de Don Manuel xa
 de cuatrocientas y sesenta en que como alvaca de sen miguel yo nacio de la cuesta ha vendido a dona brigida fernandez un derecho de tierras en el rio de aragua y dos escloutos nombrosos a pustin y maria solomez, quibdo y julio 28 de 1810
 Jose Maria Valencia
 de ciento cuatro pesos de plata por el derecho de Alcobala al dos por ciento de doscientos en que ha comprado al señor gobernador Don Juan de Aguirre un negrito llamado Juan. Quindío Agosto 1 de 1810

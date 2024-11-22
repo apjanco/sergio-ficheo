@@ -19,6 +19,7 @@ M1 Antonio Sixto de cinco
 M1 Crispin de un año
 M1 Estefang de 30 años costó 425
 M1 Sus hijos Jose de 6 años
+400 200
 Mi Cornelio de poco mas de un año
 Mi Joquín de 15 años costó
 Mi Lucía de 15 años sabe coser y servir en la casa costó
@@ -28,8 +29,7 @@ Mi Manuel Antonio de 25 años costo 400
 Mi su mujer Maria de Jesus sabe caser y planchar
 
 A1 Juan de 25 años diestro de ming y canoas
-
-94V
+--------------------------- 94V
 Al Cipriano su mujer de 28 años
 Mis hijos Juan de 14
 Mi Jose de 7 años

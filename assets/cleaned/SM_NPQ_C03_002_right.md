@@ -1,42 +1,5 @@
-norma
-NOMBRE:
+norma NOMBRE:
 1812, 1818
 NOMBRE: 1844, 1846, 1847
 
 MATERIA: 1844, 1846, 1847
-
-ACCIONAMIENTO EDUCATIVO:
-ESTABLECIMIENTO
-GRADO:
-TELEFONO:
-DIRECCION Y TELEFONOS
-The text on the image is:
-
-```plaintext
-A
-B
-C
-D
-E
-F
-G
-H
-I
-J
-K
-L
-M
-N
-O
-P
-Q
-R
-S
-T
-U
-V
-W
-X
-Y
-Z
-```

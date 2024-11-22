@@ -6,8 +6,7 @@ La siguiente es una muestra de texto escrito en un cuaderno:
 
 "La siguiente es una muestra
 
-"
-Estudiante
+" Estudiante
 Francisco Antonio de Espinosa
 Ante mi Vicente Olaechia
 YENTA-ESCLAYO

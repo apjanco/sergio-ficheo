@@ -2,6 +2,7 @@ import typer
 import srsly
 from pathlib import Path
 from rich.progress import track
+import re
 
 app = typer.Typer()
 
@@ -13,7 +14,11 @@ def process_json(
     """
     Process images and text. Outcome is a single JSONL file with a dictionary for each page with the transcribed text.
     """
-    md_files = list(data_path.glob("**/*.md"))  # Process all files
+    def extract_sort_key(filename):
+        match = re.search(r'C(\d+)_(\d+)', filename)
+        return (int(match.group(1)), int(match.group(2))) if match else (float('inf'), float('inf'))
+
+    md_files = sorted(data_path.glob("**/*.md"), key=lambda x: extract_sort_key(x.stem))  # Process all files in numerical order
     image_files = {img.stem: img for img in image_path.glob("**/*.jpg")}
     
     data = []

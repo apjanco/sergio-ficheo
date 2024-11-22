@@ -2,8 +2,7 @@ se entregaron los cien pesos de plata que al efecto consigno dicha toma, sus dil
 Año 1810
 
 En el año de 1810, en el cual las cosas que aquí se dan, y las que se dan en las demás, me remito, y en cumplimiento de lo mandado por las citadas, expongo la presente.
-Olaechea
-109r
+Olaechea 109r
 Soma del frente
 vt. colgita su mujer en
 y colgita su mujer en

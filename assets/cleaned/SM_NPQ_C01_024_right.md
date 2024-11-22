@@ -1,8 +1,7 @@
 armas que la justifique conforme a derecho.
 Yt deseó a disposición de un citado espozo todas las honras
 y suscribá que fuera ser conyunto mundial.
-y
-sofragios
+y sofragios
 que tengas
 por conveniente
 mandas hacer,

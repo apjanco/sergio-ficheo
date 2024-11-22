@@ -44,17 +44,4 @@ Y un mantel seis servilletas y dos ganos de mano
 Y cuatro ganos más de mano usado
 Y una palangana dos platos, dos tochuelas dos jarros y
 Siete cucharas y siete tenedores todo de plata con peso de
-veinte
-marcos
-menos
-una
-oneq
-cento
-
-sesenta
-
-ciento
-
-más
-
-OSA
+veinte marcos menos una oneq cento veinte sesenta y ciento veinte más una OSA

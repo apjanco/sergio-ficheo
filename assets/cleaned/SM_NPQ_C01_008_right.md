@@ -5,46 +5,7 @@ miemento real fechada en cortes de Akola de Henares y los cuatro años en ella d
 y lo que se compra vende o permitida por mitad
 mas o menos de su lexitimio precio. y desde hoy en ade
 lante se desapodera desiste, quita apunta del derecho de patronato señorío y posesión que a dicho negro tenia adquirido y todo con las acciones por personales y demás
-que
-competen
-lo
-cede
-renunció
-y
-trasposó
-en
-el
-comprador
-
-usúa
-tenga,
-para
-
-sean
-sus
-esclavos
-
-a
-ser
-vidumbre,
-
-dispone
-de
-ellas
-
-so
-arbitro,
-mediante
-
-los
-adquirió
-con
-lenitud,
-obligándose
-
-la
-enic.
-seguridad.
+que competen lo cede renunció y trasposó en el comprador y que usúa tenga, para que sean sus esclavos y a ser vidumbre, y dispone de ellas a so arbitro, mediante que los adquirió con lenitud, obligándose a la enic. seguridad.
 El espíritu de estas animales, cuyas almas son seguidas, y sanzamiento de esta venta la cual le será sierto segura y valadera, y sobre ella no se le pondrá pleito ni contradicción alguna: y si se le moviere lo segundo y fénecero a su costo
 hasta dejarle enquieto y posifica posesiones; y de no poderlo
 hazef le debolvera el impf de esta venta con el mas valor

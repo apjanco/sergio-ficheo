@@ -10,19 +10,7 @@ dada y goce no se le pondrá pleito ni contradicción alguna y censura que se le
 girle devolverá las doscientos para siones recibidos como igualmente el resto de las sesenta si ya se los hubiese satisfecido con el más valor adquirido con el tiempo y le pagara todas las ces
 tasa y gastos que sobrepasa ella ofrecimientos y causan su liquida ción y lasto defiere en el simple juramento de la parte interesada sada y esta escritura sin mas prueba de que la relaza. Y están do presente el sitioado Nicolás Salazar que asimismo desfeso
 nozco y habiendo oído el tenor de esta escritura en cuanto ha loggar en derecho por la presente otorga que debe recibir y con efecto a Agustín Pesares la cantidad de sesenta palancas de ocho reales, parte del gracio en que se le ha usado las escri
-a
-otro
-real
-parte
-del
-espí
-el
-
-adecuado
-mi
-n
-
-y
+a otro real parte del espí el adecuado mi n y
 gastos de la cobranza.
 y cada uno por lo que respectivamente
 se obligan cons sus personas y bienes presentes y sufrir con el

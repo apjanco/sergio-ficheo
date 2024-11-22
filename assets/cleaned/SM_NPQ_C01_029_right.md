@@ -30,8 +30,7 @@ Quinto de su pertenencia
 la que
 le vende por libre de censo
 empeno ni hipoteca
-facita
-expuesta,
+facita expuesta,
 y por tal se la asegura en cantidad de doscientos
 cinquenta pesos de plata que confiesa el abogante tener
 recibidos de mano del comprador a su entera satisfacción

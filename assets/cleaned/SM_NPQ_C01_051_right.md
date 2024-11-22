@@ -1,5 +1,4 @@
-Libertad
-Esclavo
+Libertad Esclavo
 (10 Nov 1808)
 155f
 de Zerbequi o quen certrico conox

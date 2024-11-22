@@ -2,15 +2,7 @@ The text on the page is as follows:
 
 ```
 I am a
-student
-who
-enjoys
-reading
-books
-and
-writing
-stories.
-
+student who enjoys reading books and writing stories. ```
 la cual ha de ser vista haberla adquirido en que necesite de otro acta de apreciación de que la releva y se obliga a la exención y sanción momento de esta venta a su costo y menaron hasta dexar al comprador enquiety y pacífico posesión y no pudiendose lo espiar ledevolver
 La simplicidad patagonica recibida con el más valor que hubiese adquirido con el tiempo y costos y gastos que con su incertidumbre se originasen cuya prueba defiere en su simple sujimiento rel
 vandole de otra aunque por derecho se requiera y al observar
@@ -19,8 +11,7 @@ das y por haber con el poder de justicias, sumicin de fuerza y
 re nunciacion de leyes en derecho necesarias con la general enfor
 En cuyo testimonio y estando presente así lo dixo otorgó y firmo siendo testigos los señores Francisco de Paz, Nicolás Roxas y Pedro Juan Correa, vecinos
 Legendario Abendano Victoriano Valencia Antemis Manuel Flores Esturbano Intermeo Publico del Numero
-YENTA-ESCLAVO
-48F
+YENTA-ESCLAVO 48F
 En la ciudad de Quibdo, capital de la provincia del cítara a dose de
 Agosto de mil ochocientos veinte y dos. Ante mi escribano inter
 ante, el escribano inter

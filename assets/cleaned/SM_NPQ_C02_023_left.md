@@ -22,7 +22,5 @@ sigue en cuya prueba difiere a su simple juramento
 relevándolo de otra aunque por derecho se requiera. A
 cuya seguridad cumplimiento y firmeza se obliga con sus bienes
 presentes y futuros con el poder de justicias, sumisión de
-sus
-y
-(
+sus y (
 En el poder de los jueces, somos defensores y renunciamiento de leyes en derecho necesarias con la

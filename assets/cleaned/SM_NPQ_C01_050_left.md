@@ -5,43 +5,7 @@ Ejercicio:
 pesos
 cuentan
 que fue
-sobrepasada
-de
-los
-que
-se
-han
-entregado
-a
-mi
-testigo
-actual
-Don
-Bo-
-nifacio
-Salazar
-
-mismos
-
-pase
-al
-oficial
-Real
-
-esta
-dicha
-provincia
-como
-consta
-
-las
-diligencias
-puesta.
-Y
-desde
-la
-fecha
-
+sobrepasada de los que se han entregado a mi testigo actual Don Bo- nifacio Salazar los mismos que pase al oficial Real de esta dicha provincia como consta de las diligencias puesta. Y desde de la fecha
 Hoy en adelante se desaparecerá, desiste, quitó y aparta a nombre de su administrador del derecho de acción, posesión, propiedad. Dominio y señorío que a dicha esclava tenía adquirida y todo
 La cedida, vermelha y traspassa em sul...y causa propia, co- mo se requiere y es necesario para que trate y contrate, compras y vendas, parcasa. En juicio, clorgue esrituras y testamentos memo- rias, cobidulos, y poderes, y haga todo quanto una persona libre,
 no sujeta a servidumbre pudiera hacerse, usando en todo desu líbrc; y exportación voluntad, y se obliga el otorgante que en todas tiempos la sea cierta, segura, firme y valletera esta es- cultura de libertad, que por sí mismo los intercados de cada mu-

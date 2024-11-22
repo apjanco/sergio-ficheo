@@ -1,5 +1,4 @@
-YENTA
--esclavo
+YENTA -esclavo
 v
 En la ciudad de
 quinto capital de la provincia del catarro a cuatro

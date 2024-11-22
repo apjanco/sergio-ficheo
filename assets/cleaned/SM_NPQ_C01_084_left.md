@@ -26,40 +26,11 @@ mas que perdieron cuando los volvió el señor teniente
 Deben por la primera cuenta - 35 castellanos
 por la segunda - 86 17
 son pesos
-suma
+suma 71 142
 melchor de varona y vetancup
 lll Suma de la huella
 1505-6
 El negro silvestre restó de jornales para lo cual mantiene el señor teniente trentay cuatro castellanos según dice don Melchor Varon.
 El Domingo su hijo y el mismo treinta y seis cas- tellanos según expresa el citado Don Melchor en la cuenta entregada por separado -- 72 y un libro de cuentas viejo de Don Lucas Alar-
 Con en donde constan varias partidas y una cuenta de letra de Don Bartolome Polo que as ciende a 446-6. Cuyos papeles y documentos quedan lubricados 2.087.
-los
-papeles
-
-documentos
-quedan
-publicados
-2.084
-por
-t...
-f
-en
-poder
-del
-Albacea
-Don
-Melchior
-de
-Varona
-quen
-
-haber
-expresado
-no
-existir
-otro
-alguno
-se
-sierra
-esto
-dil1
+los papeles y documentos quedan publicados 2.084 por t... f en poder del Albacea Don Melchior de Varona quen por haber expresado no existir otro alguno se sierra esto dil1
