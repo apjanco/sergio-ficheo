@@ -20,6 +20,12 @@ def set_page_size(doc, width, height, left_margin, right_margin, top_margin, bot
     section.top_margin = Inches(top_margin)
     section.bottom_margin = Inches(bottom_margin)
 
+def set_paragraph_format(paragraph):
+    run = paragraph.runs[0]
+    run.font.name = 'Times New Roman'
+    run.font.size = Pt(12)
+    paragraph.paragraph_format.space_after = Pt(12)
+
 def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
     data = list(srsly.read_jsonl(json_file))  # Process all items
     doc_dict = {
@@ -51,13 +57,17 @@ def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
         image = Image.open(image_path)
         width, height = image.size
         aspect_ratio = width / height
-        max_width = Inches(10) - Inches(0.125)  # Max width considering left margin
-        max_height = Inches(11)
-        if (aspect_ratio > max_width / max_height):
-            doc.add_picture(str(image_path), width=max_width)
+        max_width = Inches(9.75)  # Slightly smaller width to avoid cutting off
+        max_height = Inches(10.75)  # Slightly smaller height to avoid cutting off
+        if aspect_ratio > max_width / max_height:
+            picture = doc.add_picture(str(image_path), width=max_width)
         else:
-            doc.add_picture(str(image_path), height=max_height)
+            picture = doc.add_picture(str(image_path), height=max_height)
         
+        # Center the image
+        last_paragraph = doc.paragraphs[-1]
+        last_paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+
         # Add a new section for the right-hand page
         new_section = doc.add_section(WD_SECTION.NEW_PAGE)
         set_page_size(doc, 10, 11, 0.5, 0.5, 0.5, 0.5)
@@ -69,33 +79,39 @@ def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
         # Remove table borders
         for row in table.rows:
             for cell in row.cells:
+                cell._element.get_or_add_tcPr().append(docx.oxml.shared.OxmlElement('w:tcBorders'))
                 for border in cell._element.xpath('.//w:tcBorders/*'):
                     border.attrib.clear()
 
         # Center the table
-        for row in table.rows:
-            for cell in row.cells:
-                cell.paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
+        table.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
         # Add text
         text_cell = table.cell(0, 0)
         text_cell.text = item.get('text', 'No text available')
+        set_paragraph_format(text_cell.paragraphs[0])
 
         # Add translation
         translation_cell = table.cell(1, 0)
         translation_cell.text = item.get('translation', 'No translation available')
+        set_paragraph_format(translation_cell.paragraphs[0])
 
         # Add summary and NER data
         summary_ner_cell = table.cell(2, 0)
         summary = item.get('summary', 'No summary available')
         ner_data = item.get('ner', 'No NER data available')
         summary_ner_cell.text = f"Summary: {summary}\nNER Data: {ner_data}"
+        set_paragraph_format(summary_ner_cell.paragraphs[0])
 
         # Add file name
         file_name_cell = table.cell(3, 0)
         file_name_cell.text = f"File Name: {image_path.name}"
+        set_paragraph_format(file_name_cell.paragraphs[0])
 
         doc.add_page_break()
+
+    for doc in doc_dict.values():
+        set_page_size(doc, 10, 11, 0.125, 0, 0, 0)  # Ensure both pages are 10x11 inches
 
     for stem, doc in doc_dict.items():
         output_file = output_folder / f"{stem[:-1]}.docx"
