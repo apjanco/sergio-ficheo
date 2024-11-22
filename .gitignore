@@ -13,6 +13,7 @@ _site/
 weasel_output/
 /assets/JPG_TESTBED
 /assets/jpg
+/assets/word
 /configs
 /_templates
 /pipelines
