@@ -37,9 +37,8 @@ vars:
   recombined_folder: "assets/recombined"
   cleaned_folder: "assets/cleaned"
   data_folder: "assets/data"
-  llm_model: "llama3.1:8b"
+  llm_model: "chatgpt-4.0-mini" # Options: "chatgpt-4.0-mini", "llama3.1:8b", "Qwen/Qwen2-VL-2B-Instruct"
   word_folder: "assets/word"
-
 directories: ["assets", "configs", "scripts","_site","_templates","prompts", "pipelines", "packages", "${vars.word_folder}"]
 
 workflows:
@@ -55,6 +54,7 @@ workflows:
     - fuzzy_clean
     - process_json
     - process_ner
+    - process_llm_clean
     - process_llm_translate
     - process_llm_summarize
     - process_llm_clean_ner
@@ -151,26 +151,33 @@ commands:
     outputs:
       - ${vars.data_folder}/data_ner.jsonl
 
+  - name: process_llm_clean
+    help: "Perform LLM processing on the JSONL file (Clean)"
+    script:
+      - "python scripts/process_llm_clean.py ${vars.data_folder}/data_ner.jsonl ${vars.llm_model} cleaned_text"
+    outputs:
+      - ${vars.data_folder}/data_ner.jsonl
+
   - name: process_llm_translate
     help: "Perform LLM processing on the JSONL file (Translate)"
     script:
       - "python scripts/process_llm_translate.py ${vars.data_folder}/data_ner.jsonl ${vars.llm_model} english_translation"
     outputs:
-      - ${vars.data_folder}/data_ner_english_translation.jsonl
+      - ${vars.data_folder}/data_ner.jsonl
 
   - name: process_llm_summarize
     help: "Perform LLM processing on the JSONL file (Summarize)"
     script:
-      - "python scripts/process_llm_summarize.py ${vars.data_folder}/data_ner_english_translation.jsonl ${vars.llm_model} summary"
+      - "python scripts/process_llm_summarize.py ${vars.data_folder}/data_ner.jsonl ${vars.llm_model} summary"
     outputs:
-      - ${vars.data_folder}/data_ner_summary.jsonl
+      - ${vars.data_folder}/data_ner.jsonl
 
   - name: process_llm_clean_ner
     help: "Perform LLM processing on the JSONL file (Clean NER)"
     script:
-      - "python scripts/process_llm_clean_ner.py ${vars.data_folder}/data_ner_english_translation_summary.jsonl ${vars.llm_model} cleaned_ner"
+      - "python scripts/process_llm_clean_ner.py ${vars.data_folder}/data_ner.jsonl ${vars.llm_model} cleaned_ner"
     outputs:
-      - ${vars.data_folder}/data_ner_cleaned_ner.jsonl
+      - ${vars.data_folder}/data_ner.jsonl
 
   - name: combine_to_word
     help: "Combine JSONL data and images into Word documents"

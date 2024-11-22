@@ -23,8 +23,27 @@ def set_page_size(doc, width, height, left_margin, right_margin, top_margin, bot
 def set_paragraph_format(paragraph):
     run = paragraph.runs[0]
     run.font.name = 'Times New Roman'
-    run.font.size = Pt(12)
-    paragraph.paragraph_format.space_after = Pt(12)
+    run.font.size = Pt(9)
+    paragraph.paragraph_format.space_after = Pt(9)
+
+def format_ner_data(ner_data):
+    label_map = {
+        "LOC": "Location",
+        "ORG": "Organization",
+        "PER": "Person"
+    }
+    grouped_entities = {}
+    for ent in ner_data:
+        label = ent['label']
+        if label not in grouped_entities:
+            grouped_entities[label] = []
+        grouped_entities[label].append(ent['text'])
+
+    formatted_text = ""
+    for label, texts in grouped_entities.items():
+        label_name = label_map.get(label, label)
+        formatted_text += f"**{label_name}**:\n" + "\n".join(texts) + "\n\n"
+    return formatted_text.strip()
 
 def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
     data = list(srsly.read_jsonl(json_file))  # Process all items
@@ -37,7 +56,7 @@ def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
     }
 
     for doc in doc_dict.values():
-        set_page_size(doc, 8.5, 11, 0.125, 0, 0, 0)  # Set left-hand page size to 8.5x11 inches
+        set_page_size(doc, 10, 11, 0.5, 0.5, 0.5, 0.5)  # Set left-hand page size to 10x11 inches with 0.5 inch margins
 
     for item in data:
         image_path = image_folder / item.get('image', '')
@@ -70,10 +89,10 @@ def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
 
         # Add a new section for the right-hand page
         new_section = doc.add_section(WD_SECTION.NEW_PAGE)
-        set_page_size(doc, 8.5, 11, 1, 1, 1, 1)  # Set right-hand page size to 8.5x11 inches with 1 inch margins
+        set_page_size(doc, 10, 11, 0.5, 0.5, 0.5, 0.5)  # Set right-hand page size to 10x11 inches with 0.5 inch margins
 
         # Add text boxes to the right-hand page
-        table = doc.add_table(rows=4, cols=1)
+        table = doc.add_table(rows=4, cols=3)
         table.style = 'Table Grid'
 
         # Remove table borders
@@ -91,20 +110,31 @@ def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
         text_cell.text = item.get('text', 'No text available')
         set_paragraph_format(text_cell.paragraphs[0])
 
-        # Add translation
-        translation_cell = table.cell(1, 0)
-        translation_cell.text = item.get('translation', 'No translation available')
-        set_paragraph_format(translation_cell.paragraphs[0])
+        # Add cleaned text
+        cleaned_text_cell = table.cell(0, 1)
+        cleaned_text_cell.text = item.get('cleaned_text', 'No cleaned text available')
+        set_paragraph_format(cleaned_text_cell.paragraphs[0])
 
-        # Add summary and NER data
-        summary_ner_cell = table.cell(2, 0)
+        # Add translated text
+        translated_text_cell = table.cell(0, 2)
+        translated_text_cell.text = item.get('english_translation', 'No translation available')
+        set_paragraph_format(translated_text_cell.paragraphs[0])
+
+        # Add NER data
+        ner_data_cell = table.cell(1, 0)
+        ner_data = item.get('entities', 'No NER data available')
+        ner_data_formatted = format_ner_data(ner_data)
+        ner_data_cell.text = ner_data_formatted
+        set_paragraph_format(ner_data_cell.paragraphs[0])
+
+        # Add summary
+        summary_cell = table.cell(1, 1)
         summary = item.get('summary', 'No summary available')
-        ner_data = item.get('ner', 'No NER data available')
-        summary_ner_cell.text = f"Summary: {summary}\nNER Data: {ner_data}"
-        set_paragraph_format(summary_ner_cell.paragraphs[0])
+        summary_cell.text = summary
+        set_paragraph_format(summary_cell.paragraphs[0])
 
         # Add file name
-        file_name_cell = table.cell(3, 0)
+        file_name_cell = table.cell(1, 2)
         file_name_cell.text = f"File Name: {image_path.name}"
         set_paragraph_format(file_name_cell.paragraphs[0])
 
