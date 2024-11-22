@@ -16,74 +16,8 @@ F. Bovaro y Marzo 2 de 1807
 
 Dado ya Begoña, vecino de Nueva que hoyendo, enco-
 Dijo yo, Rosa Aguirre vecino de Oroya que haviendome encar- gado lino de obra, vesino de Antioquia un mulatillo nombrado Jose Marta de edad al parecer de 17 años para que yo lo la bendise en las provincias del chaco y dandome una carta
-el
-señor
-Doctor
-Don
-Jose
-Pardo
-con
-fechó
-de
-enero
-para
-
-sono.
-y
-que
-en
-virtud
-
-ella
-nose
-ponga
-abise
-a
-la
-benta:
-hemos
-celebrado
-controlo
-xo
-
-citado
-Rosó
-Aguirre.
-Con
-estevon
-piedrito
-
-le
-he
-bendido
-este
-
+el señor Doctor Don Jose Pardo con fechó 3 de enero para el sono. y que en virtud de ella nose ponga abise a la benta: hemos celebrado controlo xo el citado Rosó Aguirre. Con estevon piedrito y le he bendido este en
 Rojito Aguirre, con estevan biardillo y la federidad este en nombre del expresado lino de sora el citado Mulatillo Jose Maria en contienda de sesenta pesos de plata de contado sen- do de cargo del comprador satisfacer la alcavala y del mismo,
-
-remitille
-
-escritura
-
-propiedad
-otorgado
-por
-su
-legi
-timo
-Amo,
-cuya
-bental
-hago
-
-s
-nombre
-
-libre
-
-todo
-sen
-grabamen,
-ni
-
+el remitille la escritura de propiedad otorgado por su legi timo Amo, cuya bental hago a s nombre por libre de todo sen grabamen, ni y
 de este instrumento es propio del mencionado estaban pre-
 draito, y yo a nombre de su Amo hora me apartoy desisto

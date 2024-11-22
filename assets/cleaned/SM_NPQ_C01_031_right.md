@@ -18,21 +18,7 @@ Testigo Francisco Mathelo
 como testigo Joquim Colon
 Testigo Cristoval Santiago
 testigo Jose Maria Flores
-Polo
-nuevo
-en
-el
-punto
-de
-testigo
-y
-centro
-aldea
-Derechos
-
-pesos
-al
-plato
+Polo nuevo en el punto de testigo y centro aldea Derechos y pesos al plato
 Venta - Esclavo
 En el pueblo de San Francisco de Quito, capital de la provincia, siguiendo el cítraro a vender y siete días del mes de Julio de mil ochocientos ocho: Ante mi don Josep promedio de villar BIX teniente de gobernador de ella y testigos con quienes actúo
 El teniente del gobernador de esta y sus vecinos expresaron a usted por impedimento del único escribano pareció presente. Don Pedro Alvarez del Pino a quien certifico conozco y doy; Que vende y da en venta Real y perpetua erigación des

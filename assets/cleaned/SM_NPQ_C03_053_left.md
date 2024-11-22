@@ -1,3 +1,4 @@
+2 3 4 5 6 7 8 9 10
 Ortega vecino de ella a quien doy se conozco y diixo: Que es apoderado de Jose Palomque y Pablo Moreno de esta vecindad y herederos de Juan Esteban Palomque segun se acordado en el registro.
 ta del que no ha manifestado y se agrega a este registro cuyo
 así concuerda el poder mismo con el que es

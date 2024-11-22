@@ -1,25 +1,17 @@
 The text on the image is not clear and appears to be a page.
-se
-nombraran,
-parecido
-presente
+se nombraran, parecido presente
 en la casa
 de su morada
 el señor
-francisco
-escobar,
-vesino
+francisco escobar, vesino
 de la ciudad
 de Celis,
 y apoderado
 del señor
-alcal-
-de
-ordinario
+alcal- de ordinario
 
 de Novita.
-Juan
-
+Juan francisco
 de Sag
 Segun
 consta del que se agrega original, y sotener dice asi en cuya virtud y usando de las facultades que son conferidas, otorga: Que a nombre de su parte da carta de abolp y libertad a un esclavo llamado Ray- mundo de su poderdante, en precio y cantidad de Noventa pesos de plata de marco real, que consta el obstante tenes recibidos de

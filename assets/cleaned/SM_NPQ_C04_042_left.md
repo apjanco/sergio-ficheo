@@ -1,3 +1,4 @@
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48
 It declares that various persons give me quantities of food by apportionments that are all saved for me in a large space, and I am grateful: I ask for my allies who have taken care of my body and my belongings.
 Yo declaro que soy dueño de don Rafael Nasciso Hurtado de cantidad de un mill y pico de pesos pues aunque consta de mayor cantidad en la escritura que le tengo otorgada en el archivo público ten.
 Lo en mi favor, dadas varias partidas

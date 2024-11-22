@@ -17,32 +17,6 @@ vientes desde adentro de suerte que su deslinda que se com
 prende por el lado de abajo de un corte nombrado Arroyo hasta
 dar con la de Camargo que nos fue igualmente vendido por dicho Alarcón; y luego tomando desde la (destruido) de dicho Ba- tria a mano requirida para arriba con sus altos y boxes vertientes de uno y otro lado subiendo para arriba hasta el
 centro del toxo que esta abaxo de las casas de chiquinquirá que eran pertenecientes a Dona Ana de la Cuesta, en cuyo lidero se compreende de nuestra pertenencia otra quebra da nombrada lo canoa en el lado del toxo para adentro to
-6a
-y
-tem
-declarar
-por
-bienes
-nuestros
-otraquebrada
-que
-habíamos
-
-compramos
-al
-mismo
-Por
-francisco
-Mena
-nombra
-do
-Camargo
-la
-
-se
-comprende
-desde
-una
-quebrada
+6a y tem declarar por bienes nuestros otraquebrada que habíamos y compramos al mismo Por francisco Mena nombra do Camargo la que se comprende desde una quebrada
 llamada de severino con todas sus canaditas y quebrad- tos para apribo al lado derecho hasta sus cabezas con
 1939-11-18 10:00:00

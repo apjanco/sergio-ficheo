@@ -41,17 +41,7 @@ The text in the image is:
 
 veritabilt fransensia a nolh shand in banting.
 April 2021 x 2021 202
-and
-not
-communist
-
-bourgeois
-capitalism
-is
-bad
-for
-
-people
+and not communist and bourgeois capitalism is bad for the people
 
 The text on the page is as follows:
 

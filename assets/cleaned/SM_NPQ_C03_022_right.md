@@ -1,10 +1,7 @@
-oposto
-M1mph
+oposto M1mph
 The text on the image is:
 
-```plaintext
-R
-```
+```plaintext R ```
 
 M
 

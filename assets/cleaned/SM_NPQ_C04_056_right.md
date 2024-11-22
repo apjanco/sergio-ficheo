@@ -1,7 +1,6 @@
 The text on the image is:
 
-```plaintext
-```
+```plaintext 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 ```
 Primero encomiendo mi alma a Dios que la crió y redimí con el precio de su sangre, y el cuerpo mando a la tierra de que fue formado el cual hecho cadáver quiero que se amortaje con el de fi-
 perpetuum.
 2° Y llego a las mandas forzosas y acostumbradas a un real aca- da una loga sesacara del cumulo de mis bienes declararlo para que conste 3° xt declaro que fue casada y velada según el orden de nuestro san

@@ -5,32 +5,7 @@ de cifra a doce días del mes de Mayo de mil ochocientos ocho:
 
 Ante mi don José Dionizio de villar temente de gobernador y corregidor de naturales de este dicho pueblo y de los testigos con quienes actúo por impedimento del único escritorio, pues
 Escribo en el presente don Juan Esteban predicar la vecino de esta provincia a quien certifico conosco y otorgo: Que vendyera de en xento real y en perpetua enagenacion desde ahora y para siempre.
-H
-s
-e
-
-t
-
-m
-a
-
-o
-A
-g
-u
-
-i
-n
-D
-
-z
-
-c
-
-d
-
-h
-
+H t e m a s a o A g u n D a z a n e c o m e d e s t d i s t i o n c h s e s e s e
 El presidente agregó que no permitía que alguien le vendiera el bien , sino que lo entregaba por libre de otra venta, empero ni hipotecaba, haciéndolo ni expresamente ni por lo asegurado en cantidad de doscientos quarenta pesos de plata que confesaba el otorgante tenía recursos.
 de mano del comprador a su satisfacción y contentos y para mí de precente su entrega para que yo disfíamente la cetería, que, de ella renuncia la excepción y leyes de supercurso, su prueba y demás del caso, y confiesa el vendedor que los dos
 El precio que se obtuvo por los cientos cuarenta pesos de plata recibidos es el justo precio y verdadero valor del referido mollete que no vale más, y en cambio de que más valga de su demasia en poco, o mucha suma teñiza

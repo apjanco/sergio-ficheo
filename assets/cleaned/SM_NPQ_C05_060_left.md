@@ -21,46 +21,8 @@ venario de misas rezadas
 x tem es mi voluntad que a mi hijo Manuel expresado en la
 clase 4º se le den singüenta castellanos
 esxtem tengo a mi hijo Manuel y a mi hija la Mesía de
-Es
-y
-tengo
-tego
-a
-mi
-nida
-Leonor
-una
-negrita
-hija
-de
-Maria
-
-Jesus
-
-esclava
-ten
-declarado
-que
-
-hermana
-Manuelo
-dono
-
-car
-men
-dicierta
-
-esclavita
-
-edad
-
-un
-año
-nombrada
-
-Jesús
-
-Jesus como consta a todos mis coheredores la que como
+Es y tengo tego a mi nida Leonor una negrita hija de Maria de Jesus mi esclava 26 y ten declarado que mi hermana Manuelo dono a mi hija car men dicierta una esclavita de edad de un año nombrada Maria de Jesús mi esclava
+Jesus como consta a todos mis coheredores la que como de
 xo dicho queda libre
 y tem mando que el permanente de mi quinto se muviera en
 beneficio de mi alhío y lo declaro así para que conste

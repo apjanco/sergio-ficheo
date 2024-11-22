@@ -10,10 +10,9 @@ general del nomnado Don Joguim
 Colon y en virtud de su orden
 la
 236x aceptaba y acepto: En cuyo testimonio y hallarse
-satisfacto
-
+satisfacto la
 Nichola se
-
+satisfacto
 La Alcábala se agrega boleta original del señor ministro oficial Real cuyo contenido copiado a la letra dice En su secuencia así lo dicen otorgan y firman siendo testigos Don Miguel Buch, Don Francisco Mateo y Don Domingo Pola vecinos.
 Manuel Maria Scarpeta
 Ante mi

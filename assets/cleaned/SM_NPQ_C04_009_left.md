@@ -7,53 +7,7 @@ por entregado a su voluntad renunciar decía contrariamente la excepción
 de la non numerata pecuniia sugerida la del recibo término engano
 y en el caso de la perdida que dicha estelava Maria Isabel novale
 y más del caso, declaró que dicha estuvo en la casa de Isabel Navales, más y aunque más valga de ella, demuestra en mucha o poca suma hace gracia y donación al comprador y sus herederos buena pura me, na perfecta e irreproducible intervivos con la insinuación y renon
-accion
-necesaria
-sobre
-que
-renuncia
-la
-ley
-del
-ordenamiento
-Real
-fecha
-en
-cortes
-de
-Alcalá
-
-Hegueras,
-y
-demás
-
-hablan
-
-pa
-zon
-
-las
-cosas
-
-se
-compran
-
-renden
-por
-mas
-omenes
-
-mitad
-
-justo
-precio
-
-el
-termino
-concedido
-para
-
-resc
+accion necesaria sobre que renuncia la ley del ordenamiento Real fecha en cortes de Alcalá de Hegueras, y demás que hablan en pa zon de las cosas que se compran y renden por mas omenes de la mitad del justo precio y el termino concedido para la resc
 El señor controló o supervisó el trabajo. Mediante lo cual se desiste la quita y aparta del derecho de acción posesión propiedad dominio. El señor que en dicho esclavito María Isabel tenía adquirido y todos los derechos correspondientes los se devu.
 Focos con el de patrimonio y demás que le correspondían los cedulas de honor.
 octavo de apreciación de que la reelevara, y se obliga a la evicción seguridad aguanamientos y firmecido estovento o en costoy mención hasta dexar al comprador enquiety pacífico posesión y no pudiendose la sonear le devolvera los doscientos sesenta pesos

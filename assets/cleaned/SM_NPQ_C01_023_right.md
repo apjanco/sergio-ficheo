@@ -18,31 +18,4 @@ y de no al siguiente día.
 3º Yt declaro que soy casada y velada según orden y disposición de nuestro Santa madre xglesia con Don Angel Perez no
 tural de los reinos de España en cuyo matrimonio no hemos tenido ni procreado hizo alguno.
 Yt declaro que yo cuando controse dicho matrimonio aporte a él la cantidad de cinco mil quatrocientos sesenta y tres
-a
-el
-contado
-de
-cinco
-mil
-pataciones
-en
-amor
-esecutivo
-
-es
-slabas,
-
-citado
-mi
-marido
-no
-trajo
-cosa
-alguna,
-
-lo
-declaró
-asi
-para
-que
-conste.
+a el contado de cinco mil pataciones en amor esecutivo y es slabas, y el citado mi marido no trajo cosa alguna, y lo declaró asi para que conste.

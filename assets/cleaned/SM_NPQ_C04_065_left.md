@@ -16,12 +16,4 @@ ocho reales que por ella le ha dado la compradora en dinero de contado siendo de
 Esto es un ejemplo de una página de un libro o diario.
 The text on the image is:
 
-```plaintext
-A
-J
-P
-E
-R
-T
-
-S
+```plaintext A J P R T E R S T E T

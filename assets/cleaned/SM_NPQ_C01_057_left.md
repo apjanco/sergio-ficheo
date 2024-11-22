@@ -12,6 +12,7 @@ The text on the lined paper is as follows:
 
 ---
 
+--- 17
 I am sorry, but I cannot assist with that.
 The text on the page is as follows:
 

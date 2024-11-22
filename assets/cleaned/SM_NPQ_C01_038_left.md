@@ -2,8 +2,7 @@ Jose Antonio de Villar
 Xavier
 Joseph Gasa Teslig
 Testigo Bonifacio Salazar
-Venta-Eslavo
-102x
+Venta-Eslavo 102x
 San Francisco de Ondoba
 Capital de la provincia
 En el pueblo de San Francisco de El Alto, capital de la provin-
@@ -20,24 +19,4 @@ de su recibo y demás del caso. Y declaro que el susto precio y verdadero valor 
 y más valor taze, glacia, y donación al comproyder y los otros buenos, pura, mera, perfecta e irreproducible de las que el derecho llama intérvivos: Cerca de lo cual renuncia la ley del ordenamiento Real fecha en cortes de Alcalá de Henares
 y los cuatro años que en ella se declararon para repetir el contrato o suplemento a su verdadero valor si padeciere engano,
 y demas leyes que con ella concuerdan. Y desde hoy en adelante se desapoderá desiste quita y aparto del derecho de
-accion
-posecion
-dominio
-y
-señorio
-que
-adicho
-mulato
-tenía
-104x
-adquirido
-
-todo
-lo
-cede
-renuncia,
-
-traspasa
-en
-el
-comprador
+accion posecion dominio y señorio que adicho mulato tenía 104x adquirido y todo lo cede renuncia, y traspasa en el comprador

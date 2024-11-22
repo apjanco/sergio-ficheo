@@ -1,50 +1,7 @@
 daderas declaro, y uno para que conste - Primero,mente adeudo a mi parroco, Don Pedro Jose Doran ochenta, y ocho castellanos
 de estipendos que se me han venido desde el - ciento cinco, hasta el presente tercer que esta a vencimiento de este año de mil ochocientos diez a razón de diez, y seis pesos castellanos que por composicion me obligue a pagarle, y a cuya
 Estamos ansiosos que su comprensión me conduzca a que, en lugar de mis notorios atrazos, no lo he berificado, lo que consta, y mandando se la paguen.
-en
-herro
-de
-mi
-hisa
-natural.
-Dona
-Maria
-Rosalia
-
-la
-Cuesta,
-los
-que
-mando
-igualmente
-se
-le
-pagan,
-y
-declarando
-para
-constar
-ten
-al
-predicido
-senor
-coru
-Don
-Pedro
-Jose
-Duran
-
-soy
-deu-
-dor
-del
-estipendio
-
-venite
-misas
-
-dejar
-pertenecién
+en herro de mi hisa natural. Dona Maria Rosalia de la Cuesta, los que mando igualmente se le pagan, y declarando para constar 109 y ten al predicido senor coru Don Pedro Jose Duran le soy deu- dor del estipendio de venite misas que le mando dejar pertenecién
 Gregorio Cornello de la cuesta, de la qual como patrono, recibi, y percibi el correspondiente redito de dos años y debo ser pagado el correspondiente a la capellania mandada fundar por mulegito hermano Fati.
 correspondiente catipendio, por no haber capellan propio por arregllo a la donacion de diez pesos castellanos y lo que deforo y mando se paquen en descargo de mi conciencia y se hallan los re-
 11º Y ten aducdo por obligacion y cuenta particular a Don Silvestro Merias la cantidad de secanta, y tres pesos castellanos tres tommes, que mando se le paguen, y declarolo para que conste.

@@ -8,9 +8,7 @@ en cu
 xa virtud asi lo dicen otorgan y firman siendo testigos
 Don Miguel Buch y Don Juan Morano y Don Benifacio salazaran veces
 Francisco Xavier de Cunto
-Antem
-Nineteen
-Olajeshi
+Antem Nineteen Olajeshi
 Manuel Scaramelli
 Venta - Esclavo
 167r
@@ -19,51 +17,5 @@ capital de la provincia
 Ciudad del Catoro a primero de Agosto de mi mil seiscientos y diez: An te mi el escribano y testigos que se movieron parecido presente en la casa de su morada el señor governador Don Juan de Aguirre, a quien doy fe conocido y dijo que vende y da en venta
 Real y perpetua enagenacion desde ahora y para siempre damos a Don Francisco Xavier de Conto vecino de esta provincia se a saber un negrito su propio esclavo llamado Juan que sea para el dicho sus herederos y subesospe y se lo venden por
 Para y sus descendientes y se le vende por libre de otra venta senso empeño, ni hipoteca facta, ni expresión y portal se lo asegura en cantidad de doscientos pesos de plata que confiesa el dicho señor otorgante tener recibi
-dos
-de
-mano
-del
-comprador
-a
-su
-entera
-satisfacción
-
-conten-
-to,
-que
-por
-no
-ser
-
-presente
-
-entrega
-para
-
-yo
-el
-dicho
-escribano
-defe
-
-ella,
-renuncia
-
-legar
-
-contrario
-la
-excep-
-ción
-x
-lex
-
-numerata
-pecuni
-
-prueba
-
-más
-
+dos de mano del comprador a su entera satisfacción y conten- to, que por no ser de presente su entrega para que yo el dicho escribano defe de ella, renuncia a legar de contrario la excep- ción x lex de la no numerata pecuni a su prueba y más del
 Bien y lejos de lo que se ha dicho, y en caso. Y confiesa el recemido señor vendedor que los doscientos pesos de plata restados es el justo precio, y ver

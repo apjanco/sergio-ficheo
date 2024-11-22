@@ -1,15 +1,6 @@
 The text on the page is as follows:
 
-```
-vera
-tory
-sor
-d
-a
-b
-
-r
-
+``` vera tory sor d a b a r a d a d
 corresponden por via de herencia de una (destruido) más otra partida que de esta misma cuenta se cobró a los bienes de Don Xgnacio Rentería de todo consta de autos, y yo por mi parte no meti capital alguno: declarolo así para que cons
 Y tem declaro, que en el cumulo de estos bienes existen la cantidad de mil patatas de suerte principal que deben estos
 al convento hospital de San Juan de Dios en la ciudad de San

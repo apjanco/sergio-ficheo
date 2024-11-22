@@ -12,53 +12,7 @@ El esfuerzo que realizó el señor Ramón con 10 negros es perjudicial para los 
 Manuel Ortigo de Agüela escribió la correspondencia siguiente:
 
 Hace un mes, el día doce de octubre, le escribí a usted y le pidió que me enviara el día próximo para a la que se remite. En cuya virtud los ha poseído por sus propios libros de empeño desde obligación e hipoteca especial.
-vi
-general
-que
-
-los
-tienen
-como
-osla
-obsegura
-y
-se
-
-tiende
-con
-todos
-sus
-vicios
-tachos
-desestos
-enfermedades
-publ
-c
-
-a
-
-s
-
-secrets
-en
-presc
-
-cantidad
-de
-trescientos
-setenta
-
-ciento
-pesos
-
-plata
-
-nacho
-reales
-
-por
-ello
-ha
+vi general que no los tienen como osla obsegura y se los tiende con todos sus vicios tachos desestos enfermedades publ a c s y secrets en presc y cantidad de trescientos setenta y ciento pesos de plata de nacho reales que por ello ha
 dado en dimensión contada, siendo de cargo del alquimista. la poca del derecho de alquimia que ha satisfecho al señor. receptor de ellas vien en prueba de su rezado ha dado lo que se inserto y dice asi y de la suma reciudo se
 izar confesio el obligante entregado a su voluntad renuncia decir
 lo contrario la excepción de la non numerata osmio su pruega

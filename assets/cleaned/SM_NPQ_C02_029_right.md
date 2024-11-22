@@ -2,8 +2,7 @@ ha dado la boleta que se inserta y dice qsi
 x de la suma
 re
 cibida se confiesa elogrado a su plena
-satisfacción
-
+satisfacción re
 nurca decir lo contrario la excepción de la xon numérico se
 nunca decí lo contrario la excepción de la non numerata pe- cunia privada de su recibo prueba termino engano y más de ca- so declarando que no vale más y caso que más valga de su 24r demasia en poca o mucha suma hace gruesa y donación al contratar
 y sus herederos buena pura, mera perfecta e irrevoable inter vivos con la inmunizacion y denunciacion necesaria sobre que remuncia la ley del ordenamiento real fecha en cortes de Alcalá de Henares y demas que hablan de lo que se compra y vende por mas

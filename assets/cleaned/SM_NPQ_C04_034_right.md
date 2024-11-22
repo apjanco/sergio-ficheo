@@ -1,6 +1,4 @@
-X
-Y
-Z
+X Y Z
 Fido de Córdoba según acredita el testamento de mi citada madre y documentos que existen en mi poder, y no habiendo otro heredero de ella más que yo, los declaro por bienes mios.
 El declaro, que en efecto, consta de la donación que este me hace para los siguientes patacones, los cuales no se me han entregado por sus glaceas que fueron. Logro declaro para que conste
 ytem declaro, declaro que en los mismos bienes tienes dicho mi

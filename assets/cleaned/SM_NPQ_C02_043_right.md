@@ -19,31 +19,4 @@ Pág. 1 . 2 . 3 . 4 . 5 . 6 . 7 . 8 . 9 . 10 . 11 de 2
 Pág. 12 de 2
 San Agustín y María Rosa han hecho cumplir su deber y todos los cedan renunciar y trasponer en su favor a fin de que no vuelvan a estar en su servicio, y les conceden poder irrevocable con libre fraternidad y general administración para que toten contraten testen, comparezcan en su juicio por si
 De traten, contraten, peseen, comparecen en suelo para o por medio de sus acarados, y practiquen sin interrupción de los otorgantes antes que esta permitido a los que nacieron libres, sando en lado de su expontanea voluntad, pues para ello formalizan y enfechar este estatuto y los contratos legales que sean.
-a
-sufar
-esta
-escriitura
-con
-los
-requisitos
-legales
-que
-se
-han
-de
-cómo
-y
-conducientes
-
-sumayor
-estabilidad:
-me
-
-orden
-
-ella
-les
-
-las
-copias
-autorizadas
+a sufar esta escriitura con los requisitos legales que se han de cómo y conducientes a sumayor estabilidad: me a orden que de ella les de las copias autorizadas que

@@ -2,8 +2,7 @@ Don Nicolas Machado ha
 satisfeció en esta
 Real contaduría cinco
 pesos de glata por la Alcavala al 2 por ciento deducidos de doscientos
-y
-cinquenta
+y cinquenta
 en que ha vendido a Don Pascual Rovira una negra llamada pro Quinta.
 Ambido, Julio 4 de 1808.
 Jose Maria Valencia

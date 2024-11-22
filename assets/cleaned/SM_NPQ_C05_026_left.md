@@ -23,25 +23,4 @@ La siguiente es una página de un diario donde se encuentran frases escritas en 
 - "No tengo que preocuparme de las cargas que corresponden de todos los perjuicios que me han ocurrido y de los honorables inventarios por separado de los cuadros que han quedado de chivos y serdillas y agregándolos a los de los otros."
 - "La siguiente es una página de un diario donde se encuentran frases escritas en español. Aquí están las líneas de texto sin números:
 
--
-el
-cumulo
-de
-mis
-bienes.
-Declaro
-lo
-que
-conste.
-X
-tem
-declaro
-
-tenía
-en
-mi
-poder
-una
-partida
-
-fierro
+- el cumulo de mis bienes. Declaro lo que conste. 72 X tem declaro que tenía en mi poder una partida de fierro

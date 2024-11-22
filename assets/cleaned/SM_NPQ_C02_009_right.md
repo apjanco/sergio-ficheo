@@ -11,8 +11,7 @@ complimiento si falleciere
 Y tem declaro que así mismo es mi deliberado voluntad se suponen
 de mis bienes cincuenta pesos castellanos y se le entreguen a un
 Manuel Maria Bautista Cordero
-Venta-esclavo
-203r
+Venta-esclavo 203r
 En la capital de Quibdo, provincia del catarro a cinco días del mes
 octubre de mil ochocientos diez ante nivel escenario y testigos
 se nombraron abajo parejo presente en la casa de su morada

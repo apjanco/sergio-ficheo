@@ -12,47 +12,6 @@ vivos con la notificación y renuncia necesaria sobre que renuncia la ley del or
 Y vendé corno más o menos de la mitad del justo precio y el ter- mino concedido para la rescisión del contrato o su suplemento. Mediante lo cual a nombre de su testamentaria se desiste quita y aparta del derecho, de acción posesión, propiedad do-
 ministro y señorío que a dicha esclava florentina tenía adquirido y todos con el de patronato y demas que le correspondian los de renuncia y traslasa en el comprador y sus sucesores que en señal de pago y para titulo de ella otorgan a sus cargos.
 El señor de la paz y barrio de esta ciudad a su favor es
-El
-hasta
-deteriorar
-al
-compañero
-en
-quiera
-y
-pacífico
-posesion
-
-no
-badiendo
-la
-saneof
-le
-devolvera
-
-suma
-recibida
-
-pagara
-las
-costas
-
-gastos
-de
-un
-incertidumbre
-suya
-necesidad
-
-fiere
-
-sac
-mole
-juramento
-relexandole
-
-otro
-quique
-por
+El hasta deteriorar al compañero en quiera y pacífico posesion y no badiendo la saneof le devolvera la suma recibida y le pagara las costas y gastos de un incertidumbre suya necesidad de fiere en sac mole juramento relexandole de otro quique por
 derecho se respuesta y a la observancia y portavil cumplimiento
 de todo lo referido se obliga con sus bienes habitados y por haber

@@ -1,6 +1,4 @@
-corle
-24ª
-UT
+corle 24ª UT
 Declaro, y
 suplico
 igualmente a mi

@@ -1,6 +1,4 @@
-DONACION
-ESCLAYO
-5r
+DONACION ESCLAYO 5r
 en la ciudad de
 quibdo
 capital de la provincia del

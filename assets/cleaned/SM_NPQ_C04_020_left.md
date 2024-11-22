@@ -22,7 +22,7 @@ Mama Ayora
 Acta de Vicente Olmedo
 Ante mi vicente Oldechea
 Esambono Publico
-VANTA-ESCLAVO
+VANTA-ESCLAVO 21
 en la ciudad de quillo capital de la provincia de Cilara a cuatro de
 febbrero de mil ochocientos diez y nueve años. Ante muel escribano
 y testigos que se nomiñcan apareció Don Jose Maria Diaz Aiza

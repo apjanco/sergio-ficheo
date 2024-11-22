@@ -1,55 +1,10 @@
-TENTATIVE
-TESTAMENTO
+TENTATIVE TESTAMENTO
 En el nombre de Dios todo poderoso Amen: Sepan todos cuanto esta
 carta testamental vienen como yo Don Francisco García y Ruiz, Na
 natural de los Reyes de España, en el Reino de Sevilla, vecino deste
 Juan García y Bernal de Dona Geronima Ruiz y Diaz mis padres di- fontos; hallandome como me hallo gravemente enfermo pero en mi
 entero y sano juicio memoria entendimiento y voluntad, tal cual Dios nuestro señor ha sido servido dorme creyendo firmemente en el alto y sacrosanto misterio de la santísima trinidad padre hijo y santo los tres en el nombre del Padre.
-y
-espíritu
-santo
-tres
-personas
-distintas
-
-un
-solo
-Dios
-verdadero
-
-todos
-los
-demás
-misterios
-que
-tiene
-casa
-
-confiesa
-predica
-
-enseña
-nuestra
-Santa
-madre
-la
-yglesia
-Apostólica
-Romana,
-bazo
-de
-cuya
-fe
-
-creencia
-he
-vivido
-
-protesto
-vivir
-
-morir
-como
+y espíritu santo tres personas distintas y un solo Dios verdadero y todos los demás misterios que tiene casa y confiesa predica y enseña nuestra Santa madre la yglesia Apostólica Romana, bazo de cuya fe y creencia he vivido y protesto vivir y morir como
 católico, fiel cristiano, y temeroso de la muerte que es natural a todo viviente. hago y ordeno este mi testamento último y final voluntad en la forma y manera siguiente. Primero, encomiendo mi alma a Dios. Quito, mi ser, que ha sido.
 Primera línea: "Primero encontrando mi alma a Dios nuestro señor que la esti
 y redimio con supliciosima sangre, y el cuerpo mandó a la tierra deque

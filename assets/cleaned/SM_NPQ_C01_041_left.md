@@ -8,44 +8,7 @@ Testigo Bonifacio Salazar
 Mariano Sanchez
 Yenta Esclavo
 En el pueblo de San Francisco de Querido, capital de la provincia de la Girona, a diez días del mes de septiembre de mil ochocientos ochenta: Ante mi, Don José Dionisio de Villar, teniente de la Real Fuerza, y comandante de la guardia civil, se ha hecho el siguiente acto.
-de
-governador
-y
-corregidor
-
-naturales
-
-este
-dicho
-pueblo
-
-los
-testigos
-con
-quienes
-actua
-cotimpeimiento
-del
-uni
-lo
-escarabajo,
-parecido
-presente
-don
-Xacinto
-
-gino
-vecino
-
-esto
-dicha
-provincia
-a
-quien
-certifico
-conocido
-
-dis:
+de governador y corregidor de naturales de este dicho pueblo y de los testigos con quienes actua cotimpeimiento del uni lo escarabajo, parecido presente don Xacinto del gino vecino de esto dicha provincia a quien certifico conocido y dis:
 como Alvarzo de su difunta!...
 Dona Joquima Por-
 tero vende y da en venta real y perpetua enageneración

@@ -1,65 +1,14 @@
 This is a page with a grid pattern.
 The text on the image is:
 
-"
-Grid
+" Grid
 
 The text on the page
 
-```
-VII
-VIII
-IX
-X
-XI
-XII
-XIII
-XIV
-XV
-XVI
-XVII
-XVIII
-XIX
-XX
-XXI
-XXII
-XXIII
-XXIV
-XXV
-XXVI
-XXVII
-XXVIII
-XXIX
-XXX
-XXXI
-XXXII
-XXXIII
-XXXIV
-XXXV
-XXXVI
-XXXVII
-XXXVIII
-XXXIX
-XL
-XLII
-XLIII
-XLIV
-XLV
-XLVI
-XLVII
-XLVIII
-XLIX
-L
-LII
-LIII
-LIV
-LV
-LVII
-LVIII
-LIX
-LI
-
+``` VII VIII IX X XI XII XIII XIV XV XVI XVII XVIII XIX XX XXI XXII XXIII XXIV XXV XXVI XXVII XXVIII XXIX XXX XXXI XXXII XXXIII XXXIV XXXV XXXVI XXXVII XXXVIII XXXIX XL XLII XLIII XLIV XLV XLVI XLVII XLVIII XLIX L LIII LIV LV LII LVII LVIII LIX LI L
 The text on the lined paper is as follows:
+
+``` 1234567890 ```
 
 Note: The text is extracted from the image and does not include any numbers or symbols.
 

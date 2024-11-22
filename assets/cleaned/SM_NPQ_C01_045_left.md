@@ -2,8 +2,7 @@ na y temorosa de la muerte que es natural; y propia a todo vi- mente, y he hora 
 posicion cuando llegue la hora, con acuerdo, y reflexion
 todo lo consecuentemente al descargo de mi conciencia, y
 no tener al tiempo de mi callejamiento algún cuidado temporal que
-ne
-de
+ne de
 dos de todas veces la temor de bus culos que
 Obata pedir a Dios de todas verás la renuncia de mis cuerpos, que espero firmemente con la Divina magnanimidad me las ha de pedir donar, hago, y ordeno este mi testamento última, y final disposición, en la forma y manera siguiente
 Primero, encomiendo mi alma a Dios Nuestro Señor que la Cria, y redimí su presión diaria sangre, y el cuerpo mundo 128x a la tierra de que fue formado y es mi voluntad sea sepultada.

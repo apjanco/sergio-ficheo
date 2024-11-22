@@ -1,33 +1,6 @@
 ayuda de las cargas matrimoniales la cantidad de
 mil ochocientos veinte y cuatro p~e~ por fo- zón de la herencia materna de la expresada María de Jesús, hijo de Manuel Fernández cuya cantidad re- (sería) conserva. Estos seguros en los partidos de
-ferida
-confiesa
-tener
-recibido
-en
-las
-partidas
-de
-la
-memoria
-siguientes
-un
-negro
-llamado
-Josefany
-P...
-y
-una
-mulata
-llamada
-Baltazara
-muger
-del
-dehbo
-
-id
-
-y un mulato llamado Luis Jose en 200
+ferida confiesa tener recibido en las partidas de la memoria siguientes un negro llamado Josefany P... 200 y una mulata llamada Baltazara muger del dehbo en id mulato llamado Luis Jose en 200
 y una negrita llamada Camila en 50
 y una obsencion en 40
 y una mulato Jose en 10
@@ -36,7 +9,7 @@ negrita en 110
 Juana en 200
 Juana en 45
 y una negra llamada atanaria
-y un negro llamado agapito
+y un negro llamado agapito en
 y un id. Tomas
 y un id. Antonio en
 El rojo de Antonio en

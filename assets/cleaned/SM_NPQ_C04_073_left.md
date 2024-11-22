@@ -15,31 +15,4 @@ Jose Maria Salazar, mi hermano natural de padre, a quien instituyo por mi único
 Yt instituyo y nombro por mis únicos y universales alia- ceas para cumplir y pagar este mi testamento, mandas, lega-
 The text on the image is:
 
-```plaintext
-A
-B
-C
-D
-E
-F
-G
-H
-I
-J
-K
-L
-M
-N
-O
-P
-Q
-R
-S
-T
-U
-V
-W
-X
-Y
-Z
-```
+```plaintext A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ```

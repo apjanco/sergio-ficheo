@@ -2,7 +2,7 @@ cubida y le pagara, las costas de su incertidumbre cuya prueba defiere a su simp
 derecho se requiere. y a la observancia de todo lo referido se obliga con sus bienes y puntual cumplimiento con el poder de Justicias, sumisión de fuerza y perniciación de leyes en derecho necesario con la general en forma, en su testimonio su aceptación del espíritu camarada por la vida obrera.
 Acceptación del senor camarógrafo así lo dicen ofrecer y firmar siendo testigos Don Agustín Borrero, Nicolás Boxas y Francisco de Paz vecinos Francisco Xavier de Canto Doctor Manuel Borrero
 Antonio Vicente Olachea
-Venta-Eslavo
+Venta-Eslavo 105
 En la ciudad de Guadalupe capital de la provincia de Citaro a dez y
 Seis de febrero de mil ochocientos catorce. Ales no el escribi-no y testigos que se nombraron papero el ciudadano muchas de Raxas de esta xecididad a quien doy fe conocido y estorag que vende realmente y con efecto a Ana Maria Gutierrez de la
 propia vecindad una negrita su propia exlava cautiva y susela a servidumbre nombrada Polonia que la hubo en comova que hizo al ciudadano Vicente Hoyos agoderado del ciudadano Juan Antonio Lopez (destruido) aceruto la corresponde escuti

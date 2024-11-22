@@ -18,58 +18,14 @@ con el señor Joaquín Polo para Jamaica con el fin de vestir
 mi familia y se los llebaron (ilegible) las boca los corsarios
 4ª Xª Que delar la masa principal de mis vienes orden sesen
 quatrocientos patacones para que el senor Jose Maria Baragoa
-los
-distribuyá
-según
-le
-tengo
-comunicado
-59XT
-Que
-en
-otra
-de
-mis
-cláusulas
-declaró
-tener
-quintos
-pen
-dientes
-con
-Jose
-María
-Hurtado
-
-el
-quial
-ne
-he
-liquidadó,
-
-to
-das
-quintas
-pasando
-por
-todo
-lo
-que
-
-ó
-dicho
-y
-querido,
-
-a
-ma
+los distribuyá según le tengo comunicado 59XT Que en otra de mis cláusulas declaró tener quintos pen dientes con Jose María Hurtado con el quial ne he liquidadó, de to das quintas pasando por todo lo que el ó dicho y querido, y a ma
 Por abundamiento le hice gracia de deciento veinte castellanos y me ha quedado restando setecientos castellanos que constan por obligación encargado a mis albacenas y erederos no le estrecho y sustentan al presente para que lo trase una cuenta.
 96V
-chén ni xiólenten al prontó pago dándale tiempo para que
+chén ni xiólenten al prontó pago dándale tiempo para que lo
 69V
 baya verificando mirándole como miembro de mi casa
 
-que en otra de mis clausulas de mi testamento declaro
+que en otra de mis clausulas de mi testamento declaro tener
 en mi poder unos quintales de defrito y asero pertenecientes a un
 comerciante de Cartagena de quien tuvo orden de entregarles al señor Jose Pardo o ha su hermano Pablo que verificó a los principios con todo el fuerzo de Biscaya y de lo demás de Suesia y acuerda a aceptar la misma cantidad del asercio este hay parte
 x ysero se aqerido la mayor parte y del ysero solo han quedado dos arrobas que se encontraron por haverselo robado de la bodega en que estaban custodiadas como consta de las diligencias

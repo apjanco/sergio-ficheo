@@ -8,7 +8,7 @@ Yt el estudiante de alcalde.
 Yt el rostrojo o platanero de Atrato en doscientos 1200
 Yt la otra canoa de Chibuga que expresa el inventario
 mutil II
-Herramienta
+Herramienta 1892
 XT la herramienta con rebaixa de una barra que
 resultó ser agena a 50 patocones el quintal
 importa --

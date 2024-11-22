@@ -9,8 +9,6 @@ necesarias con la general en forma en su testimonio con aceptación del procurad
 Siendo testigos Don Agustín Romero Nicolás de Boxas y Luis Al+ faro vecinos Jose María Dominguez Saturnino de Lloreda Ante mi vicente algechca
 venta - esclavo
 37r En la ciudad de Quibdo a quince de Marzo de mil ochocientos trece. Ante mi el escribano y testigos que se nombraron pais
-y
-m
-
+y m y
 Miguel Ignacio Rodriguez, vecino de ella quien te conozco y otorga: Que debe realmente y con efecto a Toribia Gómez, vecina de Anserma es a saber la cantidad de trescientos cincuenta patrones procedentes de un negro esclavo auxo
 y propio llamado francisco que le ha comorado y se obliga a satisfacerla dentro del término y plazo de un año y tres meses contados de la fecha de esta escritura en adelante en mo

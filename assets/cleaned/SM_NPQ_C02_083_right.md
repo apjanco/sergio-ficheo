@@ -20,28 +20,4 @@ La escritura en el cuaderno es la siguiente:
 Aguar se asiste a don y aparta la herencia de este
 Lo de esto otorga a su favor esta escritura por la que ha de ser visto haberla adquirido sin que necesite de otro acto de apreciación de que lo felevo; y se obliga a la succion y sa
 El tratamiento de esta tarea es ya realizado, mencionar entrega y la fecha de recepción.
-de
-sin
-ciento
-hablante
-
-la
-origen
-presupuesto
-a
-su
-simple
-juramento
-relevante
-
-otra
-aunque
-por
-derecho
-se
-requiera,
-
-observancia
-
-puntual
-cumpli
+de sin ciento hablante de la origen 200 y presupuesto a su simple juramento relevante de otra aunque por derecho se requiera, y a la observancia y puntual cumpli

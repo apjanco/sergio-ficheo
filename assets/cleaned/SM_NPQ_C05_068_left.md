@@ -29,8 +29,7 @@ Jugando Sobre Córdoba 3 (ilegible) de tabacos
 Lucas de Córdoba veintiuno palocones de
 Jornales de Juan Agustin por seis meses.
 Eugenio 8 reales de carne de res, y un almid.
-mas
-Piso
+mas Piso 169 164
 Juana Maria de Córdoba tres tomates de olivo
 y medio de maíz y 4 pesos de una camisa que
 me mandó hases para su hija Juana Josefa

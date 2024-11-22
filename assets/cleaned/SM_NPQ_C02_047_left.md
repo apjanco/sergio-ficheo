@@ -1,55 +1,7 @@
 Libertad - Esclavo
 78v En la ciudad de Guadalupe capital de la provincia del Chiriquí, a dos de julio de 1801 ochocientos trece. Ante mí escribano y testigos
 Julio de mi 62 años, miembros de la Asamblea de mi pueblo, que se nombraron parejas Don José María Palomeque vecino de la ciudad de Cartago y residente en este apoderado de Don José, se Antonio Mazuera según consta del que le confiere, y se agrega, en su virtud y el
-go
-a
-este
-registro
-cuyo
-tenor
-es
-
-siguiente
-en
-su
-virtud
-y
-sus
-sando
-de
-las
-facultades
-que
-incluy
-
-otorga:
-Que
-un
-cortado
-
-ahorro
-
-libertad
-
-forma
-
-Juana
-María
-propia
-esclava
-desde
-
-parte
-
-cantidad
-
-docientos
-pesos
-
-plata
-
-ocho
-reales
+go a este registro cuyo tenor es el siguiente en su virtud y sus sando de las facultades que incluy es otorga: Que un cortado de ahorro y libertad en forma a Juana María propia esclava desde su parte en cantidad de docientos pesos de plata de a ocho reales
 que confiesa el otorgante tener recibidos de mielo de la misma. Joana María a su entera satisfacción y contento sobre que renuncia decir lo contrario la excepción de la non numerata pecuña su prueba, la del recibo término engañó y más del caso, en
 cuya virtud desiste guita y aparta a su derecho de patronato posesión propiedad dominio y señorío que a dicha esclava Joaquina María tenía adquirido y todos los cede pueñucio y traspasado en su favor a fin de que no vuelva a estar
 Adhero a servidumbre, y confiero poder irrefutable a libre franca y general administración para que trate contrate, tes- te, comoquiera en Juicio por si o por medio de sus adoberados y sancive sin intervención de dicho Mazuera quanto esta per-

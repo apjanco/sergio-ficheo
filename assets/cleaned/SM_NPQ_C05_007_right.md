@@ -14,42 +14,7 @@ Venta - Esclavo
 En la ciudad de Quibdo, capital de la provincia de Citarra, a veintiex tres de Mayo de mil ochocientos veinty dos. Ante mi el escarnabo x testigos que se nombraron pareció el señor Pedro Arrigo yecar.
 no de Cali y residente en esta dicha ciudad a quien doy fecesen y otorga que vende realmente y con efecto al señor Pío Quinta. Rengifo vecino también de Cali un negrito es propio oscuro controy y sujeto a Servidumbre nombrado Pedro el cual asegura
 holloirse libre de empeño, deuda, obligación e hipoteca espejada ni general que no la tiene y se la vende con todas sus vicios, tachos, defectos, enfermedades publicas y secretos en presión cantidad de cientos sesenta pesos de plata de ocho reales, que por ella ha-
-el
-comprador
-en
-dinero
-de
-contado
-siendo
-
-cargo
-del
-otorga
-fe
-la
-paga
-
-derecho
-
-alcalba
-
-que
-ha
-satisfecio
-al
-senor
-administrador
-general
-quien
-
-prueba
-
-su
-recibo
-
-dado
-
-bio
+el comprador en dinero de contado siendo de cargo del otorga fe la paga del derecho de alcalba la que ha satisfecio al senor administrador general quien en prueba de su recibo ha dado la bio
 letra que se inserta y dice así y de los expresados cuenta sesenta pesos de plata recibidos se da por entregado a su voluntad según ciertamente lo contrario la excepción de la non numerata pecuni
 
 su prueba, lo del recibo, término, engano, y demás del caso, de

@@ -10,8 +10,7 @@ x por haber con el poderío de justicia, somisión de fuerza y renuncia de leyes
 Don Jose Baldrich y Don Juan Antonio ferro vecinos.
 Don Manuel Barrero Pedro Antonio del Rio
 Ante mi Vicente Olacheque
-TESTAMENTO
-15+7
+TESTAMENTO 15+7
 En el nombre de Dios, todo poderoso, Amen. Y María Francisca de Car
 don leonardo de cordoba y maria de cordoba ve
 cimos que fueron de esta provincia de catara, y ya difuntos

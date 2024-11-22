@@ -16,50 +16,7 @@ Espero
 Cada y esta escritora sin más pruega de que le releva. A cu- ya seguridad cumplimiento y firmeza se obliga con su persona y bienes presentes y futuros con el poderoso emisión y re- nombración de leyes en derecho necesarios y clausula quá
 La verdad que da por expresa y declarada para que la perdidiquie con la desfuer domicilio y vecindad la si convenirt f. --y general del derecho en forma y de estar satis- secha la Rea Alcalalá.
 En la red Alzaburu, se agrega colección original del señor ministro receptor de ello que dice así - En cuyo testimonio y con aceptación del comitivador Córdoba, quien acismismo doy fe comenzó así dicen obligan y firma el que sabe ha
-ciendo
-por
-el
-que
-dixo
-noca
-ber
-escribir
-uno
-de
-los
-testi
-gos
-
-lo
-fueron!
-Don
-Manuel
-Escarpeta,
-
-Juan
-Morano
-y
-
-Luis
-Garcia
-recamos
-en
-este
-estado
-
-vendedor
-no
-sobra
-
-hizo
-a
-
-ruego
-
-Francisco
-Xavier
-
-Canto
+ciendo por el que dixo noca ber escribir uno de los testi gos que lo fueron! Don Manuel Escarpeta, Don Juan Morano y Don Luis Garcia recamos en este estado dixo el vendedor no sobra escribir y lo hizo a su ruego Don Francisco Xavier de Canto
 no sabia exacto y lo hizo en el juego con Francisco Xavier de Conto
 siendo testigos los mismos
 por el otorgante

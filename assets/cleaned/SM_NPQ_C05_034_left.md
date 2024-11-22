@@ -4,8 +4,8 @@ petrongo su mujer
 sushijos, carles y anzelmog
 y el primero en 180 y el
 otro 125
+305
 Baltasar dozal que compré al fical Nánes
-
 So moyer Josefa por la miq que dio mi padre a las
 (legible) que tomé a Dona Mariana de los Reyes
 fotog que modiga

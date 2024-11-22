@@ -12,7 +12,9 @@ A pie de plato grande y un pico con un martillo pequeño todo en ocho reales y d
 A una arroba 15 libras fijas en dos barriles, dos ollas 1 bache, quebrada, una barra nueva, 6 almocates, 4 machetes viejos y un puna- lete en quince patas de conejo
 yt
 un belon nuevo en tres patazones
+
 un margo de 4 libras incompleto en
+
 una belenita de pesar oro son pesos de 30 casas
 Y una balanza de pesar oro con pesas de plata
 tallones para abajo

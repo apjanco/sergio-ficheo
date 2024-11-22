@@ -9,56 +9,7 @@ casas que se comoran o venden por más o menos de la mitad del
 Justo ofrecido y el término concedido para la rescisión del contrato o su suplemento. Mediante lo cual se desiste, quita y aparta del derecho acción, posesión, propiedad, dominio y señorío que a dicho ofrecimiento.
 que a dicha escuva Rito tenía adquirido y todos con el despato- nato y, demas que le corresponden los cedereñovia y tras- basa en el compadidos y sus herederos que en señal de posse- sion y para título de ello o otorga a su favor esta escritura por
 La cual ha de ser vista habría adquirido sin que necesite de otro acto de aprehensión de que lo refleja, y se obliga a la evicción y sanciónción de esto la venta a su costa y men- sión.
-El
-hasta
-generar
-al
-comprador
-en
-quieto
-y
-pacifica
-pos-
-sición
-
-no
-pudiendo
-lo
-sanear
-le
-devolvera
-los
-doscientos
-pesos
-recibidos,
-con
-mas
-
-costos
-
-gastos
-que
-consu
-uncertidumbre
-se
-
-origina
-sen,
-cuya
-prueba
-defiere
-
-la
-cual
-
-hace
-
-compra
-
-paga
-
-venta
-
+El hasta generar al comprador en quieto y pacifica pos- sición y no pudiendo lo sanear le devolvera los doscientos pesos recibidos, con mas los costos y gastos que consu uncertidumbre se le origina sen, cuya prueba defiere en la cual se hace venta y se paga la compra y
 en su simple juramento relevándole de otra aunque por dere-cho se requiera, y a la observancia y puntual cumplimiento de todo lo referido se obliga, con su persona y bienes habidos y por haber con el poderío de Justicias, renunciaci
 La ley es un derecho necesario para la general en forma. En cuyo testimonio y con la aceptación del comprador así lo dicen, otorgan y firman el que sabe, haciendolo por la o
 Borquinte uno de los testigos que lo fueron los señores

@@ -18,10 +18,7 @@ peso de nueve castellanos
 Y unas Manillas de cuentas de ciento de peso con tres cas
 tellanos
 Uno oz zarzillos de perla de tres chorritos son veintey ocho perlas con peso de dos y medio castellanos y un cabrestillito con peso son once pesos
-xtunparesquillosdecarambosderubidebaja
-tadosconpesodecinopesezcastellanos
-ytdosparabotoneshechosbrochedeyngar
-xtenabrazoengastadaenoracondoseymediosas
+xtunparesquillosdecarambosderubidebaja tadosconpesodecinopesezcastellanos ytdosparabotoneshechosbrochedeyngar xtenabrazoengastadaenoracondoseymediosas
 Y tem otra peynta engastada en oro condable y medias tellanos 102r Y unos barcillos de piedras verdes engastadas en oro Y un tembleque de perlas engastado en oro
 Y por ser tarde se suspende esto diligencia quedando las alhajas inventariadas en poder del mismo Alvaeces y lo firma su merced con los interesados de que doy fe y vallar y vetancir llorda Ante mi Olaeces.
 En dicho pueblo a once del mismo mes y año somerzé dicho señor teniente en prosecución de los sitados inventarios se llevó la causa de dicha smoda y aportación de

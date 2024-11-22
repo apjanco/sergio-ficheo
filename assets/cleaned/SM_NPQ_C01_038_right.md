@@ -7,8 +7,7 @@ ciento de esta provincia, haviendo hoyido esta escritura en su favor otorgada di
 Así lo dicen otorgan y firman con migo dicho gobernador y testigos por el impedimiento del único escribano. Carlos de Ciaurriz Jose Dromito del villar.
 Testigo Bonifacio Salazar
 Hus Trelles
-106F
-Venta-Eslayo
+106F Venta-Eslayo
 En el pueblo de San Francisco de Quibdo, capital de la provincia
 Ante mi Don Carlos de la Torre, gobernador político y militar de estas provincias del Chocó y Testigos con quienes estoy en impedimento del único escrito que he hecho.
 Quienes actúan por impedimento del único escribanos potest presentó Don Nicolás de Roxas vecino de esta provincia a quien certifico conosco y dios que vendes y da en venta Real y enganegación perpetua desde ahora y para siempre sa

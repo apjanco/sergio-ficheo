@@ -3,23 +3,16 @@ yt tomada en
 yt Domingo en
 yt derechos del
 yt diez cabezas de ganado en
-y
-importan
+y importan
 a una suma
 los bienes que
-comprecen
-las
-partidas
-anteriores
+comprecen las partidas anteriores
 la cantidad
 de tres mil
 pesos de plata
-(sol
-no
-precio
+(sol no precio
 de plata
-o
-jupa)
+o jupa)
 de los cuales el
 propuesto es
 no error de pluma o sumo) de los cuales el ofertante se ha por contenido y entregado a su voluntad y entera satis- facción renuncia decir lo contrario las leyes de la entrega prueba de su recibo termino enano y más del caso, y como

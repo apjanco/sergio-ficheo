@@ -1,39 +1,7 @@
 va de otra prueba, aunque por derecho se requiera, y está ven- ba se las hay, contados sus vicios, desest enemigos que
 En la sección se hace constar todos sus defectos, enfermedades públicas, y secretas. A cuya seguridad cumplimiento y firmeza se obliga conforme a derecho. Y de estar satisfecha la real alcavala se agrega valeta original del señor Receptor cuyo
 contento dice así = y en su testimonio y con aceptación del referido recomendado Don Francisco Xavier Valencia, así lo dicen otorgan y firman haciéndolo por la vendedora, por no saber escribir y a su discurso uno de los haberes, nosimos
-no
-saber
-escribir
-y
-a
-su
-fuego
-sólo
-de
-los
-testigos
-vivos
-
-presentes
-que
-lo
-fueron.
-Don
-Juan
-Antonio
-ferro,
-
-Silves-
-tre
-herencia,
-
-Barufacio
-Salazar
-por
-la
-ofertante
-Como
-recomendado.
+no saber escribir y a su fuego sólo de los testigos vivos y presentes que lo fueron. Don Juan Antonio ferro, Don Silves- tre herencia, y Don Barufacio Salazar por la ofertante Como recomendado.
 Juan Antonio ferro
 Francisco Xavier Valencia
 Ante mi

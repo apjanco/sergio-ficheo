@@ -3,45 +3,7 @@ El derecho de acción posesión propiedad dominio y señorío que a dicho esclav
 La renuncia y traspaso en el comprador y sus sucesores que en señal de posesión y para título de ella otorgan a su favor esta escritura por la cual ha de ser vista haberla adquirido sin que necesite de otro acto de aprensión de que lo requiere.
 lexan, y se obligan a la eviccion y saneamiento de estven- la asu costa y mencion hasta dexar al comurgador enquiet y pacifica posesion y no pudiendoela sanear le devolverán la suma reditabn y le oponen las costas y gastos de su mua
 Ladumbre cuya prueha defiere a su simple juramento re- lexandolo de otra, aunque por derecho se requiera, y a la observancia y puntual cumplimiento de todo lo rececido se
-obligan
-con
-personas
-y
-bienes
-habidos
-
-por
-haber
-
-el
-poder
-de
-justicias
-sanucion
-
-fuero
-
-renuncia
-
-leyes
-en
-derecho
-necesarias
-
-la
-general
-enforma.
-En
-su
-testimonio
-
-estando
-presente
-dicho
-Juan
-Anthony
-Goes
-a
+obligan con 63 personas y bienes habidos y por haber con el poder de justicias sanucion de fuero y renuncia de leyes en derecho necesarias con la general enforma. En su testimonio y estando presente dicho Juan Anthony Goes a
 Juan Antonio vaes quien asimismo hoy fe corozco entero de esta escritura di-xo. Que con licencia ampla desullegimo padre Don Jose Guez que se la dio en su presencia de que tambien hoy fe la acepta 1999 uspde de ello como de
 Así dijeron diarios y firmaron los cuatro siendo testigos Don Miguel Buch, Don Juan Antonio Ferro y Don Gabriel An-
 Felipe Bejorano

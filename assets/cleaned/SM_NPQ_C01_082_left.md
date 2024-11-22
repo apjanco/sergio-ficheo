@@ -20,8 +20,7 @@ esta diligencia que firmaron los citados interesados ante
 mi de que doy fe
 francisco Antonio Lloredo
 Melchor de Varona y Vetan
-Antonio
-Antemí
+Antonio Antemí
 viente olaechea
 Abaluo
 108r y luego Don Manuel Scarpeta y Don Jose Maria Cardenas

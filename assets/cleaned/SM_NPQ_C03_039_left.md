@@ -15,8 +15,7 @@ hase con un hábito de gerga y se sepulte en el cementerio
 de esta ciudad el que le tomo
 de esta ciudad elebándose antes misa de cuerpo presente si fuese hora competente y de no al siguiente dia y hacen dote sola aquellas posas de obligación del (destruido) que dispondran mis alquileres
 yem lega a las mandas forzosas y acesitumbra dos reales a cada una que se pagaron de lo mas efectivo de mis
-tienes
-tor
+tienes tor
 ytem del mo que son seme y tado ses mando de los
 La madre que soy testigo y veredado según ordenes de nuestra santa madre la yegua con Dona Maria Francisco de Cordera y Pino de cuyo matrimonio hemos tenido y procedido por nuestros hijos legítimos a Dona Maria Gertrudis, Don Jose de
 Juan María Joaquín, María Ignacia, José Joaquín y María Barbara Polo y Corado declararon por sus hijos legítimos y de la referida mi esposa.

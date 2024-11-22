@@ -17,5 +17,4 @@ La letra está escrita en un cuaderno de notas. Aquí está la transcripción de
 
 "La letra está escrita en
 
-"
-Norma
+" Norma

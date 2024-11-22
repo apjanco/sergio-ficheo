@@ -1,4 +1,4 @@
-Libertad
+Libertad 30
 en la ciudad de Quilteo a los días y siete días del mes de Mayo de mil ochocientos veinti y dos. Ante mi escribano interno y testigos que se nombraron pareció el señor Joaquín Tascon vecino del pueblo de Chumí.
 De esta jurisdicción a quien doy fe conozco y dijono que a favor de sus esclavos Teresa y José Santos se hizo un practicado diligencias para su amparo y valor ante el señor alcalde ordinario de primera nominación de esta provincia ayutadas por el señor procurador
 general y padre de memorias de las cuales precedido el justiciero

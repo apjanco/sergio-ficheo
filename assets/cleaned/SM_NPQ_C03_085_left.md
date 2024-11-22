@@ -16,7 +16,6 @@ hachuela y en corro de oleta con cinquenta y tantas onzas,
 u
 nas balanzas de pesar oro con sus pesas de treinta para aba
 x
-
 XO, una fragua de herrería completa, una atarraya colonada, un marco de cuatro libros, una imagen de la santísima Trinidad con su bidriera, dos olletas, cuatro rascos de cristal diez pesas de cuentas de oro de mazasilla, un baul forrado, una ro
 Y en que mencionado mujer Maria González aportó al matrimonio, un crucero de oro con peso diez pesos coste-
 Las manos menos dos tomates, un sortel de id de ocho pesos, una cruz de cinco pesos, dos luchas de alaba y un tenedor tomando con suele o mas, una imagen de nuestra señora de las Mercedes, una pesta de corte de dos o nueve libros y una paz

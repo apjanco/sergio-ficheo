@@ -11,42 +11,6 @@ noguas blancas, una camisa punta estaca - un chale - un reteto vivido de bayeta 
 Tra señora de los dolores de retablo y orta de santa barbara de bullo un rebozo mas de voyeta de castilla colorada una hacha vieja una geringa de cobre una plancha un crucero de oro cuenta de oro que son seis
 59. Y declaró deber a los sujetos siguientes a Dona Josefina Martínez José Baldrich cinco reales a Mariano Mosquera cuatro patacones - a Dona María Socorro Torres muger de Don Francisco so huyo dos patacones uno y medio reales - a Ebrango
 Francisco Nieto dos patagámanes uno y medio reales a petición Roxas cuatro reales: Mando se les pague 6°. Item declaro me deben las personas siguientes: Regina con doxa de último resto doce reales Antonio Abadia pars su fina
-do
-muger
-Ana
-María
-siete
-reales
-Alverto
-Viera
-según
-obligación
-que
-para
-en
-mi
-poder
-ochos
-patacones
-Rosalía
-Ortega
-quatro
-
-Camila
-Salas
-mujer
-de
-Mauricio
-Cordoba
-catorce
-
-José
-Sito
-del
-quinto
-tres
-
-y
-
+do muger Ana María siete reales Alverto Viera según obligación que para en mi poder ochos patacones Rosalía Ortega quatro patacones Camila Salas mujer de Mauricio Cordoba catorce reales José Sito del quinto tres reales y José
 Maria, Domínguez ocho reales
 Y ten mando que si alguna cosa quedase de mis bienes después

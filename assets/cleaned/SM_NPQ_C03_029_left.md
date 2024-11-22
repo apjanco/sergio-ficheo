@@ -3,40 +3,7 @@ Esta declaración contiene que . Estos requisitos y garantías y se aplican a lo
 Fue y sólo quiere que no se le oiga admitir en tribunal alguno como no lo es quien intenta acción o derecho que no le pertenece y sea visto por lo mismo haberla aprobado y ratificado quitándole fuerza a fuerza y contrato a con
 Trato con todas las claves, vínculos, firmas y solemnidades que para su perpetua validación se requieren. A la observancia y puntual cumplimiento de todo lo recibido se debe.
 obligaciones de los menores, hijos y parientes con el poder de sus hermanos, hermanas y parientes, con la obligación de cumplir con las leyes y normas que necesitan con la general en forma. En su testimonio, con aceptación del sindicato, procurador general interino
-a
-nombré
-de
-la
-libertad.
-así
-
-dicien
-don
-y
-forman
-(a
-quienes
-
-se
-conozco)
-suyo
-testigos
-los
-ciudadanos
-Ma
-nuel
-Flores
-
-José
-Gaes
-
-García
-recemos
--María
-Miguel
-Escobedo
-
-Núñez
+a nombré de la libertad. así la dicien don y forman (a quienes don se conozco) suyo testigos los ciudadanos Ma nuel Flores y José Gaes y García recemos -María Miguel Escobedo y Núñez
 Maria Manuela Scarpeita Francisco Nieto Ante mi: Juanito Ocasoche Escribano Publico
 venta - esclavo
 En la ciudad de Quindío capital de la provincia de cuitara a veinte y nueve de enero de mil ochocientos diez y seis. Ante

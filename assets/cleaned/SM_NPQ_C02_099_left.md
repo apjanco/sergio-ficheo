@@ -1,3 +1,4 @@
+21 22 23 24 25 26 27 28 29 30
 mando a la fiesta de que fue formado el cual hecho cada
 ver quero que sea sepultado en el cementerio de esta
 santa iglesia carroquial y amortzado con abito humilde
@@ -16,27 +17,7 @@ item declaro que mi recuerdo hijo mayor Pedro me a
 deuda lo siguiente. Documentos pesos castellanos que en primer
 lugar me corresponde a Don Mateo Segreto ya disfruto a quien
 lugar pagó por el a don marcos scarpeta por adelante y f se los debía por cién pesas castellanos que también se satisficen por el mismo procedentes de la casa que hizo en el Rio de Baberania 100
-18v
-Por
-parenta
-pesas
-que
-en
-iguales
-terminos
-deben
-a
-Don
-Bartholome
-Polo
-
-satisface
-por
-el
-citado
-mi
-hijo
-pedro
+18v Por parenta pesas que en iguales terminos deben a Don Bartholome Polo y satisface por el citado mi hijo pedro 40 340
 Yporta su total trescientos quarenta pesos castellanos los
 mismas que han sido satisfechas por mi, como queda manuado
 después de la emancipación del nombrado mi hijo Pedro y porcon

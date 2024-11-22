@@ -1,7 +1,7 @@
 Francisco de Paj Jose Maria Díaz Mer
 Francisco de la Paz, Jose Maria, Juan, Pedro Arraga, Nicolas Roxas, Manuel Flores
 Escritorio Interno Público del Numeral
-Libertad
+Libertad 41
 Embajada de Ecuador (capital del Cantón del Suturo a los Yungas)
 En la ciudad de Guadalupe, capital del cantón del Citlaltépetl, se encontraba el ocho días del mes de junio de mil ochocientos veinti y dos años. Ante mi el escritorio y testigos que se nombraron parecido presente Jesé María Domínguez vecino a quien estoy conosco y dijó: Que a fu
 exitunta mujer María Gregoria Otro otorga que da carta de hapro y libertad en forma al expresado Lorenzo propio esclavo de su dicha concarte en conidad de doscientos quinientas pesos de plata que empeza tener

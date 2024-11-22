@@ -4,7 +4,7 @@ tanto que se les mandó de mano grande. El trabajo que
 hace es de seis
 sientos sesenta y cinco pesos. Declaralo para que conste
 Xrem declaro que as mismo se le mandaron de Ysquandé en
-tre
+tre y
 
 entre
 pasado por mi padre otras alas de oro faram hermanos y mi madre (que en paz descanse) y de esto no se barra cargo alguno. Declarado para conste. 27 Y tienen declararse sensientes patácones que en tiempos pasados
@@ -18,48 +18,7 @@ y 11 de abril de 1814 declaro que para el monto de la ciudad pue Balentino.
 El rey declaró que para el monarca de la ciudad, había palentino, los muros dieron su padre mil patacones, y descuentos más que leman, soyó después para su profesor, los doscientos de gratis. Declaró pa- ra que consi-
 años declaro por bienes del franco doscientos palacines que cobro Don Gabriel en Quito del Doctor Don Manuel Caisedo, ciento y un pesos de Pasqual Ximenes, y doscientos sinquinta y un palacines nesiste y tres quatrotillos regales de lo que deba olave a la casa, cu
 El item de lo que asimismo cogieron y cobraron dichos mis , y otros hermanos y hermanas de ellos, y her
-manos
-tres
-mil
-pesos
-
-tenían
-los
-pintados
-
-Quito
-pertenece-
-ientes
-a
-padre
-para
-compra
-de
-ropa,
-
-todo
-cobran
-
-se
-hicieron
-cargo
-
-ellos,
-como
-igualmente
-
-ya
-quando
-
-Don
-Martín
-Barrero
-por
-mano
-
-Pablo
-Velancur,
-
+manos tres mil pesos que tenían los pintados en Quito pertenece- ientes a padre para compra de ropa, que todo cobran y se hicieron cargo de ellos, como igualmente mil pesos en ya quando cobran de Don Martín Barrero por mano de Pablo Velancur, todo
 consta en dicho quaderno y sus cartas. Declarolo para que conste
 Y tem declaro, que en dicho quaderno a foxa es consta todo
 quanto ha entrado a mi poder de dinero desde que falleció mi padre

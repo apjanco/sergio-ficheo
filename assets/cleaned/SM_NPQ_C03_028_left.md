@@ -2,57 +2,7 @@ hierno los gugles que aia hallarse libres de empeño deudo.
 La obligación hipotecaria especial general que no tiene y se lleva con todos sus vicios, defectos, enfermedades públicas y secretas en precio y cantidad ambos de frescien
 tos pesos de plata que confiesa tener recibidos de mano de la compradora a se entera satisfacción y contento sobre que renuncia decir lo contrario la excepción de la non numerata pecina su prueba la del recibo terminado engaño y mas
 Agregase boleta de haberse satisfecido la com=spondiente alquabala la cual copiada dice así. En consecuencia declara que los referidos exclvos Rodolfia y Jose Sixto
-so
-hizo
-no
-valían
-más
-de
-los
-frescos
-pesos
-
-plata
-recabados
-y
-digno
-
-esta
-demasia
-en
-mucho
-o
-poca
-con
-fidelidad
-haz
-gracia
-
-donación
-a
-la
-compradora
-
-sus
-herederos
-buena
-para
-mara
-perfección
-e
-intexorable
-mitcrivos
-
-insignia
-
-sobre
-
-paz
-
-libertad
-
-justicia
-
+so hizo no valían más de los frescos pesos de plata recabados y digno mas valían esta demasia en mucho o poca con fidelidad haz gracia y donación a la compradora y sus herederos buena para mara perfección e intexorable mitcrivos con la insignia y sobre y la justicia y la paz y la libertad
 institución y personalidad necesaria sobre que renunció la ley del ordenamiento real fecha en Coches de Alcalá de Henares y demás que hacían en razón de lo que se compró y vende por más o menos de la mitad del precio ofrecido y el término conce
 dido para la resolución del contrato o su suplemento. Me- diante lo cual se desestima quita y quanta del derecho de a- cionar los mismos propiedades dominio y señorío que a dichos escla- vos tenían ganancias y todos los demás que sobre ellos tenían.
 Los temas que se mencionan y todos los demás con el de patrones y demás que le corresponden los cede renuncia y trasposa en la compradora y sus sucesores que en señal de pasión y para título de ella otorga a su favor esta escritura por lo que ha desempeñado ha

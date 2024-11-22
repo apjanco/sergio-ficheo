@@ -19,6 +19,5 @@ defecto necesarias con la generación en formigas el su postumismo con aceptaci�
 Niente Don Ramon de Diego Ximenez' Don Jose Baldrich y Don Gabriel de Andrade vecinos Carles Ferrer y Xiques Por la asesante Gabriel Andrade
 Ante mi Vicente Olachea
 Scribano público
-Yenta-Eslando
-YENTA-ESCRAVO
+Yenta-Eslando YENTA-ESCRAVO
 Na María Petrona Ponterá viuda vecina de ella a quien yo conocí y otorgué que vende realmente y con efecto

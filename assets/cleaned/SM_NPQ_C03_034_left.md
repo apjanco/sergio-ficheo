@@ -1,7 +1,6 @@
 The text on the image is:
 
-```plaintext
-```
+```plaintext 1234567890 ```
 
 The text is a sequence of numbers from 1 to 9.
 Juramento celebrando de otra aunque por derecho se requiere. Y a la observancia y cumplimiento de todo referido obliga los bienes habidos y por haber con el poder de Justicias. Sumición de fuerza y renuncia de leyes en derecho necesarias.

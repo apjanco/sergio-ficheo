@@ -14,7 +14,6 @@ Tendría como a sus propios hijos, lo que . Y tenes es mi voluntad, y lo declaro
 lizar; se le de a mi hijo natural, llamado José Ignacio, lo que
 que de liquido, y se le entregara luego que queden las hijuelas,
 y de más diligencias que son concernientes, y arriba dexo
-expresado
-presado
+expresado presado
 y ten ordeno, y mando, que sean satisfecidos, y pagados, sin perder
 do de tiempo las siguientes dependencias, que como justas, y ver

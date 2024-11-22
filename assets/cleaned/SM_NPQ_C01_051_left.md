@@ -9,8 +9,7 @@ Lo siguiente es un fragmento de texto escrito en un cuaderno:
 morias, cobacillos, y podetes y haga todo quanto una persona libre, y no sugiera un servidor hombre hacer, husando todo iser de su libre, y exentaneda voluntad, y se obliga el obstante a que en todas freynos lesera cierta, segura, firme y valerera esta
 escritura de libertad, lo que porsi, ni por los interesados de su
 administración reclamaron, ni contradirán en manera alguna.
-x
-casa
+x casa
 ten por el mismo hecho quiere, no sean hoydos
 en suelo ni veta del cual no lo es, ameninta acción de
 En suzio mi fuerza del, como no lo es, asiento infinata acción de rechazo que no le pertenezca, y schavisto haces aprovado, y revalidad. - Escritura de libertad anadiendo fuerza a fuerza y contrato a contrato, con todas las clausulas, vinculos y solemnidad.

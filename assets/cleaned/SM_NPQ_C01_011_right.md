@@ -22,27 +22,6 @@ la reclamaron ni controdieron en manera alguna, y caso
 que lo intenten, por el mismo hecho no serán oídos en Juricio ni si... / como no lo es quien intenta acciones a derecho que no le pertenezca, y se ha
 The text on the page is as follows:
 
-```plaintext
-The
-book
-of
-the
-Bible
-
-King
-
-Nations
-is
-a
-great
-work
-
-wisdom
-and
-
-true
-
-God.
-```
+```plaintext The book of the Bible of the King of the Nations is a great work of wisdom and wisdom is the true wisdom of God. ```
 
 The text is from the book of the Bible of the King of the Nations, which is a great work of wisdom and wisdom is the true wisdom of God.

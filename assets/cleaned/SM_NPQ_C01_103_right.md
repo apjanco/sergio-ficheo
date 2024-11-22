@@ -1,5 +1,4 @@
-Banner
-cardboard
+Banner cardboard
 The text on the image is not visible.
 
 Paper

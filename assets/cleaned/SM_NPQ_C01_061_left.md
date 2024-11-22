@@ -1,29 +1,4 @@
-de
-tro
-valor
-del
-citado
-esclavo
-es
-el
-
-los
-quatrocientos
-pesos
-
-plata
-recibidos
-que
-no
-vale
-mas
-y
-caso
-
-valga
-
-su
-exce
+de tro valor del citado esclavo es el de los quatrocientos pesos de plata recibidos que no vale mas y caso que mas valga de su exce
 Para dar una idea puede escribir , aquí tienes un ejemplo de cómo se podría escribir una línea de texto en un cuaderno de notas:
 
 ---
@@ -38,8 +13,7 @@ me le será cierta y segura y sobre ella no se le pondrá en más
 ra pleitomi contradicción alguna y en caso de que se le muera
 siendo requerido o sus herederos en cualquier estado de la
 causa saldría a la voz y defensa y entidades instancias oradas
-
-</pre>
+y </pre>
 Hacer las volepas y darg
 los cuatrocientos
 Auy seguridad cumplimiento y firme obliga sus bienes y rentas: Y da poder a los señores Jueces y Justicias de sufrimiento para que a lo dicho lo obliguen cumplen y apremien conforme a defensa y de saber sobre el B.

@@ -1,4 +1,5 @@
 The text on the image is:
 
-```plaintext
-```
+```plaintext 1234567890 ```
+
+1234567890

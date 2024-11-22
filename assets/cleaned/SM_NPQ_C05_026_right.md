@@ -10,24 +10,4 @@ y cinco pesos oro y tomines como consta de su obligaciones.
 la mayor parte de lo que me devía. Dona Isabel Mosquera sumo- ger, ya difunta quien le deseo bienes que conque pagar, y se le debe ha- cer cargo de los premios y retención de estos intereses, mundo se le cobre repitiendo contra sus bienes que se hallan en la juris-
 Don Jose Guesy Garcia lider para su viaje a Cali, cuando lo anlito mi sobrino todos mis efectos en su casa.
 que tenía en la tienda y consta en la guía que llevó y existe en la caja Real inclusive 32 botijas de bino que no quise bon- der 920 pesos de plata como a él le consta, y me confío para que el mismo apuntese todo, como que le constaban los precios a
-que
-havían
-venido
-
-Cartagena,
-y
-el
-consobrado
-maligc,
-quen
-to
-todo
-a
-principales
-
-Cartagena
-segun
-lo
-advertial
-al
-tiempo
+que havían venido de Cartagena, y el consobrado maligc, quen to todo a principales de Cartagena segun lo advertial al tiempo

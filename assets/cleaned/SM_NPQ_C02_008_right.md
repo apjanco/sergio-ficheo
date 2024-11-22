@@ -9,40 +9,7 @@ tos esta carta
 inmortalmente escrita (que no se ha perdido) yu
 tua a Dios (que no se ha perdido)
 memoria testamental vieren como yo petronio ferla vecina de esta provincia hija de en blanco hallandome enferma del cuerpo pe- ro en mi entero y sano juicio tal cual Dios nuestro señor fue servido darme: y creyendo como firmemente creo, en el alto y sacro santísimo mis-
-te
-dio
-la
-santísima
-trinidad
-padre,
-hijo
-y
-esú
-santo
-
-sonas
-distintas
-
-un
-solo
-Dios
-verdadero,
-
-en
-todos
-los
-temas
-misterios
-que
-tiene,
-Crec,
-predica,
-x
-enseña,
-nuestra
-santa
-madre
-
+te dio la santísima trinidad padre, hijo y esú santo padre, 2015 sonas distintas y un solo Dios verdadero, y en todos los temas misterios que tiene, Crec, predica, x enseña, nuestra santa madre la y la y la y
 morir como católica y fiel cristiana, y temerosa de la muerte, gis natural a todo viviente hago y ordeno este testamento última y final voluntad en la forma y manera siguiente—
 Primero, encomiendo mi alma a Dios nuestro señor que la so
 y redimio con el inestimable valor de su preciosoísimo sangre y el cuerpo a la tierra de que fue formado, y es mi voluntad sea seguido en el campo santo destinado en este pueblo y amortizado con el trato de nuestro sacrificio padre San Francisco de Asis quedando mi entre.
