@@ -11,11 +11,6 @@ import json
 import openai
 import os
 import tiktoken
-import yaml
-
-# Load configuration
-with open("/Users/dtubb/code/sergio-ficheo/project.yml", "r") as config_file:
-    config = yaml.safe_load(config_file)
 
 app = typer.Typer()
 
@@ -33,7 +28,7 @@ def split_text(text, max_tokens, model="gpt-4"):
         tokens = tokens[max_tokens:]
     return chunks
 
-def process_llm_translate(
+def process_llm_clean(
     json_file: Annotated[Path, typer.Argument(help="Path to the JSONL file", exists=True)],
     llm_model: Annotated[str, typer.Argument(help="LLM model name")],
     output_field: Annotated[str, typer.Argument(help="Field to store the LLM result")],
@@ -50,23 +45,37 @@ def process_llm_translate(
 
     if llm_model == "chatgpt-4.0-mini":
         openai.api_key = os.getenv("OPENAI_API_KEY")
-        prompt_template = "Translate the following cleaned text to English. Say nothing else. Leave blank if no text:\n\n{text}"
+        prompt_template = """Imagine yourself as an AI archivist and quality assurance expert. I will provide you with text enclosed in double quotation marks. Without making any substantive changes, your task is to:
+
+- Revise punctuation, line spacing, and paragraph breaks for clarity
+- Fix any spelling, grammar, and obvious punctuation errors based on context.
+- Break the text into paragraphs at logical places.
+- If edits like adding a word or adjusting spelling based on context, put the changes in [square brackets].
+- Add any bold/italic formatting needed.
+- For all dates writted out, add formated dates in brackets based . e.g quince de marzo de mil ochocientos och = [1808-03-15]
+- Remove any LLM repeats, echoed text, or random characters or numbers. 
+
+"{text}" """
     else:
         llm = ChatOllama(model=llm_model, format="json", num_ctx=8000, temperature=0)
-        prompt_template = PromptTemplate(template="Translate the following cleaned text to English. Say nothing else. Leave blank if no text:\n\n{text}", input_variables=["text"])
+        prompt_template = PromptTemplate(template="""Imagine yourself as an AI archivist and quality assurance expert. I will provide you with text enclosed in double quotation marks. Without making any substantive changes, your task is to:
 
-    for idx, item in enumerate(track(data, description=f"Performing LLM translation...")):
+- Revise punctuation, line spacing, and paragraph breaks for clarity
+- Fix any spelling, grammar, and obvious punctuation errors based on context.
+- Break the text into paragraphs at logical places.
+- If edits like adding a word or adjusting spelling based on context, put the changes in [square brackets].
+- Add any bold/italic formatting needed.
+- For all dates writted out, add formated dates in brackets based . e.g quince de marzo de mil ochocientos och = [1808-03-15]
+- Remove any LLM repeats, echoed text, or random characters or numbers. 
+
+"{text}" """, input_variables=["text"])
+
+    for idx, item in enumerate(track(data, description=f"Performing LLM text cleaning...")):
         if output_field in item:
             print(f"[yellow]Skipping already processed item: {item['image']}[/yellow]")
-            processed_data.append(item)
             continue
 
-        text = item.get("cleaned_text")
-        if not text:
-            print(f"[yellow]Skipping item with no cleaned text: {item['image']}[/yellow]")
-            processed_data.append(item)
-            continue
-
+        text = item["text"]
         full_prompt = prompt_template.replace("{text}", text) if llm_model == "chatgpt-4.0-mini" else prompt_template.template.replace("{text}", text)
         print(f"[green]Processing item: {item['image']}[/green]")
         print(f"[blue]Full prompt:\n{full_prompt}[/blue]")
@@ -105,4 +114,4 @@ def process_llm_translate(
         srsly.write_jsonl(progress_file, processed_data)
 
 if __name__ == "__main__":
-    typer.run(process_llm_translate)
+    typer.run(process_llm_clean)
