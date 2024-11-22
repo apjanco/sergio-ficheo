@@ -37,7 +37,7 @@ def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
     }
 
     for doc in doc_dict.values():
-        set_page_size(doc, 10, 11, 0.125, 0, 0, 0)
+        set_page_size(doc, 8.5, 11, 0.125, 0, 0, 0)  # Set left-hand page size to 8.5x11 inches
 
     for item in data:
         image_path = image_folder / item.get('image', '')
@@ -70,7 +70,7 @@ def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
 
         # Add a new section for the right-hand page
         new_section = doc.add_section(WD_SECTION.NEW_PAGE)
-        set_page_size(doc, 10, 11, 0.5, 0.5, 0.5, 0.5)
+        set_page_size(doc, 8.5, 11, 1, 1, 1, 1)  # Set right-hand page size to 8.5x11 inches with 1 inch margins
 
         # Add text boxes to the right-hand page
         table = doc.add_table(rows=4, cols=1)
@@ -109,9 +109,6 @@ def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
         set_paragraph_format(file_name_cell.paragraphs[0])
 
         doc.add_page_break()
-
-    for doc in doc_dict.values():
-        set_page_size(doc, 10, 11, 0.125, 0, 0, 0)  # Ensure both pages are 10x11 inches
 
     for stem, doc in doc_dict.items():
         output_file = output_folder / f"{stem[:-1]}.docx"
