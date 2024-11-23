@@ -94,7 +94,10 @@ def process_llm_translate(
 
         print(f"[blue]LLM output:\n{result}[/blue]")
 
-        item[output_field] = result.strip()  # Ensure the full result is saved
+        # Strip enclosing quotes
+        result = result.strip().strip('"')
+
+        item[output_field] = result  # Ensure the full result is saved
 
         # Update the original file with the processed item
         data[idx] = item

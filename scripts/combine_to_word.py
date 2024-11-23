@@ -45,6 +45,9 @@ def format_ner_data(ner_data):
         formatted_text += f"**{label_name}**:\n" + "\n".join(texts) + "\n\n"
     return formatted_text.strip()
 
+def strip_quotes(text):
+    return text.strip().strip('"')
+
 def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
     data = list(srsly.read_jsonl(json_file))  # Process all items
     doc_dict = {
@@ -107,17 +110,17 @@ def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
 
         # Add text
         text_cell = table.cell(0, 0)
-        text_cell.text = item.get('text', 'No text available')
+        text_cell.text = strip_quotes(item.get('text', 'No text available'))
         set_paragraph_format(text_cell.paragraphs[0])
 
         # Add cleaned text
         cleaned_text_cell = table.cell(0, 1)
-        cleaned_text_cell.text = item.get('cleaned_text', 'No cleaned text available')
+        cleaned_text_cell.text = strip_quotes(item.get('cleaned_text', 'No cleaned text available'))
         set_paragraph_format(cleaned_text_cell.paragraphs[0])
 
         # Add translated text
         translated_text_cell = table.cell(0, 2)
-        translated_text_cell.text = item.get('english_translation', 'No translation available')
+        translated_text_cell.text = strip_quotes(item.get('english_translation', 'No translation available'))
         set_paragraph_format(translated_text_cell.paragraphs[0])
 
         # Add NER data
@@ -129,7 +132,7 @@ def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
 
         # Add summary
         summary_cell = table.cell(1, 1)
-        summary = item.get('summary', 'No summary available')
+        summary = strip_quotes(item.get('summary', 'No summary available'))
         summary_cell.text = summary
         set_paragraph_format(summary_cell.paragraphs[0])
 
