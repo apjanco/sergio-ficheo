@@ -20,3 +20,4 @@ weasel_output/
 /packages
 .DS_Store
 project.lock
+/clean-through-convert.sh

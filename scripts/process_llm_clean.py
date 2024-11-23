@@ -53,7 +53,7 @@ def process_llm_clean(
 - If edits like adding a word or adjusting spelling based on context, put the changes in [square brackets].
 - Add any bold/italic formatting needed.
 - For all dates writted out, add formated dates in brackets based . e.g quince de marzo de mil ochocientos och = [1808-03-15]
-- Remove any LLM repeats, echoed text, or random characters or numbers. 
+- Remove any LLM repeats, echoed text, random characters or numbers, or Pipes (e.g. "|":). 
 
 "{text}" """
     else:
@@ -66,7 +66,7 @@ def process_llm_clean(
 - If edits like adding a word or adjusting spelling based on context, put the changes in [square brackets].
 - Add any bold/italic formatting needed.
 - For all dates writted out, add formated dates in brackets based . e.g quince de marzo de mil ochocientos och = [1808-03-15]
-- Remove any LLM repeats, echoed text, or random characters or numbers. 
+- Remove any LLM repeats, echoed text, random characters or numbers, or Pipes (e.g. "|":). 
 
 "{text}" """, input_variables=["text"])
 
@@ -103,7 +103,10 @@ def process_llm_clean(
 
         print(f"[blue]LLM output:\n{result}[/blue]")
 
-        item[output_field] = result.strip()  # Ensure the full result is saved
+        # Strip enclosing quotes
+        result = result.strip().strip('"')
+
+        item[output_field] = result  # Ensure the full result is saved
 
         # Update the original file with the processed item
         data[idx] = item
