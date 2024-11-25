@@ -45,23 +45,24 @@ def contour_crop_images(
     if not out_dir.exists():
          out_dir.mkdir(parents=True, exist_ok=True)
 
-    images = list(collection_path.glob("**/*.jpg"))
+    images = list(collection_path.glob("**/*.[jJ][pP][gG]")) + \
+             list(collection_path.glob("**/*.[jJ][pP][eE][gG]")) + \
+             list(collection_path.glob("**/*.[tT][iI][fF]")) + \
+             list(collection_path.glob("**/*.[tT][iI][fF][fF]"))
     # List of files to skip during cropping
-    skip = ['SM_NPQ_C04_104.jpg', 
-            'SM_NPQ_C05_071',
-            'SM_NPQ_C04_001.jpg'
+    skip = [''
             ]
     for image in track(images, description="Cropping images..."):
         try:
             if image.name in skip:
                 img = Image.open(image)
-                img.save(out_dir / image.name)
+                img.save(out_dir / (image.stem + ".jpg"))
             else:
                 img = Image.open(image)
                 if img.size == (0, 0):
                     raise ValueError("Empty image")
                 cropped_img = contour_crop(img)  # Apply contour cropping
-                cropped_img.save(out_dir / image.name)  # Save with the original file name
+                cropped_img.save(out_dir / (image.stem + ".jpg"))  # Save as JPG with the original file name stem
         except (UnidentifiedImageError, ValueError) as e:
             print(f"Skipping {image.name}: {e}")
 

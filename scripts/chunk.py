@@ -73,11 +73,15 @@ def chunk_images(
     images = list(collection_path.glob("**/*.jpg"))
     for image in track(images, description="Chunking images..."):
         try:
+            image_folder = out_dir / image.stem
+            if image_folder.exists() and any(image_folder.glob("*.jpg")):
+                print(f"Skipping {image.name}: already chunked")
+                continue
+
             img = Image.open(image)
             if img.size == (0, 0):
                 raise ValueError("Empty image")
             chunks = smart_chunk_image(img, num_chunks, overlap_percentage)
-            image_folder = out_dir / image.stem
             image_folder.mkdir(parents=True, exist_ok=True)
             for idx, chunk in enumerate(chunks):
                 chunk.save(image_folder / f"{image.stem}_chunk_{idx + 1}.jpg")
