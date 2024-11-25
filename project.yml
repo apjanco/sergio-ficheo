@@ -37,8 +37,9 @@ vars:
   recombined_folder: "assets/recombined"
   cleaned_folder: "assets/cleaned"
   data_folder: "assets/data"
-  llm_model: "chatgpt-4.0-mini" # Options: "chatgpt-4.0-mini", "llama3.1:8b", "Qwen/Qwen2-VL-2B-Instruct"
+  llm_model: "llama3.1:8b" # Options: "chatgpt-4.0-mini", "llama3.1:8b", "Qwen/Qwen2-VL-2B-Instruct"
   word_folder: "assets/word"
+  word_pretty_folder: "assets/word_pretty"
 directories: ["assets", "configs", "scripts","_site","_templates","prompts", "pipelines", "packages", "${vars.word_folder}"]
 
 workflows:
@@ -59,12 +60,14 @@ workflows:
     - process_llm_summarize
     - process_llm_clean_ner
     - combine_to_word
+    - combine_to_word_pretty
     - dataset
     - publish
     # - remove_background
 
   combine_to_word_only:
     - combine_to_word
+    - combine_to_word_pretty
 
 commands:
   - name: metadata
@@ -189,6 +192,17 @@ commands:
       - ${vars.word_folder}/SM_NPQ_C03.docx
       - ${vars.word_folder}/SM_NPQ_C04.docx
       - ${vars.word_folder}/SM_NPQ_C05.docx
+
+  - name: combine_to_word_pretty
+    help: "Combine JSONL data into Word documents without images"
+    script:
+      - "python scripts/combine_to_word_pretty.py ${vars.data_folder}/data_ner.jsonl ${vars.word_pretty_folder}"
+    outputs:
+      - ${vars.word_pretty_folder}/SM_NPQ_C01.docx
+      - ${vars.word_pretty_folder}/SM_NPQ_C02.docx
+      - ${vars.word_pretty_folder}/SM_NPQ_C03.docx
+      - ${vars.word_pretty_folder}/SM_NPQ_C04.docx
+      - ${vars.word_pretty_folder}/SM_NPQ_C05.docx
 
   - name: dataset
     help: "Create a Hugging Face Dataset"

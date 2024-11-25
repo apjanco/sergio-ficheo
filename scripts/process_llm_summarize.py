@@ -7,11 +7,12 @@ from typing_extensions import Annotated
 from langchain_community.chat_models import ChatOllama
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-import json
-import openai
-import os
-import tiktoken
+from langchain_core.output_parsers import StreamingStrOutputParser
 import yaml
+import os
+import openai
+import signal
+import sys
 
 # Load configuration
 with open("/Users/dtubb/code/sergio-ficheo/project.yml", "r") as config_file:
@@ -19,19 +20,23 @@ with open("/Users/dtubb/code/sergio-ficheo/project.yml", "r") as config_file:
 
 app = typer.Typer()
 
-def count_tokens(text: str, model: str = "gpt-4") -> int:
-    encoding = tiktoken.encoding_for_model(model)
-    return len(encoding.encode(text))
+def count_tokens(text: str) -> int:
+    return len(text.split())
 
-def split_text(text, max_tokens, model="gpt-4"):
-    encoding = tiktoken.encoding_for_model(model)
-    tokens = encoding.encode(text)
+def split_text(text, max_tokens):
+    words = text.split()
     chunks = []
-    while tokens:
-        chunk = tokens[:max_tokens]
-        chunks.append(encoding.decode(chunk))
-        tokens = tokens[max_tokens:]
+    while words:
+        chunk = words[:max_tokens]
+        chunks.append(" ".join(chunk))
+        words = words[max_tokens:]
     return chunks
+
+def handle_sigint(signal, frame):
+    print("\n[red]Process interrupted. Exiting...[/red]")
+    sys.exit(0)
+
+signal.signal(signal.SIGINT, handle_sigint)
 
 def process_llm_summarize(
     json_file: Annotated[Path, typer.Argument(help="Path to the JSONL file", exists=True)],
@@ -50,10 +55,10 @@ def process_llm_summarize(
 
     if llm_model == "chatgpt-4.0-mini":
         openai.api_key = os.getenv("OPENAI_API_KEY")
-        prompt_template = "Summarize the following cleaned text in Spanish:\n\n{text}"
+        prompt_template = "Describe and summarize TEXT in Spanish. IGNORE INDECIPHERABLE NUMBERS AND TEXT. :\n\n{text}"
     else:
         llm = ChatOllama(model=llm_model, format="json", num_ctx=8000, temperature=0)
-        prompt_template = PromptTemplate(template="Summarize the following cleaned text in Spanish:\n\n{text}", input_variables=["text"])
+        prompt_template = PromptTemplate(template="Describe and summarize TEXT in Spanish. IGNORE INDECIPHERABLE NUMBERS AND TEXT. :\n\n{text}", input_variables=["text"])
 
     for idx, item in enumerate(track(data, description=f"Performing LLM summarization...")):
         if output_field in item:
@@ -72,12 +77,13 @@ def process_llm_summarize(
         print(f"[blue]Full prompt:\n{full_prompt}[/blue]")
 
         if llm_model == "chatgpt-4.0-mini":
-            input_tokens = count_tokens(full_prompt, model="gpt-4")
+            input_tokens = count_tokens(full_prompt)
             max_output_tokens = 8192 - input_tokens - 100  # Reserve some tokens for prompt and response structure
             text_chunks = split_text(text, max_output_tokens)
             result = ""
             for chunk in text_chunks:
                 chunk_prompt = prompt_template.replace("{text}", chunk)
+                print(f"[blue]Sending chunk to OpenAI:\n{chunk_prompt}[/blue]")  # Debug print
                 response = openai.ChatCompletion.create(
                     model="gpt-4",
                     messages=[
@@ -89,15 +95,23 @@ def process_llm_summarize(
                 )
                 result += response.choices[0].message['content'].strip() + "\n"
         else:
-            prompt = prompt_template | llm | StrOutputParser()
-            result = prompt.invoke({"text": text})
+            input_tokens = count_tokens(full_prompt)
+            max_output_tokens = min(8000 - input_tokens - 100, len(text.split()))  # Adjust based on the local LLM's capacity and text length
+            text_chunks = split_text(text, max_output_tokens)
+            result = ""
+            for chunk in text_chunks:
+                chunk_prompt = prompt_template.template.replace("{text}", chunk)
+                print(f"[blue]Sending chunk to local LLM:\n{chunk_prompt}[/blue]")  # Debug print
+                prompt = prompt_template | llm | StreamingStrOutputParser()
+                chunk_result = ""
+                for char in prompt.invoke({"text": chunk}):
+                    print(char, end='', flush=True)  # Print each character as it comes in
+                    chunk_result += char
+                result += chunk_result.strip().strip('"') + "\n"
 
         print(f"[blue]LLM output:\n{result}[/blue]")
 
-        # Strip enclosing quotes
-        result = result.strip().strip('"')
-
-        item[output_field] = result  # Ensure the full result is saved
+        item[output_field] = result.strip()  # Ensure the full result is saved
 
         # Update the original file with the processed item
         data[idx] = item

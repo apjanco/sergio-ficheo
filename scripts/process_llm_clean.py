@@ -7,25 +7,21 @@ from typing_extensions import Annotated
 from langchain_community.chat_models import ChatOllama
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-import json
 import openai
 import os
-import tiktoken
 
 app = typer.Typer()
 
-def count_tokens(text: str, model: str = "gpt-4") -> int:
-    encoding = tiktoken.encoding_for_model(model)
-    return len(encoding.encode(text))
+def count_tokens(text: str) -> int:
+    return len(text.split())
 
-def split_text(text, max_tokens, model="gpt-4"):
-    encoding = tiktoken.encoding_for_model(model)
-    tokens = encoding.encode(text)
+def split_text(text, max_tokens):
+    words = text.split()
     chunks = []
-    while tokens:
-        chunk = tokens[:max_tokens]
-        chunks.append(encoding.decode(chunk))
-        tokens = tokens[max_tokens:]
+    while words:
+        chunk = words[:max_tokens]
+        chunks.append(" ".join(chunk))
+        words = words[max_tokens:]
     return chunks
 
 def process_llm_clean(
@@ -81,7 +77,7 @@ def process_llm_clean(
         print(f"[blue]Full prompt:\n{full_prompt}[/blue]")
 
         if llm_model == "chatgpt-4.0-mini":
-            input_tokens = count_tokens(full_prompt, model="gpt-4")
+            input_tokens = count_tokens(full_prompt)
             max_output_tokens = 8192 - input_tokens - 100  # Reserve some tokens for prompt and response structure
             text_chunks = split_text(text, max_output_tokens)
             result = ""
@@ -98,8 +94,15 @@ def process_llm_clean(
                 )
                 result += response.choices[0].message['content'].strip() + "\n"
         else:
-            prompt = prompt_template | llm | StrOutputParser()
-            result = prompt.invoke({"text": text})
+            input_tokens = count_tokens(full_prompt)
+            max_output_tokens = 2000  # Adjust based on the local LLM's capacity
+            text_chunks = split_text(text, max_output_tokens)
+            result = ""
+            for chunk in text_chunks:
+                chunk_prompt = prompt_template.template.replace("{text}", chunk)
+                prompt = prompt_template | llm | StrOutputParser()
+                chunk_result = prompt.invoke({"text": chunk})
+                result += chunk_result.strip().strip('"') + "\n"
 
         print(f"[blue]LLM output:\n{result}[/blue]")
 
