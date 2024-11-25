@@ -20,13 +20,11 @@ def set_page_size(doc, width, height, left_margin, right_margin, top_margin, bot
     section.top_margin = Inches(top_margin)
     section.bottom_margin = Inches(bottom_margin)
 
-def set_paragraph_format(paragraph):
-    run = paragraph.runs[0]
-    run.font.name = 'Times New Roman'
-    run.font.size = Pt(9)
+def set_paragraph_format(paragraph, style):
+    paragraph.style = style
     paragraph.paragraph_format.space_after = Pt(9)
 
-def format_ner_data(ner_data):
+def format_ner_data(paragraph, ner_data):
     label_map = {
         "LOC": "Location",
         "ORG": "Organization",
@@ -39,14 +37,64 @@ def format_ner_data(ner_data):
             grouped_entities[label] = []
         grouped_entities[label].append(ent['text'])
 
-    formatted_text = ""
     for label, texts in grouped_entities.items():
         label_name = label_map.get(label, label)
-        formatted_text += f"**{label_name}**:\n" + "\n".join(texts) + "\n\n"
-    return formatted_text.strip()
+        run = paragraph.add_run(f"{label_name}:\n")
+        run.bold = True
+        run.font.name = 'Times New Roman'
+        run.font.size = Pt(9)
+        text_run = paragraph.add_run("\n".join(texts) + "\n\n")
+        text_run.font.name = 'Times New Roman'
+        text_run.font.size = Pt(9)
 
 def strip_quotes(text):
     return text.strip().strip('"')
+
+def create_styles(doc):
+    styles = doc.styles
+
+    # Heading style
+    heading_style = styles.add_style('HeadingStyle', docx.enum.style.WD_STYLE_TYPE.PARAGRAPH)
+    heading_font = heading_style.font
+    heading_font.name = 'Times New Roman'
+    heading_font.size = Pt(14)
+    heading_font.bold = True
+
+    # Spanish text style
+    spanish_style = styles.add_style('Spanish', docx.enum.style.WD_STYLE_TYPE.PARAGRAPH)
+    spanish_font = spanish_style.font
+    spanish_font.name = 'Times New Roman'
+    spanish_font.size = Pt(9)
+
+    # English text style
+    english_style = styles.add_style('English', docx.enum.style.WD_STYLE_TYPE.PARAGRAPH)
+    english_font = english_style.font
+    english_font.name = 'Times New Roman'
+    english_font.size = Pt(9)
+
+    # Summary style
+    summary_style = styles.add_style('Summary', docx.enum.style.WD_STYLE_TYPE.PARAGRAPH)
+    summary_font = summary_style.font
+    summary_font.name = 'Times New Roman'
+    summary_font.size = Pt(9)
+    summary_font.italic = True
+
+    # NER style
+    ner_style = styles.add_style('NER', docx.enum.style.WD_STYLE_TYPE.PARAGRAPH)
+    ner_font = ner_style.font
+    ner_font.name = 'Times New Roman'
+    ner_font.size = Pt(9)
+
+def remove_table_borders(table):
+    tbl = table._element
+    for cell in tbl.xpath(".//w:tc"):
+        tcPr = cell.get_or_add_tcPr()
+        tcBorders = docx.oxml.shared.OxmlElement('w:tcBorders')
+        for border_name in ["top", "left", "bottom", "right", "insideH", "insideV"]:
+            border = docx.oxml.shared.OxmlElement(f'w:{border_name}')
+            border.set(docx.oxml.shared.qn('w:val'), 'nil')
+            tcBorders.append(border)
+        tcPr.append(tcBorders)
 
 def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
     data = list(srsly.read_jsonl(json_file))  # Process all items
@@ -59,6 +107,7 @@ def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
     }
 
     for doc in doc_dict.values():
+        create_styles(doc)
         set_page_size(doc, 10, 11, 0.5, 0.5, 0.5, 0.5)  # Set left-hand page size to 10x11 inches with 0.5 inch margins
 
     for item in data:
@@ -99,11 +148,7 @@ def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
         table.style = 'Table Grid'
 
         # Remove table borders
-        for row in table.rows:
-            for cell in row.cells:
-                cell._element.get_or_add_tcPr().append(docx.oxml.shared.OxmlElement('w:tcBorders'))
-                for border in cell._element.xpath('.//w:tcBorders/*'):
-                    border.attrib.clear()
+        remove_table_borders(table)
 
         # Center the table
         table.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -111,35 +156,35 @@ def combine_to_word(json_file: Path, image_folder: Path, output_folder: Path):
         # Add text
         text_cell = table.cell(0, 0)
         text_cell.text = strip_quotes(item.get('text', 'No text available'))
-        set_paragraph_format(text_cell.paragraphs[0])
+        set_paragraph_format(text_cell.paragraphs[0], 'Spanish')
 
         # Add cleaned text
         cleaned_text_cell = table.cell(0, 1)
         cleaned_text_cell.text = strip_quotes(item.get('cleaned_text', 'No cleaned text available'))
-        set_paragraph_format(cleaned_text_cell.paragraphs[0])
+        set_paragraph_format(cleaned_text_cell.paragraphs[0], 'Spanish')
 
         # Add translated text
         translated_text_cell = table.cell(0, 2)
         translated_text_cell.text = strip_quotes(item.get('english_translation', 'No translation available'))
-        set_paragraph_format(translated_text_cell.paragraphs[0])
+        set_paragraph_format(translated_text_cell.paragraphs[0], 'English')
 
         # Add NER data
         ner_data_cell = table.cell(1, 0)
+        ner_data_paragraph = ner_data_cell.paragraphs[0]
+        ner_data_paragraph.style = 'NER'
         ner_data = item.get('entities', 'No NER data available')
-        ner_data_formatted = format_ner_data(ner_data)
-        ner_data_cell.text = ner_data_formatted
-        set_paragraph_format(ner_data_cell.paragraphs[0])
+        format_ner_data(ner_data_paragraph, ner_data)
 
         # Add summary
         summary_cell = table.cell(1, 1)
         summary = strip_quotes(item.get('summary', 'No summary available'))
         summary_cell.text = summary
-        set_paragraph_format(summary_cell.paragraphs[0])
+        set_paragraph_format(summary_cell.paragraphs[0], 'Summary')
 
         # Add file name
         file_name_cell = table.cell(1, 2)
         file_name_cell.text = f"File Name: {image_path.name}"
-        set_paragraph_format(file_name_cell.paragraphs[0])
+        set_paragraph_format(file_name_cell.paragraphs[0], 'Summary')
 
         doc.add_page_break()
 
