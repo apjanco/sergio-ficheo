@@ -12,7 +12,8 @@ def remove_ruler(img):
 
 def split(
     collection_path: Path = typer.Argument(..., help="Path to the collections", exists=True),
-    out_dir: Path = typer.Argument(..., help="Output directory to save the split images")
+    out_dir: Path = typer.Argument(..., help="Output directory to save the split images"),
+    skip_split: bool = typer.Option(False, help="Flag to skip splitting images")
 ):
     if not out_dir.exists():
          out_dir.mkdir(parents=True, exist_ok=True)
@@ -30,8 +31,8 @@ def split(
             'SM_NPQ_C05_001.jpg',
             'SM_NPQ_C05_071.jpg'
             ]
-    for image in track(images, description="Splitting images..."):
-        if image.name in skip:
+    for image in track(images, description="Processing images..."):
+        if image.name in skip or skip_split:
             img = Image.open(image)
             img.save(out_dir / f"{image.stem}.jpg")
         else:

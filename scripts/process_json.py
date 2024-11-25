@@ -3,8 +3,12 @@ import srsly
 from pathlib import Path
 from rich.progress import track
 import re
+from glob import glob
 
 app = typer.Typer()
+
+def natural_sort_key(s):
+    return [int(text) if text.isdigit() else text.lower() for text in re.split(r'(\d+)', s)]
 
 def process_json(
     data_path: Path = typer.Argument(..., help="Path to the cleaned text files", exists=True),
@@ -14,15 +18,12 @@ def process_json(
     """
     Process images and text. Outcome is a single JSONL file with a dictionary for each page with the transcribed text.
     """
-    def extract_sort_key(filename):
-        match = re.search(r'C(\d+)_(\d+)', filename)
-        return (int(match.group(1)), int(match.group(2))) if match else (float('inf'), float('inf'))
-
-    md_files = sorted(data_path.glob("**/*.md"), key=lambda x: extract_sort_key(x.stem))  # Process all files in numerical order
-    image_files = {img.stem: img for img in image_path.glob("**/*.jpg")}
+    md_files = sorted(glob(str(data_path / "**/*.md"), recursive=True), key=natural_sort_key)  # Process all files in natural order
+    image_files = {Path(img).stem: Path(img) for img in glob(str(image_path / "**/*.jpg"), recursive=True)}
     
     data = []
     for md_file in track(md_files, description="Processing files..."):
+        md_file = Path(md_file)
         img_data = {}
         img_name = md_file.stem
         img_data["image"] = image_files.get(img_name, None).name if img_name in image_files else None

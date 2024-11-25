@@ -4,15 +4,14 @@ from pathlib import Path
 from rich.progress import track
 from rich import print
 from typing_extensions import Annotated
-from langchain_community.chat_models import ChatOllama
+from langchain_ollama.chat_models import ChatOllama
 from langchain.prompts import PromptTemplate
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.output_parsers import StreamingStrOutputParser
 import yaml
 import os
 import openai
 import signal
 import sys
+from langchain.schema import HumanMessage
 
 # Load configuration
 with open("/Users/dtubb/code/sergio-ficheo/project.yml", "r") as config_file:
@@ -22,15 +21,6 @@ app = typer.Typer()
 
 def count_tokens(text: str) -> int:
     return len(text.split())
-
-def split_text(text, max_tokens):
-    words = text.split()
-    chunks = []
-    while words:
-        chunk = words[:max_tokens]
-        chunks.append(" ".join(chunk))
-        words = words[max_tokens:]
-    return chunks
 
 def handle_sigint(signal, frame):
     print("\n[red]Process interrupted. Exiting...[/red]")
@@ -79,39 +69,30 @@ def process_llm_summarize(
         if llm_model == "chatgpt-4.0-mini":
             input_tokens = count_tokens(full_prompt)
             max_output_tokens = 8192 - input_tokens - 100  # Reserve some tokens for prompt and response structure
-            text_chunks = split_text(text, max_output_tokens)
             result = ""
-            for chunk in text_chunks:
-                chunk_prompt = prompt_template.replace("{text}", chunk)
-                print(f"[blue]Sending chunk to OpenAI:\n{chunk_prompt}[/blue]")  # Debug print
-                response = openai.ChatCompletion.create(
-                    model="gpt-4",
-                    messages=[
-                        {"role": "system", "content": "You are a helpful assistant."},
-                        {"role": "user", "content": chunk_prompt}
-                    ],
-                    max_tokens=max_output_tokens,
-                    temperature=0
-                )
-                result += response.choices[0].message['content'].strip() + "\n"
+            chunk_prompt = prompt_template.replace("{text}", text)
+            print(f"[blue]Sending to OpenAI:\n{chunk_prompt}[/blue]")  # Debug print
+            response = openai.ChatCompletion.create(
+                model="gpt-4",
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant."},
+                    {"role": "user", "content": chunk_prompt}
+                ],
+                max_tokens=max_output_tokens,
+                temperature=0
+            )
+            result += response.choices[0].message['content'].strip() + "\n"
         else:
-            input_tokens = count_tokens(full_prompt)
-            max_output_tokens = min(8000 - input_tokens - 100, len(text.split()))  # Adjust based on the local LLM's capacity and text length
-            text_chunks = split_text(text, max_output_tokens)
-            result = ""
-            for chunk in text_chunks:
-                chunk_prompt = prompt_template.template.replace("{text}", chunk)
-                print(f"[blue]Sending chunk to local LLM:\n{chunk_prompt}[/blue]")  # Debug print
-                prompt = prompt_template | llm | StreamingStrOutputParser()
-                chunk_result = ""
-                for char in prompt.invoke({"text": chunk}):
-                    print(char, end='', flush=True)  # Print each character as it comes in
-                    chunk_result += char
-                result += chunk_result.strip().strip('"') + "\n"
+            print(f"[blue]Sending to local LLM:\n{full_prompt}[/blue]")  # Debug print
+            response = llm.invoke([HumanMessage(content=full_prompt)])
+            if response:
+                result = response.content.strip()
+                print(f"\n[blue]LLM output:\n{result}[/blue]")
+            else:
+                print("No valid response from LLM.")
+                result = ""
 
-        print(f"[blue]LLM output:\n{result}[/blue]")
-
-        item[output_field] = result.strip()  # Ensure the full result is saved
+        item[output_field] = result  # Ensure the full result is saved
 
         # Update the original file with the processed item
         data[idx] = item
