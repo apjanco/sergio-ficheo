@@ -2,6 +2,8 @@ import typer
 from PIL import Image, ImageDraw
 from pathlib import Path
 from rich.progress import track
+import cv2
+import numpy as np
 
 def remove_ruler(img): 
     img1 = ImageDraw.Draw(img)
@@ -9,6 +11,17 @@ def remove_ruler(img):
     shape = [(0, 0), (w, 100)]  # Upper left, lower right
     img1.rectangle(shape, fill="#000000")
     return img
+
+def should_split_image(image_path):
+    img = cv2.imread(str(image_path), cv2.IMREAD_GRAYSCALE)
+    height, width = img.shape
+    aspect_ratio = width / height
+    print(f"Image: {image_path}, Aspect Ratio: {aspect_ratio}")
+
+    # Assuming notebook pages have a wider aspect ratio compared to standard documents
+    if aspect_ratio > 1.2:  # Threshold to distinguish between notebook and document
+        return True
+    return False
 
 def split(
     collection_path: Path = typer.Argument(..., help="Path to the collections", exists=True),
@@ -32,7 +45,7 @@ def split(
             'SM_NPQ_C05_071.jpg'
             ]
     for image in track(images, description="Processing images..."):
-        if image.name in skip or skip_split:
+        if image.name in skip or skip_split or not should_split_image(image):
             img = Image.open(image)
             img.save(out_dir / f"{image.stem}.jpg")
         else:
