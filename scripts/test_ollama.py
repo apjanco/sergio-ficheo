@@ -7,25 +7,40 @@ def main():
     llm = ChatOllama(model=llm_model, format="json", num_ctx=8000, temperature=0)
     
     text = (
-        """Trinat Superior del Distrito Sta
-ministro dicial del Cauca
-Buga, Julio catorce del mil ochocientos
-Lugares: Libro de la muerte de los novatos y los Vientos. Por ordenación del defensor de Luciano.
-JUAN Y FRANCISCO RIVAS, RECO DEL DELITO DE MAL TRATAMIENTO DE OTRA EN BASTILLA JUAN, HAN VENIDO A ESTOS SUPERIORIDAD LA SENTENCIA DEL SUEC DE CIR.
-El juicio, en que se condenó a la ejecución en la cárcel de Novita, y las anexos correspondientes.
-compasado los hechos con la disposición legal invocadas en la sentencia, hallate que ita se encuentra alegada al mérito del cruceo, salvo la inco- rección que proviene del 2: arista de los considera-
-No cabe la menor duda acerca de qui, si no se deduce provocaciones hecha por la ofendida
-a mis agrecidos, no hay razones siligencia para in
-fligirles solo la tercera parte de la pena, al tenor del
-artículo 661 del Código Penal
-Maire del Rosario y Francisco Esteban
-Julio Rivas y Maria del Carmen Mo reno, declaran que el viéte de Julio de mil ochio- cientos noventa y uno, previaron la riña o peli-
-que, en su casa, todo entre las dos encuadadas y
-Brabía Díaz, en la "madre mía" donde había
-un plato de maíz perteneciente al segundo de los
-telégrafos nombrados. Lucianer Juán Córdoba, tue
-Bienvenido a mi casa, donde te espero con paciencia y amabilidad. Te gustará la comida que preparo con amor y cuidado. casa, donde te sentirás cómodo y seguro. Te gustará mi amor y mis cuidados.
-las ropas, preciósit ninguna lnea e, para trabajas en la oficina.
+        """Pasó en el comandador y sus sucesores, 
+que en señal de posesión y para título de ella, otorga a su favor esta escritura por la
+cual ha de servirse haberla adquirido sin que necesite de otro cota de perpendicula de 
+que lo poseya. Se obliga a la ejecución y pago de agresión de que lo lleva, y se obliga
+a la excusión saneamiento de esta venta a su costo y mención hasta dejar al comprador 
+en quietud y pacífica posesión. No pudiendo la canearle de volver a los descuentos, 
+cincuenta pesos de plata si ya los hubiera recibido, y le pagará los costos y gastos de
+su ineficiencia cuya prueba debe depurar en su simple juramento relevante de otra 
+aunque por derecho se requiera.
+
+Siendo presente dicho ciudadano Juan de Mené a quien asimismo se conoció en el año de 
+1949. Ciudadano Juan de Nena, quien asimismo doy conocido en tercado de esta escritura,
+dijo que la acepta y confesada deber al ciudadano Joquín Freire de Andrade los 
+descuentos con cuenta pesos de plata valor de la escala Ramisidón que le acaba de 
+comprar. Se obliga a satisfacerse los derechos del mío de seis meses contados desde hoy
+en la especie de oro en polvo limpio y soplando a diez y seis reales el castellano con 
+las costas y gastos de su cobranza.
+
+Ambos vendedores y comprador, por lo que a cada uno fuese obligado a la exacta 
+observancia y cumplimiento de todo lo referido con sus personas y bienes habidos y por 
+haber con el poderío de Justicias Santo. Siendo necesaria la renuncia de leyes en 
+derecho, más con la general en forma. En su testimonio, la general en forma.
+
+Firmó el vendedor y por decir el comprador no saber lo hizo a su riesgo uno de los 
+testigos que le fueron los ciudadanos Manuel Flórez, Luis Alcaro y Nicolás Roxas. 
+Joaquín Freire de Andrade, Aruego de Juan de Mené y como testigo, Arz. mi Vicente 
+Olavarría. Ante mi Vicente Olaguecha.
+
+En la ciudad de Quito, capital de la provincia, a ocho de Enero de mil ochocientos diez
+y seis [1816-01-08]. Ante mi el escribano y testigos que se nombraron, pareció la 
+ciudadana Maria Manuela Scarpeta, vecina de ella y consorte, apoderada del sudadero 
+Carlos Ferrer con consentimiento exento. El día trece de Agosto del año próximo pasado 
+de mil ochocientos quince [1815-08-13] de que doy fe, y usando de las facultades que 
+en.
 """
     )
     
