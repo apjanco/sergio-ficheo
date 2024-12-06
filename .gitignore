@@ -9,7 +9,7 @@ sergio_notebooks/assets/chunks
 sergio_notebooks/assets/txt_chunks
 sergio_notebooks/assets/trabscribed_chunks
 sergio_notebooks/assets/recombined
-/assets
+assets
 metadata.json
 data/data.jsonl
 _site/
