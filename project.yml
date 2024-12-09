@@ -17,8 +17,8 @@ vars:
   language: "es"
   text_direction: 'horizontal-lr' #['horizontal-lr', 'horizontal-rl', 'vertical-lr', 'vertical-rl']
   version: "0.0.0"
-  project_folder: "ghc" # Change this to run on different folders
-  image_folder: "${vars.project_folder}/GHC"
+  project_folder: "daniel" # Change this to run on different folders
+  image_folder: "${vars.project_folder}/images"
   metadata_file: "${vars.project_folder}/assets/Base_de_datos_Cuadernos_Sergio_Notaría_Primera_de_Quibdó_(1808-1825).xlsx"
   split_image_folder: "${vars.project_folder}/assets/splits"
   cropped_image_folder: "${vars.project_folder}/assets/cropped"
@@ -31,8 +31,8 @@ vars:
   dataset_name: "fmb-quibdo/sergio-notebooks"
   adjusted_image_folder: "${vars.project_folder}/assets/adjusted"
   chunked_image_folder: "${vars.project_folder}/assets/chunks"
-  num_chunks: 12
-  overlap_percentage: 3.0
+  num_chunks: 4
+  overlap_percentage: 10
   transcribed_chunks_folder: "${vars.project_folder}/assets/txt_chunks"
   prompt: "Extract all text line by line. Do not number lines. RETURN ONLY PLAIN TEXT. SAY NOTHING ELSE"
   recombined_folder: "${vars.project_folder}/assets/recombined"
@@ -87,6 +87,21 @@ workflows:
     - publish
     # - remove_background
 
+  all-ocr:
+    - transcribe
+    - recombine_chunks
+    - fuzzy_clean
+    - process_json
+    - process_ner
+    - process_llm_clean
+    - process_llm_translate
+    - process_llm_summarize
+    - process_llm_clean_ner
+    - combine_to_word
+    - combine_to_word_pretty
+    - dataset
+    - publish
+
   combine_to_word_only:
     - combine_to_word
     - combine_to_word_pretty
@@ -100,7 +115,7 @@ commands:
       - metadata.json
 
   - name: crop
-    help: "Crop the images to remove unnecessary borders."
+    help: "Crop the images to remove unnecessary borders. Optionally split PDFs into images before cropping."
     script:
       - "python scripts/crop.py ${vars.image_folder} ${vars.cropped_image_folder}"
     outputs:
@@ -122,7 +137,7 @@ commands:
  
   # - name: remove_background
   #   help: "Remove black and purple background from images."
-  #   script:
+  #   script:m
   #     - "python scripts/remove_background.py ${vars.rotated_image_folder} ${vars.background_removed_image_folder}"
   #   outputs:
   #     - ${vars.background_removed_image_folder}
