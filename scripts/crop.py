@@ -1,23 +1,24 @@
-import typer 
+import typer
 from PIL import Image, UnidentifiedImageError
 from pathlib import Path
 from rich.progress import track
 import numpy as np
 import cv2
+from pdf2image import convert_from_path
 
-def is_likely_ruler(w: int, h: int, max_ruler_aspect_ratio: float = 10, max_ruler_width_ratio: float = 0.1) -> bool:
+def is_likely_ruler(w: int, h: int, max_ruler_aspect_ratio: float = 15, max_ruler_width_ratio: float = 0.05) -> bool:
     """Check if the contour is likely a ruler based on its aspect ratio and width."""
     aspect_ratio = max(w / h, h / w)
     return aspect_ratio > max_ruler_aspect_ratio or w < max_ruler_width_ratio * h
 
-def is_predominantly_black(image: Image.Image, threshold: float = 0.95) -> bool:
+def is_predominantly_black(image: Image.Image, threshold: float = 0.90) -> bool:
     """Check if the image is predominantly black."""
     img_array = np.array(image.convert("L"))
-    black_pixels = np.sum(img_array < 10)
+    black_pixels = np.sum(img_array < 50)  # Increase threshold for black pixels
     total_pixels = img_array.size
     return (black_pixels / total_pixels) > threshold
 
-def contour_crop(image: Image.Image, blur_kernel=(5, 5), canny_threshold1=50, canny_threshold2=150, margin=20, min_size_ratio=0.5, max_aspect_ratio=5) -> Image.Image:
+def contour_crop(image: Image.Image, blur_kernel=(5, 5), canny_threshold1=30, canny_threshold2=100, margin=50, min_size_ratio=0.2, max_aspect_ratio=15) -> Image.Image:
     """Automatic contour-based cropping for documents."""
     # Convert image to grayscale for edge detection
     img_gray = np.array(image.convert("L"))
@@ -29,7 +30,7 @@ def contour_crop(image: Image.Image, blur_kernel=(5, 5), canny_threshold1=50, ca
     edges = cv2.Canny(img_blurred, canny_threshold1, canny_threshold2)
     
     # Apply dilation to enhance edges
-    dilated_edges = cv2.dilate(edges, None, iterations=5)
+    dilated_edges = cv2.dilate(edges, None, iterations=10)  # Increase iterations for better detection
     
     # Find contours in the edges
     contours, _ = cv2.findContours(dilated_edges, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
@@ -66,31 +67,52 @@ def contour_crop(image: Image.Image, blur_kernel=(5, 5), canny_threshold1=50, ca
     print("[red]No suitable contours found, returning original image.")
     return image
 
+def split_and_crop_pdf(pdf_path: Path, out_dir: Path):
+    if not out_dir.exists():
+        out_dir.mkdir(parents=True, exist_ok=True)
+
+    images = convert_from_path(pdf_path, dpi=300)  # Convert PDF to images with maximum resolution
+    for i, image in enumerate(images):
+        image_path = out_dir / f"{pdf_path.stem}_page_{i + 1}.jpg"
+        if image_path.exists():
+            print(f"Skipping existing image: {image_path}")
+            continue
+        print(f"Processing page {i + 1} of {pdf_path.name}")
+        cropped_img = contour_crop(image)
+        cropped_img.save(image_path, "JPEG")
+        print(f"Saved cropped image: {image_path}")
+
 def contour_crop_images(
-    collection_path: Path = typer.Argument(..., help="Path to the collections", exists=True),
+    collection_path: Path = typer.Argument(..., help="Path to the folder containing files", exists=True),
     out_dir: Path = typer.Argument(..., help="Output directory to save the cropped images")
 ):
     if not out_dir.exists():
-         out_dir.mkdir(parents=True, exist_ok=True)
+        out_dir.mkdir(parents=True, exist_ok=True)
 
+    # Process PDF files first
+    pdf_files = list(collection_path.glob("**/*.pdf"))
+    for pdf_file in pdf_files:
+        split_and_crop_pdf(pdf_file, out_dir)
+
+    # Process all image files
     images = list(collection_path.glob("**/*.[jJ][pP][gG]")) + \
              list(collection_path.glob("**/*.[jJ][pP][eE][gG]")) + \
              list(collection_path.glob("**/*.[tT][iI][fF]")) + \
-             list(collection_path.glob("**/*.[tT][iI][fF][fF]"))
-    # List of files to skip during cropping
-    skip = [''
-            ]
+             list(collection_path.glob("**/*.[tT][iI][fF][fF]")) + \
+             list(collection_path.glob("**/*.[pP][nN][gG]"))
+
+    if not images:
+        print("No images found to process.")
+        return
+
     for image in track(images, description="Cropping images..."):
         try:
-            if image.name in skip:
-                img = Image.open(image)
-                img.save(out_dir / (image.stem + ".jpg"))
-            else:
-                img = Image.open(image)
-                if img.size == (0, 0):
-                    raise ValueError("Empty image")
-                cropped_img = contour_crop(img)  # Apply contour cropping
-                cropped_img.save(out_dir / (image.stem + ".jpg"))  # Save as JPG with the original file name stem
+            img = Image.open(image)
+            if img.size == (0, 0):
+                raise ValueError("Empty image")
+            cropped_img = contour_crop(img)  # Apply contour cropping
+            cropped_img.save(out_dir / (image.stem + ".jpg"))  # Save as JPG with the original file name stem
+            print(f"Cropped and saved image: {out_dir / (image.stem + '.jpg')}")
         except (UnidentifiedImageError, ValueError) as e:
             print(f"Skipping {image.name}: {e}")
 
