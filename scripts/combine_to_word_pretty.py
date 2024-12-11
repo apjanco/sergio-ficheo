@@ -119,7 +119,7 @@ def combine_to_word_pretty(json_file: Path, output_folder: Path):
         heading.style = 'HeadingStyle'
 
         # Add text boxes to the page
-        table = doc.add_table(rows=1, cols=3)
+        table = doc.add_table(rows=1, cols=6)
         table.style = 'Table Grid'
 
         # Remove table borders
@@ -143,6 +143,24 @@ def combine_to_word_pretty(json_file: Path, output_folder: Path):
         summary = strip_quotes(item.get('summary', 'No summary available'))
         summary_cell.text = summary
         set_paragraph_format(summary_cell.paragraphs[0], 'Summary')
+
+        # Add people entities
+        people_cell = table.cell(0, 3)
+        people = ', '.join(ent['text'] for ent in item.get('entities', []) if ent['label'] == 'PER')
+        people_cell.text = people
+        set_paragraph_format(people_cell.paragraphs[0], 'Summary')
+
+        # Add locations entities
+        locations_cell = table.cell(0, 4)
+        locations = ', '.join(ent['text'] for ent in item.get('entities', []) if ent['label'] == 'LOC')
+        locations_cell.text = locations
+        set_paragraph_format(locations_cell.paragraphs[0], 'Summary')
+
+        # Add organizations entities
+        orgs_cell = table.cell(0, 5)
+        orgs = ', '.join(ent['text'] for ent in item.get('entities', []) if ent['label'] == 'ORG')
+        orgs_cell.text = orgs
+        set_paragraph_format(orgs_cell.paragraphs[0], 'Summary')
 
     for stem, doc in doc_dict.items():
         output_file = output_folder / f"{stem[:-1]}.docx"
