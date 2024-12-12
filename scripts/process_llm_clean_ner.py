@@ -9,62 +9,65 @@ from langchain_core.output_parsers import StrOutputParser
 import json
 import yaml
 import pprint
+import logging
 
 app = typer.Typer()
 
+# Configure logging to write to a file
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s', filename='process_llm_clean_ner.log', filemode='w')
+
 def process_llm_clean_ner(
     json_file: Annotated[Path, typer.Argument(help="Path to the JSONL file", exists=True)],
-    llm_model: Annotated[str, typer.Argument(help="LLM model name")],
-    output_field: Annotated[str, typer.Argument(help="Field to store the LLM result")],
+    llm_model: Annotated[str, typer.Argument(help="LLM model name")]
 ):
-    data = list(srsly.read_jsonl(json_file))
-    out_file = json_file.with_stem(json_file.stem + f"_{output_field}")
+    data = list(srsly.read_jsonl(json_file))  # Read the JSONL file into a list of data items
     
-    if out_file.exists():
-        print(f"Output file {out_file} already exists. Skipping processing.")
-        return
-
-    processed_data = []
-
-    llm = ChatOllama(model=llm_model, format="json", num_ctx=8000, temperature=0)
-    prompt_template = PromptTemplate(template="Review the following named entities and consolidate them, check for accuracy, and add any missing dates:\n\n{text}\n\nEntities:\n{entities}", input_variables=["text", "entities"])
+    llm = ChatOllama(model=llm_model, format="json", num_ctx=4000, temperature=0)  # Reduce context size
+    prompt_template = PromptTemplate(
+        template="Review and correct the following named entities (PER, LOC, ORG) in the context of the original text. Return the corrected entities in JSON format:\n\nText: {text}\n\nEntities:\n{entities}",
+        input_variables=["text", "entities"]
+    )
 
     for idx, item in enumerate(track(data, description=f"Performing LLM NER cleaning...")):
-        if output_field in item:
-            processed_data.append(item)
+        if "cleaned_ner" in item:  # Skip re-cleaning if already cleaned
+            print(f"Skipping already cleaned item {idx}")
             continue
 
         text = item["text"]
         entities = yaml.dump(item["entities"])
         full_prompt = prompt_template.template.replace("{text}", text).replace("{entities}", entities)
-        print(f"Processing image: {item.get('image', 'No image field')}")
+        logging.info(f"Processing image: {item.get('image', 'No image field')}")
+        print(f"Processing item {idx}")
 
         prompt = prompt_template | llm | StrOutputParser()
         result = prompt.invoke({"text": text, "entities": entities})
 
         try:
-            processed_data_item = json.loads(result)
+            processed_data_item = json.loads(result)  # Parse the LLM result
+            old_entities = item["entities"]
+            new_entities = processed_data_item.get("entities", processed_data_item)
+            item["entities"] = new_entities  # Update the item with cleaned entities
+            logging.info(f"Old Entities: {old_entities}")
+            logging.info(f"New Entities: {new_entities}")
+            print(f"Updated entities for item {idx}")
         except json.JSONDecodeError:
-            processed_data_item = clean_invalid_json(result)
+            logging.error(f"Failed to parse JSON for item: {item.get('image', 'No image field')}")
+            print(f"Failed to parse JSON for item {idx}")
+            continue
 
-        item[output_field] = processed_data_item.get("entities", processed_data_item)
+        item["cleaned_ner"] = True  # Set the cleaned flag
         pprint.pprint(item)
 
-        processed_data.append(item)
-        srsly.write_jsonl(json_file.with_stem(json_file.stem + f"_{output_field}_progress"), processed_data)
+        # Save the updated data after processing each item
+        srsly.write_jsonl(json_file, data)
+        print(f"Saved updated data for item {idx}")
 
-    srsly.write_jsonl(out_file, processed_data)
-
-def clean_invalid_json(text):
-    llm = ChatOllama(model="llama3.1:8b", format="json", num_ctx=8000, temperature=0)
-    prompt_template = PromptTemplate(template=Path("/Users/dtubb/code/sergio-ficheo/prompts/cleaner.txt").read_text(), input_variables=["text"])
-    prompt = prompt_template | llm | StrOutputParser()
-    result = prompt.invoke({"text": text})
-    
-    try:
-        return json.loads(result)
-    except json.JSONDecodeError:
-        return {}
+@app.command()
+def main(
+    json_file: Path = typer.Argument(..., help="Path to the JSONL file"),
+    llm_model: str = typer.Argument(..., help="LLM model name")
+):
+    process_llm_clean_ner(json_file, llm_model)
 
 if __name__ == "__main__":
-    typer.run(process_llm_clean_ner)
+    typer.run(main)

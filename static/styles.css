@@ -5,14 +5,14 @@
 }
 
 .openseadragon {
-    flex: 0 0 50%; /* Fixed width of 50% */
+    flex: 0 0 75%; /* Fixed width of 75% */
     padding: 0;
     overflow: hidden;
     position: fixed; /* Make the image fixed */
     top: 0;
     left: 0;
     height: 100vh; /* Full height */
-    width: 50vw; /* Fixed width of 50% */
+    width: 75vw; /* Fixed width of 75% */
     background-color: black; /* Black background */
 }
 
@@ -21,9 +21,9 @@
     padding: 25px; /* Adjusted padding to 25px */
     overflow-y: auto; /* Allow text to scroll */
     height: 100vh; /* Full height */
-    width: 50vw; /* Fixed width of 50% */
+    width: 25vw; /* Fixed width of 25% */
     box-sizing: border-box; /* Include padding in the element's total width and height */
-    margin-left: 50vw; /* Move content to the right */
+    margin-left: 75vw; /* Move content to the right */
 }
 
 .openseadragon-container .navigator {

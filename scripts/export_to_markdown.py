@@ -23,7 +23,8 @@ def clean_entities(entities, label, doc_name):
 def sanitize_filename(name):
     # Remove invalid characters and limit length
     name = re.sub(r'[^\w\s-]', '_', name)
-    return name[:100]
+    name = name[:100]
+    return name  # Do not URL-encode the filename
 
 def export_to_markdown(json_file: Path, output_folder: Path, image_folder: Path, adjusted_image_folder: Path):
     if not output_folder.exists():

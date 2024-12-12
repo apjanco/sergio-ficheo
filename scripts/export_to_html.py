@@ -27,7 +27,8 @@ def clean_entities(entities, label, doc_name):
 def sanitize_filename(name):
     # Remove invalid characters and limit length
     name = re.sub(r'[^\w\s-]', '_', name)
-    return name[:100]
+    name = name[:100]
+    return name  # Do not URL-encode the filename
 
 def export_to_html(json_file: Path, output_folder: Path, image_folder: Path, adjusted_image_folder: Path):
     if not output_folder.exists():
@@ -62,12 +63,12 @@ def export_to_html(json_file: Path, output_folder: Path, image_folder: Path, adj
                 <script src="scripts.js"></script>
             </head>
             <body>
-                <div>
-                    {prev_page} {next_page}
-                </div>
                 <div class="container">
                     <div id="fmb-image" class="openseadragon"></div>
                     <div class="content">
+                        <div>
+                            {prev_page} {next_page}
+                        </div>
                         <h1>{item.get('image', 'No image available')}</h1>
                         <h2>Original Text</h2>{convert_newlines_to_paragraphs(strip_quotes(item.get('text', 'No original text available')))}
                         <h2>Cleaned Text</h2>{convert_newlines_to_paragraphs(strip_quotes(item.get('cleaned_text', 'No cleaned text available')))}
