@@ -17,7 +17,7 @@ vars:
   language: "es"
   text_direction: 'horizontal-lr' #['horizontal-lr', 'horizontal-rl', 'vertical-lr', 'vertical-rl']
   version: "0.0.0"
-  project_folder: "sergio_notebooks" # Change this to run on different folders
+  project_folder: "ghc" # Change this to run on different folders
   image_folder: "${vars.exported_data_folder}/images"
   metadata_file: "${vars.project_folder}/assets/Base_de_datos_Cuadernos_Sergio_Notaría_Primera_de_Quibdó_(1808-1825).xlsx"
   split_image_folder: "${vars.project_folder}/assets/splits"
@@ -62,10 +62,10 @@ workflows:
     - fuzzy_clean
     - process_json
     - process_ner
-    - process_llm_clean
+    - process_llm_clean_ner
+    - process_ner_fuzzy
     - process_llm_translate
     - process_llm_summarize
-    - process_llm_clean_ner
     - combine_to_word
     - combine_to_word_pretty
     - export_to_excel
@@ -74,6 +74,11 @@ workflows:
     - dataset
     - publish
     # - remove_background
+
+  process_and_clean_ner:
+    - process_ner
+    - process_llm_clean_ner
+    - process_ner_fuzzy
 
   all-no-metadata:
     - crop
@@ -86,10 +91,10 @@ workflows:
     - fuzzy_clean
     - process_json
     - process_ner
-    - process_llm_clean
+    - process_llm_clean_ner
+    - process_ner_fuzzy
     - process_llm_translate
     - process_llm_summarize
-    - process_llm_clean_ner
     - combine_to_word
     - combine_to_word_pretty
     - export_to_excel
@@ -105,10 +110,10 @@ workflows:
     - fuzzy_clean
     - process_json
     - process_ner
-    - process_llm_clean
+    - process_llm_clean_ner
+    - process_ner_fuzzy
     - process_llm_translate
     - process_llm_summarize
-    - process_llm_clean_ner
     - combine_to_word
     - combine_to_word_pretty
     - export_to_excel
@@ -117,7 +122,7 @@ workflows:
     - dataset
     - publish
 
-  combine_to_word_only:
+  export_only:
     - combine_to_word
     - combine_to_word_pretty
     - export_to_excel
@@ -219,28 +224,35 @@ commands:
   - name: process_llm_translate
     help: "Perform LLM processing on the JSONL file (Translate)"
     script:
-      - "python scripts/process_llm_translate.py ${vars.data_folder}/data_ner.jsonl ${vars.llm_model} english_translation"
+      - "python scripts/process_llm_translate.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.llm_model} english_translation"
     outputs:
       - ${vars.data_folder}/data_ner.jsonl
 
   - name: process_llm_summarize
     help: "Perform LLM processing on the JSONL file (Summarize)"
     script:
-      - "python scripts/process_llm_summarize.py ${vars.data_folder}/data_ner.jsonl ${vars.llm_model} summary"
+      - "python scripts/process_llm_summarize.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.llm_model} summary"
     outputs:
       - ${vars.data_folder}/data_ner.jsonl
 
   - name: process_llm_clean_ner
     help: "Perform LLM processing on the JSONL file (Clean NER)"
     script:
-      - "python scripts/process_llm_clean_ner.py ${vars.data_folder}/data_ner.jsonl ${vars.llm_model} cleaned_ner"
+      - "python scripts/process_llm_clean_ner.py ${vars.data_folder}/data_ner.jsonl ${vars.llm_model}"
     outputs:
       - ${vars.data_folder}/data_ner.jsonl
+
+  - name: process_ner_fuzzy
+    help: "Perform fuzzy matching to clean NER data"
+    script:
+      - "python scripts/process_ner_fuzzy.py ${vars.data_folder}/data_ner.jsonl"
+    outputs:
+      - ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl
 
   - name: combine_to_word
     help: "Combine JSONL data and images into Word documents"
     script:
-      - "python scripts/combine_to_word.py ${vars.data_folder}/data_ner.jsonl ${vars.adjusted_image_folder} ${vars.word_folder}"
+      - "python scripts/combine_to_word.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.adjusted_image_folder} ${vars.word_folder}"
     outputs:
       - ${vars.word_folder}/SM_NPQ_C01.docx
       - ${vars.word_folder}/SM_NPQ_C02.docx
@@ -251,7 +263,7 @@ commands:
   - name: combine_to_word_pretty
     help: "Combine JSONL data into Word documents without images"
     script:
-      - "python scripts/combine_to_word_pretty.py ${vars.data_folder}/data_ner.jsonl ${vars.word_pretty_folder}"
+      - "python scripts/combine_to_word_pretty.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.word_pretty_folder}"
     outputs:
       - ${vars.word_pretty_folder}/SM_NPQ_C01.docx
       - ${vars.word_pretty_folder}/SM_NPQ_C02.docx
@@ -262,28 +274,28 @@ commands:
   - name: export_to_csv
     help: "Export JSONL data to CSV"
     script:
-      - "python scripts/export_to_csv.py ${vars.data_folder}/data_ner.jsonl ${vars.exported_data_folder}"
+      - "python scripts/export_to_csv.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.exported_data_folder}"
     outputs:
       - ${vars.exported_data_folder}/exported_data.csv
 
   - name: export_to_excel
     help: "Export JSONL data to Excel"
     script:
-      - "python scripts/export_to_excel.py ${vars.data_folder}/data_ner.jsonl ${vars.exported_data_folder}"
+      - "python scripts/export_to_excel.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.exported_data_folder}"
     outputs:
       - ${vars.exported_data_folder}/exported_data.xlsx
 
   - name: export_to_markdown
     help: "Export JSONL data to Markdown files"
     script:
-      - "python scripts/export_to_markdown.py ${vars.data_folder}/data_ner.jsonl ${vars.markdown_folder} ${vars.markdown_image_folder} ${vars.adjusted_image_folder}"
+      - "python scripts/export_to_markdown.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.markdown_folder} ${vars.markdown_image_folder} ${vars.adjusted_image_folder}"
     outputs:
       - ${vars.markdown_folder}/
 
   - name: export_to_html
     help: "Export JSONL data to HTML files"
     script:
-      - "python scripts/export_to_html.py ${vars.data_folder}/data_ner.jsonl ${vars.html_folder} ${vars.html_image_folder} ${vars.adjusted_image_folder}"
+      - "python scripts/export_to_html.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.html_folder} ${vars.html_image_folder} ${vars.adjusted_image_folder}"
     outputs:
       - ${vars.html_folder}/
 
