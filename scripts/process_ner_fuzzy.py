@@ -5,6 +5,7 @@ from rich.progress import track
 from typing_extensions import Annotated
 from fuzzywuzzy import fuzz, process
 import logging
+from collections import Counter
 
 app = typer.Typer()
 
@@ -21,11 +22,17 @@ def fuzzy_clean_ner(json_file: Annotated[Path, typer.Argument(help="Path to the 
     logging.info(f"Loaded {len(data)} records from {json_file}")
 
     # Separate entities by type
-    entities_by_type = {'PER': [], 'LOC': [], 'ORG': [], 'MISC': []}
+    entities_by_type = {}
     for item in data:
-        for ent in item["entities"]:
-            if ent["label"] in entities_by_type:
-                entities_by_type[ent["label"]].append(ent["text"])
+        entities = item["entities"]
+        if isinstance(entities, dict) and "Entities" in entities:
+            entities = entities["Entities"]
+        for ent in entities:
+            if isinstance(ent, dict) and "label" in ent:
+                entity_type = ent["label"]
+                if entity_type not in entities_by_type:
+                    entities_by_type[entity_type] = []
+                entities_by_type[entity_type].append(ent["text"])
 
     # Perform fuzzy matching to group similar entity names within each type
     matched_entities = {}
@@ -45,14 +52,27 @@ def fuzzy_clean_ner(json_file: Annotated[Path, typer.Argument(help="Path to the 
 
     # Replace similar entity names with the most frequent one within each type
     for item in data:
-        for ent in item["entities"]:
-            entity_type = ent["label"]
-            for key, values in matched_entities[entity_type].items():
-                if ent["text"] in values:
-                    ent["text"] = key
-                    break
+        entities = item["entities"]
+        if isinstance(entities, dict) and "Entities" in entities:
+            entities = entities["Entities"]
+        seen_texts = set()
+        for ent in entities:
+            if isinstance(ent, dict) and "label" in ent:
+                entity_type = ent["label"]
+                if entity_type in matched_entities:
+                    for key, values in matched_entities[entity_type].items():
+                        if ent["text"] in values:
+                            ent["text"] = key
+                            break
+                # Correct capitalization
+                ent["text"] = ent["text"].title()
+                # Remove duplicates within each entity list
+                if ent["text"] in seen_texts:
+                    entities.remove(ent)
+                else:
+                    seen_texts.add(ent["text"])
 
-    logging.info("Replaced similar entity names with the most frequent one")
+    logging.info("Replaced similar entity names with the most frequent one, corrected capitalization, and removed duplicates")
 
     # Save the cleaned data with NER to a new JSONL file
     out_file = json_file.with_name("data_ner_fuzzy_cleaned.jsonl")

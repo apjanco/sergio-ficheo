@@ -122,7 +122,7 @@ workflows:
     - dataset
     - publish
 
-  export_only:
+  export_all:
     - combine_to_word
     - combine_to_word_pretty
     - export_to_excel

@@ -18,7 +18,9 @@ label_map = {
 def clean_entities(entities, label, doc_name):
     if label not in label_map:
         return ''  # Skip unknown labels
-    return '\n'.join(f"[[/{label_map[label]}/{sanitize_filename(ent['text'])}]]" for ent in entities if ent['label'] == label)
+    if isinstance(entities, dict):
+        entities = entities.get('Entities', [])
+    return '\n'.join(f"[[/{label_map[label]}/{sanitize_filename(ent['text'])}]]" for ent in entities if 'label' in ent and ent['label'] == label)
 
 def sanitize_filename(name):
     # Remove invalid characters and limit length
@@ -58,8 +60,11 @@ def export_to_markdown(json_file: Path, output_folder: Path, image_folder: Path,
         print(f"Markdown file saved as {file_path}")
 
         # Collect entity mentions
-        for ent in item.get('entities', []):
-            if ent['label'] not in label_map:
+        entities = item.get('entities', [])
+        if isinstance(entities, dict):
+            entities = entities.get('Entities', [])
+        for ent in entities:
+            if 'label' not in ent or ent['label'] not in label_map:
                 continue  # Skip unknown labels
             entity_label = label_map[ent['label']]
             entity_text = sanitize_filename(ent['text'].replace(chr(10), ' '))
