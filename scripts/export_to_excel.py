@@ -12,7 +12,9 @@ def strip_quotes(text):
     return text.strip().strip('"')
 
 def clean_entities(entities, label):
-    return '; '.join(ent['text'].replace('\n', ' ') for ent in entities if ent['label'] == label)
+    if isinstance(entities, dict):
+        entities = entities.get('Entities', [])
+    return '; '.join(ent['text'].replace('\n', ' ') for ent in entities if 'label' in ent and ent['label'] == label)
 
 def export_to_excel(json_file: Path, output_folder: Path):
     if not output_folder.exists():

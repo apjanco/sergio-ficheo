@@ -46,6 +46,8 @@ def process_llm_clean_ner(
             processed_data_item = json.loads(result)  # Parse the LLM result
             old_entities = item["entities"]
             new_entities = processed_data_item.get("entities", processed_data_item)
+            if isinstance(new_entities, list):
+                new_entities = {"Entities": new_entities}
             item["entities"] = new_entities  # Update the item with cleaned entities
             logging.info(f"Old Entities: {old_entities}")
             logging.info(f"New Entities: {new_entities}")
