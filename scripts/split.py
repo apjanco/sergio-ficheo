@@ -31,6 +31,17 @@ def should_split_image(image_path):
         return True
     return False
 
+def is_large_image(image_path, threshold_area=2000000):
+    img = cv2.imread(str(image_path), cv2.IMREAD_GRAYSCALE)
+    height, width = img.shape
+    area = width * height
+    console.print(f"Image: {image_path}, Area: {area}")
+
+    # Check if the image area is significantly larger than typical single-page documents
+    if area > threshold_area:
+        return True
+    return False
+
 def find_spiral_binding(image_path):
     img = cv2.imread(str(image_path), cv2.IMREAD_GRAYSCALE)
     edges = cv2.Canny(img, 50, 150, apertureSize=3)
@@ -145,7 +156,7 @@ def split(
                 console.print(f"Skipping existing image: {output_path}")
                 continue
             if image.name in skip or skip_split or not should_split_image(image) or not find_spiral_binding(image) or not has_clear_separation(image):
-                if should_split_image(image):  # Perform OCR text block detection only if the aspect ratio is right
+                if should_split_image(image) or (should_split_image(image) and is_large_image(image)):  # Perform OCR text block detection only if the aspect ratio is right or the image is large
                     text_blocks = ocr_detect_text_blocks(image)
                     left, right = split_based_on_text_blocks(image, text_blocks)
                     if left and right:
