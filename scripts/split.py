@@ -27,7 +27,7 @@ def should_split_image(image_path):
     console.print(f"Image: {image_path}, Aspect Ratio: {aspect_ratio}")
 
     # Assuming notebook pages have a wider aspect ratio compared to standard documents
-    if aspect_ratio > 1.2:  # Threshold to distinguish between notebook and document
+    if aspect_ratio > 1.2 and height > 1000 and width > 1000:  # Threshold to distinguish between notebook and document
         return True
     return False
 
@@ -92,9 +92,21 @@ def ocr_detect_text_blocks(image_path):
     for i in range(n_boxes):
         (x, y, w, h) = (d['left'][i], d['top'][i], d['width'][i], d['height'][i])
         text_blocks.append((x, y, w, h))
+    console.print(f"OCR detected text blocks for {image_path}: {text_blocks}")
     return text_blocks
 
-def split_based_on_text_blocks(image_path, text_blocks):
+def find_vertical_rectangles(image_path):
+    img = cv2.imread(str(image_path), cv2.IMREAD_GRAYSCALE)
+    _, thresh = cv2.threshold(img, 128, 255, cv2.THRESH_BINARY_INV)
+    contours, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    rectangles = []
+    for contour in contours:
+        x, y, w, h = cv2.boundingRect(contour)
+        if h > w and h > img.shape[0] * 0.5:  # Consider only tall rectangles
+            rectangles.append((x, y, w, h))
+    return rectangles
+
+def split_based_on_text_blocks_and_rectangles(image_path, text_blocks):
     img = Image.open(image_path)
     width, height = img.size
     center_line = width // 2
@@ -107,22 +119,40 @@ def split_based_on_text_blocks(image_path, text_blocks):
     right_text_area = sum(block[2] * block[3] for block in right_blocks)
     total_text_area = left_text_area + right_text_area
 
-    if left_text_area > 0.3 * total_text_area and right_text_area > 0.3 * total_text_area:
+    console.print(f"Left text area: {left_text_area}, Right text area: {right_text_area}, Total text area: {total_text_area}")
+
+    rectangles = find_vertical_rectangles(image_path)
+    if len(rectangles) == 2:
+        rect1, rect2 = rectangles
+        split_x = (rect1[0] + rect1[2] + rect2[0]) // 2
+        left = img.crop((0, 0, split_x, height))
+        right = img.crop((split_x, 0, width, height))
+        console.print(f"Splitting image at {split_x} based on detected rectangles.")
+        return left, right
+
+    if left_text_area > 0.05 * total_text_area or right_text_area > 0.05 * total_text_area:  # Adjusted threshold
         # Find the best location to split based on the gaps between text blocks
         split_x = center_line
         min_gap = float('inf')
         for block in text_blocks:
             block_center = block[0] + block[2] / 2
-            if center_line - 50 < block_center < center_line + 50:  # Consider blocks near the center line
+            if center_line - 100 < block_center < center_line + 100:  # Consider blocks near the center line
                 gap = abs(center_line - block_center)
                 if gap < min_gap:
                     min_gap = gap
                     split_x = int(block_center)
         
+        # Ensure the split is at the best place between the two text boxes or at 50% if it's close
+        if abs(split_x - center_line) < 50:
+            split_x = center_line
+        
         left = img.crop((0, 0, split_x, height))
         right = img.crop((split_x, 0, width, height))
+        console.print(f"Splitting image at {split_x} based on OCR text blocks.")
         return left, right
-    return None, None
+    else:
+        console.print(f"Not splitting image {image_path} due to insufficient text on one side.")
+        return None, None
 
 def split(
     collection_path: Path = typer.Argument(..., help="Path to the collections", exists=True),
@@ -158,14 +188,17 @@ def split(
             if image.name in skip or skip_split or not should_split_image(image) or not find_spiral_binding(image) or not has_clear_separation(image):
                 if should_split_image(image) or (should_split_image(image) and is_large_image(image)):  # Perform OCR text block detection only if the aspect ratio is right or the image is large
                     text_blocks = ocr_detect_text_blocks(image)
-                    left, right = split_based_on_text_blocks(image, text_blocks)
+                    left, right = split_based_on_text_blocks_and_rectangles(image, text_blocks)
                     if left and right:
+                        console.print(f"Splitting image {image.name} based on OCR text blocks and rectangles.")
                         left.save(out_dir / relative_path.parent / (relative_path.stem + "_left.jpg"))
                         right.save(out_dir / relative_path.parent / (relative_path.stem + "_right.jpg"))
                     else:
+                        console.print(f"Not splitting image {image.name} after OCR text block analysis.")
                         img = Image.open(image)
                         img.save(output_path)
                 else:
+                    console.print(f"Not splitting image {image.name} due to aspect ratio or size.")
                     img = Image.open(image)
                     img.save(output_path)
             else:
@@ -176,9 +209,11 @@ def split(
                     center_line = width // 2
                     left = img.crop((0, 0, center_line, height))
                     right = img.crop((center_line, 0, width, height))
+                    console.print(f"Splitting image {image.name} at center line {center_line} based on detected lines.")
                     left.save(out_dir / relative_path.parent / (relative_path.stem + "_left.jpg"))
                     right.save(out_dir / relative_path.parent / (relative_path.stem + "_right.jpg"))
                 else:
+                    console.print(f"Not splitting image {image.name} due to lack of detected lines.")
                     img = Image.open(image)
                     img.save(output_path)
         except (UnidentifiedImageError, ValueError) as e:

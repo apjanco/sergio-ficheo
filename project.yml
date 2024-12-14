@@ -53,7 +53,9 @@ workflows:
   all:
     - metadata
     - crop
+    - check_crop_and_copy  # New step added here
     - split
+    - check_split_and_copy  # Updated step name
     - rotate
     - adjust_image
     - chunk
@@ -82,7 +84,9 @@ workflows:
 
   all-no-metadata:
     - crop
+    - check_crop_and_copy  # New step added here
     - split
+    - check_split_and_copy  # Updated step name
     - rotate
     - adjust_image
     - chunk
@@ -144,10 +148,24 @@ commands:
     outputs:
       - ${vars.cropped_image_folder}
 
+  - name: check_crop_and_copy
+    help: "Check if cropped files are not created and copy the original image"
+    script:
+      - "python scripts/check_crop_and_copy.py ${vars.image_folder} ${vars.cropped_image_folder}"
+    outputs:
+      - ${vars.cropped_image_folder}
+
   - name: split
     help: "Split the images into single-page images for processing. Remove ruler from image"
     script:
       - "python scripts/split.py ${vars.cropped_image_folder} ${vars.split_image_folder}"
+    outputs:
+      - ${vars.split_image_folder}
+
+  - name: check_split_and_copy
+    help: "Check if split files are not created and copy the original image"
+    script:
+      - "python scripts/check_split_and_copy.py ${vars.cropped_image_folder} ${vars.split_image_folder}"
     outputs:
       - ${vars.split_image_folder}
 
