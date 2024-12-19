@@ -7,6 +7,7 @@ import numpy as np
 import cv2
 from pdf2image import convert_from_path
 import re
+import os  # Add this import
 
 console = Console()
 
@@ -97,19 +98,29 @@ def contour_crop_images(
     collection_path: Path = typer.Argument(..., help="Path to the folder containing files", exists=True),
     out_dir: Path = typer.Argument(..., help="Output directory to save the cropped images")
 ):
+    collection_path = collection_path.resolve()  # Remove strict=True to handle symlinks across drives
+    out_dir = out_dir.resolve()  # Remove strict=True to handle symlinks across drives
+
     if not out_dir.exists():
         out_dir.mkdir(parents=True, exist_ok=True)
 
-    # Process PDF files first
-    pdf_files = sorted(collection_path.glob("**/*.[pP][dD][fF]"), key=natural_sort_key)
+    # Process PDF files first using os.walk
+    pdf_files = []
+    for root, dirs, files in os.walk(collection_path, followlinks=True):
+        for file in files:
+            if file.lower().endswith('.pdf'):
+                pdf_files.append(Path(root) / file)
+    pdf_files = sorted(pdf_files, key=natural_sort_key)
     for pdf_file in pdf_files:
         split_and_crop_pdf(pdf_file, out_dir)
 
-    # Process all image files
+    # Process all image files using os.walk
     image_extensions = ["*.jpg", "*.jpeg", "*.tif", "*.tiff", "*.png"]
     images = []
-    for ext in image_extensions:
-        images.extend(collection_path.glob(f"**/{ext}"))
+    for root, dirs, files in os.walk(collection_path, followlinks=True):
+        for file in files:
+            if any(file.lower().endswith(ext[1:]) for ext in image_extensions):
+                images.append(Path(root) / file)
     images = sorted(images, key=natural_sort_key)
 
     if not images:
