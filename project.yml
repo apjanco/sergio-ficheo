@@ -17,7 +17,7 @@ vars:
   language: "es"
   text_direction: 'horizontal-lr' #['horizontal-lr', 'horizontal-rl', 'vertical-lr', 'vertical-rl']
   version: "0.0.0"
-  project_folder: "projects/demo" # Change this to run on different folders
+  project_folder: "/Volumes/Fichero/projects/choco_atlas" # Change this to run on different folders
   image_folder: "${vars.project_folder}/images"
   metadata_file: "${vars.project_folder}/assets/Base_de_datos_Cuadernos_Sergio_Notaría_Primera_de_Quibdó_(1808-1825).xlsx"
   split_image_folder: "${vars.project_folder}/assets/splits"
@@ -76,6 +76,10 @@ workflows:
     - dataset
     - publish
     # - remove_background
+
+  prepare:
+    - crop
+
 
   process_and_clean_ner:
     - process_ner
