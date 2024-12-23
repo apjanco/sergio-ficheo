@@ -79,7 +79,11 @@ workflows:
 
   prepare:
     - crop
-
+    - check_crop_and_copy  # New step added here
+    - split
+    - check_split_and_copy  # Updated step name
+    - rotate
+    - adjust_image
 
   process_and_clean_ner:
     - process_ner
