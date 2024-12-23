@@ -1,7 +1,7 @@
 import typer
 from PIL import Image, UnidentifiedImageError
 from pathlib import Path
-from rich.progress import track
+from rich.progress import track, Progress, SpinnerColumn, TextColumn, BarColumn, TaskProgressColumn
 from rich.console import Console
 import numpy as np
 import cv2
@@ -84,28 +84,70 @@ def contour_crop(image: Image.Image, blur_kernel=(3, 3), canny_threshold1=50, ca
     console.print("[red]No suitable contours found, returning original image.")
     return image
 
-def split_and_crop_pdf(pdf_path: Path, out_dir: Path):
+def split_and_crop_pdf(pdf_path: Path, out_dir: Path, collection_path: Path, progress=None):
     try:
-        relative_path = pdf_path.relative_to(pdf_path.parent.parent)
-    except ValueError:
-        relative_path = Path(*pdf_path.parts[len(pdf_path.parent.parent.parts):])
-    
-    # Keep _pdf suffix but remove appendix subfolder
-    output_dir = out_dir / relative_path.parent / f"{relative_path.stem}_pdf"
-    if not output_dir.exists():
+        # Keep the relative path structure
+        relative_path = pdf_path.relative_to(collection_path)
+        output_dir = out_dir / relative_path.parent / f"{pdf_path.stem}_pdf"
         output_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Check if any pages exist already
+        existing_pages = list(output_dir.glob(f"{pdf_path.stem}_page_*.jpg"))
+        if existing_pages:
+            console.print(f"[yellow]Skipping PDF with existing pages: {pdf_path.name}")
+            return
+        
+        console.print(f"[blue]Converting PDF: {pdf_path}")
+        images = convert_from_path(pdf_path, dpi=300)
+        
+        for i, image in enumerate(images):
+            image_path = output_dir / f"{pdf_path.stem}_page_{i + 1}.jpg"
+            if image_path.exists():
+                console.print(f"[yellow]Skipping existing: {image_path.name}")
+                continue
+                
+            cropped_img = contour_crop(image)
+            cropped_img.save(image_path, "jpeg", quality=100)
+            if progress:
+                progress.console.print(f"[green]Saved: {image_path.name}")
+    except Exception as e:
+        console.print(f"[red]Error processing PDF {pdf_path}: {e}")
 
-    # Rest of the function remains the same
-    images = convert_from_path(pdf_path, dpi=300)
-    for i, image in enumerate(images):
-        image_path = output_dir / f"{pdf_path.stem}_page_{i + 1}.jpg"
-        if image_path.exists():
-            console.print(f"Skipping existing image: {image_path}")
-            continue
-        console.print(f"Processing page {i + 1} of {pdf_path.name}")
-        cropped_img = contour_crop(image)
-        cropped_img.save(image_path, "jpeg", quality=100)  # Save with maximum quality
-        console.print(f"Saved cropped image: {image_path}")
+def find_files(path: Path, out_dir: Path):
+    """Generator that yields files from directories in sorted order"""
+    try:
+        # Get and sort immediate subdirectories
+        subdirs = sorted([d for d in path.iterdir() if d.is_dir() and not d.resolve().is_relative_to(out_dir)],
+                        key=lambda x: natural_sort_key(x.name))
+        
+        # Add the base directory if it contains files
+        if any(f.is_file() for f in path.iterdir()):
+            subdirs.insert(0, path)
+        
+        # Process each directory
+        for current_dir in subdirs:
+            console.print(f"[blue]Processing directory: {current_dir}")
+            
+            # Get and sort all files in current directory
+            files = []
+            for item in current_dir.iterdir():
+                if item.is_file():
+                    if item.suffix.lower() == '.pdf':
+                        files.append(('pdf', item))
+                    elif item.suffix.lower() in ('.jpg', '.jpeg', '.tif', '.tiff', '.png'):
+                        files.append(('image', item))
+            
+            # Sort files by name and yield them
+            for file_type, file_path in sorted(files, key=lambda x: natural_sort_key(x[1].name)):
+                yield (file_type, file_path)
+
+            # Recursively process subdirectories of current directory
+            if current_dir != path:  # Avoid infinite recursion
+                for item in find_files(current_dir, out_dir):
+                    yield item
+                    
+    except PermissionError as e:
+        console.print(f"[red]Permission denied accessing {path}: {e}")
 
 def contour_crop_images(
     collection_path: Path = typer.Argument(..., help="Path to the folder containing files", exists=True),
@@ -117,92 +159,46 @@ def contour_crop_images(
     if not out_dir.exists():
         out_dir.mkdir(parents=True, exist_ok=True)
 
-    # Get all directories and sort them naturally
-    all_dirs = []
-    for root, dirs, _ in os.walk(collection_path, followlinks=True):
-        root_path = Path(root)
-        # Sort directories naturally
-        dirs.sort(key=natural_sort_key)
-        all_dirs.append(root_path)
-    
-    # Sort all directories naturally
-    all_dirs.sort(key=natural_sort_key)
+    with Progress(
+        SpinnerColumn(),
+        TextColumn("[progress.description]{task.description}"),
+        BarColumn(complete_style="cyan"),
+        TaskProgressColumn(),
+        console=console
+    ) as progress:
+        pdf_count = 0
+        image_count = 0
+        current_task = progress.add_task("[cyan]Processing files...", total=None)
 
-    # Process each directory in sorted order
-    for dir_path in all_dirs:
-        # Process PDFs
-        pdf_files = sorted([f for f in os.listdir(dir_path) if f.lower().endswith('.pdf')], 
-                         key=natural_sort_key)
-        for pdf_file in pdf_files:
-            pdf_path = dir_path / pdf_file
-            split_and_crop_pdf(pdf_path, out_dir)
-
-        # Process images
-        image_files = [f for f in os.listdir(dir_path) 
-                      if any(f.lower().endswith(ext) 
-                            for ext in ('.jpg', '.jpeg', '.tif', '.tiff', '.png'))]
-        image_files.sort(key=natural_sort_key)
-        
-        for image_file in image_files:
-            image_path = dir_path / image_file
+        for file_type, file_path in find_files(collection_path, out_dir):
             try:
-                relative_path = image_path.relative_to(collection_path)
-                # Keep _pdf suffix but remove appendix subfolder
-                output_path = out_dir / relative_path.parent / f"{relative_path.stem}_pdf.jpg"
-                
-                # Ensure output directory exists
-                output_path.parent.mkdir(parents=True, exist_ok=True)
-                
-                if output_path.exists():
-                    console.print(f"Skipping existing image: {output_path}")
-                    continue
+                if file_type == 'pdf':
+                    progress.update(current_task, description=f"[cyan]Processing PDF: {file_path.name}")
+                    split_and_crop_pdf(file_path, out_dir, collection_path, progress)
+                    pdf_count += 1
+                else:
+                    progress.update(current_task, description=f"[green]Processing image: {file_path.name}")
+                    relative_path = file_path.relative_to(collection_path)
+                    # Keep original name for non-PDF images
+                    output_path = out_dir / relative_path.parent / f"{relative_path.stem}.jpg"
+                    output_path.parent.mkdir(parents=True, exist_ok=True)
+                    
+                    if output_path.exists():
+                        console.print(f"[yellow]Skipping existing: {output_path.name}")
+                        continue
 
-                img = Image.open(image_path)
-                if img.size == (0, 0):
-                    raise ValueError("Empty image")
-                cropped_img = contour_crop(img)
-                cropped_img.save(output_path, "jpeg", quality=100)
-                console.print(f"Saved: {output_path}")
+                    img = Image.open(file_path)
+                    if img.size == (0, 0):
+                        raise ValueError("Empty image")
+                    cropped_img = contour_crop(img)
+                    cropped_img.save(output_path, "jpeg", quality=100)
+                    image_count += 1
             except (UnidentifiedImageError, ValueError) as e:
-                console.print(f"Skipping {image_file}: {e}")
+                console.print(f"[red]Error processing {file_path.name}: {e}")
 
-    cropped_count = 0
-    skipped_count = 0
-
-    for image in track(images, description="Cropping images..."):
-        try:
-            # Calculate relative path from collection_path to maintain folder structure
-            try:
-                relative_path = image.relative_to(collection_path)
-            except ValueError:
-                # If relative_to fails, use the full path structure
-                relative_path = Path(*image.parts[len(collection_path.parts):])
-            
-            # Keep _pdf suffix but remove appendix subfolder
-            output_path = out_dir / relative_path.parent / f"{relative_path.stem}_pdf.jpg"
-            
-            # Ensure output directory exists
-            output_path.parent.mkdir(parents=True, exist_ok=True)
-            
-            if output_path.exists():
-                console.print(f"Skipping existing image: {output_path}")
-                skipped_count += 1
-                continue
-
-            img = Image.open(image)
-            if img.size == (0, 0):
-                raise ValueError("Empty image")
-            cropped_img = contour_crop(img)
-            cropped_img.save(output_path, "jpeg", quality=100)
-            cropped_count += 1
-            console.print(f"Saved: {output_path}")
-        except (UnidentifiedImageError, ValueError) as e:
-            console.print(f"Skipping {image.name}: {e}")
-            skipped_count += 1
-
-    console.print(f"[green]Cropping completed. Total images processed: {len(images)}")
-    console.print(f"[green]Images cropped: {cropped_count}")
-    console.print(f"[yellow]Images skipped: {skipped_count}")
+    console.print("[green]Processing completed!")
+    console.print(f"[green]Total PDFs processed: {pdf_count}")
+    console.print(f"[green]Total images processed: {image_count}")
 
 if __name__ == "__main__":
     typer.run(contour_crop_images)
