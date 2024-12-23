@@ -18,6 +18,7 @@ vars:
   text_direction: 'horizontal-lr' #['horizontal-lr', 'horizontal-rl', 'vertical-lr', 'vertical-rl']
   version: "0.0.0"
   project_folder: "/Volumes/Fichero/projects/choco_atlas" # Change this to run on different folders
+  # project_folder: "projects/demo" # Change this to run on different folders
   image_folder: "${vars.project_folder}/images"
   metadata_file: "${vars.project_folder}/assets/Base_de_datos_Cuadernos_Sergio_Notaría_Primera_de_Quibdó_(1808-1825).xlsx"
   split_image_folder: "${vars.project_folder}/assets/splits"
@@ -31,8 +32,6 @@ vars:
   dataset_name: "fmb-quibdo/sergio-notebooks"
   adjusted_image_folder: "${vars.project_folder}/assets/adjusted"
   chunked_image_folder: "${vars.project_folder}/assets/chunks"
-  num_chunks: 4
-  overlap_percentage: 10
   transcribed_chunks_folder: "${vars.project_folder}/assets/txt_chunks"
   prompt: "Extract all text line by line. Do not number lines. RETURN ONLY PLAIN TEXT. SAY NOTHING ELSE"
   recombined_folder: "${vars.project_folder}/assets/recombined"
@@ -46,6 +45,7 @@ vars:
   html_folder: "${vars.exported_data_folder}/html"
   markdown_image_folder: "${vars.markdown_folder}/images"
   html_image_folder: "${vars.html_folder}/images"
+  auto_chunk: false  # Turn off auto chunking
 
 directories: ["${vars.project_folder}/assets", "configs", "scripts","_site","_templates","prompts", "pipelines", "packages", "${vars.word_folder}", "${vars.exported_data_folder}", "${vars.markdown_folder}", "${vars.html_folder}", "${vars.markdown_image_folder}", "${vars.html_image_folder}", "${vars.image_folder}"]
 
@@ -85,6 +85,12 @@ workflows:
     - rotate
     - adjust_image
 
+  chunk_and_transcribe:
+    - chunk
+    - transcribe
+    - recombine_chunks
+    - fuzzy_clean
+    
   process_and_clean_ner:
     - process_ner
     - process_llm_clean_ner
@@ -199,9 +205,9 @@ commands:
       - ${vars.adjusted_image_folder}
 
   - name: chunk
-    help: "Chunk the images into subfolders based on the file name of the image."
+    help: "Chunk the images adaptively based on content"
     script:
-      - "python scripts/chunk.py ${vars.adjusted_image_folder} ${vars.chunked_image_folder} --num-chunks ${vars.num_chunks} --overlap-percentage ${vars.overlap_percentage}"
+      - "python scripts/chunk.py ${vars.adjusted_image_folder} ${vars.chunked_image_folder}"
     outputs:
       - ${vars.chunked_image_folder}
 

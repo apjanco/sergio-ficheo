@@ -78,13 +78,13 @@ def process_images(
                 continue
             if image.name in skip:
                 img = Image.open(image)
-                img.save(output_path)
+                img.save(output_path, quality=100)
             else:
                 img = Image.open(image)
                 if img.size == (0, 0):
                     raise ValueError("Empty image")
                 adjusted_img = adjust_image(img)
-                adjusted_img.save(output_path)
+                adjusted_img.save(output_path, quality=100)
         except (UnidentifiedImageError, ValueError) as e:
             console.print(f"Skipping {image.name}: {e}")
 

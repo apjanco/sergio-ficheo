@@ -191,16 +191,16 @@ def split(
                     left, right = split_based_on_text_blocks_and_rectangles(image, text_blocks)
                     if left and right:
                         console.print(f"Splitting image {image.name} based on OCR text blocks and rectangles.")
-                        left.save(out_dir / relative_path.parent / (relative_path.stem + "_left.jpg"))
-                        right.save(out_dir / relative_path.parent / (relative_path.stem + "_right.jpg"))
+                        left.save(out_dir / relative_path.parent / (relative_path.stem + "_left.jpg"), quality=100)
+                        right.save(out_dir / relative_path.parent / (relative_path.stem + "_right.jpg"), quality=100)
                     else:
                         console.print(f"Not splitting image {image.name} after OCR text block analysis.")
                         img = Image.open(image)
-                        img.save(output_path)
+                        img.save(output_path, quality=100)
                 else:
                     console.print(f"Not splitting image {image.name} due to aspect ratio or size.")
                     img = Image.open(image)
-                    img.save(output_path)
+                    img.save(output_path, quality=100)
             else:
                 lines = detect_lines(image)
                 if lines is not None:
@@ -210,12 +210,12 @@ def split(
                     left = img.crop((0, 0, center_line, height))
                     right = img.crop((center_line, 0, width, height))
                     console.print(f"Splitting image {image.name} at center line {center_line} based on detected lines.")
-                    left.save(out_dir / relative_path.parent / (relative_path.stem + "_left.jpg"))
-                    right.save(out_dir / relative_path.parent / (relative_path.stem + "_right.jpg"))
+                    left.save(out_dir / relative_path.parent / (relative_path.stem + "_left.jpg"), quality=100)
+                    right.save(out_dir / relative_path.parent / (relative_path.stem + "_right.jpg"), quality=100)
                 else:
                     console.print(f"Not splitting image {image.name} due to lack of detected lines.")
                     img = Image.open(image)
-                    img.save(output_path)
+                    img.save(output_path, quality=100)
         except (UnidentifiedImageError, ValueError) as e:
             console.print(f"Skipping {image.name}: {e}")
 

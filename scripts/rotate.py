@@ -68,10 +68,10 @@ def rotate_images(
                 continue
             img = Image.open(image)
             if image.name in skip:
-                img.save(output_path)
+                img.save(output_path, quality=100)
             else:
                 rotated_img = hough_line_rotate(img)
-                rotated_img.save(output_path)
+                rotated_img.save(output_path, quality=100)
         except (UnidentifiedImageError, ValueError) as e:
             console.print(f"Skipping {image.name}: {e}")
 
