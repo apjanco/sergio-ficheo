@@ -12,25 +12,21 @@ def process_file(
     file_types: dict = None
 ) -> dict:
     """Generic file processor with robust error handling"""
-    file_path = Path(file_path)
+    file_path = Path(file_path)  # Ensure file_path is a Path object
     
-    # Extract just the relative path without project structure
+    # Always preserve the input path structure but remove any 'documents' prefix
     parts = file_path.parts
     if 'documents' in parts:
-        # Get everything after 'documents'
         rel_path = Path(*parts[parts.index('documents') + 1:])
     else:
-        # Fallback to just the filename if no 'documents' in path
-        rel_path = file_path.name
+        rel_path = file_path
     
     # Force .jpg extension for output path
-    rel_path = rel_path.with_suffix('.jpg')
-    # Create output path preserving structure
-    out_path = output_folder / "documents" / rel_path
+    out_path = output_folder / "documents" / rel_path.with_suffix('.jpg')
     
     manifest_entry = {
-        "source": str(file_path.relative_to(file_path.anchor)),  # Keep original source path
-        "outputs": [str(out_path.relative_to(output_folder))],  # Store relative output path with .jpg
+        "source": str(rel_path),  # Store just the relative path
+        "outputs": [str(rel_path.with_suffix('.jpg'))],  # Also just relative path
         "processed_at": datetime.now().isoformat(),
         "success": False,
         "details": {}
@@ -45,7 +41,7 @@ def process_file(
         
         out_path.parent.mkdir(parents=True, exist_ok=True)
         
-        # Always return manifest entry if file exists, but mark as skipped
+        # For skipped files, keep the expected output path
         if out_path.exists():
             manifest_entry.update({
                 "success": True,
@@ -56,6 +52,15 @@ def process_file(
         # Process only if file doesn't exist
         result = process_fn(file_path, out_path)
         if isinstance(result, dict):
+            # Clean up paths in result to remove documents/ prefix
+            if "outputs" in result:
+                cleaned_outputs = []
+                for output in result["outputs"]:
+                    output_path = Path(output)
+                    if "documents" in output_path.parts:
+                        output_path = Path(*output_path.parts[output_path.parts.index("documents") + 1:])
+                    cleaned_outputs.append(str(output_path))
+                result["outputs"] = cleaned_outputs
             manifest_entry.update(result)
         manifest_entry["success"] = True
             
