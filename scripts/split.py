@@ -1,17 +1,15 @@
 import typer
-from PIL import Image, ImageDraw, UnidentifiedImageError
+from PIL import Image
 from pathlib import Path
-from rich.progress import track
-from rich.console import Console
 import cv2
 import numpy as np
-import re
 import pytesseract
+from datetime import datetime
+from utils.batch import BatchProcessor
+from utils.processor import process_file
+from rich.console import Console
 
 console = Console()
-
-def natural_sort_key(s):
-    return [int(text) if text.isdigit() else text.lower() for text in re.split('([0-9]+)', str(s))]
 
 def remove_ruler(img):
     img1 = ImageDraw.Draw(img)
@@ -26,8 +24,7 @@ def should_split_image(image_path):
     aspect_ratio = width / height
     console.print(f"Image: {image_path}, Aspect Ratio: {aspect_ratio}")
 
-    # Assuming notebook pages have a wider aspect ratio compared to standard documents
-    if aspect_ratio > 1.2 and height > 1000 and width > 1000:  # Threshold to distinguish between notebook and document
+    if aspect_ratio > 1.2 and height > 1000 and width > 1000:
         return True
     return False
 
@@ -37,7 +34,6 @@ def is_large_image(image_path, threshold_area=2000000):
     area = width * height
     console.print(f"Image: {image_path}, Area: {area}")
 
-    # Check if the image area is significantly larger than typical single-page documents
     if area > threshold_area:
         return True
     return False
@@ -51,14 +47,14 @@ def find_spiral_binding(image_path):
         for line in lines:
             x1, y1, x2, y2 = line[0]
             angle = np.degrees(np.arctan2(y2 - y1, x2 - x1))
-            if -5 <= angle <= 5:  # Ensure the line is vertical
+            if -5 <= angle <= 5:
                 vertical_lines.append((x1, y1, x2, y2))
         
-        if len(vertical_lines) > 3:  # Check if there are enough vertical lines to form a spiral binding
-            vertical_lines.sort(key=lambda line: line[1])  # Sort lines by their y-coordinate
+        if len(vertical_lines) > 3:
+            vertical_lines.sort(key=lambda line: line[1])
             distances = [vertical_lines[i+1][1] - vertical_lines[i][1] for i in range(len(vertical_lines) - 1)]
             mean_distance = np.mean(distances)
-            if all(abs(dist - mean_distance) < 15 for dist in distances):  # Check if distances are consistent
+            if all(abs(dist - mean_distance) < 15 for dist in distances):
                 return True
     return False
 
@@ -67,12 +63,11 @@ def has_clear_separation(image_path):
     height, width = img.shape
     center_line = width // 2
 
-    # Check for a clear separation line in the middle
     left_half = img[:, :center_line]
     right_half = img[:, center_line:]
     left_mean = np.mean(left_half)
     right_mean = np.mean(right_half)
-    separation_threshold = 5  # Adjust this threshold based on your needs
+    separation_threshold = 5
 
     if abs(left_mean - right_mean) > separation_threshold:
         return True
@@ -102,7 +97,7 @@ def find_vertical_rectangles(image_path):
     rectangles = []
     for contour in contours:
         x, y, w, h = cv2.boundingRect(contour)
-        if h > w and h > img.shape[0] * 0.5:  # Consider only tall rectangles
+        if h > w and h > img.shape[0] * 0.5:
             rectangles.append((x, y, w, h))
     return rectangles
 
@@ -114,7 +109,6 @@ def split_based_on_text_blocks_and_rectangles(image_path, text_blocks):
     left_blocks = [block for block in text_blocks if block[0] + block[2] / 2 < center_line]
     right_blocks = [block for block in text_blocks if block[0] + block[2] / 2 >= center_line]
 
-    # Check if both sides have a significant amount of text
     left_text_area = sum(block[2] * block[3] for block in left_blocks)
     right_text_area = sum(block[2] * block[3] for block in right_blocks)
     total_text_area = left_text_area + right_text_area
@@ -130,19 +124,17 @@ def split_based_on_text_blocks_and_rectangles(image_path, text_blocks):
         console.print(f"Splitting image at {split_x} based on detected rectangles.")
         return left, right
 
-    if left_text_area > 0.05 * total_text_area or right_text_area > 0.05 * total_text_area:  # Adjusted threshold
-        # Find the best location to split based on the gaps between text blocks
+    if left_text_area > 0.05 * total_text_area or right_text_area > 0.05 * total_text_area:
         split_x = center_line
         min_gap = float('inf')
         for block in text_blocks:
             block_center = block[0] + block[2] / 2
-            if center_line - 100 < block_center < center_line + 100:  # Consider blocks near the center line
+            if center_line - 100 < block_center < center_line + 100:
                 gap = abs(center_line - block_center)
                 if gap < min_gap:
                     min_gap = gap
                     split_x = int(block_center)
         
-        # Ensure the split is at the best place between the two text boxes or at 50% if it's close
         if abs(split_x - center_line) < 50:
             split_x = center_line
         
@@ -154,70 +146,82 @@ def split_based_on_text_blocks_and_rectangles(image_path, text_blocks):
         console.print(f"Not splitting image {image_path} due to insufficient text on one side.")
         return None, None
 
+def process_single_image(file_path: Path, out_path: Path) -> dict:
+    """Process a single image file"""
+    details = {}
+    should_split = should_split_image(file_path)
+    has_binding = find_spiral_binding(file_path)
+    has_sep = has_clear_separation(file_path)
+    is_large = is_large_image(file_path)
+    
+    details.update({
+        "should_split": should_split,
+        "has_binding": has_binding,
+        "has_separation": has_sep,
+        "is_large": is_large
+    })
+    
+    if should_split and (has_binding or has_sep or is_large):
+        text_blocks = ocr_detect_text_blocks(file_path)
+        left, right = split_based_on_text_blocks_and_rectangles(file_path, text_blocks)
+        
+        if left and right:
+            left_path = out_path.parent / f"{out_path.stem}_left{out_path.suffix}"
+            right_path = out_path.parent / f"{out_path.stem}_right{out_path.suffix}"
+            
+            left.save(left_path, quality=100)
+            right.save(right_path, quality=100)
+            
+            return {
+                "outputs": [
+                    str(left_path.relative_to(left_path.parent.parent)),
+                    str(right_path.relative_to(right_path.parent.parent))
+                ],
+                "split": True,
+                "details": details
+            }
+    
+    # If no split needed or splitting failed, just save original
+    img = Image.open(file_path)
+    img.save(out_path, quality=100)
+    return {
+        "outputs": [str(out_path.relative_to(out_path.parent.parent))],
+        "split": False,
+        "details": details
+    }
+
+def process_document(file_path: str, output_folder: Path) -> dict:
+    """Process a single document file"""
+    supported_types = {
+        '.jpg': process_single_image,
+        '.jpeg': process_single_image,
+        '.tif': process_single_image,
+        '.tiff': process_single_image,
+        '.png': process_single_image
+    }
+    
+    return process_file(
+        file_path=file_path,
+        output_folder=output_folder,
+        process_fn=process_single_image,
+        file_types=supported_types
+    )
+
 def split(
-    collection_path: Path = typer.Argument(..., help="Path to the collections", exists=True),
-    out_dir: Path = typer.Argument(..., help="Output directory to save the split images"),
-    skip_split: bool = typer.Option(False, help="Flag to skip splitting images")
+    crop_manifest: Path = typer.Argument(..., help="Input crop manifest file"),
+    crops_folder: Path = typer.Argument(..., help="Input folder containing cropped images"),
+    splits_folder: Path = typer.Argument(..., help="Output folder for split images")
 ):
-    if not out_dir.exists():
-        out_dir.mkdir(parents=True, exist_ok=True)
-
-    image_extensions = ["*.jpg", "*.jpeg", "*.tif", "*.tiff", "*.png"]
-    images = []
-    for ext in image_extensions:
-        images.extend(collection_path.glob(f"**/{ext}"))
-    images = sorted(images, key=natural_sort_key)
-
-    # Do not split the first and last image in a notebook
-    skip = [
-        'SM_NPQ_C01_001.jpg', 'SM_NPQ_C01_104.jpg',
-        'SM_NPQ_C02_001.jpg', 'SM_NPQ_C02_104.jpg',
-        'SM_NPQ_C03_001.jpg', 'SM_NPQ_C03_104.jpg',
-        'SM_NPQ_C04_001.jpg', 'SM_NPQ_C04_104.jpg',
-        'SM_NPQ_C05_001.jpg', 'SM_NPQ_C05_071.jpg'
-    ]
-
-    for image in track(images, description="Processing images..."):
-        try:
-            relative_path = image.relative_to(collection_path)
-            output_path = out_dir / relative_path.parent / (relative_path.stem + ".jpg")
-            output_path.parent.mkdir(parents=True, exist_ok=True)  # Ensure the directory structure exists
-            if output_path.exists() or (out_dir / relative_path.parent / (relative_path.stem + "_left.jpg")).exists() or (out_dir / relative_path.parent / (relative_path.stem + "_right.jpg")).exists():
-                console.print(f"Skipping existing image: {output_path}")
-                continue
-            if image.name in skip or skip_split or not should_split_image(image) or not find_spiral_binding(image) or not has_clear_separation(image):
-                if should_split_image(image) or (should_split_image(image) and is_large_image(image)):  # Perform OCR text block detection only if the aspect ratio is right or the image is large
-                    text_blocks = ocr_detect_text_blocks(image)
-                    left, right = split_based_on_text_blocks_and_rectangles(image, text_blocks)
-                    if left and right:
-                        console.print(f"Splitting image {image.name} based on OCR text blocks and rectangles.")
-                        left.save(out_dir / relative_path.parent / (relative_path.stem + "_left.jpg"), quality=100)
-                        right.save(out_dir / relative_path.parent / (relative_path.stem + "_right.jpg"), quality=100)
-                    else:
-                        console.print(f"Not splitting image {image.name} after OCR text block analysis.")
-                        img = Image.open(image)
-                        img.save(output_path, quality=100)
-                else:
-                    console.print(f"Not splitting image {image.name} due to aspect ratio or size.")
-                    img = Image.open(image)
-                    img.save(output_path, quality=100)
-            else:
-                lines = detect_lines(image)
-                if lines is not None:
-                    img = Image.open(image)
-                    width, height = img.size
-                    center_line = width // 2
-                    left = img.crop((0, 0, center_line, height))
-                    right = img.crop((center_line, 0, width, height))
-                    console.print(f"Splitting image {image.name} at center line {center_line} based on detected lines.")
-                    left.save(out_dir / relative_path.parent / (relative_path.stem + "_left.jpg"), quality=100)
-                    right.save(out_dir / relative_path.parent / (relative_path.stem + "_right.jpg"), quality=100)
-                else:
-                    console.print(f"Not splitting image {image.name} due to lack of detected lines.")
-                    img = Image.open(image)
-                    img.save(output_path, quality=100)
-        except (UnidentifiedImageError, ValueError) as e:
-            console.print(f"Skipping {image.name}: {e}")
+    """Split images using crop manifest"""
+    # We want to process the cropped images, not the original documents
+    processor = BatchProcessor(
+        input_manifest=crop_manifest,
+        output_folder=splits_folder,
+        process_name="split",
+        processor_fn=process_document,
+        base_folder=crops_folder / "documents"  # Important: crops are in crops_folder/documents
+    )
+    processor.process()
 
 if __name__ == "__main__":
     typer.run(split)
