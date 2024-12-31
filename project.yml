@@ -17,45 +17,62 @@ vars:
   language: "es"
   text_direction: 'horizontal-lr' #['horizontal-lr', 'horizontal-rl', 'vertical-lr', 'vertical-rl']
   version: "0.0.0"
-  project_folder: "/Volumes/Fichero/projects/choco_atlas" # Change this to run on different folders
-  # project_folder: "projects/demo" # Change this to run on different folders
-  image_folder: "${vars.project_folder}/images"
+  
+  project_folder: "projects/demo" # Change this to run on different folders
+  documents_folder: "${vars.project_folder}/documents"
+  assets_folder: "${vars.project_folder}/assets"
+
+  # metadata
+  documents_manifest_folder: "${vars.assets_folder}/manifests"
+  documents_manifest: "${vars.assets_folder}/manifests/documents_manifest.jsonl"
+
+  # metadata
   metadata_file: "${vars.project_folder}/assets/Base_de_datos_Cuadernos_Sergio_Notaría_Primera_de_Quibdó_(1808-1825).xlsx"
-  split_image_folder: "${vars.project_folder}/assets/splits"
-  cropped_image_folder: "${vars.project_folder}/assets/cropped"
-  rotated_image_folder: "${vars.project_folder}/assets/rotated"
-  background_removed_image_folder: "${vars.project_folder}/assets/background_removed"
-  txt_folder: "${vars.project_folder}/assets/txt"
+    
+  # crop
+  crops_folder: "${vars.assets_folder}/crops"
+  
+  split_image_folder: "${vars.assets_folder}/splits"
+  rotated_image_folder: "${vars.assets_folder}/rotated"
+  background_removed_image_folder: "${vars.assets_folder}/background_removed"
+  txt_folder: "${vars.assets_folder}/txt"
   nlp_model: "es_core_news_lg"
   model: "Qwen/Qwen2-VL-2B-Instruct"
   code_model: "Qwen/Qwen2.5-Coder-7B-Instruct"
   dataset_name: "fmb-quibdo/sergio-notebooks"
-  adjusted_image_folder: "${vars.project_folder}/assets/adjusted"
-  chunked_image_folder: "${vars.project_folder}/assets/chunks"
-  transcribed_chunks_folder: "${vars.project_folder}/assets/txt_chunks"
+  adjusted_image_folder: "${vars.assets_folder}/adjusted"
+  chunked_image_folder: "${vars.assets_folder}/chunks"
+  transcribed_chunks_folder: "${vars.assets_folder}/txt_chunks"
   prompt: "Extract all text line by line. Do not number lines. RETURN ONLY PLAIN TEXT. SAY NOTHING ELSE"
-  recombined_folder: "${vars.project_folder}/assets/recombined"
-  cleaned_folder: "${vars.project_folder}/assets/cleaned"
-  data_folder: "${vars.project_folder}/assets/data"
+  recombined_folder: "${vars.assets_folder}/recombined"
+  cleaned_folder: "${vars.assets_folder}/cleaned"
+  data_folder: "${vars.assets_folder}/data"
   llm_model: "mistral:instruct" # Options: "chatgpt-4.0-mini", "llama3.1:8b"
-  word_folder: "${vars.project_folder}/assets/word"
-  word_pretty_folder: "${vars.project_folder}/assets/word_pretty"
-  exported_data_folder: "${vars.project_folder}/assets/exported_data"
+  word_folder: "${vars.assets_folder}/word"
+  word_pretty_folder: "${vars.assets_folder}/word_pretty"
+  exported_data_folder: "${vars.assets_folder}/exported_data"
   markdown_folder: "${vars.exported_data_folder}/markdown"
   html_folder: "${vars.exported_data_folder}/html"
   markdown_image_folder: "${vars.markdown_folder}/images"
   html_image_folder: "${vars.html_folder}/images"
   auto_chunk: false  # Turn off auto chunking
+  split_manifest: "${vars.assets_folder}/splits/split_manifest.jsonl"
+  progress_dir: "${vars.assets_folder}/progress"
 
-directories: ["${vars.project_folder}/assets", "configs", "scripts","_site","_templates","prompts", "pipelines", "packages", "${vars.word_folder}", "${vars.exported_data_folder}", "${vars.markdown_folder}", "${vars.html_folder}", "${vars.markdown_image_folder}", "${vars.html_image_folder}", "${vars.image_folder}"]
+base_path: projects/demo
+documents_folder: projects/demo/documents
+crops_folder: projects/demo/assets/crops
+
+directories: ["configs", "scripts","_site", "_templates", "prompts", "pipelines", "packages", "${vars.assets_folder}", "${vars.crops_folder}", "${vars.documents_manifest_folder}"]
 
 workflows:
   all:
     - metadata
+    - build_documents_manifest
     - crop
-    - check_crop_and_copy  # New step added here
+    - check_crop_and_copy
     - split
-    - check_split_and_copy  # Updated step name
+    - check_split_and_copy
     - rotate
     - adjust_image
     - chunk
@@ -77,11 +94,15 @@ workflows:
     - publish
     # - remove_background
 
+  build_manifest:
+    - build_documents_manifest
+
   prepare:
+    - build_documents_manifest
     - crop
-    - check_crop_and_copy  # New step added here
+    - check_crop_and_copy
     - split
-    - check_split_and_copy  # Updated step name
+    - check_split_and_copy
     - rotate
     - adjust_image
 
@@ -97,10 +118,11 @@ workflows:
     - process_ner_fuzzy
 
   all-no-metadata:
+    - build_documents_manifest
     - crop
-    - check_crop_and_copy  # New step added here
+    - check_crop_and_copy
     - split
-    - check_split_and_copy  # Updated step name
+    - check_split_and_copy
     - rotate
     - adjust_image
     - chunk
@@ -155,31 +177,39 @@ commands:
     outputs:
       - metadata.json
 
-  - name: crop
-    help: "Crop the images to remove unnecessary borders. Optionally split PDFs into images before cropping."
+  - name: build_documents_manifest
+    help: "Generate the documents manifest listing"
     script:
-      - "python scripts/crop.py ${vars.image_folder} ${vars.cropped_image_folder}"
+      - "python scripts/build_documents_manifest.py ${vars.documents_folder} ${vars.documents_manifest}"
     outputs:
-      - ${vars.cropped_image_folder}
+      - ${vars.documents_manifest}
+
+  - name: crop
+    help: "Crop images using document manifest with automatic multi-threading"
+    script:
+      - "python scripts/crop.py ${vars.documents_folder} ${vars.documents_manifest} ${vars.crops_folder}"
+    outputs:
+      - ${vars.crops_folder}
 
   - name: check_crop_and_copy
-    help: "Check if cropped files are not created and copy the original image"
+    help: "Copy missing crop files from original documents"
     script:
-      - "python scripts/check_crop_and_copy.py ${vars.image_folder} ${vars.cropped_image_folder}"
+      - "python scripts/check_crop_and_copy.py ${vars.documents_folder} ${vars.crops_folder}"
     outputs:
-      - ${vars.cropped_image_folder}
+      - ${vars.crops_folder}
 
   - name: split
-    help: "Split the images into single-page images for processing. Remove ruler from image"
+    help: "Split cropped images"
     script:
-      - "python scripts/split.py ${vars.cropped_image_folder} ${vars.split_image_folder}"
+      - "python scripts/split.py ${vars.crops_folder}/crop_manifest.jsonl ${vars.crops_folder} ${vars.split_image_folder}"
     outputs:
       - ${vars.split_image_folder}
+      - ${vars.split_image_folder}/split_manifest.jsonl
 
   - name: check_split_and_copy
-    help: "Check if split files are not created and copy the original image"
+    help: "Copy missing split files from crop folder"
     script:
-      - "python scripts/check_split_and_copy.py ${vars.cropped_image_folder} ${vars.split_image_folder}"
+      - "python scripts/check_crop_and_copy.py ${vars.crops_folder} ${vars.split_image_folder}"
     outputs:
       - ${vars.split_image_folder}
 
@@ -351,3 +381,5 @@ commands:
       - "python scripts/weasel.py --force"
     outputs:
       - weasel_output/
+
+
