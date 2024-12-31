@@ -68,7 +68,11 @@ def check_crop_and_copy(
             if not entry.get("source"):
                 continue
                 
+            # Normalize source path
             source_path = Path(entry["source"])
+            if "documents" in source_path.parts:
+                source_path = Path(*source_path.parts[source_path.parts.index("documents")+1:])
+            
             original_file = source_folder / source_path
             
             # Check if any output is missing
@@ -78,7 +82,10 @@ def check_crop_and_copy(
                 
             any_missing = False
             for output in outputs:
-                if not (target_folder / "documents" / output).exists():
+                output_path = Path(output)
+                if "documents" in output_path.parts:
+                    output_path = Path(*output_path.parts[output_path.parts.index("documents")+1:])
+                if not (target_folder / "documents" / output_path).exists():
                     any_missing = True
                     break
             
@@ -89,16 +96,20 @@ def check_crop_and_copy(
                     "path": str(source_path)
                 }) + '\n')
     
-    # Process missing files
-    processor = BatchProcessor(
-        input_manifest=temp_manifest,
-        output_folder=target_folder,
-        process_name="check_and_copy",
-        processor_fn=process_document,
-        base_folder=source_folder
-    )
-    processor.process()
-    temp_manifest.unlink()
+    try:
+        # Process missing files
+        processor = BatchProcessor(
+            input_manifest=temp_manifest,
+            output_folder=target_folder,
+            process_name="check_and_copy",
+            processor_fn=process_document,
+            base_folder=source_folder
+        )
+        processor.process()
+    finally:
+        # Clean up temp manifest
+        if temp_manifest.exists():
+            temp_manifest.unlink()
 
 def process_document(file_path: str, output_folder: Path) -> dict:
     """Process a single document file"""

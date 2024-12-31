@@ -18,7 +18,8 @@ vars:
   text_direction: 'horizontal-lr' #['horizontal-lr', 'horizontal-rl', 'vertical-lr', 'vertical-rl']
   version: "0.0.0"
   
-  project_folder: "projects/demo" # Change this to run on different folders
+  project_folder: "/Volumes/Fichero/projects/demo" # Change this to run on different folders
+  # project_folder: "projects/demo" # Change this to run on different folders
   documents_folder: "${vars.project_folder}/documents"
   assets_folder: "${vars.project_folder}/assets"
 
@@ -187,7 +188,7 @@ commands:
   - name: crop
     help: "Crop images using document manifest with automatic multi-threading"
     script:
-      - "python scripts/crop.py ${vars.documents_folder} ${vars.documents_manifest} ${vars.crops_folder}"
+      - "python scripts/crop.py ${vars.project_folder} ${vars.documents_manifest} ${vars.crops_folder}"
     outputs:
       - ${vars.crops_folder}
 
@@ -201,7 +202,7 @@ commands:
   - name: split
     help: "Split cropped images"
     script:
-      - "python scripts/split.py ${vars.crops_folder}/crop_manifest.jsonl ${vars.crops_folder} ${vars.split_image_folder}"
+      - "python scripts/split.py ${vars.crops_folder} ${vars.crops_folder}/crop_manifest.jsonl ${vars.split_image_folder}"
     outputs:
       - ${vars.split_image_folder}
       - ${vars.split_image_folder}/split_manifest.jsonl

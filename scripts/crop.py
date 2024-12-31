@@ -7,6 +7,7 @@ from pdf2image import convert_from_path
 from datetime import datetime
 from utils.batch import BatchProcessor
 from utils.processor import process_file
+import srsly
 
 # Image processing functions specific to cropping
 def is_likely_ruler(w: int, h: int, max_ruler_aspect_ratio: float = 15, max_ruler_width_ratio: float = 0.05) -> bool:
@@ -98,23 +99,34 @@ def process_pdf(file_path: Path, out_path: Path) -> dict:
     outputs = []
     details = {}
     
-    # Create output directory for PDF pages
-    out_path.mkdir(parents=True, exist_ok=True)
-    
     # Convert and process each page
     images = convert_from_path(file_path, dpi=300)
+    
+    # Create directory for PDF pages
+    pdf_dir = out_path.parent / f"{out_path.stem}"
+    pdf_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Get the relative path from the base directory
+    rel_base = out_path.relative_to(out_path.parents[1])
+    
     for i, image in enumerate(images):
-        # Ensure output path has .jpg extension
-        page_path = (out_path / f"{file_path.stem}_page_{i + 1}").with_suffix('.jpg')
+        page_name = f"{out_path.stem}_page_{i + 1}.jpg"
+        page_path = pdf_dir / page_name
         cropped = contour_crop(image)
         cropped.save(page_path, "JPEG", quality=100)
         
-        outputs.append(str(page_path.relative_to(out_path.parent)))
+        # Create relative path that matches actual file structure
+        rel_path = str(rel_base.parent / rel_base.stem / page_name)
+        outputs.append(rel_path)
+        
         details[f"page_{i + 1}"] = {
             "original_size": image.size,
-            "cropped_size": cropped.size
+            "cropped_size": cropped.size,
+            "page_number": i + 1,
+            "total_pages": len(images)
         }
     
+    # Return all outputs and details in one result
     return {
         "outputs": outputs,
         "details": details
@@ -122,6 +134,8 @@ def process_pdf(file_path: Path, out_path: Path) -> dict:
 
 def process_document(file_path: str, output_folder: Path) -> dict:
     """Process a single document file"""
+    file_path = Path(file_path)
+    
     supported_types = {
         '.pdf': process_pdf,
         '.jpg': process_image,
@@ -131,12 +145,30 @@ def process_document(file_path: str, output_folder: Path) -> dict:
         '.png': process_image
     }
     
-    return process_file(
-        file_path=file_path,
+    # Get the processing result
+    result = process_file(
+        file_path=str(file_path),
         output_folder=output_folder,
-        process_fn=process_pdf if Path(file_path).suffix.lower() == '.pdf' else process_image,
+        process_fn=process_pdf if file_path.suffix.lower() == '.pdf' else process_image,
         file_types=supported_types
     )
+    
+    # Special handling for PDFs to write each page to manifest
+    if file_path.suffix.lower() == '.pdf' and result and result.get("outputs"):
+        manifest_path = output_folder.parent / "crop_manifest.jsonl"
+        with open(manifest_path, "a") as f:
+            for i, output_path in enumerate(result["outputs"]):
+                page_details = result["details"].get(f"page_{i + 1}", {})
+                manifest_entry = {
+                    "source": str(file_path),
+                    "outputs": [output_path],
+                    "processed_at": datetime.now().isoformat(),
+                    "success": True,
+                    "details": page_details
+                }
+                f.write(srsly.json_dumps(manifest_entry) + "\n")
+    
+    return result
 
 def crop(
     documents_folder: Path = typer.Argument(..., help="Input documents folder"),
@@ -149,7 +181,7 @@ def crop(
         output_folder=crops_folder,
         process_name="crop",
         processor_fn=process_document,
-        base_folder=documents_folder  # This is important for resolving relative paths
+        base_folder=documents_folder / "documents"  # Add /documents to base folder path
     )
     processor.process()
 

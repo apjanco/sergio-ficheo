@@ -46,19 +46,23 @@ class BatchProcessor:
         console.print(f"Output folder: {self.output_folder}")
         
         for doc in self.input_proc.stream_entries():
+            # For initial document processing, look for type: file entries
             if doc.get("type") == "file":
-                # Get path relative to 'documents' folder for consistent comparison
-                path = Path(doc["path"])
-                if "documents" in path.parts:
-                    rel_path = str(Path(*path.parts[path.parts.index("documents")+1:]))
-                else:
-                    rel_path = str(path)
-                
-                # Check if already processed using normalized path
-                if rel_path in self.output_proc.entries:
-                    skipped_count += 1
-                    continue
-                documents.append({"path": doc["path"]})  # Keep original path for processing
+                source_path = doc.get("path", "")
+                if source_path:
+                    # Check if already processed using clean path
+                    clean_path = str(Path(source_path))
+                    if clean_path in self.output_proc.entries:
+                        skipped_count += 1
+                        continue
+                    documents.append({"path": source_path})
+            # For subsequent processing (crops -> splits), look for outputs
+            elif "outputs" in doc:
+                for output_path in doc["outputs"]:
+                    if output_path in self.output_proc.entries:
+                        skipped_count += 1
+                        continue
+                    documents.append({"path": output_path})
 
         total_files = len(documents)
         stats = {
@@ -100,7 +104,8 @@ class BatchProcessor:
 
         except KeyboardInterrupt:
             console.print("\n[yellow]Processing interrupted by user. Saving progress...")
-            self.output_proc.write_progress(stats)
+            self.output_proc._write_manifest(self.manifest_file)  # Save manifest
+            self.output_proc.write_progress(stats)  # Save progress
             sys.exit(1)
         except Exception as e:
             console.print(f"\n[red]Error occurred: {e}")
@@ -115,17 +120,17 @@ class BatchProcessor:
         """Process a batch of files"""
         for doc in batch:
             try:
-                path = doc["path"]
-                result = self.processor_fn(
-                    str(self.base_folder / path) if self.base_folder else path,
-                    self.output_folder
-                )
-                # Store result using normalized path
-                if "documents" in Path(path).parts:
-                    rel_path = str(Path(*Path(path).parts[Path(path).parts.index("documents")+1:]))
-                else:
-                    rel_path = str(Path(path))
-                result["source"] = rel_path
+                path = Path(doc["path"])
+                # Remove any 'documents' prefix for consistency
+                if 'documents' in path.parts:
+                    path = Path(*path.parts[path.parts.index('documents') + 1:])
+                
+                # Use base_folder/documents for actual file operations
+                full_path = self.base_folder / path if self.base_folder else path
+                result = self.processor_fn(str(full_path), self.output_folder)
+                
+                # Store just the clean relative path
+                result["source"] = str(path)
                 self.output_proc.save_entry(result)
                 
                 if result.get("skipped"):
