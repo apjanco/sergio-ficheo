@@ -41,7 +41,7 @@ vars:
   model: "Qwen/Qwen2-VL-2B-Instruct"
   code_model: "Qwen/Qwen2.5-Coder-7B-Instruct"
   dataset_name: "fmb-quibdo/sergio-notebooks"
-  adjusted_image_folder: "${vars.assets_folder}/adjusted"
+  enhanced_image_folder: "${vars.assets_folder}/enhanced"
   chunked_image_folder: "${vars.assets_folder}/chunks"
   transcribed_chunks_folder: "${vars.assets_folder}/txt_chunks"
   prompt: "Extract all text line by line. Do not number lines. RETURN ONLY PLAIN TEXT. SAY NOTHING ELSE"
@@ -75,7 +75,7 @@ workflows:
     - split
     - check_split_and_copy
     - rotate
-    - adjust_image
+    - enhance
     - chunk
     - transcribe
     - recombine_chunks
@@ -100,6 +100,7 @@ workflows:
     - crop
     - split
     - rotate
+    - enhance
 
   build_manifest:
     - build_documents_manifest
@@ -111,7 +112,7 @@ workflows:
     - split
     - check_split_and_copy
     - rotate
-    - adjust_image
+    - enhance
 
   chunk_and_transcribe:
     - chunk
@@ -131,7 +132,7 @@ workflows:
     - split
     - check_split_and_copy
     - rotate
-    - adjust_image
+    - enhance
     - chunk
     - transcribe
     - recombine_chunks
@@ -235,17 +236,18 @@ commands:
   #   outputs:
   #     - ${vars.background_removed_image_folder}
 
-  - name: adjust_image
-    help: "Adjust contrast, exposure, and histogram of images to enhance text visibility."
+  - name: enhance
+    help: "Enhance image quality with contrast and clarity improvements"
     script:
-      - "python scripts/adjust_image.py ${vars.rotated_image_folder} ${vars.adjusted_image_folder}"
+      - "python scripts/enhance.py ${vars.rotated_image_folder} ${vars.rotated_image_folder}/rotate_manifest.jsonl ${vars.enhanced_image_folder}"
     outputs:
-      - ${vars.adjusted_image_folder}
+      - ${vars.enhanced_image_folder}
+      - ${vars.enhanced_image_folder}/enhance_manifest.jsonl
 
   - name: chunk
     help: "Chunk the images adaptively based on content"
     script:
-      - "python scripts/chunk.py ${vars.adjusted_image_folder} ${vars.chunked_image_folder}"
+      - "python scripts/chunk.py ${vars.enhanced_image_folder} ${vars.chunked_image_folder}"
     outputs:
       - ${vars.chunked_image_folder}
 
@@ -273,7 +275,7 @@ commands:
   - name: process_json
     help: "Process the transcriptions and save to JSONL"
     script:
-      - "python scripts/process_json.py ${vars.cleaned_folder} ${vars.adjusted_image_folder} ${vars.data_folder}/data.jsonl"
+      - "python scripts/process_json.py ${vars.cleaned_folder} ${vars.enhanced_image_folder} ${vars.data_folder}/data.jsonl"
     outputs:
       - ${vars.data_folder}/data.jsonl
 
@@ -322,7 +324,7 @@ commands:
   - name: combine_to_word
     help: "Combine JSONL data and images into Word documents"
     script:
-      - "python scripts/combine_to_word.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.adjusted_image_folder} ${vars.word_folder}"
+      - "python scripts/combine_to_word.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.enhanced_image_folder} ${vars.word_folder}"
     outputs:
       - ${vars.word_folder}/SM_NPQ_C01.docx
       - ${vars.word_folder}/SM_NPQ_C02.docx
@@ -358,14 +360,14 @@ commands:
   - name: export_to_markdown
     help: "Export JSONL data to Markdown files"
     script:
-      - "python scripts/export_to_markdown.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.markdown_folder} ${vars.markdown_image_folder} ${vars.adjusted_image_folder}"
+      - "python scripts/export_to_markdown.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.markdown_folder} ${vars.markdown_image_folder} ${vars.enhanced_image_folder}"
     outputs:
       - ${vars.markdown_folder}/
 
   - name: export_to_html
     help: "Export JSONL data to HTML files"
     script:
-      - "python scripts/export_to_html.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.html_folder} ${vars.html_image_folder} ${vars.adjusted_image_folder}"
+      - "python scripts/export_to_html.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.html_folder} ${vars.html_image_folder} ${vars.enhanced_image_folder}"
     outputs:
       - ${vars.html_folder}/
 
