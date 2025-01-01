@@ -102,6 +102,12 @@ class BatchProcessor:
                 if current_batch:
                     self._process_batch(current_batch, stats, progress, tracker.task)
 
+            # Ensure final manifest is saved after all processing
+            self.output_proc._write_manifest(self.manifest_file)
+            self.output_proc.write_progress(stats)
+            self._print_stats(stats)
+            return stats
+
         except KeyboardInterrupt:
             console.print("\n[yellow]Processing interrupted by user. Saving progress...")
             self.output_proc._write_manifest(self.manifest_file)  # Save manifest
@@ -111,10 +117,6 @@ class BatchProcessor:
             console.print(f"\n[red]Error occurred: {e}")
             self.output_proc.write_progress(stats)
             raise
-
-        self.output_proc.write_progress(stats)
-        self._print_stats(stats)
-        return stats
 
     def _process_batch(self, batch: List[dict], stats: dict, progress, task):
         """Process a batch of files"""

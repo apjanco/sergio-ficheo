@@ -662,36 +662,46 @@ def split_image(image: Image.Image, file_path: Path = None) -> tuple[list[Image.
     return [left_page, right_page], debug_info
 
 def process_image(file_path: Path, out_path: Path) -> dict:
-    """Process a single image file for splitting"""
+    """
+    Processes a single image file for splitting.
+    
+    Workflow:
+    1. Loads and normalizes image to RGB
+    2. Determines if splitting is needed
+    3. Saves resulting image(s) with appropriate naming
+    4. Maintains detailed processing information
+    
+    Returns:
+        Dictionary containing output paths and processing details
+    """
+    # Convert any image format to RGB
     img = Image.open(file_path)
     if (img.mode != 'RGB'):
         img = img.convert('RGB')
     
+    # Split image and save parts
     parts, debug_info = split_image(img, file_path=file_path)
     outputs = []
     
+    # Convert tuples to lists and ensure all values are serializable
     details = convert_to_serializable({
         "original_size": list(img.size),
-        "debug": debug_info
+        "debug": debug_info  # debug_info is already converted in detect_split_point
     })
     
-    # Get source folder structure from input path
-    source_dir = Path(file_path).parts[-4:-1]  # Gets ['FHC', 'GHC_B05', etc]
-    
     for i, part in enumerate(parts):
-        # Create output filename with correct folder structure
-        if len(parts) > 1:
-            part_name = f"{out_path.stem}_part_{i+1}.jpg"
+        # Create output filename
+        if (len(parts) > 1):
+            part_path = out_path.parent / f"{out_path.stem}_part_{i+1}.jpg"
         else:
-            part_name = f"{out_path.stem}.jpg"
+            part_path = out_path.with_suffix('.jpg')
             
-        part_path = out_path.parent / part_name
+        # Ensure directory exists
         part_path.parent.mkdir(parents=True, exist_ok=True)
-        part.save(part_path, "JPEG", quality=100)
         
-        # Build output path preserving full source hierarchy
-        rel_path = Path(*source_dir) / part_name
-        outputs.append(str(rel_path))
+        # Save split part
+        part.save(part_path, "JPEG", quality=100)
+        outputs.append(str(part_path.relative_to(part_path.parent.parent)))
         details[f"part_{i+1}_size"] = list(part.size)
     
     return {

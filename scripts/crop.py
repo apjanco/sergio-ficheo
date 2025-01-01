@@ -109,6 +109,9 @@ def process_pdf(file_path: Path, out_path: Path) -> dict:
     # Get the relative path from the base directory
     rel_base = out_path.relative_to(out_path.parents[1])
     
+    # Get relative source path
+    source_path = Path(file_path).relative_to(Path(file_path).parents[2])  # Remove /documents from path
+    
     for i, image in enumerate(images):
         page_name = f"{out_path.stem}_page_{i + 1}.jpg"
         page_path = pdf_dir / page_name
@@ -125,12 +128,18 @@ def process_pdf(file_path: Path, out_path: Path) -> dict:
             "page_number": i + 1,
             "total_pages": len(images)
         }
+        
+        # Print manifest entry for this page (will be captured by BatchProcessor)
+        print(srsly.json_dumps({
+            "source": str(source_path),
+            "outputs": [rel_path],
+            "processed_at": datetime.now().isoformat(),
+            "success": True,
+            "details": details[f"page_{i + 1}"]
+        }))
     
-    # Return all outputs and details in one result
-    return {
-        "outputs": outputs,
-        "details": details
-    }
+    # Return None since we handled the output directly
+    return None
 
 def process_document(file_path: str, output_folder: Path) -> dict:
     """Process a single document file"""
@@ -145,30 +154,13 @@ def process_document(file_path: str, output_folder: Path) -> dict:
         '.png': process_image
     }
     
-    # Get the processing result
-    result = process_file(
+    # All processing through process_file
+    return process_file(
         file_path=str(file_path),
         output_folder=output_folder,
         process_fn=process_pdf if file_path.suffix.lower() == '.pdf' else process_image,
         file_types=supported_types
     )
-    
-    # Special handling for PDFs to write each page to manifest
-    if file_path.suffix.lower() == '.pdf' and result and result.get("outputs"):
-        manifest_path = output_folder.parent / "crop_manifest.jsonl"
-        with open(manifest_path, "a") as f:
-            for i, output_path in enumerate(result["outputs"]):
-                page_details = result["details"].get(f"page_{i + 1}", {})
-                manifest_entry = {
-                    "source": str(file_path),
-                    "outputs": [output_path],
-                    "processed_at": datetime.now().isoformat(),
-                    "success": True,
-                    "details": page_details
-                }
-                f.write(srsly.json_dumps(manifest_entry) + "\n")
-    
-    return result
 
 def crop(
     documents_folder: Path = typer.Argument(..., help="Input documents folder"),
