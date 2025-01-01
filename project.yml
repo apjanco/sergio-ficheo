@@ -95,6 +95,12 @@ workflows:
     - publish
     # - remove_background
 
+  test:
+    - build_documents_manifest
+    - crop
+    - split
+    - rotate
+
   build_manifest:
     - build_documents_manifest
 
@@ -217,10 +223,11 @@ commands:
   - name: rotate
     help: "Rotate the split images to straighten text."
     script:
-      - "python scripts/rotate.py ${vars.split_image_folder} ${vars.rotated_image_folder}"
+      - "python scripts/rotate.py ${vars.split_image_folder} ${vars.split_image_folder}/split_manifest.jsonl ${vars.rotated_image_folder}"
     outputs:
       - ${vars.rotated_image_folder}
- 
+      - ${vars.rotated_image_folder}/rotate_manifest.jsonl
+
   # - name: remove_background
   #   help: "Remove black and purple background from images."
   #   script:m

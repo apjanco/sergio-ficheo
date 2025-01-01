@@ -24,3 +24,13 @@ def get_image_files(folder: Path, patterns: List[str] = ["*.jpg", "*.jpeg", "*.t
 def get_skip_files() -> List[str]:
     """Get list of files to skip processing"""
     return ['']
+
+def get_relative_output_path(source_path: str) -> str:
+    """Convert input manifest source path to output path"""
+    # Preserve full path including parent folders
+    return source_path
+
+def reconstruct_input_path(base_folder: Path, source_path: str) -> Path:
+    """Build full input path from base folder and manifest source path"""
+    # base_folder already includes 'documents'
+    return base_folder / source_path
