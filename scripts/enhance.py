@@ -6,44 +6,156 @@ import cv2
 from utils.batch import BatchProcessor
 from utils.processor import process_file
 from rich.console import Console
+from typing import Literal
+import pytesseract
+from sklearn.cluster import KMeans
+from collections import Counter
 
-console = Console()
+DocumentType = Literal['handwritten', 'typescript', 'mixed']
+PaperType = Literal['lined', 'plain']
+ContentType = Literal['text', 'diagram', 'mixed']
+
+class DocumentAnalyzer:
+    def analyze_image(self, img_array: np.ndarray) -> dict:
+        """
+        Simplified document analysis.
+        Adds fallback morphological heuristic if OCR confidence is inconclusive.
+        """
+        gray = cv2.cvtColor(img_array, cv2.COLOR_RGB2GRAY)
+        
+        # Document type detection
+        doc_type = self._detect_document_type(gray)
+        
+        # Background color (yellowing) analysis
+        is_yellowed = self._detect_yellowing(img_array)
+        
+        return {
+            "document_type": doc_type,
+            "is_yellowed": is_yellowed
+        }
+    
+    def _detect_document_type(self, gray: np.ndarray) -> str:
+        """
+        Detect document type using:
+        1) OCR confidence (primary)
+        2) Fallback morphological stroke-density heuristic if OCR is inconclusive
+        """
+        # Binarize for OCR
+        _, binary = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+        
+        # Attempt OCR in a try/except block to handle Tesseract errors
+        try:
+            ocr_data = pytesseract.image_to_data(binary, output_type=pytesseract.Output.DICT)
+            confidences = [conf for conf in ocr_data['conf'] if conf != -1]
+        except pytesseract.TesseractError:
+            # If OCR fails entirely, default to morphological fallback
+            return self._morphological_heuristic(binary)
+        
+        if not confidences:
+            # If no recognized text, use fallback
+            return self._morphological_heuristic(binary)
+        
+        # Use confidence threshold to determine type
+        avg_confidence = sum(confidences) / len(confidences)
+        
+        if avg_confidence > 60:
+            return 'typescript'
+        else:
+            return 'handwritten'
+    
+    def _morphological_heuristic(self, binary: np.ndarray) -> str:
+        """
+        Simple morphological stroke-density approach:
+        - If there's a large amount of small connected strokes, assume handwriting
+        - Otherwise, assume typescript
+        """
+        kernel = np.ones((3, 3), np.uint8)
+        morph_grad = cv2.morphologyEx(binary, cv2.MORPH_GRADIENT, kernel)
+        # Density of 'edges' or strokes
+        non_zero = cv2.countNonZero(morph_grad)
+        density = (non_zero / (morph_grad.shape[0] * morph_grad.shape[1])) * 100
+        
+        # Heuristic threshold for stroke density
+        return 'handwritten' if density > 0.5 else 'typescript'
+    
+    def _detect_yellowing(self, img: np.ndarray) -> float:
+        """
+        Detect yellow cast in document (0 = no yellow cast, 1 = strong yellow cast).
+        Consider an extended range and clamp final result to [0,1].
+        """
+        lab = cv2.cvtColor(img, cv2.COLOR_RGB2LAB)
+        _, _, b_channel = cv2.split(lab)
+        b_mean = np.mean(b_channel)
+        
+        # Simple linear scale relative to neutral (128)
+        # A slight tweak to the divisor to avoid over-reporting yellow
+        raw_yellow = (b_mean - 128) / 30.0
+        
+        return max(0, min(1, raw_yellow))
+
+class DocumentEnhancer:
+    def enhance(self, img: np.ndarray, doc_type: str, is_yellowed: float) -> np.ndarray:
+        """
+        Core document enhancement logic with:
+        1) CLAHE (differentiated for doc type)
+        2) More careful yellow cast reduction
+        3) Optional unsharp masking for final clarity
+        """
+        # Convert to LAB for processing
+        lab = cv2.cvtColor(img, cv2.COLOR_RGB2LAB)
+        l, a, b = cv2.split(lab)
+        
+        # STEP 1: Enhance text contrast using CLAHE
+        if doc_type == 'handwritten':
+            # Handwriting often needs stronger local contrast
+            clahe = cv2.createCLAHE(clipLimit=2.2, tileGridSize=(8, 8))
+            l = clahe.apply(l)
+            # Boost contrast slightly for ink
+            l = cv2.convertScaleAbs(l, alpha=1.1, beta=-5)
+        else:
+            # Typescript: slightly less aggressive
+            clahe = cv2.createCLAHE(clipLimit=1.6, tileGridSize=(16, 16))
+            l = clahe.apply(l)
+        
+        # STEP 2: Handle color cast carefully
+        if is_yellowed > 0.1:
+            # Proportional correction with a gentler scale to avoid going blue
+            yellow_reduction = min(10, int(4 * is_yellowed))
+            # Subtract from b channel
+            b = cv2.subtract(b, yellow_reduction)
+            
+            # Slight a-channel desaturation
+            a = cv2.convertScaleAbs(a, alpha=0.97, beta=0)
+        
+        # Merge corrected channels
+        enhanced_lab = cv2.merge([l, a, b])
+        enhanced_rgb = cv2.cvtColor(enhanced_lab, cv2.COLOR_LAB2RGB)
+        
+        # STEP 3: Optional unsharp masking to sharpen text edges
+        # (If you prefer not to sharpen, you can comment these lines out)
+        gaussian_blur = cv2.GaussianBlur(enhanced_rgb, (0, 0), 3)
+        # Increase weight of original image for sharper edges
+        sharpened = cv2.addWeighted(enhanced_rgb, 1.5, gaussian_blur, -0.5, 0)
+        
+        return sharpened
 
 def enhance_image(image: Image.Image) -> tuple[Image.Image, dict]:
-    """Enhance image quality with contrast and clarity improvements"""
+    """Simplified enhancement pipeline"""
     img_array = np.array(image)
     
-    # Convert to LAB color space for better enhancement control
-    lab = cv2.cvtColor(img_array, cv2.COLOR_RGB2LAB)
-    l, a, b = cv2.split(lab)
+    # Analyze document
+    analyzer = DocumentAnalyzer()
+    analysis = analyzer.analyze_image(img_array)
     
-    # Apply CLAHE with tuned parameters
-    clahe = cv2.createCLAHE(clipLimit=1.0, tileGridSize=(8, 8))
-    cl = clahe.apply(l)
+    # Enhance document
+    enhancer = DocumentEnhancer()
+    enhanced = enhancer.enhance(
+        img_array,
+        analysis['document_type'],
+        analysis['is_yellowed']
+    )
     
-    # Merge channels back
-    limg = cv2.merge((cl, a, b))
-    enhanced = cv2.cvtColor(limg, cv2.COLOR_LAB2RGB)
-    
-    # Convert back to PIL
-    enhanced = Image.fromarray(enhanced)
-    
-    # Fine-tune with PIL enhancements
-    contrast = ImageEnhance.Contrast(enhanced)
-    enhanced = contrast.enhance(1.05)
-    
-    brightness = ImageEnhance.Brightness(enhanced)
-    enhanced = brightness.enhance(1.02)
-    
-    # Record enhancement parameters
-    params = {
-        "clahe_clip_limit": 1.0,
-        "clahe_grid_size": 8,
-        "contrast_factor": 1.05,
-        "brightness_factor": 1.02
-    }
-    
-    return enhanced, params
+    return Image.fromarray(enhanced), {"analysis": analysis}
 
 def process_image(file_path: Path, out_path: Path) -> dict:
     """Process a single image file for enhancement"""
