@@ -17,7 +17,8 @@ class BatchProcessor:
         process_name: str,
         processor_fn: Callable,
         batch_size: int = 100,
-        base_folder: Path = None
+        base_folder: Path = None,
+        use_source: bool = False
     ):
         self.input_manifest = Path(input_manifest)
         self.output_folder = Path(output_folder)
@@ -25,6 +26,7 @@ class BatchProcessor:
         self.process_name = process_name
         self.processor_fn = processor_fn
         self.batch_size = batch_size
+        self.use_source = use_source
         
         # Setup folders and files
         self.output_folder.mkdir(parents=True, exist_ok=True)
@@ -46,23 +48,26 @@ class BatchProcessor:
         console.print(f"Output folder: {self.output_folder}")
         
         for doc in self.input_proc.stream_entries():
-            # For initial document processing, look for type: file entries
-            if doc.get("type") == "file":
-                source_path = doc.get("path", "")
-                if source_path:
-                    # Check if already processed using clean path
-                    clean_path = str(Path(source_path))
-                    if clean_path in self.output_proc.entries:
-                        skipped_count += 1
-                        continue
-                    documents.append({"path": source_path})
-            # For subsequent processing (crops -> splits), look for outputs
-            elif "outputs" in doc:
-                for output_path in doc["outputs"]:
-                    if output_path in self.output_proc.entries:
-                        skipped_count += 1
-                        continue
-                    documents.append({"path": output_path})
+            # Skip directory entries
+            if doc.get("type") == "directory":
+                continue
+
+            # Get document path - prefer source if using source, otherwise use first output
+            if self.use_source and "source" in doc:
+                path = doc["source"]
+            elif "outputs" in doc and doc["outputs"]:
+                path = doc["outputs"][0]
+            elif doc.get("path"):  # Fallback for direct paths
+                path = doc["path"]
+            else:
+                continue  # Skip if no valid path found
+
+            # Check if already processed
+            if path in self.output_proc.entries:
+                skipped_count += 1
+                continue
+            
+            documents.append({"path": path})
 
         total_files = len(documents)
         stats = {
@@ -123,16 +128,18 @@ class BatchProcessor:
         for doc in batch:
             try:
                 path = Path(doc["path"])
-                # Remove any 'documents' prefix for consistency
-                if 'documents' in path.parts:
-                    path = Path(*path.parts[path.parts.index('documents') + 1:])
                 
-                # Use base_folder/documents for actual file operations
-                full_path = self.base_folder / path if self.base_folder else path
+                # Ensure base_folder/documents exists in path for proper structure
+                if 'documents' not in str(self.base_folder):
+                    full_path = self.base_folder / 'documents' / path
+                else:
+                    full_path = self.base_folder / path
+                
                 result = self.processor_fn(str(full_path), self.output_folder)
                 
-                # Store just the clean relative path
-                result["source"] = str(path)
+                # Preserve source path in result
+                if not result.get("source"):
+                    result["source"] = str(path)
                 self.output_proc.save_entry(result)
                 
                 if result.get("skipped"):

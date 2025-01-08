@@ -76,6 +76,7 @@ workflows:
     - check_split_and_copy
     - rotate
     - enhance
+    - remove_background
     - chunk
     - transcribe
     - recombine_chunks
@@ -93,7 +94,6 @@ workflows:
     - export_to_html
     - dataset
     - publish
-    # - remove_background
 
   test:
     - build_documents_manifest
@@ -101,6 +101,8 @@ workflows:
     - split
     - rotate
     - enhance
+    - remove_background
+    - chunk
 
   build_manifest:
     - build_documents_manifest
@@ -150,7 +152,6 @@ workflows:
     - export_to_html
     - dataset
     - publish
-    # - remove_background
 
   all-ocr:
     - transcribe
@@ -229,13 +230,6 @@ commands:
       - ${vars.rotated_image_folder}
       - ${vars.rotated_image_folder}/rotate_manifest.jsonl
 
-  # - name: remove_background
-  #   help: "Remove black and purple background from images."
-  #   script:m
-  #     - "python scripts/remove_background.py ${vars.rotated_image_folder} ${vars.background_removed_image_folder}"
-  #   outputs:
-  #     - ${vars.background_removed_image_folder}
-
   - name: enhance
     help: "Enhance image quality with contrast and clarity improvements"
     script:
@@ -244,10 +238,17 @@ commands:
       - ${vars.enhanced_image_folder}
       - ${vars.enhanced_image_folder}/enhance_manifest.jsonl
 
-  - name: chunk
-    help: "Chunk the images adaptively based on content"
+  - name: remove_background
+    help: "Remove background from enhanced images"
     script:
-      - "python scripts/chunk.py ${vars.enhanced_image_folder} ${vars.chunked_image_folder}"
+      - "python scripts/remove_background.py ${vars.enhanced_image_folder} ${vars.enhanced_image_folder}/enhance_manifest.jsonl ${vars.background_removed_image_folder}"
+    outputs:
+      - ${vars.background_removed_image_folder}
+
+  - name: chunk
+    help: "Chunk images into text regions"
+    script:
+      - "python scripts/chunk.py ${vars.background_removed_image_folder} ${vars.background_removed_image_folder}/remove_multi_obj_black_bg_manifest.jsonl ${vars.chunked_image_folder}"
     outputs:
       - ${vars.chunked_image_folder}
 
@@ -391,5 +392,7 @@ commands:
       - "python scripts/weasel.py --force"
     outputs:
       - weasel_output/
+
+
 
 

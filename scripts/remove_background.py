@@ -199,10 +199,16 @@ def process_image(file_path: Path, out_path: Path) -> dict:
 
     bg_removed, params = remove_background_from_image(img)
 
-    # Save as PNG
+    # Get source folder structure from input path
+    source_dir = Path(*file_path.parts[file_path.parts.index('documents')+1:])
+    
+    # Save as PNG and ensure .png extension
     out_path = out_path.with_suffix('.png')
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    bg_removed.save(out_path, "PNG", optimize=True, quality=95)
+    bg_removed.save(out_path, "PNG")  # Remove quality parameter as it's not used for PNG
+    
+    # Ensure output path in manifest also has .png extension
+    rel_path = source_dir.with_suffix('.png')
 
     details = {
         "original_size": list(img.size),
@@ -210,7 +216,7 @@ def process_image(file_path: Path, out_path: Path) -> dict:
         "bg_removal_params": params
     }
     return {
-        "outputs": [str(out_path.name)],
+        "outputs": [str(rel_path)],
         "details": details
     }
 

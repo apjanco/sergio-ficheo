@@ -173,7 +173,8 @@ def crop(
         output_folder=crops_folder,
         process_name="crop",
         processor_fn=process_document,
-        base_folder=documents_folder / "documents"  # Add /documents to base folder path
+        base_folder=documents_folder,  # Remove /documents since it will be in the paths
+        use_source=True  # Use source paths from manifest
     )
     processor.process()
 
