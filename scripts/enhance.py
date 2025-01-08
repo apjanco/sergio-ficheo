@@ -96,10 +96,7 @@ class DocumentAnalyzer:
 class DocumentEnhancer:
     def enhance(self, img: np.ndarray, doc_type: str, is_yellowed: float) -> np.ndarray:
         """
-        Core document enhancement logic with:
-        1) CLAHE (differentiated for doc type)
-        2) More careful yellow cast reduction
-        3) Optional unsharp masking for final clarity
+        Core document enhancement logic with gentle color correction
         """
         # Convert to LAB for processing
         lab = cv2.cvtColor(img, cv2.COLOR_RGB2LAB)
@@ -107,34 +104,28 @@ class DocumentEnhancer:
         
         # STEP 1: Enhance text contrast using CLAHE
         if doc_type == 'handwritten':
-            # Handwriting often needs stronger local contrast
             clahe = cv2.createCLAHE(clipLimit=2.2, tileGridSize=(8, 8))
             l = clahe.apply(l)
-            # Boost contrast slightly for ink
             l = cv2.convertScaleAbs(l, alpha=1.1, beta=-5)
         else:
-            # Typescript: slightly less aggressive
             clahe = cv2.createCLAHE(clipLimit=1.6, tileGridSize=(16, 16))
             l = clahe.apply(l)
         
         # STEP 2: Handle color cast carefully
         if is_yellowed > 0.1:
-            # Proportional correction with a gentler scale to avoid going blue
-            yellow_reduction = min(10, int(4 * is_yellowed))
-            # Subtract from b channel
+            # Gentler yellow reduction
+            yellow_reduction = min(8, int(3 * is_yellowed))
             b = cv2.subtract(b, yellow_reduction)
             
-            # Slight a-channel desaturation
-            a = cv2.convertScaleAbs(a, alpha=0.97, beta=0)
+            # Very subtle a-channel adjustment
+            a = cv2.convertScaleAbs(a, alpha=0.98, beta=0)
         
         # Merge corrected channels
         enhanced_lab = cv2.merge([l, a, b])
         enhanced_rgb = cv2.cvtColor(enhanced_lab, cv2.COLOR_LAB2RGB)
         
-        # STEP 3: Optional unsharp masking to sharpen text edges
-        # (If you prefer not to sharpen, you can comment these lines out)
+        # STEP 3: Sharpen
         gaussian_blur = cv2.GaussianBlur(enhanced_rgb, (0, 0), 3)
-        # Increase weight of original image for sharper edges
         sharpened = cv2.addWeighted(enhanced_rgb, 1.5, gaussian_blur, -0.5, 0)
         
         return sharpened
