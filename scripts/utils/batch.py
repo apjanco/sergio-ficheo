@@ -48,26 +48,26 @@ class BatchProcessor:
         console.print(f"Output folder: {self.output_folder}")
         
         for doc in self.input_proc.stream_entries():
-            # Skip directory entries
             if doc.get("type") == "directory":
                 continue
 
-            # Get document path - prefer source if using source, otherwise use first output
+            # Handle both single files and chunks
+            paths_to_process = []
             if self.use_source and "source" in doc:
-                path = doc["source"]
+                paths_to_process.append(doc["source"])
             elif "outputs" in doc and doc["outputs"]:
-                path = doc["outputs"][0]
-            elif doc.get("path"):  # Fallback for direct paths
-                path = doc["path"]
-            else:
-                continue  # Skip if no valid path found
+                for out_path in doc["outputs"]:
+                    if isinstance(out_path, str):
+                        paths_to_process.append(out_path)
+                    elif isinstance(out_path, dict) and "path" in out_path:
+                        paths_to_process.append(out_path["path"])
 
-            # Check if already processed
-            if path in self.output_proc.entries:
-                skipped_count += 1
-                continue
-            
-            documents.append({"path": path})
+            # Add valid paths that haven't been processed
+            for path in paths_to_process:
+                if path not in self.output_proc.entries:
+                    documents.append({"path": path})
+                else:
+                    skipped_count += 1
 
         total_files = len(documents)
         stats = {
@@ -93,21 +93,16 @@ class BatchProcessor:
 
         try:
             with tracker.progress as progress:
-                current_batch = []
-                
-                for doc in documents:
-                    current_batch.append(doc)
-                    
-                    if len(current_batch) >= self.batch_size:
-                        self._process_batch(current_batch, stats, progress, tracker.task)
-                        current_batch = []
+                # Process in batches
+                for i in range(0, len(documents), self.batch_size):
+                    batch = documents[i:i + self.batch_size]
+                    self._process_batch(batch, stats, progress, tracker.task)
+                    # Save progress periodically
+                    if i % (self.batch_size * 5) == 0:
+                        self.output_proc._write_manifest(self.manifest_file)
                         self.output_proc.write_progress(stats)
 
-                # Process remaining files
-                if current_batch:
-                    self._process_batch(current_batch, stats, progress, tracker.task)
-
-            # Ensure final manifest is saved after all processing
+            # Final save
             self.output_proc._write_manifest(self.manifest_file)
             self.output_proc.write_progress(stats)
             self._print_stats(stats)
@@ -115,8 +110,8 @@ class BatchProcessor:
 
         except KeyboardInterrupt:
             console.print("\n[yellow]Processing interrupted by user. Saving progress...")
-            self.output_proc._write_manifest(self.manifest_file)  # Save manifest
-            self.output_proc.write_progress(stats)  # Save progress
+            self.output_proc._write_manifest(self.manifest_file)
+            self.output_proc.write_progress(stats)
             sys.exit(1)
         except Exception as e:
             console.print(f"\n[red]Error occurred: {e}")
@@ -129,7 +124,7 @@ class BatchProcessor:
             try:
                 path = Path(doc["path"])
                 
-                # Ensure base_folder/documents exists in path for proper structure
+                # Handle directory structure
                 if 'documents' not in str(self.base_folder):
                     full_path = self.base_folder / 'documents' / path
                 else:
@@ -137,18 +132,32 @@ class BatchProcessor:
                 
                 result = self.processor_fn(str(full_path), self.output_folder)
                 
-                # Preserve source path in result
-                if not result.get("source"):
-                    result["source"] = str(path)
-                self.output_proc.save_entry(result)
+                # Handle multi-file results (chunks)
+                if isinstance(result, dict):
+                    if result.get("chunks"):
+                        chunk_results = result["chunks"]
+                        for chunk in chunk_results:
+                            if not chunk.get("source"):
+                                chunk["source"] = str(path)
+                            self.output_proc.save_entry(chunk)
+                        
+                        if result.get("error"):
+                            stats["failed"] += 1
+                        else:
+                            stats["processed"] += len(chunk_results)
+                    else:
+                        # Handle single file result
+                        if not result.get("source"):
+                            result["source"] = str(path)
+                        self.output_proc.save_entry(result)
+                        
+                        if result.get("skipped"):
+                            stats["skipped"] += 1
+                        elif result.get("error"):
+                            stats["failed"] += 1
+                        else:
+                            stats["processed"] += 1
                 
-                if result.get("skipped"):
-                    stats["skipped"] += 1
-                elif result.get("error"):
-                    stats["failed"] += 1
-                else:
-                    stats["processed"] += 1
-                    
                 progress.update(task, advance=1, **stats)
                 
             except Exception as e:

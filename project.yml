@@ -18,8 +18,8 @@ vars:
   text_direction: 'horizontal-lr' #['horizontal-lr', 'horizontal-rl', 'vertical-lr', 'vertical-rl']
   version: "0.0.0"
   
-  project_folder: "/Volumes/Fichero/projects/demo" # Change this to run on different folders
-  # project_folder: "projects/demo" # Change this to run on different folders
+  # project_folder: "/Volumes/Fichero/projects/demo" # Change this to run on different folders
+  project_folder: "projects/demo" # Change this to run on different folders
   documents_folder: "${vars.project_folder}/documents"
   assets_folder: "${vars.project_folder}/assets"
 
@@ -43,7 +43,7 @@ vars:
   dataset_name: "fmb-quibdo/sergio-notebooks"
   enhanced_image_folder: "${vars.assets_folder}/enhanced"
   chunked_image_folder: "${vars.assets_folder}/chunks"
-  transcribed_chunks_folder: "${vars.assets_folder}/txt_chunks"
+  transcriptions_folder: "${vars.assets_folder}/transcriptions"  # Changed from txt_chunks
   prompt: "Extract all text line by line. Do not number lines. RETURN ONLY PLAIN TEXT. SAY NOTHING ELSE"
   recombined_folder: "${vars.assets_folder}/recombined"
   cleaned_folder: "${vars.assets_folder}/cleaned"
@@ -253,16 +253,16 @@ commands:
       - ${vars.chunked_image_folder}
 
   - name: transcribe
-    help: "Transcribe the images"
+    help: "Transcribe image chunks to text"
     script:
-      - "python scripts/transcribe.py ${vars.chunked_image_folder} ${vars.model} ${vars.transcribed_chunks_folder} '${vars.prompt}'"
+      - "python scripts/transcribe.py ${vars.chunked_image_folder} ${vars.chunked_image_folder}/chunk_manifest.jsonl ${vars.transcriptions_folder} --model \"${vars.model}\" --prompt \"${vars.prompt}\""
     outputs:
-      - ${vars.transcribed_chunks_folder}
+      - ${vars.transcriptions_folder}
 
   - name: recombine_chunks
     help: "Recombine the transcribed chunks into single markdown files"
     script:
-      - "python scripts/recombine_chunks.py ${vars.transcribed_chunks_folder} ${vars.recombined_folder}"
+      - "python scripts/recombine_chunks.py ${vars.transcriptions_folder} ${vars.recombined_folder}"
     outputs:
       - ${vars.recombined_folder}
 
