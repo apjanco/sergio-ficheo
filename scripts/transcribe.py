@@ -111,9 +111,9 @@ class TranscriptionProcessor:
             estimated_words = estimated_words * 4  # Increased multiplier
             
             # Add a buffer to account for underestimation
-            estimated_words = int(estimated_words * 2)  # Add 20% buffer
+            estimated_words = int(estimated_words * 1.2)  # Add 20% buffer
             
-            return min(estimated_words, 400)  # Increased max from 200
+            return min(estimated_words, 300)  # Increased max from 200
         except Exception:
             return 30
 
@@ -144,6 +144,13 @@ class TranscriptionProcessor:
                     new_width = int((max_size / height) * width)
                 image = image.resize((new_width, new_height), Image.LANCZOS)
 
+            # Add padding if height is too small
+            if height < 100:
+                new_height = 100
+                padded_image = Image.new("RGB", (width, new_height), (255, 255, 255))
+                padded_image.paste(image, (0, (new_height - height) // 2))
+                image = padded_image
+
             # Display the image being sent to the model
             # image.show()
 
@@ -173,11 +180,11 @@ class TranscriptionProcessor:
                 outputs = self.model.generate(
                     **inputs,
                     max_new_tokens=max_new_tokens,
-                    min_new_tokens=10,
+                    min_new_tokens=0,
                     num_beams=1,          # Reduce beams for faster processing
                     do_sample=True,       # Enable sampling
-                    temperature=0.7,      # Moderate temp for balanced output
-                    repetition_penalty=1.1,  # Adjust to reduce repetition
+                    temperature=0.5,      # Lower temp for less randomness
+                    repetition_penalty=1.2,  # Increase to reduce repetition
                     length_penalty=1.0,
                     top_p=0.9,            # Adjust for better sampling control
                     top_k=50,             # Adjust for better sampling control
@@ -277,11 +284,11 @@ def process_document(file_path: str, output_folder: Path) -> dict:
         input_path = Path(file_path)
         
         # If this is a source PNG from segments manifest, process it directly
-        if input_path.suffix.lower() == '.png':
-            rel_path = SegmentHandler.get_relative_path(input_path)
-            # Save to folder-level MD file
-            out_path = output_folder / 'documents' / rel_path.with_suffix('.md')
-            return process_image(input_path, out_path)
+        # if input_path.suffix.lower() == '.png':
+        #     rel_path = SegmentHandler.get_relative_path(input_path)
+        #     # Save to folder-level MD file
+        #     out_path = output_folder / 'documents' / rel_path.with_suffix('.md')
+        #     return process_image(input_path, out_path)
             
         # If this is a single segment file, process it
         if input_path.suffix.lower() in ['.jpg', '.jpeg']:
@@ -311,11 +318,11 @@ def process_document(file_path: str, output_folder: Path) -> dict:
             results.append(result)
             
         # Also process source PNG if it exists
-        source_png = segments_folder.parent / f"{segments_folder.stem[:-9]}.png"
-        if source_png.exists():
-            folder_md = output_folder / 'documents' / paths["parent_path"].with_suffix('.md')
-            source_result = process_image(source_png, folder_md)
-            results.append(source_result)
+        # source_png = segments_folder.parent / f"{segments_folder.stem[:-9]}.png"
+        # if source_png.exists():
+        #     folder_md = output_folder / 'documents' / paths["parent_path"].with_suffix('.md')
+        #     source_result = process_image(source_png, folder_md)
+        #     results.append(source_result)
                 
         # Return combined results
         successful = [r for r in results if not r.get("error")]
