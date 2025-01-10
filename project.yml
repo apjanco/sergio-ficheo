@@ -19,7 +19,7 @@ vars:
   version: "0.0.0"
   
   # project_folder: "/Volumes/Fichero/projects/demo" # Change this to run on different folders
-  project_folder: "projects/test" # Change this to run on different folders
+  project_folder: "projects/demo" # Change this to run on different folders
   documents_folder: "${vars.project_folder}/documents"
   assets_folder: "${vars.project_folder}/assets"
 
