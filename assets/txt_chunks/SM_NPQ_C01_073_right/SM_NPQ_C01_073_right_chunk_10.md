@@ -1,1 +1,0 @@
-Se Joaquín que no vale más y caso que más valga de su exceso en mucha o poca suma hace gracia y donación al dicho compatriota y sus herederos buena suma para este acceso e irreparable de los

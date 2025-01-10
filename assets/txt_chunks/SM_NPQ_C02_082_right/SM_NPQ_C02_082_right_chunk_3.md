@@ -1,1 +1,0 @@
-susetos a servidumbre; y les confiere poder irrevocable son libre franca y general administración a fin de que traten, contraten testen comoguezan en suicio por si o por medio de sus apoderados y practiquen sin intersinencion de la

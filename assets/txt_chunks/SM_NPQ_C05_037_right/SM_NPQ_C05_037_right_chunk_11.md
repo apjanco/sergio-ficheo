@@ -1,1 +1,0 @@
-comerciante de Cartagena de quien tuvo orden de entregarles al señor Jose Pardo o ha su hermano Pablo que verificó a los principios con todo el fuerzo de Biscaya y de lo demás de Suesia y acuerda a aceptar la misma cantidad del asercio este hay parte

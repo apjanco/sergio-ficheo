@@ -1,1 +1,0 @@
-El derecho de acción posesión propiedad dominio y señorío que a dicho esclavo Agapito tenían adquirido y todas con el de patronato y demás que le correspondían los ceden repunxan y bradosen en el camaradería sus sufrimientos.

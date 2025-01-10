@@ -1,1 +1,0 @@
-No debo obligación e hipoteca especial ni general que no la hice y se lo vende con todos sus vicios y defectos enfermidades públicas y secretas en precio y cantidad de cien pesos.

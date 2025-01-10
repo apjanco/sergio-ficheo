@@ -1,1 +1,0 @@
-Como no lo exigen intento acción o derecho que no le pertenezca, y sea visto haberla aprobado y ratificado añaden fuerza a fuerza y contrato a contrato con todas las clausulas vinculantes y salvo enidades que no para su validación se

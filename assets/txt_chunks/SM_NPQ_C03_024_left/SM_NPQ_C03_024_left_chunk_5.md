@@ -1,1 +1,0 @@
-Realmente y con derecho al ciudadano Juan de Mena de la propia vecindad una mulata su propia esclava cautiva y sosa aser-dumbre nombra Romualda la misma que hubo en publica almo-neda de los bienes confiscados al español Geronimo Martorell.

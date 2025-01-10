@@ -1,1 +1,0 @@
-facultades que asegura el otorgante no habersele hasta ahora suspendido ni limitado otorga; Que a nombre de su parte da carta de ahorro y libertad en forma a Micaela procedente de dicha quadri-lla en cantidad de doscientos pesos castellanos que ha recibido

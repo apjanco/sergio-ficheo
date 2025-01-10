@@ -1,1 +1,0 @@
-Y una cadena de oro con peso de veinticinco y tres balones con su obalo a veinticinco pesos castellanos - - Y una gargantilla de entorchados y conchas de oro con peso de diez y medio castellanos a diez tomás - -

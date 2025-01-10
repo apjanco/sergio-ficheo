@@ -1,1 +1,0 @@
-Ana María de la Cuesta vesinos que así mismo fueron de esta provincia, hallandome enferma en cami, pero en mi entero y sano juicio, gracias a la divina misericordia, creyendo y confesando en el altísimo misterio de la santisima trinidad, padre

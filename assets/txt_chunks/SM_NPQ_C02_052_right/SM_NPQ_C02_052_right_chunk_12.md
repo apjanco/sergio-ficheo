@@ -1,1 +1,0 @@
-No de esta a juventud de colegios, ni suavemente y con efecto a Nicolás Salazar de la propiá vecindad

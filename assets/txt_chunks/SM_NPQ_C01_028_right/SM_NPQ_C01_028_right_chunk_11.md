@@ -1,1 +1,0 @@
-Este diario por más bienes propios de este biena muerte muy hermoso aunque ya muy ahumado con su corona y potencias de plata: se le entrega este al señor cura para que lo aplique a la iglesia si le parece encarnable.

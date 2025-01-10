@@ -1,1 +1,0 @@
-del nominado siervo Miguel Carrera y su mujer Marra Luisa de la Cuenta a su entera satisfacción y contento sobre que renunció de cirlo contrario la excepción de la non numerata pecuniya su proe ba, la del recibo terminó x más del caso, en si virtud se despues

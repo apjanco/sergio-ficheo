@@ -1,1 +1,0 @@
-26 y prenentes es general renuncia y asi lo dice otorga y firma con aceptacion del apreciado de cuya merced le tributa los deudas y firma por el aceptante por saber este escribir uno de

@@ -1,1 +1,0 @@
-94% declaro la casa de mi habitación en el Río de Negó, 96% con su omenage correspondiente, con mas un fondo, y una pay- litay todo de cobre, declarolo para que conste.

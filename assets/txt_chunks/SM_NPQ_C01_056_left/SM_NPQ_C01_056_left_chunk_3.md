@@ -1,1 +1,0 @@
-Don Pedro José Álvarez del Pino ha satisfecho en esta contadura nueve pesos cuatro y medio reales de plata por el derecho de Alcañaval al 2 por ciento deducidos de cuatrocientos achen.

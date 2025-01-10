@@ -1,1 +1,0 @@
-la cual ha de ser vista haberla adquirido en que necesite de otro acta de apreciación de que la releva y se obliga a la exención y sanción momento de esta venta a su costo y menaron hasta dexar al comprador enquiety y pacífico posesión y no pudiendose lo espiar ledevolver

@@ -1,1 +1,0 @@
-La ley de los pesos castellanos que son los únicos que me ha satisfecido, se sigue anotado al pie de dicho documento, mando a mi alba cea que se cobre el importe legítimo o que asciende al resto y se acumule a mis bienes.

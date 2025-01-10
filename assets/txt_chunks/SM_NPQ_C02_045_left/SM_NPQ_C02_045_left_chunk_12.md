@@ -1,1 +1,0 @@
-Estas líneas y cuestiones de fondo su validación se re- vuelcan. Y a la observancia y portugués cumplimiento se o- rigen.

@@ -1,1 +1,0 @@
-vios me haya hecho, y falta que haya cometido en mi contrag, en toda materia y así mismo le pido perdón por las en que yo le hubiese gendido, y encargo a mis alvaceas la miren como a mujer sola sin casarla, y que su cuarto sea con los borrados y no se ponga en uso.

@@ -1,1 +1,0 @@
-Hay que hacer los otros yente lo aviso a mis albaecas para que siguisie-

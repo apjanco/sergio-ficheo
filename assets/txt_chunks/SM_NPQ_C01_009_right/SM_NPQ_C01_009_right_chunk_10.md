@@ -1,1 +1,0 @@
-Tímónio del lo dicen y otorgan, firma ele que sabe por el que dió no saber lo hace a sus puegos Don Domingo Polo con migo dicho gobernador y testigos. Por el impetimento referido

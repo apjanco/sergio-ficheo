@@ -1,1 +1,0 @@
-mo consta de la escritura citada a la que se remite. A cu- ya seguridad cumplimiento y firmesa se obliga con su per- sona, y vienes hávidos y por haver, conforme a depre- sión, presento el citado -José Antonio hoven-

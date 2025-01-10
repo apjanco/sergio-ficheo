@@ -1,1 +1,0 @@
-En la ciudad de Guibdo capitán del cantón del Citarra a diez y seis de julio de mil ochocientos veinte y dos. Anteí el escribano y testigos que senomi- naron parece el capitán Leandra Abendano residente en esta dicha

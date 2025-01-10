@@ -1,1 +1,0 @@
-con el de patronato y demas que le pertenezcan los ledes remun- cia y traspasos en el comandador y los suyas, que eu serial de ose- ción y para título de ella otorga a su favor esta escritura por

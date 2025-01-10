@@ -1,1 +1,0 @@
-tir el engaño; por lo que desde hoy en adelante para siempre se desapodera desiste quita y quarta del derecho de patrona

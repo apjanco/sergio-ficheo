@@ -1,1 +1,0 @@
-el contrato o su complemento. mediante lo cual se desiste quit y aparta del derecho, acción, posesión propiedad dominio y senio que a dicho esclavo Juan Eleuterio tenía adquirido y todos son el de patronato y demas que le pertenezcan los cede renuncia y otras

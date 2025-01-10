@@ -1,1 +1,0 @@
-89 yem declara: Que ha poco más de todos estando yo en este pueblo botaron un niño a mis puertos enlaming, de que medio parte el minero Jose Maria Hurtado y yo mando reconocen y cristianasen, alquillo cargo dicho Jose Maria y se lepuso

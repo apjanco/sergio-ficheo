@@ -1,1 +1,0 @@
-Por mi esposo Don José Morano Jose Ignacio de Alarcón Ramón del Diego Ximénez Ante mi Vicente Olachea

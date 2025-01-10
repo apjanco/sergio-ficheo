@@ -1,1 +1,0 @@
-Defiere en justicia solemnemente, y a la observancia y puntual cumplimiento de todo lo refiriéndose se obliga con sus bienes habidos y por haber con el poderío de Justicias somisión de fuerzo y

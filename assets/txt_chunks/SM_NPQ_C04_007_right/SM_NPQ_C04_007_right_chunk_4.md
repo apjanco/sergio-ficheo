@@ -1,1 +1,0 @@
-no vuelva a estar sujeta a servidumbre y le confíe poder inte- raccable con libre franca y general administración para que trate contrate, teste, comparezca en juicio porsi o por medio de sus apoderados y practique sin intervención del otorgante todo

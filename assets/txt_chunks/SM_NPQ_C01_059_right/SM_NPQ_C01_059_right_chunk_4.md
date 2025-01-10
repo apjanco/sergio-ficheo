@@ -1,1 +1,0 @@
-La propia señora y próxima para estar a la plaza de Cali, para que en su nombre pueda vender y vender arreglado a la instrucción que por separado le entrega un esclavo nombrado José Camoto de la testamentaria del ciga.

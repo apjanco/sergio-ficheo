@@ -1,1 +1,0 @@
-de contado con más el aumento de precio que adquiriese la finca, y costos y gastos que de la incertidumbre se le siguiere y reci- cieren cuya prueba difiere a su simple juramento, relevándolo de otra aunque por derecho se requiera, y a la observancia y con-

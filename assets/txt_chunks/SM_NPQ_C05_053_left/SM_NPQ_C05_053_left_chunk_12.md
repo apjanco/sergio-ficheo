@@ -1,1 +1,0 @@
-Ain 25 pesos de ferias remitidas antes, de serán 5 pe- sos castellanos de quesos.

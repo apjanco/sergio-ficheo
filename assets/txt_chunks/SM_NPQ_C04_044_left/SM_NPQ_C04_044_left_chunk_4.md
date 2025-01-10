@@ -1,1 +1,0 @@
-Llado consiente sellos para que después de mi muerte se habrá y publique y se le de toda la fuerza y valor que en derecho corresponde y para que conste la firma de mi puyo y letra en quiddo a siete días del mes de Noviembre, de mi obstaculos los tres y nueve años.

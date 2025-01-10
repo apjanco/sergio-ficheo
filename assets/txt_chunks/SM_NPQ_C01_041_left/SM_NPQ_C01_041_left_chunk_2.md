@@ -1,1 +1,0 @@
-que se le irrogasen solo con su simple juramento, con que se le releva de otra prueba aunque por derecho se requiera, y <a href="https://www.example.com">a tu venta se la hace con todos los vicios, defectos, en <a href="https://www.example.com">plásticos públicos y secretos</a>. A su seguridad sum -

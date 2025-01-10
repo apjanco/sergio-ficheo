@@ -1,1 +1,0 @@
-si lo hiciere, quiere que no se le orgi, ni admita en tribunal alguno como nolo a quien intenta acción o derecho que no le pertenece, y se a visto por lo mismo haverla aprobado y ratificado añaden de suerte a fuerza y contraído a contrato con todas las struy

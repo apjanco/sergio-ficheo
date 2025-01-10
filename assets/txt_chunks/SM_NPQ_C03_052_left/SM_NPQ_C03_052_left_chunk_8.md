@@ -1,1 +1,0 @@
-En la capital de Catarra a veinti y tres de Marzo de mil chocientos doce. Ante el escribano y testigos que se nomi naron parecer en la causa de su morada el actor Don Manuel

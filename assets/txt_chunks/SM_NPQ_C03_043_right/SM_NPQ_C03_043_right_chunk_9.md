@@ -1,1 +1,0 @@
-la vista (destruida) fecha en la capital de Novita a diez de (des- fruido) mil ochocientos siete años autorizada por el escribano pu- blicice de aquella provincia Don José Modalecio Lozano que (destru- do) en ella otra finca nos = agrega esto devuelto al interesado en

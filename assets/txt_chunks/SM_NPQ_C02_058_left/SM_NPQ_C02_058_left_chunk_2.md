@@ -1,1 +1,0 @@
-especialmente que no la tiene y se la vendió en todo que tiene tachas defectos enfermedades públicas y secretas en precio y cantidad de cincuenta castellanos que por el le ha dado en dinero de contado siendo de cargo del otorgante la paga del derecho de alcaldía que ha satisfecho al señor receptor de ellas quieren

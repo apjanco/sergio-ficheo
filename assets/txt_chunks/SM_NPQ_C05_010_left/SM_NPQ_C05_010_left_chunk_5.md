@@ -1,1 +1,0 @@
-En cuyo testimonio y estando presente así lo dixo otorgó y firmo siendo testigos los señores Francisco de Paz, Nicolás Roxas y Pedro Juan Correa, vecinos

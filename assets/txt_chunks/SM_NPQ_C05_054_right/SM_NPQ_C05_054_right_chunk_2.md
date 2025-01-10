@@ -1,1 +1,0 @@
-Estuve accidentado, deseo digo estoy aquí protestado desde luego digo y quiero que no valgo.

@@ -1,1 +1,0 @@
-15º y ten declaro que por obligacion a deudo a la negra huiza piza- rro veinte, y ocho pesos castellanos, y catorce de cuenta por tucular, que en una suma hacen la de quarenta, y dos pesos castellanos que mundo se le gaven como igualmente a xo-

@@ -1,1 +1,0 @@
-a quien certifico que conozco, y dibo (destruido) tiene una es- clava suda llamada Margarita de cañizo de edad de veinte

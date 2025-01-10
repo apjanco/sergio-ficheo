@@ -1,1 +1,0 @@
-Zion, y de no poderia hacerle debolvera los doscientos pesos de plata recibidos, y mas valor que con el tiempo haya adquirido dicho esclavo, costos y costas daños y perjuicios

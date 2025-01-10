@@ -1,1 +1,0 @@
-De mi señora Inés María de la Cuesta y Alvaro Mir y el señor y señora nombraron papeleo en la casa de su morada dona Goyafrudis 9a. y checho vivia vecina de esta provincia a quien boy feconzo y otorga: Que da carta de ahorro y libertad en forma a Jose

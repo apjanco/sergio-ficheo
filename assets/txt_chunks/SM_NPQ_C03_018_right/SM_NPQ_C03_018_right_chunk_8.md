@@ -1,1 +1,0 @@
-fracción para que brate, contrate el testé, comparezca en cur- cio porsí, o por medio de sus apoderados, y practique sin intervención de dichos herederos todo quanto esta permiti- do a los que nacieron libres, usando en todo de su espanto- y no voléte para que se corte.

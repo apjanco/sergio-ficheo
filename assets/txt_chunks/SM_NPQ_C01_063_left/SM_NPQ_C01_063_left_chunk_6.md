@@ -1,1 +1,0 @@
-El marqués de la Lanzada, en su prueba, entrego más del caso, y declara que los ciento y cuarenta y quince pesos de plata, presididos, es el justo precio de dichas esclavas francesas, y silvestra, que no valen más que las que más valen en su exceso en poca o mucho suj

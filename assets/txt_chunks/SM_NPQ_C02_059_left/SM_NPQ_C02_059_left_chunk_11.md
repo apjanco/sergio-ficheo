@@ -1,1 +1,0 @@
-Tanto es el suceso. Realmente tengo que hacerlo. Aparte del derecho de acción posesión dominio y señoro que a dichos esclavos Tomas y Francisco tenia adquirido y todo con el de patrocinato y demas cosa corresponde los

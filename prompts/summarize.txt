@@ -1,6 +1,0 @@
-Summarize the following text and return the result in JSON format.
-
-FIELDS: text
-
-Text: 
-{yaml_data}

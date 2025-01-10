@@ -1,1 +1,0 @@
-Lo a los cuatro meses de esta fecha, y el resto de los días - cientos al año cumplido, todo en especie de moneda usual y corriente. Y declara que la expresada cantidad es el cuarto valor y precio del esclavo Ramón que no vale más, y caso que

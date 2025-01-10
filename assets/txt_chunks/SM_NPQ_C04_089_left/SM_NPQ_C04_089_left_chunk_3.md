@@ -1,1 +1,0 @@
-XOS, el uno en un paraje que llamán Samainbora, y el otro enco- riquido, que todos constan por sus respectivos documentos la propriedad, y otro rafrozo en el Río de Bedarama que lo hueve, y com- pre, a Ballasar Hernandez, declarolo para que conste.

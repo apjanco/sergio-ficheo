@@ -1,1 +1,0 @@
-derio de Justicias Sumición de fuera y renuncación de leyes en derecho ha necesarios con la general en forma. En su testimo- nio así lo dice, otorga y firma el señor comparecente, y por el es entretenido Eduardo Candelas ha hecho el señor Pedro Fort

@@ -1,1 +1,0 @@
-Complimiento de todo lo referido se obliga con sus bienes ha sido otorgado y por haber con el poder de Justicias sumisión de quiera y perniciación de leyes, enderecho necesario con la general en forma. En su testimonio con aceptación del comisario

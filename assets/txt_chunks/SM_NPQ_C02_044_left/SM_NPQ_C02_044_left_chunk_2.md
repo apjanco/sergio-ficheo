@@ -1,1 +1,0 @@
-Oiga ni admitira en tribuada alguno como no le quita libertad, que no le pertenez, y sea visto por lo mismo haberla apropiado y ratificado añadiendo fuerza a fuerza y contrato a contrato con todas las clausulas vinculos y solenidades que

@@ -1,2 +1,0 @@
-tural de los reinos de España en cuyo matrimonio no hemos tenido ni procreado hizo alguno.
-49 Yt declaro que yo cuando controse dicho matrimonio aporte a él la cantidad de cinco mil quatrocientos sesenta y tres

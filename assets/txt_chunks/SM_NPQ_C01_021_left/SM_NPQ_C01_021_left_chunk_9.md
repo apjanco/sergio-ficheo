@@ -1,1 +1,0 @@
-su esclavo sujeto a servidumbre y dispongo de el a su arbitrio, mediante a que adquirio con lexitimidad, obligandose a la exicicion seguridad, y saneamiento de esto venta, ¿que le esta venta seguro y valido sobre ello?

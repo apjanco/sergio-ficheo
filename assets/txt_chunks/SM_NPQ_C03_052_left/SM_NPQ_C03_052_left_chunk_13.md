@@ -1,1 +1,0 @@
-medidas públicas y secretas, declarando como declaro que

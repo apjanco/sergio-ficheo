@@ -1,1 +1,0 @@
-favor de su meta otorgada dijo: que la asephoria y la aseplio. En cuyo testimonio así lo dicen y otorgan firma el que sabe, y por el que digo no sabe, lo hace a su rue- go francisco santander de conto, con migo dicho.

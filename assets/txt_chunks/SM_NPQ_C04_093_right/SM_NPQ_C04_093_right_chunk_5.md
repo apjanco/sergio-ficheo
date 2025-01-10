@@ -1,1 +1,0 @@
-Primero, encomiendo mi alma a Dios nuestro señor que la crió, y redimí con su preciosa sangre, y el cuerpo mío al triera, de que fue formado, el cual hecho cadáver, es mi baluartio se seguite en el cementerio de esta santa iglesia parroquial amor.

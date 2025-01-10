@@ -1,1 +1,0 @@
-nos pesos y tengo entregado al juzgado las cuentas correspondientes con el dinero de alcance que existía en mi poder. Aquas cuentas se hallan aprobadas por el señorados, en las cuales puedo prestar los cuentos y más acerca como compro en los arbo

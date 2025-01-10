@@ -1,1 +1,0 @@
-los Enganos más estafa y agrega a partir de la misma com- pradora Lemus el mas firme y eficaz resguardo que a su seguridad conduzca, declarando que esta venta se lo ha hecho con todos sus vicios tachas defectos enfermedades publicas y secretas

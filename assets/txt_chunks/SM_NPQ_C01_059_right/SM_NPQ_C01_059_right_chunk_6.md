@@ -1,1 +1,0 @@
-El comprobante contiene las declaraciones, fechas y fechas para su validación, con la excepción de un sancionamiento en caso de la incertidumbre. Que para lo dicho se incidente dependiente se da el presente con libre franja y general administración facultad de su juicio, lugar y tiempo.

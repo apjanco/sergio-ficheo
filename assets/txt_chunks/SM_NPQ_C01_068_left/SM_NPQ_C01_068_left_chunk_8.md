@@ -1,1 +1,0 @@
-la general renunciaion de ellas y siendo Satisfacta la rea Alcabala se agrego boleta original del señor ministro receptor de ella que dice asi - En cuyo testimonio asi lo dice fon y firman por la vendedeta Don Domingo Polo y por el Com

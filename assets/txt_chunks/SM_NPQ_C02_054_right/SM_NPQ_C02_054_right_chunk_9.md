@@ -1,1 +1,0 @@
-En el marco de la convocatoria, se deben realizar con sus deberes y responsabilidades, habidos y por hipoteca general de ellos y para ello se deben a los señores jueces y justicias de cualquier parte que sean a fin de que los competan y obtengan por todo rigor de derecho y vía ejecuta como por cuanto se suscriben.

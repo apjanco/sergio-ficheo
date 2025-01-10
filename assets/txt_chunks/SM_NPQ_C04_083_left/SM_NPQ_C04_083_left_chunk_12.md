@@ -1,1 +1,0 @@
-Asesorante Pedro Eduardo Cordova lo hizo el señor Pedro Iñtrillo, siendo testigos los señores Estaguirio Polo, Jose Maria Prado, y Jose Maria Pereanes vecinos

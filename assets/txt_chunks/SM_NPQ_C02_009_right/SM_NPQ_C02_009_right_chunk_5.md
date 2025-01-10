@@ -1,1 +1,0 @@
-Manuel Maria Bautista Cordero

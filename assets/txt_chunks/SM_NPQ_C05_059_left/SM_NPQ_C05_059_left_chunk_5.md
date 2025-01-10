@@ -1,1 +1,0 @@
-Con lo demás arriba expresado y otra cantidad que por las mañanas recibió perteneciente a la dicha deuda de Rentería y sirvió de abono a cuentas con el citado Don Ramón en cuyos libros pueden verse lo que declaro

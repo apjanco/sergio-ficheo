@@ -1,1 +1,0 @@
-pecunió su prueba, la del resibo término engano y más del ca- so, declarando que dicho esclavo Tomas no vale más y cosa que más valgo de su demasia en poco o mucha sí ma hace gracias y de

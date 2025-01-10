@@ -1,1 +1,0 @@
-los y regalos que se nombran en tafeto José María Domínguez recién de ella que en que doy fe conozco y otorga que da Car- to de ahorro y libertad enforma a Joaquín Asperilla su propio esclava en la cantidad de doscientos cincuenta pesos de plata de a ocho reales la misma en que ha sido valuada

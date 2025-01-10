@@ -1,1 +1,0 @@
-La escritura es en español.

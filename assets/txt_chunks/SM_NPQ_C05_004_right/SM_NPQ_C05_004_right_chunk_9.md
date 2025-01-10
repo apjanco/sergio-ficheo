@@ -1,1 +1,0 @@
-lo de Henares, y demos que hablan en razón de las cosas que se con- pran y venden por más o menos de la mitad del justo precio y el término concedido para la rescisión del contrato o su suplemento. Mediante lo cual se desiste quita, y aparto del derecho de

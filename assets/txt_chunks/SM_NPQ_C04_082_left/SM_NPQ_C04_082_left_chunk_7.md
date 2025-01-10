@@ -1,1 +1,0 @@
-Tome en cuenta los hechos de mi padre (legible) ya que este número por lo cual concierto deberes a cada uno de los sínco que legítimamente la pentenésa... y tem declaro que tengo en mi poder una escopeta vieja.

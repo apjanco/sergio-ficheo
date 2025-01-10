@@ -1,1 +1,0 @@
-un cajetín inglés de vainilla de desfierro con altolado de sarasa y otro de velillo, una comoda de caoba, un capote de fañío azul

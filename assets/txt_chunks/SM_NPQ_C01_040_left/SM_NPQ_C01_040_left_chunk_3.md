@@ -1,1 +1,0 @@
-valerera y sobre ella no se le fomenta príncipe contracción a gunga y si se le maviere la segorra y fenecera a su costa ha desarle enqreta y pacifica poecion, y de no poderlo hacer le debolvera los cien pesos de plata rezividos, y mas valor

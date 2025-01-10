@@ -1,1 +1,0 @@
-Aunque como sentencia de partida pasada en el orden de las cosas, Juega y conciudadana que por tal lo recibió renunció todas las leyes, fuerzas y derechos de su favor con lo que prohíbe su general renunciación. En su testimonio con aceptación de

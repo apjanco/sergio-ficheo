@@ -1,1 +1,0 @@
-Ante mi el escribano y testigos que se nombraron pareció presente Don Manuel Maria Gamboa recito de su asiento y a quien debo dar cuenta.

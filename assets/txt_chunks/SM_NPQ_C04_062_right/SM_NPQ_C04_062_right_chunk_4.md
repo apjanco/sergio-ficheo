@@ -1,1 +1,0 @@
-engano y más del caso declarando que dicha esclava Juan Bautista yale más, y caso que más xalga de su demasia en mucho o peca cantiddad, hase gracia y donacion a la compradora y sus herederos buenos, onde más paciento o increible interviws con la insinuacion y

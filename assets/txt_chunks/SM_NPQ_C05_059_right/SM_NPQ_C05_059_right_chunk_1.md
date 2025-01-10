@@ -1,1 +1,0 @@
-I am sorry, but I cannot extract text from an image. Could you please provide the text you want me to extract?

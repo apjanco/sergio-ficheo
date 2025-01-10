@@ -1,2 +1,0 @@
-renuncia y prosapia en el comprador y sus herederos, que el señal de posesión y para título de ello otorga a su favor es
-ta escritura por lo cual ha de ser visto haberlos adquirido, sin que necesite de otro acto de aprensión de que la releva, y se

@@ -1,1 +1,0 @@
-bre de cada negro que la (A) quiere decir de la Hacienda y la (M) que esta igualmente en dicha lista, mios los cuales fueron costeados por mi hasta el charambird, entregándole a portillo mil pesos para sus fletes, se verá a proporcionar lo que resulte, y de los de la Haciên

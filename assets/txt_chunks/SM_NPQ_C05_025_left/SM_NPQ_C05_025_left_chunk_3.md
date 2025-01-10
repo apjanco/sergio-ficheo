@@ -1,1 +1,0 @@
-Corpus puertos, como consta de su rale que mande a Noriega, y ales hizo cargo de su pago. Dedo rolo para que conste. 63ytem declaro: Que a Joaquín Paz Rodríguez le dí 200 pala

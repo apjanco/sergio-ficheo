@@ -1,1 +1,0 @@
-Entre mexiquenses públicos y secretos en la cantidad de treinta y cinco pesos de plata que por ellos le ha dado en dinero de contado sumando de corazón del obrero la paga del derecho de alcabala lo que ha satisfizo al señor receptor de ellos quien en prueba de su recibo ha dado la brisa que inserto dice

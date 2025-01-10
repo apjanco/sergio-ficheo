@@ -1,1 +1,0 @@
-me herederos forzosos, y por la tranquilidad de su conciencia y no te- ner persona a quien se los cuides. Pues desde ahora la halatormente por insinuada, con todas las solemnidades que legalmente es- tán prescriptivas, supley y pide, se halle por suplido cualquier sustan-

@@ -1,1 +1,0 @@
-presentarse obligándose conforme a derecho a todos los cos- tos y costas de su cobranza. En cuyo testimonio y satisfacción el real derecho de Alcavala según se ve de la voleta que origi- nate aparega y su tenor el siguiente = Así lo dicen otor-

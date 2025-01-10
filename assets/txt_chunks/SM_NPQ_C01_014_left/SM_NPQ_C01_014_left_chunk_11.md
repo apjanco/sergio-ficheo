@@ -1,1 +1,0 @@
-Inventario y descubrimiento que las tienen como sus propios y de su propia quadrilla libres de otra venta siendo empeño ni hipoteca tacita ni expresa, y portal los asegura en cantidad de mil doscientos y secen- to que consigue, la plenamente tener por todas los sus

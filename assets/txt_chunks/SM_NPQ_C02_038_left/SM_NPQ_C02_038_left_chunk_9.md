@@ -1,1 +1,0 @@
-La ley de justicia, la sumisión de fuerza, la re- nunciación de derechos necesarias con la gene- ración en su testimonio con asesoria del señor camarador así lo dice obregon y firman siendo

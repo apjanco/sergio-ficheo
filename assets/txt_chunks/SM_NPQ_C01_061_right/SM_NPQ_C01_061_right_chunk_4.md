@@ -1,1 +1,0 @@
-Como de edad de veinte y cinco años, que sea para el citado sus- pederos y sucesores y se lo vende por triste de otra venta cuyo empeño ni hipoteca, hasta ni expresa, pero con todos sus varios trajes

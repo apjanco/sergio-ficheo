@@ -1,1 +1,0 @@
-desde el derecho plenario interinos con la autonomía y soberanía necesaria sobre que renuncia la ley del ordenamiento Real fecha en cortes de Alcalá de Henares y demás que habían en razón de lo que se ordena en todo el territorio de la España.

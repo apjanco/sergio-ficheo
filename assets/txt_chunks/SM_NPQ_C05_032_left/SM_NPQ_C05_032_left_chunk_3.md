@@ -1,1 +1,0 @@
-La Cruy y Dona Margarita Varona, conducido por Jose Marra Ch. Yerri a entregarse popayan a Ramon Cordoba por orden del citado Don Gabriel Asaxer. Primero, una negra llamada Rosa, de edad al parecer.

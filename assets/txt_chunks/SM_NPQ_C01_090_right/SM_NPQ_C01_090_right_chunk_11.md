@@ -1,1 +1,0 @@
-y su mujer Micaela el primero propio del otorgante y la segunda de la dicha su hermana que los hubieron por razón de herencia y se los vende por libre de censo empresto ni higoteza tacita ni expresada ni portal se los asegura con

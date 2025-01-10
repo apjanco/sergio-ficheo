@@ -1,1 +1,0 @@
-renuncia decir lo contrario, la excepción de la non numerata fecunda supueva la del recibo, termino, organo, y mas del caso, declando que dicho mulato cayetano, no vale mas, y aunque mas valga, desy demasia en mucha, o poca cantidad hace gracia y donacion

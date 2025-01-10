@@ -1,1 +1,0 @@
-y de no quererlo cumplir el día que se separa ha de contri-

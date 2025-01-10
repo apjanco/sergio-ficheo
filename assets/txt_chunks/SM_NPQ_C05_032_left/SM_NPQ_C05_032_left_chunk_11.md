@@ -1,1 +1,0 @@
-Esto es una lista de ingredientes para hacer una almuerda.

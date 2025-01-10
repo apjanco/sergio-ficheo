@@ -1,1 +1,0 @@
-Noyet concormie aderecho. 3 de estos satisfecha la real alcavala del senor receptor se agrega voleta original cuyo contenido dice assi = encuyo testimonio, y estando presente el precatado Don francisco Xomer de Cento quien

@@ -1,1 +1,0 @@
-Rante valois segun y en los terminos que expresa esta en ellas, y para mayor seguridad del casonario hipoteca especi- cual y señaladamente los referidos esclanos otro soyo pro- pio llamado Miguel Antonio y un platanar sito en el Rio San

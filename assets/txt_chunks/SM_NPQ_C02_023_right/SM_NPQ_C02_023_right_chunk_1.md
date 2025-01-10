@@ -1,1 +1,0 @@
-general en forma. En cuyo testimonio con aceptación del com-

@@ -1,1 +1,0 @@
-Conflictó el doctor Juan Martínez Bueno y Jental para un cobro, que no he verificado, mandó a mis albañales los recojan y se los manden a donde existiese, y sino a sus herederos, lo declaro para que conste.

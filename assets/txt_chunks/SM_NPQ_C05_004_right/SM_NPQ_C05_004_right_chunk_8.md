@@ -1,1 +1,0 @@
-al comprador y sus herederos, buena, purgadera, perfecta, e irrevo- cable interivivos, con insigniacion y renunciacion necesaria, sobre que renuncia la ley del ordenamiento Real fecha en cortes de Alca- la, la Hora es avanzada, y hablan en frana de los coros, jueves 60

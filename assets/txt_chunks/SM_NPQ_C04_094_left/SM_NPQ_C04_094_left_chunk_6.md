@@ -1,1 +1,0 @@
-halla este asunto, mundo a mis almas que contado escrito

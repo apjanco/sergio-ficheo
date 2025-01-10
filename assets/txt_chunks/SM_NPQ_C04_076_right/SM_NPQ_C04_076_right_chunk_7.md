@@ -1,1 +1,0 @@
-total al señor Joaquín Polo y por recomendación de Domingo de Cárz dova un esclavo propio suyo que lo hoba y heredó desupad padre el de punto señor Francisco y García y Ruiz, llamado Francisco (9) paton propio esclavo del señor otorgante cautivo y sujeta a servidumbre.

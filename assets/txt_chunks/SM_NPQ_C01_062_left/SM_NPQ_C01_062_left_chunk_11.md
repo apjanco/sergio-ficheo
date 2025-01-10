@@ -1,1 +1,0 @@
-Los sábados de cuatrocientos veinte días de plazo que confiesa tener recibidos de mano del comisario o su entera satisfacción y contento sobre que por no ser de presente la entrega porque que yo dicho escribano de fe de el lo confieso y renuncia alegar de

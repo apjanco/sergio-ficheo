@@ -1,1 +1,0 @@
-sus bienes y rentas habidos y portar haber con el poder y renuncia de Justicias de su cuerpo renuncia de leyes del caso y general del derecho en forma. Su su testimonio estando presente tambien dicho Don Joaquín Colón dijo que aceptaba esta escritura

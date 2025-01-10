@@ -1,1 +1,0 @@
-XV declaro que ya mismo devo al indio Joseph Maria de Napipi diez y seis pesos. Declararolo para que coiste XV Declaro deber quinientos pesos de plata por un comunicado

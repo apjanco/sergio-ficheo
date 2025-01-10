@@ -1,1 +1,0 @@
-orden que de ella le de los copias autorizadas que amiste para su resguardo; y se obligan a no reclamar ni contrarrestar en manera alguna esta libertad, y á lo hieren quieren que no se les oiga ni admita en tribunal alguno como no lo sequían

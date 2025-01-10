@@ -1,1 +1,0 @@
-Pedro - Bruno - Manuel José Petronio - Dolores - Felipe - Clara - Ruperto - Agencia - José Jaguim - Antonio - Juan Tomás - S -

@@ -1,1 +1,0 @@
-a su hijo Ron Juan Antonio ferro es a saber un mulatico de e- edad de tres años para recompesar lo que he dispuesto que haga suyo propio y que el dicho mulatico nombrado francisco o feliz lo mantendete en mi poder hasta que pueda usar de el elrefe-

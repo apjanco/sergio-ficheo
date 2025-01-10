@@ -1,1 +1,0 @@
-La cual se mando preguntas por dicho señor gobernador de orden y veral por no causar costos a la parte, comisionando para el efecto para el acto de remate al señor alcalde ordinario de primera nomina, e Antonio Garcia y falcon, que mande publicar diciendo hay quien

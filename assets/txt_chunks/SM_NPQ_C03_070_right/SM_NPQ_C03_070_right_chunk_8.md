@@ -1,1 +1,0 @@
-dada de quarenta pesos castellanos cuatro tamunos, y ahora que de que dede a la mortujo de esta ocho pesos castellanos que (destru)do) de su mesa y tiempo que estaba (destinado) quince pesos castellanos.

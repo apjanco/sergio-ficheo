@@ -1,1 +1,0 @@
-La ha dado la Comandada. En directo de Contrato, el senor Sonta-mon de Diego Ximenez teniente de gobernador de esta dicha provincia como consta de su certificación original que se agrega y dice así -en cuya virtud el otorgante dándose por entregado por entregado

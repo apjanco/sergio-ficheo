@@ -1,1 +1,0 @@
-Numerada recién su prueba la del recibo terminó engañada y mala del caso. Y declara que el justo precio y logitimo valor de dicho esclavo Luna es el de los trescientos patrones recibidos que no vale más y caso que más y alga de su demasia en poco o

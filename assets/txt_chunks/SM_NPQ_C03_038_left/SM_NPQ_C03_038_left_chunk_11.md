@@ -1,1 +1,0 @@
-Interrogatorio intervinidos al indicado señor ayudante San vicente Gallardo de un herido estropio del insurgente y ex-dictador Lon Miguel Ruch, de edad de once años llamado Agustin y desde hoy en adelante para mantener alcalde desapodo.

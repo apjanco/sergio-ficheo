@@ -1,1 +1,0 @@
-non numerata pecuniis supravie de sus recibos, obligando estatutos y mas del caso, y declara que no vale numerus animas, y casos que mas sufrir desdemasia en mucho o poca suma hace gracia y donacion a nombre de su constituyente y sus herederos biena, pues, mera perfe

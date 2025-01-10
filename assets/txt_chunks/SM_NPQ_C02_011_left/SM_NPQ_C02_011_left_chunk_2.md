@@ -1,1 +1,0 @@
-2014 a diez y nueve de octubre de mil ochocientos diez. Ante mi escribano y testigos que se nominaron pareció presente en la casa de su morada Dona María Quintero viuda y Albacea de Don Tomás polo de este vecindario a quien doy fe conozco y diizo: Que vende y da en

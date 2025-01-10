@@ -1,1 +1,0 @@
-ta venta, asu costa y mencion, hasta dejar al comprador en jure- yta, y pacifica, pocesion; y no pudiendosely sonear le debulvero

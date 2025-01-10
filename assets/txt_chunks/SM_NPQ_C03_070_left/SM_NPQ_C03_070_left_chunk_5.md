@@ -1,1 +1,0 @@
-y de no poderlo conseguir le dará y volverá la suma recibida con las cantidades que de su interés el hombre se le siguen en cuya prueba difiere a su simple juramento relevándolo de otra aunque por deceso se requiera y a la observancia y cumplimiento de la ley

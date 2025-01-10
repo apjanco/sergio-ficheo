@@ -1,1 +1,0 @@
-Co un mulato llamado Cayetano su propio eslabo, y sujeto a servidumbre, el cual asegura hallarse libre de deuda, obligacion e hipoteca, especial ni general que no la tiene, como así lo asegura y que se lo vende

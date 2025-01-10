@@ -1,1 +1,0 @@
-y disponga de ella a su arbitrio mediante a que la adquira con éxito, seguridad, saneamiento, y firmeza de esta venta, la cual le será cierta seguridad, y valega y sobre ella no se le pondrá pleito ni contradicción el

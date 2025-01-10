@@ -1,1 +1,0 @@
-culos y solemnidades que para su perfección y solemnidad se requieren. Y a la observancia y puntual cumplimiento de to-d- do lo regeido se obliga con su persona y bienes habitados y por haber con el poder de justicia, sumisión de fuerza y re-

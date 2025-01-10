@@ -1,1 +1,0 @@
-Ante mi el escribano y testigos que se nombraron parecio presente en la casa de su morado Dona Rosalia de Cordoba vecina de ello a quien doy fe conoces y dixio: Quevende y da

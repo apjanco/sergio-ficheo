@@ -1,1 +1,0 @@
-Los festigos que lo fueron las ciudadanos Nicolás Roxas, José Joaquín Moreno, y Isidro Pereyra vecinos Melchor de Varona por el aceptante Nicolás Roxas Ante mi Manuel Flores

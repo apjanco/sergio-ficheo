@@ -1,1 +1,0 @@
-con la instrucción y renuncia necesaria sobre que renuncia la ley del ordenamiento real fecha en Cor-tes de Alcalá de Henares, y demás que huban en ro-

@@ -1,1 +1,0 @@
-otra producto aunque por debajo se requiera. y esta venta se le hace con todos los vicios defectos enfermedades (pali) cas y secretas de dicha esclava. A cuyo seguridad abierta miento y firmesa se obliga conforme a derecho y están

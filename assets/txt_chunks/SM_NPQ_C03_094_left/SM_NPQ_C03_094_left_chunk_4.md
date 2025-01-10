@@ -1,1 +1,0 @@
-presente, dicha libertad placida dixo: Que acepta esta es critura que se leyó de Verbo ad verbum y por no saber firmar estan ni aquellos lo hicieron los testigos que tambien se hallaron presentes, y lo fueron Don Manuel flores don Tomas Ra

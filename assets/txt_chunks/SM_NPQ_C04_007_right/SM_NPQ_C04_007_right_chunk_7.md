@@ -1,1 +1,0 @@
-organiza admiten en tribunal alguno como no lo es quien intenta acción o derecho quien le pertenece, y su vista por lo mismo haberla aprobado y ratificado añadiendo fuerza a fuerza y contra- to a contar con todas las claves las y todas las que

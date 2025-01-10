@@ -1,2 +1,0 @@
-En la capital de quibdo provincia del citora a quince de febrero de mil ochenta
-cientos veinte y uno a virtud de demanda puesta por el señor José Joaquín Alarcón contra el señor Luis Pizarro por cantidad de pesos que es

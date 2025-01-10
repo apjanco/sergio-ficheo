@@ -1,1 +1,0 @@
-María Contreras, en su cartera, no reci- mién contradijiera en manera alguna esta libertad, y si lo hir- ciere averte que no se le da ni admita en tribunal alguno co- mo no le has querido acciones o bienes que no le perten- cían, pero por lo tanto, habiendo cumplido con todo lo que se le ha pedido, no se le ha permitido que se le haya dado en el tribunal.

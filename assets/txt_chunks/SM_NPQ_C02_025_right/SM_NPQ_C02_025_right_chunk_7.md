@@ -1,1 +1,0 @@
-La palabra "siempre" se encuentra en la primera línea.

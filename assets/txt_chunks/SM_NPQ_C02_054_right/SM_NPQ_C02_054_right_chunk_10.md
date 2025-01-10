@@ -1,1 +1,0 @@
-derecho y no ejecutivo como por contrato y sentencia, sujidad loz y en autoridad de cosa juzgada y consentido renunciaron las leyes, fueros y derechos de su favor con la general enforma. En su testimonio que lo dixeron otorgaron y citaron siendo tes- tigos el señor Don Bautista de Diego Ximenez Don Jose Goya y

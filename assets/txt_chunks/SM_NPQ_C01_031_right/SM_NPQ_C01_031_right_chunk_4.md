@@ -1,1 +1,0 @@
-ha vendido y de que hace referencia ha clausulado un deseo en memoria de tenerle entregados trece pesos y medio: de que yo el dicho gobernador certifico con los referidos testigos fe cha at supra entre remisiones = certifico = fe

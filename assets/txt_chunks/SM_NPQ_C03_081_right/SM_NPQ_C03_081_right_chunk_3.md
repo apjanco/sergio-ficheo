@@ -1,1 +1,0 @@
-Geronimo su propio esclavo en cantidad de Quatrocientos pesos de plata de ocho reglas que confiesa tener recibidos de mano de el a su entera satisfacción y

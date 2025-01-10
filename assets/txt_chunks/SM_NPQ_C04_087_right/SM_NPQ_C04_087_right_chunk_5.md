@@ -1,1 +1,0 @@
-Menos, vecina de esta provincia a quien doy fe conosco y orga: Que de su libre y espontanea voluntad, y por el mucho amor que le profesa al señor vicario Superintendente Manuel Santos de Escobar y Ramos, sin otro motivo hace gracia y donación pura, merced, perfecta, intervinos,

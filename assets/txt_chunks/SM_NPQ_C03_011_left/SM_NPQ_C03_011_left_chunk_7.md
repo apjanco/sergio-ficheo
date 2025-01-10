@@ -1,1 +1,0 @@
-bajo y sin carga ninguna en el canalón, el derecho de mi- na llamado la contención propio de esto haciendo, los derechos de la mina de Palma, son platañer en el río de Arquig, una capta de la otra partida de ambos bordos. otra di

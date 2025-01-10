@@ -1,1 +1,0 @@
-los mismos términos que hasta ahora y como si fuera naturalmente libre: se desapoderá desiste y aparta desde dicha época para siempre del derecho de patronato y dominio que tuvo sobre ellos y lo

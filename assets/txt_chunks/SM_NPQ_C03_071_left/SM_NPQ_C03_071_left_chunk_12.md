@@ -1,1 +1,0 @@
-que el arquitecto real Pedro en Cortes de Alcalá de Henares y los cuatro años en ella declarados para repetir y descansar el con

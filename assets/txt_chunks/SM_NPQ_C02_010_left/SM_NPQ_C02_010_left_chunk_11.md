@@ -1,1 +1,0 @@
-Dona Maria Quintero vivía necia de esta provincia a quien hoy se conozco y diixo que como Albaceo de su legítimo esposo y curadora de sus menores hijos vendy da en venta Real y perpetug enageracion desde ahora para siem

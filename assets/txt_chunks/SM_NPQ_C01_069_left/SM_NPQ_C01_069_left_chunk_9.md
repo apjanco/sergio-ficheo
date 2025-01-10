@@ -1,1 +1,0 @@
-Los herederos seña reclamaba ni contradicía esta escritura y caso que por alguno se intente quese que no valga ni sea odo en jurro mifeta de el comon lo es quien intenta acción o derecho que no le pertenece y antes sea visto haber aprobado y reval

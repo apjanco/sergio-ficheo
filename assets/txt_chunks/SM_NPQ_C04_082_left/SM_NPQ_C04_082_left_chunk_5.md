@@ -1,1 +1,0 @@
-Xtem declaro que el señor Manuel Maria Ayala vecino de pa- nima medible supuesta palacenas por resto de un negrito propio mo que le vendi, nombrado Jose del qual no quiso le otorgase la

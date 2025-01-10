@@ -1,1 +1,0 @@
-La ra de nuestros hijos, las cuales enteras se encontraron, entramos papeles. 6 y ten declaro que la mulata Gregorio es de mi, hija Agusti no por haberla sedido desde muchachig, mando mis alvaces leator.

@@ -48,26 +48,32 @@ class BatchProcessor:
         console.print(f"Output folder: {self.output_folder}")
         
         for doc in self.input_proc.stream_entries():
+            # Skip directory entries
             if doc.get("type") == "directory":
                 continue
 
-            # Handle both single files and chunks
             paths_to_process = []
+            
+            # Get document paths based on configuration
             if self.use_source and "source" in doc:
                 paths_to_process.append(doc["source"])
             elif "outputs" in doc and doc["outputs"]:
+                # Handle both string and dict outputs
                 for out_path in doc["outputs"]:
                     if isinstance(out_path, str):
                         paths_to_process.append(out_path)
                     elif isinstance(out_path, dict) and "path" in out_path:
                         paths_to_process.append(out_path["path"])
-
-            # Add valid paths that haven't been processed
+            elif doc.get("path"):  # Fallback for direct paths
+                paths_to_process.append(doc["path"])
+                
+            # Process collected paths
             for path in paths_to_process:
-                if path not in self.output_proc.entries:
-                    documents.append({"path": path})
-                else:
+                # Skip if already processed
+                if path in self.output_proc.entries:
                     skipped_count += 1
+                    continue
+                documents.append({"path": path})
 
         total_files = len(documents)
         stats = {
@@ -93,16 +99,21 @@ class BatchProcessor:
 
         try:
             with tracker.progress as progress:
-                # Process in batches
-                for i in range(0, len(documents), self.batch_size):
-                    batch = documents[i:i + self.batch_size]
-                    self._process_batch(batch, stats, progress, tracker.task)
-                    # Save progress periodically
-                    if i % (self.batch_size * 5) == 0:
-                        self.output_proc._write_manifest(self.manifest_file)
+                current_batch = []
+                
+                for doc in documents:
+                    current_batch.append(doc)
+                    
+                    if len(current_batch) >= self.batch_size:
+                        self._process_batch(current_batch, stats, progress, tracker.task)
+                        current_batch = []
                         self.output_proc.write_progress(stats)
 
-            # Final save
+                # Process remaining files
+                if current_batch:
+                    self._process_batch(current_batch, stats, progress, tracker.task)
+
+            # Ensure final manifest is saved after all processing
             self.output_proc._write_manifest(self.manifest_file)
             self.output_proc.write_progress(stats)
             self._print_stats(stats)
@@ -110,8 +121,8 @@ class BatchProcessor:
 
         except KeyboardInterrupt:
             console.print("\n[yellow]Processing interrupted by user. Saving progress...")
-            self.output_proc._write_manifest(self.manifest_file)
-            self.output_proc.write_progress(stats)
+            self.output_proc._write_manifest(self.manifest_file)  # Save manifest
+            self.output_proc.write_progress(stats)  # Save progress
             sys.exit(1)
         except Exception as e:
             console.print(f"\n[red]Error occurred: {e}")
@@ -124,40 +135,35 @@ class BatchProcessor:
             try:
                 path = Path(doc["path"])
                 
-                # Handle directory structure
-                if 'documents' not in str(self.base_folder):
-                    full_path = self.base_folder / 'documents' / path
+                # Fix path resolution - remove double 'documents' if present
+                if self.base_folder:
+                    if 'documents' in str(self.base_folder):
+                        # Base folder already has documents
+                        full_path = self.base_folder / path
+                    else:
+                        # Need to add documents
+                        full_path = self.base_folder / 'documents' / path
                 else:
-                    full_path = self.base_folder / path
+                    full_path = path
+
+                # Ensure extension is preserved
+                if path.suffix:
+                    full_path = full_path.with_suffix(path.suffix)
                 
                 result = self.processor_fn(str(full_path), self.output_folder)
                 
-                # Handle multi-file results (chunks)
-                if isinstance(result, dict):
-                    if result.get("chunks"):
-                        chunk_results = result["chunks"]
-                        for chunk in chunk_results:
-                            if not chunk.get("source"):
-                                chunk["source"] = str(path)
-                            self.output_proc.save_entry(chunk)
-                        
-                        if result.get("error"):
-                            stats["failed"] += 1
-                        else:
-                            stats["processed"] += len(chunk_results)
-                    else:
-                        # Handle single file result
-                        if not result.get("source"):
-                            result["source"] = str(path)
-                        self.output_proc.save_entry(result)
-                        
-                        if result.get("skipped"):
-                            stats["skipped"] += 1
-                        elif result.get("error"):
-                            stats["failed"] += 1
-                        else:
-                            stats["processed"] += 1
+                # Preserve source path in result
+                if not result.get("source"):
+                    result["source"] = str(path)
+                self.output_proc.save_entry(result)
                 
+                if result.get("skipped"):
+                    stats["skipped"] += 1
+                elif result.get("error"):
+                    stats["failed"] += 1
+                else:
+                    stats["processed"] += 1
+                    
                 progress.update(task, advance=1, **stats)
                 
             except Exception as e:

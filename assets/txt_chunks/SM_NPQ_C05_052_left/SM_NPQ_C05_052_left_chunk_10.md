@@ -1,1 +1,0 @@
-rio la excepción de la non numerato pecomo, su prueba, la del recibo, termino, engano y mas del caso, declarando que dicho esclavo Jose e novale mas y aunque mas valgo de su demasiao en mucho o poca cantidad basa arropa

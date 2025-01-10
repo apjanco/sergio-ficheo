@@ -1,2 +1,0 @@
-Moresno vecinos
-Gertrudis Polo

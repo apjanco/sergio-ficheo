@@ -1,1 +1,0 @@
-dicho escribieron de fe de ella tenencia alegre de calibrar la excepción y ley de la non numerata pecuniá prueba de su recibo más del caso. Y confiesa que el justo valor de la recibo esclavo ha sido calculado de los trescientos veinte y cinco pesos de plata tenidas

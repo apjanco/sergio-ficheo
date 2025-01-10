@@ -1,1 +1,0 @@
-accion, posesión, propiedad, dominio, y señorío, que dicho edilbo Cayetano, tenía adquirido, y todos con el de patronato, y de mas que la correspondan, los cede, renuncia, y trasposa, en el comovador y sus sus hijos esenos, que en señal de posesión, y para

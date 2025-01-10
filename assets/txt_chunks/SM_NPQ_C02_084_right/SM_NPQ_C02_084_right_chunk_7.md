@@ -1,1 +1,0 @@
-La palabra "ra" se encuentra en la primera línea.

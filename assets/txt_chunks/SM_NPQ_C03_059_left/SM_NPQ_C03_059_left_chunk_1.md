@@ -1,1 +1,0 @@
-The text on the image is not clear and appears to be a close-up of a page from a book or notebook.

@@ -1,1 +1,0 @@
-Nicolas Salazar de la mano escribiendo un negro en propio esclavo nombrado Vicente el que se halla libre de empeño de la obligación e hipoteca especial ni general que no la tiene como

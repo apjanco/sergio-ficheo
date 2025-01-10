@@ -1,2 +1,0 @@
-se haga vitalidad por parte alguna, es mi voluntad que se haga al fuego dicho pliego serrado como esto, sin que ninguno se imponga de su contenido. Declaralo para que conste.
-87 y tem declaro: Que perdono a dicha mi moger, todos y quantos aga

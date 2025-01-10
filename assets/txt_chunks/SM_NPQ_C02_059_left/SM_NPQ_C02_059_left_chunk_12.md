@@ -1,1 +1,0 @@
-celle monencia y traspasa en el comisario que en señal de pos- sesión y para título de ella otorga a su favor esta escritura

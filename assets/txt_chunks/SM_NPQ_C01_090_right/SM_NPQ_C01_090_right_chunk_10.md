@@ -1,1 +1,0 @@
-Me ha puesto a la venta la casa de la que la respeto en vida y tengo en venta real y en perpetua enagagenación desde ahora y para siempre jamás a Rita Alarcon viuda vesgo de esta dicha provincia es a saber dos negros esclavos llamados Antonio y Manuel, el cual se ha quedado en el campo y la casa.

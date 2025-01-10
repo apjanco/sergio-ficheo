@@ -1,1 +1,0 @@
-Den porsi como corresponde y le miren con la mayor consideracion dandole todos los alimentos necesarios. Declaralo para que conote 90 y ten declaro: que agrego a este mi testamento una copia del agente firmado de Don Antonio Medina de los efectos, y todo lo que se

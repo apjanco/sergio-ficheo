@@ -1,1 +1,0 @@
-Hijo, y Francisco ambos insolidum, a quienes suplico el desempe- no de esta mi última voluntad y les prorrogó además del año fa- tal todo el tiempo que necesiten. Y por el presente revoco, y onullo todos los testamentos codicios poderes y demás disposicio-

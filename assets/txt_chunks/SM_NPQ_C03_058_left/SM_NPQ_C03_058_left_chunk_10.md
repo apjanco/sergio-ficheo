@@ -1,1 +1,0 @@
-esposorio es laborioso y sujeto a servidumbre nombrado Joaquín que lo hubo por comoro que de el hizo a Don Luis Trelles de que les otorga la escritura entre el escribano que fac de esta provincia Tomás po. En cuya sitiu lo ha poseido por suyo propio libre de empeño des

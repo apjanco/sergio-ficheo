@@ -1,1 +1,0 @@
-Bienvenidos a la comunidad de los que el derecho llama interinos con insinuación en forma. A cerca de la cual renuncia la ley del ordenamiento real fecha en cortes de Alcalá de Hena.

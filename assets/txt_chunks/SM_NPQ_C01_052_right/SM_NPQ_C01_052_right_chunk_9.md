@@ -1,1 +1,0 @@
-Tigos con quienes actúa por el impedimento del único escritor, parecido presente Manuel Salvador Cordero - vecino de esta provincia - y quien certifico consigo y ofrezgo: Que vendes y da enven- to real y en perpetua enegacación desde ahora y para siempre.

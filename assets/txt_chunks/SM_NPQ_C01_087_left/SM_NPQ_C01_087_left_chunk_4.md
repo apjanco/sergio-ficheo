@@ -1,1 +1,0 @@
-A pie de plato grande y un pico con un martillo pequeño todo en ocho reales y dos belones de cobre en dos patacones.

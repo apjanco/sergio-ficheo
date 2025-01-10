@@ -1,1 +1,0 @@
-prador en dinero de contado de la que seda por entregado a su voluntad renuncia decir lo contrario la excepción de la non nu- merata pecuna su prueba la del recibo termino, engano y más del caso si declarando que hubo esclavo Bruno no vale más, y que

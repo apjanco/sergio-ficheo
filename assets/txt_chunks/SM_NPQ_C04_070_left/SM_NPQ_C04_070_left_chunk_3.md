@@ -1,1 +1,0 @@
-tiques sin intervención del otorgante todo cuanto está permitido a los que restaron libres, usando en todo de su espontanea voluntad pues para ello formaliza a su favor esta escritura con los requisitos legales y asegura que pueda conservarlos a su mayor estabilidad. Me pide que de

@@ -1,1 +1,0 @@
-Compleciendo con el se agregan para más solemnidad dichas diligencias cias que copiadas dicen así... Es copia de sus originales de que doy fe, y el comprecciente a virtud y corroboración de las mismas o forra: Que do corta de aborro y libertad en cormio alexesado A

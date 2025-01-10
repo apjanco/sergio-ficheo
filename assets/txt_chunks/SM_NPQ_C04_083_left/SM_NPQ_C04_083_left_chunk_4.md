@@ -1,1 +1,0 @@
-les, moneda usual y corriente que de mano de Pedro Cor- doba tiene recibida, de cuya entrega y recibo doy fe, y de ellos otorga a favor de dicho liberto, el mas firme y eficaz renguardo, que a su seguridad comienza. En su virtud se desiste quita x goarta del

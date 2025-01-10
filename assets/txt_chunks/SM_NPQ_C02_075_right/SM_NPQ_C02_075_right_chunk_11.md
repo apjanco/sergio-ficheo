@@ -1,1 +1,0 @@
-Leyes en derecho necesarias con la general en forma. En su testimonio con aceptación del libertad así lo alegan y firman los que saben haciendolo por este testimonio que lo fue Don Agustín Romero, Don Joaquín Escobar y fr

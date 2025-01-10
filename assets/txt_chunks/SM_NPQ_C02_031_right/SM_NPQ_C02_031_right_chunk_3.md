@@ -1,1 +1,0 @@
-Tuyente de la acción posesión dominio y señorío que a dicha esclava Teda tenía adquirido y todos estos derechos con el de ga-tronato y demás que le correspondían las cede remisión y tras pasar en el comprador, que en señal de posesión rogó título de ella.

@@ -1,1 +1,0 @@
-Frigos que se nombraron parecido Ambrosio Palacios reino de ella a quien doy fe conozco y otorga; Que do carta de aborro y libertad en formando a Diomisio Palacios su propio esclavo en cautividad de ven- te y cinco pesos castellanos que confiesa tener recibidos.

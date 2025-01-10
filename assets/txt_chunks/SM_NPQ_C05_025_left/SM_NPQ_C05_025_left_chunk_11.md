@@ -1,1 +1,0 @@
-Esteban José de Amador de Guayagui sobrevive huido para horno Don José Portillo fabricando un sergantin faltando entido a la legalidades según la estroplacion y confrito con este, cuando

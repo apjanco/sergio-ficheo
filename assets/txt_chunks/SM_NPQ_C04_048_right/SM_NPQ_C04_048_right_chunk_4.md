@@ -1,1 +1,0 @@
-tente de poder disfrutar de él, para que lo cambie, enagene, use y dis- ponga de el como de casa suya adquirida con justo y legítimo título, to- me y aprenda de su autoridad la posesión que en virtud de este instrumento le pertenezese, y para que no necesite tomarla antes bien conste en todo

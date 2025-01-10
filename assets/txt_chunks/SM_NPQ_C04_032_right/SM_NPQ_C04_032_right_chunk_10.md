@@ -1,1 +1,0 @@
-min engano y más del caso declarando a nombre de su parte que no vale más dicho esclavo Manuel Antonio y aunque mas valga de su demasia en mucha o poca cantidad, hase gracia y donacion alcomorador y sus herederos biena para mera perfecta e irre

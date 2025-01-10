@@ -1,1 +1,0 @@
-tenía x encargo y me gluceas lo vean para que hagan el cargo

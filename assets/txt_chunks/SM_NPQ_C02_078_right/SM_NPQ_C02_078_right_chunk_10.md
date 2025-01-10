@@ -1,1 +1,0 @@
-La acción poseíon propietad de asmin y señar que a mena esclava Gregoria tenia adquirido y todos con el de antito- nato y demas que le correspondan los cede renuncia y frasposa en el Comopador y sus sucesores, que su suel de posesión y su honor es

@@ -1,1 +1,0 @@
-A quien se conoce y otorga: Que vende realmente y con efecto a San Francisco Nieto de la propia vecindad dos negros sus propios esclavos cuatro y subastos a servidumbre nombrados Tomás Romero y su mujer Francisco los que hubo en re

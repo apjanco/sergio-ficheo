@@ -1,1 +1,0 @@
-y puntual cumplimiento de todo lo referido se oliga contra su perso- na y bienes havidos y por hacer con el poderio de Justicias suma- sión de fuerzo y renuncia de leyes en de recho necesarias con la general en forma. En su testimonio así, lo diseñ otorgan y

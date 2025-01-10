@@ -1,1 +1,0 @@
-y pacifica posesión y no pudierasela sancionar de revolver la cantidad que el otorgante ha recibido en dinero descontado con las costas y gastos que de la muertombre se le seguiren y recreieren cuya prueba defiere a simple jurisprudencia

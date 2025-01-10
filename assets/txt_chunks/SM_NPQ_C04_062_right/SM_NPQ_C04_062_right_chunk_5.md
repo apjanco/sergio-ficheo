@@ -1,1 +1,0 @@
-Para mera perfecta e irrebatable intervivos con la inculcacion, y renunciacion necesaria sobre que renuncia la ley del ordenamiento Real fecha en cortes de Alcalá de Henares y demas que habian en razón de loque se compra y vende por mazo o menos de la mitad

@@ -1,1 +1,0 @@
-Y se obligan los otorgantes a no reclamar ni contradecir en manera alguna esta libertad y si lo hacen, quieren que nos les pida ayuda en tribunal, albañil como no lo es quien intenta acción

@@ -1,1 +1,0 @@
-This is a handwritten note.

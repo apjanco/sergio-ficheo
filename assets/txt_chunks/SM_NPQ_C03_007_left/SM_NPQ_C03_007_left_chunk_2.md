@@ -1,1 +1,0 @@
-y le pagara las costas y gastos de sumcetidumbre cuya prue ha defiere en su simple Juramento relexandole de otro qu que por derecho se requiera. Y a la observancia x puntug!

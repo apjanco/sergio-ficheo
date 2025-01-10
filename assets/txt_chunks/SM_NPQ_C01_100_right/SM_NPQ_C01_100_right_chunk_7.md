@@ -1,1 +1,0 @@
-pasión y contenido, noble que para no ser de presente so en brega para que yo dicho escribo la defensa de ella la confesión y denuncia alegar de contrario la excepción de la non numerata pecuniaria prueba de su resero y demás del caso, cinco

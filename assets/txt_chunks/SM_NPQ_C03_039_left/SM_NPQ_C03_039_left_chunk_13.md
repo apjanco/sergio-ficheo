@@ -1,1 +1,0 @@
-ridas extrajeron al cúmulo de estópiles y con los que le

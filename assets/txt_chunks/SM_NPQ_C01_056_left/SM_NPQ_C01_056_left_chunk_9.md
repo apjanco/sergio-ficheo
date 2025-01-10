@@ -1,1 +1,0 @@
-cho de Alcaxaló, al 2 por ciento dedicados de trescientos en que ha vendido a Juliana Martínez, un negro llamado Julian. Quibdo Agosto 31 de 1808. Jose Maria Valencia

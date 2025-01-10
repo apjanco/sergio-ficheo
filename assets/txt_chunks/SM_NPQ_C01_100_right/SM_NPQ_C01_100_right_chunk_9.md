@@ -1,1 +1,0 @@
-mas valga de su demasia y exceso en mucho o poca suma le hace gracia y donación al comprador y los suyos buena, pura, mera, perfecta e irreforcable de las que el derecho llama interivios con insinuación en forma o estro de lo cual

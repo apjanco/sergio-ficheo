@@ -1,1 +1,0 @@
-1920. y en consecuencia para que se tenga que pagar al menos 250.00 libras y consigna en Salvador Palacios contenido en el cuello de la escritura antecedente y deudor de la otorgante y le confiere a dicho Morato poder irreversible con libre franquia y general

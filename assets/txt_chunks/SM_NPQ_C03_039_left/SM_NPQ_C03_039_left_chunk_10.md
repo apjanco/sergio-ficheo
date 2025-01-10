@@ -1,1 +1,0 @@
-Juan María Joaquín, María Ignacia, José Joaquín y María Barbara Polo y Corado declararon por sus hijos legítimos y de la referida mi esposa.

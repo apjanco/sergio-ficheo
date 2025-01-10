@@ -1,1 +1,0 @@
-Los vestidos de oro una de que pesa un castillo, y la otra de quedra colorada cuatro camisas de mi uso buenas, dos camisones de saraza azul otro de saraza morada, otro muselina, un pollerón de muselina bordado de long, un camisen colo

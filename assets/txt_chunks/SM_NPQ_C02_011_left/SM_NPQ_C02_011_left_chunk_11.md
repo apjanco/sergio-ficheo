@@ -1,1 +1,0 @@
-sobre su propiedad y goce que se le pone a alguien y si se le pone a alguien luego que le consiga y se le salga la otorgante a la voz y defensa y a su costo y mención la seguridad y cenecera hasta dejar al com

@@ -1,1 +1,0 @@
-Serregui dice x seis pesos castellanos, sufrían morales y re- castellanos - a los herederos de Matías palacios difunto quen- tox y seis pesos castellanos por obligación, y los demas que cons- tan por mil libro de cuentas

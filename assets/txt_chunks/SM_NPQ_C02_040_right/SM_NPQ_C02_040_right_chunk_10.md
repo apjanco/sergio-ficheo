@@ -1,1 +1,0 @@
-Me con él y en todo lo demás, a él le da su fuerza y vigor para que se estreme con su afán de delibera voluntad y con ningún motivo ni pretexto se contraven-ga. Así lo otorga estando al parecer en su entero y solo Juicio siendo testigos Gregorio Vivas y Pedro Forns Brusio Palacios y

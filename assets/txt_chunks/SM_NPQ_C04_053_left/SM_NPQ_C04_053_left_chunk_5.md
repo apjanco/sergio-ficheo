@@ -1,1 +1,0 @@
-lo se renunció y trasposo a su favor a fin de que no pueda esclavo ni vuelva a estar sujeto a servidumbre, y la conciere después de sus días poder inevocable con libre franco, y general administración para

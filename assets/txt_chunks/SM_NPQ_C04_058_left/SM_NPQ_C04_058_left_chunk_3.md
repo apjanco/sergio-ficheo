@@ -1,1 +1,0 @@
-Zamora y tenes por más bienes determinados de la persona que por el contrato o su suplemento. Median- te lo cual se deciste, quitá y aparta del derecho de acción posesión propiedad dominio y senora que quicha esclava y nocencia tenía.

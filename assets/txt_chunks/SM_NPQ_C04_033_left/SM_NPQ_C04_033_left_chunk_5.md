@@ -1,1 +1,0 @@
-Hay pacífica posición y no pudiendo esta sumar le devolvera la suma recibida y la gana para las costas y gastos de su incertidumbre cuya prueba desviente casamiento juramento relevándolo de otra aunque por derecho se requiere. Y a la observancia y pon

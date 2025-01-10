@@ -1,1 +1,0 @@
-Fancur, un recibo en confianza, de haber recibido quimientos que se dieron por recibidos, a cuenta de la dependencia de Don Sebastián de Oses vecino de Cartaxena como apodio de Don Joaquín Franco, Albacete y heredero del citado Oses

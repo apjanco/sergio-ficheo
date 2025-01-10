@@ -1,1 +1,0 @@
-ano y hace treinta que no le pago. También lo soy de la Casa y la ta de Jerusalén pagando la misma cuota annual mando a mis alba cegas se pague lo que resulte deber 14 Xtem declaro deber a nuestra señora de las Mercedes un Abi

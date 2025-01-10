@@ -19,7 +19,7 @@ vars:
   version: "0.0.0"
   
   # project_folder: "/Volumes/Fichero/projects/demo" # Change this to run on different folders
-  project_folder: "projects/demo" # Change this to run on different folders
+  project_folder: "projects/test" # Change this to run on different folders
   documents_folder: "${vars.project_folder}/documents"
   assets_folder: "${vars.project_folder}/assets"
 
@@ -42,7 +42,7 @@ vars:
   code_model: "Qwen/Qwen2.5-Coder-7B-Instruct"
   dataset_name: "fmb-quibdo/sergio-notebooks"
   enhanced_image_folder: "${vars.assets_folder}/enhanced"
-  chunked_image_folder: "${vars.assets_folder}/chunks"
+  segmented_image_folder: "${vars.assets_folder}/segments"  # Changed from chunks
   transcriptions_folder: "${vars.assets_folder}/transcriptions"  # Changed from txt_chunks
   prompt: "Extract all text line by line. Do not number lines. RETURN ONLY PLAIN TEXT. SAY NOTHING ELSE"
   recombined_folder: "${vars.assets_folder}/recombined"
@@ -58,13 +58,14 @@ vars:
   html_image_folder: "${vars.html_folder}/images"
   auto_chunk: false  # Turn off auto chunking
   split_manifest: "${vars.assets_folder}/splits/split_manifest.jsonl"
-  progress_dir: "${vars.assets_folder}/progress"
+  segment_manifest: "${vars.segmented_image_folder}/segment_manifest.jsonl"  # Fix manifest paths
+  transcription_manifest: "${vars.transcriptions_folder}/transcription_manifest.jsonl"  # Fix manifest paths
 
 base_path: projects/demo
 documents_folder: projects/demo/documents
 crops_folder: projects/demo/assets/crops
 
-directories: ["configs", "scripts","_site", "_templates", "prompts", "pipelines", "packages", "${vars.assets_folder}", "${vars.crops_folder}", "${vars.documents_manifest_folder}"]
+directories: ["configs", "scripts","_site", "_templates", "pipelines", "packages", "${vars.assets_folder}", "${vars.crops_folder}", "${vars.documents_manifest_folder}"]
 
 workflows:
   all:
@@ -77,9 +78,9 @@ workflows:
     - rotate
     - enhance
     - remove_background
-    - chunk
+    - segment  # Changed from chunk
     - transcribe
-    - recombine_chunks
+    - recombine_segments  # Changed from recombine_chunks
     - fuzzy_clean
     - process_json
     - process_ner
@@ -102,7 +103,8 @@ workflows:
     - rotate
     - enhance
     - remove_background
-    - chunk
+    - segment  # Changed from chunk
+    - transcribe
 
   build_manifest:
     - build_documents_manifest
@@ -116,10 +118,10 @@ workflows:
     - rotate
     - enhance
 
-  chunk_and_transcribe:
-    - chunk
+  segment_and_transcribe:  # Rename this workflow
+    - segment
     - transcribe
-    - recombine_chunks
+    - recombine_segments
     - fuzzy_clean
     
   process_and_clean_ner:
@@ -135,9 +137,9 @@ workflows:
     - check_split_and_copy
     - rotate
     - enhance
-    - chunk
+    - segment  # Changed from chunk
     - transcribe
-    - recombine_chunks
+    - recombine_segments  # Changed from recombine_chunks
     - fuzzy_clean
     - process_json
     - process_ner
@@ -155,7 +157,7 @@ workflows:
 
   all-ocr:
     - transcribe
-    - recombine_chunks
+    - recombine_segments  # Changed from recombine_chunks
     - fuzzy_clean
     - process_json
     - process_ner
@@ -245,24 +247,26 @@ commands:
     outputs:
       - ${vars.background_removed_image_folder}
 
-  - name: chunk
-    help: "Chunk images into text regions"
+  - name: segment  # Changed from chunk
+    help: "Segment images into text regions"  # Updated description
     script:
-      - "python scripts/chunk.py ${vars.background_removed_image_folder} ${vars.background_removed_image_folder}/remove_multi_obj_black_bg_manifest.jsonl ${vars.chunked_image_folder}"
+      - "python scripts/segment.py ${vars.background_removed_image_folder} ${vars.background_removed_image_folder}/remove_multi_obj_black_bg_manifest.jsonl ${vars.segmented_image_folder}"
     outputs:
-      - ${vars.chunked_image_folder}
+      - ${vars.segmented_image_folder}
+      - ${vars.segmented_image_folder}/segment_manifest.jsonl  # Add manifest output
 
   - name: transcribe
-    help: "Transcribe image chunks to text"
+    help: "Transcribe documents using QWEN-VL"
     script:
-      - "python scripts/transcribe.py ${vars.chunked_image_folder} ${vars.chunked_image_folder}/chunk_manifest.jsonl ${vars.transcriptions_folder} --model \"${vars.model}\" --prompt \"${vars.prompt}\""
+      - "python scripts/transcribe.py ${vars.segmented_image_folder} ${vars.segment_manifest} ${vars.transcriptions_folder}"
     outputs:
       - ${vars.transcriptions_folder}
+      - ${vars.transcription_manifest}  # Add manifest output
 
-  - name: recombine_chunks
-    help: "Recombine the transcribed chunks into single markdown files"
+  - name: recombine_segments  # Changed from recombine_chunks
+    help: "Recombine the transcribed segments into single markdown files"
     script:
-      - "python scripts/recombine_chunks.py ${vars.transcriptions_folder} ${vars.recombined_folder}"
+      - "python scripts/recombine_segments.py ${vars.transcriptions_folder} ${vars.recombined_folder}"
     outputs:
       - ${vars.recombined_folder}
 
@@ -385,14 +389,3 @@ commands:
       - "python scripts/publish.py ${vars.split_image_folder} ${vars.split_image_folder}/data.jsonl _site"
     outputs:
       - _site/
-
-  - name: weasel
-    help: "Force the weasel command to run again"
-    script:
-      - "python scripts/weasel.py --force"
-    outputs:
-      - weasel_output/
-
-
-
-

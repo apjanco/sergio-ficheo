@@ -1,1 +1,0 @@
-No sean enad en el libro ni de él como si fueran suyo.

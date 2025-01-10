@@ -1,1 +1,0 @@
-Quelques mots ajoutés avec prétexte (déserté) que manifeste-t-elle à la plus brevité (déserté) est écrit dans la manière dont elle dit ainsi et utilisant par ailleurs des formules que les facultés qui se sont confiées en cette lettre ont offert : Que tu aies de l'Abraham.

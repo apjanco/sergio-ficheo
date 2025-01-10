@@ -1,1 +1,0 @@
-doncios que al obsequiente se irroguen y haga constar por su relacion Jurada sin otra pruega, de que se relevan, sino al cumplimiento de todo lo pactado, pues que se cobre o no la pena, o generalmente se remita, as ha de llevar a poru, y debido ejecucion ten frances

@@ -1,1 +1,0 @@
-Don Vicente Gallardo no ha hecho presente honrarse con don del señor comandante de la misma Don Julián Baier para que sea la confianza en propiedad no es tanto cualquier de

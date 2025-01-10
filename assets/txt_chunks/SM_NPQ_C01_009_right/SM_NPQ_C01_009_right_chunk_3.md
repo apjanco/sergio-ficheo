@@ -1,1 +1,0 @@
-En quieto y pasifica poecion y de no poderlo hacer la debol- rea el imporres de esta venta si ya estubiere re- estribo el todo o la parte de que confusa catar satisfacio con

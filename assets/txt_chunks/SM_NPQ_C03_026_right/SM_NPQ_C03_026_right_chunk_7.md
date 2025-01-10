@@ -1,1 +1,0 @@
-gales y precisos que sean conducentes a su mayor estabilidad me pide que de ella le de las copias autorizadas que vio ro para su resguardo y se obliga a no reclamar encuentrades ser en manera alguna esta libertad y solo la muestre quienc

@@ -1,1 +1,0 @@
-Contrario, la excepción de la non numerata peculia su prue- ba, la del recibo, hermino, organo, y mas del caso, declarando como declaro que dichos esclava Micarela novale mas, y que que mas valga de sodemosia en mucho o poca cantidad hace

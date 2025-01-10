@@ -1,1 +1,0 @@
-La escritura es en español y se encuentra en un cuaderno de notas.

@@ -1,1 +1,0 @@
-absolutamente no tiene acción ni derecho y sin embargo lo intenta, y sea visto por lo mismo haberla aprobado y revalidado, añadiendo fuerza a fuerza y contrato y contrario con todas las cláusulas vinculadas y solemnidades que para su

@@ -1,1 +1,0 @@
-la crió de la nada, y regimió con el pecio de su sangre y veneno po ala hierra de que fue formado, el cual es mi mixitud sea amortajado con el abito de San Francisco de Asis, seguida en la yglesia de este pueblo con misa de cuerpo presente si la ha

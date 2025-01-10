@@ -1,1 +1,0 @@
-La primera línea dice: "a la primicia del mismo poder y de lo que en su virtud se habla".

@@ -1,1 +1,0 @@
-se hizo cargo de los sinqüenta negros, liberado mis poderes a Don Manuel Silvestre Balvarde contodos los documentos para que por

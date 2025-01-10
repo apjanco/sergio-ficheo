@@ -1,1 +1,0 @@
-Los para que la docena posean tenían administración a su totalidad. Y se obliga a la ejecución y sanción de esta escritura a su costo y menor hasta dexar a la legataria en pacífica posesión y de no poderse la causar de repondrá otra finca.

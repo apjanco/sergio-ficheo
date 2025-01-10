@@ -1,1 +1,0 @@
-Ser (ilégible) graves de conciencia, el cual dejo comunicado a ellos... Y tem declaro que en Bogotá dejo mi padre un litigio pendiente con la viuda de Don Antonio (ilégible) cuya cantidad asciende a quarenta familias patrónas y de ellos dejo sin mil para otro comunicado

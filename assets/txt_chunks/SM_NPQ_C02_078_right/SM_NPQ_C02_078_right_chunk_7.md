@@ -1,1 +1,0 @@
-Lentidad renuncia decir la contraria la excepción de la van numerata pecunia su ofreba la del recibo termina eragno y mas del caso declarando que lo vale mas y caso que mas vale de su demasia en mucha o poco buis hace

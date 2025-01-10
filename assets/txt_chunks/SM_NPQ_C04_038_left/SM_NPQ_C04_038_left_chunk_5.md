@@ -1,1 +1,0 @@
-derecho se requiere/ a la obesidad y quitar equipamiento

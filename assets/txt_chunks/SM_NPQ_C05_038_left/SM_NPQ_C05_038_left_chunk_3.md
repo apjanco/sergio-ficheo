@@ -1,1 +1,0 @@
-hidas y venidas de las embargos que se hicieron de Bebárda a este pueblo se a perdido la mayor parte y solo resolto catorce o quince quintales que se entregaron al señor Bargona y dos quintales en Bebárda que existen en mi casa entrando en cuenta treinta y

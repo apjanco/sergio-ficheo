@@ -1,1 +1,0 @@
-Matías Castro tres pesos castellanos quatro hombres pa cuyo pago le entrega entre una obligación contra Condellario fra de quince pesos con calidad de que le díese el resto a su mujer sin que hasta la fecha haya podido cobrar cosa alguna del deudor

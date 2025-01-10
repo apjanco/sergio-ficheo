@@ -1,1 +1,0 @@
-para titular de ella otorga a su favor esta escritura por la que de ser vista habrá la adquirida en que necesita de otro acto de apreciación de que la reelexa, y se obliga a la exicción y saneamiento de esta por venta de su parte hasta dejar al comprador en queja posesión

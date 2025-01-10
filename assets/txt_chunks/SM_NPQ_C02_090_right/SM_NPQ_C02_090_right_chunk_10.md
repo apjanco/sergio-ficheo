@@ -1,1 +1,0 @@
-La iglesia, la fe y la creencia han vivido y progresado como católico cuyo cristiano temeroso de la muerte que es natural y precisa a todo criatura humana y su hora incesante para estar prevenido cuando llegue, y puede resolver con acierto.

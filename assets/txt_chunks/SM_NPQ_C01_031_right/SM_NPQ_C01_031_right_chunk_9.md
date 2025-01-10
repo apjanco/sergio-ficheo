@@ -1,1 +1,0 @@
-El teniente del gobernador de esta y sus vecinos expresaron a usted por impedimento del único escribano pareció presente. Don Pedro Alvarez del Pino a quien certifico conozco y doy; Que vende y da en venta Real y perpetua erigación des

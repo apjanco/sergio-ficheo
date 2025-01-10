@@ -1,1 +1,0 @@
-Donación al comprador y sus herederos bueno para mera perfecta e ininterruible intervivos con la insinuación y re- nunciación necesaria sobre que renuncia la ley del orden

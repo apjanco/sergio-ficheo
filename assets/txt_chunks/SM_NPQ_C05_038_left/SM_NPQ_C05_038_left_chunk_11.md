@@ -1,1 +1,0 @@
-por el referendo Balberde, pero lejos de verificarlo se empeño en remise hasta esto sin embargo de que se lo previo Balberde, de cuyo xiaje me resultaron unos costos exorbitantes cuyo cuenta ni la quise ver x les obligue el total cargo que me

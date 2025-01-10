@@ -1,1 +1,0 @@
-En la ciudad de Quijado capital de la provincia de Cítara a orse dete- brezo de mil ochocientos diez y nueve. Ante mi el escribano y letr- gos que se nombraron parecio. Don Jose Agustin Lenis apoderado de Don Antonio Valencia serun consta del que cappu quierado.

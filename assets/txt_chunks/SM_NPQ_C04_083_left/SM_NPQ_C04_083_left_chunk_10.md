@@ -1,1 +1,0 @@
-do fuerza a fuerza, y contrato a contrato con todas las ley- sulas, vinculos y solemnidades que para su perpetua validación se requieren. Y al observancia y puntual cumplimiento de todo lo referido obliga su persona y bienes havidos y por hacer con el po-

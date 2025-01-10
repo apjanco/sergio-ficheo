@@ -1,1 +1,0 @@
-comparte eco enjuicio por si o por medio de sus goberadores y a juzgue sin intervención de los otorgantes quanto esto

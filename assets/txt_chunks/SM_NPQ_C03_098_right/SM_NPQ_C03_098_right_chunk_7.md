@@ -1,1 +1,0 @@
-La corriente, y a quien no quiera ser sujeto, le devolverá la libertad.

@@ -1,1 +1,0 @@
-mi con aceptación del libertó que lo dijeron otomans, y no ma este por decir no saber hizolo un testigo de las pesen- tes y vecinos a su ruego que lo fueron los ciudadanos feli- ge Bejajarano, francisco de paz y Emurgio Peres y vecinos

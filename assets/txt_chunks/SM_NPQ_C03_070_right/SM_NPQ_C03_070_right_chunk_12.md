@@ -1,1 +1,0 @@
-menter, y revoca y anula dicho testamento en todo lo que fuer

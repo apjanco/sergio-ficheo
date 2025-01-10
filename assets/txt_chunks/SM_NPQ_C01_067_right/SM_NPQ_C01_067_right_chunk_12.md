@@ -1,1 +1,0 @@
-Estos son los datos que necesitamos para que se pueda realizar la elección.

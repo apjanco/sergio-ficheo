@@ -1,1 +1,0 @@
-La escritura que aceptan, a nombre del menor, en todo, y por (legible) dedonación que en ella se contiene, estiman la merced que el

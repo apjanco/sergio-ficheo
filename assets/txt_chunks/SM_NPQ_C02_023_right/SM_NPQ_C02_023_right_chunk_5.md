@@ -1,1 +1,0 @@
-yendo como firmemente creo y confieso el alto misterio de la santísima trinidad padre hijo y espíritu santo tres personas distintas y un solo dios verdadero y en todos los demás misterios que tiene, cree predicía y enseña nuestra santa Madre la yglesia co

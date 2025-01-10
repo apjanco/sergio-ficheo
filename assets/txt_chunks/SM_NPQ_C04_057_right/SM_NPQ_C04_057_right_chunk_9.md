@@ -1,1 +1,0 @@
-sent Francisco Bustamante vecino de Cartago a quien hoy fe conoz, otorga que vende real y verdaderamente, y con efecto a Miguel Xa, nacio Rodriguez vecino de esta, una mutata su propia exlau, llama do Xenencia y sueta o servidumare lo que asesu hallarse bien

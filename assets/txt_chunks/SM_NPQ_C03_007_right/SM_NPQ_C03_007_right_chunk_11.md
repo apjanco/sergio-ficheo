@@ -1,1 +1,0 @@
-Escrito y testigos que se nombraron por la ciudad de Buenos Aires. Alarcon vecino de ella quien hoy se conozco y otorga: Que vende realmente y con efecto a la ciudadana Maria Ayora de la propia vecindad un negro nombrado Anisebo su propio.

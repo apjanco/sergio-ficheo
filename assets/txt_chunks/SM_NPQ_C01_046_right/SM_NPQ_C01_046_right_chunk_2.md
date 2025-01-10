@@ -1,1 +1,0 @@
-de que no prosediesen a mesclar los bienes de mi segundo matrimonio correspondientes a ciertos herederos. No es porque fuercultadas hicieron un imbratorio general de todo lo que encon- bectaron en su seres y son absoluta. Dios y su perfección creó

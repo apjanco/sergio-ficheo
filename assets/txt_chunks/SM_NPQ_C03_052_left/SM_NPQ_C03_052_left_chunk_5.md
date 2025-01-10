@@ -1,1 +1,0 @@
-dado del comprador para el efecto así lo dixeron otorgaron y formaron. Aceda a la boleta del señor ministro oficial Real de la Habana Satisfizo la correspondiente alcabala cuyo con tenido dice así En su virtud autorizo también siendo

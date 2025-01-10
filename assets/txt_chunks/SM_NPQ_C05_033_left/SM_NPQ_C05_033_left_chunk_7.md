@@ -1,1 +1,0 @@
-Yo y Sigüenza que no se han pesado. Todo esto ha seguido y en- tregados en mi presencia como caderno que soy de la casa y en la del Doctor Don Tomas Santacruz, y para que en todo tiempo conste la firme = NOTA? Que entregados las resa-

@@ -1,1 +1,0 @@
-dero valor de la dicha negra feliciosa que no vale más, y caso que mas bala de su demacia, en poca o mucha suma, le hace gracia y donacion al comorador x los suyos buenos, guia, meta, perfecta e irrebusca

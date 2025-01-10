@@ -1,1 +1,0 @@
-los, enfermedades públicas y secretas, en precio y cantidad todos de mil ciento y quinientos pesos de plata de ocho reales que por ellos le ha dado el comprador en dinero de contado quien en prueba de su recibo se do por entregado a su entera

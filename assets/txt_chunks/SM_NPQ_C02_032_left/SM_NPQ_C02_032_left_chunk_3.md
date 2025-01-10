@@ -1,2 +1,0 @@
-mes que le supllo en dinero efectivo: mandó a sus abuelos se le sobren y agreguen al cúmulo de sus bienes o se le pasen en cuenta de su herencia
-Toda lo cual quiere que valga en la viny corva que mejor lucirán los desechos y manden se sobrillo sum!

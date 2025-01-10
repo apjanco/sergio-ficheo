@@ -1,1 +1,0 @@
-pago que pertenecen a San Jose Guerra Posadas, quien me los facilitó de Cartagena para el mismo efecto, cuyo apunte de todo se verá entre mis papeles, y un tanto de ello tiene el mismo Varona, declaradas por pertenecientes al citado Guerra Posadas, y así mismo le devo a es

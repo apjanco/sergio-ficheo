@@ -1,1 +1,0 @@
-su propia esclava, e hija de la fraternidad de igual condición a fin de que la tengan, goce y disfrute como si fuera naturalmente libre; se desa- podría desarte pita y aparta desde hoy para siempre jamás del derecho de patronato y dominio que hasta ahora tuvo sobre ella, y lo

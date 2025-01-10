@@ -1,1 +1,0 @@
-ventidura a la satisfacción de la alcaldía que de haberlo ejecutado se agregó la boleta original del señor ministro de hacienda que dice así y de la suma recibida se confiesa entregada a su voluntad como tiene expresado con las renunciaciones convenientes, declarando que dicho es lazo José Manuel no yale más y caso que más no iba de su demasia en

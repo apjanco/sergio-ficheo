@@ -1,2 +1,0 @@
-DONACION - ESCLAYO
-En la ciudad de Quito, capital del Cantón del Sitara a diez y nueve días del mes de Agosto de mil ochocientos veinte y dos. Ante muestras crívano y testigos que se nominaron pareció presentar en la casa de

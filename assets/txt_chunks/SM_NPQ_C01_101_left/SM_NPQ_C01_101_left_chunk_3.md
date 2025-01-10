@@ -1,1 +1,0 @@
-se le pusiere, luego que le conste aloforgante a sea requisi- de de saldra saldra a la vos y defensa, y a su costa y mencion la segura fenecera y acadara hasta desor al comprador en quieta x pacifica posecion, y de no poderlo conseguir

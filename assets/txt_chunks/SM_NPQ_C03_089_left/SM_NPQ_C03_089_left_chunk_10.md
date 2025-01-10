@@ -1,1 +1,0 @@
-entregado a su voluntad renuncia decir lo contrario la excepción de la non numerata pecuniaria su prueba la del recibo terminó engaño y más del caso, declarando que dicho es lavo Cosímuro no vale más y aunque más vale des de su emisión en mi

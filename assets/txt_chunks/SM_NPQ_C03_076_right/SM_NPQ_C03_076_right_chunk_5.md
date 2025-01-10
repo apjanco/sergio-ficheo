@@ -1,1 +1,0 @@
-La creo en el alto misterio de la santísima Trinidad, padre, hijo, y espíritu Santo, tres personas distintas, y en todos los demás misterios que creo y predica nuestra santa madre y gloria católica apostólica Romana, encuña creencia

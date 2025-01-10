@@ -1,1 +1,0 @@
-A. Que mi nombre es Zerina del Zueyoy y en peligro de muerte por haberme picado una Rivora en mi platanar de Boey, y temer-sa de la muerte, como es natural, encumiento a Dios mi alma que la cri y redima con su preciousa sangre pacion y muerte, pa

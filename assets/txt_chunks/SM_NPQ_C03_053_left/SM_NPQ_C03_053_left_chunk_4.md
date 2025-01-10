@@ -1,1 +1,0 @@
-Hay lugares en derecho otorga que a nombre de su constituyente venden y da en venta real y percetua enegenación desde ghara pa siempre Damas Leon Rentería de la propia vezidad un

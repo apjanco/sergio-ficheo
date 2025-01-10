@@ -1,1 +1,0 @@
-Seis pesos plata por la alcabalá al 2 por ciento reducidos de trescientos en que como encargado de Ramón de Cordoba le he vendido un negro llamado Juan de Dios - Jose Maria Valencia

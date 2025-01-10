@@ -1,1 +1,0 @@
-Los costos de la fabricación, además de los costos de transporte, se deben incluir hasta que el comprador envejezca y pacifica sus posesiones y no pudiendo, se le sancionará con la deuda.

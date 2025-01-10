@@ -1,1 +1,0 @@
-Porfirio Díaz cuando queda relacionado así a la venta de la tienda, los compradores se obligan a efectuar con su persona y ambos con sus bienes heredados y por haber con poderío sumisión y renuncia de leyes de su favor en derecho necesarias con lo que prohibe

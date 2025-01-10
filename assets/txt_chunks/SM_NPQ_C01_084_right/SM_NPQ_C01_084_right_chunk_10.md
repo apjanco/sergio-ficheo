@@ -1,1 +1,0 @@
-A taburete de campafora en heno de la recamara en diez patacones. Un estrado en cinco patacones. Una mampara forrada en heno de la recamara en diez patacones. Una sopa de soja en la sola en diez patacones.

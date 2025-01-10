@@ -1,1 +1,0 @@
-ley del ordenamiento real fechado en cortes de alcalá de henares y los cuatro años en ella declarados para repetir

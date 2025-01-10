@@ -1,1 +1,0 @@
-el término concedido para la rescisión del contrato o su suspensión. Mediante lo cual se desiste quita y aparta del derecho de acción, posibilidad propiedad, dominio y señorío que a dicho esclavo

@@ -1,1 +1,0 @@
-24. Son tomadas dos hojas de plata en la ciudad de Alcalá, al 2 por ciento deducidos de mil, y trescientos en que ha vendido a Juan de Mená cinco pesas de esclavos nombrados, Julian Su muger, Vicenta,

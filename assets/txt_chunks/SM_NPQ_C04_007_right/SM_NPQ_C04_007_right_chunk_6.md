@@ -1,1 +1,0 @@
-Conducentes a sum mayor estabilidad. He pedido que se le dé las copias autorizadas que quiera para su resguardo, y se obliga el otorgante a que ni para si sus herederos seran reclamada ni contradicha esta libertad y si lo hicien quiere que no se les conceda.

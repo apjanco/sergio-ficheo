@@ -1,1 +1,0 @@
-cho le obliguen compelan y apremien conforme a de- cho, y de estar satisfecha la real Alkavola se agrega voleta original. En cuyo testimonio así lo dicen y otro con firma la que sabe, y por lo que dijo no saber la base

@@ -1,1 +1,0 @@
-el mayor esfuerzo y por consiguiente se entregó de manera inmediata. luego le tengo donado por escritura antes de ahora, un negrito chico de valor de 40 castellanos nombrado Luis Antonio, que encargó a mis albaceas que a este niño le hagan dar la educación, o sea

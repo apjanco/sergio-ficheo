@@ -1,1 +1,0 @@
-Ante mi el escribano y testigos que se nombraron para recibo presente el señor oficial Real de ella Don José María Valencia a quien soy de conosco y dijo: Que como en

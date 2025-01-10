@@ -1,1 +1,0 @@
-do fuerza, a fuerza y contrato a contrario con todas las leyes las vinculos y solemnidades que para superpuesta validación se requerían. y alla observancia y puntual cumplimiento de todo lo fe rido se obliga con sus persona y bienes habidos y por haber con el de quien la firma y firmado de le

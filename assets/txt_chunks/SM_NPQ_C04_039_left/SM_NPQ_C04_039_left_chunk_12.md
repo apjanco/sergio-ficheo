@@ -1,1 +1,0 @@
-A fuga de Trinidad Andrade y como testigo Buenaventura

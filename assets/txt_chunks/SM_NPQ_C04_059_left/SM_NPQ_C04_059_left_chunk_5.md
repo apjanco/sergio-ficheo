@@ -1,1 +1,0 @@
-Antonio, a servidumbre, y le confiere poder irrevocable con libre franque y general administracion, para que trate, contrate, testes, compares ca en suyo por su por medio de sus poderados y practie sin interricto a los que no fueron.

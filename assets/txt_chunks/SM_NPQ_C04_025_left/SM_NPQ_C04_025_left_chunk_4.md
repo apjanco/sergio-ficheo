@@ -1,1 +1,0 @@
-En julio por si no por medio de sus querendos y prudencia que sin inferir 361 versión de su pape todo cuanto esta permitido a los que nacieron libre sucediendo en todo de su expultura voluntad pues para ello formaliza su fuerza esta escritura con los requisitos legales y prec

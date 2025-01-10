@@ -1,1 +1,0 @@
-Quería y teniendo recibidos la ofrenda los doce pesos coste - Manos cuatro tomas de la legatoria Rita Alarcón de la de- masía que resultó del valor de dicha exlava se confesó entrado de ellas a cuentera satisfacción y xo el escribo

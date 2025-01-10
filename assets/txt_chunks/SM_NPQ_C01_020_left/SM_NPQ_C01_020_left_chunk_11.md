@@ -1,1 +1,0 @@
-Rido mi hijo que como propio le podra dar el oficio que le admodase, tambien le hago gracia y donacion de una ternera aseguro: hallase libre t' todo grabamen censo ni hipoteico que la tiene tanto ni microesa y apostil solo liga

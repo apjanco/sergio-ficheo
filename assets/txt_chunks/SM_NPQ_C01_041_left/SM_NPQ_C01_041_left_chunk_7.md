@@ -1,1 +1,0 @@
-En el pueblo de San Francisco de Querido, capital de la provincia de la Girona, a diez días del mes de septiembre de mil ochocientos ochenta: Ante mi, Don José Dionisio de Villar, teniente de la Real Fuerza, y comandante de la guardia civil, se ha hecho el siguiente acto.

@@ -1,1 +1,0 @@
-en Julio otorgan escrituras y testamentos y hagan todo cuanto una persona libre y no sojeta a servidumbre pudiera hacer son do en todo de su expantanea voluntad. Y se obliga que ni por si sus heredades sean reclamada y en embargo ha esto escrito

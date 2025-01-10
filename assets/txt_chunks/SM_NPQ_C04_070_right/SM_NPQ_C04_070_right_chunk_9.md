@@ -1,1 +1,0 @@
-En forma. En su testimonio así lo dicen y ofician, firmando por el cami prodor por decir no saber el señor Joaquín escobar, siendo testigos Francisco de Gáz, Nicolas de Roxas, y Isidro Pepeñanes vecinos Juan Antonio Ferro, popel asentante y como testigo José

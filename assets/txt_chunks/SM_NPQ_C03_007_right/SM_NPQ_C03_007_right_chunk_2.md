@@ -1,1 +1,0 @@
-Estoy sujeto a servidumbre y le confiere poder previsible con libre franque y general administración para que traite, contrate, teste, comparezca en junio por si o por nue

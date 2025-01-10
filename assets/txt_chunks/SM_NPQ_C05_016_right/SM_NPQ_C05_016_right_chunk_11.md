@@ -1,1 +1,0 @@
-Hasta declarado por su testamentario ser hijo mío por este (le dice un ilegible) ex su tiempo de veinticinco pesos y al cabo de muchos años (ilegible) ya a mi mugiros y a mis hijos lexitimos en porto estando fablo le mande (ilegible) para ciertos asuntos remiten

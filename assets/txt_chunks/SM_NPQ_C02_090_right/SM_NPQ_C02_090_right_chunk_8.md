@@ -1,1 +1,0 @@
-La señora María Antonio Aguirre, natural de la provincia de Cundinamarca (ya disfuntos), hollandose enferma en camada, pero por la divina providencia en mi entero y cabal juicio memoria y entendimiento natural, creyendo y confesando como firmemente creo y confiesa el alto misterio

@@ -1,1 +1,0 @@
-En la ciudad de Quito, capital del cantón del Ciparú a Treinta y uno de diciembre de mil ochocientos veintidós. Ante mi escribano y testigos que se nombraron parececío presente el señor Nicolas Rentería vecino de la de Cartago quien doy cuenta

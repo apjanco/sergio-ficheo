@@ -1,1 +1,0 @@
-otra aunque por derecho se requiera. Y al cumplimiento, observancia de lo relacionado se obliga con sus bienes habidos y por haber con el poder de Justicias, simisión de fuerza y renuncia de leyes en derecho necesarios con la general en forma. En su testimonio

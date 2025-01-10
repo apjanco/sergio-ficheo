@@ -1,1 +1,0 @@
-El de volverá la suma de los frecuentes pesos de plata recibidos y le pagará las costas y gastos de su maestridumbre suya prueba despere en su simple juramento relevándole de otra aunque por deseo ha sido segura y la observación y actual cumplimiento

@@ -1,1 +1,0 @@
-uno contra otro: Se lo condamn, y remiten, ceden renuncian, y traspasan integramente con las acciones rcales personales, uti

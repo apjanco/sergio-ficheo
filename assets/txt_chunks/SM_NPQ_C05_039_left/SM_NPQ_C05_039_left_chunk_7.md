@@ -1,1 +1,0 @@
-En el tiempo que mi hija castaño Pedro lo mantiene en su poder como si fuera su hijo, cuidando de la educación de este y que nadie tenga interferencia en este a quien le ten go donado un negro llamado Luis Antonio el que tomara mi alba

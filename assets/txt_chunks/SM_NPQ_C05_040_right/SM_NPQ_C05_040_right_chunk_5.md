@@ -1,1 +1,0 @@
-nosco y otorga: Que vende realmente y con efecto a Manuel Moreno vecino de Panamá un exlazo propio suyo vayetog a servidumbre nombrado Bruno el que asegura hallarse libre de empeño deuda obligación e bioteca especial.

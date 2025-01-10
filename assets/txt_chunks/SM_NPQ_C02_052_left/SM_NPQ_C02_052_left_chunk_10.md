@@ -1,1 +1,0 @@
-Con todos sus vicios, tachas, derechos, enfermedades públicas y secretos en precio y continuidad de trescientos pesos de plata, de que por él ha dado por dinero de contado siendo de corso del señor otorgante la soga del derecho de alcabalga que

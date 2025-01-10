@@ -1,5 +1,0 @@
-
-Review the following Spanish text and perform a simple cleanup. Remove repeated numbers, make logical line spacing and paragraphing changes, but otherwise make no changes.
-
-Text: 
-{text}

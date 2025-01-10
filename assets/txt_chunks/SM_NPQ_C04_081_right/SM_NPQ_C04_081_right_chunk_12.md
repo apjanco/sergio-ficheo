@@ -1,1 +1,0 @@
-XEM declara que para acreditar la propiedad que tuvo mi madre a los negros que compró a Don Venturo Malibrán, existen

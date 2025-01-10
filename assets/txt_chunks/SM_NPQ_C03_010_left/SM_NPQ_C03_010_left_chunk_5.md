@@ -1,1 +1,0 @@
-Ladumbre cuya prueha defiere a su simple juramento re- lexandolo de otra, aunque por derecho se requiera, y a la observancia y puntual cumplimiento de todo lo rececido se

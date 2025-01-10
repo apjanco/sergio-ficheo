@@ -1,1 +1,0 @@
-que los doscientos pesos de plata recu- ridos es el Justo pre- cio y verdadera valor del recuerdo esclavo que no vale más, y siento de que más valga deseo demasia en poca o mucho su- mo lo haya hecho y honro por el camarader y los sapos que bien

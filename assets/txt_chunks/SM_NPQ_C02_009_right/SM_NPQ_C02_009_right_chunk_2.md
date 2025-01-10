@@ -1,1 +1,0 @@
-sorte (ya difunto) oforgo y debe gajar en el archivo público de este pueblo me instituido por la única y universal heredera y por consiguiente todas las cantidades de peso que adeuden en su testamentario las deben cobrar mis Albesos para su agreso -

@@ -1,1 +1,0 @@
-En este estado añadió la misma testadera Goronima Velasco que declaraba por suya propia una baca, a más de la que tiene hecha mención atriba, y su hija Magdalena Escobar l=9-

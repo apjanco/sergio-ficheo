@@ -1,1 +1,0 @@
-Francisco Xavier de Canto que sea para el dicho. Sus de requeiros y subososes es a saber una molota su propio esclada llamada Maria Santos, lo que le vende por libre de otro venta, senen ni hipoteca tacito ni expesa.

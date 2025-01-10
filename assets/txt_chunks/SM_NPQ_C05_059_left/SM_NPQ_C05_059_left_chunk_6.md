@@ -1,1 +1,0 @@
-Sítem declaro ser acrechadora a la tercera parte de los (ilegible) derechos y acciones que por su muerte dejó mi lexitima hermanaria señora Manuela que echá la division mando sé agrega al conjunto de mis bienes.

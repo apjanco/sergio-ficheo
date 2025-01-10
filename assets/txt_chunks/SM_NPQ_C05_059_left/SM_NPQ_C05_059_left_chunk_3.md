@@ -1,1 +1,0 @@
-Xitimo Joquín de Córdoba metecieron mil descentes. Veinte y siete patagones seis reales, los que percibió numarido y exis- ten entre sus bienes declaró. 79 Y tem declaro que de cantidad de pesos que debían a mupa-

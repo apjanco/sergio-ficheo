@@ -1,1 +1,0 @@
-5ª Y Declarado por herederos de mis vienes a mi madre mencionados: Doña María Leonor y Don Joaquín Andrés de Declarado para que conste. 6ª Y Declaro: Que reconoco un principal de capellania de tres antenas de plata, por haber sido donado por mi madre.

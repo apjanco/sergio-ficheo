@@ -1,1 +1,0 @@
-tenor renuncia decir lo contrario la excepción de la non numerata pecunia su prueba la del pecio termino organo y mas del caso de declarando que dicho esclavo Juan Roso no vale mas y caso que mas valga desespera si poca o mucha suma hace gracia y donacion al temor por que no pueda percibir a sus familiares

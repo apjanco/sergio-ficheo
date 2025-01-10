@@ -1,1 +1,0 @@
-y renunciación de leyes en derecho necesarias con la general en forma. En su testimonio y estando presente dicha esclava Toma sa (quien a sí mismo doy fe conozco) enterada de esta escritu -pa que la ley de vecino el cual hubo que lo acepta sur

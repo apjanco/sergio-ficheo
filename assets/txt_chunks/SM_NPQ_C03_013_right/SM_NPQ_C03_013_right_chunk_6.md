@@ -1,1 +1,0 @@
-En la ciudad de quindío capital de la provincia de catora quen- te y cuatro de octubre de mil ochocientos catorce. Ante un escribano y testigos que se nombraron parecido Don Carlos Ferrer

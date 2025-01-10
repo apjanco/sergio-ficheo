@@ -1,1 +1,0 @@
-el señor procurador general Juan Antonio Terro, quien doy fe conosco y otorga: Que acende realmente y con efecto a José Benigno Palacios, una negra en esclava cautiva y sujeto a servidumbre nombra- da Lucía, la misma que se halla libre de otra venta, empeño de obli-

@@ -1,1 +1,0 @@
-El chico de Alcabala que ha satisfizo al señor receptor es ella quien en el pruebas de su recibo ha dado la boleta que se inserta y dice así y de la suma recibo se emite el 5x oftopante (destruido) renuncio decir lo contrario la exce

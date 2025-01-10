@@ -1,1 +1,0 @@
-En el curso de su vida ha dado la guerra y se ha hecho así y de la suma recibida se confiesa a nombre de esa parte entregado a su voluntad, renuncia decir lo contrario la exención de la non numerata pecuniaria en prueba de la del recibo ter

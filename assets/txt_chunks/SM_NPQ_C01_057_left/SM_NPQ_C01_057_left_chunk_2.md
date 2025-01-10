@@ -1,1 +1,0 @@
-1688. Ha satisfecido el testigo actualio Don Bonifacio Salazar anom-

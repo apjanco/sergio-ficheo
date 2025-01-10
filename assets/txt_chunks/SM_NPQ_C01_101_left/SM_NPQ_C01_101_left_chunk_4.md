@@ -1,1 +1,0 @@
-La venta de esta mercancía se realizará en el mercado de la ciudad de Córdoba.

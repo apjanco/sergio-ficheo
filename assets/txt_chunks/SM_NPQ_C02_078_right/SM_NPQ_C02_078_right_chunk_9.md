@@ -1,1 +1,0 @@
-res y demás que hablan en razón de lo que se compra y ten de por más o menos de la mitad del sujeto precioso y el término no concedido para la posesión del contrato o en su sujecien- to. Mediante lo cual se desiste quita y aparta del depósito de acción posesión propiedad del domini y seguramente a tacho.

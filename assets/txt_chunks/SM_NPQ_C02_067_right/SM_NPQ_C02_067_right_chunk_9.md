@@ -1,1 +1,0 @@
-el derecho de acción posesión propiedad dominio y señorío que a dicho esclavo tenía adquirido y todo con el de patronato y demas que le correspondian los cede renuncia y trozo sa en el combador y sus herederos que en señal de posesión

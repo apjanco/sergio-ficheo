@@ -1,1 +1,0 @@
-en que se lea letra de otra prueba que a que por derecho se refiere y esto venta se la hace con todos los ricos, tachas, y desiertos, enfermedades publicas y secretas. 4ª. A cuya seguridad cumplimiento y firmeza se obliga la otorgante conforme a derecho, y de estar

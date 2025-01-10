@@ -1,1 +1,0 @@
-quando le compre las tierras de Buey en mi libro de caza hay una razón firmada por el con otros partidos que yo de mi letra le he cargado: varios papelitos se hallarán de resguardo fuequense con paciencia, si fuera preciso

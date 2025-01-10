@@ -1,1 +1,0 @@
-en derecho necesarias con la general en forma. En cuyo testimonio y con aceptación del señor comprador así lo dicen obligar y firmar siendo los señores regidores. Nicolás González; Lucas Solas, y el señor Jo

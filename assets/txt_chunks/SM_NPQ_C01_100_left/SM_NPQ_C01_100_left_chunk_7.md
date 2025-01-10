@@ -1,1 +1,0 @@
-La ley y derecho, y todas las instancias, grados y recursos lo seguirá y fenecera a su costo y mención hasta dejar al señor comprador y los suyos en quieta y pacifica posesión y no pudiendo lo hacer, la hará y lo hará.

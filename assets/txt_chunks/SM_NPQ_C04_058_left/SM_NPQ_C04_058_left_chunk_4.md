@@ -1,1 +1,0 @@
-adquirido y todos con el de patronalito, y demos que le corresponden, sus cede renuncia y traslada en el comodador, y sus subsecuentes y que en señal de socecion y para titulo de ella oforza a su fabor esta escritura por la qual ha de ser visto haberlo adquirido sinque neces

@@ -1,1 +1,0 @@
-Francisco y enseña nuestra señora madre yglesia catolica, Apollos Romana, bajo cuyo fe creencia he vivido, y protesto vivir y morir como catolica fiel cristiana hago y ordeno este míttestamento en la forma y manera siguiente

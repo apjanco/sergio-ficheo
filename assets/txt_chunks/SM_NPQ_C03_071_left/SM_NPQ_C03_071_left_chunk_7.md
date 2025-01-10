@@ -1,1 +1,0 @@
-Cientos a servidumbre nombrados Eiro y Josefa, se mueren que los hubo embargo de deuda de la testamentario de Don Mateo Scarpello, tenía estibada que su alcancea le ofrego ante mi su fecha nueve de Julio último a que se remite. Secura virtud los ha poseido por soys

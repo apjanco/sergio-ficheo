@@ -1,1 +1,0 @@
-Ante mi don Carlos de Ciaruriz capitán de infantería gobernador político y militar de estas provincias y de los testigos con quienes actuó por impedimentos

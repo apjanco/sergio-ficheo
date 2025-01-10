@@ -1,1 +1,0 @@
-aquí lo dije y ofrego en esta ciudad de Querétaro a diez de enero de mil ochocientos trece firmado a su cargo por decimos no saber uno de los testigos que lo fueron llamados y rogados y son José Salazar, Don Joaquín Escobar y Juan este

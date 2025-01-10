@@ -1,1 +1,0 @@
-No presitveto Jose Ignacio Nafia, zara de las nafias en la provincia de Navita, a quien doy fe conozco y otorgo que de costos de ahorro y libertad en forma a Domingo su propia esclava en cantidad de doscientos sinquentos pesos de plata de acho reales moneda usual y

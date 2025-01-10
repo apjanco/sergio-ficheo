@@ -1,1 +1,0 @@
-doy fe conozco, con licencia de este para celebrar el presente contrato que se la dio a mi presencia de que doy fe enterada de esta escritura, dijo, que la acepta para usar de ella como me por le convengo. Así lo dieron otorgaron y firmaron los últimos

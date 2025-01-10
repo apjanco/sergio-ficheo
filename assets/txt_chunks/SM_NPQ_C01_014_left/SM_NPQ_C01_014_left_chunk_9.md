@@ -1,1 +1,0 @@
-Es escrito, pascio presente Nono Ana Maria de la cuesta vecind de esta dicha provincia a quien certifi- lo conozco y en ella es dueña de minas y esclavos: Que vende y da en venta real y en pegetor enega-

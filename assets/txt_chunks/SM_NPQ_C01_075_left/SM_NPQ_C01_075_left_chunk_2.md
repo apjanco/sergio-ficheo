@@ -1,1 +1,0 @@
-San y entero a Dios que en el entendimiento de la fe católica y fiel dicha y sana del entendimiento esposesandome ser esta que ha hacer su última voluntad y final disposicion por lo cual primero mente expresa con la protestacion de la fe como católica y fiel

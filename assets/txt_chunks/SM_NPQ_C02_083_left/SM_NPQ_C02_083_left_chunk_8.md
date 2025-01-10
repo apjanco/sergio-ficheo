@@ -1,1 +1,0 @@
-Los bienes, habidos y por haber con el poderío de justicia, cuya submision de fuerza y renuncia de leyes en derecho necesarias con la general en forma, en cuyo testimonio con acreditación del sindico procurador General protec

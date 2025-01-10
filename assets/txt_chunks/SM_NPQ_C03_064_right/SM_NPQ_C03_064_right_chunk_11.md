@@ -1,1 +1,0 @@
-leda poder irrevisable con libre franca y general admi nación para que asimismo comparez en juzicio por su acusación de sus agravados testé, y practique sin intervención del disfagante todo quanto esto permitido a los que no fueron libres, usando ent

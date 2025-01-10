@@ -1,1 +1,0 @@
-derecho se requiere. Y a la observancia y puntual cumplimiento de todo lo referido se obliga con sus bienes habi- dos y con haber con el poderio de Justicias somisión de

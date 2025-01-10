@@ -1,1 +1,0 @@
-La orfandía de la ciudad de Cartagena y vecina de esta provincia. La lexitima de Don José Fernandes, y Dona Francisca Fresneda dicuntos que hallandome enferma del cuerpos, pero en mi entero y salud, me hallan en la casa de la señora Francisca Fresneda.

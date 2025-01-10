@@ -1,1 +1,0 @@
-pero la maga, contra la expresión y portante deuda en la cantidad de doscientos veinte y cinco pesos de plata que confesó el otorgante tener recibidos de mano del comprador a su satis- facción y contento, y por no ser depreciante su entrega para que

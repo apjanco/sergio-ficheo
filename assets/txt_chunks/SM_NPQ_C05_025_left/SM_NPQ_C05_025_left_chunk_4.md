@@ -1,1 +1,0 @@
-cones segun consta de su vale, contra quien libre ciem patacones a favor de Don Gabriel frado y deve el resto, con el quimen to que el quisies e dar, al quisi se le abonara ti patacones 4 rea les de 10 regles sargazo, xun sombrero de muger. Declarolo para

@@ -1,1 +1,0 @@
-ella, a quien do fe conozco y diixo: Que a favor de Anaquiro su esclavo se han practicado diligencias judiciales para su amparo y avaluo ante el señor teniente de gobernador de esta dicha provincia, por su último duopolio político gobernado Paulino Me

@@ -1,1 +1,0 @@
-Con la general, en forma en la cual testimonio con aceptación del constructor, quien decían otorgar y firmó el que sabe y por el que dijo ha soñó la hizo a su riqueza uno de los testigos que lo cuerpon son Saturnino Alredo Francisco de Paz y Don Ma

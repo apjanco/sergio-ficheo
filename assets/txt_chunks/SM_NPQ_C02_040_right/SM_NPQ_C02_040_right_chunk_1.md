@@ -1,1 +1,0 @@
-te y quatro de Abril de mil ochocientos trece. Ante mi el co- cribano y testigos que se nominaron pobreco en la casa desumo- rada enfermo en camada Domingo Palacios (alias Quintana) ye-

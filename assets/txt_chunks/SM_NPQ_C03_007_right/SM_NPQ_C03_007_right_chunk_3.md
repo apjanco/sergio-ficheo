@@ -1,1 +1,0 @@
-dio de sus apoderados y practique sin intervención de su parte quanto esto permitido a los que nacieron libres usando en todo de su exportación voluntad, pues para ello formaizo a su favor esta escritura con los requisitos legales

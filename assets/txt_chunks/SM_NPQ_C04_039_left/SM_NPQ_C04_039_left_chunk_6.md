@@ -1,1 +1,0 @@
-Por deseo real y honesto, y por la necesidad de que la intervención de la obertura sea todo cuando está permitido a los nacionales libres, usando en todo su expedita voluntad, pues para ello formaliza aquf

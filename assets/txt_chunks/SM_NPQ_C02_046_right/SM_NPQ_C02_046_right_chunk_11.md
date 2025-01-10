@@ -1,1 +1,0 @@
-el poderio de Justicias, evmision de fuerza y tenencia de leyes necesarias con la general en forma. En suyo testimonio y conaceptacion del libertor asi lo ken y otorgan no firman por decir no saber a su ruego dos de los testigos que lebe

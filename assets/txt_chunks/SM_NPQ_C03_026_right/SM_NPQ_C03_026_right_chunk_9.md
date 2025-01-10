@@ -1,1 +1,0 @@
-do fuerza a fuerza y contrato a contrato contado las clausulas vinculos y solemnidades que para su perpetua validación se requieren. Y a la observancia y cumplimiento se obliga y obliga a sus partes con sus personas y bienes habitados.

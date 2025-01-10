@@ -1,1 +1,0 @@
-Bien el resto de los ciento ochenta y cuatro si ya se los hubiese pagado con las costas y gastos a mayor abandono que de su incertidumbre se le amargasen cuya orue ha desere a su simple Juramento relevandole de otro, aunque por derecho se requiera, y a la pasión y amor sim

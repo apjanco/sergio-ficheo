@@ -1,1 +1,0 @@
-En la ciudad de Guadalupe capital del cantón del catarro a veinte y cuatro de abril de mil ochocientos veinte y tres. Ante nu el escribano y testigos que se nominaron parece presente el señor Eleuterio Cardenas vecino de la Jurisdicción de Bu

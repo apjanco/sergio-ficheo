@@ -1,1 +1,0 @@
-otorga a este señor esta escritura donde la de ser esto hacer la adquirida sin que necesite de otro acto de aperción de que la releva y se obliga a la exacción y sancamiento de esta ven a su costa y mencion hasta dexar a la compradora en quieta x pacifica posesión y no pudiendo el sancar le devolvera la

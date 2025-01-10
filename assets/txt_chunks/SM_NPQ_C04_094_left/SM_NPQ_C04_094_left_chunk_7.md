@@ -1,1 +1,0 @@
-El xerar declaro que devo al señor More diez pesos castellanos que me ha prestado para mi mantención en esta causa, pero el tiene una cadena en prendas que pesa veinte castellanos, mandando a mi alquiler, la prenda va a ser la cadena.

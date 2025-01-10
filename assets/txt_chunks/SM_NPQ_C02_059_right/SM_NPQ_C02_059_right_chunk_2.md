@@ -1,1 +1,0 @@
-al comendador en quieta y poseccion y no pudiendolo sancer le devolvera la suma recibida y le pagara las custas de su mier- tidumbre cuya prueba dice que a su single sumiento relatan- dole de otra aunque os descu se requiera y la desovocion

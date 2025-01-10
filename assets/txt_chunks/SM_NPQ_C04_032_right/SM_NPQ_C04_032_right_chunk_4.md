@@ -1,1 +1,0 @@
-En la capital de Quibdo provincia del Citarra a vente y siete de Abril de mil ochocientos diez y nueve: Ante mi Don Ramon de Benito XI menes Theniente de gobernador oficial Real de esta y deles testigos con quienes actúo por guiaencia del único escrivano

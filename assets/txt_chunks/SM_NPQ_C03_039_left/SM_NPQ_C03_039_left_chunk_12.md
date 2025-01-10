@@ -1,1 +1,0 @@
-xo Don José Joaquín de Córdoba cuyas partidas cuyos par-

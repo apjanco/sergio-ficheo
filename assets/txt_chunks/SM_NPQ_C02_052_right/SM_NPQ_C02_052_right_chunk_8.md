@@ -1,1 +1,0 @@
-En su favor otorgado, y que tiene recibidos de mano del esclavo Tomás arriba citado, cincuenta pesos de plata a mis presencias de que doy fe los cuales le servían de abono para su libertad y se le otorga la correspondiente carta de abono luego que

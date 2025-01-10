@@ -1,1 +1,0 @@
-La Alcábala se agrega boleta original del señor ministro oficial Real cuyo contenido copiado a la letra dice En su secuencia así lo dicen otorgan y firman siendo testigos Don Miguel Buch, Don Francisco Mateo y Don Domingo Pola vecinos.

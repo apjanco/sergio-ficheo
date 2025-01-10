@@ -1,2 +1,0 @@
-nos citados,
-y se estaría en todo a la cláusula 15 que por las circunstancias expuestas y más que omito no tienen que haver y solo he puesto lo dicho para su constancia, declarando que dicho Portillo me debe de cuenta particular 66 670 y tantos pesos

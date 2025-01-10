@@ -1,1 +1,0 @@
-sumb la hace gracia y donación al comprador y los suyos, buenos, justos, meta perfecta e inerocable de los que el derecho llama intervirv con insinuación en forma sobre que renuncia la ley del ordenamiento pue se ha

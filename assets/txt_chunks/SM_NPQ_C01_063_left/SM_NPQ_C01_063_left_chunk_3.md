@@ -1,1 +1,0 @@
-A quien doy responso y dijó: Que vende y da en venta real y per pelas enegenación desde ahora para siempre jamás a Don Cristóbal Veveran dos negritas nombradas Francisca y silvestra, propias suyas y porlde de otra venta, seno, empeño.

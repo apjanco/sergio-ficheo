@@ -1,1 +1,0 @@
-sentes al tiempo de la diferencia, 100v de su haber hepeditorio. Así lo expresó entre los mismos. Los trigos que quedan mencionados, y en dicha fecha de que dey fe. A través de la ofrancante y como testigo

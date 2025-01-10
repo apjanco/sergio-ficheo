@@ -1,1 +1,0 @@
-monde Diego Almenes, tiento de gobernador oficial real de esta y de los testigos son quienes actuo por ausencia del único escritano parescio presente Don Joaquim Alarcon y Mena vecino de esta dicha provincia a quien certifico conozzo y otorga que

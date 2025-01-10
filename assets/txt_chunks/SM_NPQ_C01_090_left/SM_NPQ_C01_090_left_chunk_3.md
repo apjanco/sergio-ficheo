@@ -1,1 +1,0 @@
-fe conosco y dijo: Alivacea de Manuel Mené Vende y do en venta a real y en perpetua enegacion desde ahora y para siempre Jamas a Luis Jose Andrade que sea para el dicho sus herederos y subseosores es a saber un esclavo o nombrado felix el

@@ -1,1 +1,0 @@
-a su ruego uno de los testigos que la fueron Don Manuel flores, Don Jose Maria Yarquena y Don Jose Maria Prado vecinos, haciendo lo tambien dicho Tommyez en prueba de la licencia que le ha concedido a dicha esposa.

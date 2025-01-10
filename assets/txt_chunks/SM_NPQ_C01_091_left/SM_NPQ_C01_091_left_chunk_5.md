@@ -1,1 +1,0 @@
-mas valega, o valen quedan de su exceso en mucha o poca suma hace gracia y donación a la compradora y los suyos buena pura, mera perfecto e irrevocable de las que el derecho llama intervinos con insinuación en forma. Acerca de
