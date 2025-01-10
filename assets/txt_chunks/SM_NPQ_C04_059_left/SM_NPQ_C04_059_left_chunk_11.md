@@ -1,1 +1,0 @@
-Esta inviada y por tanto debe declarar el agracado no sover, lo hizo por el señor procurador sindico general ciudadano Antonio García y falcon siendo testigos Miguel Geranimo Espada, francis co de paz y ysidro Peregrinez vecinos.

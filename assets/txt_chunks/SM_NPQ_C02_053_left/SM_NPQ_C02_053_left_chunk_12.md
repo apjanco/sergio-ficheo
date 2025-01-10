@@ -1,1 +1,0 @@
-Francisco Xo Pier de Conto, Ramon de Diego Ximenez

@@ -1,1 +1,0 @@
-Sos que para volverla a su poder y dominio prescribieron leyes que renuncia y si lo hiciere, no se le oiga ni admiten en tribunal algun y sea visto por lo mismo haberlo aprobado y ratificado añadiendo fuerza y contrato a contrato. Da amplio poder a los señores juez

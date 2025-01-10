@@ -1,1 +1,0 @@
-A vida é uma jornada, e cada passo é um passo para a melhorar.

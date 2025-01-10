@@ -1,1 +1,0 @@
-del caso; declarando que dicho esclavo no vale más, y con que más valga de su demasia en mucha o poca cantidad hace gra- ciá y donación al comprador y sus herederos buena, puro, mera, perfecta e irreforcable intervivos, con la insinuación y renuncia

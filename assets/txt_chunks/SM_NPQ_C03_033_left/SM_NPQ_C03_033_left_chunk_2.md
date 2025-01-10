@@ -1,1 +1,0 @@
-parte castiza y sojita, a servidumbre hombrada Nicaragua la cual asegura hallarse libre de empeño desda obligacion e hipoteca especial m general quen la tiene y se la vende con todos sus vicios defectos enfermedades publicas y secretos en precio

@@ -1,2 +1,0 @@
-Escritorio Público
-Libertad

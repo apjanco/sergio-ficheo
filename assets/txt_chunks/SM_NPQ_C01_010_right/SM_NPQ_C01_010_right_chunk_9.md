@@ -1,1 +1,0 @@
-presente don felipe bejarano a quien certifico conosco y otorgar: Que vendes y do el venta real y en perpetuo enagenacion desde ahora y para siempre juntas a don francisco xavier de santo que segun el queyo susede

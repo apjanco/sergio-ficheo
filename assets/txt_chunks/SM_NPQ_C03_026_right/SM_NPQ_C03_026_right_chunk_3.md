@@ -1,1 +1,0 @@
-Jose Antonio a su entera satisfacción y contento re-nuncia decido contrario la excepción de la non numerato ces-conia su prueba la del recibo fermín engañó y más del

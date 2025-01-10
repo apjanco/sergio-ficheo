@@ -1,1 +1,0 @@
-La sesión y para título de ella otorga, a favor esta escritura para la que ha de ser vista habiendo adquirido siempre necesidad de otro ac- to de apreciación de que la feleza y se obliga a la expresión tan-tem- to y firmeza de esta venta a su costo y mención hasta haber al com-

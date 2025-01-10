@@ -1,1 +1,0 @@
-x ysero se aqerido la mayor parte y del ysero solo han quedado dos arrobas que se encontraron por haverselo robado de la bodega en que estaban custodiadas como consta de las diligencias

@@ -1,1 +1,0 @@
-El dictamen judicial que se celebra en favor del otorgante el día quince de Diciembre del año próximo pasado como es de verse en el expediente ejecutivo segundo por Don Melchor de Yatonga contra el Baltasar de Cordoba a que se remite. En cuyo virtud los

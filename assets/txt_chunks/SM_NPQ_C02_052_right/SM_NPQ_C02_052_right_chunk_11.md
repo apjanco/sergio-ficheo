@@ -1,1 +1,0 @@
-98r En la ciudad de Quibdo capital de la provincia del Sitio o once de Agosto de Mil ochocientos trece. Ante mi escribano y testigo que se nombraron papeleo el señor Don Miguel Bach y teniendo de ella a quien doy conozco y oforda: Que veido real

@@ -1,1 +1,0 @@
-En forma. En su testimonio y con aceptación del comprobador así lo dicen otorgan y firman siendo testigos Don Miguel Buch, Don San- frago Polo y Nicolás Roxas recimos Manuel Ortega Francisco Nieto

@@ -1,1 +1,0 @@
-Cede penúncia y traspasar en su favor a fin de que no vuelva

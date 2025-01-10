@@ -1,1 +1,0 @@
-persona y bienes habidos y por haber con el poder de Justi- cias renuncia de leyes en despecho necesarias, con la gene- sial en forma. En su testamento así lo dice otorgan y firma el vende- do y el comprador que de no sabe firmar a su pie el se-

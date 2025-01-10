@@ -1,1 +1,0 @@
-1327 En el pueblo de San Francisco de Guadalupe capital de la provincia del citado a diez y ocho de Junio de mil ochocientos diez: Ante el escribano y testigos que se nominaron parecerio presente don José María Palomeque vecino de la Ciudad de Cartago y residente en la ciudad de Guadalupe.

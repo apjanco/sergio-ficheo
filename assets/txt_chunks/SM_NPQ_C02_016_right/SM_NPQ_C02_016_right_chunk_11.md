@@ -1,1 +1,0 @@
-Ha satisfecho Don Gabriel de francisco x prado en esta contaduría de mi cargo seis pesos cuatro reales por el derecho de alcavala al 2 por ciento deducidos de trescientos beinte y cinco enque

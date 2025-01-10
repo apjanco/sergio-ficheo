@@ -1,1 +1,0 @@
-Pudiendo ella sancar le devolverá la suma recibida y le pago- ra las costos y gastos que de su incertidumbre se le originen. Suya prueba difiere a su simple juramento relevándola de otra

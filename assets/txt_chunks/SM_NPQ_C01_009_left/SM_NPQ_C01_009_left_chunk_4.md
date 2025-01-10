@@ -1,1 +1,0 @@
-real y en perpetua enojasión desde ahora y para siempre jamás a Juan Fernando Sánchez que sea para el y sus herederos y subsecuentes es a salvar una mu- lata su propia escoba llamada María Francisca la misma

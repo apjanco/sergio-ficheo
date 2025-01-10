@@ -1,1 +1,0 @@
-Por si lo, por medio de sus ayudados, y practique sin intervención del oforgante todo cuanto esta permitido a los que nacieron libres, usando en todo de su expotanea voluntades, pues para ello formalisa

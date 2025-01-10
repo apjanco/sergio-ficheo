@@ -1,1 +1,0 @@
-Sos dos peales de plata que confesaron tener secabidos de mano de ella o su entera satisfacción y contento que por vos depre- sente su entrega para que yo el escribano de fe de ello la con- su x renuncia algar de contrario la excepción de la non punc-

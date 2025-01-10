@@ -1,1 +1,0 @@
-Mo satisfecho al senor Receptor de ellas que en pueo de su fez bo ha dado la boleta que se inserta y dice 951. En su virtud se confiesa el senor otorgante entregado de los trescientos pesos de plata de mullos del comopor a su entera satisfacción y con bento requirin de decir contrariando la excepcion de la no numeros

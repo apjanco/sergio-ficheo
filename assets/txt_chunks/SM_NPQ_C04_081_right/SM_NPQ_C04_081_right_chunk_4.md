@@ -1,1 +1,0 @@
-de Antioquia freinta patacones y mando que se le paguen, siendo los vientos de mi cuenta, y los díes de un (ilegible) de Bando a quien el cobre por recomendación del dicho arrablas, y el resto permanece en una obligación que deseo entre mis papeles

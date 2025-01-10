@@ -1,1 +1,0 @@
-origen, años, orgánicos, se, están, en, su, personal, y, con, sus, bienes, habidos, y, por, haber, con, el, poder, de, justi, cias, sumisión, de, fuerzo, y, remisión, de, leyes, en, derecho, neces, tarías, con, la, general, en, forma,. En, su, testimonio, y, estando,

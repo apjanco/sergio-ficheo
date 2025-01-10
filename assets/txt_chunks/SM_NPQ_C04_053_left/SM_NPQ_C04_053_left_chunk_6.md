@@ -1,1 +1,0 @@
-que trata, y contrae, compresa en Juicio porsi o por medio de sus apoderados, y práctica sin intervención de los herederos del otorgado, cuanto esta permitido a los que nacieron libres, usando enta- do de su excontesta voluntad, pues para ello formaliza a favor de

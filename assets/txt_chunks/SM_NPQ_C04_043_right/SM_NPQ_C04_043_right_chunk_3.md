@@ -1,1 +1,0 @@
-de cantidad de pesos a la cual le tengo abonados a la mayor cantidad la más parte de ella como consta de mis papeles que tengo en mi poder yo resto sera al saldo muy corto y mi hijo Don Antonio está impuesto de

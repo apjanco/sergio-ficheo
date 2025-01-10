@@ -1,1 +1,0 @@
-tres capellanas que reconoce la mina de mi cargo, cuyos papeles y últimos recibos de onos peditos constan claramente en el testamento de mi citado padre. Xten declaro que soy deudor a la testamentaria de mi difun

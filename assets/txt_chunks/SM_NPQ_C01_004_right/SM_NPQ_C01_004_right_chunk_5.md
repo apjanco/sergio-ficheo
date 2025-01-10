@@ -1,1 +1,0 @@
-Para la diena y sus mercederos (1) que es a saber un negro su propio esclavo llamado valentin el que se vende por libre de otra yenta censo, empiezo ni hipotesa tacita ni expresa y por tal lo asegura en cantidad de trescientos

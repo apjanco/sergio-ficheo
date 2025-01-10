@@ -1,2 +1,0 @@
-escribano interno
-venta-eschavo

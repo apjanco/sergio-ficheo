@@ -1,1 +1,0 @@
-A declaro, que sacado las mandas obras pías y demás despojatories es mi voluntad nombrar como nombre por mi único y universal heredero a mi hijo Don Antonio García falcon para que los goce con la bendición de Dios y la mi.

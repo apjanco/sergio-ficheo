@@ -1,1 +1,0 @@
-Ante mi el escribano y tchico que se nombraron perfecto Don Juan Morano reúno de ella a quien doy, se conozco y abogar que xen- t-sealvito y con elijeto a Juan Meno de la propia vecindad un negro

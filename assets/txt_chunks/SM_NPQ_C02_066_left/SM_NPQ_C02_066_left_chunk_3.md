@@ -1,1 +1,0 @@
-Sién del contrato ó su suplemento. Mediante lo cual se desiste quita y aporta del derecho de acción posesión propiedad domi- nio y señorío que al nominado esclavo Manuel tenia adquirido y todos con el de patronato los cede renuncia y traspasa en

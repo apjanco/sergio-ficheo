@@ -1,1 +1,0 @@
-felexxay y se oblica a nombre de su parte a la exiccion seguri-dad, saneamiento y firmeza de esta venta asso costo y mencion en qualesquier estado de pleito hasta dexar al comprador en-

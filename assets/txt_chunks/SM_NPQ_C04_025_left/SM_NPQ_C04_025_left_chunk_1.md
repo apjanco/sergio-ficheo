@@ -1,1 +1,0 @@
-La letra del alba, una de las más poderosas y sagrada de todas las escrituras.

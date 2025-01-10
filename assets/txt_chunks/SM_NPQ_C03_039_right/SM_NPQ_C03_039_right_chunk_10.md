@@ -1,1 +1,0 @@
-Hayan y gocen con la bendición de Dios y la misa. 109 Xtem declaro que segun una lista que tezo por separada para que se cobre como bienes mios se mededen legitimamente. Algunas entidades que se cesaron con lo mas pronto que

@@ -1,1 +1,0 @@
-Estamos ansiosos que su comprensión me conduzca a que, en lugar de mis notorios atrazos, no lo he berificado, lo que consta, y mandando se la paguen.

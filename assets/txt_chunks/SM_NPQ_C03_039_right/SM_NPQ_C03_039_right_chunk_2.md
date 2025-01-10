@@ -1,1 +1,0 @@
-corresponden por via de herencia de una (destruido) más otra partida que de esta misma cuenta se cobró a los bienes de Don Xgnacio Rentería de todo consta de autos, y yo por mi parte no meti capital alguno: declarolo así para que cons

@@ -1,1 +1,0 @@
-ay hecho los males terceros, pero sí de ningún modo le perdono

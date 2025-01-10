@@ -1,1 +1,0 @@
-La prueba que ha hecho el testigo, don Bonifacio, es satisfactoria.

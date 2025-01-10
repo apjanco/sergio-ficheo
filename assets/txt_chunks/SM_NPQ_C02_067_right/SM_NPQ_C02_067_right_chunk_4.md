@@ -1,1 +1,0 @@
-de contados sus vicios tachas defectos enfermedades públicas y secretas en oferta y cantidad de descuentos sesenta pesos de plata de a ocho reales que por el le ha dado en dinero de contado siendo de cargo del comisario la caja del depósito

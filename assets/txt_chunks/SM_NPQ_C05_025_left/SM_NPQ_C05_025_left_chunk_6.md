@@ -1,1 +1,0 @@
-Plato, y consta por menos en uno de mis libros de cuenta, y obligado por su carta a pagar el crédito, y solo tiene de abono diez y ocho pesos que pago de unas costas. Declaro para que conste 65 y rem en declaro: Que en poder del difunto Doctor Fardo en Antio

@@ -1,1 +1,0 @@
-Jose Domingo Aspepilla escribo suyo prono de su parte en la cantidad de trescientos pesos del plato de ocho reales que confesua el otorgante.

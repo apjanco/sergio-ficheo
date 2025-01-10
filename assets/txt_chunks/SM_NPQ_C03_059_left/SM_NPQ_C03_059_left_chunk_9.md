@@ -1,1 +1,0 @@
-Señalados en juicio ni fuera de él como no lo esquen intenta acción o derecho que no le pertenece y esa por lo mismo habría aprobado y reválidado añadiendo fuerza o poder y contrata a contrato con todas las alucinas vínculos y firmas que para su

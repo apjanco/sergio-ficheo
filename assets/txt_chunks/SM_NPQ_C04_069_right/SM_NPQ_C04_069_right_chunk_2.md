@@ -1,1 +1,0 @@
-libre y general administración para que traten, contraten, testen, com- parescan en juicio por si o por medio desus quaderados, y practiquen sin intervención del otorgante todo cuanto esta permitido a los que n-

@@ -1,1 +1,0 @@
-El pueblo de San Juan de la Cruz, situado en el centro de la provincia de Cárdenas, tiene una población de veinticinco y cinco días del mes de noviembre de mil ochocientos ochenta. Ante mi, Don José Dronismo de Villar, teniente gobernador y corregidor de Naturales de este dicho pueblo, y de las tres casas que son en este pueblo, el gobernador del mismo escucha.

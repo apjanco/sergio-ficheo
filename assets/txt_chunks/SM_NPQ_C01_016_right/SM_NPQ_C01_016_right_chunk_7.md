@@ -1,1 +1,0 @@
-Los propietarios de haciendas y subdueces les reclamaron ni contradicieron en manera alguna y caso que lo intenten por el mismo hecho no seran hor- dos en julio ni fuerza de el como no lo es quien intenta acciones

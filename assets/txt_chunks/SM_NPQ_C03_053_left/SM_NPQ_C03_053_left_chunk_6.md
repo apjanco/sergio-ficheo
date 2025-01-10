@@ -1,1 +1,0 @@
-se lo vende con todas sus vias y truchas defectos en enfermedades publicas y secretas por el crema y cantidad de trescientos pe- sos de plata de oro real que no puele haber dado endinco de 34 a 35 de enero de 1834 en la casa de los vendedores la casa del don

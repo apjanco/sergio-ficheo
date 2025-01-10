@@ -1,1 +1,0 @@
-Costos y gastos de su inestimable propiedad, cuyo valor se ha reducido a un simple juicio de la parte interesada, y esto escribe en la forma que más haya hecho para dar la otorgante que debe real y verdaderamente o bien Morano

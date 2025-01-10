@@ -1,1 +1,0 @@
-del Jostó precio y el término concedido para la rescisión del contrato o su suplemento. Mediante lo cual se desiste quita y aparta del derecho acción posesión propiedad dominio y señorío que a dicha es- clava Juana Bautista tenía adquirido, y todos con el patrónato

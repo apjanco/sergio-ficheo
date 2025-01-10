@@ -1,1 +1,0 @@
-Entidades que han sido objeto de la acción de la ley.

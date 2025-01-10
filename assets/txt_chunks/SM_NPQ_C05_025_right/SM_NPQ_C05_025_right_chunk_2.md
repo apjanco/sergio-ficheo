@@ -1,1 +1,0 @@
-gros consos adelantamientos, en cuyo partido fueron de la hacienda de mi padre. 20621 negros según consta de la lista que en ella se verá por la letra (4) que está al margen del nom

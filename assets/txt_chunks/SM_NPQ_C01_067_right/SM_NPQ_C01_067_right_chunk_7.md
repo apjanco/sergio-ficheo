@@ -1,1 +1,0 @@
-de este vecindario igual cantidad de seis toneladas de patatas que -dres que gos no ser de presente su recibo renuncia la excepción y ley de la non numerata percorra prueba de su recibo y no del 31 caso, y el consecuencia para que se haga a ganar de ellas se

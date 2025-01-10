@@ -1,1 +1,0 @@
-de las copias autorizadas que quisiera para su resguardo y se obligan los ofertantes a no reclamar ni contradecirse en nada. Ya alguna esta libertad y si lo hicieren quieren que no se les haga, ni admita en tribunal alguno como no lo es quien intenta acción.

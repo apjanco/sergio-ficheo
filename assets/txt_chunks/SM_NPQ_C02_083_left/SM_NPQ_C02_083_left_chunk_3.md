@@ -1,1 +1,0 @@
-De que no me ha sido dada cuenta de que es imposible con libertad y general administración para que trate cuando tenga la edad competente, contrate testigo, comparezca en juicio por si bien sea de su voluntad y actúe sin intervención

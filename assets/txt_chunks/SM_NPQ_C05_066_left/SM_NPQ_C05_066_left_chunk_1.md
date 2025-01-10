@@ -1,1 +1,0 @@
-En el nombre de Dios, todo poderoso Amen Yo Gertrudis Polo

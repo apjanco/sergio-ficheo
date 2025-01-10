@@ -1,1 +1,0 @@
-Vicente Aguirre, hijo de un noble y político hermano, fue el nieto de las cuales precedido el Justiprecio que resultó en la contridad de Trescientos ochenta pesos de plata consta en auto en que se manda otorgar la correspondiente escritura de libertad, y

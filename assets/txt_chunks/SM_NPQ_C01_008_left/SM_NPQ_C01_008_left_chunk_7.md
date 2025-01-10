@@ -1,1 +1,0 @@
-hizo Eulalia con don Melchor Vélez en cantidad de quimientos ochentas y de plata, cuyo trabajo ha sido servido para satisfacer al señor oficial real la cantidad de trescientas y veinte y ocho plata.

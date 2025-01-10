@@ -1,1 +1,0 @@
-Ramón de Diego Ximenes que no se han ligado; mando se verifique a la mayor brevedad y de su resultado se le oegue de los bienes mediante haberse invertido en beneficio de ellos lo que este suplico declaralo para que conste

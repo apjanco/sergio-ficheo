@@ -1,1 +1,0 @@
-En el pueblo de San Francisco de Quito, capital de la provincia, siguiendo el cítraro a vender y siete días del mes de Julio de mil ochocientos ocho: Ante mi don Josep promedio de villar BIX teniente de gobernador de ella y testigos con quienes actúo

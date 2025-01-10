@@ -1,1 +1,0 @@
-La Londono por su hijo Santiago quatro pesos - Francisco Ma- Luco seis - Simon el negro del finado Don Jayme seis - Don Jose seis

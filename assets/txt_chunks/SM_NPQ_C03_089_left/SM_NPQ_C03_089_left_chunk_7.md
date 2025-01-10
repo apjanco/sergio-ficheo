@@ -1,1 +1,0 @@
-El primer de mi género, mi hijo, y el segundo de mi género, mi hija, han sido adquiridos por su propio libre de empeño, de acuerdo a la obligación e hipoteca especial ni general que no la tiene y se lo dejo a dicho señor gobernador con todos sus vicios despejados.

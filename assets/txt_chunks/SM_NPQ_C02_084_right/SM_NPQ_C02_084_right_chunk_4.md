@@ -1,1 +1,0 @@
-que cumplirá la ley y del bienentendimiento. Realizo pesos en carros de Alcalá de Henares y demás que habían en razón de lo que el compró y vendió por más o menos de la cantidad del justo y el término concedido para la rescisión del contrato y su cumplimiento. Meramente lo que se prevea otro día.

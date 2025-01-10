@@ -1,1 +1,0 @@
-Frate contrate testi comparezca en juicio papar o por medio de sus acogerados y practique sin intervencion del otorgante todo cuanto esta permitido a los que nacieron libres usando en todo de su exponea nea voluntad pues para ello formaliza a su facer esta estruca

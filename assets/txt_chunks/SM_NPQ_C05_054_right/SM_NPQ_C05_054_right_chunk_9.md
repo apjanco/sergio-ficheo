@@ -1,1 +1,0 @@
-Don Jose Leonardo de Cordova a favor de la Santa Iglesia del Antiguo Testamento, como consta de las escrituras de reconocimiento que tengo otorgadas. Declaro lo así para que conste.

@@ -1,1 +1,0 @@
-Vente las entregas los que les debo a los señores Antonio y este desear me los havían pagado y de yo ver resulto tener y que volverlos a pagar. Declaro lo que consta. Declaro de los unos papeles de dicho Gotrefes de los que

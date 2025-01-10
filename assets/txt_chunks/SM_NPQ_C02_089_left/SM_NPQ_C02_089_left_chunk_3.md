@@ -1,1 +1,0 @@
-Con el de tres castellanos y una viruela de quince pesas, cuatro sortijas que pesan seis castellanos y un par de zarzillos con el de cuatro pesos, y tem del propio modo declaro por bienes mios un mulato esclavo llamado Luis, dos hachas, cuatro machetes, una

@@ -1,1 +1,0 @@
-En la ciudad de Quibdo, capital de la provincia del Cauca, a diez de febrero de mil ochocientos trece. Ante mí el escribano y los tiguros que se nominaron, foreció en la casa de su morada enfermo en Campan Juan Antonio Ramírez, recino de esta provin.

@@ -1,1 +1,0 @@
-Francisco García y Ruiz

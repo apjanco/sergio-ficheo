@@ -1,1 +1,0 @@
-Pedro que al intento le entregue en esta dicha su- dad con su competente poder; en este caso percuto dich fer- esa su importe y deno se hara cargo del esclavo y verificara al- cho venta al mas alto precio que el tiemor diese lugar y rest-

@@ -1,1 +1,0 @@
-a nombre de sus dichos esclavos otorga: Que da carta de alhoro y libertad en forma a un esclavito propio suyo nombrado Jose Antonio por la cantidad de cincuenta pesos de plata que confiesa tener recibidos de mano de felipa Gutierrez madrina de dicho

@@ -1,1 +1,0 @@
-administrador, quien en prueba de su recibo ha dado la valleta que se insertó y dice así / de los dichos descuentos pataco- mies se da el señor otorgante por entregado a su entera satisf- ción, según se mantiene desde la contracción, la excepción de la norma

@@ -1,1 +1,0 @@
-Mientras y primera de esta venía la que le sea cierta seguridad y valadería, y sobre ella no se le pondrá pleito ni contradicción alguna, y siéste moviere la seguridad y fenecerá a su costa hasta de juzg en quieta y pacífica poseción; y de no poderlo hacer le de

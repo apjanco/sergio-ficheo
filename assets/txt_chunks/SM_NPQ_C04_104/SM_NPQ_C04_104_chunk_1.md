@@ -1,1 +1,0 @@
-The image shows a close-up of a book's spine. The text on the spine is not legible due to the angle and lighting.

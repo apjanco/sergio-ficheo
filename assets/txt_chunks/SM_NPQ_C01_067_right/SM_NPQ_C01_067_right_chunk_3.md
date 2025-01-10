@@ -1,1 +1,0 @@
-nato y demás que le pertenezcan lo cede renuncia y traspasa en el comprador y en quien su causa y derecho hubiere que su señal de posesión y por título de ella obtenga o su facer este

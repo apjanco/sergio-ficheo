@@ -1,1 +1,0 @@
-por más o menos de la mitad de su justo precio y terminó concedido para la rescisión del contrato o su suplemento mediante lo cual se desiste quita y aparta del derecho acción propiedad dominio y señora que a dichos negros tenía adquirido y todo con el desistro

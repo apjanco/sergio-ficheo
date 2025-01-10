@@ -1,1 +1,0 @@
-Concordant, y desde hoy en adelante para siempre se des- podería desistir quita y aparta del derecho de acción posesión, propiedad dominio y señora, que a dichos esclavos tenían adquirido, y lo cede renuncia y traslasa en dicha compradora

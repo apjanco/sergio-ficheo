@@ -1,1 +1,0 @@
-Reserva Juana Manuela Rodriguez. Tenia adquirido y donado el de patronato y demas que le correspondan los cede renuncia y traspasa en su favor para que trate y controle, dandole como

@@ -1,1 +1,0 @@
-su mano a entera satisfacción y contento sobre que remunio deu lo contrario la excepcion de la non numerata pecuni que ha de suscribo termino engano y mas de los casos en cuya virtud se desate quita y agapita del derecho de patronato possession propiedad

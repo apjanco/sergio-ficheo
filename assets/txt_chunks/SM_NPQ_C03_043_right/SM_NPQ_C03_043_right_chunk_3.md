@@ -1,1 +1,0 @@
-Por derecho se requiere, y a la observancia y puntual cumplimiento de todo lo referido se obliga con sus bienes habidos y por haber con el poder de Justicias, sumisión de fuerza y penanciación de les y es en derecho necesarias con la general en forma. Su estes

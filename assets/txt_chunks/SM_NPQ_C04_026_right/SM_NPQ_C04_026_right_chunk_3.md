@@ -1,1 +1,0 @@
-La libertad es una parte con los derechos que administra presente y culturas con el poder de justicias sumisión de fuerza y renuncian de leyes en derecho necesarias con la general en forma. Su testi

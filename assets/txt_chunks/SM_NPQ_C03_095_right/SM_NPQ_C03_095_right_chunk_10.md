@@ -1,1 +1,0 @@
-propias esclavas cautivas y sujetas a seritumnidad de las Maria de la Cruz y Maria Dorotea las que asegura el obrante hallarse libres de empeño deuda obligacion e hipoteca especial ni general aunque la tienen y se las venden contadas

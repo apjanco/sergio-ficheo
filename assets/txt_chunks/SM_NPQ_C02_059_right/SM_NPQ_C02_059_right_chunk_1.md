@@ -1,1 +1,0 @@
-por la que ha de servirse haberla adquirido sin que necesite de otro acto de apreciación de que lo releva, y escobliga a la sujeción y sancimiento de esta venta a su costo y mención hasta dexar

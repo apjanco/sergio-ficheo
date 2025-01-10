@@ -1,1 +1,0 @@
-La cuando quiera o lo tenga havien declararlo para que conste fecha Supra M. de Varano

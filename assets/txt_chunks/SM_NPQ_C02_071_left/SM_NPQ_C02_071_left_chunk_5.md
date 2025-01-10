@@ -1,1 +1,0 @@
-La política compromiso de todas las personas y bienes habitados por haber con el poder de justicias somisión de fuerza y renuncia de leyes en derecho necesarios con la general en forma. En cuyo testimonio con aceptación de la compradora quien dijo ser mayor de veinte y cinco años y

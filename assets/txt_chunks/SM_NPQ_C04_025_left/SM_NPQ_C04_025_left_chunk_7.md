@@ -1,1 +1,0 @@
-tradu con todos los daños los animales y comunidades que para su perpetua validación se requieren. y a la observancia y puntual cumplimiento de todo lo refiriendo obliga a su pueblo con su persona y bienes habituy por haber con el potestio de justicias emision

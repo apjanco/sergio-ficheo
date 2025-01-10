@@ -1,1 +1,0 @@
-La escritura por la cual ha de ser visto la qd

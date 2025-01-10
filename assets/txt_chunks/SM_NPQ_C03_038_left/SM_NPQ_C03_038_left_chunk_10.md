@@ -1,1 +1,0 @@
-los embajadores por mí o los insurgentes siguen que les sirva en calidad de quintoente por la presente e nombre de su maestra.

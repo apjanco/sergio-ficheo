@@ -1,1 +1,0 @@
-Pues de bienes con superstitios y bienes presentes y futuros con el poder de dos fracciones suisión de fuero y renuncia de leyes en derecho necesarias con la general en forma, en su testimonio con aceptación de francesco de paz en virtud de representación para ella de los comorados, puso en obras

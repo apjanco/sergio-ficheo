@@ -1,1 +1,0 @@
-Sanarle se devolverá la suma que tiene peciorada y le pagará las cos-tas y gastos de su incertidumbre cuya prueba defiere en su simple juramento relevandole de otra aunque por derecho se requiera. Y a la observancia y puntual cumplimiento de todo, se obliga con su

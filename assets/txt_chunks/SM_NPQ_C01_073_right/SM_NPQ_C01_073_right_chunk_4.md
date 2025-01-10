@@ -1,1 +1,0 @@
-Héctor García, y Don José María Flores vecinos y residentes en la ciudad de Córdoba.

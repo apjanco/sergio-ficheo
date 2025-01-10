@@ -1,1 +1,0 @@
-receptor de este símbolo que dice así = en su virtud con aceptación del comprador firman ambos siendo testigos Don Manuel Scarpetti, Don silvestre de Herrera y Don Manuel penguiste vesinos y residentes

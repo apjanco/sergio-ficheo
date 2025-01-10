@@ -1,1 +1,0 @@
-hace gracia, y donación al señor comprador y los suyos buena, pura mera, perfecta e irrevoable de las que el dete- cho llamado interivivos con incmuacion en forma sobre que re- movio la lex del ordenamiento real fecha en cortes de Al-

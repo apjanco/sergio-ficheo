@@ -1,4 +1,0 @@
-norma
-Keith Haring
-
-Scissors

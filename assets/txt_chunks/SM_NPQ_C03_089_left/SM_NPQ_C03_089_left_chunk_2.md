@@ -1,1 +1,0 @@
-En la ciudad de Quiribdo capital de la provincia de Citará a cuatro de Mayo de mil ochocientos diez y ochos años. Ante mueles bano y testigos que senomigran parecio Nicolás Boxas veci- no de ella y acordado del reverendo padre Fray Manuel

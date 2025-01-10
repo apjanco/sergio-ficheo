@@ -1,1 +1,0 @@
-el valor de una sortija que le presté a suglicias de él y lo perdí el cual lo estimo en conciencia en tres pesos castellanos mandó a mis albaqueas que tanto la cantidad de arribo como esta se la cobren y asequen al cumulo de mis bienes

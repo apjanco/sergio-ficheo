@@ -1,1 +1,0 @@
-cantidad hace gracia y donación al lexítimo comprador y sus subseñores, buena, pung, mera, perfecta e irrevercable, de las

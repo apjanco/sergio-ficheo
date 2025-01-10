@@ -1,1 +1,0 @@
-Esta escritura con los requisitos legales y precisos que sean con- docientes a su mayor estabilidad, me pide que de ella le de sus copias autorizadas que quiera para su resguardo, y obliga sus bienes a no re- parcialmente, interpretar, reclamar esto, que para volver a la soberanía.

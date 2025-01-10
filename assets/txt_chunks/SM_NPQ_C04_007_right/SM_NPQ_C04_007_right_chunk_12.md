@@ -1,1 +1,0 @@
-A juego de la aceptación, como regreso a la realidad

@@ -1,1 +1,0 @@
-Gracias, mi querido amigo, que has hecho un trabajo admirable. Contad todos sus vicios, tachas, defectos, enfermedades públicas y secretas en precio y cantidad de trescientos pesos de plata.

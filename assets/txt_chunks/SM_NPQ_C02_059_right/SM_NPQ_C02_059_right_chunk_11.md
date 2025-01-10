@@ -1,1 +1,0 @@
-sin intervención de la otorgante quien está permitida a todos los que nacieron libre, usando en todo de su ejecución en voluntad pues para ello formaliza que en favor esto escritura con los requisitos legales que sean precisos y conducentes a mayor es

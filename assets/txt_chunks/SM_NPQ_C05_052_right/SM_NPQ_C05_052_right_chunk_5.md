@@ -1,1 +1,0 @@
-dextrar al comprador en quieta y pacífica posesión, no pu- diendo decirlo sanear le devolverá los descuentos treinta pesos recibidos con más los costos y gastos que con su inceptidumbre se le origina en cuya prueba defiere ensu simple. Jurquen-

@@ -1,1 +1,0 @@
-Jesús Bonifacio Salazar

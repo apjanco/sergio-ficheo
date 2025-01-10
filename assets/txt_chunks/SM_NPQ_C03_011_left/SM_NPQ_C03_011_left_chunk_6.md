@@ -1,1 +1,0 @@
-La lata de las mercedes, el aguado de maíz, la casa de hacienda, otra util y dos muelles, un cepo de 10 agujeros sin cerradura, un corte de madera llamado la peña falsa con su pila pequeña de agua sembrado para un día de tra

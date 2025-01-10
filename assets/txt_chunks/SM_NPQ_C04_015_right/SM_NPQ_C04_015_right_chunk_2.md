@@ -1,1 +1,0 @@
-suplemento. Mediante lo cual se desiste quit y agafa de la acción posesión propiedad dominio y señorío que a dicha esclava María tenía adquirido y todos con el de patronato y demás que le correspondan los cede renuncia y traspasa en la compradora y

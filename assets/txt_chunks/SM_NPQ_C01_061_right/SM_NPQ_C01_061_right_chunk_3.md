@@ -1,1 +1,0 @@
-Final corregidor propietario del pueblo de lloro a quien hoy fe co y dixo: Que rende y da en renta real y perpetua exageracion desde ahora para siempre jamas a Don Melchor de varona y retan lus rezimo minero de esta dicha provincia una negra llamada Mergis

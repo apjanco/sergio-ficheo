@@ -1,1 +1,0 @@
-tomentario fídei comisario del... Jayme. Insértu quíoy fe conosco y dixo: Que da su poder cumplió el que de derecho se requiere y es necesario para valer a Manuel Maria Cordexo de la propia veidad y próximo para seguir a la gloria de Cartapedia

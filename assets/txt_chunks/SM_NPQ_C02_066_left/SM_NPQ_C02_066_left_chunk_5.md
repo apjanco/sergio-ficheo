@@ -1,1 +1,0 @@
-La venta a su costo y mención hasta dexar al comprador en quieta y pacifica posesión y no pudiendo la sueneja le devolvera la suma recogida y legagara las costas y gastos de su incertidumbre cuya prueba difiere a su

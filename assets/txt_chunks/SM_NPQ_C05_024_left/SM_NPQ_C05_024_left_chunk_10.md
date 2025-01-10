@@ -1,1 +1,0 @@
-por no parecer el capellán, todo consta por recibos y documentos, como así mismo medezy cuatrocientos noventa pesos pesos del crédito pagado a razón de 35 patacones por año de 700 que se reconocen en la finca de Bocacama a favor de los mayordom

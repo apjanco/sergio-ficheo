@@ -1,1 +1,0 @@
-Sos - Ignacio Quezada de Bedaro, cincuenta y tres años como consta de su vole, se le abonan trece y si esto pasase al contado rebaxensele dicemos - Juan Bautista de la

@@ -1,5 +1,0 @@
-7 702009 069684
-D.O. 85 100 HJS CUADRILICULADO
-Plastificado Duracover
-100 Hojas
-D14

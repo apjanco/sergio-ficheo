@@ -1,1 +1,0 @@
-Hace de su legítimo propietario y dueño, en el cual se encuentra, y agotado del derecho de patronato señorío y posesión, que a dichas negritas tenía adquirido y todo lo cede con las acciones reales personales y demás que le competen en el dominio y arrenda para que sean sus esclavos.

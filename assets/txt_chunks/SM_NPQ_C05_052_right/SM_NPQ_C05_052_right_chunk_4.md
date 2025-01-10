@@ -1,1 +1,0 @@
-La cual ha de ser visto haberlo adquirido sin que necesite de otro acto de aprehensión de que lo relevara y se obliga a la evi- ción y saneamiento de esta venta a sucesora y mencionar hasta la fecha de la venta.

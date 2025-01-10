@@ -1,1 +1,0 @@
-Lo, y antes bien conste ser suyos en pleno dominio que en este con-septo pueda disponer de ellas, libremente a su arbitrio formalisca.

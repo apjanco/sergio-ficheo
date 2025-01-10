@@ -1,1 +1,0 @@
-y el último resto a su constituyente según asredita la carta que original se entega y su tenor es el siguiente tambien se iner

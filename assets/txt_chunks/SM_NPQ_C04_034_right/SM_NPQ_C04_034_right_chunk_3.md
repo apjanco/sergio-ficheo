@@ -1,1 +1,0 @@
-El declaro, que en efecto, consta de la donación que este me hace para los siguientes patacones, los cuales no se me han entregado por sus glaceas que fueron. Logro declaro para que conste

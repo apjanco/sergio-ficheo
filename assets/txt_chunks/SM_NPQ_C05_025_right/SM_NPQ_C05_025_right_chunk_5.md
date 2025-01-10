@@ -1,1 +1,0 @@
-la revolucion la justicia a Panamá, de los hermanos de la Hu- cienda solo dos nombrados Santiago, y Juanico, y Balverde traslo- do mi poder a Don Santiago Vitores quien reco- da en suayagul de dicho Portillo una corta cantidad de sepil y tantos pesos

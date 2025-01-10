@@ -1,1 +1,0 @@
-El estado Don Ramón de Diego Ximénez, a quien asimismo soy conocido, entrego de esto escritura de venta a su favor otorgado dicho: Que la acaelaba y acepto. En su testimonio y estado cobijado el Real derecho de Akabala correspondiente se que

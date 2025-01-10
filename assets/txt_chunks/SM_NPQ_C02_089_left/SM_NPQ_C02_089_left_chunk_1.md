@@ -1,1 +1,0 @@
-doro de Andagueda que vendi a Bautista García en diez y siete pesos castellanos, y doce cabecitas de cerdos entre chicos y grandes.

@@ -1,1 +1,0 @@
-obliga a no revocar ni contradecir de manera alguna esta libertad pero menos por sus herederos y si lo hiciera quiere que no se les oigan admita en tribunal alguno como no lo esqen intente acción de derecho menos le perdonece y se lo visto

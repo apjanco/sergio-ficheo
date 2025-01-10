@@ -1,1 +1,0 @@
-Para, mera, perfecta e irrevocable intervivos con la insinuación y renuncia necesaria sobpeque que renuncia la ley del ordenamiento Real fecha en cortes de Alcalá de Henares y demos que hablan en favor de las cosas que se han hecho y no se han hecho de la

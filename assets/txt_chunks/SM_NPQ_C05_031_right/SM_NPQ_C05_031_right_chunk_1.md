@@ -1,1 +1,0 @@
-no de esta Santa Yglesia, Declaro lo para que conste

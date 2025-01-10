@@ -1,1 +1,0 @@
-trimonio con francisco de lorca, que es consecuencia clara, que no solamente confiesa en su última disposición el que nada tenía cuando t... matrimonio con migó, sino que se agrega el que sobre unizo 1... el citado Lorsa habiendo otorgado yo

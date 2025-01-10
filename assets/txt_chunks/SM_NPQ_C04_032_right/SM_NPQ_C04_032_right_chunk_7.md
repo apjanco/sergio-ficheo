@@ -1,1 +1,0 @@
-desarrollador nombrado Manuel Antonio el cual aceptó higllarse libre de toda obligación e hipoteca especial, ni general que no la tiene y se lo venden con todos sus vicios y defectos enfermedades públicas y secretas en precio y cantidad de decer

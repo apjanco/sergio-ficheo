@@ -1,1 +1,0 @@
-san firmio la que sabe, y por la que dado no saber lo hace a sus ruegos don Manuel Scarpeta, con migo dicho teniente y testigos. Con quienes actuo por el impedi- miento referido.

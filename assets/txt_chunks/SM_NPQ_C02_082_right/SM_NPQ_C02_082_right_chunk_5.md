@@ -1,1 +1,0 @@
-Su mayor estabilidad, me pide que de ella les de las copias autorizadas para su resguardo y obliga sus bienes a las se vocar total ni parcialmente interpretar, ni reclamar esta libertad y manumisión, sin embargo de las causas que para

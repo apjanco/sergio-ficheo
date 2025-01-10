@@ -1,1 +1,0 @@
-y dado que más valen de su exceso en poca o media vida se hace gloria y donación al comprador y los suyos buena para mera perfecta e irrecobable de los que el derecho llama m.

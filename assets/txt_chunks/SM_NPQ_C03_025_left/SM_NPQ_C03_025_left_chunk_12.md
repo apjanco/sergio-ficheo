@@ -1,1 +1,0 @@
-table ciudadano presidente Manuel Alberto Guerrero

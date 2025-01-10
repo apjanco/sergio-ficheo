@@ -1,1 +1,0 @@
-El 12 de febrero a tres días del mes de febrero de mil ochocientos diez: Ante mi escribano y testigos que se nombraron parecido presentó Don Carlos Alarcon vecino de esta provincia y en su escrito dice: Que vende a don en venta y ser

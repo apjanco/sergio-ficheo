@@ -1,1 +1,0 @@
-hubo y compró al contado a Josefa Fazardo Viñay veando de dicha provincia como consta de la escritura que ante mi y testigos le estorpo la vendedora el día primero de Mayo último a que se remiti. En su virtud lo ha poseído por suyo propio libre de eua

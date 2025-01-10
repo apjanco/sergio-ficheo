@@ -1,1 +1,0 @@
-Primero, enconiendo mi alma a Dios nuestro Señor.

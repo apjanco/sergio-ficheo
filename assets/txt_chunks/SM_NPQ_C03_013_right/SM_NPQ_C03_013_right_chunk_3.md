@@ -1,1 +1,0 @@
-Por favor, proporciona el texto que deseas que se traduzca.

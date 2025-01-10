@@ -1,1 +1,0 @@
-Ante mi, Don Carlos de Ciaurriiz, Capitán de Infantería gobernador político y militar de estas provincias del chaco, y testigos con quieneses actuo por el impedimento del único escriba -no pareció presente Dona Maria Rosalia de Cardona y viv

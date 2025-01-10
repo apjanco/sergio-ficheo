@@ -1,1 +1,0 @@
-sobrenata y demás que le correspondían los cede centunero y tras

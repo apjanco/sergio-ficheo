@@ -1,1 +1,0 @@
-Esta clausula, cuyo testamento fue otorgado a mi madre y tres días del mes de Abril de mil seiscientos noventa y uno, a remitido lo que declaro como es dicho que al citado José de Ayala le entregaron por el citado don Angel, y dicho José Ignacio

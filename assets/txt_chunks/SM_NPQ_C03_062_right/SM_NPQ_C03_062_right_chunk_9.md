@@ -1,1 +1,0 @@
-En la ciudad de Guadalupe, capital de la provincia del Chihuahua, se celebró el día 1 de Junio de mil ochocientos diez. Ante el escenario y todo lo que se nombraron por gracia, Don Pasqual Rauta y su esposa de ella a quien se conozco y ofrecio, que vendes regalos y confección.

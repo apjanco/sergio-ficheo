@@ -1,1 +1,0 @@
-Entro de mielo próximo, pues es que el dinero que los herederos y subasores es a saber un negocio nombrado Sebas. Hán, el que le vende por libre de otro viento, censo, empeño ni hipoteca, facta ni expresó y por tal lo asegura en.

@@ -1,1 +1,0 @@
-Eso, y declara que es el justo precio y veragadero valor el de los ciento y treinta y cinco pesos de plata que no vale más y caso 203x que mas valga de su demasia en mucho o poca suma hace gracias y donacion al comadorador y los suyos buena parajera, perestra e

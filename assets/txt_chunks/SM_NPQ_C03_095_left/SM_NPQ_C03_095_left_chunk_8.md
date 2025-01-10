@@ -1,1 +1,0 @@
-La mano humana para decía que la destrucción terminaba en la muerte y más del caso, declarando que dichos esclavos no valen más y si más valen de su demasia en mucho o poca cantidad hace gracia y donación a la compradora y sus herederos a nombre de dicho tallo bueno para otro perfecte y muy vocable y pronto

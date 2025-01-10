@@ -1,1 +1,0 @@
-Por la aceptante Domingo Martínez

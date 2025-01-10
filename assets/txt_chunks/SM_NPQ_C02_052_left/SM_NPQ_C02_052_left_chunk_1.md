@@ -1,1 +1,0 @@
-hasta dejar al comprador en quieto y pacífica posesión y no pudiéndose la canear le devolvera la suma de los trescientos pesos de plata si ya los hubiese recibido y le pagara las cos-

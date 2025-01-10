@@ -1,1 +1,0 @@
-Don José María Baragona dos tenitos, de oro, el uno de 127 castellanos de que no he tenido razón de su ley, y me ha hecho Baragona que el tiene aquel apunte, que se vera su producido, el otro tenitos, de peso desienta y cinco castellanos que se

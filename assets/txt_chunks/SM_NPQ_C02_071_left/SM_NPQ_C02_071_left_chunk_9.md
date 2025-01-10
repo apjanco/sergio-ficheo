@@ -1,1 +1,0 @@
-En el cuarto de la casa de su morada la ciudadana Maria Francisca Martinez vecina de ella quien usando de la licencia y consentimiento de su madre C. Maria Ayoro que de haber sido pedido concedido y aceptado respectivamente amen

@@ -1,1 +1,0 @@
-En el pueblo de San Francisco de Gourdo capital de la provincia del Cutralco a quince de enero de mil ochocientos diez: Ante mi el escribano y testigos que se nominaron pareceo presente Don Francisco Xavier de Conto vecino minero de ella y Albacete tes

@@ -1,1 +1,0 @@
-Hay en adelante se desapoderá desistir quarta del derecho de acción dominio y esencia de que dicha esclava tenía adultificado y todo lo cede renuncia en el congoedor y los suyos para que como cosa propia pueda venderla con

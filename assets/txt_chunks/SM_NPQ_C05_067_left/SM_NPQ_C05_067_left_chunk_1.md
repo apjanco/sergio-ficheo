@@ -1,1 +1,0 @@
-tan en la adjunta lista, declararon un total de

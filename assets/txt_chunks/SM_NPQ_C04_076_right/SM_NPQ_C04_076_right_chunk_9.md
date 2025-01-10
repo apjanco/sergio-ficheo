@@ -1,1 +1,0 @@
-fermidades públicas y secretas, en precio y cantidad de docenas pesos de plata que por el le ha dado el mencionado pata a nombre de dicho Domingo de Córdova, siendo de cargo del señor durante la paga del derecho de alcavala que ha satisfizo al señor

@@ -1,1 +1,0 @@
-The text on the image is not clear and appears to be a mix of different fonts and colors. However, if you can provide more context or a clearer image, I would be happy to help you extract the text.

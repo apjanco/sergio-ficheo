@@ -1,1 +1,0 @@
-NOTA. Que es mi voluntad, que a mi malato ignacio en embar go de la libertad que tiene pors sus grandes servicios y fidelidad con que me asisto en mi grande enfermedad y ha continuado son estos buenas qualidades, se le dan veinte y ciento

@@ -1,1 +1,0 @@
-y secretas por el precio y cantidad el citado Antonino de quatrocientas pesos de plata de ocho reales y de dos

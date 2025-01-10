@@ -1,1 +1,0 @@
-A ruego de la orgrupme Gabriel Anurude Testigo Francisco de paz Ante mi Vicente Olgaechen

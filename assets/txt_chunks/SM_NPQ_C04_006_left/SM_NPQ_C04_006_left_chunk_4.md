@@ -1,1 +1,0 @@
-La facción de desechos que se ha traído hoy, y que contiene el siguiente y de los expresados doscientos sesenta y cuatro pesos de plata recibidos se confesó entregado fenuncia decir lo siguiente.

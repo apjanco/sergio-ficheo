@@ -1,2 +1,0 @@
-Libertad
-En la ciudad de Quibdo, capital de la provincia de Cusco, a diez y nueve de Julio de mil ochocientos diez y nueve años. Ante mi escritura y testigos que se nombraron pareció Pedro Domigo Palacios vecino

@@ -1,1 +1,0 @@
-mino engañó y más del roso. Si cura virtud en nombre de su recomendante se asiste quieta y aporta de derecho de patronato, poseerán propiedad dominio y señorío que alí fado esclavo o José Dominio tenían asegurado.

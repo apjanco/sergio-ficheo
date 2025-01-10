@@ -1,1 +1,0 @@
-y en su testimonio así lo dice enotorgante firman siendo testem. Vicente Gonzales, Narciso Hostado, Luis Alfonso vecenas. En este estado expresa la otorgante que la citada venta ha sido hecha (con consenso) entre los.

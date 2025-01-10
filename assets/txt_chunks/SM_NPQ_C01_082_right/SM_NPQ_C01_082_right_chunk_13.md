@@ -1,1 +1,0 @@
-The text is not clear. Please provide a clear text.

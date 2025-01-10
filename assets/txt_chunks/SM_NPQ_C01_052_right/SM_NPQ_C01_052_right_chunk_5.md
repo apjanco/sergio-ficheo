@@ -1,1 +1,0 @@
-Satisfeció la real. Alcavala se agregó voleta original y siendo leída a la referida Dona Tereza Lázaro esta escritura de vista en su favor otorgada diso: que la aceptava y acepto. Y en su testi- monio asid dicen otorgan y firmaron con uno dicho teniente y teniente.

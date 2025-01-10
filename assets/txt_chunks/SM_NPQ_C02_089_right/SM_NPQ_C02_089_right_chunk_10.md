@@ -1,1 +1,0 @@
-La comunidad de esta nación es un pueblo unido y por el presente revoque y anularé todos los testamentos que antes de este haya formalizado por escrito de palabra o en otra forma, para que ninguno valga, ni haga fe judicial ni extraoficialmente ni menos los poderes y otra disposición.

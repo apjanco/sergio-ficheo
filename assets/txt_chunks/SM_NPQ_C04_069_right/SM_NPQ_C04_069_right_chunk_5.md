@@ -1,1 +1,0 @@
-no y sea visto por lo mismo haberlas aprobado y ratificado, una diente fuerza a fuerza, y contrato a contrato. Da amplio poder a los señores Juezes des su cuerpo de qualesquiera parte que sean para que le compres lona a la observación de este como por sentencia definitiva pasada en

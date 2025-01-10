@@ -1,1 +1,0 @@
-Escrituras de ahorro sobre que le encargo su conciencia y lo declaro para que conste - En su virtud y habiendo cumplido exactamente por los esclavos nombrados en dicha cláusula con lo condicion que les impone el tes-

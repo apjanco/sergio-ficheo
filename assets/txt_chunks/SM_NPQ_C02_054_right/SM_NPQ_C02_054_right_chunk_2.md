@@ -1,1 +1,0 @@
-las mixtas directas, ejecutivas y demás que les competen en la menor reservación y se obligan a observar exacta e invariablemente esta transacción, y no oponerse a ella, reclamarla, contra lo venida, ni intentar nueva acción contra lo estuculado en esta es

@@ -1,1 +1,0 @@
-Estudiante presentó una solicitud de cambio de su nombre en un cuerpo dixo: que la aceptaba y aceptó y se ofreció a cumplir con la satisfacción de los seis cientos pesos de plata de la compra que ha hecho a la otra parte.

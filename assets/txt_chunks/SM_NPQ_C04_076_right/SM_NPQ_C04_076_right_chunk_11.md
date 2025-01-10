@@ -1,1 +1,0 @@
-facción, reñencia decir lo contrario, la excepción es que merata pecunt, su prueba la del recibo terminó, engano y más del caso declarando como declara, que el dicho esclavo francés como valesemos, y aunque más valga de su demagía, en mucho a poca

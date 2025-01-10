@@ -1,1 +1,0 @@
-el comprador y sus licencieros que en bienes de posesión y por principio ella, otorga a su favor esta escritura, por la que ha de ser visto haberlo adquirido, sin que necesite de otro acto de aprehensión de que lo relève; y se obliga a la evicción y saneamiento de esto viento a sucata y mención

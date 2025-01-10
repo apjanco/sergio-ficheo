@@ -1,1 +1,0 @@
-Don Jayme, a Don Juan ferrer vecino y [...] de dicha plaza, en cuyo poder se halla el citado edificio, otorgando la correspondiente escritura de propiedad a favor del comorador con todas las clausulas, vinculos y eternas.

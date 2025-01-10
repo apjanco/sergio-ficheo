@@ -1,1 +1,0 @@
-Santísima Trinidad, padre hijo y espíritu Santo, tres 69 personas distintas y un solo Dios verdadero, y todos los demás que tiene cree, confiesa gráfica y enseña nuestra Santa María de la Iglesia católica, apostólica Romana, bajo su autoridad.

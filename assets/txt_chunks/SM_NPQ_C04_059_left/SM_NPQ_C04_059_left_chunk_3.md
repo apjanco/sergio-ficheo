@@ -1,1 +1,0 @@
-La tasa de satisfección y cumplimiento ha sido de 90% para los autos Judiciales ante mi por pedimento del rescatante, los que se agregan a este para su constancia y su tenor a la letra dice así: sobre que renuncia decir lo contrario la ejecución de la non numerata pecuniaria.

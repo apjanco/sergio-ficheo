@@ -1,1 +1,0 @@
-Ante mi Vicente Olgaecoa

@@ -1,1 +1,0 @@
-las requisitos legales que son precisos y concidentes a su mayor estabilidad y me pude que de ellas le de las cosas autorizadas que querría pa su resguardo, y se obliga el otorgante a no reclamar ni contradecir en su garantía.

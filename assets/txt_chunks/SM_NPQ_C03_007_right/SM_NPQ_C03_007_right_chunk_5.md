@@ -1,1 +1,0 @@
-ni contra decir en manera alguna esta libertad y si lo hiciere quiere que no se le orga ni adviente en trámigo algo como lo es quien intenta acción o derecho avena le pertenezca y sea visto por lo mismo haberla aprobad y ratificado que

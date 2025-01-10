@@ -1,2 +1,0 @@
-2. Me he legado a las madres fuerzas y almas de mis hijos, que satisfara mis almas y mis almas. 
-3. Xten declaro que fue casada y velada con el finado señor Francisco Conto, en cuyo matrimonio hemos tenido por nuestros hijos.

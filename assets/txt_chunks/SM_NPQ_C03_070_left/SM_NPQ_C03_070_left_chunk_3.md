@@ -1,1 +1,0 @@
-Señor que a dicho esclavo tenía adquirido su parte y todos con el de patronato y demás que le pertenezcan los cedían a los señores renunciando y tras pasa en el comprador y sus herederos que en señal de posesión y fiduciaria.

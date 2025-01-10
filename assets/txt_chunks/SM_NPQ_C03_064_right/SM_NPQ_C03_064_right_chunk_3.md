@@ -1,1 +1,0 @@
-yandolo de otra quien por derecho se requiereq. Y al cumplimiento y observancia de lo relacionados se obliga con su persona y bienes presentes y futuros con el poder de justicias sumisión de cuerpo y conciencia de las personas.

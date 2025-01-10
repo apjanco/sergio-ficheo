@@ -1,1 +1,0 @@
-haber de alegar en el poder de los jueces la función del pago y retribución de bienes en derecho necesario con la general en cumplimiento en su testimonio con aprobación del comité des que los distribuyan en función siendo testigos los ciudadanos

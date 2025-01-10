@@ -1,1 +1,0 @@
-El y estando presente el citado José Antonio Núñez do oído el tesor y forma de esta escritura de nuevo livertad en su favor otorgada; dijo que la oseptog, y oseptor y en su testimonio así lo diceh y otorgo nofin

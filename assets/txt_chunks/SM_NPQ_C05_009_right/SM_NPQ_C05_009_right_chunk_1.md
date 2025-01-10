@@ -1,1 +1,0 @@
-persona y bienes habidos y por haber con el poder de Justicia su

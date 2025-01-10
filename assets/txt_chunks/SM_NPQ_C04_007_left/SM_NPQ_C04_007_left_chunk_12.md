@@ -1,1 +1,0 @@
-que da y concede plena libertad a la mencionada Toma- sa en cantidad de los cien pesos castellanos que confiesa

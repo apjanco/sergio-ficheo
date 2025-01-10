@@ -1,1 +1,0 @@
-cada reminiscencia y recuerdos en el sombrador y sus vecinos soñeros

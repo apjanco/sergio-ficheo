@@ -1,1 +1,0 @@
-Guía de aduan por expresa y declarada para que le perjudique, con la de su domicilio y reciindad y general del derecho enorma, en cuyo testimonio as lo dice otorgo y firma siendo testigos Don Miguel Buch Don Luis Herrera y don Santiago de la torre

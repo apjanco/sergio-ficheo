@@ -1,1 +1,0 @@
-El martes, con asistencia del libertado Segundo, así lo dije, otorgué y firmé por la Franciscana Daza que dijo no saber el señor exidor cruzado José María Varacena, quien ha representado su causa en el lugar y en el juicio.

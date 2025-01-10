@@ -1,1 +1,0 @@
-comprendiendo desisto quito y aparto almininado Bach y su

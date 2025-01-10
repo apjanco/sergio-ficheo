@@ -1,1 +1,0 @@
-Brus y por haber con el poderío de Justicias comision de fuerza y renunciaación de leyes en derecho necesarios con la general en forma. En su testimonio y estando presente dicha Dona María Josefa Martínez moger legitima de Don Jose Baldrich quien

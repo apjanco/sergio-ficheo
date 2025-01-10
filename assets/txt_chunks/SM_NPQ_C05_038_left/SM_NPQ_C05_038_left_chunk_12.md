@@ -1,1 +1,0 @@
-Loa cuenta en la que ver y resumize el total cargo que me hizo en presencia de los señores Jorge Rentería Rafael Hurtado, Jose Maria Barona y Enríques, y otros varios y

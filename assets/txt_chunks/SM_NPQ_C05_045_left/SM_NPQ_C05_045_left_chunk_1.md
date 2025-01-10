@@ -1,1 +1,0 @@
-lo relevandole de otra aunque ponderechose requieray

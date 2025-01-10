@@ -1,1 +1,0 @@
-exitimidad, obligándose a la eviencia seguridad y saneamiento de esta venta lo cual le será cierta segura y valerdera y so- bre ella no se opondrá pleito ni contradicion alguna y si se le moviere lo seguridad y fencerera a su costo hasta desorte

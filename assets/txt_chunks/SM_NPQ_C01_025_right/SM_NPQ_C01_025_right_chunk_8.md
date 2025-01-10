@@ -1,2 +1,0 @@
-de venta a su favor otorgada dijo que la aceptaba y acepto.
-En cuya virtud así lo dicen otorgar, firma el que sabe, y por el que dijo no sabe, lo hace a su ruego Don Jose Gaee, conmigo dicho governador, y testigos con quienes actuó por el impedimiento

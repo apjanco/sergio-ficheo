@@ -1,1 +1,0 @@
-fermedades públicas y secretas... A cuya seguridad con... solimiento y firmeza se obliga el otorgante conforme a de... rechos y de estar satisfecha la real alcávala se agrega vo- leta original. Y estando presente Don Mariano Sánchez

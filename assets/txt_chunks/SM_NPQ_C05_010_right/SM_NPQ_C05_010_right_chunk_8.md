@@ -1,1 +1,0 @@
-redonecessarias con la general oforma. En su testimonio con asseg- tación del comprador as, lo dice otorga y firma el vendedor y por decir no saber firmar el padre lo hace asu mero uno de las testigos

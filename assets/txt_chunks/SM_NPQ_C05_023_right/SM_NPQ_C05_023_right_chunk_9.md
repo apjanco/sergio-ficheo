@@ -1,1 +1,0 @@
-yo con la ona; el peso de dicha plata fue de 17 libras y de estas se le dio a Tomas un plato, redondo, dos platillos, dos cubiertos, y un candelero con peso todo de 6 libras y en dicho quinto consta que ramí tomé 5 libras 12 (leible), de manera que han llevado entre

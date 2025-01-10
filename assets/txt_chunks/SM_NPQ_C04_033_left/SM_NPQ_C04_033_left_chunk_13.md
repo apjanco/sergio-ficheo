@@ -1,1 +1,0 @@
-Estamos firmemente en lo que confieso: el alto y soberano misterio

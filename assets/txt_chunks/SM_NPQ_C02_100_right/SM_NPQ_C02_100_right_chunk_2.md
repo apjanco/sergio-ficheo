@@ -1,1 +1,0 @@
-fomentarias que antes de ahora haya hecho por escrito, de palabra o en otra forma para que no hagan fe judicial ni extra judicialmente, excepto este testamento que quiero y mando se estime y tenga por valido, y se observe y cumplido todo su contenido.

@@ -1,1 +1,0 @@
-sus conchitas, otra que lleva puesto de 10. su rosario con su cruzento, mantillas de cuentas de oro con granates dos partes de sarcolllos, y dos ornas de seda floxa surtida De la plata labrada que fueron 17 libras de oro

@@ -1,1 +1,0 @@
-Ante mi escribano y testigo que se nombraron parecerio Don José Gaes, Apoderado de Don Manuel Junguerto aquijoyó fe conocido y dijoxo Que por medio de arbitro Es ho

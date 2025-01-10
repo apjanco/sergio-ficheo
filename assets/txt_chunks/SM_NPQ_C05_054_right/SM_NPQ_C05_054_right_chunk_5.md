@@ -1,1 +1,0 @@
-moni tubimos por hijos y procreamos a Dona Maria Leonor freire de Andrade casada con Don Pedro Ferrer, y Don Joaquín freire de Andrade, casada con Dona Patricia Lloreda, y a José María que murió de edad de un año Deslargolong

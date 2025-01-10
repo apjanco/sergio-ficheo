@@ -1,1 +1,0 @@
-Primero, encontré mi alma en Dios nuestro Señor que la crió de la nada y redimio con el inestimable precio de su sangre sanitaria, y el cuerpo mío a la tierra de que fue formada, el cual es mi voluntad, sea amado y bendecido con honor de Dios.

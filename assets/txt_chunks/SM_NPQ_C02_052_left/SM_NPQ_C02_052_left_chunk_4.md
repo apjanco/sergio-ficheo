@@ -1,1 +1,0 @@
-En virtud de recomendación que al efecto tiene el comprador, Manuel Salazgar asilo dicen otorgan y firman a quienes lo fe sonozco siendo testigos, Don José María Palomeque, Don Nicolás Machado y Francisco de Paz vecinos.

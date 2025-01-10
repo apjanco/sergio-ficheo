@@ -1,1 +1,0 @@
-Res de alcaldía de menores y demás que habitan en la ciudad de la que se compra y vende por más o menos de la mitad del justo precio y el término concedido para la rescisión del contrato o su suplemento. Mediante lo cual se asiste a y dona del derecho de su sion

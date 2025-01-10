@@ -1,1 +1,0 @@
-Para las costas y gustos de su inceptitudumbre cuya prubaba defiere a su simple juramento relxandole de otra aun que por derechos se requiera: y a la observancia y puntual cumplimiento de todo lo referido obliga los bienes habidoy por

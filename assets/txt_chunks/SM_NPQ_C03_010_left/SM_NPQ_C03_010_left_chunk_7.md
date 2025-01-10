@@ -1,1 +1,0 @@
-Juan Antonio vaes quien asimismo hoy fe corozco entero de esta escritura di-xo. Que con licencia ampla desullegimo padre Don Jose Guez que se la dio en su presencia de que tambien hoy fe la acepta 1999 uspde de ello como de

@@ -1,1 +1,0 @@
-La irrevocable intervención con la incumisión y pronunciación necesaria sobre que renunciará la ley del ordenamiento Real fecha

@@ -1,2 +1,0 @@
-me queda restando la cantidad dicha porque se los venden a dos de diez y ocho castellanos cada uno. declaralo para que conste, y
-y deben abonarse cuatro patagones que cuando nos encontramos en chima me presto en un juego; y lo declaro para que conste

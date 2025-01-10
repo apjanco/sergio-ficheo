@@ -1,1 +1,0 @@
-mo acredita la certificación del señor ministro de Hacien- da que se agrega original y su tenor dice así - encuvo

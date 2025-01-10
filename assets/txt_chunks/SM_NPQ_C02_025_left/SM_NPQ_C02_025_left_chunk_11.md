@@ -1,1 +1,0 @@
-En la ciudad de Quibdo, capital de la provincia del cítaro a veinte y dos días del mes de enero de mil ochocientos trece años. Ante mí el escribano y testigos que se nombraron pareció don Carlos Julian de otalvora yecimo de la ciudad de Anser.

@@ -1,1 +1,0 @@
-Pérez y rafa portada de granada con dos reyes de plata-qui-te de anafalla de seda morada consus bueltos de terciopelo. Lleba Tomásico, un platon de plata-dos platillos-dos cubiertos y un candeleró con peso de dos marcos-un catre inglés con

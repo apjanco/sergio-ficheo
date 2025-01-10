@@ -1,1 +1,0 @@
-mi hipoteca hasta mi expresa peto cont todos sus vicios, tachas y defectos publicos, y secretos por el precio y cantidad de evento y cincuenta pesos de plata que confesas tienes recuvridos de ma

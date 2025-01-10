@@ -1,1 +1,0 @@
-Yten declaro que es mi voluntad que después de mis días, se le estienda su carta de aborro, a mi exlavit Julirana, y que solo mi hija Agustina tenga dominio en ella, para educarla y enseñarla, hasta que se venga en estado, o pueda por si manejarse, suplico a mis amigos

@@ -1,1 +1,0 @@
-te quita y aparta del derecho, acción, posesión, propiedad, dominio y señorío que a dicha esclava Sabina tenía adquirido y todos con el de patronato y demás que le correspondían los

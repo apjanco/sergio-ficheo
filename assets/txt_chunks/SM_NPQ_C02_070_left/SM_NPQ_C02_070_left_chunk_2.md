@@ -1,1 +1,0 @@
-Como tengo la suerte de poder hacer lo que me gustaría, recientemente y con mucho gusto, he llegado al señor doctor Don Manuel Barbero, vicario superintendente de la misma provincia, un negrito su propio esclavo cautivo y sujeto aservidumbre nombrado fer.

@@ -1,1 +1,0 @@
-Jion desde chora y para siemore Jamo a Josefa Beserra cinco piezas de celayos nombrados Juan, Brijida su muer, Lucia, Miguel, y Gregoria que sean para ella sus herederos y subsegeles los que les vendo como sores

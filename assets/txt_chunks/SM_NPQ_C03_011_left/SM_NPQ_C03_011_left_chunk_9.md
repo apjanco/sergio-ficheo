@@ -1,1 +1,0 @@
-Sol en que se equivocaron los arbitros y los gozales de administración de la referida Mina, como consta de la escritura de venta que obligaron a favor del comprador Don Antonio Gacs. En cuya virtud se dan por entregados de los

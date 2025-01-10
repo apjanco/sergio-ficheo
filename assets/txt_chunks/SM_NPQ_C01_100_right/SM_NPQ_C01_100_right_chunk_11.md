@@ -1,1 +1,0 @@
-mas leyes que con ella concuerdan. y desde hoy en adelante se desapodera, desiste, quita y aparta del derecho de acción poseción, dominio y señorío que a dicho esclavo tenían adquirido su parte. y todo lo de renuncia y traspasa en el comorador y

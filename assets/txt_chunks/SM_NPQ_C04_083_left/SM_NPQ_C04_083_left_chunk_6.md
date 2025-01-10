@@ -1,1 +1,0 @@
-y demas que le correspondan los sede, renuncia y traspasa a su fa- vior, a fin de que no bueva a estar sujeto a servidumbre, y le confiere poder irrevocable con libre franque y general administra- ción para que trate, contrate, teste, comparesca en Juricio

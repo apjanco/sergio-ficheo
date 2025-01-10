@@ -1,1 +1,0 @@
-La y familia de quien contrajo la excepción de la no inmediata paga una prueba del recibo y más del caso. Y desde hoy en adelante se desiste quitá y aparta del derecho de acción, siendo propiedad dominio y señorío que a la nominada excluye.

@@ -1,1 +1,0 @@
-ser de presente se entregó para que yo tuviera un hábito la certificique, de ella renunció la excepción y leyes de supercincio, su prueba y demás del caso, y confiesa el ven-

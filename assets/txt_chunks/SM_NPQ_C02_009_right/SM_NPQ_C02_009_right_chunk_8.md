@@ -1,1 +1,0 @@
-La concedencia en mi presencia digo que se vende en venta real y perpetua enagenación desde ahora para siempre a don Ramón de Diego Ximenes de la propia vecindad que sea para el y los suyos es a saber un negrito su propio esclavo nombrado Pedro José el cual de vender probaré de amos en genio y hasta a

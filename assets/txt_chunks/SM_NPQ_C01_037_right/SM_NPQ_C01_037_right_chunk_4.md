@@ -1,1 +1,0 @@
-res, y los cuatro años en ella declarados para repetir el engaño de lo que se compre o venda, por lo mitos más o menos de su legitimo precio, y desde hoy en adelan- te se deciste, quitá, y aparta del derecho de patronato.

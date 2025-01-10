@@ -1,1 +1,0 @@
-mes suficientes y superabundantes para su desese mantenencia y que no excede de los quinientos maravedises de oro, que la ley 19 titulo 4 partida 59 permiten se puedan donar sin insuccion, y en caso que exeda, la de poderes el uno que sin desceder de las mismas,

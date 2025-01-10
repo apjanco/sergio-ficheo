@@ -1,1 +1,0 @@
-En la ciudad de Quindío, capital de la provincia del mismo nombre, a la altura de la plaza de Mayo de mil ochocientos trece. Ante mi el escribano y testigos que se nombraron parecieron en la casa de su morada en Fermo en la comuna Don Juan Morono recinto de esta dicha ciudad o quien dicho se conoce y dijoxos que el día cuatro de Noviembre o

@@ -1,1 +1,0 @@
-perpetuo validación se requieren. Y a la observación y temporal cumplimiento de todo lo referido se obligan el varón con su persona y todos con sus bienes habidos y por haber con el poder de Justicias sumisión defenso y penurización de

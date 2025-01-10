@@ -1,1 +1,0 @@
-Cha en Cortes de Alcalá de Henares y demas que habian en la zon de las cosas que se compran y venden por mas o menos de la mitad del justo precio y el termino concedido para la rescicion del contrato o su suplemento. Mediante lo cual redisis

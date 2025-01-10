@@ -1,1 +1,0 @@
-tito también mi esclavo llamado Bruno y sea entregado al excelentísimo señor presidente de este estado Don José María valencia quien le suplico y ruego encarecidamente loe

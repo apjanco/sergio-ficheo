@@ -1,1 +1,0 @@
-Jose Benigno Palacios vecino de la misma provincia a saber manera propia exclava de su constituyente, cautivo, y sujeta a servidumbre nombrada Micaela la qual asegura hallo a libro de aquella dante atravesar a sus hijos.

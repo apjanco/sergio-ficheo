@@ -1,1 +1,0 @@
-restaurar el vicente de la Cuesta Padre natural de dicho José María veniente y tres pesos castellanos dos tomones, por el mero hecho de hallarse gándos documentos de un tenor en su poder y noesar por el testamentario del citado Don Lucas ni de Dona

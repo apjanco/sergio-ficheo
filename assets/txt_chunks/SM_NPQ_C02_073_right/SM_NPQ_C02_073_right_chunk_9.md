@@ -1,1 +1,0 @@
-24 y general en forma. En su testimonio con acreditación de la cambora quien para celebrar este contrato a impetrado antes la competente licencia de su legitimo padre el ciudadano francisco de paz que se la concedio a mi presencia de que los ciudadanos que se presenten a la misma.

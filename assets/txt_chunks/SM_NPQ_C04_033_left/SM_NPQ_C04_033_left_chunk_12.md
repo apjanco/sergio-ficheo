@@ -1,1 +1,0 @@
-las, hallándome algo enferma del cuerpo pero en mi entera y sa- no juicio, memoria y entendimiento natural, creyendo y conceson- do como sir movéis, sigo y consigo al hombre, sobre lo misterioso.

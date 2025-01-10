@@ -1,1 +1,0 @@
-Realmente en cortes de Alcalá de Henares y demás que hablan de las cosas que se compran y venden por más o menos

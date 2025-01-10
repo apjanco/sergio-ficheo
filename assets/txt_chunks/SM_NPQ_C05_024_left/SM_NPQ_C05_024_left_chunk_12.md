@@ -1,1 +1,0 @@
-El juego militar y combativo por los años de 1884 y 1885, 800 centenares como consta de su cuenta firmada hasta el año

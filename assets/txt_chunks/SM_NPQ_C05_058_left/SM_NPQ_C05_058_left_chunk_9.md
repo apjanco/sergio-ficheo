@@ -1,2 +1,0 @@
-to ella de la difunta mi madre perteneciente a los herederos del padre Rozo, Deslariola para que conste
-Y no hondiendo mas quienes deva firmo este en este citio de la Bodega de Beyara a las tres dias del mes de Mayo

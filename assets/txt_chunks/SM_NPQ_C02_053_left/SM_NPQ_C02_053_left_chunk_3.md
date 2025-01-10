@@ -1,1 +1,0 @@
-98 y despublicadas y secretas en precio y cantidad de trescientas pesos de plata y por el le habido en dinero de contado siendo en cargo del senor otorgante la paga del derecho de alquabalo que ha satisfizo al senor Receptora de ellas quien en prueba de su res

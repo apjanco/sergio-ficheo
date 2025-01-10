@@ -1,1 +1,0 @@
-Les bien consiste en todo tiempo ser suya en pleno dominio y que en este concepto puede disponer de ella libremente a su arbitrio, formando a suponer esta escritura de la cual pide de las copias autenticadas que quiera obtener y despojando de las que no son suyas.

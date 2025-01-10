@@ -1,1 +1,0 @@
-Clase mayor que cumplía 25, me paso con apunte en que consta consumidos ciento treinta y tantos castellanos en dinero que no ha mandado y en otros efectos, cuya cuenta esta en mi tacita de panuelos y se pizaro por todo lo

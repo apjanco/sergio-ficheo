@@ -1,1 +1,0 @@
-Hay un individuo que desiste de su trabajo, afirma que es un personaje señorío, y posee que a dicho esclavo tenía adquirido, y todo con las acciones, reales, personales, y de otras que le competen en lo cede renuncia y traspasa en el com

@@ -1,1 +1,0 @@
-carta de aborro y libertad a la citada Cayetana y sus hijos nombrados Domingo, Alexandra, y Jasmina por haber recibido el valor de la misma Cayetana, el difunto marido de la obargante como con la a la alta cuarta dos hermanos fechas en azu y nue

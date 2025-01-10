@@ -1,1 +1,0 @@
-La demanda en mucho o poco suma hace gracia y donacion al comprado los buenas para meta perfecta es irrevocable interivivos con la insinuacion y renunciacion necesaria sobre que revirtia la ley del ordenamiento real fecha en cartas de Alfonso de la cruz.

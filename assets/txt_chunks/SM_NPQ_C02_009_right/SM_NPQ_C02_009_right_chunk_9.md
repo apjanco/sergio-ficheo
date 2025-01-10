@@ -1,1 +1,0 @@
-Quel te vendere por lote de bienes empresariales, portales y presa y portal se lo asegura con todas sus yeres tochas y depor los encendimientos publicas y secretas en precio y cantidad de ciento treinta pesos de plata al contado que conoce

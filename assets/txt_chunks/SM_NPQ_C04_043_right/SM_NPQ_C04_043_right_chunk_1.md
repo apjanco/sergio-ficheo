@@ -1,1 +1,0 @@
-confirmó el Doctor Don Mariano Buendía y Juzgado de la ciudad de

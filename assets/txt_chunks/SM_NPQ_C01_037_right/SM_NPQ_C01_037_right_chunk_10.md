@@ -1,1 +1,0 @@
-venta, se la ha hecho con todos los vicios, defectos, enfeites, dades publicas y secretas. A cuya seguridad complimen- to y firmesa, se obliga con su persona y bienes conforme a derecho. y de estar satisfecha la Real A cabala se a

@@ -1,1 +1,0 @@
-En la ciudad de Quibdo, capital de la provincia del Citarra: a los quince días del mes de Abril de mil ochocientos veinte y dos años; Ante mí el escribano y testigos que se nominaron, pareció presente el señor José María de la Torre, quien se presentó al escribano y testigos.

@@ -1,1 +1,0 @@
-Bienvenidos a la ciudad de México, donde la libertad y la igualdad son garantías.

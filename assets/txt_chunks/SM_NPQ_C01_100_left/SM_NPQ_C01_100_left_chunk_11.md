@@ -1,1 +1,0 @@
-Así mismo doy fe conosco haviendo hoydo el tenor y forma de esta escritura de venta en su favor otorgada diso; que la aceptava y aceó, y en su consecuencia así lo dicen otorgan y firman siendo testigos Don Bonifacio Salazar.

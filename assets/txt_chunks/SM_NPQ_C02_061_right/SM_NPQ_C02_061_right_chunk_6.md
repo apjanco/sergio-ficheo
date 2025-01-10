@@ -1,1 +1,0 @@
-y le pagara las costas de su incertidumbre cuyo prueba difiere a su simple juramento relevándolo de otra aunque no derecho se requiera, y a la observancia y cumplimiento de todo lo referido se obliga con su persona y bienes habitados

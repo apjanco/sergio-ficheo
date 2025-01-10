@@ -1,1 +1,0 @@
-Su Suplemento. Mediante lo cual se desisten gitanos y garz.

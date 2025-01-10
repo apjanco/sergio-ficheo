@@ -1,1 +1,0 @@
-y cinquenta pesos de plata que confierto haber recibido los ciento ochenta al contado, y el resto de ciento setenta a satisfacerlos dentro del término y plazo de cinco meses en la especie de oro en polvo y por no ser de presente el

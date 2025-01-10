@@ -1,1 +1,0 @@
-Pato, en segundo a Don Antonio García, y en tercer a Don José María Varona y Enríquez, a cada uno insuficiente y lesconfio poder y facultad para que luego que fallasen se podieran de mis bienes. X sino hubiese dono efectivo vendan en público.

@@ -1,1 +1,0 @@
-ocho realés que por el le ha dado en dinero siendo siendo largo del senor comprador la paga del derecho de Alcántara que ha satisfizo al señor receptor de ella quien en grueso de su respeto ha dado la coleta que se inserta y dice así y de

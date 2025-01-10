@@ -1,1 +1,0 @@
-San firmó el otorgante y por decir la aseptante no saber lo hizo a su ruego uno de los testigos que lo fueron los señores Lucas Salazar, Martin Guerrero y Jose Maria Peregran y vecinos y residentes de que por fe

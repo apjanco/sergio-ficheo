@@ -1,1 +1,0 @@
-Tenido como mi última y deliberada voluntad o en la via for ma que más haya lugar en derecho. Y la ostentante que yo el infrascripto escribanlo público de esta provincia ay fe coro co hallandose en su entero y sano juicio así lo dijo y obayg:

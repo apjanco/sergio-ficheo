@@ -1,1 +1,0 @@
-cig, y donación al comprador y sus herederos, buena, para merá per

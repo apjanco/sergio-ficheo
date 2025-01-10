@@ -1,1 +1,0 @@
-dominio y señorío que a dicho eslavo Dionisio tenía adquirida y todas las cede renuncia y traspassa en su favor a fin de que no vuelva a estar sujeto a servidumbre y le confiere poderes inestables con libre franca y general administración para que trañe,

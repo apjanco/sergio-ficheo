@@ -1,1 +1,0 @@
-sumar y dividir x de la suma decimal de confesiones entre

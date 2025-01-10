@@ -1,1 +1,0 @@
-prodigio y los suyos en guerra y pacifica posesión y de no poderlo conseguir le devolverá los trescientos veinte pesetas.

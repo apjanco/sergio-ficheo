@@ -1,1 +1,0 @@
-Descendiendo fue piedad de la más inmensa protectora de Dios, sición testamental formalizó la siguiente: Primero, encomiendo mi alma a Dios nuestro señor que la crió y redimio con su preciosoísimo sangre y el cuerpo man do a la Herra de que fue formada el cual hizo cabalvar que

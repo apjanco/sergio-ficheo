@@ -1,1 +1,0 @@
-Cirlo contrario la excepción de la no formar parte de la obra. Omeba erga, termino, y mas del caso, y declara que nula, mas y caso que mas valga de su exceso en mucha opo soma ha ce gracia y donacion al comprador buena para meta perfect

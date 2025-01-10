@@ -1,1 +1,0 @@
-ha de rentarle hoy a las doce del día como asignado, y astrepite va-rias veces este pregon diciendo vengan caballeros con dinero. en cuyo tiempo pareció el señor presvitero José Ignacio Varela cura de Tado ofreciendo sesenta palacanes, mesjor Nicolas Roxas a

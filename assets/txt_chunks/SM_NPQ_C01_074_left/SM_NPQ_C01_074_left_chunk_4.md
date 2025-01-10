@@ -1,1 +1,0 @@
-propiedad y solo si se le puziente o moviere luego que sea requerido soldria a la voz y defensa y a su costa y mencion lo seguira y fene- era hasta dexar al comorador en quieta y pacifica pose-

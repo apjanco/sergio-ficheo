@@ -1,1 +1,0 @@
-manera alguna es la libertad y si lo hiciera quien no se le organiza admita en tribunal alguien como no lo es quien intenta acción o derecho que no le pertenece y sea visto por lo mismo habría apropiado y hatificado

@@ -1,1 +1,0 @@
-irreprovable de las que el derecho llama inferirnos con instrucciones en forma acerca de lo cual renunciará la ley del ordenamiento Real fecha en cortes de Alcalá de Henares y los cuatro años que en ella

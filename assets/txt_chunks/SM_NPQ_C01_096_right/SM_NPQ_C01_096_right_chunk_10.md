@@ -1,1 +1,0 @@
-14º soy deudor a Mario Martínez de la Cuesta, cinco pesos dos y medio tones y en poder de esta en calidad de empero despa- rez de Botones de oro que mando, que pagada que sea, se perci- dan por mi Albacea

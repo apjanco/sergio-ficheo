@@ -1,1 +1,0 @@
-No hay ley del ordenamiento real fecha en cartas de mi cala de Henares y los cuatro años en ella declarados para repetir el engaño de lo que se compra vende o permita por la mitad más o menos de su lexitimo precio. Y des

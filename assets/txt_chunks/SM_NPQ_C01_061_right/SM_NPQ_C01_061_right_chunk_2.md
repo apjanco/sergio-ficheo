@@ -1,1 +1,0 @@
-Ante mi el escribano y testigos que se nombraron presentes doy Gabriel de Francisco y erado vecino del sitio de llano grande y x.

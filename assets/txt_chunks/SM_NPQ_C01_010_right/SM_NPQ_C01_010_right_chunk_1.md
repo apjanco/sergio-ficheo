@@ -1,1 +1,0 @@
-derecho que no le pertenezca, y 1. habito, 2. haber aprobado

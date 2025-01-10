@@ -1,1 +1,0 @@
-cuya prueba defiere en su simple juramento relevándola de otra aunque por derecho se requiera. Y a la observancia y puntual cumplimiento de todo lo referido se obliga consigo, persona y bienes habidos y por haber son el poderío de Justicias sumisión de fuerza

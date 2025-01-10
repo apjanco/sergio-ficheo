@@ -1,1 +1,0 @@
-comprador en quieta poseccion y no pudiendose la sancion le devuelve la suma! recibida con las costas que de su vicertidumbre se le sigieren cuya prueba difiere a su simple Suramiento relevan dolo de otra aunque por derecho se requiera, y al cumplimiento

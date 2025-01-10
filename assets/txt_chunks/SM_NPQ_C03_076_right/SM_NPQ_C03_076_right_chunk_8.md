@@ -1,1 +1,0 @@
-La jueza competente, y sin aludir siguiente, quedando todo a sus posiciones de mis almas, el entierro y demás especies. Y mandando que los dichos saquen de mis bienes teseros, los cátarones que se diran de misas a beneficio de mis almas, los demás

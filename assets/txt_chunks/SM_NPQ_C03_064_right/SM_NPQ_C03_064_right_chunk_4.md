@@ -1,1 +1,0 @@
-del fuero y renunciación de textos necesarios con la general en forma en que testamento con aceptación del comidor asi lo dije y obrogaron: no firman por decir no saber y lo hacen a su pu go dos de los testigos presentes y resumos que lo fueron el señor

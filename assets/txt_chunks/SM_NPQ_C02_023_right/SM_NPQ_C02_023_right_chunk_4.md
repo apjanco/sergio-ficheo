@@ -1,1 +1,0 @@
-Elsa Llanos natural de esta ciudad, hija legítima y de legítima, mi matrimonio de José Llanos y María Rita Ramírez (diputados) vecino que fueron de ella, estando enferma en camino pero en mi entero y sano juicio memoria y entendimiento natural, cre

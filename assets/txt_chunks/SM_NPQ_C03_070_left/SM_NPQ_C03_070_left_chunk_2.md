@@ -1,1 +1,0 @@
-Cartas de Alcalá de Henares y demas que hablan en rengon de que se compro y venden por mas o menos de la mitad del justo precio y el termino concedido para la rescision del contrato o su suplemento. Y se desiste y aparta del derecho de acción propiedad domini

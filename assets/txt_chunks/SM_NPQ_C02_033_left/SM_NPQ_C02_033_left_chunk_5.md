@@ -1,1 +1,0 @@
-mo día fe del recibo por haberse hecho en mi presencia. en su virtud se obliga en todo lo demás referidos con sus bienes habidas y por haber a su observancia x puntual cumplimiento con el poderío de justicias sumisión de fuerza x renuncia.

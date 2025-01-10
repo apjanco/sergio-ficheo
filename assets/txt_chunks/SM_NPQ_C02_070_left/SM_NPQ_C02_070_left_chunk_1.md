@@ -1,1 +1,0 @@
-febrero de mil ochocientos catorce. Ante mi escribano y testigo que se nombraron potencia en la casa de su morada Don francisco Canto recuerdo de ello o quien hoy doy conozco y otorga: Que vende

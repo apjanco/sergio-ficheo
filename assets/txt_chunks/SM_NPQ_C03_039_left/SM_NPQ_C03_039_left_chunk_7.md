@@ -1,1 +1,0 @@
-de esta ciudad elebándose antes misa de cuerpo presente si fuese hora competente y de no al siguiente dia y hacen dote sola aquellas posas de obligación del (destruido) que dispondran mis alquileres

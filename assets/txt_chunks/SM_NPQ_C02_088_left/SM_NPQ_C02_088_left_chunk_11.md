@@ -1,1 +1,0 @@
-Cientos que también fueron del mismo pueblo, hallándome en fe, pero por la divina misericordia en mi entero y cabal jurio memoria y entendimiento natural, creyendo y confesando como firmemente creo y confeso en el alto y bajo santo misterio de la santísima trinidad padre hijo y est

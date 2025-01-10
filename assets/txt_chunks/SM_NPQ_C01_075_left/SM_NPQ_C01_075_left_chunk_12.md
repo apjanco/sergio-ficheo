@@ -1,1 +1,0 @@
-octocientos y más pesos como consta por escritura y xinventario en dos escladas, y algunas alaxas y muebles declaro que ala en

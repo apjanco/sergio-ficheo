@@ -1,1 +1,0 @@
-Maria Rosa, que la hubo encomienda que hizo al ciudadano Ysidro Perceñez de este vecindario como apoderado general de Carmelita velasquez Segun consta de la escritura publica que ante mi le otorgo el dia trece de

@@ -1,1 +1,0 @@
-compran y venden por más o menos de la mitad del justo precio

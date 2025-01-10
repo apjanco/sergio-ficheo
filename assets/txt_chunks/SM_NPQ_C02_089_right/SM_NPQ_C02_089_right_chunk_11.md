@@ -1,1 +1,0 @@
-Extóficialmente, ni menos los quereré, ni menos el testamento que haya otorgado, pues solo el presente testamento quiero y es mi última deliberada voluntad se tengo por válido y subsistente y como tal se observe y cumpla exactamente su contenido, por ser un último final disposición

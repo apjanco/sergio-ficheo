@@ -1,1 +1,0 @@
-Trabajar digno, es necesario que el mismo alcance derecho y le pertenezca, y sea visto por lo mismo hacerla apropiado y ratificado, adquirir fuerza de fuerza y contratar a contrata, con todas las cláusulas, títulos y solemnidades que para su perpetua

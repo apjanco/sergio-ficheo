@@ -1,1 +1,0 @@
-Lo y demás que le correspondían las cédulas penúncula y traspasada en el comprobante y sus sucesores que es señal de posesión y para tu lo de ella, ofrezas a su favor esta escritura por la cual ha de ser vista haberla adquirido sin necesidad de otro acto de apreci

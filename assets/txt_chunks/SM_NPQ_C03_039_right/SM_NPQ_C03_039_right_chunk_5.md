@@ -1,1 +1,0 @@
-Don José Leonardo de Córdoba misuegro a favor de sus hijos por cuyo defecto recogió esta suma.

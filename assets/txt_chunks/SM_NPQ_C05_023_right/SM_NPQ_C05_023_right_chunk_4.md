@@ -1,1 +1,0 @@
-80 y diez pesos a milhermano Gen. Gabriel de un feto de oro que de rescates mando amonedar, y este pensando que era partible como el anterior remito dicha cantidad como lo havio hecho con el anterior que era perteneciente a la ming, y mando secobre y se agregue al

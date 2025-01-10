@@ -1,1 +1,0 @@
-terminos, que fubiese porconvenientemente para su cobro. Declaralo pa- ra que conste. 62 Xtem declaro que Pantaleon Samacho me deva poco mas de 50 pesos fuertes, como consta, de su yale que mando a Don Greg-

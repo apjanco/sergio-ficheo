@@ -1,1 +1,0 @@
-Le contengo que lo dijeron en la escuela y en las clases, por decir el vendedor no sabe lo hizo a su ruego uno de los figlos que lo fueron Don Manuel Flores, y Don Jose Gaes veci nos.

@@ -1,1 +1,0 @@
-do para la escritura del contrato o ensueptamiento mediante lo cual se desata y nombre de su parte, quita y aparta del derecho de acción posesión propiedad, dominio y señorío que a dicho esclavo Antonio tenia adquirido y todos con el de patronato y demás que le

@@ -1,1 +1,0 @@
-Interpretar la noticia de lo que el defensor hablando intervino con insinuación en forma acéfala de lo cual renunció la ley del ordenamiento real fecha en cortes de Alcón de Henares y los cuatro años en ella declarados el engaño y demás leyes que con ella concuerdan. Desde

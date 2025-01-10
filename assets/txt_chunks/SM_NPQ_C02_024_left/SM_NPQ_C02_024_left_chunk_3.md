@@ -1,1 +1,0 @@
-en esta dicha ciudad, immediata a la ysidro personer - dos altas de guerra - un Baul de canelete con su buena cerradura una muestra dos silletas - tres ejigies de petablo a sobre: de nuestra señora de la pura y limpia concepcion - del patriar

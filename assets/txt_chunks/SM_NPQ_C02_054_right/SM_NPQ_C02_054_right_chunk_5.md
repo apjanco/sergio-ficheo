@@ -1,1 +1,0 @@
-La moneda de plata, desde ahora, se dará por mérito y (robo) irreversiblemente, y quienen que se exista al interactor tantas veces se resilie en todo o parte de esta transacción, y que se le compela por todo pigo por la solución de la pena, costos, y

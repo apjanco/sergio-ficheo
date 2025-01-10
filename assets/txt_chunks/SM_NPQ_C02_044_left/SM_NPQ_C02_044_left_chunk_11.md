@@ -1,1 +1,0 @@
-Entresen a su madre Bonifacia y barqueen, para que lo cuiden y edenle cristianamente. Y temo declaro que en los propios terminos se le otorgue por mis dichos alhacenas la carta de ahorro y libertad al mula- bero, y os lo llevara Bruna, en su entredicho.

@@ -1,1 +1,0 @@
-extract all text line by line. do not number lines. return only plain text. say nothing else

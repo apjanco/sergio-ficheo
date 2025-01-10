@@ -1,1 +1,0 @@
-que hubo y compró o don Juan Antonio Martínez, la que le vendió por libre de otra venta senso empeño ni hipoteca ta- va cito ni expresó, y por tal la asegura en cantidad de ciento sesenta y cuatro pesos que consiguió el comprador los dos reyes.

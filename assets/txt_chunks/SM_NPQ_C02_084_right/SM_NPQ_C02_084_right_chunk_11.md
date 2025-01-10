@@ -1,1 +1,0 @@
-Por el no saber el testimonio que fueron don Gabriel de Andrade, Ramon de Patirro y Ysidro Perecanez vecinos. A ruego de la otorgante Gabriel de Andrade Juan Ferla. Ante mi Vicente Olgecheo

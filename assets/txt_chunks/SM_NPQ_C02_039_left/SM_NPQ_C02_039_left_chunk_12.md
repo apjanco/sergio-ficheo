@@ -1,1 +1,0 @@
-la excepción de la non numerata pecuniá su prueba la del pes- cibo terminó enero y más del caso declarando que no vale

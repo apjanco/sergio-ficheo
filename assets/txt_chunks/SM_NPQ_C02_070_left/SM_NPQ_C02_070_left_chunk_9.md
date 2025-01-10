@@ -1,1 +1,0 @@
-La ordenación necesaria sobre que renunciará la ley del ordenamiento real fechada en Cortes de Alcalá de Henares y demás que hablan en razón de lo que se cometo y vende por más o menos de la mitad del justo precio el término concedido para la rescisión.

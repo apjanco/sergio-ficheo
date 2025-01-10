@@ -1,1 +1,0 @@
-intervención del otorgante todo cuanto está permitido a las que - cierren libres usando en todo de su expantana voluntad, pues para ello formaliza a su favor esta escritura con los requisitos legales que - sean precisos y conducentes a su mayor estabilidad, me pide que

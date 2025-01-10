@@ -1,1 +1,0 @@
-tradición y asunción alentadora y la necesidad de una pureza mera, perfecta e irreversible intervivias con la insinuación y renunciamiento necesaria. Sobre que renuncia la ley del ordenamiento real fecha en cortes de Alcalá de Henares y demás que hablan en razón de lo que se componga.

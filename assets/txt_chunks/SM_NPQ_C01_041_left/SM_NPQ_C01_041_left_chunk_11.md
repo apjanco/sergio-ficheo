@@ -1,1 +1,0 @@
-cantidad de frescentes pesos de plata que confiesa el otorgante tener recibidos de mano del comprador a su satisfacción y contento, y por nesei de presente su entrega para que yo dicho teniente lo certifique, de ello renuncio la

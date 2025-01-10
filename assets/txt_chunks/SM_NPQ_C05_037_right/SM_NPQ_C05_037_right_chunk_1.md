@@ -1,1 +1,0 @@
-En la ciudad de Quibdo, capital de la provincia del Citará, a las veinte y cinco kilómetros de la ciudad de Cúcuta, Colombia.

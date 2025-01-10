@@ -1,1 +1,0 @@
-Pablo se re-gresase a su casa rindiendo la cuenta de lo que hubiese cos- tiado hasta aquel paraíse y quié hubiese costrado más se le pagase

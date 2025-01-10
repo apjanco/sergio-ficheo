@@ -1,1 +1,0 @@
-ientos enque ha comprado a xabiet Truillo una negra llama da feliciana - Quibdo Agosto 16 de 1808. Jose Maria Valen- cia

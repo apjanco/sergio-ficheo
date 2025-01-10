@@ -1,1 +1,0 @@
-El matrimonio declarativo digno de la cuestión le debe cinco cuentas y tres pesos castellanos, que pago al señor don Francisco Xavier de Corzo por el raro de las alhas que ella tenía en su poder por razón de empano (destruido) cantidad que le

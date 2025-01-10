@@ -1,1 +1,0 @@
-Noviembre de mil ochocientos trece. Ante mi escribano y testigos que se nominaron parecido María Teresa de Viero vudo ve cua de ella, a quien doy fe conozco y otorga: Que la carta de ahorro y libertad en forma a Miguel Garrido y María Luisa

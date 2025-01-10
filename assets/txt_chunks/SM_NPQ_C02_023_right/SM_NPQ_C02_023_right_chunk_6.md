@@ -1,1 +1,0 @@
-tolica apostólica romana baxo cura fe y creencia hevindo y protesto vivir y morir como católica fiel cristiana, temorosa de la muerte que es natural a todo viviente y su harta inicia desiendo que cuando llegue la mo me halle prevenida de dispa

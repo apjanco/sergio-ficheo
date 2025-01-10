@@ -1,1 +1,0 @@
-Diez y seis, y asegurando el compareciente no estarle sus pensas ni limitadas las receidas faciencias otorga que a nombre de su parte da carta de ahorro y libertad en forma a Car melo su propio esclavo y procedente de la quadrilla que mantiene

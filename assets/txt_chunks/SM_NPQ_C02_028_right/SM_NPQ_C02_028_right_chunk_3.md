@@ -1,1 +1,0 @@
-Arem declaro deber a Don Jose Vasines de dicha ciudad de Buga yiente patacones por obligacion... A Andres Gonzalez de la misma yiente y seis patacones A Luisa Guertero Zicuvento 21patacones a los hepederos de la fama Roa Gonzales ocho

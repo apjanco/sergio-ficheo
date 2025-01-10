@@ -1,1 +1,0 @@
-de primera galáneo, un galápagos ángles con su coraza y manche de tercio pelo todo de buen uso, dos baules, una basea con seis piezas de cristal, una espada de mi uso de guarnición de plata brocateada, un cable con guarnición de carey y plata, un

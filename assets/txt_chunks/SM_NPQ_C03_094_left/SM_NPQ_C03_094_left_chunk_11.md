@@ -1,1 +1,0 @@
-de plata que por el le ha dado en dinero de contado la sombra dora siendo de cargo del otorgante la paga del derecho de alcohala que ha satisfecho al señor oficial Rej y quien en prueba de su recibo ha dado la boleta que se inserta y dice asi y de

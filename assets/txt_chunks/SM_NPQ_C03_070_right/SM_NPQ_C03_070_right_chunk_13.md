@@ -1,1 +1,0 @@
-contrario a este codice, y en lo que sea conforme son el qq

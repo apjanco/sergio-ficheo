@@ -1,1 +1,0 @@
-durante la primera subrogación y entrega de la propiedad de presente la entrega para que yo el dicho teniente de gobernador certifique de ella la confesía y renuncia a-

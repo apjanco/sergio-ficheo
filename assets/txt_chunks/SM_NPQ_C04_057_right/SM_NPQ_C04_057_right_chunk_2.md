@@ -1,1 +1,0 @@
-los y demás disposiciones que haya hecho, antes de hacerla por escrito o de palabra o en otra manera, o forma para que ninguno xalga, ni haga fe Judicial ni extra Judicial pues solo quiero se este a este testamento, y mando se observe como mi última deliverada voluntad

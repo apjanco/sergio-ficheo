@@ -1,1 +1,0 @@
-Lo abuelo Don José Beserra ochenta patacones en que vendió un despacho de tierras en pueblo viejo, cuya cantidad se me adovicara en la división y partición de estos bienes que muy bien me hacen.

@@ -1,1 +1,0 @@
-X por tal lo asegura en cantidad de quatrocientos pesos de plata que confiesa el otorgante tener recibidos de mano del comprador a su satisfacción y contento, y por no ser de presente su entrega para que yo dicho intendente

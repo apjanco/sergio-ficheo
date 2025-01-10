@@ -1,1 +1,0 @@
-pesos de plata de ocho reales siendo de cargo del otorgante la paga del derecho de alcañal que ha satisfecho al señor ministro del fe- soro público quien en prueba de su recibo ha dado la boleta original y dice así... Y declara el otorgante que dicho Xnocencia no vale más y

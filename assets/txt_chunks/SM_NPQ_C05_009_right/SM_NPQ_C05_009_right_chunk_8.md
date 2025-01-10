@@ -1,1 +1,0 @@
-En dinero contado de los que se da por entregados a su voluntad renuncia decir lo contrario la excepción de la non numerata pecuni su prueba la del recibo termino erga y mas del caso declarando que dicho esclavo Joaquín no vale más y anove más volto desy demo

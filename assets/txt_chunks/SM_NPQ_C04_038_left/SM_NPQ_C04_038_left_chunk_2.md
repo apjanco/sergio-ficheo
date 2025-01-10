@@ -1,1 +1,0 @@
-de patronato y demás que le correspondían los cede renunció tras pasa en el comodador y sus sucesores, que en señal de posesión y para título de ella otorga a su favor esta escritura por lo cual ha

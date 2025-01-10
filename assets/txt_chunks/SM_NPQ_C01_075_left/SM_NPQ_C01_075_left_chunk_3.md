@@ -1,1 +1,0 @@
-cristiana, cieriendo, como firmemente ciere, en el Alroy Sacrosan- lo misterio de la santisima trinidad padre hizo, y espíritu son- to, tres personas distintas y un solo Dios verdadero, y en la santisima virgen María madre de Dios y señora nuestro, mi adorada

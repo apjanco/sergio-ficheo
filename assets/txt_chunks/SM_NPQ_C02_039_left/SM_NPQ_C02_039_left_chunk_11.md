@@ -1,1 +1,0 @@
-boga del derecho de ducavala que ha satisficido el señor refector de ellas quien en prueba de su recau ha dado la bole- ta que se inserta y dice bas- y de la suma recibida se confiesa alogrado a su voluntad renuncia decir lo contrario

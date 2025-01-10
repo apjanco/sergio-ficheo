@@ -1,1 +1,0 @@
-pesos un real; y yo fonde de su tapa de uso que custa en el mismo 2 ventario y por sus analos ciento un pesos y un real y corresponde endome la mitad, se merestan 136 y medio real y es mi voluntad se les de esta cantidad por iguales partes a mis primas Dona libera-

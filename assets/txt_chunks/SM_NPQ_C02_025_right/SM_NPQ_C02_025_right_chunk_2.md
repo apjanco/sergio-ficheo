@@ -1,1 +1,0 @@
-En la carta de ahorro y libertad en forma a la expresada en ella, ya Manuela por la cantidad de doscientos siete veinte y nueve pesos.

@@ -1,1 +1,0 @@
-dad. hace gracia y donación a sus sucesores, bueng, pura,me

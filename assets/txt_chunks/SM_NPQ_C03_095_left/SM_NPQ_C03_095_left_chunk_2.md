@@ -1,1 +1,0 @@
-En la ciudad de Ayutla capital de la provincia decía que a quince de Julio de mil ochocientos diez y ocho años. Ante mi escribo no testigos que se nominaron pareció Don Melchor de Yarona

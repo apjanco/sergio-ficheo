@@ -1,1 +1,0 @@
-Para no tener venido para a mis infantes que se re aver algun cargo que no le paguen nada, por no deberen da declararlo para que conste.xt Declaro que Don Nicolas Gutierrez me deve mulpata.

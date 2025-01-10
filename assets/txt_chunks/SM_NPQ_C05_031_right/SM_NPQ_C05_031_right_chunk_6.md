@@ -1,1 +1,0 @@
-Los que antes de ahora haya firmado por escrito, ó en otra forma, para que ninguna valga ni haga fe Judicial, ni estratitudinamente receba este testamento y memoria citada que quede y se conserve en el Archivo de la Corte.

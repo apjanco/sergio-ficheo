@@ -1,1 +1,0 @@
-cédé renunciar y trasladó a su favor, a fin de que no vuelva estar sujeta a sermumbres; y le confiere poder irrevocable con libre frança y general administración para que cuando tenga la edad prescrita por derecho trate, contrate, teste comprograza en Juicio por si por

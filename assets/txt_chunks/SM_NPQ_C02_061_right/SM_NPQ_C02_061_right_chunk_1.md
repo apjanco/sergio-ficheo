@@ -1,1 +1,0 @@
-Valen mas y caso que mas valgan de su demasia en peca o mucha suma hace gracia y donacion al comprador y sus herederos bien para mera perfecta e irrevocable intervivios con la insmuguer

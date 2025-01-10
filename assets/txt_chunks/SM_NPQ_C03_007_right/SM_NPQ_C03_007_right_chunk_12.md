@@ -1,1 +1,0 @@
-esclavo cautivo y sujeto a servidumbre el cual se halla libre

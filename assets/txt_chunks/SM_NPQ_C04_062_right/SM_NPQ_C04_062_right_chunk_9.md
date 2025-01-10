@@ -1,1 +1,0 @@
-mas el valor que hubiese adquirido con el tiempo y las costas y gastos que con su incertidumbre se sigue en cuya prueba la defensa a su simple juramento reléxandole de otra aunque por derecho se requiera, y a la observancia y puntual cumplimiento de todo lo ree

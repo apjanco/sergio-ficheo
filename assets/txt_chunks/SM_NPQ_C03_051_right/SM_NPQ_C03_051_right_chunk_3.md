@@ -1,1 +1,0 @@
-En la capital de Citarra a diciembre de Marzo de mil ochocientos doce. Ante mí el escribano y testigo que se nominaron parecido Joq-quin Alameda vecino de esta provincia a quien doy reconocer y otorgo. Que vendiendo en venta real y persiguiendo evangélica y
