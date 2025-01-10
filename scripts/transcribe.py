@@ -107,9 +107,15 @@ class TranscriptionProcessor:
             else:
                 estimated_words = max(20, estimated_words)
             
-            return min(estimated_words, 200)  # Increased max from 100
+            # Apply a higher multiplier to better estimate the word count
+            estimated_words = estimated_words * 4  # Increased multiplier
+            
+            # Add a buffer to account for underestimation
+            estimated_words = int(estimated_words * 2)  # Add 20% buffer
+            
+            return min(estimated_words, 400)  # Increased max from 200
         except Exception:
-            return 20
+            return 30
 
     def count_tokens(self, text: str) -> int:
         if not self.tokenizer:
@@ -139,7 +145,7 @@ class TranscriptionProcessor:
                 image = image.resize((new_width, new_height), Image.LANCZOS)
 
             # Display the image being sent to the model
-            image.show()
+            # image.show()
 
             # Model inputs
             messages = [{"role": "user", "content": [
