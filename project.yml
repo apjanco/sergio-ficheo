@@ -105,6 +105,8 @@ workflows:
     - remove_background
     - segment  # Changed from chunk
     - transcribe
+    - recombine_segments  # Changed from recombine_chunks
+    - fuzzy_clean
 
   build_manifest:
     - build_documents_manifest
@@ -266,16 +268,18 @@ commands:
   - name: recombine_segments  # Changed from recombine_chunks
     help: "Recombine the transcribed segments into single markdown files"
     script:
-      - "python scripts/recombine_segments.py ${vars.transcriptions_folder} ${vars.recombined_folder}"
+      - "python scripts/recombine_segments.py ${vars.transcriptions_folder} ${vars.recombined_folder} ${vars.transcriptions_folder}/transcribe_manifest.jsonl ${vars.background_removed_image_folder}/remove_multi_obj_black_bg_manifest.jsonl"
     outputs:
       - ${vars.recombined_folder}
+      - ${vars.recombined_folder}/recombine_manifest.jsonl
 
   - name: fuzzy_clean
-    help: "Clean the transcriptions using fuzzy matching"
+    help: "Clean up text from recombined transcriptions"
     script:
-      - "python scripts/fuzzy_clean.py ${vars.recombined_folder} ${vars.cleaned_folder}"
+      - "python scripts/fuzzy_clean.py ${vars.recombined_folder} ${vars.recombined_folder}/recombine_manifest.jsonl ${vars.cleaned_folder}"
     outputs:
       - ${vars.cleaned_folder}
+      - ${vars.cleaned_folder}/fuzzy_clean_manifest.jsonl  # Add missing manifest output
 
   - name: process_json
     help: "Process the transcriptions and save to JSONL"
