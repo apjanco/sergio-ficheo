@@ -151,6 +151,61 @@ class TextCleaner:
         return text.strip()
 
     @staticmethod
+    def calculate_average_line_length(text: str) -> int:
+        """Calculate average line length for paragraph-like lines."""
+        lines = text.splitlines()
+        # Only consider lines that look like paragraphs (more than 30 chars)
+        paragraph_lines = [line for line in lines if len(line) > 30]
+        if not paragraph_lines:
+            return 72  # Default fallback
+        return int(sum(len(line) for line in paragraph_lines) / len(paragraph_lines))
+
+    @staticmethod
+    def split_long_lines(text: str, max_length: int = 72) -> str:
+        """Split long lines at sentence boundaries or commas, respecting natural breaks."""
+        lines = text.splitlines()
+        split_lines = []
+        
+        for line in lines:
+            if len(line) <= max_length:
+                split_lines.append(line)
+                continue
+                
+            # First try splitting on sentence boundaries
+            sentences = re.split(r'([.!?])\s+', line)
+            current_line = ""
+            
+            for i in range(0, len(sentences), 2):
+                sentence = sentences[i]
+                punct = sentences[i + 1] if i + 1 < len(sentences) else ""
+                
+                if current_line and len(current_line + sentence + punct) > max_length:
+                    split_lines.append(current_line.strip())
+                    current_line = sentence + punct
+                else:
+                    current_line += sentence + punct
+                    
+            if current_line:
+                # If remaining line is still too long, split on commas
+                if len(current_line) > max_length:
+                    parts = current_line.split(", ")
+                    current_part = ""
+                    
+                    for part in parts:
+                        if current_part and len(current_part + ", " + part) > max_length:
+                            split_lines.append(current_part.strip())
+                            current_part = part
+                        else:
+                            current_part += ", " + part if current_part else part
+                            
+                    if current_part:
+                        split_lines.append(current_part.strip())
+                else:
+                    split_lines.append(current_line.strip())
+                    
+        return "\n".join(split_lines)
+
+    @staticmethod
     def clean_text(text: str) -> str:
         """Apply all cleaning steps to the text"""
         # Remove coordinates with various formats
@@ -175,6 +230,11 @@ class TextCleaner:
         text = TextCleaner.remove_repeated_words(text)
         text = TextCleaner.remove_repeated_phrases_between_chunks(text)
         text = TextCleaner.remove_repeated_phrases_regex(text)
+        
+        # Calculate average line length and split long lines
+        avg_length = TextCleaner.calculate_average_line_length(text)
+        max_length = min(avg_length * 1.5, 72)  # Use shorter of avg length or 72
+        text = TextCleaner.split_long_lines(text, int(max_length))
         
         # Second pass to catch section-level repetition
         text = TextCleaner.clean_repeated_phrases(text)
