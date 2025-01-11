@@ -228,9 +228,19 @@ def process_image(img_path: Path, out_path: Path) -> dict:
             # Load and process image
             image = Image.open(img_path).convert("RGB")
             
-            # Get actual transcription from LLM with text density estimation
+            # Add padding if image is too narrow or too short
+            min_height = 50  # Slightly larger than required 28 for safety
+            min_width = 50   # Slightly larger than required 28 for safety
+            if image.height < min_height or image.width < min_width:
+                padding_height = max(min_height - image.height, 0) // 2
+                padding_width = max(min_width - image.width, 0) // 2
+                padded_image = Image.new('RGB', (max(image.width, min_width), max(image.height, min_height)), (255, 255, 255))  # White background
+                padded_image.paste(image, (padding_width, padding_height))
+                image = padded_image
+            
+            # Continue with existing processing
             estimated_words = transcriber.estimate_text_density(image)
-            max_new_tokens = min(estimated_words * 2, 2048)  # Adjust multiplier as needed
+            max_new_tokens = min(estimated_words * 2, 2048)
             transcription = transcriber.process_image(image, max_new_tokens)
             token_count = transcriber.count_tokens(transcription)
             
