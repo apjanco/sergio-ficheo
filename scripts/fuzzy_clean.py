@@ -141,12 +141,15 @@ class TextCleaner:
             "The text reads:",
             "Here is the text extracted from the image:",
             "The text on the image is as follows:",
+            "Please note that this is an incomplete sentence, as the rest of the text has been cut off.",
             "```",
             "```plaintext"
         ]
         
         for phrase in phrases_to_remove:
-            text = text.replace(phrase, "")
+            # Handle variations in whitespace and line breaks
+            pattern = phrase.replace(" ", r'\s+')
+            text = re.sub(pattern, "", text, flags=re.IGNORECASE)
         
         return text.strip()
 
@@ -162,53 +165,51 @@ class TextCleaner:
 
     @staticmethod
     def split_long_lines(text: str, max_length: int = 72) -> str:
-        """Split long lines at sentence boundaries or commas, respecting natural breaks."""
+        """Simple line wrapper at max_length characters."""
         lines = text.splitlines()
-        split_lines = []
+        wrapped_lines = []
         
         for line in lines:
             if len(line) <= max_length:
-                split_lines.append(line)
+                wrapped_lines.append(line)
                 continue
                 
-            # First try splitting on sentence boundaries
-            sentences = re.split(r'([.!?])\s+', line)
+            # Split long line into chunks
             current_line = ""
+            words = line.split()
             
-            for i in range(0, len(sentences), 2):
-                sentence = sentences[i]
-                punct = sentences[i + 1] if i + 1 < len(sentences) else ""
-                
-                if current_line and len(current_line + sentence + punct) > max_length:
-                    split_lines.append(current_line.strip())
-                    current_line = sentence + punct
+            for word in words:
+                test_line = current_line + " " + word if current_line else word
+                if len(test_line) <= max_length:
+                    current_line = test_line
                 else:
-                    current_line += sentence + punct
-                    
+                    if current_line:
+                        wrapped_lines.append(current_line)
+                    current_line = word
+            
             if current_line:
-                # If remaining line is still too long, split on commas
-                if len(current_line) > max_length:
-                    parts = current_line.split(", ")
-                    current_part = ""
-                    
-                    for part in parts:
-                        if current_part and len(current_part + ", " + part) > max_length:
-                            split_lines.append(current_part.strip())
-                            current_part = part
-                        else:
-                            current_part += ", " + part if current_part else part
-                            
-                    if current_part:
-                        split_lines.append(current_part.strip())
-                else:
-                    split_lines.append(current_line.strip())
-                    
-        return "\n".join(split_lines)
+                wrapped_lines.append(current_line)
+                
+        return "\n".join(wrapped_lines)  # Fixed the string literal here
+
+    @staticmethod
+    def remove_boundary_quotes(text: str) -> str:
+        """Remove quotes at the beginning and end of the document."""
+        text = text.strip()
+        if text.startswith('"'):
+            text = text[1:]
+        if text.endswith('"'):
+            text = text[:-1]
+        return text.strip()
 
     @staticmethod
     def clean_text(text: str) -> str:
         """Apply all cleaning steps to the text"""
-        # Remove coordinates with various formats
+        # First remove all specific phrases and boundary characters
+        text = TextCleaner.remove_specific_phrases(text)
+        text = TextCleaner.remove_boundary_quotes(text)
+        
+        # Then remove coordinates and other patterns
         coordinate_patterns = [
             r"\(\d+,\d+\),\(\d+,\d+\)",  # (123,456),(789,012)
             r"\(\d+,\d+\), \(\d+,\d+\)",  # (123,456), (789,012)
@@ -222,6 +223,9 @@ class TextCleaner:
         
         # Remove specific phrases first
         text = TextCleaner.remove_specific_phrases(text)
+        
+        # Remove quotes at document boundaries
+        text = TextCleaner.remove_boundary_quotes(text)
         
         # Apply cleaning steps
         text = TextCleaner.combine_single_word_paragraphs(text)
