@@ -1,3 +1,4 @@
+
 import typer
 from pathlib import Path
 from rich.console import Console
@@ -135,22 +136,79 @@ class TextCleaner:
     def remove_specific_phrases(text: str) -> str:
         """Remove specific unwanted phrases from the text."""
         phrases_to_remove = [
-            "The text on the document is:",
-            "The text on the document reads:",
-            "The document reads:",
-            "The text reads:",
-            "Here is the text extracted from the image:",
-            "The text on the image is as follows:",
-            "Please note that this is an incomplete sentence, as the rest of the text has been cut off.",
-            "```",
-            "```plaintext"
+            # Document structure mentions
+            "handwritten document with",
+            "extracted text is",
+            "here is the text",
+            "plaintext",
+            "say nothing else",
+            "image of a sheet",
+            "piece of parchment",
+            "extracted line by line",
+            "note:",
+            "here it is",
+            "in black ink",
+            "visible text on the",
+            "original document to be preserved",
+            
+            # Phrases about unreadable content
+            "appears damaged or incomplete",
+            "difficult to read",
+            "poor resolution",
+            "cannot be discerned",
+            "parts of the text are damaged",
+            "illegible",
+            "cannot be fully interpreted",
+            
+            # Filler lines
+            "visible wear and tear",
+            "unknown language or script",
+            "cursive script",
+            "aged and worn",
+            "faint lines or patterns",
+            "scan of handwritten text",
+            
+            # Extraneous descriptors
+            "line by line",
+            "let me know",
+            "help analyze",
+            "help with that",
+            "ayudarte con eso",
+            "provide more details",
+            "clarify what you",
+            
+            # Technical repetition
+            "text on the parchment",
+            "text on the paper",
+            "text starts with",
+            "document says",
+            "extracted text",
+            "note mentions",
+            "following text",
+            "document reads",
+            "handwriting is difficult"
         ]
         
+        # Make patterns more flexible
         for phrase in phrases_to_remove:
-            # Handle variations in whitespace and line breaks
-            pattern = phrase.replace(" ", r'\s+')
-            text = re.sub(pattern, "", text, flags=re.IGNORECASE)
+            # Create flexible pattern with optional words and fuzzy spacing
+            pattern = phrase.replace(" ", r'\s+')  # Handle variable whitespace
+            pattern = f".*?{pattern}.*?[.:]?"  # Match broader context and optional punctuation
+            text = re.sub(pattern, "", text, flags=re.IGNORECASE | re.MULTILINE | re.DOTALL)
         
+        # Additional cleanup patterns for common variations
+        cleanup_patterns = [
+            r"(?:here|this)\s+(?:is|are)\s+(?:the|an?)\s+(?:text|document|image).*?[.:]",
+            r"(?:the|this)\s+(?:text|document|image)\s+(?:shows|contains|has|is).*?[.:]",
+            r"(?:please|kindly)\s+(?:note|be aware|let me know).*?[.:]",
+            r"(?:I can|I will|I could)\s+(?:help|assist).*?[.:]",
+            r"(?:due to|because of)\s+(?:the|its)\s+(?:condition|state|quality).*?[.:]",
+            r"(?:some|many|several)\s+(?:parts?|sections?|areas?)\s+(?:are|is)\s+(?:damaged|worn|faded).*?[.:]"
+        ]
+        
+        for pattern in cleanup_patterns:
+            text = re.sub(pattern, "", text, flags=re.IGNORECASE | re.MULTILINE)
+            
         return text.strip()
 
     @staticmethod
