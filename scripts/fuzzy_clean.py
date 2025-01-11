@@ -1,168 +1,274 @@
 import typer
 from pathlib import Path
-from rich.progress import track
+from rich.console import Console
 import re
-# from fuzzywuzzy import fuzz
+from utils.batch import BatchProcessor
+from utils.processor import process_file
 
-def calculate_max_phrase_length(text, percentage=0.5):
-    """Calculate the maximum phrase length based on a percentage of the total word count."""
-    word_count = len(text.split())
-    return max(1, int(word_count * percentage))
+console = Console()
 
-def clean_repeated_phrases(text):
-    """Remove repeated phrases from the text."""
-    max_phrase_length = calculate_max_phrase_length(text, percentage=0.05)
-    lines = text.splitlines()
-    clean_lines = []
+class TextCleaner:
+    @staticmethod
+    def calculate_max_phrase_length(text, percentage=0.5):
+        """Calculate the maximum phrase length based on percentage of total word count."""
+        word_count = len(text.split())
+        return max(1, int(word_count * percentage))
 
-    for line in lines:
-        words = line.split()
-        clean_line = []
-        i = 0
+    @staticmethod
+    def clean_repeated_phrases(text):
+        """Remove repeated phrases from the text."""
+        max_phrase_length = TextCleaner.calculate_max_phrase_length(text, percentage=0.05)
+        lines = text.splitlines()
+        clean_lines = []
 
-        while i < len(words):
-            phrase = " ".join(words[i:i + max_phrase_length])
-            next_phrase = " ".join(words[i + 1:i + 1 + max_phrase_length])
-            # Skip short phrases (e.g., two words that are each two letters long)
-            if len(phrase.split()) == 2 and all(len(word) <= 2 for word in phrase.split()):
-                clean_line.append(words[i])
-            elif phrase != next_phrase:
-                clean_line.append(words[i])
-            i += 1
+        for line in lines:
+            words = line.split()
+            clean_line = []
+            i = 0
 
-        clean_lines.append(" ".join(clean_line))
+            while i < len(words):
+                phrase = " ".join(words[i:i + max_phrase_length])
+                next_phrase = " ".join(words[i + 1:i + 1 + max_phrase_length])
+                # Skip short phrases (e.g., two words that are each two letters long)
+                if len(phrase.split()) == 2 and all(len(word) <= 2 for word in phrase.split()):
+                    clean_line.append(words[i])
+                elif phrase != next_phrase:
+                    clean_line.append(words[i])
+                i += 1
 
-    return "\n".join(clean_lines)
+            clean_lines.append(" ".join(clean_line))
 
-def remove_repeated_phrases(text, min_phrase_length=5):
-    """Remove long repeated phrases from the text."""
-    lines = text.splitlines()
-    clean_lines = []
-    previous_phrases = set()
+        return "\n".join(clean_lines)
 
-    for line in lines:
-        words = line.split()
-        clean_line = []
-        i = 0
+    @staticmethod
+    def remove_repeated_phrases(text, min_phrase_length=5):
+        """Remove long repeated phrases from the text."""
+        lines = text.splitlines()
+        clean_lines = []
+        previous_phrases = set()
 
-        while i < len(words):
-            phrase = " ".join(words[i:i + min_phrase_length])
-            if phrase not in previous_phrases:
-                clean_line.append(" ".join(words[i:i + min_phrase_length]))
-                previous_phrases.add(phrase)
-            i += min_phrase_length
+        for line in lines:
+            words = line.split()
+            clean_line = []
+            i = 0
 
-        clean_lines.append(" ".join(clean_line))
+            while i < len(words):
+                phrase = " ".join(words[i:i + min_phrase_length])
+                if phrase not in previous_phrases:
+                    clean_line.append(" ".join(words[i:i + min_phrase_length]))
+                    previous_phrases.add(phrase)
+                i += min_phrase_length
 
-    return "\n".join(clean_lines)
+            clean_lines.append(" ".join(clean_line))
 
-def remove_repeated_words(text):
-    """Remove repeated words from the text."""
-    lines = text.splitlines()
-    clean_lines = []
+        return "\n".join(clean_lines)
 
-    for line in lines:
-        words = line.split()
-        clean_line = []
-        previous_word = ""
+    @staticmethod
+    def remove_repeated_words(text):
+        """Remove repeated words from the text."""
+        lines = text.splitlines()
+        clean_lines = []
 
-        for word in words:
-            if word.lower() != previous_word.lower():
-                clean_line.append(word)
-            previous_word = word
+        for line in lines:
+            words = line.split()
+            clean_line = []
+            previous_word = ""
 
-        clean_lines.append(" ".join(clean_line))
+            for word in words:
+                if word.lower() != previous_word.lower():
+                    clean_line.append(word)
+                previous_word = word
 
-    return "\n".join(clean_lines)
+            clean_lines.append(" ".join(clean_line))
 
-def remove_repeated_phrases_between_chunks(text):
-    """Remove repeated phrases that might appear between chunks."""
-    lines = text.splitlines()
-    clean_lines = []
-    previous_line = ""
+        return "\n".join(clean_lines)
 
-    for line in lines:
-        # if fuzz.ratio(previous_line, line) < fuzziness_threshold:
-        if previous_line != line:
-            clean_lines.append(line)
-        previous_line = line
+    @staticmethod
+    def remove_repeated_phrases_between_chunks(text):
+        """Remove repeated phrases that might appear between chunks."""
+        lines = text.splitlines()
+        clean_lines = []
+        previous_line = ""
 
-    return "\n".join(clean_lines)
+        for line in lines:
+            # if fuzz.ratio(previous_line, line) < fuzziness_threshold:
+            if previous_line != line:
+                clean_lines.append(line)
+            previous_line = line
 
-def remove_repeated_phrases_regex(text):
-    """Remove repeated phrases and numbers at the beginning of the line using regex."""
-    # Pattern to match repeated phrases
-    pattern = re.compile(r"(\b\w+\b(?:\s+\b\w+\b){2,})(?=.*\1)")
-    text = re.sub(pattern, "", text)
-    
-    # Pattern to match numbers at the beginning of the line
-    text = re.sub(r"^\d+\s+", "", text, flags=re.MULTILINE)
-    
-    return text
+        return "\n".join(clean_lines)
 
-def combine_single_word_paragraphs(text):
-    """Combine single-word paragraphs into a single line."""
-    lines = text.splitlines()
-    combined_lines = []
-    current_line = []
-
-    for line in lines:
-        if len(line.split()) == 1:
-            current_line.append(line)
-        else:
-            if current_line:
-                combined_lines.append(" ".join(current_line))
-                current_line = []
-            combined_lines.append(line)
-
-    if current_line:
-        combined_lines.append(" ".join(current_line))
-
-    return "\n".join(combined_lines)
-
-def fuzzy_clean(
-    transcribed_folder: Path = typer.Argument(..., help="Path to the transcribed files", exists=True),
-    cleaned_folder: Path = typer.Argument(..., help="Output folder for cleaned files")
-):
-    if not cleaned_folder.exists():
-        cleaned_folder.mkdir(parents=True, exist_ok=True)
-
-    transcribed_files = list(transcribed_folder.glob("**/*.md"))
-    
-    for transcribed_file in track(transcribed_files, description="Cleaning transcriptions..."):
-        text = transcribed_file.read_text()
+    @staticmethod
+    def remove_repeated_phrases_regex(text):
+        """Remove repeated phrases and numbers at the beginning of the line using regex."""
+        # Pattern to match repeated phrases
+        pattern = re.compile(r"(\b\w+\b(?:\s+\b\w+\b){2,})(?=.*\1)")
+        text = re.sub(pattern, "", text)
         
-        # Apply cleaning rules
-        text = re.sub(r"\(\d+,\d+\),\(\d+,\d+\)", "", text)  # Remove coordinates
+        # Pattern to match numbers at the beginning of the line
+        text = re.sub(r"^\d+\s+", "", text, flags=re.MULTILINE)
+        
+        return text
+
+    @staticmethod
+    def combine_single_word_paragraphs(text):
+        """Combine single-word paragraphs into a single line."""
+        lines = text.splitlines()
+        combined_lines = []
+        current_line = []
+
+        for line in lines:
+            if len(line.split()) == 1:
+                current_line.append(line)
+            else:
+                if current_line:
+                    combined_lines.append(" ".join(current_line))
+                    current_line = []
+                combined_lines.append(line)
+
+        if current_line:
+            combined_lines.append(" ".join(current_line))
+
+        return "\n".join(combined_lines)
+
+    @staticmethod
+    def remove_specific_phrases(text: str) -> str:
+        """Remove specific unwanted phrases from the text."""
+        phrases_to_remove = [
+            "The text on the document is:",
+            "The text on the document reads:",
+            "The document reads:",
+            "The text reads:",
+            "Here is the text extracted from the image:",
+            "The text on the image is as follows:",
+            "```",
+            "```plaintext"
+        ]
+        
+        for phrase in phrases_to_remove:
+            text = text.replace(phrase, "")
+        
+        return text.strip()
+
+    @staticmethod
+    def clean_text(text: str) -> str:
+        """Apply all cleaning steps to the text"""
+        # Remove coordinates with various formats
+        coordinate_patterns = [
+            r"\(\d+,\d+\),\(\d+,\d+\)",  # (123,456),(789,012)
+            r"\(\d+,\d+\), \(\d+,\d+\)",  # (123,456), (789,012)
+            r"\(\d+, \d+\),\(\d+, \d+\)",  # (123, 456),(789, 012)
+            r"\(\d+, \d+\), \(\d+, \d+\)",  # (123, 456), (789, 012)
+        ]
+        for pattern in coordinate_patterns:
+            text = re.sub(pattern, "", text)
+            
         text = re.sub(r"\b(blank|The text is not visible in the image\.|The text on the image is not clear and appears to be a mix of different colors and patterns\. It is difficult to extract any meaningful information from it\.)\b", "", text, flags=re.IGNORECASE)
         
-        # Combine single-word paragraphs
-        text = combine_single_word_paragraphs(text)
+        # Remove specific phrases first
+        text = TextCleaner.remove_specific_phrases(text)
         
-        # Clean repeated phrases within the same chunk
-        text = clean_repeated_phrases(text)
+        # Apply cleaning steps
+        text = TextCleaner.combine_single_word_paragraphs(text)
+        text = TextCleaner.clean_repeated_phrases(text)
+        text = TextCleaner.remove_repeated_phrases(text)
+        text = TextCleaner.remove_repeated_words(text)
+        text = TextCleaner.remove_repeated_phrases_between_chunks(text)
+        text = TextCleaner.remove_repeated_phrases_regex(text)
         
-        # Clean long repeated phrases
-        text = remove_repeated_phrases(text)
+        # Second pass to catch section-level repetition
+        text = TextCleaner.clean_repeated_phrases(text)
+        text = TextCleaner.remove_repeated_phrases(text)
+        text = TextCleaner.remove_repeated_words(text)
+        text = TextCleaner.remove_repeated_phrases_between_chunks(text)
         
-        # Clean repeated words
-        text = remove_repeated_words(text)
+        return text.strip()
+
+def process_document(file_path: str, output_folder: Path) -> dict:
+    """Process a single document file"""
+    try:
+        # Convert to Path and normalize
+        source_path = Path(file_path)
         
-        # Clean repeated phrases between chunks
-        text = remove_repeated_phrases_between_chunks(text)
+        # Get relative path from documents/
+        rel_path = source_path
+        if 'documents' in source_path.parts:
+            rel_path = Path(*source_path.parts[source_path.parts.index('documents')+1:])
         
-        # Apply regex-based cleaning to catch repeated phrases and numbers at the beginning of the line
-        text = remove_repeated_phrases_regex(text)
+        # Look for input .md file
+        input_path = Path(file_path).with_suffix('.md')
+        if not input_path.exists():
+            # Try with documents prefix if not found
+            input_path = output_folder.parent / "recombined/documents" / rel_path.with_suffix('.md')
+            
+        if not input_path.exists():
+            raise FileNotFoundError(f"Input file not found: {input_path}")
+            
+        # Read input text
+        try:
+            text = input_path.read_text(encoding='utf-8')
+        except UnicodeDecodeError:
+            text = input_path.read_text()
         
-        # Apply cleaning functions again to catch section-level repetition
-        text = clean_repeated_phrases(text)
-        text = remove_repeated_phrases(text)
-        text = remove_repeated_words(text)
-        text = remove_repeated_phrases_between_chunks(text)
+        if not text.strip():
+            return {
+                "source": str(input_path),
+                "error": "Empty file",
+                "success": False
+            }
         
-        cleaned_file = cleaned_folder / transcribed_file.relative_to(transcribed_folder)
-        cleaned_file.parent.mkdir(parents=True, exist_ok=True)
-        cleaned_file.write_text(text.strip())
+        # Clean the text
+        cleaned_text = TextCleaner.clean_text(text)
+        
+        # Use relative path for output
+        out_path = output_folder / "documents" / rel_path.with_suffix('.md')
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        # Write cleaned text
+        out_path.write_text(cleaned_text)
+        
+        # Return success manifest entry with proper relative paths
+        return {
+            "source": str(rel_path.with_suffix('.md')),  # Relative from documents/
+            "outputs": [str(rel_path.with_suffix('.md'))],  # Relative from documents/
+            "success": True,
+            "details": {
+                "original_length": len(text),
+                "cleaned_length": len(cleaned_text),
+                "reduction_percent": round((1 - len(cleaned_text)/len(text)) * 100, 2)
+            }
+        }
+        
+    except Exception as e:
+        console.print(f"[red]Error processing {file_path}: {e}")
+        return {
+            "source": str(file_path),
+            "error": str(e)
+        }
+
+def fuzzy_clean(
+    recombined_folder: Path = typer.Argument(..., help="Path to the recombined files"),
+    recombined_manifest: Path = typer.Argument(..., help="Path to the recombined manifest file"),
+    cleaned_folder: Path = typer.Argument(..., help="Output folder for cleaned files")
+):
+    """Clean up text from recombined transcriptions"""
+    
+    # Validate inputs
+    if not recombined_folder.exists():
+        raise typer.BadParameter(f"Recombined folder not found: {recombined_folder}")
+    if not recombined_manifest.exists():
+        raise typer.BadParameter(f"Recombined manifest not found: {recombined_manifest}")
+        
+    processor = BatchProcessor(
+        input_manifest=recombined_manifest,
+        output_folder=cleaned_folder,
+        process_name="fuzzy_clean",
+        processor_fn=lambda f, o: process_document(f, o),
+        base_folder=recombined_folder,
+        use_source=True  # Use source path from manifest since we're processing MD files
+    )
+    
+    return processor.process()
 
 if __name__ == "__main__":
     typer.run(fuzzy_clean)
