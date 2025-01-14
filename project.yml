@@ -18,7 +18,7 @@ vars:
   text_direction: 'horizontal-lr' #['horizontal-lr', 'horizontal-rl', 'vertical-lr', 'vertical-rl']
   version: "0.0.0"
   
-  project_folder: "/Volumes/Fichero/projects/demo" # Change this to run on different folders
+  project_folder: "projects/sergio_notebooks" # Change this to run on different folders
   # project_folder: "projects/test" # Change this to run on different folders
   documents_folder: "${vars.project_folder}/documents"
   assets_folder: "${vars.project_folder}/assets"
