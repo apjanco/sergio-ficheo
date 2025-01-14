@@ -2,7 +2,7 @@ projects/daniel
 projects/demo
 projects/ghc
 projects/marshall_diary
-projects/sergio_notebooks
+projects/sergio_notebooks/documents/
 projects/test
 prompts/
 recipes/
@@ -11,9 +11,6 @@ metadata.json
 data/data.jsonl
 _site/
 weasel_output/
-sergio_notebooks/assets/JPG_TESTBED
-sergio_notebooks/assets/jpg
-sergio_notebooks/assets/word
 /configs
 /_templates
 /pipelines
