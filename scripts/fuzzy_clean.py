@@ -402,31 +402,18 @@ class TextCleaner:
         return text.strip()
 
     @staticmethod
+    def clean_line_spacing(text: str) -> str:
+        """Simple cleanup of multiple newlines"""
+        # Replace any sequence of 2 or more newlines with a single newline
+        text = re.sub(r'\n\n+', '\n', text)
+        return text.strip()
+
+    @staticmethod
     def clean_text(text: str) -> str:
         """Apply all cleaning steps to the text"""
-        # First remove all specific phrases and boundary characters
+        # Remove unwanted content
         text = TextCleaner.remove_specific_phrases(text)
         text = TextCleaner.remove_boundary_quotes(text)
-        
-        # Then remove coordinates and other patterns
-        coordinate_patterns = [
-            r"\(\d+,\d+\),\(\d+,\d+\)",  # (123,456),(789,012)
-            r"\(\d+,\d+\), \(\d+,\d+\)",  # (123,456), (789,012)
-            r"\(\d+, \d+\),\(\d+, \d+\)",  # (123, 456),(789, 012)
-            r"\(\d+, \d+\), \(\d+, \d+\)",  # (123, 456), (789, 012)
-        ]
-        for pattern in coordinate_patterns:
-            text = re.sub(pattern, "", text)
-            
-        text = re.sub(r"\b(blank|The text is not visible in the image\.|The text on the image is not clear and appears to be a mix of different colors and patterns\. It is difficult to extract any meaningful information from it\.)\b", "", text, flags=re.IGNORECASE)
-        
-        # Remove specific phrases first
-        text = TextCleaner.remove_specific_phrases(text)
-        
-        # Remove quotes at document boundaries
-        text = TextCleaner.remove_boundary_quotes(text)
-        
-        # Apply cleaning steps
         text = TextCleaner.combine_single_word_paragraphs(text)
         text = TextCleaner.clean_repeated_phrases(text)
         text = TextCleaner.remove_repeated_phrases(text)
@@ -434,16 +421,13 @@ class TextCleaner:
         text = TextCleaner.remove_repeated_phrases_between_chunks(text)
         text = TextCleaner.remove_repeated_phrases_regex(text)
         
-        # Calculate average line length and split long lines
+        # Format lines
         avg_length = TextCleaner.calculate_average_line_length(text)
-        max_length = min(avg_length * 1.5, 72)  # Use shorter of avg length or 72
+        max_length = min(avg_length * 1.5, 72)
         text = TextCleaner.split_long_lines(text, int(max_length))
         
-        # Second pass to catch section-level repetition
-        text = TextCleaner.clean_repeated_phrases(text)
-        text = TextCleaner.remove_repeated_phrases(text)
-        text = TextCleaner.remove_repeated_words(text)
-        text = TextCleaner.remove_repeated_phrases_between_chunks(text)
+        # Final cleanup of spacing
+        text = TextCleaner.clean_line_spacing(text)
         
         return text.strip()
 

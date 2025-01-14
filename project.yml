@@ -18,8 +18,8 @@ vars:
   text_direction: 'horizontal-lr' #['horizontal-lr', 'horizontal-rl', 'vertical-lr', 'vertical-rl']
   version: "0.0.0"
   
-  # project_folder: "/Volumes/Fichero/projects/demo" # Change this to run on different folders
-  project_folder: "projects/test" # Change this to run on different folders
+  project_folder: "/Volumes/Fichero/projects/demo" # Change this to run on different folders
+  # project_folder: "projects/test" # Change this to run on different folders
   documents_folder: "${vars.project_folder}/documents"
   assets_folder: "${vars.project_folder}/assets"
 
@@ -107,6 +107,7 @@ workflows:
     - transcribe
     - recombine_segments  # Changed from recombine_chunks
     - fuzzy_clean
+    - convert_to_word
 
   build_manifest:
     - build_documents_manifest
@@ -181,6 +182,16 @@ workflows:
     - export_to_excel
     - export_to_markdown
     - export_to_html
+
+  test-convert:
+    - build_documents_manifest
+    - crop
+    - split
+    - rotate
+    - enhance
+    - remove_background
+    - fuzzy_clean
+    - convert_to_word
 
 commands:
   - name: metadata
@@ -280,6 +291,13 @@ commands:
     outputs:
       - ${vars.cleaned_folder}
       - ${vars.cleaned_folder}/fuzzy_clean_manifest.jsonl  # Add missing manifest output
+
+  - name: convert_to_word
+    help: "Convert background-removed images and cleaned text to Word documents with side-by-side layout"
+    script:
+      - "python scripts/convert_to_word.py ${vars.background_removed_image_folder} ${vars.background_removed_image_folder}/remove_multi_obj_black_bg_manifest.jsonl ${vars.word_folder}"
+    outputs:
+      - ${vars.word_folder}
 
   - name: process_json
     help: "Process the transcriptions and save to JSONL"
