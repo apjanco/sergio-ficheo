@@ -5,7 +5,7 @@ import numpy as np
 import re
 from PIL import Image
 import warnings
-from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
+from transformers import AutoProcessor, AutoModel
 from rich.console import Console
 from utils.batch import BatchProcessor
 from utils.processor import process_file
@@ -60,10 +60,11 @@ class TranscriptionProcessor:
                     self.model_name,
                     trust_remote_code=True
                 )
-                self._model = Qwen2VLForConditionalGeneration.from_pretrained(
+                self._model = AutoModel.from_pretrained(
                     self.model_name,
                     torch_dtype="auto",
-                    device_map="auto"  # Keep original device handling
+                    trust_remote_code=True,
+                    device_map="auto"
                 )
                 console.print("[green]Model loaded successfully")
             except Exception as e:
@@ -132,7 +133,7 @@ class TranscriptionProcessor:
             max_size = 1000
             width, height = image.size
             aspect_ratio = max(width, height) / float(min(width, height))
-            if aspect_ratio > 200:
+            if (aspect_ratio > 200):
                 return ""
 
             if width > max_size or height > max_size:
@@ -221,7 +222,7 @@ def process_image(img_path: Path, out_path: Path) -> dict:
         try:
             # Initialize transcriber with model
             transcriber = TranscriptionProcessor(
-                model_name="Qwen/Qwen2.5-VL-7B-Instruct",
+                model_name="Qwen/Qwen2.5-VL-3B-Instruct",
                 prompt=DEFAULT_PROMPT
             )
             
@@ -349,7 +350,7 @@ def transcribe(
     segment_manifest: Path = typer.Argument(..., help="Input segments manifest"),
     transcribed_folder: Path = typer.Argument(..., help="Output folder for transcriptions"),
     model_name: str = typer.Option(
-        "Qwen/Qwen2.5-VL-7B-Instruct",
+        "Qwen/Qwen2.5-VL-3B-Instruct",
         "--model", "-m",
         help="Model name to use"
     ),
