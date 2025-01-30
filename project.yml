@@ -18,8 +18,8 @@ vars:
   text_direction: 'horizontal-lr' #['horizontal-lr', 'horizontal-rl', 'vertical-lr', 'vertical-rl']
   version: "0.0.0"
   
-  project_folder: "projects/sergio_notebooks" # Change this to run on different folders
-  # project_folder: "projects/test" # Change this to run on different folders
+  # project_folder: "projects/sergio_notebooks" # Change this to run on different folders
+  project_folder: "projects/test" # Change this to run on different folders
   documents_folder: "${vars.project_folder}/documents"
   assets_folder: "${vars.project_folder}/assets"
 
@@ -38,7 +38,7 @@ vars:
   background_removed_image_folder: "${vars.assets_folder}/background_removed"
   txt_folder: "${vars.assets_folder}/txt"
   nlp_model: "es_core_news_lg"
-  model: "Qwen/Qwen2-VL-2B-Instruct"
+  model: "Qwen/Qwen2.5-VL-7B-Instruct"
   code_model: "Qwen/Qwen2.5-Coder-7B-Instruct"
   dataset_name: "fmb-quibdo/sergio-notebooks"
   enhanced_image_folder: "${vars.assets_folder}/enhanced"

@@ -221,7 +221,7 @@ def process_image(img_path: Path, out_path: Path) -> dict:
         try:
             # Initialize transcriber with model
             transcriber = TranscriptionProcessor(
-                model_name="Qwen/Qwen2-VL-2B-Instruct",
+                model_name="Qwen/Qwen2.5-VL-7B-Instruct",
                 prompt=DEFAULT_PROMPT
             )
             
@@ -349,7 +349,7 @@ def transcribe(
     segment_manifest: Path = typer.Argument(..., help="Input segments manifest"),
     transcribed_folder: Path = typer.Argument(..., help="Output folder for transcriptions"),
     model_name: str = typer.Option(
-        "Qwen/Qwen2-VL-2B-Instruct",
+        "Qwen/Qwen2.5-VL-7B-Instruct",
         "--model", "-m",
         help="Model name to use"
     ),
