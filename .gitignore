@@ -3,5 +3,6 @@ projects/demo
 projects/ghc
 projects/marshall_diary
 projects/test
+projects/numero18
 .DS_Store
 project.lock
