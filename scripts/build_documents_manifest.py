@@ -3,6 +3,7 @@ import srsly
 from pathlib import Path
 import os
 import re
+import urllib.parse  # Add this for URL encoding/decoding
 
 def natural_sort_key(s: str):
     """Sort strings alphanumerically like Finder."""
@@ -18,6 +19,10 @@ def build_documents_manifest(
     
     Required, because on a spinning disk, and lots of files, thigns were too slow.
     """
+    
+    # Safely handle the path with special characters and spaces
+    documents_dir = Path(os.path.expanduser(str(documents_dir))).resolve()
+    documents_manifest = Path(os.path.expanduser(str(documents_manifest))).resolve()
     
     # Convert to .jsonl extension and ensure it is in the manifests directory
     documents_manifest = documents_manifest.with_suffix('.jsonl')
