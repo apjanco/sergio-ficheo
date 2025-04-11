@@ -5,7 +5,7 @@ import numpy as np
 import re
 from PIL import Image
 import warnings
-from transformers import AutoProcessor, AutoModel
+from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
 from rich.console import Console
 from utils.batch import BatchProcessor
 from utils.processor import process_file
@@ -17,7 +17,7 @@ console = Console()
 # Set environment variable to avoid parallelism warning
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-DEFAULT_PROMPT = "Extract all text line by line. Do not number lines. RETURN ONLY PLAIN TEXT. SAY NOTHING ELSE"
+DEFAULT_PROMPT = "Extract ALL text."
 
 class TranscriptionProcessor:
     _instance = None
@@ -60,12 +60,21 @@ class TranscriptionProcessor:
                     self.model_name,
                     trust_remote_code=True
                 )
-                self._model = AutoModel.from_pretrained(
+                if self.device == "mps":
+                    dtype = torch.float32
+                    devmap = None
+                else:
+                    dtype = torch.float16
+                    devmap = "auto"
+
+                self._model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
                     self.model_name,
-                    torch_dtype="auto",
                     trust_remote_code=True,
-                    device_map="auto"
+                    torch_dtype=dtype,
+                    device_map=devmap
                 )
+                if self.device == "mps":
+                    self._model.to("mps")
                 console.print("[green]Model loaded successfully")
             except Exception as e:
                 console.print(f"[red]Error loading model: {e}")
@@ -130,7 +139,7 @@ class TranscriptionProcessor:
 
         try:
             # Image preprocessing
-            max_size = 1000
+            max_size = 512  # Reduce max size to save memory
             width, height = image.size
             aspect_ratio = max(width, height) / float(min(width, height))
             if (aspect_ratio > 200):
@@ -162,7 +171,7 @@ class TranscriptionProcessor:
                 text=prompt_text,
                 images=image,
                 return_tensors="pt",
-                max_length=2048,  # Increased for longer contexts
+                max_length=1024,  # Reduce max length to save memory
                 truncation=True
             )
 
@@ -173,7 +182,7 @@ class TranscriptionProcessor:
             with torch.no_grad():
                 outputs = self.model.generate(
                     **inputs,
-                    max_new_tokens=max_new_tokens,
+                    max_new_tokens=min(max_new_tokens, 512),  # Reduce max new tokens to save memory
                     min_new_tokens=10,
                     num_beams=1,          # Reduce beams for faster processing
                     do_sample=True,       # Enable sampling
