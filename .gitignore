@@ -6,3 +6,4 @@ projects/test
 projects/numero18
 .DS_Store
 project.lock
+.env

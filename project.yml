@@ -32,14 +32,19 @@ vars:
     
   # crop
   crops_folder: "${vars.assets_folder}/crops"
+  crop_method: "enhanced"  # Options: basic, contour, enhanced, doctr
+  crop_background: "messy"  # Options: black, white, messy, colored
+  crop_edges: "complex"  # Options: straight, complex
+  crop_deskew: true  # Whether to deskew after cropping
+  crop_debug: false  # Whether to save debug images
   
   split_image_folder: "${vars.assets_folder}/splits"
   rotated_image_folder: "${vars.assets_folder}/rotated"
   background_removed_image_folder: "${vars.assets_folder}/background_removed"
   txt_folder: "${vars.assets_folder}/txt"
   nlp_model: "es_core_news_lg"
-  model: "Qwen/Qwen2.5-VL-7B-Instruct"
-  code_model: "Qwen/Qwen2.5-Coder-7B-Instruct"
+  model: "Qwen/Qwen2.0-VL-2B-Instruct"
+  code_model: "Qwen/Qwen2.0-VL-2B-Instruct"
   dataset_name: "fmb-quibdo/sergio-notebooks"
   enhanced_image_folder: "${vars.assets_folder}/enhanced"
   segmented_image_folder: "${vars.assets_folder}/segments"  # Changed from chunks
@@ -78,9 +83,10 @@ workflows:
     - rotate
     - enhance
     - remove_background
-    - segment  # Changed from chunk
+    - segment
     - transcribe
-    - recombine_segments  # Changed from recombine_chunks
+    - transcribe_qwen_max
+    - recombine_segments
     - fuzzy_clean
     - process_json
     - process_ner
@@ -107,6 +113,17 @@ workflows:
     - transcribe
     - recombine_segments  # Changed from recombine_chunks
     - fuzzy_clean
+    - convert_to_word
+
+  test-qwen-max:
+    - build_documents_manifest
+    - crop
+    - split
+    - rotate
+    - enhance
+    - remove_background
+    - transcribe_qwen_max
+    
     - convert_to_word
 
   build_manifest:
@@ -211,7 +228,7 @@ commands:
   - name: crop
     help: "Crop images using document manifest with automatic multi-threading"
     script:
-      - "python scripts/crop.py ${vars.project_folder} ${vars.documents_manifest} ${vars.crops_folder}"
+      - "python scripts/crop.py ${vars.documents_folder} ${vars.documents_manifest} ${vars.crops_folder} --method ${vars.crop_method} --background ${vars.crop_background} --edges ${vars.crop_edges} --deskew ${vars.crop_deskew} --debug ${vars.crop_debug}"
     outputs:
       - ${vars.crops_folder}
 
@@ -276,6 +293,14 @@ commands:
       - ${vars.transcriptions_folder}
       - ${vars.transcription_manifest}  # Add manifest output
 
+  - name: transcribe_qwen_max
+    help: "Transcribe documents using Alibaba Qwen"
+    script:
+      - "python scripts/transcribe_qwen_max.py ${vars.background_removed_image_folder} ${vars.background_removed_image_folder}/remove_multi_obj_black_bg_manifest.jsonl ${vars.transcriptions_folder}"
+    outputs:
+      - ${vars.transcriptions_folder}
+      - ${vars.transcription_manifest}  # Add manifest output
+
   - name: recombine_segments  # Changed from recombine_chunks
     help: "Recombine the transcribed segments into single markdown files"
     script:
@@ -295,7 +320,7 @@ commands:
   - name: convert_to_word
     help: "Convert background-removed images and cleaned text to Word documents with side-by-side layout"
     script:
-      - "python scripts/convert_to_word.py ${vars.background_removed_image_folder} ${vars.background_removed_image_folder}/remove_multi_obj_black_bg_manifest.jsonl ${vars.word_folder}"
+      - "python scripts/convert_to_word.py ${vars.background_removed_image_folder} ${vars.transcriptions_folder}/transcribe_qwen_max_manifest.jsonl ${vars.word_folder} ${vars.transcriptions_folder}"
     outputs:
       - ${vars.word_folder}
 

@@ -3,15 +3,19 @@ from pathlib import Path
 from docx import Document
 from docx.shared import Inches, Pt
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.enum.section import WD_ORIENT, WD_SECTION  # Add WD_SECTION import
+from docx.enum.section import WD_ORIENT, WD_SECTION
 from docx.oxml import parse_xml
 from docx.oxml.ns import nsdecls
 from docx.enum.text import WD_BREAK
 from PIL import Image
 import io
+from rich.console import Console
 
 from utils.batch import BatchProcessor
 from utils.processor import process_file
+from utils.segment_handler import SegmentHandler
+
+console = Console()
 
 # Update the grey color to a lighter shade
 GREY_FILL = "E8E8E8"  # Lighter grey
@@ -148,6 +152,7 @@ def create_spread(doc, image_path, text, filename):
             
             run.add_picture(img_byte_arr, width=Inches(width), height=Inches(height))
     except Exception as e:
+        console.print(f"[red]Error loading image {image_path}: {str(e)}")
         run.add_text(f"[Error loading image: {str(e)}]")
 
     # Right page - Text
@@ -180,98 +185,136 @@ def create_spread(doc, image_path, text, filename):
     
     return True
 
-def get_doc_folder_from_path(file_path: Path) -> str:
-    """Extract the full document folder path from a file path"""
-    parts = file_path.parts
-    if 'documents' in parts:
-        # Get everything after 'documents' up to the file name
-        doc_parts = parts[parts.index('documents')+1:-1]
-        return str(Path(*doc_parts))
-    return str(file_path.parent)
-
-def process_document(file_path: str, output_folder: Path) -> dict:
-    """Process a single document file"""
+def process_image(file_path: Path, out_path: Path, transcriptions_folder: Path) -> dict:
+    """Process a single image file, returning manifest-compatible output"""
     try:
-        source_path = Path(file_path)
-        
-        # Get the full document folder path
-        doc_folder = get_doc_folder_from_path(source_path)
-        filename = source_path.stem
+        # Get source folder structure from input path
+        source_dir = Path(*file_path.parts[file_path.parts.index('documents')+1:])
         
         # Find corresponding text file
-        rel_path = source_path
-        if 'documents' in source_path.parts:
-            rel_path = Path(*source_path.parts[source_path.parts.index('documents')+1:])
-            
-        text_path = output_folder.parent / "cleaned" / "documents" / rel_path.with_suffix('.md')
+        text_path = transcriptions_folder / source_dir.with_suffix('.txt')
+        
         if not text_path.exists():
-            text_path = output_folder.parent / "cleaned" / "documents" / rel_path.name.with_suffix('.md')
-            
-        if not text_path.exists():
+            console.print(f"[red]No transcription found for {file_path}. Looked in {text_path}")
             return {
-                "error": f"No cleaned text found for {file_path}. Looked in {text_path}",
-                "source": str(rel_path)
+                "error": f"No transcription found for {file_path}. Looked in {text_path}",
+                "source": str(file_path)
             }
 
-        # Read cleaned text
-        cleaned_text = text_path.read_text(encoding='utf-8')
+        # Read transcription text
+        transcription_text = text_path.read_text(encoding='utf-8')
         
         # Create or get document
-        docs_dict = process_document.docs_dict
-        if doc_folder not in docs_dict:
+        docs_dict = process_image.docs_dict
+        if str(source_dir.parent) not in docs_dict:
             doc = Document()
-            create_cover_page(doc, doc_folder)  # Use full folder path
-            docs_dict[doc_folder] = {"doc": doc}
+            create_cover_page(doc, str(source_dir.parent))
+            docs_dict[str(source_dir.parent)] = {"doc": doc}
         
         # Add spread to document
-        doc_info = docs_dict[doc_folder]
-        create_spread(doc_info["doc"], source_path, cleaned_text, filename)
+        doc_info = docs_dict[str(source_dir.parent)]
+        create_spread(doc_info["doc"], file_path, transcription_text, file_path.stem)
+        
+        # Build output path preserving full source hierarchy
+        rel_path = source_dir.parent.with_suffix('.docx')
         
         return {
-            "source": str(rel_path),
-            "doc_folder": doc_folder,
-            "success": True,
+            "outputs": [str(rel_path)],
+            "source": str(SegmentHandler.get_relative_path(file_path)),
             "details": {
-                "text_length": len(cleaned_text)
+                "text_length": len(transcription_text)
             }
         }
         
     except Exception as e:
+        console.print(f"[red]Error processing {file_path}: {e}")
         return {
+            "error": str(e),
+            "source": str(file_path)
+        }
+
+def process_document(file_path: str, output_folder: Path, transcriptions_folder: Path) -> dict:
+    """Process a single document file"""
+    try:
+        # Convert file_path to Path and get base filename
+        file_path = Path(file_path)
+        base_filename = get_base_filename(file_path.name)
+        
+        # Find the corresponding transcription text file
+        transcription_file = transcriptions_folder / "documents" / f"{base_filename}.txt"
+        
+        if not transcription_file.exists():
+            console.print(f"[red]No transcription found for {file_path}. Looked in {transcription_file}")
+            return {
+                "error": f"No transcription found for {file_path}. Looked in {transcription_file}",
+                "source": str(file_path)
+            }
+
+        # Read transcription text
+        transcription_text = transcription_file.read_text(encoding='utf-8')
+        
+        # Create or get document
+        if not hasattr(process_document, 'docs_dict'):
+            process_document.docs_dict = {}
+            
+        # Use the parent folder name as the document key
+        doc_key = "1948 José Leonidas Mosquera"
+        
+        if doc_key not in process_document.docs_dict:
+            doc = Document()
+            set_document_properties(doc)
+            create_cover_page(doc, doc_key)
+            process_document.docs_dict[doc_key] = {"doc": doc}
+        
+        # Add spread to document
+        doc_info = process_document.docs_dict[doc_key]
+        create_spread(doc_info["doc"], file_path.with_suffix('.png'), transcription_text, base_filename)
+        
+        # Build output path
+        out_path = Path(doc_key).with_suffix('.docx')
+        
+        return {
+            "outputs": [str(out_path)],
             "source": str(file_path),
-            "error": str(e)
+            "details": {
+                "text_length": len(transcription_text)
+            }
+        }
+    except Exception as e:
+        console.print(f"[red]Error processing {file_path}: {e}")
+        return {
+            "error": str(e),
+            "source": str(file_path)
         }
 
 def convert_to_word(
-    image_folder: Path = typer.Argument(..., help="Folder containing enhanced images"),
-    image_manifest: Path = typer.Argument(..., help="Path to image manifest file"),
-    output_folder: Path = typer.Argument(..., help="Output folder for Word documents")
+    background_removed_folder: Path = typer.Argument(..., help="Input background removed images folder"),
+    background_removed_manifest: Path = typer.Argument(..., help="Input background removed manifest"),
+    word_folder: Path = typer.Argument(..., help="Output folder for Word documents"),
+    transcriptions_folder: Path = typer.Argument(..., help="Folder containing transcription files")
 ):
-    """Convert images and cleaned text to Word documents with side-by-side layout"""
+    """Convert background-removed images and transcriptions to Word documents with side-by-side layout"""
+    console.print(f"[green]Converting images in {background_removed_folder} to Word documents")
     
-    # Create storage for documents
-    process_document.docs_dict = {}
-    
-    # Process files
     processor = BatchProcessor(
-        input_manifest=image_manifest,
-        output_folder=output_folder,
+        input_manifest=background_removed_manifest,
+        output_folder=word_folder,
         process_name="convert_to_word",
-        base_folder=image_folder,
-        processor_fn=lambda f, o: process_document(f, o)
+        base_folder=background_removed_folder / "documents",
+        processor_fn=lambda f, o: process_document(f, o, transcriptions_folder)
     )
     
     results = processor.process()
     
     # Save accumulated documents
-    output_folder.mkdir(parents=True, exist_ok=True)
-    for folder_name, doc_info in process_document.docs_dict.items():
-        # Create full path including subdirectories
-        out_path = output_folder / folder_name
+    word_folder.mkdir(parents=True, exist_ok=True)
+    for doc_key, doc_info in process_document.docs_dict.items():
+        # Create output path
+        out_path = word_folder / Path(doc_key).with_suffix('.docx')
         # Ensure parent directories exist
         out_path.parent.mkdir(parents=True, exist_ok=True)
-        # Add .docx extension and save
-        doc_info["doc"].save(str(out_path.with_suffix('.docx')))
+        # Save document
+        doc_info["doc"].save(str(out_path))
     
     return results
 

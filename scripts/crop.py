@@ -141,7 +141,9 @@ def process_pdf(file_path: Path, out_path: Path) -> dict:
     # Return None since we handled the output directly
     return None
 
-def process_document(file_path: str, output_folder: Path) -> dict:
+def process_document(file_path: str, output_folder: Path, method: str = 'enhanced',
+                    background: str = 'messy', edges: str = 'complex',
+                    deskew: bool = True, debug: bool = False) -> dict:
     """Process a single document file"""
     file_path = Path(file_path)
     
@@ -158,23 +160,32 @@ def process_document(file_path: str, output_folder: Path) -> dict:
     return process_file(
         file_path=str(file_path),
         output_folder=output_folder,
-        process_fn=process_pdf if file_path.suffix.lower() == '.pdf' else process_image,
+        process_fn=lambda f, o: process_pdf(f, o) if file_path.suffix.lower() == '.pdf' else process_image(f, o),
         file_types=supported_types
     )
 
 def crop(
     documents_folder: Path = typer.Argument(..., help="Input documents folder"),
     documents_manifest: Path = typer.Argument(..., help="Input documents manifest file"),
-    crops_folder: Path = typer.Argument(..., help="Output folder for cropped images")
+    crops_folder: Path = typer.Argument(..., help="Output folder for cropped images"),
+    method: str = typer.Option('enhanced', help="Cropping method: basic, contour, enhanced, or doctr"),
+    background: str = typer.Option('white', help="Background type: black, white, messy, or colored"),
+    edges: str = typer.Option('straight', help="Edge type: straight or complex"),
+    deskew: str = typer.Option('false', help="Apply deskew after cropping"),
+    debug: str = typer.Option('false', help="Save debug images")
 ):
     """Crop images from documents"""
+    # Convert string boolean parameters to actual booleans
+    deskew_bool = deskew.lower() == 'true'
+    debug_bool = debug.lower() == 'true'
+    
     processor = BatchProcessor(
         input_manifest=documents_manifest,
         output_folder=crops_folder,
         process_name="crop",
-        processor_fn=process_document,
-        base_folder=documents_folder,  # Remove /documents since it will be in the paths
-        use_source=True  # Use source paths from manifest
+        processor_fn=lambda f, o: process_document(f, o),
+        base_folder=documents_folder,
+        use_source=True
     )
     processor.process()
 

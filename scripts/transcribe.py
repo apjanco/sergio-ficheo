@@ -5,7 +5,7 @@ import numpy as np
 import re
 from PIL import Image
 import warnings
-from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
+from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
 from rich.console import Console
 from utils.batch import BatchProcessor
 from utils.processor import process_file
@@ -17,7 +17,7 @@ console = Console()
 # Set environment variable to avoid parallelism warning
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-DEFAULT_PROMPT = "Extract ALL text."
+DEFAULT_PROMPT = "Extract all text line by line. Do not number lines. RETURN ONLY PLAIN TEXT. SAY NOTHING ELSE"
 
 class TranscriptionProcessor:
     _instance = None
@@ -60,21 +60,11 @@ class TranscriptionProcessor:
                     self.model_name,
                     trust_remote_code=True
                 )
-                if self.device == "mps":
-                    dtype = torch.float32
-                    devmap = None
-                else:
-                    dtype = torch.float16
-                    devmap = "auto"
-
-                self._model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+                self._model = Qwen2VLForConditionalGeneration.from_pretrained(
                     self.model_name,
-                    trust_remote_code=True,
-                    torch_dtype=dtype,
-                    device_map=devmap
+                    torch_dtype="auto",
+                    device_map="auto"  # Keep original device handling
                 )
-                if self.device == "mps":
-                    self._model.to("mps")
                 console.print("[green]Model loaded successfully")
             except Exception as e:
                 console.print(f"[red]Error loading model: {e}")
@@ -139,10 +129,10 @@ class TranscriptionProcessor:
 
         try:
             # Image preprocessing
-            max_size = 512  # Reduce max size to save memory
+            max_size = 1000
             width, height = image.size
             aspect_ratio = max(width, height) / float(min(width, height))
-            if (aspect_ratio > 200):
+            if aspect_ratio > 200:
                 return ""
 
             if width > max_size or height > max_size:
@@ -171,7 +161,7 @@ class TranscriptionProcessor:
                 text=prompt_text,
                 images=image,
                 return_tensors="pt",
-                max_length=1024,  # Reduce max length to save memory
+                max_length=2048,  # Increased for longer contexts
                 truncation=True
             )
 
@@ -182,7 +172,7 @@ class TranscriptionProcessor:
             with torch.no_grad():
                 outputs = self.model.generate(
                     **inputs,
-                    max_new_tokens=min(max_new_tokens, 512),  # Reduce max new tokens to save memory
+                    max_new_tokens=max_new_tokens,
                     min_new_tokens=10,
                     num_beams=1,          # Reduce beams for faster processing
                     do_sample=True,       # Enable sampling
@@ -231,26 +221,16 @@ def process_image(img_path: Path, out_path: Path) -> dict:
         try:
             # Initialize transcriber with model
             transcriber = TranscriptionProcessor(
-                model_name="Qwen/Qwen2.5-VL-3B-Instruct",
+                model_name="Qwen/Qwen2-VL-2B-Instruct",
                 prompt=DEFAULT_PROMPT
             )
             
             # Load and process image
             image = Image.open(img_path).convert("RGB")
             
-            # Add padding if image is too narrow or too short
-            min_height = 50  # Slightly larger than required 28 for safety
-            min_width = 50   # Slightly larger than required 28 for safety
-            if image.height < min_height or image.width < min_width:
-                padding_height = max(min_height - image.height, 0) // 2
-                padding_width = max(min_width - image.width, 0) // 2
-                padded_image = Image.new('RGB', (max(image.width, min_width), max(image.height, min_height)), (255, 255, 255))  # White background
-                padded_image.paste(image, (padding_width, padding_height))
-                image = padded_image
-            
-            # Continue with existing processing
+            # Get actual transcription from LLM with text density estimation
             estimated_words = transcriber.estimate_text_density(image)
-            max_new_tokens = min(estimated_words * 2, 2048)
+            max_new_tokens = min(estimated_words * 2, 2048)  # Adjust multiplier as needed
             transcription = transcriber.process_image(image, max_new_tokens)
             token_count = transcriber.count_tokens(transcription)
             
@@ -359,7 +339,7 @@ def transcribe(
     segment_manifest: Path = typer.Argument(..., help="Input segments manifest"),
     transcribed_folder: Path = typer.Argument(..., help="Output folder for transcriptions"),
     model_name: str = typer.Option(
-        "Qwen/Qwen2.5-VL-3B-Instruct",
+        "Qwen/Qwen2-VL-2B-Instruct",
         "--model", "-m",
         help="Model name to use"
     ),
