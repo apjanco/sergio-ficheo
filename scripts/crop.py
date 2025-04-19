@@ -23,52 +23,116 @@ def is_predominantly_black(image: Image.Image, threshold: float = 0.90) -> bool:
     return (black_pixels / total_pixels) > threshold
 
 def contour_crop(image: Image.Image) -> Image.Image:
-    """Automatic contour-based cropping for documents."""
-    # Convert image to grayscale for edge detection
-    img_gray = np.array(image.convert("L"))
+    """Automatic contour-based cropping for documents with improved handling of messy backgrounds."""
+    # Convert image to numpy array
+    img_array = np.array(image)
     
-    # Apply Gaussian blur to reduce noise
-    img_blurred = cv2.GaussianBlur(img_gray, (3, 3), 0)
+    # Convert to grayscale if needed
+    if len(img_array.shape) == 3:
+        img_gray = cv2.cvtColor(img_array, cv2.COLOR_RGB2GRAY)
+    else:
+        img_gray = img_array
     
-    # Use Canny edge detection (adjust thresholds for better edge detection)
-    edges = cv2.Canny(img_blurred, 50, 150)
+    # Get dimensions
+    height, width = img_gray.shape
     
-    # Apply dilation to enhance edges
-    dilated_edges = cv2.dilate(edges, None, iterations=5)  # Increase iterations for better detection
+    # Apply bilateral filter to reduce noise while preserving edges
+    blurred = cv2.bilateralFilter(img_gray, 9, 75, 75)
     
-    # Find contours in the edges
-    contours, _ = cv2.findContours(dilated_edges, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    # Apply adaptive thresholding first (more reliable for documents)
+    thresh = cv2.adaptiveThreshold(
+        blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
+        cv2.THRESH_BINARY_INV, 11, 2
+    )
     
-    for contour in sorted(contours, key=cv2.contourArea, reverse=True):
-        # Get the bounding rectangle of the contour
-        x, y, w, h = cv2.boundingRect(contour)
+    # Dilate to connect components
+    kernel = np.ones((5, 5), np.uint8)
+    dilated = cv2.dilate(thresh, kernel, iterations=2)
+    
+    # Find contours from thresholded image
+    contours, _ = cv2.findContours(dilated, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    
+    # If no contours found, try Canny edge detection
+    if not contours:
+        edges = cv2.Canny(blurred, 30, 100)  # More sensitive thresholds
+        dilated_edges = cv2.dilate(edges, kernel, iterations=3)
+        contours, _ = cv2.findContours(dilated_edges, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    
+    # Sort by area (largest first)
+    contours = sorted(contours, key=cv2.contourArea, reverse=True)
+    
+    # Process large contours
+    for contour in contours[:3]:  # Try top 3 largest contours
+        area = cv2.contourArea(contour)
+        img_area = width * height
         
-        # Skip contours that are likely rulers
-        if is_likely_ruler(w, h):
+        # Lower threshold to 10% of image area
+        if area < (img_area * 0.1):
             continue
         
-        # Add margin to the bounding box
-        x_margin = 10
-        y_margin = 10
-        x = max(0, x - x_margin)
-        y = max(0, y - y_margin)
-        w = min(img_gray.shape[1] - x, w + 2 * x_margin)
-        h = min(img_gray.shape[0] - y, h + 2 * y_margin)
+        # Try to get a more precise polygon approximation
+        epsilon = 0.02 * cv2.arcLength(contour, True)
+        approx = cv2.approxPolyDP(contour, epsilon, True)
         
-        # Check if the cropped area is larger than the minimum size ratio of the original image
-        min_width = img_gray.shape[1] * 0.2
-        min_height = img_gray.shape[0] * 0.2
-        aspect_ratio = max(w / h, h / w)
-        if w >= min_width and h >= min_height and aspect_ratio <= 10:
-            # Crop the original image using the bounding box
-            img_array = np.array(image)
-            cropped_img = img_array[y:y+h, x:x+w]
-            cropped_image = Image.fromarray(cropped_img)
-            # Check if the cropped image is predominantly black
-            if is_predominantly_black(cropped_image):
-                return image
-            return cropped_image
+        # If we have a quadrilateral, use it directly
+        if len(approx) == 4:
+            x, y, w, h = cv2.boundingRect(approx)
+        else:
+            # For non-quadrilateral, try to find the largest rectangle
+            rect = cv2.minAreaRect(contour)
+            box = cv2.boxPoints(rect)
+            box = np.int0(box)
+            x, y, w, h = cv2.boundingRect(box)
+        
+        # Skip extreme aspect ratios (more lenient now)
+        aspect_ratio = max(w/h, h/w)
+        if aspect_ratio > 8:  # More lenient aspect ratio
+            continue
+        
+        # Add larger margin (3%)
+        margin_x = int(w * 0.03)
+        margin_y = int(h * 0.03)
+        
+        # Apply margin with bounds checking
+        x = max(0, x - margin_x)
+        y = max(0, y - margin_y)
+        w = min(width - x, w + 2 * margin_x)
+        h = min(height - y, h + 2 * margin_y)
+        
+        # Crop image
+        cropped = img_array[y:y+h, x:x+w]
+        
+        # Check if the cropped area is predominantly black
+        if is_predominantly_black(Image.fromarray(cropped)):
+            continue
+            
+        return Image.fromarray(cropped)
     
+    # If still no suitable contours found, try OTSU thresholding
+    _, thresh_otsu = cv2.threshold(blurred, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
+    dilated_otsu = cv2.dilate(thresh_otsu, kernel, iterations=3)
+    contours_otsu, _ = cv2.findContours(dilated_otsu, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    
+    # Sort by area
+    contours_otsu = sorted(contours_otsu, key=cv2.contourArea, reverse=True)
+    
+    # Try to find a suitable contour
+    for contour in contours_otsu[:2]:
+        x, y, w, h = cv2.boundingRect(contour)
+        # Lower threshold to 15% of image
+        if (w*h) > (width*height*0.15):
+            # Add margin
+            margin_x = int(w * 0.03)
+            margin_y = int(h * 0.03)
+            x = max(0, x - margin_x)
+            y = max(0, y - margin_y)
+            w = min(width - x, w + 2 * margin_x)
+            h = min(height - y, h + 2 * margin_y)
+            # Crop image
+            cropped = img_array[y:y+h, x:x+w]
+            return Image.fromarray(cropped)
+    
+    # If all else fails, return original image
     return image
 
 def process_image(file_path: Path, out_path: Path) -> dict:
