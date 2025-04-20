@@ -21,12 +21,12 @@ def process_file(
     else:
         rel_path = file_path
     
-    # Force .jpg extension for output path
-    out_path = output_folder / "documents" / rel_path.with_suffix('.jpg')
+    # Keep original file extension
+    out_path = output_folder / "documents" / rel_path
     
     manifest_entry = {
         "source": str(rel_path),  # Store just the relative path
-        "outputs": [str(rel_path.with_suffix('.jpg'))],  # Also just relative path
+        "outputs": [str(rel_path)],  # Also just relative path
         "processed_at": datetime.now().isoformat(),
         "success": False,
         "details": {}
@@ -36,7 +36,8 @@ def process_file(
         if not file_path.exists():
             raise FileNotFoundError(f"File not found: {file_path}")
             
-        if file_types and file_path.suffix.lower() not in file_types:
+        # Accept common image formats
+        if file_types and file_path.suffix.lower() not in ['.jpg', '.jpeg', '.png', '.tif', '.tiff']:
             raise ValueError(f"Unsupported file type: {file_path.suffix}")
         
         out_path.parent.mkdir(parents=True, exist_ok=True)

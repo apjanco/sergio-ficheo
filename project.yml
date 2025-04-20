@@ -19,7 +19,7 @@ vars:
   version: "0.0.0"
   
   # project_folder: "projects/sergio_notebooks" # Change this to run on different folders
-  project_folder: "/Users/dtubb/Desktop/1948"
+  project_folder: "/Users/dtubb/code/sergio-ficheo/projects/ghc_test"
   documents_folder: "${vars.project_folder}/documents"
   assets_folder: "${vars.project_folder}/assets"
 
@@ -123,7 +123,19 @@ workflows:
     - enhance
     - remove_background
     - transcribe_qwen_max
-    
+    - convert_to_word
+
+  test-qwen-max-with-segments:
+    - build_documents_manifest
+    - crop
+    - split
+    - rotate
+    - enhance
+    - remove_background
+    - segment
+    - transcribe_qwen_max_segments
+    - recombine_segments
+    - fuzzy_clean
     - convert_to_word
 
   build_manifest:
@@ -301,7 +313,15 @@ commands:
       - ${vars.transcriptions_folder}
       - ${vars.transcription_manifest}  # Add manifest output
 
-  - name: recombine_segments  # Changed from recombine_chunks
+  - name: transcribe_qwen_max_segments
+    help: "Transcribe segmented documents using Alibaba Qwen"
+    script:
+      - "python scripts/transcribe_qwen_max.py ${vars.segmented_image_folder}/documents ${vars.segment_manifest} ${vars.transcriptions_folder}"
+    outputs:
+      - ${vars.transcriptions_folder}
+      - ${vars.transcription_manifest}
+
+  - name: recombine_segments
     help: "Recombine the transcribed segments into single markdown files"
     script:
       - "python scripts/recombine_segments.py ${vars.transcriptions_folder} ${vars.recombined_folder} ${vars.transcriptions_folder}/transcribe_manifest.jsonl ${vars.background_removed_image_folder}/remove_multi_obj_black_bg_manifest.jsonl"

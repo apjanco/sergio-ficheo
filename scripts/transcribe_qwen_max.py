@@ -52,8 +52,8 @@ def process_image(file_path: Path, out_path: Path) -> dict:
                 messages=[{
                     "role": "user",
                     "content": [
-                        {"type": "text", "text": "Extract all text line by line. Do not number lines. RETURN ONLY PLAIN TEXT. SAY NOTHING ELSE"},
-                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}}
+                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}},
+                        {"type": "text", "text": "Extract all text line by line. Do not number lines. RETURN ONLY PLAIN TEXT. SAY NOTHING ELSE. DO NOT PROCESS REVERSED TEXT, MIRROED TEXT, GIBBERISH, OR TEXT IN LANGUAGE YOU DO NOT RECOGNIZE. RETURN EMTPY"},
                     ]
                 }]
             )
@@ -132,7 +132,7 @@ def transcribe(
         output_folder=transcribed_folder,
         process_name="transcribe_qwen_max",
         processor_fn=lambda f, o: process_document(f, o),
-        base_folder=background_removed_folder / "documents"
+        base_folder=background_removed_folder
     )
     
     return processor.process()

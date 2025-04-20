@@ -4,6 +4,13 @@ projects/ghc
 projects/marshall_diary
 projects/test
 projects/numero18
+projects/ghc_test
 .DS_Store
 project.lock
 .env
+yolov8n.pt
+yolovo8x.pt
+yolov8x.pt.647e7769c9c94dc19b468c023552401e.partial
+__pycache__
+__site
+_templates

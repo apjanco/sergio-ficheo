@@ -129,11 +129,12 @@ def contour_crop(image: Image.Image, image_path: Path = None) -> tuple[Image.Ima
     height, width = img_array.shape[:2]
     details["pre_processing"]["original_dimensions"] = {"width": width, "height": height}
     
-    # Run YOLO detection with very low confidence threshold to catch all potential boxes
-    results = model(img_array, conf=0.001)
+    # Run YOLO detection with lower confidence threshold
+    results = model(img_array, conf=0.05)  # Lower confidence threshold for more aggressive detection
     
     # Process detections
     if len(results) > 0 and len(results[0].boxes) > 0:
+        # Get the largest detection (assuming it's the document)
         boxes = results[0].boxes
         best_box = None
         max_score = 0
@@ -142,14 +143,12 @@ def contour_crop(image: Image.Image, image_path: Path = None) -> tuple[Image.Ima
         
         for box in boxes:
             x1, y1, x2, y2 = box.xyxy[0].cpu().numpy()
-            box_width = x2 - x1
-            box_height = y2 - y1
-            area = box_width * box_height
+            area = (x2 - x1) * (y2 - y1)
             conf = box.conf[0].cpu().numpy()
             area_ratio = area / (width * height)
             
-            # Skip tiny or huge detections
-            if area_ratio < 0.1 or area_ratio > 0.98:
+            # Skip if the detection is too small or too large
+            if area_ratio < 0.05 or area_ratio > 0.98:
                 continue
                 
             # Calculate center position of the box
@@ -157,39 +156,33 @@ def contour_crop(image: Image.Image, image_path: Path = None) -> tuple[Image.Ima
             center_y = (y1 + y2) / 2
             
             # Calculate position scores (prefer boxes closer to center)
-            # More lenient on horizontal position to handle rulers
             center_score_x = 1 - abs(center_x - width/2) / (width/2)
             center_score_y = 1 - abs(center_y - height/2) / (height/2)
-            position_score = (center_score_x * 0.3 + center_score_y * 0.7)  # Weight vertical position more
+            position_score = (center_score_x + center_score_y) / 2
             
-            # Calculate aspect ratio score (prefer document-like aspect ratios)
-            aspect_ratio = box_width / box_height
-            # Prefer aspect ratios close to common document formats (A4, letter, etc.)
-            aspect_score = 1 - min(abs(aspect_ratio - 0.707), abs(aspect_ratio - 1.414))
+            # Calculate aspect ratio score (prefer standard document-like aspect ratios)
+            aspect_ratio = (x2 - x1) / (y2 - y1)
+            aspect_score = 1 - min(abs(aspect_ratio - 0.707), abs(aspect_ratio - 1.414))  # Prefer A4-like ratios
             
-            # Calculate box fill ratio (how much of the bounding box is filled)
-            # This helps identify solid rectangular shapes vs sparse detections
-            fill_ratio = area / (box_width * box_height)
-            fill_score = fill_ratio
+            # Calculate area score (prefer medium-sized documents)
+            area_score = 1 - abs(area_ratio - 0.5)  # Peak at 50% area ratio
             
-            # Calculate size preference score
-            # Prefer larger boxes that don't touch the edges
-            edge_margin = 10  # pixels
-            touches_edge = (x1 <= edge_margin or y1 <= edge_margin or 
-                          x2 >= width - edge_margin or y2 >= height - edge_margin)
-            size_score = area_ratio * (0.8 if touches_edge else 1.0)
+            # Calculate ruler detection score
+            is_ruler = is_likely_ruler(x2 - x1, y2 - y1)
+            ruler_score = 0 if is_ruler else 1
             
-            # Calculate final score with adjusted weights
+            # Calculate final score with weighted components
             score = (
-                position_score * 0.35 +  # Heavily weight position
-                aspect_score * 0.25 +    # Document-like shape is important
-                size_score * 0.25 +      # Prefer larger detections
-                fill_score * 0.15        # Solid shapes preferred
+                conf * 0.3 +  # Confidence from YOLO
+                position_score * 0.3 +  # Position in image
+                aspect_score * 0.2 +  # Aspect ratio
+                area_score * 0.1 +  # Area ratio
+                ruler_score * 0.1  # Ruler detection
             )
             
             logger.info(f"Detection: area={area:.2f}, conf={conf:.2f}, area_ratio={area_ratio:.2f}, "
                        f"position_score={position_score:.2f}, aspect_score={aspect_score:.2f}, "
-                       f"size_score={size_score:.2f}, fill_score={fill_score:.2f}, final_score={score:.2f}")
+                       f"ruler_score={ruler_score:.2f}, final_score={score:.2f}")
             
             if score > max_score:
                 max_score = score
@@ -201,11 +194,15 @@ def contour_crop(image: Image.Image, image_path: Path = None) -> tuple[Image.Ima
             
             logger.info(f"Selected best detection: score={max_score:.2f}, conf={conf:.2f}")
             
-            # No padding to keep tight crops
-            x1 = max(0, int(x1))
-            y1 = max(0, int(y1))
-            x2 = min(width, int(x2))
-            y2 = min(height, int(y2))
+            # Add margin
+            margin_x = int((x2 - x1) * 0.02)  # Reduced margin from 5% to 2%
+            margin_y = int((y2 - y1) * 0.02)  # Reduced margin from 5% to 2%
+            
+            # Apply margin with bounds checking
+            x1 = max(0, int(x1) - margin_x)
+            y1 = max(0, int(y1) - margin_y)
+            x2 = min(width, int(x2) + margin_x)
+            y2 = min(height, int(y2) + margin_y)
             
             # Crop image
             cropped = img_array[y1:y2, x1:x2]
@@ -235,8 +232,8 @@ def contour_crop(image: Image.Image, image_path: Path = None) -> tuple[Image.Ima
                 "score_components": {
                     "position_score": float(position_score),
                     "aspect_score": float(aspect_score),
-                    "size_score": float(size_score),
-                    "fill_score": float(fill_score)
+                    "area_score": float(area_score),
+                    "ruler_score": float(ruler_score)
                 }
             }
             

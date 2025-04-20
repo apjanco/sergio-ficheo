@@ -20,6 +20,9 @@ console = Console()
 # Update the grey color to a lighter shade
 GREY_FILL = "E8E8E8"  # Lighter grey
 
+# Initialize docs_dict at module level
+docs_dict = {}
+
 def set_document_properties(doc):
     """Set up initial document properties"""
     section = doc.sections[0]
@@ -188,10 +191,10 @@ def create_spread(doc, image_path, text, filename):
 def process_image(file_path: Path, out_path: Path, transcriptions_folder: Path) -> dict:
     """Process a single image file, returning manifest-compatible output"""
     try:
-        # Get source folder structure from input path
-        source_dir = Path(*file_path.parts[file_path.parts.index('documents')+1:])
+        # Get source folder structure from input path, preserving everything after 'documents'
+        source_dir = Path(*file_path.parts[file_path.parts.index('documents'):])
         
-        # Find corresponding text file
+        # Find corresponding text file - use the full path from documents/
         text_path = transcriptions_folder / source_dir.with_suffix('.txt')
         
         if not text_path.exists():
@@ -205,7 +208,7 @@ def process_image(file_path: Path, out_path: Path, transcriptions_folder: Path) 
         transcription_text = text_path.read_text(encoding='utf-8')
         
         # Create or get document
-        docs_dict = process_image.docs_dict
+        global docs_dict  # Use the module-level docs_dict
         if str(source_dir.parent) not in docs_dict:
             doc = Document()
             create_cover_page(doc, str(source_dir.parent))
@@ -240,8 +243,31 @@ def process_document(file_path: str, output_folder: Path, transcriptions_folder:
         file_path = Path(file_path)
         base_filename = get_base_filename(file_path.name)
         
+        # Get the relative path from the documents folder, preserving everything after 'documents'
+        rel_path = Path(*file_path.parts[file_path.parts.index('documents'):])
+        
         # Find the corresponding transcription text file
-        transcription_file = transcriptions_folder / "documents" / f"{base_filename}.txt"
+        # Remove .txt extension if it exists and replace with image extension
+        if rel_path.suffix == '.txt':
+            rel_path = rel_path.with_suffix('')
+        
+        # Look for image file with various extensions
+        image_path = None
+        for ext in ['.jpg', '.jpeg', '.png', '.tif', '.tiff']:
+            test_path = file_path.with_suffix(ext)
+            if test_path.exists():
+                image_path = test_path
+                break
+                
+        if not image_path:
+            console.print(f"[red]No image found for {file_path}")
+            return {
+                "error": f"No image found for {file_path}",
+                "source": str(file_path)
+            }
+        
+        # Find transcription file - use the full path from documents/
+        transcription_file = transcriptions_folder / rel_path.with_suffix('.txt')
         
         if not transcription_file.exists():
             console.print(f"[red]No transcription found for {file_path}. Looked in {transcription_file}")
@@ -253,25 +279,22 @@ def process_document(file_path: str, output_folder: Path, transcriptions_folder:
         # Read transcription text
         transcription_text = transcription_file.read_text(encoding='utf-8')
         
-        # Create or get document
-        if not hasattr(process_document, 'docs_dict'):
-            process_document.docs_dict = {}
-            
-        # Use the parent folder name as the document key
-        doc_key = "1948 José Leonidas Mosquera"
+        # Get the parent folder name for document grouping
+        parent_folder = file_path.parent.name
         
-        if doc_key not in process_document.docs_dict:
+        # Create or get document
+        if parent_folder not in docs_dict:
             doc = Document()
             set_document_properties(doc)
-            create_cover_page(doc, doc_key)
-            process_document.docs_dict[doc_key] = {"doc": doc}
+            create_cover_page(doc, parent_folder)
+            docs_dict[parent_folder] = {"doc": doc}
         
         # Add spread to document
-        doc_info = process_document.docs_dict[doc_key]
-        create_spread(doc_info["doc"], file_path.with_suffix('.png'), transcription_text, base_filename)
+        doc_info = docs_dict[parent_folder]
+        create_spread(doc_info["doc"], image_path, transcription_text, base_filename)
         
         # Build output path
-        out_path = Path(doc_key).with_suffix('.docx')
+        out_path = Path(parent_folder).with_suffix('.docx')
         
         return {
             "outputs": [str(out_path)],
@@ -296,6 +319,9 @@ def convert_to_word(
     """Convert background-removed images and transcriptions to Word documents with side-by-side layout"""
     console.print(f"[green]Converting images in {background_removed_folder} to Word documents")
     
+    # Clear any existing docs_dict
+    docs_dict.clear()
+    
     processor = BatchProcessor(
         input_manifest=background_removed_manifest,
         output_folder=word_folder,
@@ -308,7 +334,7 @@ def convert_to_word(
     
     # Save accumulated documents
     word_folder.mkdir(parents=True, exist_ok=True)
-    for doc_key, doc_info in process_document.docs_dict.items():
+    for doc_key, doc_info in docs_dict.items():
         # Create output path
         out_path = word_folder / Path(doc_key).with_suffix('.docx')
         # Ensure parent directories exist
