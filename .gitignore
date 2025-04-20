@@ -6,6 +6,7 @@ projects/test
 projects/numero18
 projects/ghc_test
 projects/sergio_notebooks
+test
 .DS_Store
 project.lock
 .env
