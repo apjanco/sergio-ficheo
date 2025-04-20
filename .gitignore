@@ -1,0 +1,24 @@
+projects/daniel
+projects/demo
+projects/ghc
+projects/marshall_diary
+projects/test
+projects/numero18
+projects/ghc_test
+projects/sergio_notebooks
+.DS_Store
+project.lock
+.env
+yolov8n.pt
+yolovo8x.pt
+yolov8x.pt.647e7769c9c94dc19b468c023552401e.partial
+__pycache__
+__site
+_templates
+# Large files
+yolov8x.pt
+yolov8n.pt
+*.pt
+assets/data/data_ner_summary_progress.jsonl
+site/sergioDB/chroma.sqlite3
+output.png

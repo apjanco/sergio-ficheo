@@ -1,0 +1,458 @@
+title: "Sergio Transcriptions. From images to research data"
+description: > 
+  This project offers a workflow to process documents from Sergio Mosquera's transcriptions of Libro venta esclavo (1810) fom Notaria Primera de Quibdó.
+
+  In this project, we will:
+  - Process the existing doc-level metadata file
+  - Read a folder of image files ([JPG](https://app.box.com/folder/235653219613))
+  - Split the images into single-page images for processing. Note that many documents should not be split.
+  - Create a Hugging Face Dataset
+  - Transcribe the images using the Qwen model in Lightning.ai
+  - Process the transcriptions to extract structured data
+  - Publish the project in a static site (TODO txt and PDF)
+  - Remove black and purple background from images
+
+vars:
+  name: "Sergio Notebooks"
+  language: "es"
+  text_direction: 'horizontal-lr' #['horizontal-lr', 'horizontal-rl', 'vertical-lr', 'vertical-rl']
+  version: "0.0.0"
+  
+  # project_folder: "projects/sergio_notebooks" # Change this to run on different folders
+  project_folder: "/Users/dtubb/code/sergio-ficheo/projects/ghc_test"
+  documents_folder: "${vars.project_folder}/documents"
+  assets_folder: "${vars.project_folder}/assets"
+
+  # metadata
+  documents_manifest_folder: "${vars.assets_folder}/manifests"
+  documents_manifest: "${vars.assets_folder}/manifests/documents_manifest.jsonl"
+
+  # metadata
+  metadata_file: "${vars.project_folder}/assets/Base_de_datos_Cuadernos_Sergio_Notaría_Primera_de_Quibdó_(1808-1825).xlsx"
+    
+  # crop
+  crops_folder: "${vars.assets_folder}/crops"
+  crop_method: "enhanced"  # Options: basic, contour, enhanced, doctr
+  crop_background: "messy"  # Options: black, white, messy, colored
+  crop_edges: "complex"  # Options: straight, complex
+  crop_deskew: true  # Whether to deskew after cropping
+  crop_debug: false  # Whether to save debug images
+  
+  split_image_folder: "${vars.assets_folder}/splits"
+  rotated_image_folder: "${vars.assets_folder}/rotated"
+  background_removed_image_folder: "${vars.assets_folder}/background_removed"
+  txt_folder: "${vars.assets_folder}/txt"
+  nlp_model: "es_core_news_lg"
+  model: "Qwen/Qwen2.0-VL-2B-Instruct"
+  code_model: "Qwen/Qwen2.0-VL-2B-Instruct"
+  dataset_name: "fmb-quibdo/sergio-notebooks"
+  enhanced_image_folder: "${vars.assets_folder}/enhanced"
+  segmented_image_folder: "${vars.assets_folder}/segments"  # Changed from chunks
+  transcriptions_folder: "${vars.assets_folder}/transcriptions"  # Changed from txt_chunks
+  prompt: "Extract all text line by line. Do not number lines. RETURN ONLY PLAIN TEXT. SAY NOTHING ELSE"
+  recombined_folder: "${vars.assets_folder}/recombined"
+  cleaned_folder: "${vars.assets_folder}/cleaned"
+  data_folder: "${vars.assets_folder}/data"
+  llm_model: "mistral:instruct" # Options: "chatgpt-4.0-mini", "llama3.1:8b"
+  word_folder: "${vars.assets_folder}/word"
+  word_pretty_folder: "${vars.assets_folder}/word_pretty"
+  exported_data_folder: "${vars.assets_folder}/exported_data"
+  markdown_folder: "${vars.exported_data_folder}/markdown"
+  html_folder: "${vars.exported_data_folder}/html"
+  markdown_image_folder: "${vars.markdown_folder}/images"
+  html_image_folder: "${vars.html_folder}/images"
+  auto_chunk: false  # Turn off auto chunking
+  split_manifest: "${vars.assets_folder}/splits/split_manifest.jsonl"
+  segment_manifest: "${vars.segmented_image_folder}/segment_manifest.jsonl"  # Fix manifest paths
+  transcription_manifest: "${vars.transcriptions_folder}/transcription_manifest.jsonl"  # Fix manifest paths
+
+base_path: projects/demo
+documents_folder: projects/demo/documents
+crops_folder: projects/demo/assets/crops
+
+directories: ["configs", "scripts","_site", "_templates", "pipelines", "packages", "${vars.assets_folder}", "${vars.crops_folder}", "${vars.documents_manifest_folder}"]
+
+workflows:
+  all:
+    - metadata
+    - build_documents_manifest
+    - crop
+    - check_crop_and_copy
+    - split
+    - check_split_and_copy
+    - rotate
+    - enhance
+    - remove_background
+    - segment
+    - transcribe
+    - transcribe_qwen_max
+    - recombine_segments
+    - fuzzy_clean
+    - process_json
+    - process_ner
+    - process_llm_clean_ner
+    - process_ner_fuzzy
+    - process_llm_translate
+    - process_llm_summarize
+    - combine_to_word
+    - combine_to_word_pretty
+    - export_to_excel
+    - export_to_markdown
+    - export_to_html
+    - dataset
+    - publish
+
+  test:
+    - build_documents_manifest
+    - crop
+    - split
+    - rotate
+    - enhance
+    - remove_background
+    - segment  # Changed from chunk
+    - transcribe
+    - recombine_segments  # Changed from recombine_chunks
+    - fuzzy_clean
+    - convert_to_word
+
+  test-qwen-max:
+    - build_documents_manifest
+    - crop
+    - split
+    - rotate
+    - enhance
+    - remove_background
+    - transcribe_qwen_max
+    - convert_to_word
+
+  test-qwen-max-with-segments:
+    - build_documents_manifest
+    - crop
+    - split
+    - rotate
+    - enhance
+    - remove_background
+    - segment
+    - transcribe_qwen_max_segments
+    - recombine_segments
+    - fuzzy_clean
+    - convert_to_word
+
+  build_manifest:
+    - build_documents_manifest
+
+  prepare:
+    - build_documents_manifest
+    - crop
+    - check_crop_and_copy
+    - split
+    - check_split_and_copy
+    - rotate
+    - enhance
+
+  segment_and_transcribe:  # Rename this workflow
+    - segment
+    - transcribe
+    - recombine_segments
+    - fuzzy_clean
+    
+  process_and_clean_ner:
+    - process_ner
+    - process_llm_clean_ner
+    - process_ner_fuzzy
+
+  all-no-metadata:
+    - build_documents_manifest
+    - crop
+    - check_crop_and_copy
+    - split
+    - check_split_and_copy
+    - rotate
+    - enhance
+    - segment  # Changed from chunk
+    - transcribe
+    - recombine_segments  # Changed from recombine_chunks
+    - fuzzy_clean
+    - process_json
+    - process_ner
+    - process_llm_clean_ner
+    - process_ner_fuzzy
+    - process_llm_translate
+    - process_llm_summarize
+    - combine_to_word
+    - combine_to_word_pretty
+    - export_to_excel
+    - export_to_markdown
+    - export_to_html
+    - dataset
+    - publish
+
+  all-ocr:
+    - transcribe
+    - recombine_segments  # Changed from recombine_chunks
+    - fuzzy_clean
+    - process_json
+    - process_ner
+    - process_llm_clean_ner
+    - process_ner_fuzzy
+    - process_llm_translate
+    - process_llm_summarize
+    - combine_to_word
+    - combine_to_word_pretty
+    - export_to_excel
+    - export_to_markdown
+    - export_to_html
+    - dataset
+    - publish
+
+  export_all:
+    - combine_to_word
+    - combine_to_word_pretty
+    - export_to_excel
+    - export_to_markdown
+    - export_to_html
+
+  test-convert:
+    - build_documents_manifest
+    - crop
+    - split
+    - rotate
+    - enhance
+    - remove_background
+    - fuzzy_clean
+    - convert_to_word
+
+commands:
+  - name: metadata
+    help: "Read existing metadata file save as metadata.json"
+    script:
+      - "python scripts/metadata.py \"${vars.metadata_file}\" metadata.json"
+    outputs:
+      - metadata.json
+
+  - name: build_documents_manifest
+    help: "Generate the documents manifest listing"
+    script:
+      - "python scripts/build_documents_manifest.py ${vars.documents_folder} ${vars.documents_manifest}"
+    outputs:
+      - ${vars.documents_manifest}
+
+  - name: crop
+    help: "Crop images using document manifest with automatic multi-threading"
+    script:
+      - "python scripts/crop.py ${vars.documents_folder} ${vars.documents_manifest} ${vars.crops_folder} --method ${vars.crop_method} --background ${vars.crop_background} --edges ${vars.crop_edges} --deskew ${vars.crop_deskew} --debug ${vars.crop_debug}"
+    outputs:
+      - ${vars.crops_folder}
+
+  - name: check_crop_and_copy
+    help: "Copy missing crop files from original documents"
+    script:
+      - "python scripts/check_crop_and_copy.py ${vars.documents_folder} ${vars.crops_folder}"
+    outputs:
+      - ${vars.crops_folder}
+
+  - name: split
+    help: "Split cropped images"
+    script:
+      - "python scripts/split.py ${vars.crops_folder} ${vars.crops_folder}/crop_manifest.jsonl ${vars.split_image_folder}"
+    outputs:
+      - ${vars.split_image_folder}
+      - ${vars.split_image_folder}/split_manifest.jsonl
+
+  - name: check_split_and_copy
+    help: "Copy missing split files from crop folder"
+    script:
+      - "python scripts/check_crop_and_copy.py ${vars.crops_folder} ${vars.split_image_folder}"
+    outputs:
+      - ${vars.split_image_folder}
+
+  - name: rotate
+    help: "Rotate the split images to straighten text."
+    script:
+      - "python scripts/rotate.py ${vars.split_image_folder} ${vars.split_image_folder}/split_manifest.jsonl ${vars.rotated_image_folder}"
+    outputs:
+      - ${vars.rotated_image_folder}
+      - ${vars.rotated_image_folder}/rotate_manifest.jsonl
+
+  - name: enhance
+    help: "Enhance image quality with contrast and clarity improvements"
+    script:
+      - "python scripts/enhance.py ${vars.rotated_image_folder} ${vars.rotated_image_folder}/rotate_manifest.jsonl ${vars.enhanced_image_folder}"
+    outputs:
+      - ${vars.enhanced_image_folder}
+      - ${vars.enhanced_image_folder}/enhance_manifest.jsonl
+
+  - name: remove_background
+    help: "Remove background from enhanced images"
+    script:
+      - "python scripts/remove_background.py ${vars.enhanced_image_folder} ${vars.enhanced_image_folder}/enhance_manifest.jsonl ${vars.background_removed_image_folder}"
+    outputs:
+      - ${vars.background_removed_image_folder}
+
+  - name: segment  # Changed from chunk
+    help: "Segment images into text regions"  # Updated description
+    script:
+      - "python scripts/segment.py ${vars.background_removed_image_folder} ${vars.background_removed_image_folder}/remove_multi_obj_black_bg_manifest.jsonl ${vars.segmented_image_folder}"
+    outputs:
+      - ${vars.segmented_image_folder}
+      - ${vars.segmented_image_folder}/segment_manifest.jsonl  # Add manifest output
+
+  - name: transcribe
+    help: "Transcribe documents using QWEN-VL"
+    script:
+      - "python scripts/transcribe.py ${vars.segmented_image_folder} ${vars.segment_manifest} ${vars.transcriptions_folder}"
+    outputs:
+      - ${vars.transcriptions_folder}
+      - ${vars.transcription_manifest}  # Add manifest output
+
+  - name: transcribe_qwen_max
+    help: "Transcribe documents using Alibaba Qwen"
+    script:
+      - "python scripts/transcribe_qwen_max.py ${vars.background_removed_image_folder} ${vars.background_removed_image_folder}/remove_multi_obj_black_bg_manifest.jsonl ${vars.transcriptions_folder}"
+    outputs:
+      - ${vars.transcriptions_folder}
+      - ${vars.transcription_manifest}  # Add manifest output
+
+  - name: transcribe_qwen_max_segments
+    help: "Transcribe segmented documents using Alibaba Qwen"
+    script:
+      - "python scripts/transcribe_qwen_max.py ${vars.segmented_image_folder}/documents ${vars.segment_manifest} ${vars.transcriptions_folder}"
+    outputs:
+      - ${vars.transcriptions_folder}
+      - ${vars.transcription_manifest}
+
+  - name: recombine_segments
+    help: "Recombine the transcribed segments into single markdown files"
+    script:
+      - "python scripts/recombine_segments.py ${vars.transcriptions_folder} ${vars.recombined_folder} ${vars.transcriptions_folder}/transcribe_manifest.jsonl ${vars.background_removed_image_folder}/remove_multi_obj_black_bg_manifest.jsonl"
+    outputs:
+      - ${vars.recombined_folder}
+      - ${vars.recombined_folder}/recombine_manifest.jsonl
+
+  - name: fuzzy_clean
+    help: "Clean up text from recombined transcriptions"
+    script:
+      - "python scripts/fuzzy_clean.py ${vars.recombined_folder} ${vars.recombined_folder}/recombine_manifest.jsonl ${vars.cleaned_folder}"
+    outputs:
+      - ${vars.cleaned_folder}
+      - ${vars.cleaned_folder}/fuzzy_clean_manifest.jsonl  # Add missing manifest output
+
+  - name: convert_to_word
+    help: "Convert background-removed images and cleaned text to Word documents with side-by-side layout"
+    script:
+      - "python scripts/convert_to_word.py ${vars.background_removed_image_folder} ${vars.transcriptions_folder}/transcribe_qwen_max_manifest.jsonl ${vars.word_folder} ${vars.transcriptions_folder}"
+    outputs:
+      - ${vars.word_folder}
+
+  - name: process_json
+    help: "Process the transcriptions and save to JSONL"
+    script:
+      - "python scripts/process_json.py ${vars.cleaned_folder} ${vars.enhanced_image_folder} ${vars.data_folder}/data.jsonl"
+    outputs:
+      - ${vars.data_folder}/data.jsonl
+
+  - name: process_ner
+    help: "Perform named entity recognition (NER) on the JSONL file"
+    script:
+      - "python scripts/process_ner.py ${vars.data_folder}/data.jsonl ${vars.nlp_model}"
+    outputs:
+      - ${vars.data_folder}/data_ner.jsonl
+
+  - name: process_llm_clean
+    help: "Perform LLM processing on the JSONL file (Clean)"
+    script:
+      - "python scripts/process_llm_clean.py ${vars.data_folder}/data_ner.jsonl ${vars.llm_model} cleaned_text"
+    outputs:
+      - ${vars.data_folder}/data_ner.jsonl
+
+  - name: process_llm_translate
+    help: "Perform LLM processing on the JSONL file (Translate)"
+    script:
+      - "python scripts/process_llm_translate.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.llm_model} english_translation"
+    outputs:
+      - ${vars.data_folder}/data_ner.jsonl
+
+  - name: process_llm_summarize
+    help: "Perform LLM processing on the JSONL file (Summarize)"
+    script:
+      - "python scripts/process_llm_summarize.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.llm_model} summary"
+    outputs:
+      - ${vars.data_folder}/data_ner.jsonl
+
+  - name: process_llm_clean_ner
+    help: "Perform LLM processing on the JSONL file (Clean NER)"
+    script:
+      - "python scripts/process_llm_clean_ner.py ${vars.data_folder}/data_ner.jsonl ${vars.llm_model}"
+    outputs:
+      - ${vars.data_folder}/data_ner.jsonl
+
+  - name: process_ner_fuzzy
+    help: "Perform fuzzy matching to clean NER data"
+    script:
+      - "python scripts/process_ner_fuzzy.py ${vars.data_folder}/data_ner.jsonl"
+    outputs:
+      - ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl
+
+  - name: combine_to_word
+    help: "Combine JSONL data and images into Word documents"
+    script:
+      - "python scripts/combine_to_word.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.enhanced_image_folder} ${vars.word_folder}"
+    outputs:
+      - ${vars.word_folder}/SM_NPQ_C01.docx
+      - ${vars.word_folder}/SM_NPQ_C02.docx
+      - ${vars.word_folder}/SM_NPQ_C03.docx
+      - ${vars.word_folder}/SM_NPQ_C04.docx
+      - ${vars.word_folder}/SM_NPQ_C05.docx
+
+  - name: combine_to_word_pretty
+    help: "Combine JSONL data into Word documents without images"
+    script:
+      - "python scripts/combine_to_word_pretty.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.word_pretty_folder}"
+    outputs:
+      - ${vars.word_pretty_folder}/SM_NPQ_C01.docx
+      - ${vars.word_pretty_folder}/SM_NPQ_C02.docx
+      - ${vars.word_pretty_folder}/SM_NPQ_C03.docx
+      - ${vars.word_pretty_folder}/SM_NPQ_C04.docx
+      - ${vars.word_pretty_folder}/SM_NPQ_C05.docx
+
+  - name: export_to_csv
+    help: "Export JSONL data to CSV"
+    script:
+      - "python scripts/export_to_csv.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.exported_data_folder}"
+    outputs:
+      - ${vars.exported_data_folder}/exported_data.csv
+
+  - name: export_to_excel
+    help: "Export JSONL data to Excel"
+    script:
+      - "python scripts/export_to_excel.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.exported_data_folder}"
+    outputs:
+      - ${vars.exported_data_folder}/exported_data.xlsx
+
+  - name: export_to_markdown
+    help: "Export JSONL data to Markdown files"
+    script:
+      - "python scripts/export_to_markdown.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.markdown_folder} ${vars.markdown_image_folder} ${vars.enhanced_image_folder}"
+    outputs:
+      - ${vars.markdown_folder}/
+
+  - name: export_to_html
+    help: "Export JSONL data to HTML files"
+    script:
+      - "python scripts/export_to_html.py ${vars.data_folder}/data_ner_fuzzy_cleaned.jsonl ${vars.html_folder} ${vars.html_image_folder} ${vars.enhanced_image_folder}"
+    outputs:
+      - ${vars.html_folder}/
+
+  - name: dataset
+    help: "Create a Hugging Face Dataset"
+    script:
+      - "python scripts/dataset.py ${vars.cleaned_folder} ${vars.dataset_name}"
+    outputs:
+      - ${vars.project_folder}/assets/dataset/metadata.jsonl
+
+  - name: publish
+    help: "Publish the project"
+    script:
+      - "python scripts/publish.py ${vars.split_image_folder} ${vars.split_image_folder}/data.jsonl _site"
+    outputs:
+      - _site/

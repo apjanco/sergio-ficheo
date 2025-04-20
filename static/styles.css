@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    height: 100vh; /* Full height */
+    width: 100vw; /* Full width */
+}
+
+.openseadragon {
+    flex: 0 0 75%; /* Fixed width of 75% */
+    padding: 0;
+    overflow: hidden;
+    position: fixed; /* Make the image fixed */
+    top: 0;
+    left: 0;
+    height: 100vh; /* Full height */
+    width: 75vw; /* Fixed width of 75% */
+    background-color: black; /* Black background */
+}
+
+.content {
+    flex: 1;
+    padding: 25px; /* Adjusted padding to 25px */
+    overflow-y: auto; /* Allow text to scroll */
+    height: 100vh; /* Full height */
+    width: 25vw; /* Fixed width of 25% */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    margin-left: 75vw; /* Move content to the right */
+}
+
+.openseadragon-container .navigator {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.openseadragon-container .navigator .viewport {
+    border: 1px solid #555;
+}
+
+.openseadragon-container .navigator .viewport .img {
+    border: none;
+}
+
+.openseadragon-container .navigator .viewport .img img {
+    width: 100%;
+    height: auto;
+}
+
+.openseadragon-container .navigator .viewport .img .openseadragon-canvas {
+    border: none;
+}
+
+.openseadragon-container .navigator .viewport .img .openseadragon-canvas canvas {
+    width: 100%;
+    height: auto;
+}
+
+/* Removed zoom and zoom-container styles */
