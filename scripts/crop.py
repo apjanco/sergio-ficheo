@@ -11,26 +11,14 @@ import srsly
 from PIL import ExifTags
 from ultralytics import YOLO
 import logging
+from typing import Dict, Any
 
 # Configure logging
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 # Load YOLOv8 model
 model = YOLO('yolov8x.pt')  # Using x model for better accuracy
-
-# Image processing functions specific to cropping
-def is_likely_ruler(w: int, h: int, max_ruler_aspect_ratio: float = 15, max_ruler_width_ratio: float = 0.05) -> bool:
-    """Check if the contour is likely a ruler based on its aspect ratio and width."""
-    aspect_ratio = max(w / h, h / w)
-    return aspect_ratio > max_ruler_aspect_ratio or w < max_ruler_width_ratio * h
-
-def is_predominantly_black(image: Image.Image, threshold: float = 0.70) -> bool:
-    """Check if the image is predominantly black."""
-    img_array = np.array(image.convert("L"))
-    black_pixels = np.sum(img_array < 100)  # Increased threshold from 50 to 100
-    total_pixels = img_array.size
-    return (black_pixels / total_pixels) > threshold
 
 def get_image_orientation(image_path: Path) -> tuple[str, int, dict]:
     """Get the true orientation of an image using EXIF data and required rotation angle.
@@ -101,169 +89,155 @@ def get_image_orientation(image_path: Path) -> tuple[str, int, dict]:
         details["reason"] = f"Error checking orientation: {str(e)}"
         return "unknown", 0, details
 
-def contour_crop(image: Image.Image, image_path: Path = None) -> tuple[Image.Image, dict]:
-    """Crop image using YOLOv8 document detection."""
-    details = {
-        "pre_processing": {},
-        "detection": {},
-        "final_crop": None
-    }
+def yolo_crop(image_path: str, output_path: str = None) -> Dict[str, Any]:
+    # Read the image with color profile preservation
+    img = cv2.imread(image_path)
+    if img is None:
+        raise ValueError(f"Could not read image at {image_path}")
     
-    # Get true orientation if image path is provided
-    true_orientation = None
-    rotation_angle = 0
-    if image_path:
-        true_orientation, rotation_angle, orientation_details = get_image_orientation(image_path)
-        details["orientation"] = orientation_details
-        logger.info(f"[Image] True orientation: {true_orientation}, Rotation needed: {rotation_angle}°")
+    # Convert BGR to RGB for PIL
+    img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    pil_img = Image.fromarray(img_rgb)
+    
+    # Preserve color profile if it exists
+    if 'icc_profile' in pil_img.info:
+        icc_profile = pil_img.info['icc_profile']
+    else:
+        icc_profile = None
+    
+    height, width = img.shape[:2]
+    
+    # Create a copy for debug visualization only if we'll need it
+    debug_img = None
+    
+    # Calculate edge strip dimensions (3% of image dimensions)
+    edge_strip_width = int(width * 0.03)
+    edge_strip_height = int(height * 0.03)
+    
+    # Run YOLO detection with lower confidence threshold
+    results = model(img, conf=0.1)[0]  # Lowered from 0.15
+    
+    # Convert detections to our format and filter
+    detections = []
+    for det in results.boxes.data.tolist():
+        x1, y1, x2, y2, score, class_id = det
+        x1, y1, x2, y2 = map(int, [x1, y1, x2, y2])
         
-        # Apply initial rotation if needed
-        if rotation_angle > 0:
-            image = image.rotate(rotation_angle, expand=True)
-            details["rotation_applied"] = rotation_angle
-    
-    # Convert image to numpy array for YOLO
-    img_array = np.array(image)
-    
-    # Get dimensions
-    height, width = img_array.shape[:2]
-    details["pre_processing"]["original_dimensions"] = {"width": width, "height": height}
-    
-    # Run YOLO detection with very low confidence threshold to catch all potential boxes
-    results = model(img_array, conf=0.001)
+        # Calculate area ratio
+        area_ratio = ((x2 - x1) * (y2 - y1)) / (width * height)
+        
+        # More lenient filtering criteria
+        # Minimum confidence threshold
+        if score < 0.15:  # Lowered from 0.2
+            logging.debug(f"Skipping detection due to low confidence: {score:.2f}")
+            continue
+            
+        # Area ratio checks - more lenient
+        if area_ratio < 0.02:  # Lowered from 0.03
+            logging.debug(f"Skipping detection due to small area ratio: {area_ratio:.2f}")
+            continue
+        if area_ratio > 0.98:  # Increased from 0.97
+            logging.debug(f"Skipping detection due to large area ratio: {area_ratio:.2f}")
+            continue
+            
+        # More lenient ruler detection
+        aspect_ratio = max((x2 - x1) / (y2 - y1), (y2 - y1) / (x2 - x1))
+        if aspect_ratio > 20.0:  # Increased from 15.0
+            logging.debug(f"Skipping detection due to extreme aspect ratio: {aspect_ratio:.2f}")
+            continue
+            
+        # More lenient edge detection for rulers
+        edge_margin = max(edge_strip_width, edge_strip_height)
+        is_at_edge = (x1 < edge_margin or 
+                     y1 < edge_margin or 
+                     x2 > (width - edge_margin) or 
+                     y2 > (height - edge_margin))
+        
+        if is_at_edge and (aspect_ratio > 10.0):  # More lenient filtering for edge objects
+            logging.debug(f"Skipping edge detection with high aspect ratio: edge={is_at_edge}, aspect_ratio={aspect_ratio:.2f}")
+            continue
+            
+        detections.append({
+            'box': [x1, y1, x2, y2],
+            'score': score,
+            'area_ratio': area_ratio
+        })
     
     # Process detections
-    if len(results) > 0 and len(results[0].boxes) > 0:
-        boxes = results[0].boxes
-        best_box = None
-        max_score = 0
+    if len(detections) > 0:
+        best_detection = max(detections, key=lambda x: x['score'])
+        x1, y1, x2, y2 = best_detection['box']
+        conf = best_detection['score']
         
-        logger.info(f"Found {len(boxes)} potential document detections")
+        logger.info(f"Selected best detection: score={conf:.2f}")
         
-        for box in boxes:
-            x1, y1, x2, y2 = box.xyxy[0].cpu().numpy()
-            box_width = x2 - x1
-            box_height = y2 - y1
-            area = box_width * box_height
-            conf = box.conf[0].cpu().numpy()
-            area_ratio = area / (width * height)
-            
-            # Skip tiny or huge detections
-            if area_ratio < 0.1 or area_ratio > 0.98:
-                continue
-                
-            # Calculate center position of the box
-            center_x = (x1 + x2) / 2
-            center_y = (y1 + y2) / 2
-            
-            # Calculate position scores (prefer boxes closer to center)
-            # More lenient on horizontal position to handle rulers
-            center_score_x = 1 - abs(center_x - width/2) / (width/2)
-            center_score_y = 1 - abs(center_y - height/2) / (height/2)
-            position_score = (center_score_x * 0.3 + center_score_y * 0.7)  # Weight vertical position more
-            
-            # Calculate aspect ratio score (prefer document-like aspect ratios)
-            aspect_ratio = box_width / box_height
-            # Prefer aspect ratios close to common document formats (A4, letter, etc.)
-            aspect_score = 1 - min(abs(aspect_ratio - 0.707), abs(aspect_ratio - 1.414))
-            
-            # Calculate box fill ratio (how much of the bounding box is filled)
-            # This helps identify solid rectangular shapes vs sparse detections
-            fill_ratio = area / (box_width * box_height)
-            fill_score = fill_ratio
-            
-            # Calculate size preference score
-            # Prefer larger boxes that don't touch the edges
-            edge_margin = 10  # pixels
-            touches_edge = (x1 <= edge_margin or y1 <= edge_margin or 
-                          x2 >= width - edge_margin or y2 >= height - edge_margin)
-            size_score = area_ratio * (0.8 if touches_edge else 1.0)
-            
-            # Calculate final score with adjusted weights
-            score = (
-                position_score * 0.35 +  # Heavily weight position
-                aspect_score * 0.25 +    # Document-like shape is important
-                size_score * 0.25 +      # Prefer larger detections
-                fill_score * 0.15        # Solid shapes preferred
-            )
-            
-            logger.info(f"Detection: area={area:.2f}, conf={conf:.2f}, area_ratio={area_ratio:.2f}, "
-                       f"position_score={position_score:.2f}, aspect_score={aspect_score:.2f}, "
-                       f"size_score={size_score:.2f}, fill_score={fill_score:.2f}, final_score={score:.2f}")
-            
-            if score > max_score:
-                max_score = score
-                best_box = box
+        # Add small padding to ensure we don't cut off edges
+        padding = int(min(width, height) * 0.01)  # 1% padding
+        x1 = max(0, x1 - padding)
+        y1 = max(0, y1 - padding)
+        x2 = min(width, x2 + padding)
+        y2 = min(height, y2 + padding)
         
-        if best_box is not None:
-            x1, y1, x2, y2 = best_box.xyxy[0].cpu().numpy()
-            conf = best_box.conf[0].cpu().numpy()
+        # Crop image
+        cropped = img[y1:y2, x1:x2]
+        cropped_rgb = cv2.cvtColor(cropped, cv2.COLOR_BGR2RGB)
+        cropped_image = Image.fromarray(cropped_rgb)
+        
+        # Restore color profile if it exists
+        if icc_profile:
+            cropped_image.info['icc_profile'] = icc_profile
+        
+        # Check if we need to rotate the crop
+        true_orientation, rotation_angle, _ = get_image_orientation(Path(image_path))
+        if true_orientation:
+            crop_orientation = "vertical" if cropped_image.size[1] > cropped_image.size[0] else "horizontal"
+            if true_orientation == "vertical" and crop_orientation == "horizontal":
+                logger.info("[Image] Rotating crop to match original orientation")
+                cropped_image = cropped_image.rotate(90, expand=True)
+        
+        details = {
+            'success': True,
+            'box': [x1, y1, x2, y2],
+            'confidence': conf,
+            'orientation': true_orientation,
+            'rotation_angle': rotation_angle,
+            'num_detections': len(detections)
+        }
+        
+        # Save the cropped image if output path is provided
+        if output_path:
+            # Convert output path to .jpg if it's not already
+            output_path = str(Path(output_path).with_suffix('.jpg'))
+            cropped_image.save(output_path, 'JPEG', quality=100, icc_profile=icc_profile)
             
-            logger.info(f"Selected best detection: score={max_score:.2f}, conf={conf:.2f}")
-            
-            # No padding to keep tight crops
-            x1 = max(0, int(x1))
-            y1 = max(0, int(y1))
-            x2 = min(width, int(x2))
-            y2 = min(height, int(y2))
-            
-            # Crop image
-            cropped = img_array[y1:y2, x1:x2]
-            cropped_image = Image.fromarray(cropped)
-            
-            # Check if we need to rotate the crop
-            if true_orientation:
-                crop_orientation = "vertical" if cropped_image.size[1] > cropped_image.size[0] else "horizontal"
-                if true_orientation == "vertical" and crop_orientation == "horizontal":
-                    logger.info("[Image] Rotating crop to match original orientation")
-                    cropped_image = cropped_image.rotate(90, expand=True)
-                    details["final_rotation"] = 90
-            
-            details["detection"] = {
-                "confidence": float(conf),
-                "coordinates": {
-                    "x1": int(x1),
-                    "y1": int(y1),
-                    "x2": int(x2),
-                    "y2": int(y2)
-                },
-                "dimensions": {
-                    "width": cropped_image.size[0],
-                    "height": cropped_image.size[1]
-                },
-                "area_ratio": (x2 - x1) * (y2 - y1) / (width * height),
-                "score_components": {
-                    "position_score": float(position_score),
-                    "aspect_score": float(aspect_score),
-                    "size_score": float(size_score),
-                    "fill_score": float(fill_score)
-                }
-            }
-            
-            details["final_crop"] = {
-                "coordinates": {
-                    "x": int(x1),
-                    "y": int(y1),
-                    "width": int(x2 - x1),
-                    "height": int(y2 - y1)
-                },
-                "dimensions": {
-                    "width": cropped_image.size[0],
-                    "height": cropped_image.size[1]
-                },
-                "area_ratio": (x2 - x1) * (y2 - y1) / (width * height)
-            }
-            
-            return cropped_image, details
+        return details
     else:
-        logger.warning("No document detections found")
-    
-    # If no detection found, return original image
-    details["final_crop"] = {
-        "status": "no_detection",
-        "reason": "No document detected by YOLO"
-    }
-    return image, details
+        # If no valid detections found, save the original image and debug visualization
+        logger.warning("No valid detections found, saving original image")
+        
+        # Create debug visualization
+        debug_img = img.copy()
+        for det in results.boxes.data.tolist():
+            x1, y1, x2, y2, score, class_id = det
+            x1, y1, x2, y2 = map(int, [x1, y1, x2, y2])
+            cv2.rectangle(debug_img, (x1, y1), (x2, y2), (0, 0, 255), 2)
+            cv2.putText(debug_img, f"{score:.2f}", (x1, y1-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 0, 255), 2)
+        
+        if output_path:
+            # Save original image
+            output_path = str(Path(output_path).with_suffix('.jpg'))
+            pil_img.save(output_path, 'JPEG', quality=100, icc_profile=icc_profile)
+            
+            # Save debug image in debug folder
+            debug_path = Path(output_path).parent.parent / "debug" / "crop" / f"{Path(output_path).stem}_debug.jpg"
+            debug_path.parent.mkdir(parents=True, exist_ok=True)
+            cv2.imwrite(str(debug_path), cv2.cvtColor(debug_img, cv2.COLOR_RGB2BGR))
+            
+        return {
+            'success': False,
+            'confidence': 0.0,
+            'num_detections': 0
+        }
 
 def process_image(file_path: Path, out_path: Path) -> dict:
     """Process a single image file"""
@@ -278,19 +252,16 @@ def process_image(file_path: Path, out_path: Path) -> dict:
     elif img.mode != 'RGB':
         img = img.convert('RGB')
     
-    # Crop and save as JPG
-    cropped, crop_details = contour_crop(img, file_path)
+    # Crop using YOLO detection
+    crop_details = yolo_crop(str(file_path), str(out_path))
     details.update(crop_details)
     
     # Print detailed JSON output
     print(srsly.json_dumps(details, indent=2))
     
-    # Ensure output path has .jpg extension
-    out_path = out_path.with_suffix('.jpg')
-    cropped.save(out_path, "JPEG", quality=100)
-    
+    # Add original size to details
     details["original_size"] = img.size
-    details["cropped_size"] = cropped.size
+    
     return {"details": details}
 
 def process_pdf(file_path: Path, out_path: Path) -> dict:
@@ -314,8 +285,12 @@ def process_pdf(file_path: Path, out_path: Path) -> dict:
     for i, image in enumerate(images):
         page_name = f"{out_path.stem}_page_{i + 1}.jpg"
         page_path = pdf_dir / page_name
-        cropped, crop_details = contour_crop(image)
-        cropped.save(page_path, "JPEG", quality=100)
+        
+        # Save the page temporarily
+        image.save(page_path, "JPEG", quality=100)
+        
+        # Process with YOLO
+        crop_details = yolo_crop(str(page_path), str(page_path))
         
         # Create relative path that matches actual file structure
         rel_path = str(rel_base.parent / rel_base.stem / page_name)
@@ -323,9 +298,9 @@ def process_pdf(file_path: Path, out_path: Path) -> dict:
         
         details[f"page_{i + 1}"] = {
             "original_size": image.size,
-            "cropped_size": cropped.size,
             "page_number": i + 1,
-            "total_pages": len(images)
+            "total_pages": len(images),
+            **crop_details
         }
         
         # Print manifest entry for this page (will be captured by BatchProcessor)
