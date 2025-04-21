@@ -19,24 +19,22 @@ vars:
   version: "0.0.0"
   
   # project_folder: "projects/sergio_notebooks" # Change this to run on different folders
-  project_folder: "/Users/dtubb/code/sergio-ficheo/projects/ghc_test"
+  project_folder: "/Users/dtubb/code/sergio-ficheo/projects/1948"
   documents_folder: "${vars.project_folder}/documents"
   assets_folder: "${vars.project_folder}/assets"
 
   # metadata
   documents_manifest_folder: "${vars.assets_folder}/manifests"
   documents_manifest: "${vars.assets_folder}/manifests/documents_manifest.jsonl"
+  word_manifest: "${vars.assets_folder}/word/convert_to_word_manifest.jsonl"
 
   # metadata
   metadata_file: "${vars.project_folder}/assets/Base_de_datos_Cuadernos_Sergio_Notaría_Primera_de_Quibdó_(1808-1825).xlsx"
     
   # crop
   crops_folder: "${vars.assets_folder}/crops"
-  crop_method: "enhanced"  # Options: basic, contour, enhanced, doctr
-  crop_background: "messy"  # Options: black, white, messy, colored
-  crop_edges: "complex"  # Options: straight, complex
-  crop_deskew: true  # Whether to deskew after cropping
-  crop_debug: false  # Whether to save debug images
+  crop_manifest: "${vars.documents_manifest}"  # Use the main documents manifest for cropping
+  crop_source_folder: "${vars.documents_folder}"  # Source folder for documents
   
   split_image_folder: "${vars.assets_folder}/splits"
   rotated_image_folder: "${vars.assets_folder}/rotated"
@@ -65,10 +63,6 @@ vars:
   split_manifest: "${vars.assets_folder}/splits/split_manifest.jsonl"
   segment_manifest: "${vars.segmented_image_folder}/segment_manifest.jsonl"  # Fix manifest paths
   transcription_manifest: "${vars.transcriptions_folder}/transcription_manifest.jsonl"  # Fix manifest paths
-
-base_path: projects/demo
-documents_folder: projects/demo/documents
-crops_folder: projects/demo/assets/crops
 
 directories: ["configs", "scripts","_site", "_templates", "pipelines", "packages", "${vars.assets_folder}", "${vars.crops_folder}", "${vars.documents_manifest_folder}"]
 
@@ -109,9 +103,9 @@ workflows:
     - rotate
     - enhance
     - remove_background
-    - segment  # Changed from chunk
+    - segment  
     - transcribe
-    - recombine_segments  # Changed from recombine_chunks
+    - recombine_segments  
     - fuzzy_clean
     - convert_to_word
 
@@ -238,14 +232,15 @@ commands:
       - ${vars.documents_manifest}
 
   - name: crop
-    help: "Crop images using document manifest with automatic multi-threading"
+    help: "Crop documents using computer vision techniques"
     script:
-      - "python scripts/crop.py ${vars.documents_folder} ${vars.documents_manifest} ${vars.crops_folder} --method ${vars.crop_method} --background ${vars.crop_background} --edges ${vars.crop_edges} --deskew ${vars.crop_deskew} --debug ${vars.crop_debug}"
+      - "python scripts/crop.py ${vars.documents_folder} ${vars.documents_manifest} ${vars.crops_folder}"
     outputs:
       - ${vars.crops_folder}
+      - ${vars.crops_folder}/crop_manifest.jsonl
 
   - name: check_crop_and_copy
-    help: "Copy missing crop files from original documents"
+    help: "Copy missing crop files from documents folder"
     script:
       - "python scripts/check_crop_and_copy.py ${vars.documents_folder} ${vars.crops_folder}"
     outputs:

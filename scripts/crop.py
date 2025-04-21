@@ -5,20 +5,29 @@ import numpy as np
 import cv2
 from pdf2image import convert_from_path
 from datetime import datetime
+import logging
+from typing import Dict, Any, Optional, Tuple
+import os
+import json
+import yaml
 from utils.batch import BatchProcessor
 from utils.processor import process_file
-import srsly
+from rich.console import Console
 from PIL import ExifTags
-from ultralytics import YOLO
-import logging
-from typing import Dict, Any
 
 # Configure logging
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger(__name__)
+console = Console()
 
-# Load YOLOv8 model
-model = YOLO('yolov8x.pt')  # Using x model for better accuracy
+# Load YOLO model
+try:
+    from ultralytics import YOLO
+    yolo_model = YOLO("models/yolov8s-fichero.pt")  # Keep original model
+    logger.info("Successfully loaded YOLO model")
+except Exception as e:
+    logger.error(f"Failed to load YOLO model: {e}")
+    raise
 
 def get_image_orientation(image_path: Path) -> tuple[str, int, dict]:
     """Get the true orientation of an image using EXIF data and required rotation angle.
@@ -89,283 +98,320 @@ def get_image_orientation(image_path: Path) -> tuple[str, int, dict]:
         details["reason"] = f"Error checking orientation: {str(e)}"
         return "unknown", 0, details
 
-def yolo_crop(image_path: str, output_path: str = None) -> Dict[str, Any]:
-    # Read the image with color profile preservation
-    img = cv2.imread(image_path)
-    if img is None:
-        raise ValueError(f"Could not read image at {image_path}")
-    
-    # Convert BGR to RGB for PIL
-    img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-    pil_img = Image.fromarray(img_rgb)
-    
-    # Preserve color profile if it exists
-    if 'icc_profile' in pil_img.info:
-        icc_profile = pil_img.info['icc_profile']
-    else:
-        icc_profile = None
-    
-    height, width = img.shape[:2]
-    
-    # Create a copy for debug visualization only if we'll need it
-    debug_img = None
-    
-    # Calculate edge strip dimensions (3% of image dimensions)
-    edge_strip_width = int(width * 0.03)
-    edge_strip_height = int(height * 0.03)
-    
-    # Run YOLO detection with lower confidence threshold
-    results = model(img, conf=0.1)[0]  # Lowered from 0.15
-    
-    # Convert detections to our format and filter
-    detections = []
-    for det in results.boxes.data.tolist():
-        x1, y1, x2, y2, score, class_id = det
-        x1, y1, x2, y2 = map(int, [x1, y1, x2, y2])
+def crop_with_yolo(image_path: Path, output_folder: Path, conf_threshold: float = 0.35) -> Optional[Tuple[Image.Image, Dict[str, Any]]]:
+    """Crop image using YOLOv8 model
+    Returns tuple of (cropped_image, crop_info) where crop_info contains box coordinates and confidence"""
+    try:
+        # Get true orientation and required rotation
+        true_orientation, rotation_angle, orientation_details = get_image_orientation(image_path)
         
-        # Calculate area ratio
-        area_ratio = ((x2 - x1) * (y2 - y1)) / (width * height)
+        # Read original image and convert to PIL
+        original_pil = Image.open(image_path)
+        orig_width, orig_height = original_pil.size
         
-        # More lenient filtering criteria
-        # Minimum confidence threshold
-        if score < 0.15:  # Lowered from 0.2
-            logging.debug(f"Skipping detection due to low confidence: {score:.2f}")
-            continue
+        # Apply rotation if needed
+        if rotation_angle > 0:
+            original_pil = original_pil.rotate(rotation_angle, expand=True)
+            # Update dimensions after rotation
+            orig_width, orig_height = original_pil.size
+        
+        # Convert to numpy array for YOLO
+        original_img = cv2.cvtColor(np.array(original_pil), cv2.COLOR_RGB2BGR)
+        
+        # Resize image for model prediction while maintaining aspect ratio and stride requirement
+        model_size = 640
+        scale = min(model_size / orig_width, model_size / orig_height)
+        model_width = int(orig_width * scale)
+        model_height = int(orig_height * scale)
+        
+        # Ensure dimensions are multiples of 32 (YOLO stride requirement)
+        model_width = ((model_width + 31) // 32) * 32
+        model_height = ((model_height + 31) // 32) * 32
+        
+        model_img = cv2.resize(original_img, (model_width, model_height))
+        
+        # Run prediction with optimized settings
+        results = yolo_model.predict(
+            source=model_img,
+            conf=conf_threshold,
+            imgsz=(model_width, model_height),
+            iou=0.45,
+            verbose=False
+        )[0]
+        
+        if not results.boxes:
+            logger.warning("No detections found")
+            return None
             
-        # Area ratio checks - more lenient
-        if area_ratio < 0.02:  # Lowered from 0.03
-            logging.debug(f"Skipping detection due to small area ratio: {area_ratio:.2f}")
-            continue
-        if area_ratio > 0.98:  # Increased from 0.97
-            logging.debug(f"Skipping detection due to large area ratio: {area_ratio:.2f}")
-            continue
-            
-        # More lenient ruler detection
-        aspect_ratio = max((x2 - x1) / (y2 - y1), (y2 - y1) / (x2 - x1))
-        if aspect_ratio > 20.0:  # Increased from 15.0
-            logging.debug(f"Skipping detection due to extreme aspect ratio: {aspect_ratio:.2f}")
-            continue
-            
-        # More lenient edge detection for rulers
-        edge_margin = max(edge_strip_width, edge_strip_height)
-        is_at_edge = (x1 < edge_margin or 
-                     y1 < edge_margin or 
-                     x2 > (width - edge_margin) or 
-                     y2 > (height - edge_margin))
+        # Get the best detection (highest confidence)
+        box = max(results.boxes.data, key=lambda x: x[4])
+        x1, y1, x2, y2, conf = map(float, box[:5])
         
-        if is_at_edge and (aspect_ratio > 10.0):  # More lenient filtering for edge objects
-            logging.debug(f"Skipping edge detection with high aspect ratio: edge={is_at_edge}, aspect_ratio={aspect_ratio:.2f}")
-            continue
-            
-        detections.append({
-            'box': [x1, y1, x2, y2],
-            'score': score,
-            'area_ratio': area_ratio
-        })
-    
-    # Process detections
-    if len(detections) > 0:
-        best_detection = max(detections, key=lambda x: x['score'])
-        x1, y1, x2, y2 = best_detection['box']
-        conf = best_detection['score']
+        # Scale coordinates back to original image size
+        x1 = int(x1 / scale)
+        y1 = int(y1 / scale)
+        x2 = int(x2 / scale)
+        y2 = int(y2 / scale)
         
-        logger.info(f"Selected best detection: score={conf:.2f}")
+        # Apply padding only on left and bottom
+        padding = 30
+        x1 = max(0, x1 - padding)  # Add padding to left
+        y1 = max(0, y1 - padding)  # Add padding to top
+        x2 = min(orig_width, x2)   # No padding on right
+        y2 = min(orig_height, y2 + padding)  # Add padding to bottom
         
-        # Add small padding to ensure we don't cut off edges
-        padding = int(min(width, height) * 0.01)  # 1% padding
-        x1 = max(0, x1 - padding)
-        y1 = max(0, y1 - padding)
-        x2 = min(width, x2 + padding)
-        y2 = min(height, y2 + padding)
+        # Crop original image at full resolution
+        cropped = original_img[y1:y2, x1:x2]
         
-        # Crop image
-        cropped = img[y1:y2, x1:x2]
-        cropped_rgb = cv2.cvtColor(cropped, cv2.COLOR_BGR2RGB)
-        cropped_image = Image.fromarray(cropped_rgb)
+        # Convert to PIL Image and preserve EXIF
+        result = Image.fromarray(cv2.cvtColor(cropped, cv2.COLOR_BGR2RGB))
         
-        # Restore color profile if it exists
-        if icc_profile:
-            cropped_image.info['icc_profile'] = icc_profile
+        # Try to preserve EXIF data from original image
+        try:
+            if hasattr(original_pil, '_getexif'):
+                exif = original_pil._getexif()
+                if exif is not None:
+                    result.info['exif'] = exif
+        except Exception as e:
+            logger.warning(f"Could not preserve EXIF data: {e}")
         
-        # Check if we need to rotate the crop
-        true_orientation, rotation_angle, _ = get_image_orientation(Path(image_path))
-        if true_orientation:
-            crop_orientation = "vertical" if cropped_image.size[1] > cropped_image.size[0] else "horizontal"
-            if true_orientation == "vertical" and crop_orientation == "horizontal":
-                logger.info("[Image] Rotating crop to match original orientation")
-                cropped_image = cropped_image.rotate(90, expand=True)
-        
-        details = {
-            'success': True,
-            'box': [x1, y1, x2, y2],
-            'confidence': conf,
-            'orientation': true_orientation,
-            'rotation_angle': rotation_angle,
-            'num_detections': len(detections)
+        # Create crop info dictionary
+        crop_info = {
+            "box": {
+                "x1": x1,
+                "y1": y1,
+                "x2": x2,
+                "y2": y2
+            },
+            "confidence": float(conf),
+            "method": "yolo",
+            "padding": padding,
+            "original_size": [orig_width, orig_height],
+            "cropped_size": [x2 - x1, y2 - y1]
         }
+            
+        return result, crop_info
+    except Exception as e:
+        logger.error(f"YOLO cropping failed: {e}")
+        return None
+
+def detect_with_contours(image_path: Path) -> Optional[Image.Image]:
+    """Try to detect document using contour detection"""
+    try:
+        # Read image
+        img = cv2.imread(str(image_path))
+        if img is None:
+            return None
+            
+        # Convert to grayscale
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         
-        # Save the cropped image if output path is provided
-        if output_path:
-            # Convert output path to .jpg if it's not already
-            output_path = str(Path(output_path).with_suffix('.jpg'))
-            cropped_image.save(output_path, 'JPEG', quality=100, icc_profile=icc_profile)
-            
-        return details
-    else:
-        # If no valid detections found, save the original image and debug visualization
-        logger.warning("No valid detections found, saving original image")
+        # Apply threshold
+        _, thresh = cv2.threshold(gray, 150, 255, cv2.THRESH_BINARY)
         
-        # Create debug visualization
-        debug_img = img.copy()
-        for det in results.boxes.data.tolist():
-            x1, y1, x2, y2, score, class_id = det
-            x1, y1, x2, y2 = map(int, [x1, y1, x2, y2])
-            # Draw all detections in blue
-            cv2.rectangle(debug_img, (x1, y1), (x2, y2), (255, 0, 0), 2)
-            cv2.putText(debug_img, f"{score:.2f}", (x1, y1-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 0, 0), 2)
-            
-            # Draw filtered detections in red
-            if score >= 0.15 and ((x2 - x1) * (y2 - y1)) / (width * height) >= 0.02:
-                cv2.rectangle(debug_img, (x1, y1), (x2, y2), (0, 0, 255), 2)
-                cv2.putText(debug_img, f"{score:.2f}", (x1, y1-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 0, 255), 2)
+        # Find contours
+        contours, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         
-        if output_path:
-            # Save original image
-            output_path = str(Path(output_path).with_suffix('.jpg'))
-            pil_img.save(output_path, 'JPEG', quality=100, icc_profile=icc_profile)
+        if not contours:
+            return None
             
-            # Save debug image in debug folder
-            debug_path = Path(output_path).parent.parent / "debug" / "crop" / f"{Path(output_path).stem}_debug.jpg"
-            debug_path.parent.mkdir(parents=True, exist_ok=True)
-            cv2.imwrite(str(debug_path), cv2.cvtColor(debug_img, cv2.COLOR_RGB2BGR))
-            
-        return {
-            'success': False,
-            'confidence': 0.0,
-            'num_detections': 0
-        }
+        # Get the largest contour
+        largest_contour = max(contours, key=cv2.contourArea)
+        x, y, w, h = cv2.boundingRect(largest_contour)
+        
+        # Add padding
+        padding = 30
+        x = max(0, x - padding)
+        y = max(0, y - padding)
+        w = min(img.shape[1] - x, w + padding)
+        h = min(img.shape[0] - y, h + padding)
+        
+        # Crop the image
+        cropped = img[y:y+h, x:x+w]
+        
+        # Convert to PIL Image
+        return Image.fromarray(cv2.cvtColor(cropped, cv2.COLOR_BGR2RGB))
+    except Exception as e:
+        logger.warning(f"Contour detection failed: {e}")
+        return None
 
 def process_image(file_path: Path, out_path: Path) -> dict:
     """Process a single image file"""
-    details = {}
+    # Get source folder structure from input path
+    source_dir = Path(file_path).parts[1:]  # Skip the first part (documents)
     
-    # Convert any image format to RGB
-    img = Image.open(file_path)
-    if img.mode in ('RGBA', 'LA'):
-        background = Image.new('RGB', img.size, 'white')
-        background.paste(img, mask=img.split()[-1])
-        img = background
-    elif img.mode != 'RGB':
-        img = img.convert('RGB')
+    # Verify file exists and is readable
+    if not file_path.exists():
+        logger.error(f"File does not exist: {file_path}")
+        return {"success": False, "error": "File not found"}
     
-    # Crop using YOLO detection
-    crop_details = yolo_crop(str(file_path), str(out_path))
-    details.update(crop_details)
+    try:
+        # Try to open the image to verify it's readable
+        with Image.open(file_path) as img:
+            logger.debug(f"Successfully opened image: {file_path.name} (format: {img.format})")
+    except Exception as e:
+        logger.error(f"Failed to open image {file_path.name}: {e}")
+        return {"success": False, "error": f"Failed to open image: {e}"}
     
-    # Print detailed JSON output
-    print(srsly.json_dumps(details, indent=2))
+    attempts = []
     
-    # Add original size to details
-    details["original_size"] = img.size
+    # Try YOLO with original confidence threshold
+    logger.debug(f"Attempting YOLO detection with confidence 0.35 for {file_path.name}")
+    result = crop_with_yolo(file_path, out_path.parent, conf_threshold=0.35)
+    attempts.append({
+        "method": "yolo",
+        "confidence": 0.35,
+        "success": bool(result)
+    })
     
-    return {"details": details}
+    # If YOLO fails, try with lower confidence
+    if not result:
+        logger.debug(f"Attempting YOLO detection with confidence 0.15 for {file_path.name}")
+        result = crop_with_yolo(file_path, out_path.parent, conf_threshold=0.15)
+        attempts.append({
+            "method": "yolo",
+            "confidence": 0.15,
+            "success": bool(result)
+        })
+    
+    # If YOLO still fails, try contour detection
+    if not result:
+        logger.debug(f"Attempting contour detection for {file_path.name}")
+        result = detect_with_contours(file_path)
+        attempts.append({
+            "method": "contour",
+            "success": bool(result)
+        })
+        if result:
+            # For contour detection, create a simplified crop info
+            crop_info = {
+                "method": "contour",
+                "original_size": list(Image.open(file_path).size),
+                "cropped_size": list(result.size)
+            }
+            result = (result, crop_info)
+    
+    # If all detection methods fail, use original image
+    if not result:
+        logger.warning(f"Using original image as fallback for {file_path.name}")
+        original = Image.open(file_path)
+        crop_info = {
+            "method": "original",
+            "original_size": list(original.size),
+            "cropped_size": list(original.size)
+        }
+        result = (original, crop_info)
+        attempts.append({
+            "method": "original",
+            "success": True
+        })
+    
+    # Convert to JPG if needed
+    image, crop_info = result
+    if image.format != 'JPEG':
+        logger.debug(f"Converting {file_path.name} from {image.format} to JPEG")
+        image = image.convert('RGB')
+    
+    # Save the result as JPG with lowercase extension
+    out_path = out_path.with_suffix('.jpg')
+    image.save(out_path, 'JPEG', quality=95)
+    logger.debug(f"Saved cropped image to {out_path}")
+    
+    # Build output path preserving full source hierarchy
+    # Use the same directory structure but with lowercase .jpg extension
+    rel_path = Path(*source_dir[:-1]) / out_path.with_suffix('.jpg').name
+    
+    # Add attempts to the crop info
+    crop_info["attempts"] = attempts
+    
+    return {
+        "outputs": [str(rel_path)],
+        "details": crop_info  # Include the crop info in the details
+    }
 
 def process_pdf(file_path: Path, out_path: Path) -> dict:
     """Process a PDF file"""
-    outputs = []
-    details = {}
+    # Get source folder structure from input path
+    source_dir = Path(file_path).parts[-4:-1]
     
     # Convert and process each page
     images = convert_from_path(file_path, dpi=300)
+    outputs = []
+    details = {}
     
     # Create directory for PDF pages
     pdf_dir = out_path.parent / f"{out_path.stem}"
     pdf_dir.mkdir(parents=True, exist_ok=True)
     
-    # Get the relative path from the base directory
-    rel_base = out_path.relative_to(out_path.parents[1])
-    
-    # Get relative source path
-    source_path = Path(file_path).relative_to(Path(file_path).parents[2])  # Remove /documents from path
-    
     for i, image in enumerate(images):
-        page_name = f"{out_path.stem}_page_{i + 1}.jpg"
-        page_path = pdf_dir / page_name
-        
-        # Save the page temporarily
-        image.save(page_path, "JPEG", quality=100)
+        logger.info(f"Processing page {i+1} of {len(images)} from {file_path.name}")
+        # Save original page as JPG
+        page_path = pdf_dir / f"page_{i + 1}.jpg"
+        image.save(page_path, "JPEG", quality=95)
         
         # Process with YOLO
-        crop_details = yolo_crop(str(page_path), str(page_path))
+        result = crop_with_yolo(page_path, pdf_dir, conf_threshold=0.35)
         
-        # Create relative path that matches actual file structure
-        rel_path = str(rel_base.parent / rel_base.stem / page_name)
-        outputs.append(rel_path)
-        
-        details[f"page_{i + 1}"] = {
-            "original_size": image.size,
-            "page_number": i + 1,
-            "total_pages": len(images),
-            **crop_details
-        }
-        
-        # Print manifest entry for this page (will be captured by BatchProcessor)
-        print(srsly.json_dumps({
-            "source": str(source_path),
-            "outputs": [rel_path],
-            "processed_at": datetime.now().isoformat(),
-            "success": True,
-            "details": details[f"page_{i + 1}"]
-        }))
+        if result:
+            # Save cropped page as JPG
+            cropped_path = pdf_dir / f"page_{i + 1}_cropped.jpg"
+            result[0].save(cropped_path, "JPEG", quality=95)
+            
+            # Build relative path preserving hierarchy
+            rel_path = Path(*source_dir) / f"{out_path.stem}" / f"page_{i + 1}_cropped.jpg"
+            outputs.append(str(rel_path))
+            
+            details[f"page_{i + 1}"] = result[1]  # Include the crop info
+        else:
+            details[f"page_{i + 1}"] = {
+                "success": False,
+                "error": "No detection",
+                "original_size": list(image.size),
+                "attempts": [{
+                    "method": "yolo",
+                    "confidence": 0.35,
+                    "success": False
+                }]
+            }
     
-    # Return None since we handled the output directly
-    return None
+    return {
+        "outputs": outputs,
+        "details": details
+    }
 
-def process_document(file_path: str, output_folder: Path, method: str = 'enhanced',
-                    background: str = 'messy', edges: str = 'complex',
-                    deskew: bool = True, debug: bool = False) -> dict:
+def process_document(file_path: str, output_folder: Path) -> dict:
     """Process a single document file"""
     file_path = Path(file_path)
     
-    supported_types = {
-        '.pdf': process_pdf,
-        '.jpg': process_image,
-        '.jpeg': process_image,
-        '.tif': process_image,
-        '.tiff': process_image,
-        '.png': process_image
-    }
+    def process_fn(f: str, o: Path) -> dict:
+        return process_image(Path(f), o)
     
-    # All processing through process_file
     return process_file(
         file_path=str(file_path),
         output_folder=output_folder,
-        process_fn=lambda f, o: process_pdf(f, o) if file_path.suffix.lower() == '.pdf' else process_image(f, o),
-        file_types=supported_types
+        process_fn=process_fn,
+        file_types={
+            '.pdf': lambda f, o: process_pdf(Path(f), o),
+            '.jpg': process_fn,
+            '.jpeg': process_fn,
+            '.tif': process_fn,
+            '.tiff': process_fn,
+            '.png': process_fn
+        }
     )
 
 def crop(
-    documents_folder: Path = typer.Argument(..., help="Input documents folder"),
-    documents_manifest: Path = typer.Argument(..., help="Input documents manifest file"),
-    crops_folder: Path = typer.Argument(..., help="Output folder for cropped images"),
-    method: str = typer.Option('enhanced', help="Cropping method: basic, contour, enhanced, or doctr"),
-    background: str = typer.Option('white', help="Background type: black, white, messy, or colored"),
-    edges: str = typer.Option('straight', help="Edge type: straight or complex"),
-    deskew: str = typer.Option('false', help="Apply deskew after cropping"),
-    debug: str = typer.Option('false', help="Save debug images")
+    source_folder: Path = typer.Argument(..., help="Source folder containing documents"),
+    source_manifest: Path = typer.Argument(..., help="Manifest file"),
+    output_folder: Path = typer.Argument(..., help="Output folder for cropped images")
 ):
-    """Crop images from documents"""
-    # Convert string boolean parameters to actual booleans
-    deskew_bool = deskew.lower() == 'true'
-    debug_bool = debug.lower() == 'true'
-    
+    """Crop images from documents using YOLO detection"""
     processor = BatchProcessor(
-        input_manifest=documents_manifest,
-        output_folder=crops_folder,
+        input_manifest=source_manifest,
+        output_folder=output_folder,
         process_name="crop",
-        processor_fn=lambda f, o: process_document(f, o),
-        base_folder=documents_folder,
-        use_source=True
+        base_folder=source_folder,  # Paths in manifest already include documents/
+        processor_fn=lambda f, o: process_document(f, o)
     )
     processor.process()
 
