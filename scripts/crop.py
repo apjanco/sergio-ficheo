@@ -220,8 +220,14 @@ def yolo_crop(image_path: str, output_path: str = None) -> Dict[str, Any]:
         for det in results.boxes.data.tolist():
             x1, y1, x2, y2, score, class_id = det
             x1, y1, x2, y2 = map(int, [x1, y1, x2, y2])
-            cv2.rectangle(debug_img, (x1, y1), (x2, y2), (0, 0, 255), 2)
-            cv2.putText(debug_img, f"{score:.2f}", (x1, y1-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 0, 255), 2)
+            # Draw all detections in blue
+            cv2.rectangle(debug_img, (x1, y1), (x2, y2), (255, 0, 0), 2)
+            cv2.putText(debug_img, f"{score:.2f}", (x1, y1-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 0, 0), 2)
+            
+            # Draw filtered detections in red
+            if score >= 0.15 and ((x2 - x1) * (y2 - y1)) / (width * height) >= 0.02:
+                cv2.rectangle(debug_img, (x1, y1), (x2, y2), (0, 0, 255), 2)
+                cv2.putText(debug_img, f"{score:.2f}", (x1, y1-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 0, 255), 2)
         
         if output_path:
             # Save original image
